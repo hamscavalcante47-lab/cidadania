@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alertas · Cidadania</title>
+<meta name="description" content="Gastos da cota parlamentar dos deputados federais, com alertas de inconsistência e links para cada nota fiscal.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body data-pagina="alertas">
+<header class="topo"><div class="cont">
+  <a class="marca" href="index.html">Cidadania</a>
+  <nav aria-label="Principal"><a href="index.html">Mapa</a><a href="alertas.html" aria-current="page">Alertas</a><a href="metodologia.html">Como funciona</a></nav>
+</div></header>
+<main><div class="cont">
+
+<section class="abertura">
+  <h1>Alertas</h1>
+  <p class="lead">Despesas que as regras automáticas apontaram para explicação. Comece pelos de gravidade alta e confira sempre a nota original.</p>
+</section>
+<div class="cartao">
+  <div class="lista-topo">
+    <div class="filtros" style="margin-top:0">
+      <label class="vh" for="f-busca">Buscar</label><input id="f-busca" type="search" placeholder="Fornecedor, deputado ou partido">
+      <label class="vh" for="f-grav">Gravidade</label>
+      <select id="f-grav"><option value="3">Só gravidade alta</option><option value="2">Média e alta</option><option value="">Todas</option></select>
+      <label class="vh" for="f-regra">Tipo de alerta</label><select id="f-regra"><option value="">Todos os tipos</option></select>
+      <label class="vh" for="f-uf">Estado</label><select id="f-uf"><option value="">Todos os estados</option></select>
+    </div>
+    <p class="resumo" id="contagem"></p>
+  </div>
+  <div id="lista-alertas" aria-live="polite"></div>
+  <button type="button" class="mais" id="mais" hidden>Mostrar mais</button>
+</div>
+
+</div></main>
+<footer class="rodape"><div class="cont">
+  <p>Dados da Câmara dos Deputados (cota parlamentar e documentos fiscais), da Receita Federal (cadastro de CNPJ) e do TSE (contas de campanha). Atualizado em 26/10/2026.</p>
+  <p>Alertas são indícios apontados por regras automáticas, não acusações. <a href="metodologia.html">Veja como funciona</a> e como pedir correção.</p>
+</div></footer>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

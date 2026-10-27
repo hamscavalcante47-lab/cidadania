@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Como funciona · Cidadania</title>
+<meta name="description" content="Gastos da cota parlamentar dos deputados federais, com alertas de inconsistência e links para cada nota fiscal.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body data-pagina="metodologia">
+<header class="topo"><div class="cont">
+  <a class="marca" href="index.html">Cidadania</a>
+  <nav aria-label="Principal"><a href="index.html">Mapa</a><a href="alertas.html">Alertas</a><a href="metodologia.html" aria-current="page">Como funciona</a></nav>
+</div></header>
+<main><div class="cont">
+
+<section class="abertura prosa">
+  <h1>Como funciona</h1>
+  <p class="lead">Explicamos de onde vêm os dados, como os alertas são gerados e o que eles significam, e o que não significam.</p>
+
+  <h2>O que é a cota parlamentar</h2>
+  <p>A Cota para o Exercício da Atividade Parlamentar (CEAP) reembolsa gastos dos deputados com o mandato: escritório,
+  divulgação, combustível, passagens, alimentação, hospedagem e outros. As regras estão no Ato da Mesa nº 43/2009.
+  Cada reembolso exige um documento fiscal, que a Câmara publica.</p>
+
+  <h2>De onde vêm os dados</h2>
+  <ul>
+    <li><strong>Câmara dos Deputados:</strong> as 779.963 despesas da legislatura iniciada em 2023, com o documento de cada uma.</li>
+    <li><strong>Documentos fiscais:</strong> lemos a chave de acesso das notas eletrônicas, o texto dos PDFs e, nas notas escaneadas, usamos leitura óptica (OCR).</li>
+    <li><strong>Receita Federal:</strong> situação, data de abertura, atividade e sócios de cada empresa fornecedora.</li>
+    <li><strong>TSE:</strong> doações recebidas e fornecedores contratados nas campanhas de 2022.</li>
+  </ul>
+
+  <h2>Regras de alerta</h2>
+  <p>Cada regra procura um padrão que costuma aparecer em irregularidades já comprovadas, mas que também pode ter
+  explicação legítima. A gravidade indica o quanto o padrão, sozinho, pede explicação.</p>
+</section>
+<div class="cartao rolagem"><table><tr><th>Regra</th><th>Gravidade</th><th class="n">Alertas</th></tr><tr><td><strong>Chave de acesso da nota com dígito verificador errado</strong><br>A chave de 44 dígitos da NF-e/NFC-e não passa na conferência do dígito verificador. Toda nota emitida pela Sefaz tem chave válida: uma chave inválida indica documento adulterado ou forjado.</td><td><span class='pill g3'>Alta</span></td><td class='n'>0</td></tr><tr><td><strong>Dados da chave de acesso não batem com a despesa declarada</strong><br>A chave de acesso da NF-e/NFC-e informa o CNPJ do emissor, o mês de emissão e o número da nota. Algum desses dados é diferente do que o gabinete declarou à Câmara.</td><td><span class='pill g3'>Alta</span></td><td class='n'>0</td></tr><tr><td><strong>Mesma nota reembolsada mais de uma vez</strong><br>Duas ou mais despesas com o mesmo fornecedor, mesmo número de nota, mesmo valor e mesma data de emissão. Pode indicar reembolso em dobro, ou a mesma nota apresentada por dois gabinetes. Passagens e telefonia ficam de fora porque usam números de fatura compartilhados.</td><td><span class='pill g3'>Alta</span></td><td class='n'>513</td></tr><tr><td><strong>Mesmo documento usado em despesas diferentes</strong><br>O mesmo arquivo de nota (idêntico byte a byte) ou a mesma chave de acesso aparece em mais de um reembolso, com identificadores de documento diferentes na Câmara. É o mesmo comprovante sendo usado duas vezes.</td><td><span class='pill g3'>Alta</span></td><td class='n'>0</td></tr><tr><td><strong>Nota emitida por empresa baixada, inapta ou suspensa</strong><br>Na data da nota, a empresa já não estava ativa na Receita Federal (baixada, inapta, suspensa ou nula). Empresa nessa situação não pode emitir nota fiscal válida.</td><td><span class='pill g3'>Alta</span></td><td class='n'>20</td></tr><tr><td><strong>O próprio parlamentar é sócio ou é o fornecedor</strong><br>O CPF do fornecedor é o do parlamentar, ou um sócio da empresa tem o mesmo nome civil e os mesmos dígitos de CPF que a Receita divulga. A cota não pode pagar empresa do próprio deputado.</td><td><span class='pill g3'>Alta</span></td><td class='n'>0</td></tr><tr><td><strong>Atividade da empresa não combina com o gasto</strong><br>Nenhuma das atividades registradas na Receita (CNAE principal ou secundários) é compatível com o tipo de despesa. Exemplo: consultoria em gestão recebendo por locação de veículos.</td><td><span class='pill g2'>Média</span></td><td class='n'>60</td></tr><tr><td><strong>CNPJ do documento não é o do fornecedor declarado</strong><br>O documento traz CNPJs válidos, mas nenhum deles é do fornecedor que o gabinete declarou (nem de uma filial dele). O comprovante pode ser de outra empresa.</td><td><span class='pill g2'>Média</span></td><td class='n'>0</td></tr><tr><td><strong>CNPJ/CPF do fornecedor com dígito verificador inválido</strong><br>O número de CNPJ ou CPF informado para o fornecedor não passa na conferência dos dígitos verificadores. Pode ser erro de digitação, mas também nota de empresa inexistente.</td><td><span class='pill g2'>Média</span></td><td class='n'>0</td></tr><tr><td><strong>Doador da campanha recebendo da cota</strong><br>O fornecedor pago pela cota (ou um sócio da empresa) doou dinheiro para a campanha do deputado. Doação seguida de contrato pago com dinheiro público é um padrão clássico de troca de favores.</td><td><span class='pill g2'>Média</span></td><td class='n'>31</td></tr><tr><td><strong>Empresa aberta pouco antes de receber</strong><br>A empresa foi aberta menos de 180 dias antes da primeira nota emitida para o gabinete, e recebeu R$ 5 mil ou mais. Empresas criadas às vésperas do contrato merecem verificação.</td><td><span class='pill g2'>Média</span></td><td class='n'>573</td></tr><tr><td><strong>Fornecedores diferentes com o mesmo dono</strong><br>O gabinete paga duas ou mais empresas diferentes (CNPJs de raiz diferente) que têm um sócio em comum, somando R$ 20 mil ou mais. Pode ser fracionamento de contrato ou empresas de fachada do mesmo grupo.</td><td><span class='pill g2'>Média</span></td><td class='n'>190</td></tr><tr><td><strong>MEI recebendo mais que o limite anual</strong><br>A empresa é MEI, que só pode faturar até R$ 81.000,00 por ano, mas recebeu mais do que isso só da cota parlamentar num único ano. Ou a empresa está irregular, ou o valor não confere.</td><td><span class='pill g2'>Média</span></td><td class='n'>21</td></tr><tr><td><strong>Nota apresentada fora do prazo</strong><br>A nota foi emitida mais de 90 dias antes do mês em que foi reembolsada. As regras da cota (Ato da Mesa nº 43/2009) dão 90 dias para apresentar o documento.</td><td><span class='pill g2'>Média</span></td><td class='n'>12</td></tr><tr><td><strong>Notas com numeração quase seguida</strong><br>Ao longo de vários meses, as notas do fornecedor para o gabinete têm números muito próximos (por exemplo 101, 102, 104, 105). Isso indica que a empresa quase não emite notas para outros clientes, ou seja, depende do gabinete, ou que as notas foram emitidas em bloco.</td><td><span class='pill g2'>Média</span></td><td class='n'>1.037</td></tr><tr><td><strong>Valor declarado maior que o da nota</strong><br>O valor declarado à Câmara é maior que qualquer valor escrito no documento. Pode ser erro de leitura (OCR) do documento escaneado, mas também valor inflado em relação ao comprovante.</td><td><span class='pill g2'>Média</span></td><td class='n'>3</td></tr><tr><td><strong>Data do documento diferente da declarada</strong><br>As datas escritas no documento estão todas a mais de 30 dias da data de emissão declarada à Câmara. Pode ser erro de leitura, ou nota de outro período.</td><td><span class='pill g1'>Baixa</span></td><td class='n'>1</td></tr><tr><td><strong>Empresa minúscula com contrato grande</strong><br>A empresa tem capital social de até R$ 10 mil e recebeu R$ 200 mil ou mais do gabinete. Não é irregular por si, mas é comum em empresas sem estrutura real para prestar o serviço.</td><td><span class='pill g1'>Baixa</span></td><td class='n'>153</td></tr><tr><td><strong>Fornecedor da campanha pago com a cota</strong><br>A empresa foi contratada na campanha eleitoral do deputado e depois passou a receber da cota parlamentar (R$ 20 mil ou mais). É comum com agências de comunicação, mas também é o caminho para pagar com dinheiro público dívidas ou favores de campanha. Fornecedores grandes, usados por mais de cinco gabinetes, ficam de fora.</td><td><span class='pill g1'>Baixa</span></td><td class='n'>736</td></tr><tr><td><strong>Fornecedor que só atende um gabinete</strong><br>A empresa recebeu R$ 100 mil ou mais na legislatura e nenhum outro deputado usou seus serviços. É comum em fornecedores locais, mas também é o padrão de empresas de fachada criadas para um único gabinete.</td><td><span class='pill g1'>Baixa</span></td><td class='n'>882</td></tr><tr><td><strong>Gabinete entre os primeiros clientes da empresa</strong><br>A primeira nota da empresa para o gabinete tem número 1, 2 ou 3 e o fornecedor recebeu R$ 10 mil ou mais: o gabinete foi um dos primeiros clientes. Junto com empresa recém-aberta ou fornecedor exclusivo, reforça a suspeita de empresa criada para o contrato.</td><td><span class='pill g1'>Baixa</span></td><td class='n'>884</td></tr><tr><td><strong>Gastos presenciais em três estados no mesmo dia</strong><br>No mesmo dia, o gabinete apresentou refeições, combustível, hospedagem ou táxi de fornecedores sediados em três ou mais estados diferentes. Uma pessoa dificilmente consome em três estados num dia; pode indicar notas de terceiros ou de outras datas.</td><td><span class='pill g1'>Baixa</span></td><td class='n'>2</td></tr><tr><td><strong>Muitos abastecimentos num só dia</strong><br>Num mesmo dia, o gabinete apresentou cinco abastecimentos ou mais, somando R$ 1.500 ou mais. Notas mensais consolidadas de posto não entram (são uma nota só). Pode haver vários veículos, mas o volume pede explicação.</td><td><span class='pill g1'>Baixa</span></td><td class='n'>132</td></tr><tr><td><strong>Nota com valor muito acima do normal</strong><br>Em refeições, combustível, táxi, hospedagem e locação de veículos, a nota está entre as 0,5% mais caras da categoria e vale mais que cinco vezes a nota típica (mediana).</td><td><span class='pill g1'>Baixa</span></td><td class='n'>2.052</td></tr><tr><td><strong>Refeição com CPF de outra pessoa</strong><br>A cota só paga a alimentação do próprio parlamentar, mas o cupom traz o CPF de outra pessoa como consumidor (o CPF não é exibido, só se confere que não é o do deputado).</td><td><span class='pill g1'>Baixa</span></td><td class='n'>0</td></tr><tr><td><strong>Refeição de madrugada</strong><br>Nota de refeição do parlamentar cujos horários impressos estão todos entre meia-noite e 5h.</td><td><span class='pill g1'>Baixa</span></td><td class='n'>0</td></tr></table></div>
+<section class="secao prosa">
+  <h2>Revisão e perguntas</h2>
+  <p>Os alertas de gravidade alta são revisados na nota original. Alertas com explicação inocente são descartados e
+  deixam de aparecer no site. O que continua sem explicação vira pergunta ao gabinete e pedido à Câmara pela
+  Lei de Acesso à Informação (Lei nº 12.527/2011). Respostas são publicadas junto ao alerta.</p>
+
+  <h2>Limites</h2>
+  <ul>
+    <li>A leitura automática de notas escaneadas pode errar números; por isso todo alerta leva à nota original.</li>
+    <li>O cadastro da Receita mostra a situação atual da empresa; mudanças antigas podem não aparecer.</li>
+    <li>Um alerta não é prova de irregularidade nem acusação contra ninguém.</li>
+  </ul>
+
+  <h2>Privacidade</h2>
+  <p>CPFs não são exibidos. Nomes de sócios vêm do cadastro público da Receita Federal.</p>
+
+  <h2>Correções e direito de resposta</h2>
+  <p>Encontrou um erro ou representa um gabinete ou fornecedor? Escreva para
+  <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a> com o link da página. Corrigimos erros e publicamos as respostas.</p>
+</section>
+
+</div></main>
+<footer class="rodape"><div class="cont">
+  <p>Dados da Câmara dos Deputados (cota parlamentar e documentos fiscais), da Receita Federal (cadastro de CNPJ) e do TSE (contas de campanha). Atualizado em 26/10/2026.</p>
+  <p>Alertas são indícios apontados por regras automáticas, não acusações. <a href="metodologia.html">Veja como funciona</a> e como pedir correção.</p>
+</div></footer>
+<script src="assets/app.js" defer></script>
+</body>
+</html>
