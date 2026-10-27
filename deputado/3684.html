@@ -13,9 +13,9 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M5%202h14v20l-2.33-1.6-2.34%201.6-2.33-1.6-2.33%201.6-2.34-1.6L5%2022z%22%20fill%3D%22%230d5c45%22/%3E%3Cpath%20d%3D%22M8.5%207.5h7M8.5%2011h7M8.5%2014.5h4%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=c958d784">
+<link rel="stylesheet" href="../assets/estilo.css?v=c34ed356">
 </head>
-<body data-pagina="deputado" data-raiz="../" data-versao="202610271454">
+<body data-pagina="deputado" data-raiz="../" data-versao="202610271519">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo"><div class="cont">
   <a class="marca" href="../index.html"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0d5c45"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>Cidadania<small>cota parlamentar aberta</small></span></a>
@@ -75,10 +75,9 @@
         <label class="vh" for="d-periodo">Período</label><select id="d-periodo"></select>
         <label class="vh" for="d-categoria">Tipo de gasto</label><select id="d-categoria"><option value="">Todos os tipos de gasto</option></select>
         <label class="vh" for="d-busca">Fornecedor</label><input id="d-busca" type="search" placeholder="Fornecedor ou CNPJ">
-        <label class="vh" for="d-ordem">Ordenar</label>
-        <select id="d-ordem"><option value="data">Mais recentes</option><option value="valor">Maior valor</option></select>
       </div>
       <p class="resumo" id="d-resumo">Carregando despesas…</p>
+      <p class="dica-tabela">Clique no título de uma coluna para ordenar; clique de novo para inverter.</p>
     </div>
     <div class="rolagem tabela-alta"><table id="d-tabela"></table></div>
     <button type="button" class="mais" id="d-mais" hidden>Mostrar mais</button>
@@ -88,14 +87,14 @@
   <section class="cartao"><h3>Cota e verba de gabinete por mês</h3>
     <p class="sub">Cota: reembolsos do mês contra o limite do estado (o saldo não usado se acumula no ano; membros da
       Mesa e líderes podem ter limites maiores). Verba: salários da equipe contra o valor disponível, segundo a Câmara.</p>
-    <div class="rolagem tabela-alta"><table id="tabela-mensal"></table></div></section>
+    <div class="rolagem tabela-alta"><table id="tabela-mensal" data-ordem="0:descending"></table></div></section>
   <section class="cartao"><h3>Equipe do gabinete</h3>
     <p class="sub" id="equipe-resumo">Funcionários informados pela Câmara na página do deputado.</p>
     <div class="rolagem tabela-alta"><table id="tabela-equipe"></table></div></section>
 </div>
 <section class="secao" id="fornecedores">
   <header><h2>Maiores fornecedores</h2><span class="rotulo">sem passagens aéreas</span></header>
-  <div class="cartao rolagem"><table><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td>LRS COMUNICACAO E CONSULTORIA LTDA<br><span class='mono cat'>60.496.721/0001-66</span></td><td class='n'>2</td><td class='n'>R$ 60.000,00</td></tr><tr><td>PEDRO CARVALHAES CHERTO<br><span class='mono cat'>***.321.218-**</span></td><td class='n'>8</td><td class='n'>R$ 32.587,69</td></tr><tr><td>PEDRO CARVALHAES CHERTO<br><span class='mono cat'>***.843.438-**</span></td><td class='n'>1</td><td class='n'>R$ 9.000,00</td></tr><tr><td>CONDOMINIO PRACA PAMPLONA<br><span class='mono cat'>27.366.041/0001-52</span></td><td class='n'>10</td><td class='n'>R$ 8.912,11</td></tr><tr><td>ICH ADMINISTRACAO DE HOTEIS S.A.<br><span class='mono cat'>02.584.924/0018-56</span></td><td class='n'>4</td><td class='n'>R$ 3.995,00</td></tr><tr><td>UNIDAS LOCADORA S.A.<br><span class='mono cat'>45.736.131/0152-82</span></td><td class='n'>1</td><td class='n'>R$ 3.613,88</td></tr><tr><td>PLAZA BRASILIA HOTEIS E TURISMO LTDA (KPH)<br><span class='mono cat'>37.069.853/0003-51</span></td><td class='n'>1</td><td class='n'>R$ 2.362,00</td></tr><tr><td>HOTEL PRAIA DO CALHAU LTDA<br><span class='mono cat'>34.622.226/0001-46</span></td><td class='n'>2</td><td class='n'>R$ 1.696,00</td></tr><tr><td>CLEAN OFFICE LIMPEZA CORPORATIVA LTDA<br><span class='mono cat'>65.405.662/0001-97</span></td><td class='n'>2</td><td class='n'>R$ 1.080,00</td></tr><tr><td>EXPRESS BRASILIA HOSPEDAGEM E TURISMO S/A<br><span class='mono cat'>01.652.106/0001-32</span></td><td class='n'>1</td><td class='n'>R$ 990,00</td></tr><tr><td>IC ADMINISTRADORA HOTELEIRA LTDA.<br><span class='mono cat'>11.281.229/0003-20</span></td><td class='n'>1</td><td class='n'>R$ 924,00</td></tr><tr><td>AUTO POSTO BONDINHO LTDA<br><span class='mono cat'>67.796.680/0001-72</span></td><td class='n'>2</td><td class='n'>R$ 702,21</td></tr></table></div>
+  <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td>LRS COMUNICACAO E CONSULTORIA LTDA<br><span class='mono cat'>60.496.721/0001-66</span></td><td class='n'>2</td><td class='n'>R$ 60.000,00</td></tr><tr><td>PEDRO CARVALHAES CHERTO<br><span class='mono cat'>***.321.218-**</span></td><td class='n'>8</td><td class='n'>R$ 32.587,69</td></tr><tr><td>PEDRO CARVALHAES CHERTO<br><span class='mono cat'>***.843.438-**</span></td><td class='n'>1</td><td class='n'>R$ 9.000,00</td></tr><tr><td>CONDOMINIO PRACA PAMPLONA<br><span class='mono cat'>27.366.041/0001-52</span></td><td class='n'>10</td><td class='n'>R$ 8.912,11</td></tr><tr><td>ICH ADMINISTRACAO DE HOTEIS S.A.<br><span class='mono cat'>02.584.924/0018-56</span></td><td class='n'>4</td><td class='n'>R$ 3.995,00</td></tr><tr><td>UNIDAS LOCADORA S.A.<br><span class='mono cat'>45.736.131/0152-82</span></td><td class='n'>1</td><td class='n'>R$ 3.613,88</td></tr><tr><td>PLAZA BRASILIA HOTEIS E TURISMO LTDA (KPH)<br><span class='mono cat'>37.069.853/0003-51</span></td><td class='n'>1</td><td class='n'>R$ 2.362,00</td></tr><tr><td>HOTEL PRAIA DO CALHAU LTDA<br><span class='mono cat'>34.622.226/0001-46</span></td><td class='n'>2</td><td class='n'>R$ 1.696,00</td></tr><tr><td>CLEAN OFFICE LIMPEZA CORPORATIVA LTDA<br><span class='mono cat'>65.405.662/0001-97</span></td><td class='n'>2</td><td class='n'>R$ 1.080,00</td></tr><tr><td>EXPRESS BRASILIA HOSPEDAGEM E TURISMO S/A<br><span class='mono cat'>01.652.106/0001-32</span></td><td class='n'>1</td><td class='n'>R$ 990,00</td></tr><tr><td>IC ADMINISTRADORA HOTELEIRA LTDA.<br><span class='mono cat'>11.281.229/0003-20</span></td><td class='n'>1</td><td class='n'>R$ 924,00</td></tr><tr><td>AUTO POSTO BONDINHO LTDA<br><span class='mono cat'>67.796.680/0001-72</span></td><td class='n'>2</td><td class='n'>R$ 702,21</td></tr></table></div>
 </section>
 <section class="secao prosa resposta">
   <h2>Direito de resposta</h2>
@@ -119,6 +118,6 @@
   </div>
   <p class="rodape-base">Página gerada em 27/10/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a></p>
 </div></footer>
-<script src="../assets/app.js?v=c958d784" defer></script>
+<script src="../assets/app.js?v=c34ed356" defer></script>
 </body>
 </html>

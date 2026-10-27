@@ -61,6 +61,65 @@ function baixarCSV(nome, cabecalho, linhas) {
 }
 const arquivo = s => normalizar(s).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
+// ------------------------------------------------------------------ tabelas ordenáveis (todas as páginas)
+// Valor de ordenação de uma célula: data-v quando houver; senão data dd/mm/aaaa, número/valor em reais ou texto.
+// Vazio ("—") fica sempre no fim.
+function valorOrdenacao(celula) {
+  const bruto = celula.dataset.v ?? celula.textContent.trim();
+  if (bruto === "" || bruto === "—") return null;
+  if (celula.dataset.v !== undefined && bruto !== "" && !isNaN(bruto)) return +bruto;
+  const data = bruto.match(/(\d{2})\/(\d{2})\/(\d{4})/);
+  if (data && /^(desde )?\d{2}\/\d{2}\/\d{4}/.test(bruto)) return +`${data[3]}${data[2]}${data[1]}`;
+  const numero = bruto.match(/^-?(R\$\s*)?([\d.]+(,\d+)?)\s*%?$/);
+  if (numero) return (bruto.startsWith("-") ? -1 : 1) * numero[2].replace(/\./g, "").replace(",", ".");
+  return normalizar(bruto);
+}
+// números primeiro, depois textos; vazios no fim em qualquer direção
+function comparar(a, b, direcao) {
+  if (a === null || b === null) return a === b ? 0 : a === null ? 1 : -1;
+  const sinal = direcao === "ascending" ? 1 : -1;
+  if (typeof a !== typeof b) return typeof a === "number" ? -1 : 1;
+  return sinal * (typeof a === "number" ? a - b : a.localeCompare(b, "pt-BR", { numeric: true }));
+}
+// Transforma os cabeçalhos em botões. Sem `aoOrdenar`, ordena as linhas que já estão na página; com ele, quem
+// desenha a tabela ordena os dados (tabelas paginadas, em que só parte das linhas está na página).
+// Pode ser chamada de novo depois que a tabela for redesenhada: reaplica a ordem escolhida.
+function tabelaOrdenavel(tabela, aoOrdenar) {
+  if (!tabela) return;
+  const cabecalho = [...tabela.rows].find(r => r.cells.length && [...r.cells].every(c => c.tagName === "TH"));
+  if (!cabecalho) return;
+  [...cabecalho.cells].forEach((th, i) => {
+    if (th.classList.contains("sem-ordem") || th.querySelector(".ordenar")) return;
+    th.innerHTML = `<button type="button" class="ordenar" data-coluna="${th.dataset.chave ?? i}">${th.innerHTML}</button>`;
+  });
+  const [coluna, direcao] = (tabela.dataset.ordem || "").split(":");
+  [...cabecalho.cells].forEach((th, i) => {
+    const b = th.querySelector(".ordenar");
+    if (b && b.dataset.coluna === coluna) th.setAttribute("aria-sort", direcao); else th.removeAttribute("aria-sort");
+  });
+  if (!aoOrdenar && coluna !== undefined && coluna !== "") {
+    const i = +coluna, linhas = [...tabela.rows].filter(r => r !== cabecalho && r.cells[i]);
+    linhas.sort((x, y) => comparar(valorOrdenacao(x.cells[i]), valorOrdenacao(y.cells[i]), direcao))
+      .forEach(r => r.parentNode.append(r));
+  }
+  if (tabela.dataset.pronta) return;
+  tabela.dataset.pronta = "1";
+  tabela.addEventListener("click", e => {
+    const b = e.target.closest(".ordenar"); if (!b) return;
+    const [atual, dir] = (tabela.dataset.ordem || "").split(":");
+    let nova;
+    if (atual === b.dataset.coluna) nova = dir === "ascending" ? "descending" : "ascending";
+    else {
+      // textos começam de A a Z; números e datas, do maior para o menor
+      const i = [...b.closest("tr").cells].indexOf(b.closest("th"));
+      const amostra = [...tabela.rows].map(r => r.cells[i]).filter(c => c && c.tagName === "TD").map(valorOrdenacao).find(v => v !== null);
+      nova = typeof amostra === "string" ? "ascending" : "descending";
+    }
+    tabela.dataset.ordem = `${b.dataset.coluna}:${nova}`;
+    aoOrdenar ? aoOrdenar(b.dataset.coluna, nova) : tabelaOrdenavel(tabela);
+  });
+}
+
 // ------------------------------------------------------------------ busca global (todas as páginas)
 function iniciarBusca() {
   const input = $("#busca-global"), lista = $("#busca-resultados");
@@ -477,7 +536,8 @@ async function iniciarDeputado() {
   const dados = JSON.parse($("#dados-deputado").textContent);
   const meses = dados.meses;
   const h = new URLSearchParams(location.hash.slice(1));
-  const estado = { periodo: indicesPeriodo(meses, h.get("per")).length ? (h.get("per") || "") : "", categoria: "", busca: "", ordem: "data", limite: 100 };
+  const estado = { periodo: indicesPeriodo(meses, h.get("per")).length ? (h.get("per") || "") : "", categoria: "", busca: "",
+    ordem: ["data", "descending"], limite: 100 };
   opcoesPeriodo($("#d-periodo"), meses, estado.periodo);
   const desenharGrafico = () => graficoLinha($("#mensal"), meses, dados.valores, {
     altura: 220, limites: dados.limites, parciais: dados.parciais, destaque: estado.periodo ? indicesPeriodo(meses, estado.periodo) : null,
@@ -499,19 +559,30 @@ async function iniciarDeputado() {
     const q = normalizar(estado.busca), qDigitos = estado.busca.replace(/\D/g, "");
     const lista = detalhe.d.filter(r => idx.has(r[0]) && (estado.categoria === "" || r[2] === +estado.categoria) &&
       (!q || normalizar(detalhe.f[r[3]][0]).includes(q) || (qDigitos.length >= 3 && detalhe.f[r[3]][1].replace(/\D/g, "").includes(qDigitos))));
-    return estado.ordem === "valor" ? lista.sort((a, b) => b[5] - a[5]) : lista;
+    const [coluna, direcao] = estado.ordem;
+    const chave = {
+      data: r => r[1] ? +`${r[1].slice(6)}${r[1].slice(3, 5)}${r[1].slice(0, 2)}` : meses[r[0]] * 100,
+      tipo: r => normalizar(resumo.categorias[r[2]]),
+      fornecedor: r => normalizar(detalhe.f[r[3]][0]),
+      numero: r => /^\d+$/.test(r[4]) ? +r[4] : r[4] ? normalizar(r[4]) : null,
+      valor: r => r[5],
+    }[coluna];
+    return lista.map(r => [chave(r), r]).sort((a, b) => comparar(a[0], b[0], direcao)).map(x => x[1]);
   }
   function desenharDespesas() {
     const lista = filtrarDespesas();
     const total = lista.reduce((s, r) => s + r[5], 0);
     $("#d-resumo").textContent = `${lista.length.toLocaleString("pt-BR")} despesa${lista.length === 1 ? "" : "s"} · ${brl2(total)} em ${nomePeriodo(estado.periodo)}`;
-    $("#d-tabela").innerHTML = `<tr><th>Data</th><th>Tipo de gasto</th><th>Fornecedor</th><th>Nº</th><th class="n">Valor</th><th>Nota</th></tr>` +
+    $("#d-tabela").innerHTML = `<tr><th data-chave="data">Data</th><th data-chave="tipo">Tipo de gasto</th><th data-chave="fornecedor">Fornecedor</th>
+      <th data-chave="numero">Nº</th><th class="n" data-chave="valor">Valor</th><th class="sem-ordem">Nota</th></tr>` +
       lista.slice(0, estado.limite).map(r => {
         const url = linkNota(r), [nome, doc] = detalhe.f[r[3]];
         return `<tr><td class="mono">${esc(r[1] || nomeMes(meses[r[0]]))}</td><td class="cat">${esc(resumo.categorias[r[2]])}</td>
           <td>${esc(nome)}<br><span class="mono cat">${esc(doc)}</span></td><td class="mono">${esc(r[4])}</td>
           <td class="n">${brl2(r[5])}</td><td>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">ver nota</a>` : "—"}</td></tr>`;
       }).join("") + (lista.length ? "" : `<tr><td colspan="6" class="vazio">Nenhuma despesa com esses filtros.</td></tr>`);
+    $("#d-tabela").dataset.ordem = estado.ordem.join(":");
+    tabelaOrdenavel($("#d-tabela"), (coluna, direcao) => { estado.ordem = [coluna, direcao]; estado.limite = 100; desenharDespesas(); });
     $("#d-mais").hidden = lista.length <= estado.limite;
   }
   let desenharEquipe = () => {};
@@ -524,7 +595,6 @@ async function iniciarDeputado() {
   $("#d-categoria").addEventListener("change", e => { estado.categoria = e.target.value; estado.limite = 100; desenharDespesas(); });
   $("#d-busca").addEventListener("input", e => { estado.busca = e.target.value; estado.limite = 100; desenharDespesas(); });
   $("#d-mais").addEventListener("click", () => { estado.limite += 100; desenharDespesas(); });
-  $("#d-ordem").addEventListener("change", e => { estado.ordem = e.target.value; estado.limite = 100; desenharDespesas(); });
   $("#d-csv").addEventListener("click", () => baixarCSV(`despesas-${arquivo(dados.nome)}${estado.periodo ? "-" + estado.periodo : ""}.csv`,
     ["Data", "Mês", "Tipo de gasto", "Fornecedor", "CNPJ/CPF", "Número da nota", "Valor (R$)", "Link da nota"],
     filtrarDespesas().map(r => [r[1], nomeMes(meses[r[0]]), resumo.categorias[r[2]], ...detalhe.f[r[3]], r[4], r[5], linkNota(r) || ""])));
@@ -544,12 +614,13 @@ async function iniciarDeputado() {
     linhasMes.map(i => {
       const uso = dados.limites[i] ? dados.valores[i] / dados.limites[i] : null;
       const [disp, gastoV] = verba[i] || [];
-      return `<tr><td><a href="#despesas" data-mes="${meses[i]}">${nomeMes(meses[i])}</a></td><td class="n">${brl(dados.valores[i])}</td>
+      return `<tr><td data-v="${meses[i]}"><a href="#despesas" data-mes="${meses[i]}">${nomeMes(meses[i])}</a></td><td class="n">${brl(dados.valores[i])}</td>
         <td class="n"><span class="uso${uso > 1.5 ? " alto" : ""}">${uso === null ? "—" : pct(uso)}</span></td>
         <td class="n">${detalhe.e.length ? equipeNoMes(i) : "—"}</td>
         <td class="n">${gastoV === undefined ? "—" : brl(gastoV)}</td><td class="n">${disp === undefined ? "—" : brl(disp)}</td></tr>`;
     }).join("");
   $("#tabela-mensal").addEventListener("click", e => { const a = e.target.closest("[data-mes]"); if (a) definirPeriodo(a.dataset.mes); });
+  tabelaOrdenavel($("#tabela-mensal"));
 
   desenharEquipe = () => {
     if (!detalhe.e.length) {
@@ -566,7 +637,8 @@ async function iniciarDeputado() {
       : `${pessoas} pessoas e ${lista.length} vínculos registrados pela Câmara; ${lista.filter(p => !p[4]).length} sem data de saída. Escolha um mês para ver a equipe daquele mês.`;
     $("#tabela-equipe").innerHTML = `<tr><th>Nome</th><th>Função</th><th>Nível</th><th>Período</th></tr>` +
       lista.map(p => `<tr><td>${esc(p[0])}</td><td class="cat">${esc(p[1])}</td><td class="mono">${esc(p[2])}</td>
-        <td class="mono cat">${p[4] ? `${dataBR(p[3])} a ${dataBR(p[4])}` : `desde ${dataBR(p[3])}`}</td></tr>`).join("");
+        <td class="mono cat" data-v="${(p[3] || "").replace(/-/g, "")}">${p[4] ? `${dataBR(p[3])} a ${dataBR(p[4])}` : `desde ${dataBR(p[3])}`}</td></tr>`).join("");
+    tabelaOrdenavel($("#tabela-equipe"));
   };
   desenharEquipe();
 
@@ -716,4 +788,5 @@ async function iniciarAlertas() {
 }
 
 iniciarBusca();
+document.querySelectorAll("table.ordenavel").forEach(t => tabelaOrdenavel(t));
 ({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: iniciarAlertas, ranking: iniciarRanking })[document.body.dataset.pagina]?.();
