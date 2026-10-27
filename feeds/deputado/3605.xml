@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Nikolas Ferreira (PL/MG)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3605.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3605.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Possível reembolso repetido após conciliação mensal — Nikolas Ferreira (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cefb6c857bdaa8ff.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cefb6c857bdaa8ff.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 362 de SUPREMA MOBILIDADE LTDA (02/05/2024): 2 lançamentos em 1 competência(s); documento R$ 3.100,00, valor líquido R$ 6.200,00, restituições R$ 0,00, saldo R$ 6.200,00 (excedente R$ 3.100,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Nikolas Ferreira (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a449a8c7fb7f1adb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a449a8c7fb7f1adb.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. FINGERPRINT PROCESSAMENTO DE DADOS, GRAFICA, EDITORA E REPRESENTACOES LTDA. recebeu R$ 4.241,08 por "telefonia", mas sua atividade é "Edição integrada à impressão de cadastros, listas e de outros produtos gráficos" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Nikolas Ferreira (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/da1102bd1d28a397.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/da1102bd1d28a397.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 49.644.251 FLAELSON LEDA DOS REIS: 23 notas em 24 meses, numeradas de 1 a 33 (R$ 91.000,00). Fora deste gabinete, a empresa emitiu no máximo 10 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Nikolas Ferreira (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/32a7c31e40b120a3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/32a7c31e40b120a3.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 49.644.251 FLAELSON LEDA DOS REIS foi aberta em 17/02/2023, 26 dias antes da primeira nota (15/03/2023); recebeu R$ 91.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Nikolas Ferreira (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/35046d3f8bbc16b5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/35046d3f8bbc16b5.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. FAS DESENVOLVIMENTO DE SOFTWARE E CNSULTORIA LTDA: 11 notas em 11 meses, numeradas de 90 a 117 (R$ 26.400,00). Fora deste gabinete, a empresa emitiu no máximo 17 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

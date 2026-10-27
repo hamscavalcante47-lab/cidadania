@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Otoni de Paula (PSD/RJ)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3246.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3246.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Otoni de Paula (PSD/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/53f9cccd15b21a1a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/53f9cccd15b21a1a.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. AUTO POSTO DO TRABALHO S/A está baixada desde 28/12/2022, mas emitiu 9 nota(s) depois disso (R$ 2.180,03). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Otoni de Paula (PSD/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/68f30aad8a9216df.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/68f30aad8a9216df.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. AUTO POSTO DO TRABALHO S/A, AUTO POSTO DO TRABALHO FREGUESIA LTDA e AUTO POSTO DO TRABALHO JACAREPAGUA LTDA: sócio em comum Claudio Luna Borges Fonseca; juntas receberam R$ 34.020,91. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Otoni de Paula (PSD/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e78e1d1c99e318dd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e78e1d1c99e318dd.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. AUTO POSTO DO TRABALHO FREGUESIA LTDA e AUTO POSTO DO TRABALHO JACAREPAGUA LTDA: sócio em comum Forza Empreendimentos E Participacoes Ltda.; juntas receberam R$ 31.840,88. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Otoni de Paula (PSD/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a5135f5c7192bfa6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a5135f5c7192bfa6.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. BBLOCKS EMPREENDIMENTO IMOBILIÁRIO LTDA: 4 notas em 4 meses, numeradas de 1 a 5 (R$ 88.000,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Otoni de Paula (PSD/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/860e5476554c8976.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/860e5476554c8976.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. INFINITY MARKETING DIGITAL RIO LTDA: 9 notas em 9 meses, numeradas de 55 a 68 (R$ 63.000,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Otoni de Paula (PSD/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/efd56d6c2336e951.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/efd56d6c2336e951.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. BROAD BRASIL LTDA foi aberta em 21/12/2022, 56 dias antes da primeira nota (15/02/2023); recebeu R$ 36.550,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

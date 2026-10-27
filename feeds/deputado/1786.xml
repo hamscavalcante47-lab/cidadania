@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Arnaldo Jardim (CIDADANIA/SP)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1786.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1786.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Cota pagou empresa de servidor do próprio gabinete — Arnaldo Jardim (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3da1ffa45a909142.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3da1ffa45a909142.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: CM FERNANDES COMERCIO E SERVICOS DE INFORMATICA LTDA recebeu R$ 7.060,00; Cristiane Goncalves Pereira Fernandes é sócio(a) desde 26/09/2006 e trabalhou no gabinete (secretário parlamentar, SP17) desde 04/02/2019. Pagamentos: R$ 7.060,00 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 7.060,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Arnaldo Jardim (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b7f6288a5b037933.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b7f6288a5b037933.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. LOCALIZA FLEET S.A. e LOCALIZA RENT A CAR SA: sócio em comum Breno Davis Campolina; juntas receberam R$ 123.952,82. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Arnaldo Jardim (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff81716183f43528.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff81716183f43528.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ROGÉRIO CURI NAHAS ME: 4 notas em 4 meses, numeradas de 98 a 106 (R$ 60.000,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

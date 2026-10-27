@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Pedro Aihara (PP/MG)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3614.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3614.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Pedro Aihara (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3aefa3d19ae4081d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3aefa3d19ae4081d.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. 99 TECNOLOGIA LTDA está baixada desde 04/07/2025, mas emitiu 23 nota(s) depois disso (R$ 707,48). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Pedro Aihara (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a1c652f55a6add98.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a1c652f55a6add98.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº ANDRESA0107 de UBER DO BRASIL TECNOLOGIA LTDA. (30/07/2026): 2 lançamentos em 1 competência(s); documento R$ 23,94, valor líquido R$ 47,88, restituições R$ 0,00, saldo R$ 47,88 (excedente R$ 23,94). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Pedro Aihara (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61d830ab98a5c3c7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61d830ab98a5c3c7.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. OK CRED SERVICOS LTDA e NX POUSADAS LTDA: sócio em comum Marcilene Moreira; juntas receberam R$ 69.370,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Pedro Aihara (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8703e4320fce63d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8703e4320fce63d.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. POSTO PIO XII LTDA., AUTO POSTO RESSAQUINHA LTDA, POSTO FENIX ESTORIL LTDA, POSTO CRISTIANO MACHADO LTDA, SAO CRISTOVAO COMBUSTIVEIS LTDA e SAO LUIS COMBUSTIVEIS LTDA: sócio em comum Cristiane Lilian Rocha Lima Mendes; juntas receberam R$ 22.800,06. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Pedro Aihara (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e5c9a3cee772159f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e5c9a3cee772159f.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. POSTO PIO XII LTDA., AUTO POSTO RESSAQUINHA LTDA, POSTO FENIX ESTORIL LTDA, POSTO CRISTIANO MACHADO LTDA e SAO CRISTOVAO COMBUSTIVEIS LTDA: sócio em comum Rocha Locadora De Veiculos Ltda; juntas receberam R$ 22.252,60. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Pedro Aihara (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dff0d11d3f2640ba.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dff0d11d3f2640ba.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MALDONADO E LUCCHESI LTDA foi aberta em 30/04/2024, 135 dias antes da primeira nota (12/09/2024); recebeu R$ 6.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

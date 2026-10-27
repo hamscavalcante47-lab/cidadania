@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Deltan Dallagnol (PODE/PR)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3636.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3636.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Deltan Dallagnol (PODE/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/50ead4fe6156a403.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/50ead4fe6156a403.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. EDITORA ABRIL S.A. está baixada desde 30/09/2012, mas emitiu 1 nota(s) depois disso (R$ 96,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Deltan Dallagnol (PODE/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d180f4605d48e4f0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d180f4605d48e4f0.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. SINDICATO DOS MOTORISTAS DE TAXI DE CASCAVEL está inapta desde 09/03/2021, mas emitiu 1 nota(s) depois disso (R$ 21,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Deltan Dallagnol (PODE/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d75fbcdb5a6b6e5e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d75fbcdb5a6b6e5e.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. FABIO NUNES DE MENEZES recebeu R$ 4.350,00 por "divulgação da atividade parlamentar", mas sua atividade é "Reparação e manutenção de computadores e de equipamentos periféricos" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

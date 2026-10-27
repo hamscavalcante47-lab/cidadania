@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Baleia Rossi (MDB/SP)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3021.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3021.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Fornecedores diferentes com o mesmo dono — Baleia Rossi (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e4cb3b70eef53c31.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e4cb3b70eef53c31.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. SAFEBANK GESTAO DA TECNOLOGIA LTDA e SECURE ACTION SEGURANCA DA INFORMACAO LTDA: sócio em comum Rodrigo Jose Zanetti; juntas receberam R$ 31.388,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Doador da campanha recebendo da cota — Baleia Rossi (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/37a9e3d1b9e86a9d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/37a9e3d1b9e86a9d.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ALCANS TELECOM LTDA recebeu R$ 5.172,72 da cota; o sócio Fernando Fracaroli Noronha doou R$ 20.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Baleia Rossi (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc88ea376bdbed2c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc88ea376bdbed2c.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. MOVIDA LOCACAO DE VEICULOS S.A. está baixada desde 02/12/2024, mas emitiu 7 nota(s) depois disso (R$ 33.879,30). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Baleia Rossi (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d013e394db3a536b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d013e394db3a536b.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MOVIDA LOCACAO DE VEICULOS S.A. e MOVIDA PARTICIPACOES S.A.: sócio em comum Daniela Sabbag Papa; juntas receberam R$ 189.453,25. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Baleia Rossi (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/24e4b0f8dfa0fd93.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/24e4b0f8dfa0fd93.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. SECURE ACTION SEGURANCA DA INFORMACAO LTDA foi aberta em 16/07/2024, 108 dias antes da primeira nota (01/11/2024); recebeu R$ 19.058,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

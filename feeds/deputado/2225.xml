@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Arthur Oliveira Maia (UNIÃO/BA)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2225.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2225.xml</id>
+<updated>2026-10-27T20:09:27-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Cota pagou empresa de servidor do próprio gabinete — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4c1cdb9eeda86276.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4c1cdb9eeda86276.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: EASY WAY TECNOLOGIA E DESENVOLVIMENTO DE SOFTWARE LTDA recebeu R$ 97.500,00; Eduardo Ferreira De Sousa Cruz é sócio(a) desde 03/12/2025 e trabalhou no gabinete (cargo de natureza especial, CNE10) desde 17/01/2022. Pagamentos: R$ 60.000,00 durante o vínculo, R$ 37.500,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 22.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f2bd1c4ebcfc7d02.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f2bd1c4ebcfc7d02.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ASSOCIACAO CULTURAL DE DIFUSAO COMUNITARIA PARAISO FM recebeu R$ 16.210,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades associativas não especificadas anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/564bcf89433e756e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/564bcf89433e756e.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ASSOCIACAO NOVO HORIZONTE DOS MORADORES DO BAIRRO SANTA CRUZ E ADJACENCIAS recebeu R$ 2.500,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de associações de defesa de direitos sociais" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c806f34d065a55d5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c806f34d065a55d5.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Easy Way Tecnologia e Desenvolvimento de Software LTDA: 13 notas em 13 meses, numeradas de 4 a 18 (R$ 97.500,00). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/181de3fb81d0dcb0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/181de3fb81d0dcb0.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. PARAISO FM: 5 notas em 5 meses, numeradas de 1 a 5 (R$ 16.210,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bf7865c298f4935c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bf7865c298f4935c.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. CKLS EVENTOS LTDA foi aberta em 07/03/2023, 80 dias antes da primeira nota (26/05/2023); recebeu R$ 15.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

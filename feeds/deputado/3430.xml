@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Gleisi Hoffmann (PT/PR)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3430.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3430.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Gleisi Hoffmann (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ed592b1dd5ee0a00.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ed592b1dd5ee0a00.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. HOTEIS ELO - MARINGA LTDA está inapta desde 09/06/2022, mas emitiu 3 nota(s) depois disso (R$ 883,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Gleisi Hoffmann (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/33a17f006729fb0c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/33a17f006729fb0c.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. BM SOLUCOES EM MIDIA LTDA foi aberta em 14/06/2023, 167 dias antes da primeira nota (28/11/2023); recebeu R$ 5.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Gleisi Hoffmann (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/30f32d64d0601908.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/30f32d64d0601908.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MOVIMENTA SERVICOS DE TECNOLOGIA E MARKETING DIGITAL LTDA e MAPEO SERVICOS DE INOVACAO TECNOLOGICA LTDA: sócio em comum Diego Luiz Dorgam Aguilera; juntas receberam R$ 115.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Gleisi Hoffmann (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ef649a5c8b5fd0f1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ef649a5c8b5fd0f1.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. FABRÍCIO CARLOS DOS SANTOS: 18 notas em 17 meses, numeradas de 16 a 46 (R$ 88.000,00). Fora deste gabinete, a empresa emitiu no máximo 13 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

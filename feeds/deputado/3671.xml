@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Max Lemos (UNIÃO/RJ)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3671.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3671.xml</id>
+<updated>2026-10-27T20:09:27-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Empresa aberta pouco antes de receber — Max Lemos (UNIÃO/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0a81bf3f315a8321.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0a81bf3f315a8321.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. A. OLIVEIRA SILVA PROGRAMACAO DE COMPUTADORES LTDA foi aberta em 21/01/2026, 120 dias antes da primeira nota (21/05/2026); recebeu R$ 5.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Max Lemos (UNIÃO/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9234810d825d09c8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9234810d825d09c8.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. J D L SEM CORTES LTDA: 36 notas em 36 meses, numeradas de 19 a 60 (R$ 857.354,94). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

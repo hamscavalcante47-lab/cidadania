@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Mário Heringer (PDT/MG)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1609.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1609.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Fornecedor ligado a servidor ou ex-servidor do gabinete — Mário Heringer (PDT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5ba1fbd4717a2f3a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5ba1fbd4717a2f3a.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Fornecedor que depois virou servidor(a): PLANO COMUNICACAO LTDA recebeu R$ 110.000,00; Denise Fonseca Motta é sócio(a) desde 29/05/2023 e trabalhou no gabinete (secretário parlamentar, SP19) desde 09/06/2026. Pagamentos: R$ 110.000,00 antes do vínculo. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Mário Heringer (PDT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/608ad31b71060a7a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/608ad31b71060a7a.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. PLANO COMUNICACAO LTDA: 29 notas em 27 meses, numeradas de 9 a 77 (R$ 110.000,00). Fora deste gabinete, a empresa emitiu no máximo 40 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Mário Heringer (PDT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec25293e6cf3a482.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec25293e6cf3a482.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. PLANO COMUNICACAO LTDA foi aberta em 29/05/2023, 70 dias antes da primeira nota (07/08/2023); recebeu R$ 110.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Igor Timo (UNIÃO/MG)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3223.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3223.xml</id>
+<updated>2026-10-27T20:09:27-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Cota pagou empresa de servidor do próprio gabinete — Igor Timo (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdac2b0120182744.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdac2b0120182744.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: VISAO PUBLICA CONSULTORIA E MARKETING LTDA recebeu R$ 260.300,00; Maria Tereza De Jesus é sócio(a) desde 05/11/2024 e trabalhou no gabinete (secretário parlamentar, SP23) desde 30/06/2025. Pagamentos: R$ 231.900,00 antes do vínculo, R$ 28.400,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 28.400,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Igor Timo (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/004b082879921a03.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/004b082879921a03.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 28840 de POSTO TOCANTINS LTDA (27/01/2026): 2 lançamentos em 1 competência(s); documento R$ 291,92, valor líquido R$ 583,84, restituições R$ 0,00, saldo R$ 583,84 (excedente R$ 291,92). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Igor Timo (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff05da4dd0b33d4c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff05da4dd0b33d4c.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº MN260503 de VIA CRISTAIS (19/05/2025): 2 lançamentos em 1 competência(s); documento R$ 11,50, valor líquido R$ 23,00, restituições R$ 0,00, saldo R$ 23,00 (excedente R$ 11,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Daiana Santos (PCdoB/RS)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3647.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3647.xml</id>
+<updated>2026-10-27T20:09:27-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Empresa aberta pouco antes de receber — Daiana Santos (PCdoB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ed5ecdb113250132.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ed5ecdb113250132.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. BENTUX TECNOLOGIA LTDA foi aberta em 11/02/2025, 122 dias antes da primeira nota (13/06/2025); recebeu R$ 141.740,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

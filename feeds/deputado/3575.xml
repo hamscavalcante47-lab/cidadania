@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Roberto Duarte (REPUBLICANOS/AC)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3575.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3575.xml</id>
+<updated>2026-10-27T20:09:27-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Roberto Duarte (REPUBLICANOS/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/55f96668b4d57ca8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/55f96668b4d57ca8.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. R. BRITO DE AGUIAR está baixada desde 01/04/2022, mas emitiu 1 nota(s) depois disso (R$ 520,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Roberto Duarte (REPUBLICANOS/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a067b26285c102c6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a067b26285c102c6.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. POSTO DE COMBUSTIVEIS SAO RAFAEL LTDA foi aberta em 22/01/2024, 93 dias antes da primeira nota (24/04/2024); recebeu R$ 5.976,54. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

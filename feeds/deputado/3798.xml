@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Fabiano Cazeca (PRD/MG)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3798.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3798.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Fabiano Cazeca (PRD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9023486a43e01ac0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9023486a43e01ac0.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. 99 TECNOLOGIA LTDA está baixada desde 04/07/2025, mas emitiu 2 nota(s) depois disso (R$ 28,04). Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

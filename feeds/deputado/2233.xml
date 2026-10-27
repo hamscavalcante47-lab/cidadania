@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Weliton Prado (PSD/MG)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2233.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2233.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Weliton Prado (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ea3dc6fbd5b7bc80.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ea3dc6fbd5b7bc80.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 1 nota(s) depois disso (R$ 56,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Weliton Prado (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1427525ad3ead6ad.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1427525ad3ead6ad.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 28.263.123 VANDER FLAVIO ROSA recebeu R$ 7.480,00 por "divulgação da atividade parlamentar", mas sua atividade é "Instalação de painéis publicitários" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Weliton Prado (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8426460f9e083a6a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8426460f9e083a6a.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. GRAAL OUT DOOR LTDA, SENECHAL VEICULACAO DE PLACAS DE OUT DOOR LTDA e GRAAL SENECHAL AGENCIAMENTO DE ESPACOS PARA OUTDOOR LTDA: sócio em comum Cristiano De Freitas Peixoto; juntas receberam R$ 240.350,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Weliton Prado (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6f980eb8f4cb5dbb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f980eb8f4cb5dbb.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ALEX SANDRO GARCIA - COMUNICACAO VISUAL recebeu R$ 24.599,00 por "divulgação da atividade parlamentar", mas sua atividade é "Instalação de painéis publicitários" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Eduardo Bolsonaro (PL/SP)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2907.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2907.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Fornecedores diferentes com o mesmo dono — Eduardo Bolsonaro (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7f02dd29d1b9ad53.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7f02dd29d1b9ad53.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. APARECE BRASIL DESENVOLVIMENTO DE SOFTWARE LTDA e FAS DESENVOLVIMENTO DE SOFTWARE E CONSULTORIA LTDA: sócio em comum Antonio Soares Junior; juntas receberam R$ 47.200,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Eduardo Bolsonaro (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/91d9a22050271ff7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/91d9a22050271ff7.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. FAS DESENVOLVIMENTO DE SOFTWARE E CONSULTORIA LTDA foi aberta em 22/05/2024, 13 dias antes da primeira nota (04/06/2024); recebeu R$ 23.200,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Eduardo Bolsonaro (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/28b63e6687028c02.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/28b63e6687028c02.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. FOGUETEEH LOCADORA DE VEICULOS LTDA: 5 notas em 5 meses, numeradas de 336 a 343 (R$ 12.013,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Josivaldo JP (UNIÃO/MA)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3475.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3475.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Atividade da empresa não combina com o gasto — Josivaldo JP (UNIÃO/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/43419d29c087b97f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/43419d29c087b97f.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. CONVENIENCIA 6 LTDA recebeu R$ 8.101,69 por "combustíveis e lubrificantes", mas sua atividade é "Comércio varejista de mercadorias em lojas de conveniência" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Josivaldo JP (UNIÃO/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8b1ccee51c49efa1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8b1ccee51c49efa1.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MOVIDA LOCACAO DE VEICULOS S.A. e MOVIDA PARTICIPACOES S.A.: sócio em comum Daniela Sabbag Papa; juntas receberam R$ 34.214,39. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota apresentada fora do prazo — Josivaldo JP (UNIÃO/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2cf380e437ee5ead.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2cf380e437ee5ead.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 122024 de CELI CASTRO DE SOUZA TIMOTEO (R$ 8.500,00) foi emitida em 30/01/2024 e reembolsada como despesa de 12/2024. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Josivaldo JP (UNIÃO/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/55398ff1a9b3bddb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/55398ff1a9b3bddb.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. S.MACHADO DOS SANTOS-EPP: 5 notas em 3 meses, numeradas de 126 a 137 (R$ 1.600,00). Fora deste gabinete, a empresa emitiu no máximo 7 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

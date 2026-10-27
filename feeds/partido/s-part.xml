@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de deputados do S.PART.</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/s-part.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/s-part.xml</id>
+<updated>2026-10-27T20:09:27-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Empresa aberta pouco antes de receber — Chiquinho Brazão (S.PART./RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c4b833cf896c8244.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c4b833cf896c8244.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 51.662.299 ALEXANDRE DE ANDRADE FERRAZ foi aberta em 02/08/2023, 13 dias antes da primeira nota (15/08/2023); recebeu R$ 7.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Chiquinho Brazão (S.PART./RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7fcefe54619e080a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7fcefe54619e080a.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MANUQUIP COMERCIO E SERVICOS LTDA e SERV-RIO TERCEIRIZACAO E SERVICOS LTDA: sócio em comum Lucia De Pinho Bastos Ferreira; juntas receberam R$ 102.446,66. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Chiquinho Brazão (S.PART./RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8d599e3f35569999.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8d599e3f35569999.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. H SHELDON SERVICOS DE MARKETING LTDA: 5 notas em 5 meses, numeradas de 3191 a 3199 (R$ 11.500,00). Fora deste gabinete, a empresa emitiu no máximo 4 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

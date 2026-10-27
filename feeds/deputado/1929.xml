@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Rodrigo Rollemberg (PSB/DF)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1929.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1929.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Notas com numeração quase seguida — Rodrigo Rollemberg (PSB/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ee231bfc680b89ee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ee231bfc680b89ee.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. VICTOR GABRIEL RODRIGUES DE CARVALHO: 5 notas em 5 meses, numeradas de 2 a 8 (R$ 54.000,00). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Rodrigo Rollemberg (PSB/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2a79be395c3a9027.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2a79be395c3a9027.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. AGENCIA TRACO LTDA foi aberta em 31/07/2025, 125 dias antes da primeira nota (03/12/2025); recebeu R$ 54.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>MEI recebendo mais que o limite anual — Rodrigo Rollemberg (PSB/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/02d2ff66d7473a82.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/02d2ff66d7473a82.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 59.384.900 JOSE APARECIDO DIAS (MEI) recebeu R$ 139.860,01 da cota em 2025, R$ 15.800,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

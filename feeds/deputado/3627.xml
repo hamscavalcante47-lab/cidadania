@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Daniel Barbosa (PP/AL)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3627.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3627.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Empresa aberta pouco antes de receber — Daniel Barbosa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a0d9cfceb5d804e0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a0d9cfceb5d804e0.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MERAKI - ESTRATEGIA E COMUNICACAO POLITICA LTDA foi aberta em 10/01/2024, 47 dias antes da primeira nota (26/02/2024); recebeu R$ 7.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Daniel Barbosa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3f0b3ec7154f1ff5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3f0b3ec7154f1ff5.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. JULLYANE CALDAS DE FARIAS MATOS ***.518.704-** está baixada desde 04/01/2024, mas emitiu 1 nota(s) depois disso (R$ 7.000,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Daniel Barbosa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6a647433049c1576.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6a647433049c1576.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. FEAT WORK LTDA foi aberta em 23/03/2023, 1 dias antes da primeira nota (24/03/2023); recebeu R$ 704.394,30. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Daniel Barbosa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/58ed6e6348d38483.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/58ed6e6348d38483.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. JULLYANE CALDAS DE FARIAS MATOS ***.518.704-**: 7 notas em 7 meses, numeradas de 32 a 45 (R$ 49.000,00). Fora deste gabinete, a empresa emitiu no máximo 7 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

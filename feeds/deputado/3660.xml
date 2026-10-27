@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Rodrigo Gambale (PODE/SP)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3660.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3660.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2c2fa380f14b62f6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2c2fa380f14b62f6.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. CLARO S.A. está baixada desde 11/12/2009, mas emitiu 1 nota(s) depois disso (R$ 219,03). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a72742342cd232c7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a72742342cd232c7.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº L5MJDLJ32BD de VIAPAULISTA S/A (23/12/2023): 2 lançamentos em 1 competência(s); documento R$ 16,60, valor líquido R$ 33,20, restituições R$ 0,00, saldo R$ 33,20 (excedente R$ 16,60). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3486ccc6607be46c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3486ccc6607be46c.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 52.154.273 FELIPE MENDES FONTINELE: 5 notas em 5 meses, numeradas de 17 a 26 (R$ 31.500,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

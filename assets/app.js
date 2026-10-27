@@ -127,20 +127,36 @@ function iniciarBusca() {
   let indice = null, itens = [], selecionado = -1;
   const abrir = aberta => { lista.hidden = !aberta; input.setAttribute("aria-expanded", String(aberta)); };
   const carregar = async () => indice ??= (await json("dados/busca.json")).map(i => ({ ...i, b: normalizar(i.n + " " + i.s) }));
+  // um arquivo por letra inicial de cada parte do nome: acha a pessoa também pelo sobrenome
+  const pessoas = {};
+  const carregarPessoas = async letra => pessoas[letra] ??= (await json(`dados/pessoas/${letra}.json`).catch(() => []))
+    .map(([n, v]) => ({ n, v, b: normalizar(n) }));
+  const TIPO = { d: "Deputado", f: "Fornecedor", p: "Pessoa" };
 
-  function desenhar() {
+  async function desenhar() {
     const q = normalizar(input.value.trim());
     if (!q || !indice) { abrir(false); return; }
     const termos = q.split(/\s+/);
-    itens = indice.filter(i => termos.every(t => i.b.includes(t))).slice(0, 8);
+    itens = indice.filter(i => termos.every(t => i.b.includes(t))).slice(0, 6);
+    const longo = termos.find(t => t.length >= 3 && /^[a-z]/.test(t));
+    if (longo) {
+      const achadas = (await carregarPessoas(longo[0])).filter(p => termos.every(t => p.b.includes(t)));
+      if (normalizar(input.value.trim()) !== q) return;  // a pessoa continuou digitando
+      for (const p of achadas.slice(0, 4)) {
+        const ambos = p.v.some(v => v[0] === "s") && p.v.some(v => v[0] === "g");
+        p.v.slice(0, 3).forEach(([tipo, onde, como, u]) => itens.push({ t: "p", n: p.n, u,
+          s: `${tipo === "s" ? "sócio(a) de" : "gabinete de"} ${onde} · ${como}${ambos ? " · aparece como sócio(a) e como funcionário(a); nome igual não prova que é a mesma pessoa" : ""}` }));
+      }
+    }
+    itens = itens.slice(0, 10);
     selecionado = itens.length ? 0 : -1;
     lista.innerHTML = itens.map((i, k) => `<li><a href="${RAIZ}${i.u}" role="option" aria-selected="${k === 0}">
-        <span class="tipo">${i.t === "d" ? "Deputado" : "Fornecedor"}</span><span>${esc(i.n)}<small>${esc(i.s)}</small></span></a></li>`).join("")
-      || `<li class="vazio">Nada encontrado para “${esc(input.value)}”. Tente o nome de um deputado ou de uma empresa.</li>`;
+        <span class="tipo">${TIPO[i.t]}</span><span>${esc(i.n)}<small>${esc(i.s)}</small></span></a></li>`).join("")
+      || `<li class="vazio">Nada encontrado para “${esc(input.value)}”. Tente o nome de um deputado, de uma empresa ou de uma pessoa.</li>`;
     abrir(true);
   }
   input.addEventListener("focus", carregar, { once: true });
-  input.addEventListener("input", async () => { await carregar(); desenhar(); });
+  input.addEventListener("input", async () => { await carregar(); await desenhar(); });
   input.addEventListener("keydown", e => {
     const links = [...lista.querySelectorAll("a")];
     if (e.key === "ArrowDown" || e.key === "ArrowUp") {
@@ -387,6 +403,8 @@ async function iniciarInicio() {
       nome: (x, y) => x.d.n.localeCompare(y.d.n, "pt-BR"),
     }[estado.ordem]);
     $("#lista-titulo").textContent = estado.uf ? NOMES_UF[estado.uf] : "Brasil";
+    $("#lista-estado").hidden = !estado.uf;
+    if (estado.uf) $("#lista-estado").href = `estado/${estado.uf.toLowerCase()}.html`;
     const total = lista.reduce((s, x) => s + x.v, 0);
     $("#lista-resumo").textContent = lista.length
       ? `${lista.length} deputado${lista.length > 1 ? "s" : ""} · ${brlCurto(total)} em ${nomePeriodo(estado.periodo)}`
@@ -738,9 +756,9 @@ async function iniciarAlertas() {
       if (a.m !== null) quem.push(`<span class="mono">${nomeMes(resumo.meses[a.m])}</span>`);
       if (a.f) quem.push(`<a href="fornecedor/${a.f}.html">ver empresa</a>`);
       if (!a.s) quem.push(`<span class="status">revisão pendente</span>`);
-      return `<article class="alerta g${a.g}"><div class="cab"><span class="pill g${a.g}">${GRAV[a.g]}</span><h3>${esc(titulo[a.r])}</h3></div>
+      return `<article class="alerta g${a.g}"><div class="cab"><span class="pill g${a.g}">${GRAV[a.g]}</span><h3><a href="alerta/${a.c}.html">${esc(titulo[a.r])}</a></h3></div>
         <p class="meta">${quem.join(" · ")}</p><p class="desc">${esc(a.t)}</p>
-        ${a.s ? `<p class="revisao ${esc(a.s)}"><strong>${esc((meta.vereditos || {})[a.s] || a.s)}.</strong> ${esc(a.v || "")}</p>` : ""}
+        ${a.s ? `<p class="revisao ${esc(a.s)}"><strong>${esc(a.rl || a.s)}.</strong> ${esc(a.v || "")}</p>` : ""}
         ${notas ? `<details><summary>Notas envolvidas</summary><ul>${notas}</ul></details>` : ""}</article>`;
     }).join("") || `<p class="vazio">Nenhum alerta com esses filtros. Escolha outra gravidade ou outro período.</p>`;
     const resto = lista.length - estado.limite;
@@ -751,6 +769,10 @@ async function iniciarAlertas() {
     CAMPOS.forEach(([, k, curto]) => { if (estado[k] !== (k === "gravidade" ? "3" : "")) p.set(curto, estado[k]); });
     history.replaceState(null, "", p.toString() ? `#${p}` : location.pathname);
   }
+  // quanto confiar em cada tipo: resultado das revisões já feitas
+  const acerto = r => !r.revisados ? "Nenhum alerta deste tipo revisado ainda"
+    : r.revisados < 5 ? `${r.revisados} revisado(s), ${r.confirmados} confirmado(s): poucas revisões ainda`
+    : `${r.revisados} revisados, ${r.confirmados} confirmados (${Math.round(100 * r.confirmados / r.revisados)}%)`;
   // botões de tipo de achado: família primeiro, depois o tipo dentro dela
   function desenharTipos(semTipo) {
     const porRegra = {}, porGrupo = {};
@@ -764,7 +786,7 @@ async function iniciarAlertas() {
     $("#tipos-regras").hidden = !estado.grupo;
     $("#tipos-regras").innerHTML = !estado.grupo ? "" :
       botao("chip", `data-regra=""`, !estado.regra, `Todos de ${meta.grupos.find(g => g.chave === estado.grupo).nome.toLowerCase()}`, porGrupo[estado.grupo] || 0) +
-      regras.map(r => botao("chip", `data-regra="${r.codigo}"`, estado.regra === r.codigo, r.titulo, porRegra[r.codigo] || 0)).join("") +
+      regras.map(r => botao("chip", `data-regra="${r.codigo}"`, estado.regra === r.codigo, r.titulo, porRegra[r.codigo] || 0, acerto(r))).join("") +
       (regras.length ? "" : `<span class="tipos-vazio">Nenhum achado desta família com os filtros atuais.</span>`);
   }
   $("#tipos-grupos").addEventListener("click", e => {
@@ -782,10 +804,17 @@ async function iniciarAlertas() {
     lista.map(a => {
       const d = meta.deputados[a.p];
       return [GRAV[a.g], titulo[a.r], d.nome, d.partido, d.uf, a.m !== null ? nomeMes(resumo.meses[a.m]) : "", a.t,
-        a.s ? `${(meta.vereditos || {})[a.s] || a.s}. ${a.v || ""}` : "pendente", a.n.map(n => n[3]).filter(Boolean).join(" ")];
+        a.s ? `${a.rl || a.s}. ${a.v || ""}` : "pendente", a.n.map(n => n[3]).filter(Boolean).join(" ")];
     })));
   desenhar();
 }
+
+document.addEventListener("click", async e => {
+  const b = e.target.closest("[data-copiar]"); if (!b) return;
+  const texto = document.querySelector(b.dataset.copiar)?.textContent.trim() || "";
+  try { await navigator.clipboard.writeText(texto); b.textContent = "Citação copiada"; }
+  catch { getSelection().selectAllChildren(document.querySelector(b.dataset.copiar)); b.textContent = "Selecionado: use Ctrl+C"; }
+});
 
 iniciarBusca();
 document.querySelectorAll("table.ordenavel").forEach(t => tabelaOrdenavel(t));

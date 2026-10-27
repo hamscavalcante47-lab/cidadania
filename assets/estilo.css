@@ -365,6 +365,42 @@ h3 { font-size: 20px; font-weight: 600; }
 .alertas-baixos > summary:hover { background: var(--papel-2); }
 .alertas-baixos[open] > summary { border-bottom: 1px solid var(--linha); }
 
+.alerta h3 a { color: inherit; text-decoration: none; }
+.alerta h3 a:hover { color: var(--verde); text-decoration: underline; }
+
+/* ---------------------------------------------------------------- página permanente do alerta */
+.trilha { padding-top: 28px; font-size: 13px; color: var(--tinta-3); }
+.trilha + .abertura { padding-top: 16px; }
+.titulo-alerta { font-size: clamp(30px, 4vw, 46px); max-width: 24ch; }
+.situacao-alerta { margin: 18px 0 0; padding: 12px 16px; border-radius: 10px; max-width: 80ch; font-size: 15px;
+  background: var(--media-bg); color: var(--tinta); border-left: 3px solid var(--media); }
+.situacao-alerta.descartado { background: var(--baixa-bg); border-left-color: var(--tinta-3); }
+.ficha-alerta dl { margin: 0; padding: 8px 22px 14px; }
+.ficha-alerta dl div { display: grid; grid-template-columns: 140px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--linha); }
+.ficha-alerta dl div:last-child { border-bottom: 0; }
+.ficha-alerta dt { font-size: 13px; color: var(--tinta-3); }
+.ficha-alerta dd { margin: 0; }
+.como-citar { padding: 20px 22px; }
+.como-citar h2, .alerta-texto h2 { font-size: 22px; }
+.citacao { font: 13px/1.6 var(--mono); background: var(--papel-2); border: 1px dashed var(--linha-forte); border-radius: 8px;
+  padding: 12px 14px; margin: 12px 0; overflow-wrap: anywhere; }
+.alerta-texto { padding: 22px 24px; }
+.alerta-texto h3 { margin-top: 22px; font-size: 18px; }
+.alerta-texto .desc { font-size: 17px; max-width: 80ch; }
+.alerta-texto .revisao { font-size: 14px; color: var(--tinta-2); background: var(--papel-2); border-radius: 8px; padding: 10px 14px; max-width: 80ch; }
+.alerta-texto .revisao.confirmado { background: var(--alta-bg); color: var(--tinta); }
+
+/* ---------------------------------------------------------------- novidades, estados */
+.lista-novidades { list-style: none; margin: 0; padding: 6px 0; }
+.lista-novidades li { padding: 10px 22px; border-top: 1px solid var(--linha); line-height: 1.5; }
+.lista-novidades li:first-child { border-top: 0; }
+.lista-novidades .status { font-size: 12px; color: var(--tinta-3); border: 1px dashed var(--linha-forte); border-radius: 99px; padding: 1px 8px; }
+.familias { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; margin: 0 0 14px; padding: 0; font-size: 14px; color: var(--tinta-2); }
+.familias b { font-family: var(--mono); font-weight: 500; color: var(--tinta); }
+.lista-estado { display: inline-block; margin-top: 4px; font-size: 14px; font-weight: 600; text-decoration: none; }
+.lista-estado[hidden] { display: none; }
+.rotulo a { color: inherit; }
+
 table { width: 100%; border-collapse: collapse; font-size: 14px; }
 th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--linha); vertical-align: top; }
 tr:last-child > td { border-bottom: 0; }
@@ -478,6 +514,8 @@ th.n { font-family: var(--texto); }
   .barra .trilho { grid-column: 1 / -1; grid-row: 2; }
   .mapa-br .sigla { font-size: 30px; }
   .kpi b { font-size: 25px; }
+  .ficha-alerta dl div { grid-template-columns: 1fr; gap: 2px; }
+  .lista-novidades li { padding: 10px 16px; }
   .alerta { padding: 18px 16px 18px 20px; }
   .lista-topo { padding: 16px; }
 }

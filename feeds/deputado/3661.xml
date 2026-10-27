@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Delegado Bruno Lima (PODE/SP)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3661.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3661.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Empresa aberta pouco antes de receber — Delegado Bruno Lima (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bd355be704157149.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bd355be704157149.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MANO DO CEU AGENCIA DE MARKETING LTDA foi aberta em 26/11/2025, 41 dias antes da primeira nota (06/01/2026); recebeu R$ 7.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Delegado Bruno Lima (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a146c969bdcdda8c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a146c969bdcdda8c.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 41.177.038 YURI FONSECA SIQUEIRA DE BARROS: 7 notas em 7 meses, numeradas de 40 a 47 (R$ 10.500,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Delegado Bruno Lima (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ede45e4c21fd535b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ede45e4c21fd535b.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MANO DO CEU AGENCIA DE MARKETING LTDA: 5 notas em 5 meses, numeradas de 5 a 14 (R$ 7.500,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

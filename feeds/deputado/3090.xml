@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Fernando Monteiro (PSD/PE)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3090.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3090.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Mesmo documento usado em despesas diferentes — Fernando Monteiro (PSD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/022cd64d7e55dcfd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/022cd64d7e55dcfd.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. A mesma chave de acesso de L.C. COMBUSTIVEIS LTDA. EPP foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Fernando Monteiro (PSD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b6ac4f007e71c7f4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b6ac4f007e71c7f4.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. PRIMAVIA RENT A CAR LOCADORA DE VEICULOS LTDA, KAPO VEICULOS LTDA e VIA LOCADORA DE AUTOMOVEIS LTDA: sócio em comum Jose Carlos Dourado De Azevedo Junior; juntas receberam R$ 112.669,42. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Fernando Monteiro (PSD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec117116176a07b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec117116176a07b2.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. PRIMAVIA RENT A CAR LOCADORA DE VEICULOS LTDA e VIA LOCADORA DE AUTOMOVEIS LTDA: sócio em comum Elza Maria Vieira Gaia Dourado De Azevedo; juntas receberam R$ 65.499,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Fernando Monteiro (PSD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/53e214f88f58f724.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/53e214f88f58f724.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. JOSE ROBERIO DE SIQUEIRA HOTEIS LTDA foi aberta em 02/01/2024, 179 dias antes da primeira nota (29/06/2024); recebeu R$ 10.888,45. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Fernando Monteiro (PSD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/59d8c03526b86501.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/59d8c03526b86501.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. GESIQ COMERCIO DE COMBUSTIVEIS LTDA recebeu R$ 2.117,87 por "combustíveis e lubrificantes", mas sua atividade é "Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Fernando Monteiro (PSD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/48fc610e29e9d1d8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/48fc610e29e9d1d8.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 58.607.558 LUIZ RICARDO BITTENCOURT ALMOEDO foi aberta em 03/01/2025, 14 dias antes da primeira nota (17/01/2025); recebeu R$ 43.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Fernando Monteiro (PSD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a77c4a6273acc93f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a77c4a6273acc93f.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Luiz Ricardo Bittencourt Almoedo: 11 notas em 11 meses, numeradas de 1 a 19 (R$ 39.000,00). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

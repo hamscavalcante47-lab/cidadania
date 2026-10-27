@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Julio Lopes (PP/RJ)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1576.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1576.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Possível reembolso repetido após conciliação mensal — Julio Lopes (PP/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/584726847c5e0ec1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/584726847c5e0ec1.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 3 de FELIPE PAZ DE ALMEIDA FERREIRA DOS SANTOS (20/10/2023): 2 lançamentos em 1 competência(s); documento R$ 600,00, valor líquido R$ 1.200,00, restituições R$ 0,00, saldo R$ 1.200,00 (excedente R$ 600,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Julio Lopes (PP/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/527d90fb7da9045b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/527d90fb7da9045b.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 52.902.672 FELIPE PAZ VILANI FERREIRA DOS SANTOS foi aberta em 16/11/2023, 60 dias antes da primeira nota (15/01/2024); recebeu R$ 9.600,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Julio Lopes (PP/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/43f5d7e4b0f38a8a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/43f5d7e4b0f38a8a.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. S. M. C. AGENCIA DE PUBLICIDADE LTDA e AGENCIA RENASCER TV LTDA: sócio em comum Simone Moreira Calenzani; juntas receberam R$ 32.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Julio Lopes (PP/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/18303ea158dfdc7c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/18303ea158dfdc7c.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. AUSTRAL TECNOLOGIA LTDA: 5 notas em 5 meses, numeradas de 15 a 20 (R$ 5.212,80). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

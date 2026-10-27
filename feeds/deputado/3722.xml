@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Luciano Azevedo (PSD/RS)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3722.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3722.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Luciano Azevedo (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/256491c08f03106c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/256491c08f03106c.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. MAIRI CASON está baixada desde 26/09/2018, mas emitiu 2 nota(s) depois disso (R$ 20,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Luciano Azevedo (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5b86a3869d85748b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5b86a3869d85748b.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 230167C3CPB7 de EGR EMPRESA GAUCHA DE RODOVIAS SA (23/10/2023): 2 lançamentos em 1 competência(s); documento R$ 4,90, valor líquido R$ 9,80, restituições R$ 0,00, saldo R$ 9,80 (excedente R$ 4,90). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Luciano Azevedo (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ac580058f5576795.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ac580058f5576795.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. A. L. B. BOEIRA LTDA foi aberta em 27/06/2024, 74 dias antes da primeira nota (09/09/2024); recebeu R$ 16.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Luciano Azevedo (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/726e5bee0f8063f8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/726e5bee0f8063f8.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. HAVILA NYCOLE GONÇALVES VIEIRA: 12 notas em 12 meses, numeradas de 2 a 23 (R$ 32.750,00). Fora deste gabinete, a empresa emitiu no máximo 10 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

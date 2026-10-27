@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Pedro Tourinho (PT/SP)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3775.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3775.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Empresa aberta pouco antes de receber — Pedro Tourinho (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fec92e7c22ac622e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fec92e7c22ac622e.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 55.755.737 VITORIA REGIA BARROS SILVA foi aberta em 01/07/2024, 116 dias antes da primeira nota (25/10/2024); recebeu R$ 13.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Pedro Tourinho (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/204a10c8e5b63aec.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/204a10c8e5b63aec.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 55.959.734 ANA PAULA ARAUJO ALVES DA SILVEIRA foi aberta em 16/07/2024, 108 dias antes da primeira nota (01/11/2024); recebeu R$ 33.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

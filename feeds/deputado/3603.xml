@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Luciano Vieira (PSDB/RJ)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3603.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3603.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Luciano Vieira (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/370367830109818e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/370367830109818e.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. SECRETARIA MUNICIPAL DE FAZENDA E PLANEJAMENTO está baixada desde 08/10/2021, mas emitiu 1 nota(s) depois disso (R$ 3.530,11). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Luciano Vieira (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b727824871de0f7f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b727824871de0f7f.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. AUTO POSTO DO TRABALHO S/A está baixada desde 28/12/2022, mas emitiu 1 nota(s) depois disso (R$ 353,99). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Luciano Vieira (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5f545b705c1cded2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5f545b705c1cded2.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. FACTUM COMUNICACÃO EIRELI: 21 notas em 21 meses, numeradas de 1 a 46 (R$ 281.400,00). Fora deste gabinete, a empresa emitiu no máximo 25 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Doador da campanha recebendo da cota — Luciano Vieira (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c192b8c7e48227b5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c192b8c7e48227b5.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. HUMBERTO GONÇALVES DE CARVALHO recebeu R$ 35.912,08 da cota; o fornecedor doou R$ 2.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

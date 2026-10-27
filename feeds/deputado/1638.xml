@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Patrus Ananias (PT/MG)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1638.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1638.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Patrus Ananias (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cf4047c77388075d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cf4047c77388075d.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. 99 TECNOLOGIA LTDA está baixada desde 04/07/2025, mas emitiu 5 nota(s) depois disso (R$ 114,35). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Patrus Ananias (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/97b08e0fc3f09972.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/97b08e0fc3f09972.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. M F COMERCIAL ARAUJO LTDA foi aberta em 25/07/2025, 83 dias antes da primeira nota (16/10/2025); recebeu R$ 5.677,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Patrus Ananias (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0fe465b1fc85a2ee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0fe465b1fc85a2ee.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. FC EVENTOS LTDA está inapta desde 19/05/2026, mas emitiu 1 nota(s) depois disso (R$ 1.295,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Patrus Ananias (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3fadec14d26e9907.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3fadec14d26e9907.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 49.408.261 RODRIGO CAMPANELLA GONCALVES BARBOSA foi aberta em 31/01/2023, 31 dias antes da primeira nota (03/03/2023); recebeu R$ 42.320,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Patrus Ananias (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/252259dfd0840037.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/252259dfd0840037.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. CLARO S.A. e CLARO NXT TELECOMUNICACOES S/A: sócio em comum Antonio Oscar De Carvalho Petersen Filho; juntas receberam R$ 22.693,46. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

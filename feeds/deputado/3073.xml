@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de João Daniel (PT/SE)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3073.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3073.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Fornecedor ligado a servidor ou ex-servidor do gabinete — João Daniel (PT/SE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83deddeb07577b61.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83deddeb07577b61.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Ex-servidor(a) que virou fornecedor: EDS COMUNICACAO LTDA recebeu R$ 84.500,00; Elton Daniel Santos Rezende é sócio(a) desde 06/05/2024 e trabalhou no gabinete (secretário parlamentar, SP19) de 21/06/2022 a 31/10/2023. Pagamentos: R$ 84.500,00 depois do vínculo. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

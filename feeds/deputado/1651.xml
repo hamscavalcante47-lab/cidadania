@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Giacobo (PSD/PR)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1651.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1651.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Fornecedores diferentes com o mesmo dono — Giacobo (PSD/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0aac0df15b4d7252.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0aac0df15b4d7252.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. CALGAN EDITORA GRAFICA LTDA e GALZON EDITORA GRAFICA LTDA: sócio em comum Altemir Roberto Berte; juntas receberam R$ 1.229.304,50. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Giacobo (PSD/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/992ee63c79c0cc0f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/992ee63c79c0cc0f.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. HOTEL CURITIBA CAPITAL S/A e HCC HOTELS GESTAO HOTELEIRA S/A: sócio em comum Elias Rodrigues; juntas receberam R$ 37.670,23. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

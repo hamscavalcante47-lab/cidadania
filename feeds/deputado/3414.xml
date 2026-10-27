@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Greyce Elias (PL/MG)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3414.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3414.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7cc52f68ce910fc8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7cc52f68ce910fc8.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. COOPERATIVA DE TAXI BELVEDERE - COOPERBELVE está baixada desde 11/07/2018, mas emitiu 1 nota(s) depois disso (R$ 185,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/19c29e8cd2d1c8c8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/19c29e8cd2d1c8c8.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. VIACAO PRESIDENTE LTDA está suspensa desde 06/02/2026, mas emitiu 1 nota(s) depois disso (R$ 133,35). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb84214170cdcf4b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb84214170cdcf4b.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. JORNAL GAZETA DE PATROCINIO LTDA foi aberta em 10/08/2023, 127 dias antes da primeira nota (15/12/2023); recebeu R$ 9.440,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c31cc012e591b003.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c31cc012e591b003.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 43.507.754 LUCAS MATEUS DE CASTRO ROSA recebeu R$ 3.350,00 por "divulgação da atividade parlamentar", mas sua atividade é "Instalação de painéis publicitários" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

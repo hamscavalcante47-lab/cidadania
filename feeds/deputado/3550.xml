@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Beto Preto (PSD/PR)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3550.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3550.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Beto Preto (PSD/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8505df2b13b1b32.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8505df2b13b1b32.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. LEO ILGENFRITZ ROCHA NETO ***.966.601-** está baixada desde 15/04/2024, mas emitiu 1 nota(s) depois disso (R$ 60,25). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Beto Preto (PSD/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc44426a993144f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc44426a993144f.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. HAROLDO PEREIRA DA SILVA está baixada desde 02/05/1978, mas emitiu 2 nota(s) depois disso (R$ 51,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Beto Preto (PSD/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/093ed378262ae7aa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/093ed378262ae7aa.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. NUI COMUNICACAO E MARKETING LTDA e GIULIANO B. PAMPLONA LTDA: sócio em comum Giuliano Biagini Pamplona; juntas receberam R$ 45.090,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

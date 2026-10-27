@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Gilson Marques (NOVO/SC)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3357.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3357.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Possível reembolso repetido após conciliação mensal — Gilson Marques (NOVO/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/717e5813910b0f22.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/717e5813910b0f22.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 38914 de Posto Vale Europeu (03/03/2023): 2 lançamentos em 1 competência(s); documento R$ 347,04, valor líquido R$ 694,08, restituições R$ 0,00, saldo R$ 694,08 (excedente R$ 347,04). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Gilson Marques (NOVO/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7bc6294a53a0c0cc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7bc6294a53a0c0cc.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. IKEDA PROJETOS &amp; HOTELARIA LTDA recebeu R$ 2.160,00 por "hospedagem, exceto do parlamentar no distrito federal", mas sua atividade é "Serviços combinados de escritório e apoio administrativo" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Doador da campanha recebendo da cota — Gilson Marques (NOVO/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/67bf6ae2f270b890.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/67bf6ae2f270b890.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. HOTEIS SB KINDERMANN LTDA recebeu R$ 1.825,00 da cota; o sócio Valeria Kindermann Sabadin doou R$ 5.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

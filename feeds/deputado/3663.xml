@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Reimont (PT/RJ)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3663.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3663.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Possível reembolso repetido após conciliação mensal — Reimont (PT/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8ba9317f0610ce5e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8ba9317f0610ce5e.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 11834 de ASSOCIAÇÃO DOS TAXISTAS DO DISTRITO FEDERAL (12/11/2025): 2 lançamentos em 1 competência(s); documento R$ 97,00, valor líquido R$ 194,00, restituições R$ 0,00, saldo R$ 194,00 (excedente R$ 97,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Reimont (PT/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4d9850d6898b2161.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4d9850d6898b2161.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. F. DE A. F. GOMES COMUNICACAO E ARTE: 33 notas em 33 meses, numeradas de 2 a 61 (R$ 236.042,02). Fora deste gabinete, a empresa emitiu no máximo 27 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Reimont (PT/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a2dd3319d295b286.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a2dd3319d295b286.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. CARLEX - TRANSPORTES E SERVICOS LTDA: 6 notas em 6 meses, numeradas de 22 a 35 (R$ 53.200,00). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

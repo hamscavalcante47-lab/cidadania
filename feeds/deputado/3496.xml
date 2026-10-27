@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Marco Brasil (PP/PR)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3496.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3496.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Possível reembolso repetido após conciliação mensal — Marco Brasil (PP/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3714bb0826ce088e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3714bb0826ce088e.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 20079872 de MOVIDA LOCAÇÃO DE VEÍCULOS SA (26/07/2023): 2 lançamentos em 2 competência(s); documento R$ 2.999,10, valor líquido R$ 5.998,20, restituições R$ 0,00, saldo R$ 5.998,20 (excedente R$ 2.999,10). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Marco Brasil (PP/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/67f7341c594775eb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/67f7341c594775eb.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 728767 de CARREFOUR COMERCIO E INDUSTRIA LTDA (16/05/2024): 2 lançamentos em 1 competência(s); documento R$ 168,82, valor líquido R$ 337,64, restituições R$ 0,00, saldo R$ 337,64 (excedente R$ 168,82). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

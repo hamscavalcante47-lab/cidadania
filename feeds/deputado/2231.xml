@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Zé Silva (UNIÃO/MG)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2231.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2231.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Possível reembolso repetido após conciliação mensal — Zé Silva (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/010ffbc7ea8678f8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/010ffbc7ea8678f8.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 42794 de HOTEL LONDON - LTDA (25/06/2025): 2 lançamentos em 1 competência(s); documento R$ 179,20, valor líquido R$ 358,40, restituições R$ 0,00, saldo R$ 358,40 (excedente R$ 179,20). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Zé Silva (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2b23fdbc98ad8010.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2b23fdbc98ad8010.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. CONECTNEWS ASSESSORIA DE IMPRENSA E COMUNICACAO LTDA: 14 notas em 14 meses, numeradas de 588 a 622 (R$ 56.000,00). Fora deste gabinete, a empresa emitiu no máximo 21 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+<title>Cidadania · alertas de Altineu Côrtes (PL/RJ)</title>
+<subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
+<link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3005.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
+<id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3005.xml</id>
+<updated>2026-10-27T20:09:28-03:00</updated>
+<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Altineu Côrtes (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/beac2c89aa6aad5f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/beac2c89aa6aad5f.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. R A NASCIMENTO CONSULTORIA POLITICA está inapta desde 27/05/2026, mas emitiu 1 nota(s) depois disso (R$ 5.300,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Altineu Côrtes (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/891e0c885585e3b6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/891e0c885585e3b6.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. CLIO CRIATIVA AGENCIA DE PUBLICIDADE E MARKETING LTDA e ORACULO COMUNICACAO ESTRATEGICA LTDA: sócio em comum Ingrid Nery Rocha; juntas receberam R$ 612.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Altineu Côrtes (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/38c2d133a3fbad90.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/38c2d133a3fbad90.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ORACULO COMUNICACAO ESTRATEGICA LTDA foi aberta em 16/06/2025, 49 dias antes da primeira nota (04/08/2025); recebeu R$ 170.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Altineu Côrtes (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3760ed88be2b436b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3760ed88be2b436b.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. R A NASCIMENTO CONSULTORIA POLITICA: 31 notas em 32 meses, numeradas de 3 a 62 (R$ 169.600,00). Fora deste gabinete, a empresa emitiu no máximo 29 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Altineu Côrtes (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4ab7f6a0fb3ea55c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4ab7f6a0fb3ea55c.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. oraculo comunicacao estrategica  ltda: 6 notas em 6 meses, numeradas de 1 a 12 (R$ 93.000,00). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry>
+</feed>
