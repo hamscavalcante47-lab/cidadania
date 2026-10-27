@@ -571,6 +571,7 @@ async function iniciarDeputado() {
   desenharEquipe();
 
   marcarSecaoAtual();
+  filtrarAlertasPorTipo();
 
   const area = $("#mapa-gastos");
   if (!area || !Object.keys(dados.ufs).length) return;
@@ -583,6 +584,24 @@ async function iniciarDeputado() {
     p.removeAttribute("role"); p.removeAttribute("aria-pressed"); p.removeAttribute("tabindex");
   });
   dicaNoMapa(area, svg, uf => dados.ufs[uf] ? `<strong>${NOMES_UF[uf]}</strong>${brl(dados.ufs[uf])} em fornecedores sediados aqui` : "");
+}
+
+function filtrarAlertasPorTipo() {
+  const caixa = $("#lista-alertas-deputado"), botoes = caixa && $(".tipos-deputado", caixa);
+  if (!botoes) return;
+  botoes.addEventListener("click", e => {
+    const b = e.target.closest("[data-grupo]"); if (!b) return;
+    const grupo = b.dataset.grupo;
+    botoes.querySelectorAll("[data-grupo]").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    caixa.querySelectorAll(".alerta").forEach(a => a.hidden = !!grupo && a.dataset.grupo !== grupo);
+    // os de gravidade baixa ficam recolhidos: abre a caixa quando o tipo escolhido tem algum lá dentro
+    const baixos = $(".alertas-baixos", caixa);
+    if (baixos) {
+      const visiveis = [...baixos.querySelectorAll(".alerta")].filter(a => !a.hidden).length;
+      baixos.hidden = !visiveis;
+      if (grupo && visiveis) baixos.open = true;
+    }
+  });
 }
 
 function marcarSecaoAtual() {
@@ -603,12 +622,14 @@ async function iniciarAlertas() {
   const [meta, resumo] = await Promise.all([json("dados/alertas-meta.json"), json("dados/resumo.json")]);
   const porGravidade = {};
   const carregar = async g => porGravidade[g] ??= await json(`dados/alertas-${g}.json`);
-  const CAMPOS = [["#f-regra", "regra", "r"], ["#f-grav", "gravidade", "g"], ["#f-uf", "uf", "uf"], ["#f-busca", "busca", "q"],
+  const CAMPOS = [["#f-grav", "gravidade", "g"], ["#f-uf", "uf", "uf"], ["#f-busca", "busca", "q"],
     ["#f-periodo", "periodo", "per"], ["#f-revisao", "revisao", "rev"]];
-  const estado = { regra: "", gravidade: "3", uf: "", busca: "", periodo: "", revisao: "", limite: 50 };
+  const estado = { grupo: "", regra: "", gravidade: "3", uf: "", busca: "", periodo: "", revisao: "", limite: 50 };
   const h = new URLSearchParams(location.hash.slice(1));
   CAMPOS.forEach(([, k, curto]) => { if (h.has(curto)) estado[k] = h.get(curto); });
-  meta.regras.forEach(r => $("#f-regra").insertAdjacentHTML("beforeend", `<option value="${r.codigo}">${esc(r.titulo)}</option>`));
+  const grupoDe = Object.fromEntries(meta.regras.map(r => [r.codigo, r.grupo]));
+  if (h.has("r") && grupoDe[h.get("r")]) { estado.regra = h.get("r"); estado.grupo = grupoDe[estado.regra]; }
+  else if (meta.grupos.some(g => g.chave === h.get("t"))) estado.grupo = h.get("t");
   Object.keys(NOMES_UF).sort().forEach(uf => $("#f-uf").insertAdjacentHTML("beforeend", `<option value="${uf}">${NOMES_UF[uf]}</option>`));
   opcoesPeriodo($("#f-periodo"), resumo.meses);
   CAMPOS.forEach(([s, k]) => { $(s).value = estado[k]; estado[k] = $(s).value; });
@@ -623,7 +644,7 @@ async function iniciarAlertas() {
     const noPeriodo = new Set(indicesPeriodo(resumo.meses, estado.periodo));
     return todos.filter(a => {
       const d = meta.deputados[a.p];
-      return (!estado.regra || a.r === estado.regra) && (!estado.uf || d.uf === estado.uf) &&
+      return (!estado.uf || d.uf === estado.uf) &&
         (!estado.periodo || (a.m !== null && noPeriodo.has(a.m))) &&
         (!estado.revisao || (estado.revisao === "sim") === !!a.s) &&
         (!q || normalizar(`${a.t} ${d.nome} ${d.partido}`).includes(q));
@@ -632,7 +653,9 @@ async function iniciarAlertas() {
 
   async function desenhar() {
     $("#contagem").textContent = "Carregando…";
-    lista = await filtrar();
+    const semTipo = await filtrar();
+    desenharTipos(semTipo);
+    lista = semTipo.filter(a => estado.regra ? a.r === estado.regra : !estado.grupo || grupoDe[a.r] === estado.grupo);
     const revisados = lista.filter(a => a.s).length;
     $("#contagem").textContent = `${lista.length.toLocaleString("pt-BR")} alerta${lista.length === 1 ? "" : "s"}` +
       (estado.periodo ? ` em ${nomePeriodo(estado.periodo)}` : "") + (revisados ? ` · ${revisados} revisado${revisados === 1 ? "" : "s"}` : "");
@@ -652,9 +675,34 @@ async function iniciarAlertas() {
     $("#mais").hidden = resto <= 0;
     $("#mais").textContent = `Mostrar mais ${Math.min(50, resto)} de ${resto} restantes`;
     const p = new URLSearchParams();
+    if (estado.regra) p.set("r", estado.regra); else if (estado.grupo) p.set("t", estado.grupo);
     CAMPOS.forEach(([, k, curto]) => { if (estado[k] !== (k === "gravidade" ? "3" : "")) p.set(curto, estado[k]); });
     history.replaceState(null, "", p.toString() ? `#${p}` : location.pathname);
   }
+  // botões de tipo de achado: família primeiro, depois o tipo dentro dela
+  function desenharTipos(semTipo) {
+    const porRegra = {}, porGrupo = {};
+    semTipo.forEach(a => { porRegra[a.r] = (porRegra[a.r] || 0) + 1; porGrupo[grupoDe[a.r]] = (porGrupo[grupoDe[a.r]] || 0) + 1; });
+    const botao = (classe, dados, ativo, rotulo, n, titulo = "") => `<button type="button" class="${classe}" ${dados}
+      aria-pressed="${ativo}"${titulo ? ` title="${esc(titulo)}"` : ""}${n || ativo ? "" : " disabled"}>${esc(rotulo)}<span class="num">${n.toLocaleString("pt-BR")}</span></button>`;
+    $("#tipos-grupos").innerHTML = botao("tipo-grupo", `data-grupo=""`, !estado.grupo, "Todos", semTipo.length) +
+      meta.grupos.map(g => botao("tipo-grupo", `data-grupo="${g.chave}"`, estado.grupo === g.chave, g.nome, porGrupo[g.chave] || 0, g.descricao)).join("");
+    const regras = meta.regras.filter(r => r.grupo === estado.grupo && (porRegra[r.codigo] || r.codigo === estado.regra))
+      .sort((a, b) => (porRegra[b.codigo] || 0) - (porRegra[a.codigo] || 0));
+    $("#tipos-regras").hidden = !estado.grupo;
+    $("#tipos-regras").innerHTML = !estado.grupo ? "" :
+      botao("chip", `data-regra=""`, !estado.regra, `Todos de ${meta.grupos.find(g => g.chave === estado.grupo).nome.toLowerCase()}`, porGrupo[estado.grupo] || 0) +
+      regras.map(r => botao("chip", `data-regra="${r.codigo}"`, estado.regra === r.codigo, r.titulo, porRegra[r.codigo] || 0)).join("") +
+      (regras.length ? "" : `<span class="tipos-vazio">Nenhum achado desta família com os filtros atuais.</span>`);
+  }
+  $("#tipos-grupos").addEventListener("click", e => {
+    const b = e.target.closest("[data-grupo]"); if (!b) return;
+    estado.grupo = estado.grupo === b.dataset.grupo ? "" : b.dataset.grupo; estado.regra = ""; estado.limite = 50; desenhar();
+  });
+  $("#tipos-regras").addEventListener("click", e => {
+    const b = e.target.closest("[data-regra]"); if (!b) return;
+    estado.regra = estado.regra === b.dataset.regra ? "" : b.dataset.regra; estado.limite = 50; desenhar();
+  });
   CAMPOS.forEach(([s, k]) => $(s).addEventListener("input", e => { estado[k] = e.target.value; estado.limite = 50; desenhar(); }));
   $("#mais").addEventListener("click", () => { estado.limite += 50; desenhar(); });
   $("#f-csv").addEventListener("click", () => baixarCSV("alertas-cota-parlamentar.csv",
