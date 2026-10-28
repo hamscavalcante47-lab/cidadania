@@ -225,7 +225,7 @@ h3 { font-size: 20px; font-weight: 600; }
 [data-pagina="pedidos"] { --aquarela: url("topo-pedidos-2400.webp"); --aquarela-p: url("topo-pedidos-1280.webp"); }
 [data-pagina="fornecedor"] { --aquarela: url("topo-fornecedor-2400.webp"); --aquarela-p: url("topo-fornecedor-1280.webp"); }
 /* a Esplanada fica na borda de baixo da imagem: faixa mais baixa, alinhada por baixo */
-[data-pagina="deputado"], [data-pagina="estado"] {
+[data-pagina="deputado"], [data-pagina="estado"], [data-pagina="veiculos"] {
   --aquarela: url("topo-esplanada-2400.webp"); --aquarela-p: url("topo-esplanada-1280.webp"); --aquarela-pos: center 96%; --aquarela-h: 470px; }
 main { position: relative; isolation: isolate; }
 main::before { content: ""; position: absolute; z-index: -1; top: -160px; left: 0; right: 0; height: var(--aquarela-h, 720px); pointer-events: none;
@@ -560,6 +560,11 @@ p.vazio::before, li.vazio::before { content: ""; position: absolute; inset: 0; z
 .familias { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0 0 16px; padding: 0; font-size: 14px; color: var(--tinta-2); }
 .familias li { padding: 6px 12px; border-radius: var(--pilula); background: var(--papel); border: 1px solid var(--linha); }
 .familias b { font-family: var(--mono); font-weight: 500; color: var(--tinta); }
+/* modelos alugados por um gabinete, acima da tabela de aluguéis */
+.frota { padding: 20px 24px 4px; margin: 0; }
+.frota b { font-family: var(--texto); font-weight: 600; }
+.frota .num { color: var(--verde); margin-left: 4px; }
+td.periodo { white-space: nowrap; }
 .lista-estado { display: inline-block; margin-top: 4px; font-size: 14px; font-weight: 600; text-decoration: none; }
 .rotulo a { color: inherit; }
 
