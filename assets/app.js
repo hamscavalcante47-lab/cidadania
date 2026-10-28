@@ -323,6 +323,96 @@ function graficoBarras(el, itens, { ativos = new Set(), aoClicar } = {}) {
   }
 }
 
+// Várias linhas no mesmo eixo, uma por tipo de gasto. Cada série traz `cor` (1 a 8, ou 0 para "Outros"): a cor
+// segue o tipo no site inteiro, e esconder uma linha na legenda não repinta as outras. Com o cursor num mês, a dica
+// lista o valor de cada linha; "Ver em tabela" mostra os mesmos números sem depender da cor.
+function graficoLinhas(el, meses, series, opcoes = {}) {
+  const { altura = 300, parciais = 0 } = opcoes;
+  const ocultas = opcoes.ocultas || (opcoes.ocultas = new Set());
+  const tabelaAberta = !!el.querySelector("details[open]");
+  lembrar(el, () => graficoLinhas(el, meses, series, opcoes));
+  const visiveis = series.filter(s => !ocultas.has(s.nome));
+  const L = largura(el), H = altura, m = { e: 58, d: 12, t: 22, b: 26 };
+  const todos = visiveis.flatMap(s => s.valores);
+  const max = Math.max(1, ...todos), min = Math.min(0, ...todos);
+  // marcas "redondas" (1, 2, 2,5 ou 5 × 10ⁿ); o eixo só desce abaixo de zero se o negativo pesar de verdade:
+  // um estorno de R$ 13 mil num mês de R$ 15 milhões não justifica meia escala vazia
+  const bruto = (max - min) / 4, ordem = Math.pow(10, Math.floor(Math.log10(bruto)));
+  const passo = [1, 2, 2.5, 5, 10].map(f => f * ordem).find(p => p >= bruto);
+  const topo = Math.ceil(max / passo) * passo, base = min < -0.03 * max ? Math.floor(min / passo) * passo : 0;
+  const x = i => m.e + i * (L - m.e - m.d) / Math.max(1, meses.length - 1);
+  const y = v => H - m.b - (v - base) / (topo - base) * (H - m.t - m.b);
+  const cor = s => `var(--serie-${s.cor || "outros"})`;
+  const caminho = s => s.valores.map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join("");
+  const marcas = Array.from({ length: Math.round((topo - base) / passo) + 1 }, (_, k) => base + k * passo);
+  const grade = marcas.map(v =>
+    `<line class="grade" x1="${m.e}" x2="${L - m.d}" y1="${y(v)}" y2="${y(v)}"/>
+     <text class="eixo" x="${m.e - 8}" y="${y(v) + 4}" text-anchor="end">${brlCurto(v).replace("R$ ", "")}</text>`).join("");
+  const anos = meses.map((a, i) => [a, i]).filter(([a]) => a % 100 === 1).map(([a, i]) =>
+    `<line class="grade" x1="${x(i)}" x2="${x(i)}" y1="${m.t}" y2="${H - m.b}" stroke-dasharray="2 4"/>
+     <text class="eixo" x="${x(i) + 4}" y="${H - 8}">${Math.floor(a / 100)}</text>`).join("");
+  const passoX = (L - m.e - m.d) / Math.max(1, meses.length - 1);
+  const iParcial = meses.length - parciais;
+  const faixaParcial = parciais > 0 && iParcial > 0 ? `<rect fill="url(#hachura-linhas)" x="${x(iParcial) - passoX / 2}" y="${m.t}"
+      width="${L - m.d - x(iParcial) + passoX / 2}" height="${H - m.t - m.b}"/>
+    <text class="rot-parcial" x="${L - m.d}" y="${m.t - 8}" text-anchor="end">incompleto</text>` : "";
+  const alvos = meses.map((_, i) => `<rect class="alvo" data-i="${i}" x="${x(i) - passoX / 2}" y="${m.t}" width="${passoX}" height="${H - m.t - m.b}"/>`).join("");
+  const legenda = `<div class="legenda-series" role="group" aria-label="Mostrar ou esconder linhas">${series.map(s =>
+    `<button type="button" class="serie" aria-pressed="${!ocultas.has(s.nome)}" data-nome="${esc(s.nome)}" style="--cor:${cor(s)}"><i aria-hidden="true"></i>${esc(s.nome)}</button>`).join("")}</div>`;
+  const soma = i => series.reduce((t, s) => t + s.valores[i], 0);
+  const tabela = `<details class="tabela-serie"${tabelaAberta ? " open" : ""}><summary>Ver em tabela</summary>
+    <div class="rolagem tabela-alta"><table><tr><th>Mês</th>${series.map(s => `<th class="n">${esc(s.nome)}</th>`).join("")}<th class="n">Total</th></tr>
+    ${meses.map((mes, i) => `<tr><td>${nomeMes(mes)}</td>${series.map(s => `<td class="n">${brl(s.valores[i])}</td>`).join("")}
+      <td class="n">${brl(soma(i))}</td></tr>`).reverse().join("")}</table></div></details>`;
+  el.innerHTML = `${legenda}<div class="plano"><svg viewBox="0 0 ${L} ${H}" role="img"
+      aria-label="Gasto mensal por tipo: ${esc(visiveis.map(s => s.nome).join(", "))}. Os valores estão na tabela abaixo.">
+    <defs><pattern id="hachura-linhas" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line class="hachura-traco" x1="0" y1="0" x2="0" y2="6"/></pattern></defs>
+    ${grade}${anos}${faixaParcial}
+    ${visiveis.map(s => `<path class="linha-s" style="--cor:${cor(s)}" d="${caminho(s)}"/>`).join("")}
+    <g class="cursor" style="display:none"><line class="marca-v" y1="${m.t}" y2="${H - m.b}"/>
+      ${visiveis.map(s => `<circle class="ponto-s" r="4" style="--cor:${cor(s)}"/>`).join("")}</g>
+    ${alvos}</svg><div class="dica" hidden></div></div>${tabela}`;
+  const svg = $("svg", el), cursor = $(".cursor", el), dica = $(".dica", el), pontos = [...cursor.querySelectorAll("circle")];
+  svg.addEventListener("pointermove", e => {
+    const r = e.target.closest(".alvo"); if (!r) return;
+    const i = +r.dataset.i;
+    cursor.style.display = "";
+    $("line", cursor).setAttribute("x1", x(i)); $("line", cursor).setAttribute("x2", x(i));
+    pontos.forEach((p, k) => { p.setAttribute("cx", x(i)); p.setAttribute("cy", y(visiveis[k].valores[i])); });
+    const linhas = visiveis.map(s => [s, s.valores[i]]).sort((a, b) => b[1] - a[1]);
+    dica.innerHTML = `<strong>${nomeMesLongo(meses[i])}</strong>` + linhas.map(([s, v]) =>
+      `<span class="linha-dica" style="--cor:${cor(s)}"><i></i>${esc(s.nome)}<b>${brl(v)}</b></span>`).join("") +
+      (linhas.length > 1 ? `<span class="linha-dica total">Total<b>${brl(linhas.reduce((t, [, v]) => t + v, 0))}</b></span>` : "") +
+      (i >= iParcial ? `<small>mês ainda recebendo notas</small>` : "");
+    // a dica fica ao lado do cursor, do lado com mais espaço, para não cobrir as linhas do mês
+    const escala = svg.getBoundingClientRect().width / L, direita = x(i) < L / 2;
+    dica.hidden = false;
+    dica.style.left = `${x(i) * escala}px`; dica.style.top = `${(H / 2) * escala}px`;
+    dica.style.translate = direita ? "14px -50%" : "calc(-100% - 14px) -50%";
+  });
+  svg.addEventListener("pointerleave", () => { cursor.style.display = "none"; dica.hidden = true; });
+  el.onclick = e => {
+    const b = e.target.closest(".serie"); if (!b) return;
+    const nome = b.dataset.nome;
+    if (ocultas.has(nome)) ocultas.delete(nome);
+    else if (series.length - ocultas.size > 1) ocultas.add(nome);  // sempre sobra uma linha
+    graficoLinhas(el, meses, series, opcoes);
+  };
+}
+
+// páginas de gastos: a de cada tipo tem uma linha só; a geral, uma linha por tipo
+function iniciarGastos() {
+  const um = $("#dados-gasto"), varios = $("#dados-gastos");
+  if (um) {
+    const d = JSON.parse(um.textContent);
+    graficoLinha($("#gasto-mensal"), d.meses, d.valores, { altura: 240, parciais: d.parciais });
+  }
+  if (varios) {
+    const d = JSON.parse(varios.textContent);
+    graficoLinhas($("#gastos-mensal"), d.meses, d.series, { parciais: d.parciais });
+  }
+}
+
 function pills(d) {
   const p = [];
   if (d.g3) p.push(`<span class="pill g3">${d.g3} alta${d.g3 > 1 ? "s" : ""}</span>`);
@@ -565,6 +655,20 @@ async function iniciarDeputado() {
 
   const [detalhe, resumo] = await Promise.all([json(`dados/dep/${dados.id}.json`), json("dados/resumo.json")]);
   resumo.categorias.forEach((c, i) => $("#d-categoria").insertAdjacentHTML("beforeend", `<option value="${i}">${esc(c)}</option>`));
+
+  // gastos por tipo, mês a mês: as cores vêm de resumo.cores, as mesmas da página Gastos; ajustes (-1) ficam de fora
+  const porTipo = new Map();
+  detalhe.d.forEach(r => {
+    const corTipo = resumo.cores?.[r[2]] ?? 0;
+    if (corTipo < 0) return;
+    const nome = corTipo ? resumo.categorias[r[2]] : "Outros";
+    if (!porTipo.has(nome)) porTipo.set(nome, { nome, cor: corTipo, valores: meses.map(() => 0) });
+    porTipo.get(nome).valores[r[0]] += r[5];
+  });
+  const seriesTipo = [...porTipo.values()].filter(s => s.valores.some(Boolean)).sort((a, b) => (a.cor || 99) - (b.cor || 99));
+  seriesTipo.forEach(s => { s.valores = s.valores.map(Math.round); });
+  if (seriesTipo.length) graficoLinhas($("#mensal-tipos"), meses, seriesTipo, { parciais: dados.parciais });
+  else $("#mensal-tipos").innerHTML = `<span class="cat">Nenhuma despesa registrada.</span>`;
   const linkNota = r => {
     const ano = r[8] || Math.floor(meses[r[0]] / 100);
     if (r[7] === 0) return `https://www.camara.leg.br/cota-parlamentar/documentos/publ/${dados.id}/${ano}/${r[6]}.pdf`;
@@ -818,4 +922,4 @@ document.addEventListener("click", async e => {
 
 iniciarBusca();
 document.querySelectorAll("table.ordenavel").forEach(t => tabelaOrdenavel(t));
-({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: iniciarAlertas, ranking: iniciarRanking })[document.body.dataset.pagina]?.();
+({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: iniciarAlertas, ranking: iniciarRanking, gastos: iniciarGastos })[document.body.dataset.pagina]?.();
