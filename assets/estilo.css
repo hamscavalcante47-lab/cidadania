@@ -225,7 +225,7 @@ h3 { font-size: 20px; font-weight: 600; }
 [data-pagina="pedidos"] { --aquarela: url("topo-pedidos-2400.webp"); --aquarela-p: url("topo-pedidos-1280.webp"); }
 [data-pagina="fornecedor"] { --aquarela: url("topo-fornecedor-2400.webp"); --aquarela-p: url("topo-fornecedor-1280.webp"); }
 /* a Esplanada fica na borda de baixo da imagem: faixa mais baixa, alinhada por baixo */
-[data-pagina="deputado"], [data-pagina="estado"], [data-pagina="veiculos"] {
+[data-pagina="deputado"], [data-pagina="estado"], [data-pagina="gastos"] {
   --aquarela: url("topo-esplanada-2400.webp"); --aquarela-p: url("topo-esplanada-1280.webp"); --aquarela-pos: center 96%; --aquarela-h: 470px; }
 main { position: relative; isolation: isolate; }
 main::before { content: ""; position: absolute; z-index: -1; top: -160px; left: 0; right: 0; height: var(--aquarela-h, 720px); pointer-events: none;
@@ -565,6 +565,31 @@ p.vazio::before, li.vazio::before { content: ""; position: absolute; inset: 0; z
 .frota b { font-family: var(--texto); font-weight: 600; }
 .frota .num { color: var(--verde); margin-left: 4px; }
 td.periodo { white-space: nowrap; }
+
+/* ---------------------------------------------------------------- gastos por tipo */
+/* abas com todos os tipos: rolam na horizontal, com a ativa em destaque */
+.abas { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin: 4px 0 0; padding: 4px 2px 8px;
+  -webkit-mask-image: linear-gradient(90deg, #000 92%, transparent); mask-image: linear-gradient(90deg, #000 92%, transparent); }
+.abas::-webkit-scrollbar { display: none; }
+.abas a { flex: none; padding: 8px 15px; border-radius: var(--pilula); background: var(--vidro); border: 1px solid var(--linha);
+  color: var(--tinta-2); text-decoration: none; font-size: 14px; font-weight: 500; white-space: nowrap;
+  transition: background .2s, color .2s, border-color .2s, transform .2s var(--suave); }
+.abas a:hover { color: var(--tinta); border-color: color-mix(in srgb, var(--verde) 35%, var(--linha)); transform: translateY(-1px); }
+.abas a[aria-current] { background: var(--verde); border-color: var(--verde); color: var(--sobre-verde); box-shadow: var(--sombra-verde); }
+.abas + .kpis { margin-top: 24px; }
+.kpis-juntos { margin-top: 0; }
+.gastos-grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.gasto { display: flex; flex-direction: column; gap: 8px; padding: 20px 22px; color: inherit; text-decoration: none;
+  transition: transform .35s var(--suave), box-shadow .35s var(--suave), border-color .35s; }
+.gasto:hover { transform: translateY(-3px); box-shadow: var(--sombra-alta); border-color: color-mix(in srgb, var(--verde) 30%, var(--linha)); color: inherit; }
+.gasto-nome { font-weight: 600; line-height: 1.35; min-height: 2.7em; }
+.gasto b { font: 500 28px/1.1 var(--display); letter-spacing: -0.015em; }
+.gasto .trilho { height: 6px; background: var(--fundo); border-radius: var(--pilula); overflow: hidden; }
+.gasto .trilho span { display: block; height: 100%; background: linear-gradient(90deg, var(--escala-2), var(--verde)); border-radius: var(--pilula);
+  transform-origin: left; animation: crescer 1s var(--suave) both; }
+.gasto-meta { font-size: 13px; color: var(--tinta-2); }
+.barra a { color: inherit; text-decoration: none; }
+.barra a:hover { color: var(--verde); text-decoration: underline; }
 .lista-estado { display: inline-block; margin-top: 4px; font-size: 14px; font-weight: 600; text-decoration: none; }
 .rotulo a { color: inherit; }
 
