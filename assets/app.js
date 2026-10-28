@@ -25,6 +25,9 @@ const MESES_LONGOS = ["janeiro", "fevereiro", "março", "abril", "maio", "junho"
 const nomeMesLongo = aaaamm => `${MESES_LONGOS[aaaamm % 100 - 1]} de ${Math.floor(aaaamm / 100)}`;
 const pct = v => `${Math.round(v * 100)}%`;
 const SEM_FOTO = `onerror="this.style.visibility='hidden'"`;
+// quem não é titular eleito (deputados.json, campo "c"): há mais deputados com despesas que as 513 cadeiras
+const CONDICAO = { s: "suplente", e: "suplente efetivado", a: "sem mandato nesta legislatura" };
+const condicao = d => d.c ? ` · <span class="condicao">${CONDICAO[d.c]}</span>` : "";
 
 // ------------------------------------------------------------------ período (toda a legislatura, um ano ou um mês)
 // O valor é "" (tudo), "2025" (ano) ou "202503" (mês); `meses` é a lista AAAAMM publicada em resumo.json.
@@ -502,7 +505,7 @@ async function iniciarInicio() {
     $("#linhas").innerHTML = lista.slice(0, estado.limite).map(({ d, v, a, lim }) => `
       <li><a class="linha" href="deputado/${d.id}.html">
         <img class="foto" src="${esc(d.f)}" alt="" loading="lazy" decoding="async" width="44" height="44" ${SEM_FOTO}>
-        <span><span class="nome">${esc(d.n)}</span><br><span class="meta">${esc(d.p)} · ${esc(d.uf)}${d.x ? "" : " · fora do exercício"}${estado.periodo && lim ? ` · ${pct(v / lim)} da cota` : ""}</span></span>
+        <span><span class="nome">${esc(d.n)}</span><br><span class="meta">${esc(d.p)} · ${esc(d.uf)}${condicao(d)}${d.x || d.c === "a" ? "" : " · fora do exercício"}${estado.periodo && lim ? ` · ${pct(v / lim)} da cota` : ""}</span></span>
         <span class="direita"><span class="total">${brl(v)}</span><br>${pills(a)}</span>
       </a></li>`).join("") || `<li class="vazio">Nenhum deputado encontrado. Tire algum filtro de partido ou limpe a busca.</li>`;
     const resto = lista.length - estado.limite;
@@ -589,7 +592,8 @@ async function iniciarInicio() {
 
 // ------------------------------------------------------------------ ranking
 async function iniciarRanking() {
-  const [deputados, resumo] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json")]);
+  const [deputados, resumo, presenca] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json"),
+    json("dados/presenca.json").catch(() => ({}))]);
   const meses = resumo.meses;
   // padrão: o mês mais recente já "fechado" (os últimos ainda recebem notas por até 90 dias)
   const totais = meses.map((_, i) => deputados.reduce((s, d) => s + (d.m[i] || 0), 0));
@@ -602,8 +606,52 @@ async function iniciarRanking() {
   [...new Set(deputados.map(d => d.p))].sort().forEach(p => $("#r-partido").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
   $("#r-ordem").value = estado.ordem; $("#r-uf").value = estado.uf; $("#r-partido").value = estado.partido;
 
+  // presença: [índice do mês, dias com sessão, dias presente, faltas sem justificativa] por deputado
+  function desenharPresenca(idx) {
+    const conjunto = new Set(idx);
+    const linhas = deputados.filter(d => presenca[d.id] && (!estado.uf || d.uf === estado.uf) && (!estado.partido || d.p === estado.partido))
+      .map(d => {
+        const x = { d, dias: 0, pres: 0, faltas: 0 };
+        presenca[d.id].forEach(([i, dias, pres, faltas]) => { if (conjunto.has(i)) { x.dias += dias; x.pres += pres; x.faltas += faltas; } });
+        return x;
+      })
+      .filter(x => x.dias > 0);
+    const taxa = x => x.pres / x.dias;
+    linhas.sort(estado.ordem === "faltas" ? (a, b) => b.faltas - a.faltas || taxa(a) - taxa(b) : (a, b) => taxa(a) - taxa(b) || b.faltas - a.faltas);
+    const barra = x => estado.ordem === "faltas" ? x.faltas : 1 - taxa(x);
+    const max = Math.max(...linhas.map(barra), 1e-9);
+    const faltas = linhas.reduce((s, x) => s + x.faltas, 0);
+    const semFalta = linhas.filter(x => !x.faltas).length;
+    $("#r-resumo").textContent = linhas.length
+      ? `${linhas.length} deputados em exercício em dias de sessão em ${nomePeriodo(estado.periodo)} · ${faltas.toLocaleString("pt-BR")} faltas sem justificativa no total · ${semFalta} sem nenhuma`
+      : "";
+    $("#r-lista").innerHTML = linhas.slice(0, estado.limite).map((x, k) => `<li><a href="deputado/${x.d.id}.html#presenca">
+        <span class="pos">${k + 1}º</span>
+        <img class="foto" src="${esc(x.d.f)}" alt="" loading="lazy" decoding="async" width="44" height="44" ${SEM_FOTO}>
+        <span><span class="nome">${esc(x.d.n)}</span><br><span class="meta">${esc(x.d.p)} · ${esc(x.d.uf)}${condicao(x.d)}</span></span>
+        <span class="trilho" aria-hidden="true"><span style="width:${(100 * barra(x) / max).toFixed(1)}%"></span></span>
+        <span class="valores">${estado.ordem === "faltas" ? `${x.faltas} falta${x.faltas === 1 ? "" : "s"}` : pct(taxa(x))}<small>${estado.ordem === "faltas"
+          ? `sem justificativa · ${pct(taxa(x))} de presença` : `de presença · ${x.faltas} falta${x.faltas === 1 ? "" : "s"} sem justificativa`} em ${x.dias} dia${x.dias === 1 ? "" : "s"} de sessão</small></span>
+      </a></li>`).join("") || `<li class="vazio">Nenhum dia de sessão no Plenário nesse recorte.</li>`;
+    $("#r-mais").hidden = linhas.length <= estado.limite;
+  }
+
   function desenhar() {
     const idx = indicesPeriodo(meses, estado.periodo);
+    const modoPresenca = estado.ordem === "faltas" || estado.ordem === "presenca";
+    $("#r-titulo").textContent = modoPresenca ? "Quem mais faltou" : "Quem mais gastou";
+    $("#r-lead-gasto").hidden = $("#r-aviso-gasto").hidden = modoPresenca;
+    $("#r-lead-presenca").hidden = !modoPresenca;
+    if (modoPresenca) desenharPresenca(idx);
+    else desenharGasto(idx);
+    const p = new URLSearchParams({ per: estado.periodo });
+    if (estado.ordem !== "gasto") p.set("o", estado.ordem);
+    if (estado.uf) p.set("uf", estado.uf);
+    if (estado.partido) p.set("p", estado.partido);
+    history.replaceState(null, "", `#${p}`);
+  }
+
+  function desenharGasto(idx) {
     const linhas = deputados.filter(d => (!estado.uf || d.uf === estado.uf) && (!estado.partido || d.p === estado.partido))
       .map(d => {
         const v = somar(d.m, idx);
@@ -622,16 +670,11 @@ async function iniciarRanking() {
     $("#r-lista").innerHTML = linhas.slice(0, estado.limite).map((x, k) => `<li><a href="deputado/${x.d.id}.html#per=${estado.periodo}">
         <span class="pos">${k + 1}º</span>
         <img class="foto" src="${esc(x.d.f)}" alt="" loading="lazy" decoding="async" width="44" height="44" ${SEM_FOTO}>
-        <span><span class="nome">${esc(x.d.n)}</span><br><span class="meta">${esc(x.d.p)} · ${esc(x.d.uf)}</span></span>
+        <span><span class="nome">${esc(x.d.n)}</span><br><span class="meta">${esc(x.d.p)} · ${esc(x.d.uf)}${condicao(x.d)}</span></span>
         <span class="trilho" aria-hidden="true"><span style="width:${(100 * x.v / max).toFixed(1)}%"></span></span>
         <span class="valores">${brl(x.v)}<small>${x.cota ? `${pct(x.cota)} do limite` : ""}${x.salto ? ` · ${x.salto.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}× a própria média` : ""}</small></span>
       </a></li>`).join("") || `<li class="vazio">Nenhum deputado com despesas nesse recorte.</li>`;
     $("#r-mais").hidden = linhas.length <= estado.limite;
-    const p = new URLSearchParams({ per: estado.periodo });
-    if (estado.ordem !== "gasto") p.set("o", estado.ordem);
-    if (estado.uf) p.set("uf", estado.uf);
-    if (estado.partido) p.set("p", estado.partido);
-    history.replaceState(null, "", `#${p}`);
   }
   [["#r-periodo", "periodo"], ["#r-ordem", "ordem"], ["#r-uf", "uf"], ["#r-partido", "partido"]].forEach(([s, k]) =>
     $(s).addEventListener("change", e => { estado[k] = e.target.value; estado.limite = 50; desenhar(); }));

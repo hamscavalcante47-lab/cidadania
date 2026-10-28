@@ -17,9 +17,9 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M5%202h14v20l-2.33-1.6-2.34%201.6-2.33-1.6-2.33%201.6-2.34-1.6L5%2022z%22%20fill%3D%22%230d5c45%22/%3E%3Cpath%20d%3D%22M8.5%207.5h7M8.5%2011h7M8.5%2014.5h4%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="assets/estilo.css?v=8abb0878">
+<link rel="stylesheet" href="assets/estilo.css?v=e9ca54cd">
 </head>
-<body data-pagina="metodologia" data-raiz="" data-versao="202610280847">
+<body data-pagina="metodologia" data-raiz="" data-versao="202610281015">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo"><div class="cont">
   <a class="marca" href="index.html"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0d5c45"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>Cidadania<small>cota parlamentar aberta</small></span></a>
@@ -40,7 +40,7 @@
   <h1>Como funciona</h1>
   <p class="lead">De onde vêm os dados, como os alertas são gerados e o que eles significam, e o que não significam.</p>
   <nav class="sumario" aria-label="Nesta página"><a href="#cota">A cota</a><a href="#fontes">Fontes</a><a href="#regras">Regras</a>
-    <a href="#revisao">Revisão</a><a href="#limites">Limites</a><a href="#glossario">Glossário</a><a href="#correcoes">Correções</a>
+    <a href="#revisao">Revisão</a><a href="#limites">Limites</a><a href="#mandatos">Titulares e suplentes</a><a href="#presenca">Presença</a><a href="#glossario">Glossário</a><a href="#correcoes">Correções</a>
     <a href="imprensa.html">Para jornalistas</a></nav>
 
   <h2 id="cota">O que é a cota parlamentar</h2>
@@ -55,6 +55,8 @@
       usamos leitura óptica (OCR). Até agora, 265.049 notas foram lidas.</li>
     <li><strong>Receita Federal:</strong> situação, data de abertura, atividade e sócios de cada empresa fornecedora.</li>
     <li><strong>TSE:</strong> doações recebidas e fornecedores contratados nas campanhas de 2022.</li>
+    <li><strong>Presença em Plenário:</strong> a frequência de cada deputado em cada dia com sessão deliberativa, publicada
+      pela Câmara.</li>
   </ul>
 
   <h2 id="regras">Regras de alerta</h2>
@@ -82,8 +84,32 @@
     <li>Um alerta não é prova de irregularidade nem acusação contra ninguém.</li>
   </ul>
 
+  <h2 id="mandatos">Titulares e suplentes</h2>
+  <p>A Câmara tem 513 cadeiras, mas 656 deputados aparecem nas despesas desde fevereiro de 2023.
+  Quando um titular se afasta (licença de saúde, para ser ministro ou secretário de Estado, renúncia, perda do mandato),
+  um suplente assume a cadeira e passa a usar a cota; 126 suplentes estão nesta situação, e alguns
+  foram efetivados, quando o titular saiu de vez. Outros 10 não exerceram mandato nesta legislatura:
+  só têm reembolsos registrados depois do fim do mandato anterior.</p>
+  <p>A página de cada deputado diz se é titular ou suplente, quando esteve em exercício e por que saiu, segundo o histórico
+  que a Câmara publica. A Câmara não informa de quem é a cadeira que o suplente ocupa: ela é deduzida pelo estado e pela
+  data, ligando a posse do suplente ao afastamento de um deputado do mesmo estado nos 15 dias anteriores.
+  Quando dois deputados do estado se afastam no mesmo dia, a página não aponta nenhum.</p>
+
+  <h2 id="presenca">Presença em Plenário</h2>
+  <p>Para cada dia com sessão deliberativa, a Câmara registra se o deputado em exercício esteve presente, faltou com
+  justificativa aceita (licença para tratamento de saúde, missão autorizada, decisão da Mesa, obrigação
+  político-partidária) ou faltou sem justificativa. A página de cada deputado soma esses dias por mês e por ano, lista
+  as datas das faltas sem justificativa e leva ao registro oficial; o <a href="ranking.html#per=&amp;o=faltas">ranking</a>
+  ordena por faltas ou por presença. Só contam os dias em que o deputado estava no exercício do mandato, então suplentes
+  e titulares licenciados são comparados pelo tempo que de fato exerceram.</p>
+  <p>Quando o deputado falta a uma sessão da Câmara com justificativa mas vai a outra sessão do mesmo dia, como uma
+  sessão conjunta do Congresso, a Câmara marca o dia como “Presença (~)”; aqui ele conta como presença, igual ao
+  registro oficial. Dias que tiveram só sessão conjunta do Congresso (um em 2024) não estão nos dados que a Câmara
+  publica por dia; por isso a página oficial pode mostrar um dia de sessão a mais por ano. “Sem justificativa” é o
+  que consta no registro oficial: diz que a Câmara não recebeu ou não aceitou um motivo, não por que o deputado faltou.</p>
+
   <h2 id="glossario">Glossário</h2>
-  <dl class="glossario"><div><dt>Cota parlamentar (CEAP)</dt><dd>Cota para o Exercício da Atividade Parlamentar: valor mensal que a Câmara reembolsa a cada deputado por gastos do mandato, mediante nota fiscal. Não inclui salário nem a verba de gabinete.</dd></div><div><dt>Limite mensal da cota</dt><dd>Varia por estado, porque inclui as passagens até Brasília. O saldo não usado se acumula dentro do mesmo ano; membros da Mesa e líderes podem ter valores maiores.</dd></div><div><dt>Valor reembolsado</dt><dd>O valor líquido da despesa: o valor da nota menos as glosas (partes que a Câmara recusou pagar).</dd></div><div><dt>Passagem aérea emitida pela Câmara, RPA e reembolso</dt><dd>Três tipos de gasto com passagens: as compradas pelo sistema da Câmara (SIGEPA), as registradas como RPA (emitidas por Azul, Gol e Latam) e as pagas pelo deputado e reembolsadas depois.</dd></div><div><dt>Verba de gabinete</dt><dd>Dinheiro separado da cota, usado só para pagar a equipe do gabinete (secretários parlamentares).</dd></div><div><dt>SP01 a SP25, CNE</dt><dd>Níveis salariais dos secretários parlamentares (SP) e cargos de natureza especial (CNE), como aparecem na página de cada deputado no site da Câmara.</dd></div><div><dt>NF-e, NFC-e e chave de acesso</dt><dd>Notas fiscais eletrônicas. A chave de acesso tem 44 dígitos e traz o CNPJ de quem emitiu, o mês de emissão, o número da nota e um dígito verificador.</dd></div><div><dt>CNPJ, CNAE e MEI</dt><dd>CNPJ é o cadastro da empresa na Receita Federal; CNAE, o código da atividade econômica; MEI, o microempreendedor individual, que só pode faturar até R$ 81 mil por ano.</dd></div><div><dt>Situação cadastral</dt><dd>Ativa, baixada (encerrada), inapta, suspensa ou nula. Só empresa ativa pode emitir nota fiscal válida.</dd></div><div><dt>Gravidade</dt><dd>Alta, média ou baixa: o quanto o padrão, sozinho, pede explicação. Não é uma medida de culpa.</dd></div><div><dt>Revisão</dt><dd>Conferência do alerta nos documentos. Pode ser feita por uma pessoa ou assistida por agentes de IA (revisão assistida), e cada alerta diz qual. Confirmado: o indício se mantém. Descartado: havia explicação, e o alerta sai das listas (a página permanente continua no ar). Sem conclusão: os documentos públicos não bastam para decidir. Revisão pendente: ainda não conferido.</dd></div><div><dt>LAI</dt><dd>Lei de Acesso à Informação (Lei nº 12.527/2011), usada para pedir à Câmara documentos que não estão publicados.</dd></div></dl>
+  <dl class="glossario"><div><dt>Cota parlamentar (CEAP)</dt><dd>Cota para o Exercício da Atividade Parlamentar: valor mensal que a Câmara reembolsa a cada deputado por gastos do mandato, mediante nota fiscal. Não inclui salário nem a verba de gabinete.</dd></div><div><dt>Limite mensal da cota</dt><dd>Varia por estado, porque inclui as passagens até Brasília. O saldo não usado se acumula dentro do mesmo ano; membros da Mesa e líderes podem ter valores maiores.</dd></div><div><dt>Valor reembolsado</dt><dd>O valor líquido da despesa: o valor da nota menos as glosas (partes que a Câmara recusou pagar).</dd></div><div><dt>Passagem aérea emitida pela Câmara, RPA e reembolso</dt><dd>Três tipos de gasto com passagens: as compradas pelo sistema da Câmara (SIGEPA), as registradas como RPA (emitidas por Azul, Gol e Latam) e as pagas pelo deputado e reembolsadas depois.</dd></div><div><dt>Titular, suplente e efetivado</dt><dd>Titular é quem foi eleito para a cadeira. Suplente é o próximo da lista, que assume quando o titular se afasta e sai quando ele volta. Efetivado é o suplente que ficou com a cadeira de vez, porque o titular renunciou, morreu ou perdeu o mandato.</dd></div><div><dt>Verba de gabinete</dt><dd>Dinheiro separado da cota, usado só para pagar a equipe do gabinete (secretários parlamentares).</dd></div><div><dt>SP01 a SP25, CNE</dt><dd>Níveis salariais dos secretários parlamentares (SP) e cargos de natureza especial (CNE), como aparecem na página de cada deputado no site da Câmara.</dd></div><div><dt>NF-e, NFC-e e chave de acesso</dt><dd>Notas fiscais eletrônicas. A chave de acesso tem 44 dígitos e traz o CNPJ de quem emitiu, o mês de emissão, o número da nota e um dígito verificador.</dd></div><div><dt>CNPJ, CNAE e MEI</dt><dd>CNPJ é o cadastro da empresa na Receita Federal; CNAE, o código da atividade econômica; MEI, o microempreendedor individual, que só pode faturar até R$ 81 mil por ano.</dd></div><div><dt>Situação cadastral</dt><dd>Ativa, baixada (encerrada), inapta, suspensa ou nula. Só empresa ativa pode emitir nota fiscal válida.</dd></div><div><dt>Gravidade</dt><dd>Alta, média ou baixa: o quanto o padrão, sozinho, pede explicação. Não é uma medida de culpa.</dd></div><div><dt>Revisão</dt><dd>Conferência do alerta nos documentos. Pode ser feita por uma pessoa ou assistida por agentes de IA (revisão assistida), e cada alerta diz qual. Confirmado: o indício se mantém. Descartado: havia explicação, e o alerta sai das listas (a página permanente continua no ar). Sem conclusão: os documentos públicos não bastam para decidir. Revisão pendente: ainda não conferido.</dd></div><div><dt>LAI</dt><dd>Lei de Acesso à Informação (Lei nº 12.527/2011), usada para pedir à Câmara documentos que não estão publicados.</dd></div></dl>
 
   <h2>Privacidade</h2>
   <p>CPFs não são exibidos: quando aparecem em nomes de empresas individuais, ficam mascarados. Nomes de sócios vêm do
@@ -111,6 +137,6 @@
   </div>
   <p class="rodape-base">Página gerada em 28/10/2026 · <a href="metodologia.html">Como funciona</a> · <a href="metodologia.html#glossario">Glossário</a></p>
 </div></footer>
-<script src="assets/app.js?v=8abb0878" defer></script>
+<script src="assets/app.js?v=e9ca54cd" defer></script>
 </body>
 </html>

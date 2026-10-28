@@ -594,6 +594,14 @@ td.periodo { white-space: nowrap; }
 .gasto .trilho span { display: block; height: 100%; background: linear-gradient(90deg, var(--escala-2), var(--verde)); border-radius: var(--pilula);
   transform-origin: left; animation: crescer 1s var(--suave) both; }
 .gasto-meta { font-size: 13px; color: var(--tinta-2); }
+/* mandato: titular ou suplente, períodos em exercício, de quem era a cadeira */
+.mandato { margin-top: 14px; padding: 14px 18px; border-radius: var(--raio-m); background: var(--vidro); border: 1px solid var(--linha);
+  font-size: 14px; color: var(--tinta-2); max-width: 78ch; }
+.mandato .pill { margin-bottom: 6px; }
+.mandato p { margin: 4px 0 0; }
+.mandato strong { color: var(--tinta); }
+.mandato .cat { margin-top: 8px; }
+.condicao { color: var(--media); font-weight: 600; }
 .amostra { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--cor); margin-right: 8px; vertical-align: 1px; }
 
 /* gráfico de várias linhas (um tipo de gasto por linha) */
