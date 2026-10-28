@@ -93,7 +93,7 @@
 * { scrollbar-width: thin; scrollbar-color: var(--linha-forte) transparent; }
 [hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; scroll-padding-top: 150px; scroll-behavior: smooth; }
-body { margin: 0; background: var(--fundo); color: var(--tinta); font: 16px/1.6 var(--texto);
+body { margin: 0; background: var(--fundo); color: var(--tinta); font: 16px/1.6 var(--texto); overflow-x: clip;
   -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 /* luz suave atrás da página: dois halos verdes fixos, sem custo de rolagem */
 body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
@@ -210,8 +210,34 @@ h3 { font-size: 20px; font-weight: 600; }
 
 /* ---------------------------------------------------------------- abertura */
 .abertura { padding: 64px 0 36px; }
-.abertura-inicio { display: grid; grid-template-columns: minmax(0, 1fr) 370px; gap: 72px; align-items: center; padding: 72px 0 64px; }
+.abertura-inicio { display: grid; grid-template-columns: minmax(0, 1fr); gap: 60px; padding: 84px 0 0; margin-bottom: 40px; }
+.abertura-inicio > div { max-width: 640px; }
 .abertura-inicio h1 { max-width: 13ch; }
+
+/* aquarela no alto de cada página: de ponta a ponta, por trás do cabeçalho de vidro, sumindo em degradê.
+   Cada página escolhe a sua (versão grande e versão de celular); a arte fica à direita, o texto à esquerda. */
+[data-pagina="inicio"] { --aquarela: url("congresso-2400.webp"); --aquarela-p: url("congresso-1280.webp"); --aquarela-h: 850px; }
+[data-pagina="ranking"] { --aquarela: url("topo-ranking-2400.webp"); --aquarela-p: url("topo-ranking-1280.webp"); }
+[data-pagina="alertas"], [data-pagina="alerta"] { --aquarela: url("topo-alertas-2400.webp"); --aquarela-p: url("topo-alertas-1280.webp"); }
+[data-pagina="novidades"] { --aquarela: url("topo-novidades-2400.webp"); --aquarela-p: url("topo-novidades-1280.webp"); }
+[data-pagina="metodologia"] { --aquarela: url("topo-metodologia-2400.webp"); --aquarela-p: url("topo-metodologia-1280.webp"); }
+[data-pagina="imprensa"] { --aquarela: url("topo-imprensa-2400.webp"); --aquarela-p: url("topo-imprensa-1280.webp"); }
+[data-pagina="pedidos"] { --aquarela: url("topo-pedidos-2400.webp"); --aquarela-p: url("topo-pedidos-1280.webp"); }
+[data-pagina="fornecedor"] { --aquarela: url("topo-fornecedor-2400.webp"); --aquarela-p: url("topo-fornecedor-1280.webp"); }
+/* a Esplanada fica na borda de baixo da imagem: faixa mais baixa, alinhada por baixo */
+[data-pagina="deputado"], [data-pagina="estado"] {
+  --aquarela: url("topo-esplanada-2400.webp"); --aquarela-p: url("topo-esplanada-1280.webp"); --aquarela-pos: center 96%; --aquarela-h: 470px; }
+main { position: relative; isolation: isolate; }
+main::before { content: ""; position: absolute; z-index: -1; top: -160px; left: 0; right: 0; height: var(--aquarela-h, 720px); pointer-events: none;
+  /* véu claro à esquerda: o texto fica legível mesmo onde passa sobre a ilustração */
+  background: linear-gradient(90deg, rgba(243, 245, 242, .82) 0%, rgba(243, 245, 242, .6) 30%, rgba(243, 245, 242, 0) 52%),
+              var(--aquarela, none) var(--aquarela-pos, right 38%) / cover no-repeat;
+  -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent); mask-image: linear-gradient(to bottom, #000 70%, transparent);
+  animation: aparecer 1.4s var(--suave) both; }
+@media (prefers-color-scheme: dark) {
+  /* as aquarelas são claras: invertidas e com o matiz devolvido, viram versões noturnas nos mesmos verdes */
+  main::before { filter: invert(.94) hue-rotate(180deg) saturate(.7) brightness(.62); }
+}
 .abertura > *, .abertura-inicio > div > *, .ficha > * { animation: subir .8s var(--suave) both; }
 .abertura > :nth-child(2), .abertura-inicio > div > :nth-child(2), .ficha > :nth-child(2) { animation-delay: .07s; }
 .abertura > :nth-child(3), .abertura-inicio > div > :nth-child(3) { animation-delay: .14s; }
@@ -227,7 +253,7 @@ h3 { font-size: 20px; font-weight: 600; }
 /* o recibo: resumo dos números no formato de uma nota fiscal */
 .recibo { position: relative; background: var(--papel); padding: 28px 28px 26px; font: 13px/1.5 var(--mono); border-radius: var(--raio) var(--raio) 0 0;
   color: var(--tinta-2); filter: drop-shadow(0 1px 1px rgba(15, 31, 26, .06)) drop-shadow(0 22px 34px rgba(15, 31, 26, .13));
-  rotate: 1.4deg; margin-bottom: 12px; animation: flutuar .9s var(--suave) .15s both; transition: rotate .6s var(--suave), translate .6s var(--suave); }
+  --giro: 1.4deg; rotate: var(--giro); margin-bottom: 12px; animation: flutuar .9s var(--suave) .35s both; transition: rotate .6s var(--suave), translate .6s var(--suave); }
 .recibo:hover { rotate: 0deg; translate: 0 -4px; }
 /* halo verde atrás do recibo */
 .recibo::before { content: ""; position: absolute; inset: 12% -14% -6%; z-index: -1; border-radius: 50%; pointer-events: none;
@@ -248,6 +274,24 @@ h3 { font-size: 20px; font-weight: 600; }
 .recibo-total b { font: 500 26px/1 var(--mono); letter-spacing: -0.03em; color: var(--verde); text-transform: none; white-space: nowrap; }
 .recibo-rodape { margin: 18px 0 0; padding-top: 14px; border-top: 1px dashed var(--linha-forte); text-align: center; font-size: 12px; }
 .recibo-rodape a { color: var(--alta); font-weight: 500; }
+/* em telas largas o recibo vira uma fita horizontal que apoia a borda de baixo da aquarela */
+@media (min-width: 861px) {
+  .recibo { --giro: -.4deg; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; grid-template-areas: "cab dl total" "periodo dl rodape";
+    column-gap: 30px; align-items: center; padding: 22px 26px 20px; border-radius: var(--raio) var(--raio) 0 0; }
+  .recibo:hover { rotate: 0deg; }
+  .recibo::before { inset: -10% 6% -40%; }
+  .recibo-cab { grid-area: cab; text-align: left; align-self: end; }
+  .recibo-periodo { grid-area: periodo; text-align: left; align-self: start; margin: 6px 0 0; padding: 0; border: 0; }
+  .recibo dl { grid-area: dl; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0 18px; padding: 2px 28px;
+    border-left: 1px dashed var(--linha-forte); border-right: 1px dashed var(--linha-forte); }
+  .recibo dl div { flex-direction: column-reverse; align-items: flex-start; gap: 2px; }
+  .recibo dt { font-size: 11.5px; line-height: 1.3; }
+  .recibo dt::after { display: none; }
+  .recibo dd { font-size: 19px; font-weight: 500; }
+  .recibo-total { grid-area: total; margin: 0; padding: 10px 14px; gap: 14px; }
+  .recibo-total b { font-size: 24px; }
+  .recibo-rodape { grid-area: rodape; margin: 8px 0 0; padding: 0; border: 0; text-align: right; }
+}
 
 /* ---------------------------------------------------------------- cartões */
 .cartao { background: var(--papel); border: 1px solid color-mix(in srgb, var(--linha) 85%, transparent); border-radius: var(--raio);
@@ -361,6 +405,17 @@ h3 { font-size: 20px; font-weight: 600; }
 .mais:hover { background: var(--verde-suave); border-color: transparent; color: var(--verde-forte); }
 .mais:hover::after { translate: 0 2px; }
 .vazio { padding: 40px 24px; color: var(--tinta-2); text-align: center; }
+/* lista vazia: o lago calmo com a folha, à direita, e a mensagem à esquerda */
+p.vazio, li.vazio { position: relative; isolation: isolate; overflow: hidden; min-height: 200px; display: flex; align-items: center;
+  text-align: left; padding: 32px 45% 32px 32px; border-radius: var(--raio-m); margin: 8px; font-size: 15px; }
+p.vazio::before, li.vazio::before { content: ""; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(90deg, rgba(243, 245, 242, .9) 30%, rgba(243, 245, 242, 0) 65%), url("topo-vazio-1280.webp") right center / cover no-repeat; }
+.resultados .vazio { min-height: 0; display: block; padding: 14px; margin: 0; }
+.resultados .vazio::before { content: none; }
+@media (prefers-color-scheme: dark) {
+  p.vazio::before, li.vazio::before { filter: invert(.94) hue-rotate(180deg) saturate(.7) brightness(.62); }
+}
+@media (max-width: 560px) { p.vazio, li.vazio { padding: 24px 30% 24px 20px; min-height: 160px; } }
 
 /* ---------------------------------------------------------------- período */
 .barra-periodo { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding: 10px 12px 10px 22px; margin-bottom: 22px; border-radius: var(--raio); }
@@ -599,7 +654,8 @@ th.n { font-family: var(--texto); }
 
 /* ---------------------------------------------------------------- animações */
 @keyframes subir { from { opacity: 0; translate: 0 18px; } to { opacity: 1; translate: 0 0; } }
-@keyframes flutuar { from { opacity: 0; translate: 0 28px; rotate: 4deg; } to { opacity: 1; translate: 0 0; rotate: 1.4deg; } }
+@keyframes flutuar { from { opacity: 0; translate: 0 28px; rotate: 3deg; } to { opacity: 1; translate: 0 0; rotate: var(--giro); } }
+@keyframes aparecer { from { opacity: 0; scale: 1.04; } to { opacity: 1; scale: 1; } }
 @keyframes surgir-menu { from { opacity: 0; scale: .98; } to { opacity: 1; scale: 1; } }
 @keyframes pulsar { 0%, 100% { box-shadow: 0 0 0 4px color-mix(in srgb, var(--verde-vivo) 22%, transparent); }
   50% { box-shadow: 0 0 0 7px color-mix(in srgb, var(--verde-vivo) 6%, transparent); } }
@@ -616,7 +672,6 @@ th.n { font-family: var(--texto); }
 
 /* ---------------------------------------------------------------- responsivo */
 @media (max-width: 1080px) {
-  .abertura-inicio { grid-template-columns: minmax(0, 1fr) 330px; gap: 44px; }
   .rodape-grade { grid-template-columns: repeat(4, 1fr); }
   .rodape-sobre { grid-column: 1 / -1; }
   .topo > .cont { gap: 16px; }
@@ -627,8 +682,12 @@ th.n { font-family: var(--texto); }
   .mapa-cartao { position: static; }
 }
 @media (max-width: 860px) {
-  .abertura-inicio { grid-template-columns: 1fr; padding: 44px 0 52px; }
+  .abertura-inicio { padding: 52px 0 0; gap: 44px; }
   .abertura-inicio h1 { max-width: none; }
+  /* no celular a aquarela fica só atrás do texto, mais clara, com a ilustração no alto à direita */
+  main::before { top: -240px; height: calc(min(var(--aquarela-h, 720px), 760px) + 80px); background-position: 0 0, var(--aquarela-pos, 78% 0);
+    background-image: linear-gradient(rgba(243, 245, 242, .55), rgba(243, 245, 242, .55)), var(--aquarela-p, none);
+    -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent); mask-image: linear-gradient(to bottom, #000 55%, transparent); }
   .recibo { max-width: 420px; rotate: .6deg; }
   .rodape-grade { grid-template-columns: 1fr 1fr; }
 }
