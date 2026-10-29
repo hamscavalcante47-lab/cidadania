@@ -423,6 +423,102 @@ function pills(d) {
   return `<span class="pills">${p.join("") || `<span class="pill g1">sem alertas graves</span>`}</span>`;
 }
 
+// ------------------------------------------------------------------ cada deputado, um ponto
+// Média mensal de reembolsos (meses com despesa) de quem tem pelo menos seis meses; os pontos de valores próximos
+// se empilham acima e abaixo do eixo, como grãos. Na página do deputado, o dele fica destacado.
+const MESES_MINIMOS = 6;
+function mediaMensal(d) {
+  const ativos = d.m.filter(v => v > 0);
+  return ativos.length ? { v: ativos.reduce((s, v) => s + v, 0) / ativos.length, n: ativos.length } : null;
+}
+
+function graficoPontos(el, deputados, opcoes = {}) {
+  const { destaque = null, achados = null } = opcoes;
+  lembrar(el, () => graficoPontos(el, deputados, opcoes));
+  const itens = deputados.map(d => ({ d, ...mediaMensal(d) }))
+    .filter(x => x.v && (x.n >= MESES_MINIMOS || String(x.d.id) === destaque)).sort((a, b) => a.v - b.v);
+  if (!itens.length) { el.innerHTML = ""; return; }
+  const L = Math.max(280, el.clientWidth), estreito = L < 560;
+  const r = estreito ? 2.3 : 3.2, passo = r * 2 + (estreito ? .6 : 1);
+  const m = { e: 6, d: 6 };
+  const ordenados = itens.map(x => x.v);
+  const mediana = ordenados[Math.floor(ordenados.length / 2)];
+  // o eixo vai até o percentil 99,5; os poucos acima ficam na borda, marcados com uma seta
+  const teto = ordenados[Math.min(ordenados.length - 1, Math.floor(ordenados.length * .995))];
+  const degrau = teto > 60000 ? 20000 : 10000;
+  const max = Math.ceil(teto / degrau) * degrau;
+  const x = v => m.e + Math.min(v, max) / max * (L - m.e - m.d);
+  // empilha por coluna: 0, +1, -1, +2, -2...
+  const colunas = new Map();
+  itens.forEach(it => {
+    const c = Math.round(x(it.v) / passo);
+    const k = colunas.get(c) || 0; colunas.set(c, k + 1);
+    it.c = c; it.k = k % 2 ? -Math.ceil(k / 2) : k / 2;
+    it.px = c * passo;
+  });
+  const alto = Math.max(...[...colunas.values()]);
+  const meio = Math.ceil(alto / 2) * passo + 18;
+  const H = meio * 2 + 22;
+  itens.forEach(it => { it.py = meio + it.k * passo; });
+  const ticks = [];
+  for (let t = 0; t <= max; t += estreito ? degrau * 2 : degrau) ticks.push(t);
+  const termo = normalizar(achados || "");
+  const achou = it => termo && it.d.b.includes(termo);
+  const nAchados = termo ? itens.filter(achou).length : 0;
+  const alvo = itens.find(it => String(it.d.id) === destaque);
+  const circulos = itens.map((it, i) => `<circle class="p${String(it.d.id) === destaque ? " destaque" : ""}${achou(it) ? " achado" : ""}" data-i="${i}"
+    cx="${it.px.toFixed(1)}" cy="${it.py.toFixed(1)}" r="${String(it.d.id) === destaque || achou(it) ? r * 1.9 : r}" style="--c:${it.c}"/>`).join("");
+  const rotuloAlvo = (it, texto) => {
+    const fim = it.px > L * .7, ini = it.px < L * .3;
+    return `<g class="rotulo-ponto"><line x1="${it.px}" x2="${it.px}" y1="${it.py - r * 2.4}" y2="12"/>
+      <text x="${it.px + (fim ? -6 : ini ? 6 : 0)}" y="8" text-anchor="${fim ? "end" : ini ? "start" : "middle"}">${esc(texto)}</text></g>`;
+  };
+  const marcados = alvo ? rotuloAlvo(alvo, `${alvo.d.n}: ${brlCurto(alvo.v)} por mês`)
+    : nAchados === 1 ? rotuloAlvo(itens.find(achou), `${itens.find(achou).d.n}: ${brlCurto(itens.find(achou).v)}`) : "";
+  el.classList.toggle("buscando", !!termo);
+  el.innerHTML = `<svg viewBox="0 0 ${L} ${H}" role="img" aria-label="Média mensal de reembolsos de ${itens.length} deputados: mediana de ${brl(mediana)}${alvo ? `; ${esc(alvo.d.n)} tem ${brl(alvo.v)}` : ""}">
+    <line class="mediana" x1="${x(mediana)}" x2="${x(mediana)}" y1="14" y2="${H - 22}"/>
+    ${alvo || nAchados === 1 ? "" : `<text class="rot-mediana" x="${x(mediana) + 6}" y="10">mediana ${brlCurto(mediana)}</text>`}
+    ${ticks.map(t => `<text class="eixo" x="${x(t)}" y="${H - 4}" text-anchor="${t === 0 ? "start" : t === max ? "end" : "middle"}">${t ? brlCurto(t).replace("R$ ", "") : "R$ 0"}</text>`).join("")}
+    <g class="nuvem">${circulos}</g>${marcados}</svg><div class="dica" hidden></div>`;
+  const svg = $("svg", el), dica = $(".dica", el);
+  let atual = null;
+  const perto = e => {
+    const caixa = svg.getBoundingClientRect(), k = L / caixa.width;
+    const px = (e.clientX - caixa.left) * k, py = (e.clientY - caixa.top) * k;
+    let melhor = null, dist = (passo * 2.2) ** 2;
+    for (const it of itens) { const dd = (it.px - px) ** 2 + (it.py - py) ** 2; if (dd < dist) { dist = dd; melhor = it; } }
+    return [melhor, caixa.width / L];
+  };
+  svg.addEventListener("pointermove", e => {
+    const [it, escala] = perto(e);
+    if (atual) atual.classList.remove("sob");
+    if (!it) { dica.hidden = true; svg.style.cursor = ""; atual = null; return; }
+    atual = svg.querySelector(`circle[data-i="${itens.indexOf(it)}"]`); atual.classList.add("sob");
+    svg.style.cursor = "pointer";
+    dica.innerHTML = `<strong>${esc(it.d.n)}</strong>${esc(it.d.p)} · ${esc(it.d.uf)}<br><b class="num">${brl(it.v)}</b> por mês<small>média de ${it.n} ${it.n === 1 ? "mês" : "meses"} com despesas</small>`;
+    dica.hidden = false;
+    dica.style.left = `${it.px * escala}px`; dica.style.top = `${it.py * escala}px`;
+  });
+  svg.addEventListener("pointerleave", () => { dica.hidden = true; if (atual) atual.classList.remove("sob"); atual = null; });
+  svg.addEventListener("click", e => { const [it] = perto(e); if (it) location.href = `${RAIZ}deputado/${it.d.id}.html`; });
+}
+
+async function iniciarPontos() {
+  const el = $("#pontos"); if (!el) return;
+  const desenhar = async () => {
+    const deputados = await json("dados/deputados.json");
+    const destaque = el.dataset.destaque || null;
+    const busca = $("#pontos-busca");
+    graficoPontos(el, deputados, { destaque });
+    busca?.addEventListener("input", () => graficoPontos(el, deputados, { destaque, achados: busca.value.trim() }));
+  };
+  // na página do deputado o arquivo de todos só é baixado quando o gráfico chega perto da tela
+  if (!el.dataset.destaque || !("IntersectionObserver" in window)) return desenhar();
+  const obs = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { obs.disconnect(); desenhar(); } }, { rootMargin: "300px" });
+  obs.observe(el);
+}
+
 // ------------------------------------------------------------------ página inicial
 async function iniciarInicio() {
   const [deputados, resumo, svg] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json"), carregarMapa($("#mapa-area"))]);
@@ -903,7 +999,7 @@ async function iniciarAlertas() {
       if (a.m !== null) quem.push(`<span class="mono">${nomeMes(resumo.meses[a.m])}</span>`);
       if (a.f) quem.push(`<a href="fornecedor/${a.f}.html">ver empresa</a>`);
       if (!a.s) quem.push(`<span class="status">revisão pendente</span>`);
-      return `<article class="alerta g${a.g}"><div class="cab"><span class="pill g${a.g}">${GRAV[a.g]}</span><h3><a href="alerta/${a.c}.html">${esc(titulo[a.r])}</a></h3></div>
+      return `<article class="alerta g${a.g}"><div class="cab"><span class="pill g${a.g}">${GRAV[a.g]}</span><h3><a href="alerta/${a.c}.html">${esc(titulo[a.r])}</a></h3>${a.vl > 0 ? `<span class="valor-alerta"><b class="num">${brlCurto(a.vl)}</b> envolvidos</span>` : ""}</div>
         <p class="meta">${quem.join(" · ")}</p><p class="desc">${esc(a.t)}</p>
         ${a.s ? `<p class="revisao ${esc(a.s)}"><strong>${esc(a.rl || a.s)}.</strong> ${esc(a.v || "")}</p>` : ""}
         ${notas ? `<details><summary>Notas envolvidas</summary><ul>${notas}</ul></details>` : ""}</article>`;
@@ -964,5 +1060,6 @@ document.addEventListener("click", async e => {
 });
 
 iniciarBusca();
+iniciarPontos();
 document.querySelectorAll("table.ordenavel").forEach(t => tabelaOrdenavel(t));
 ({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: iniciarAlertas, ranking: iniciarRanking, gastos: iniciarGastos })[document.body.dataset.pagina]?.();
