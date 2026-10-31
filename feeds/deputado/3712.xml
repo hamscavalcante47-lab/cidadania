@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3712.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3712.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Adilson Barroso (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/678a1278170bf0c5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/678a1278170bf0c5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0117/01 de Eficar - Centro Automotivo LTDA (R$ 4.600,00, 27/06/2025): foi declarado R$ 4.600,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Adilson Barroso (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b8277eb177dac2ac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b8277eb177dac2ac.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

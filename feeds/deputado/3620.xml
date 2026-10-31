@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3620.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3620.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Delegado Paulo Bilynskyj (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4ac4d7ba78baa010.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4ac4d7ba78baa010.html</id>
+<updated>2026-10-28T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de PANTANAL VEÍCULOS LTDA foi anexado a 3 reembolsos. Despesas declaradas: nº 23287 (R$ 2.700,00, 13/02/2023); nº 23287 (R$ 2.700,00, 13/02/2023); nº 23287 (R$ 0,00, 13/02/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor de outro gabinete — Delegado Paulo Bilynskyj (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/822c530d50b7445c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/822c530d50b7445c.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -14,10 +20,10 @@
 <summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: EMILIO KERBER CONSULTORIA E SERVICOS LTDA recebeu R$ 2.000,00; Emilio Kerber Filho é sócio(a) desde 17/01/2023 e trabalhou no gabinete de Zucco (PL/RS) (secretário parlamentar, SP18) de 03/02/2023 a 18/06/2023. Pagamentos: R$ 2.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 2.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Delegado Paulo Bilynskyj (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e83e1651d100cd2d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e83e1651d100cd2d.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/05bb092cf76dc564.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e83e1651d100cd2d.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. A mesma chave de acesso de SERVICO NACIONAL DE APRENDIZAGEM COMERCIAL SENAC foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. A NFC-e nº 38546 de SERVICO NACIONAL DE APRENDIZAGEM COMERCIAL SENAC foi anexada a 2 reembolsos. Despesas declaradas: nº 38546 (R$ 83,37, 15/08/2023), que corresponde à nota; nº 38642 (R$ 83,37, 16/08/2023), que não tem comprovante próprio. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Delegado Paulo Bilynskyj (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/45b2404dd74446bb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/45b2404dd74446bb.html</id>

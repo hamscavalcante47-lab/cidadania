@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3693.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3693.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Tadeu Veneri (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/95bb0138b559dd57.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/95bb0138b559dd57.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 577390 de LOCALIZA RENT A CAR SA (R$ 5.665,94, 02/07/2024): foi declarado R$ 5.791,67, mas o maior valor no documento é R$ 620,54. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Tadeu Veneri (PT/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/665b6c001da8ff19.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/665b6c001da8ff19.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -79,12 +85,6 @@
 <category term="Média"/>
 <summary>Gravidade média. 38.194.875 MARCELI CARDOZO SANTAREN: 24 notas em 25 meses, numeradas de 3 a 39 (R$ 61.508,00). Fora deste gabinete, a empresa emitiu no máximo 13 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Tadeu Veneri (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc703806fcd3aca1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc703806fcd3aca1.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 60.585.139 MARCIA SALLETE ALVES DE OLIVEIRA: 13 notas em 13 meses, numeradas de 4 a 21 (R$ 60.000,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Tadeu Veneri (PT/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/632b58610eecafb8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/632b58610eecafb8.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -92,15 +92,21 @@
 <summary>Gravidade média. 60.585.139 MARCIA SALLETE ALVES DE OLIVEIRA foi aberta em 28/04/2025, 9 dias antes da primeira nota (07/05/2025); recebeu R$ 60.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Tadeu Veneri (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/92ff2bb999e3ba26.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/92ff2bb999e3ba26.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc703806fcd3aca1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc703806fcd3aca1.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. 59.742.533 VICTOR POLATO DA CONCEICAO: 11 notas em 11 meses, numeradas de 1 a 17 (R$ 46.443,87). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. 60.585.139 MARCIA SALLETE ALVES DE OLIVEIRA: 13 notas em 13 meses, numeradas de 4 a 21 (R$ 60.000,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Tadeu Veneri (PT/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/329bdc7ba6d21de4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/329bdc7ba6d21de4.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 59.742.533 VICTOR POLATO DA CONCEICAO foi aberta em 05/03/2025, 26 dias antes da primeira nota (31/03/2025); recebeu R$ 46.443,87. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Tadeu Veneri (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/92ff2bb999e3ba26.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/92ff2bb999e3ba26.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 59.742.533 VICTOR POLATO DA CONCEICAO: 11 notas em 11 meses, numeradas de 1 a 17 (R$ 46.443,87). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3553.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3553.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Possível reembolso repetido após conciliação mensal — Bebeto (PP/RJ)</title>
@@ -37,16 +37,16 @@
 <category term="Média"/>
 <summary>Gravidade média. FUTURO MARKETING DIGITAL LTDA foi aberta em 25/04/2024, 15 dias antes da primeira nota (10/05/2024); recebeu R$ 195.045,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Bebeto (PP/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e4369cdba60acf2b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e4369cdba60acf2b.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 51.166.085 EDUARDO DA ENCARNACAO SILVA: 9 notas em 11 meses, numeradas de 1 a 20 (R$ 59.100,00). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Bebeto (PP/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ce525c9e40af5e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ce525c9e40af5e6.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 51.166.085 EDUARDO DA ENCARNACAO SILVA foi aberta em 23/06/2023, 27 dias antes da primeira nota (20/07/2023); recebeu R$ 59.100,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Bebeto (PP/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e4369cdba60acf2b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e4369cdba60acf2b.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 51.166.085 EDUARDO DA ENCARNACAO SILVA: 9 notas em 11 meses, numeradas de 1 a 20 (R$ 59.100,00). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3554.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3554.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c5b1a781586653bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c5b1a781586653bd.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 71808 de cLocaliza Renta Car S/A (R$ 1.216,64, 31/07/2023): foi declarado R$ 1.216,64, mas o maior valor no documento é R$ 849,90. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a422cfb1288129e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a422cfb1288129e3.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 23143 de MONTES VERDES - TURISMO E PARTICIPACOES LTDA (R$ 405,90, 10/11/2025): foi declarado R$ 940,90, mas o maior valor no documento é R$ 535,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Alexandre Lindenmeyer (PT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bcbccfe8519bffcd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bcbccfe8519bffcd.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

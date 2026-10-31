@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2900.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2900.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:55-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Carlos Gomes (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5ca3753c0e80848f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5ca3753c0e80848f.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1543726 de LOCALIZA HERTZ (R$ 2.863,47, 01/08/2023): foi declarado R$ 2.887,38, mas o maior valor no documento é R$ 23,91. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Carlos Gomes (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/70c3b4ac3ae2709d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/70c3b4ac3ae2709d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1543726 de LOCALIZA HERTZ (R$ 2.863,47, 01/08/2023): o documento traz o(s) CNPJ(s) 16577631000299, e não o do fornecedor declarado (16670085004142). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Carlos Gomes (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a513d344400b9dc2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a513d344400b9dc2.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 919904 de LOCALIZA RENT A CAR SA . (R$ 673,27, 06/03/2026): foi declarado R$ 764,92, mas o maior valor no documento é R$ 99,77. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — Carlos Gomes (REPUBLICANOS/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dc7323c80dfc0368.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dc7323c80dfc0368.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

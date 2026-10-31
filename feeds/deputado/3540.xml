@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3540.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3540.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:53-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0b0a749ffcf46368.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0b0a749ffcf46368.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 123 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 03/04/2023): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 7,56. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8413d3a3e63ba1b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8413d3a3e63ba1b2.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000179 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 01/02/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8f9cd946d9b65870.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8f9cd946d9b65870.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000409 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 24/05/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e822f97eb758c10e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e822f97eb758c10e.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0000278 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 07/03/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedor ligado a servidor ou ex-servidor do gabinete — Augusto Puppio (MDB/AP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/209799304142a19d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/209799304142a19d.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

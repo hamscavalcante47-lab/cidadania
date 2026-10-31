@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3580.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3580.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Jeferson Rodrigues (PSDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d76a91cc4cc627a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d76a91cc4cc627a5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 130 de SUPREMA MOBILIDADE LTDA (R$ 11.600,00, 03/04/2023): foi declarado R$ 11.600,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Jeferson Rodrigues (PSDB/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/775ec111f0a58e91.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/775ec111f0a58e91.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

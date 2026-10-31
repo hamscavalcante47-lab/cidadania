@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1001.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1001.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:49-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Dilceu Sperafico (PP/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3aa165b4e2373fdb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3aa165b4e2373fdb.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 127 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 03/04/2023): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Dilceu Sperafico (PP/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/800b9373b1b5cf20.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/800b9373b1b5cf20.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 300 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 03/07/2023): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 6,50. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Dilceu Sperafico (PP/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dd51d0d3ec4d7765.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dd51d0d3ec4d7765.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -49,17 +61,17 @@
 <category term="Média"/>
 <summary>Gravidade média. JORNAL DO OESTE LTDA: 17 notas em 16 meses, numeradas de 10 a 56 (R$ 90.000,00). Fora deste gabinete, a empresa emitiu no máximo 30 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Dilceu Sperafico (PP/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f4659faf8f0fd1e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f4659faf8f0fd1e3.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. A LIRA LTDA: 7 notas em 7 meses, numeradas de 1 a 18 (R$ 17.500,00). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Dilceu Sperafico (PP/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e81e08178a43ea60.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e81e08178a43ea60.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. A LIRA LTDA foi aberta em 05/11/2024, 7 dias antes da primeira nota (12/11/2024); recebeu R$ 17.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Dilceu Sperafico (PP/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f4659faf8f0fd1e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f4659faf8f0fd1e3.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. A LIRA LTDA: 7 notas em 7 meses, numeradas de 1 a 18 (R$ 17.500,00). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Dilceu Sperafico (PP/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1efb3d4d78432c8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f1efb3d4d78432c8.html</id>

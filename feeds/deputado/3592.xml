@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3592.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3592.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Mauricio Neves (PP/SP)</title>
@@ -25,16 +25,16 @@
 <category term="Média"/>
 <summary>Gravidade média. DAHRUJ LOCACAO DE VEICULOS LTDA recebeu R$ 273.065,97 da cota; o sócio Claudio Dahruj doou R$ 250.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Mauricio Neves (PP/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7d048525482d820d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7d048525482d820d.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. WILSON SOARES DE OLIVEIRA: 15 notas em 14 meses, numeradas de 3 a 19 (R$ 82.500,00). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Mauricio Neves (PP/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7484e30fb59dd2e4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7484e30fb59dd2e4.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 60.272.827 LTDA foi aberta em 06/04/2025, 16 dias antes da primeira nota (22/04/2025); recebeu R$ 82.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Mauricio Neves (PP/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7d048525482d820d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7d048525482d820d.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. WILSON SOARES DE OLIVEIRA: 15 notas em 14 meses, numeradas de 3 a 19 (R$ 82.500,00). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

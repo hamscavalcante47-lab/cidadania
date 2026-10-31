@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3611.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3611.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Dr. Victor Linhalis (PSB/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/37282904057ed60a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/37282904057ed60a.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000550 de SUPREMA MOBILIDADE LTDA (R$ 6.450,00, 26/11/2025): foi declarado R$ 6.450,00, mas o maior valor no documento é R$ 450,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Dr. Victor Linhalis (PSB/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe45c1aaafd74f8d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe45c1aaafd74f8d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 240681 de LOCALIZA RENT A CAR SA (R$ 4.601,46, 11/07/2023): foi declarado R$ 5.514,25, mas o maior valor no documento é R$ 4.746,86. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Dr. Victor Linhalis (PSB/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/453f78876740bf48.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/453f78876740bf48.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 25715497 de Movida Participações S.A (R$ 1.738,32, 06/02/2025): o documento traz o(s) CNPJ(s) 31551765000143, e não o do fornecedor declarado (21314559005206). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Dr. Victor Linhalis (PSB/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2f477736cecb5e45.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2f477736cecb5e45.html</id>
+<updated>2026-10-28T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ARAUJO RENTACAR EIRELI EPP foi anexado a 2 reembolsos. Despesas declaradas: nº 06865 (R$ 213,00, 02/01/2025); nº 06865 (R$ 7.703,54, 06/01/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Dr. Victor Linhalis (PSB/ES)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3e328b6d0263f3db.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3e328b6d0263f3db.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

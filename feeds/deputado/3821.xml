@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3821.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3821.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:55-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Valor declarado maior que o da nota — Valdir Trindade (REPUBLICANOS/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4cef6676c205f842.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4cef6676c205f842.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 05 de LEO RENT A CAR LTDA (R$ 9.150,00, 14/09/2026): foi declarado R$ 9.150,00, mas o maior valor no documento é R$ 150,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

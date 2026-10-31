@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3081.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3081.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:53-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Renata Abreu (PODE/SP)</title>
@@ -49,16 +49,16 @@
 <category term="Média"/>
 <summary>Gravidade média. MOBILIZE BRASIL EIRELI: 7 notas em 7 meses, numeradas de 186 a 202 (R$ 42.000,00). Fora deste gabinete, a empresa emitiu no máximo 10 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Renata Abreu (PODE/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/438ed8b452045204.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/438ed8b452045204.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. TECNOLOGIA E SOLUCOES EM GESTAO DE DADOS LTDA: 18 notas em 18 meses, numeradas de 1 a 23 (R$ 38.600,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Renata Abreu (PODE/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0dac5a7430e34a85.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0dac5a7430e34a85.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. TECNOLOGIA E SOLUCOES EM GESTAO DE DADOS LTDA foi aberta em 06/11/2023, 23 dias antes da primeira nota (29/11/2023); recebeu R$ 38.600,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Renata Abreu (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/438ed8b452045204.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/438ed8b452045204.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. TECNOLOGIA E SOLUCOES EM GESTAO DE DADOS LTDA: 18 notas em 18 meses, numeradas de 1 a 23 (R$ 38.600,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

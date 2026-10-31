@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3596.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3596.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Simone Marquetto (PP/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7cab6e522bcd6d35.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7cab6e522bcd6d35.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 404 de Locabras Locadora Brasilia de Veiculos LTDA-ME (R$ 8.000,00, 02/09/2024): o documento traz o(s) CNPJ(s) 01615224000170, e não o do fornecedor declarado (00331066000164). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Simone Marquetto (PP/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aaf36dbb8b1d0592.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aaf36dbb8b1d0592.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 168835 de Lozaliza Rent a Car S/A (R$ 7.856,59, 05/02/2026): foi declarado R$ 8.359,59, mas o maior valor no documento é R$ 570,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Simone Marquetto (PP/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/42791820af70f46c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/42791820af70f46c.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3689.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3689.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Delegada Ione (PL/MG)</title>
@@ -38,12 +38,6 @@
 <summary>Gravidade alta. nº JNSURE9AT53B de CONCESSIONARIA BR-040 S.A. (19/06/2023): 2 lançamentos em 1 competência(s); documento R$ 6,30, valor líquido R$ 12,60, restituições R$ 0,00, saldo R$ 12,60 (excedente R$ 6,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Delegada Ione (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e890549c73195ace.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e890549c73195ace.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº JTSVD19RT2NN de CONCESSIONARIA BR-040 S.A. (11/08/2023): 2 lançamentos em 1 competência(s); documento R$ 6,30, valor líquido R$ 12,60, restituições R$ 0,00, saldo R$ 12,60 (excedente R$ 6,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Delegada Ione (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b7d14283cd03b4f4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b7d14283cd03b4f4.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
@@ -54,6 +48,12 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº WI46EQ9RT5JS de CONCESSIONARIA BR-040 S.A. (11/08/2023): 2 lançamentos em 1 competência(s); documento R$ 6,30, valor líquido R$ 12,60, restituições R$ 0,00, saldo R$ 12,60 (excedente R$ 6,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Delegada Ione (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e890549c73195ace.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e890549c73195ace.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº JTSVD19RT2NN de CONCESSIONARIA BR-040 S.A. (11/08/2023): 2 lançamentos em 1 competência(s); documento R$ 6,30, valor líquido R$ 12,60, restituições R$ 0,00, saldo R$ 12,60 (excedente R$ 6,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Delegada Ione (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/578b5b68b7539b11.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/578b5b68b7539b11.html</id>

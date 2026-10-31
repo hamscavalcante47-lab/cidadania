@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3748.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3748.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:53-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Possível reembolso repetido após conciliação mensal — Saulo Pedroso (PSD/SP)</title>
@@ -37,16 +37,16 @@
 <category term="Média"/>
 <summary>Gravidade média. DUNI FILMES LTDA foi aberta em 06/12/2023, 57 dias antes da primeira nota (01/02/2024); recebeu R$ 36.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Saulo Pedroso (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fded1a225c5f71fa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fded1a225c5f71fa.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. GUSTAVO MANOEL DOMINGOS: 8 notas em 9 meses, numeradas de 1 a 15 (R$ 33.000,00). Fora deste gabinete, a empresa emitiu no máximo 7 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Saulo Pedroso (PSD/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dd3da110428a4632.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dd3da110428a4632.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 60.972.765 GUSTAVO MANOEL DOMINGOS foi aberta em 23/05/2025, 10 dias antes da primeira nota (02/06/2025); recebeu R$ 33.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Saulo Pedroso (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fded1a225c5f71fa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fded1a225c5f71fa.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. GUSTAVO MANOEL DOMINGOS: 8 notas em 9 meses, numeradas de 1 a 15 (R$ 33.000,00). Fora deste gabinete, a empresa emitiu no máximo 7 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

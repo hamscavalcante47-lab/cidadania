@@ -4,7 +4,37 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3763.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3763.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:55-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Valor declarado maior que o da nota — Délio Pinheiro (PDT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/03d65ce7c1343f18.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/03d65ce7c1343f18.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 075694 de LOCALIZA RENT A CAR SA (R$ 11.089,70, 29/07/2024): foi declarado R$ 11.598,00, mas o maior valor no documento é R$ 11.597,96. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Délio Pinheiro (PDT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d0041752869ba937.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d0041752869ba937.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 073993001 de LOCALIZA RENT A CAR SA (R$ 8.719,63, 04/07/2024): foi declarado R$ 8.759,58, mas o maior valor no documento é R$ 2.033,46. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Délio Pinheiro (PDT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2db2b2963d92be0d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2db2b2963d92be0d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 84400 de LOCALIZA RENT A CAR SA (R$ 4.360,98, 21/05/2024): foi declarado R$ 4.444,71, mas o maior valor no documento é R$ 4.049,81. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Délio Pinheiro (PDT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3a2378eaa56ea63e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3a2378eaa56ea63e.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 84941 de LOCALIZA RENT A CAR SA (R$ 3.652,41, 03/06/2024): foi declarado R$ 3.718,23, mas o maior valor no documento é R$ 3.484,88. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Délio Pinheiro (PDT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c6e84ec0f507cccc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c6e84ec0f507cccc.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 87946 de LOCALIZA RENT A CAR SA (R$ 1.082,32, 06/08/2024): foi declarado R$ 1.112,27, mas o maior valor no documento é R$ 1.022,52. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

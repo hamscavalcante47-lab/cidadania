@@ -4,15 +4,9 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2936.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2936.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Mesmo documento usado em despesas diferentes — Luciano Ducci (PSB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/96aa5f268e5e3eb7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/96aa5f268e5e3eb7.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. A mesma chave de acesso de AUTO POSTO R JUVEVE LTDA foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Luciano Ducci (PSB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1cf6fd5b7294e517.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1cf6fd5b7294e517.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -24,6 +18,12 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 99114 de AUTO POSTO R JUVEVE LTDA (04/04/2026): 2 lançamentos em 1 competência(s); documento R$ 200,00, valor líquido R$ 400,00, restituições R$ 0,00, saldo R$ 400,00 (excedente R$ 200,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Luciano Ducci (PSB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/da90b7eb3b3f0e16.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/96aa5f268e5e3eb7.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. A NFC-e nº 99114 de AUTO POSTO R JUVEVE LTDA foi anexada a 2 reembolsos. Despesas declaradas: nº 99114 (R$ 200,00, 04/04/2026), que corresponde à nota; nº 99114 (R$ 200,00, 04/04/2026), a mesma nota declarada de novo. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Luciano Ducci (PSB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/52266e65127b9ad2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/52266e65127b9ad2.html</id>
@@ -61,17 +61,17 @@
 <category term="Média"/>
 <summary>Gravidade média. 64.766.721 CLAUDINEIA BANDEIRA LOPES RIBEIRO DA SILVA foi aberta em 28/01/2026, 54 dias antes da primeira nota (23/03/2026); recebeu R$ 5.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Luciano Ducci (PSB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dfcc401d60041a95.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dfcc401d60041a95.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. LUCIAN CRISTOFFER WOYTOVICZ: 4 notas em 4 meses, numeradas de 14 a 22 (R$ 56.000,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Luciano Ducci (PSB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c3fbc03d2137fab6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c3fbc03d2137fab6.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 55.926.678 LUCIAN CRISTOFFER WOYTOVICZ foi aberta em 15/07/2024, 148 dias antes da primeira nota (10/12/2024); recebeu R$ 56.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Luciano Ducci (PSB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dfcc401d60041a95.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dfcc401d60041a95.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. LUCIAN CRISTOFFER WOYTOVICZ: 4 notas em 4 meses, numeradas de 14 a 22 (R$ 56.000,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Luciano Ducci (PSB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2dac0d26cca80369.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2dac0d26cca80369.html</id>

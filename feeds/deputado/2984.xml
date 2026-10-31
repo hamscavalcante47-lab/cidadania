@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2984.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2984.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Evair Vieira de Melo (REPUBLICANOS/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5f9ad792e44597d1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5f9ad792e44597d1.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 30738 de REDE BRASILEIRA DE AUTOMOTORES LTDA (R$ 2.713,00, 25/03/2024): foi declarado R$ 2.748,66, mas o maior valor no documento é R$ 2.660,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor de outro gabinete — Evair Vieira de Melo (REPUBLICANOS/ES)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ef4f91544254e8a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ef4f91544254e8a5.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -25,12 +31,6 @@
 <category term="Média"/>
 <summary>Gravidade média. JOSE GRIGORIO DE OLIVEIRA JUNIOR INTERNET E SERVIÇO: 35 notas em 32 meses, numeradas de 1 a 100 (R$ 156.285,00). Fora deste gabinete, a empresa emitiu no máximo 65 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Evair Vieira de Melo (REPUBLICANOS/ES)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f85a100bd75d6043.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f85a100bd75d6043.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. RC COMUNICAÇAO ESTRATEGICA LTDA: 20 notas em 19 meses, numeradas de 1 a 45 (R$ 132.200,00). Fora deste gabinete, a empresa emitiu no máximo 25 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Evair Vieira de Melo (REPUBLICANOS/ES)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/384c7cfcd60b9e3c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/384c7cfcd60b9e3c.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -38,16 +38,22 @@
 <summary>Gravidade média. LIBUY COMUNICACAO ESTRATEGICA LTDA foi aberta em 25/03/2024, 73 dias antes da primeira nota (06/06/2024); recebeu R$ 132.200,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Evair Vieira de Melo (REPUBLICANOS/ES)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ae0a29e57aa7bf27.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ae0a29e57aa7bf27.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f85a100bd75d6043.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f85a100bd75d6043.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. 49.553.819 LUIZ HENRIQUE PEREIRA NUNES: 14 notas em 15 meses, numeradas de 1 a 19 (R$ 74.483,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. RC COMUNICAÇAO ESTRATEGICA LTDA: 20 notas em 19 meses, numeradas de 1 a 45 (R$ 132.200,00). Fora deste gabinete, a empresa emitiu no máximo 25 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Evair Vieira de Melo (REPUBLICANOS/ES)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/38dcba1af24fe41e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/38dcba1af24fe41e.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 49.553.819 LUIZ HENRIQUE PEREIRA NUNES foi aberta em 10/02/2023, 122 dias antes da primeira nota (12/06/2023); recebeu R$ 74.483,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Evair Vieira de Melo (REPUBLICANOS/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ae0a29e57aa7bf27.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ae0a29e57aa7bf27.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 49.553.819 LUIZ HENRIQUE PEREIRA NUNES: 14 notas em 15 meses, numeradas de 1 a 19 (R$ 74.483,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Evair Vieira de Melo (REPUBLICANOS/ES)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/acfbeee96f0bdf3d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/acfbeee96f0bdf3d.html</id>

@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3211.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3211.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Sargento Fahur (PL/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6b58a861ed7c1461.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6b58a861ed7c1461.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 184431 de LOCALIZA RENT A CAR S/A (R$ 4.234,42, 20/12/2023): foi declarado R$ 4.264,12, mas o maior valor no documento é R$ 4.114,12. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Sargento Fahur (PL/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/511c9c0ca0c086c7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/511c9c0ca0c086c7.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 189838 de LOCALIZA RENT A CAR S/A (R$ 3.980,12, 18/02/2024): foi declarado R$ 4.009,82, mas o maior valor no documento é R$ 3.859,82. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Sargento Fahur (PL/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/74599c73d41a76ac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/74599c73d41a76ac.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 180344 de LOCALIZA RENT A CAR S/A (R$ 3.892,90, 05/11/2023): foi declarado R$ 3.892,90, mas o maior valor no documento é R$ 417,10. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Sargento Fahur (PL/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d4f712600253b2a4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d4f712600253b2a4.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 174387 de LOCALIZA RENT A CAR S/A (R$ 3.892,90, 06/09/2023): foi declarado R$ 3.892,90, mas o maior valor no documento é R$ 417,10. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Sargento Fahur (PL/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8313030ac2be0cbf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8313030ac2be0cbf.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 28643147 de MOVIDA LOCACAO DE VEICULOS S.A. (R$ 1.857,23, 22/01/2026): o documento traz o(s) CNPJ(s) 21314559000166, e não o do fornecedor declarado (07976147000160). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sargento Fahur (PL/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7b0199d3e42cea27.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7b0199d3e42cea27.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

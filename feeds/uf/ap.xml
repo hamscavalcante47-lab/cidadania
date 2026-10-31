@@ -4,9 +4,57 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ap.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ap.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Professora Goreth (PDT/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5731ebd1e1d04d1d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5731ebd1e1d04d1d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 180 de A. DA SILVA MAIA - ME - AUTO LOCADORA SENA (R$ 7.500,00, 03/06/2024): foi declarado R$ 7.500,00, mas o maior valor no documento é R$ 500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Professora Goreth (PDT/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8d3ffb37153fa429.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8d3ffb37153fa429.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 171 de A. DA SILVA MAIA - ME - AUTO LOCADORA SENA (R$ 7.500,00, 04/04/2024): foi declarado R$ 7.500,00, mas o maior valor no documento é R$ 750,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0b0a749ffcf46368.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0b0a749ffcf46368.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 123 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 03/04/2023): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 7,56. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8413d3a3e63ba1b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8413d3a3e63ba1b2.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000179 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 01/02/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8f9cd946d9b65870.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8f9cd946d9b65870.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000409 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 24/05/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e822f97eb758c10e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e822f97eb758c10e.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0000278 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 07/03/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — André Abdon (PP/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/40f17de77371fb67.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/40f17de77371fb67.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0062026 de A &amp; A AGRA LTDA (R$ 4.000,00, 30/06/2026): o documento traz o(s) CNPJ(s) 02452603000150, e não o do fornecedor declarado (12064991000155). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Silvia Waiãpi (PL/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1e74360a704d18e7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1e74360a704d18e7.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº S/N de LOCALIZA RENT A CAR SA (R$ 1.059,70, 22/02/2023): foi declarado R$ 1.059,70, mas o maior valor no documento é R$ 1.003,70. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Sonize Barbosa (PL/AP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/94cdefe0498d68d1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/94cdefe0498d68d1.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

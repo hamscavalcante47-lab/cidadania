@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/to.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/to.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Eli Borges (REPUBLICANOS/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4dbfaa376ef5ffc6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4dbfaa376ef5ffc6.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202300000000035 de CLIMA CONSULTORIA EMPRESARIAL EIRELI (R$ 9.800,00, 01/09/2023): foi declarado R$ 9.800,00, mas o maior valor no documento é R$ 490,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Eli Borges (REPUBLICANOS/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/800ca6a2df0b0b45.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/800ca6a2df0b0b45.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202300000000037 de CLIMA CONSULTORIA EMPRESARIAL EIRELI (R$ 9.800,00, 20/09/2023): foi declarado R$ 9.800,00, mas o maior valor no documento é R$ 490,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Antonio Andrade (PSDB/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/090d974ec5c305d8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/090d974ec5c305d8.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -175,17 +187,17 @@
 <category term="Média"/>
 <summary>Gravidade média. BRICS FILMES E EVENTOS LTDA e AOOM SERVICOS DE EVENTOS E PRODUCOES LTDA: sócio em comum Moises Ferreira De Amorim; juntas receberam R$ 264.600,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Vicentinho Júnior (PSDB/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b55fc92cb6f3a300.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b55fc92cb6f3a300.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. AOOM SERVICOS DE EVENTOS E PRODUCOES LTDA: 6 notas em 6 meses, numeradas de 4 a 13 (R$ 190.000,00). Fora deste gabinete, a empresa emitiu no máximo 4 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Vicentinho Júnior (PSDB/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/50e7f0eb4fc42d1e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/50e7f0eb4fc42d1e.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. AOOM SERVICOS DE EVENTOS E PRODUCOES LTDA foi aberta em 06/10/2022, 151 dias antes da primeira nota (06/03/2023); recebeu R$ 190.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Vicentinho Júnior (PSDB/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b55fc92cb6f3a300.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b55fc92cb6f3a300.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. AOOM SERVICOS DE EVENTOS E PRODUCOES LTDA: 6 notas em 6 meses, numeradas de 4 a 13 (R$ 190.000,00). Fora deste gabinete, a empresa emitiu no máximo 4 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Alexandre Guimarães (MDB/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1cbf8f15f68111c9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1cbf8f15f68111c9.html</id>
@@ -199,6 +211,12 @@
 <category term="Média"/>
 <summary>Gravidade média. nº 202300000001070 de GRÁFICA E EDITORA WR-EIRELI-ME (R$ 163.791,00, 14/12/2023): foi declarado R$ 178.433,00, mas o maior valor no documento é R$ 178.432,80. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
+<title>MEI recebendo mais que o limite anual — Vicentinho Júnior (PSDB/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 63.452.280 CRISTIANO MACHADO SANTOS (MEI) recebeu R$ 106.000,00 da cota em 2026, R$ 106.000,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — Vicentinho Júnior (PSDB/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/807313a1af801959.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/807313a1af801959.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -210,12 +228,6 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 63.452.280 CRISTIANO MACHADO SANTOS foi aberta em 31/10/2025, 102 dias antes da primeira nota (10/02/2026); recebeu R$ 106.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>MEI recebendo mais que o limite anual — Vicentinho Júnior (PSDB/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 63.452.280 CRISTIANO MACHADO SANTOS (MEI) recebeu R$ 106.000,00 da cota em 2026, R$ 106.000,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Ricardo Ayres (REPUBLICANOS/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d7b19d3ea7c5fc43.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d7b19d3ea7c5fc43.html</id>
@@ -294,17 +306,5 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. REDE JOVEM NEWS LTDA foi aberta em 14/12/2022, 139 dias antes da primeira nota (02/05/2023); recebeu R$ 30.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Filipe Martins (PL/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/756031e181d9a49f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/756031e181d9a49f.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. VERSATIL COMUNICACAO VISUAL LTDA foi aberta em 18/07/2024, 134 dias antes da primeira nota (29/11/2024); recebeu R$ 27.745,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Eli Borges (REPUBLICANOS/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc453d62d2918b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc453d62d2918b2.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. BROAD BRASIL LTDA foi aberta em 21/12/2022, 56 dias antes da primeira nota (15/02/2023); recebeu R$ 23.022,72. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

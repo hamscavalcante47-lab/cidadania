@@ -4,9 +4,123 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/mdb.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/mdb.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83df238ab2f2ea99.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83df238ab2f2ea99.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 565319 de LOCALIZA RENT A CAR SA (R$ 6.512,73, 01/05/2024): o documento traz o(s) CNPJ(s) 16577631000299, e não o do fornecedor declarado (16670085038390). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bf712c31fc1d460d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bf712c31fc1d460d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 565319 de LOCALIZA RENT A CAR SA (R$ 6.512,73, 01/05/2024): foi declarado R$ 6.683,85, mas o maior valor no documento é R$ 716,13. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0b0a749ffcf46368.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0b0a749ffcf46368.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 123 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 03/04/2023): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 7,56. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8413d3a3e63ba1b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8413d3a3e63ba1b2.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000179 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 01/02/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8f9cd946d9b65870.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8f9cd946d9b65870.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000409 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 24/05/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e822f97eb758c10e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e822f97eb758c10e.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0000278 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 07/03/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Fábio Teruel (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/363eca51d225500d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/363eca51d225500d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 10100 de VIA LOCADORA DE AUTOMOVEIS LTDA (R$ 5.750,00, 12/08/2024): foi declarado R$ 5.750,00, mas o maior valor no documento é R$ 5.390,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Baleia Rossi (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e7e6a58bd75bb31d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e7e6a58bd75bb31d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº sn de MOVIDA PARTICIPAÇÕES S.A. (R$ 4.839,90, 29/07/2025): o documento traz o(s) CNPJ(s) 21314559017646, e não o do fornecedor declarado (07976147026712). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Luciano Bivar (MDB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7cac002b98d091f2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7cac002b98d091f2.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 579701 de LOCALIZA RENT A CAR SA (R$ 4.711,28, 20/07/2025): foi declarado R$ 4.711,28, mas o maior valor no documento é R$ 471,28. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Luciano Bivar (MDB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f0a2d0a174f1cb84.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f0a2d0a174f1cb84.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 582113 de LOCALIZA RENT A CAR SA (R$ 4.466,45, 18/09/2025): foi declarado R$ 4.466,45, mas o maior valor no documento é R$ 478,55. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Luciano Bivar (MDB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/850bd1f2383a4e04.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/850bd1f2383a4e04.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 149221 de LOCALIZA RENT A CAR SA (R$ 4.340,80, 19/06/2026): foi declarado R$ 4.402,95, mas o maior valor no documento é R$ 598,50. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Baleia Rossi (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a9ad227ee795f931.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a9ad227ee795f931.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº sn de MOVIDA PARTICIPAÇÕES S.A. (R$ 4.033,25, 03/11/2025): foi declarado R$ 4.839,90, mas o maior valor no documento é R$ 839,80. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/416ddce7e96e3f3a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/416ddce7e96e3f3a.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 23330 de localiza - dc aluguel de veiculos ltda (R$ 3.000,00, 25/03/2024): o documento traz o(s) CNPJ(s) 02713529000188, e não o do fornecedor declarado (13507524000204). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/974b3221dabe0efe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/974b3221dabe0efe.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 24470 de localiza - dc aluguel de veiculos ltda (R$ 3.000,00, 26/08/2024): o documento traz o(s) CNPJ(s) 02713529000188, e não o do fornecedor declarado (13507524000204). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eb4a6310eb02e3f1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eb4a6310eb02e3f1.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 23576 de localiza - dc aluguel de veiculos ltda (R$ 3.000,00, 24/04/2024): o documento traz o(s) CNPJ(s) 02713529000188, e não o do fornecedor declarado (13507524000204). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e513c59888e8cf2b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e513c59888e8cf2b.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 23876 de localiza - dc aluguel de veiculos ltda (R$ 2.600,00, 03/06/2024): o documento traz o(s) CNPJ(s) 02713529000188, e não o do fornecedor declarado (13507524000204). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b4f19d72c3d56602.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b4f19d72c3d56602.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 22649 de localiza - dc aluguel de veiculos ltda (R$ 2.200,00, 09/01/2024): o documento traz o(s) CNPJ(s) 02713529000188, e não o do fornecedor declarado (13507524000204). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f36557985cfe3239.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f36557985cfe3239.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 26719 de localiza - dc aluguel de veiculos ltda (R$ 1.606,58, 03/05/2025): o documento traz o(s) CNPJ(s) 02713529000188, e não o do fornecedor declarado (13507524000204). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Luciano Bivar (MDB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/953995818e4f7068.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/953995818e4f7068.html</id>
+<updated>2026-10-28T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Movida participações foi anexado a 2 reembolsos. Despesas declaradas: nº 2364594422 (R$ 1.447,55, 05/01/2026); nº 2364594422 (R$ 1.898,84, 05/01/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor de outro gabinete — Luiz Fernando Vampiro (MDB/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df2c164726a9ff13.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df2c164726a9ff13.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -38,10 +152,10 @@
 <summary>Gravidade alta. SECRETARIA MUNICIPAL DAS SUBPREFEITURAS está baixada desde 20/02/2003, mas emitiu 2 nota(s) depois disso (R$ 762,71). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa753bb4d9954f0b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa753bb4d9954f0b.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1c65702695885e67.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1c65702695885e67.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. nº 10 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (22/09/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. nº 9 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (17/08/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7d1fc571e3e21842.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7d1fc571e3e21842.html</id>
@@ -50,10 +164,10 @@
 <summary>Gravidade alta. nº 231003 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (15/12/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1c65702695885e67.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1c65702695885e67.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa753bb4d9954f0b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa753bb4d9954f0b.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. nº 9 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (17/08/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. nº 10 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (22/09/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Hercílio Coelho Diniz (MDB/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0504c79f31cc0dc2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0504c79f31cc0dc2.html</id>
@@ -74,10 +188,10 @@
 <summary>Gravidade alta. nº 10 de MUNICIPIO DE CURITIBA (20/10/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec716ff2565c4ff4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec716ff2565c4ff4.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/307cdc4d5bf63811.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/307cdc4d5bf63811.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. nº 2 de MUNICIPIO DE CURITIBA (20/04/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. nº 7 de MUNICIPIO DE CURITIBA (20/09/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3111c647f77a6a4f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3111c647f77a6a4f.html</id>
@@ -86,10 +200,10 @@
 <summary>Gravidade alta. nº 6 de MUNICIPIO DE CURITIBA (20/06/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/307cdc4d5bf63811.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/307cdc4d5bf63811.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec716ff2565c4ff4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec716ff2565c4ff4.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. nº 7 de MUNICIPIO DE CURITIBA (20/09/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. nº 2 de MUNICIPIO DE CURITIBA (20/04/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1f86cbddaa9c5872.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1f86cbddaa9c5872.html</id>
@@ -192,119 +306,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 1997 de UBER DO BRASIL TECNOLOGIA LTDA. (30/10/2023): 2 lançamentos em 1 competência(s); documento R$ 19,97, valor líquido R$ 39,94, restituições R$ 0,00, saldo R$ 39,94 (excedente R$ 19,97). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b5c4c434c908738b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b5c4c434c908738b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1994 de UBER DO BRASIL TECNOLOGIA LTDA. (28/02/2023): 2 lançamentos em 1 competência(s); documento R$ 19,94, valor líquido R$ 39,88, restituições R$ 0,00, saldo R$ 39,88 (excedente R$ 19,94). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8f4555047ba65089.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8f4555047ba65089.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1990 de UBER DO BRASIL TECNOLOGIA LTDA. (08/05/2023): 2 lançamentos em 1 competência(s); documento R$ 19,90, valor líquido R$ 39,80, restituições R$ 0,00, saldo R$ 39,80 (excedente R$ 19,90). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/658be7c71f5524b3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/658be7c71f5524b3.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1968 de UBER DO BRASIL TECNOLOGIA LTDA. (11/03/2024): 2 lançamentos em 1 competência(s); documento R$ 19,68, valor líquido R$ 39,36, restituições R$ 0,00, saldo R$ 39,36 (excedente R$ 19,68). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/765538809771f0b7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/765538809771f0b7.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1430 de UBER DO BRASIL TECNOLOGIA LTDA. (15/03/2023): 2 lançamentos em 1 competência(s); documento R$ 14,30, valor líquido R$ 28,60, restituições R$ 0,00, saldo R$ 28,60 (excedente R$ 14,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e5dd1f3367c5db25.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e5dd1f3367c5db25.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1387 de UBER DO BRASIL TECNOLOGIA LTDA. (12/07/2023): 2 lançamentos em 1 competência(s); documento R$ 13,87, valor líquido R$ 27,74, restituições R$ 0,00, saldo R$ 27,74 (excedente R$ 13,87). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5c96f081910e3d70.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5c96f081910e3d70.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1211 de UBER DO BRASIL TECNOLOGIA LTDA. (20/03/2024): 2 lançamentos em 1 competência(s); documento R$ 12,11, valor líquido R$ 24,22, restituições R$ 0,00, saldo R$ 24,22 (excedente R$ 12,11). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Newton Cardoso Jr (MDB/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6cc6965640c7aa2d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6cc6965640c7aa2d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº PP19R50B81KD de VIA CRISTAIS (09/02/2026): 2 lançamentos em 1 competência(s); documento R$ 11,40, valor líquido R$ 22,80, restituições R$ 0,00, saldo R$ 22,80 (excedente R$ 11,40). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — João Cury (MDB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2f477b7803b97c8e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2f477b7803b97c8e.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. DUPLA PARK ESTACIONAMENTO LTDA está baixada desde 06/04/2026, mas emitiu 1 nota(s) depois disso (R$ 10,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Marcos Aurélio Sampaio (MDB/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b93ae5282ea0ad69.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b93ae5282ea0ad69.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. PARENTE &amp; ARAUJO COMBUSTIVEL LTDA e AUTO POSTO SAO JOSE LTDA: sócio em comum Guilherme Araujo Parente; juntas receberam R$ 295.700,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Castro Neto (MDB/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/521264090132d1be.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/521264090132d1be.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. INOP - INSTITUTO NACIONAL DE ORCAMENTO PUBLICO LTDA e BRASILIA INSIGHTS LTDA: sócio em comum Domus Melior Participacoes Ltda; juntas receberam R$ 106.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedor ligado a servidor ou ex-servidor do gabinete — Augusto Puppio (MDB/AP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/209799304142a19d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/209799304142a19d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Pago durante o vínculo, antes de a pessoa constar como sócia: IPE CRIATIVO LTDA recebeu R$ 88.000,00; Milena Ribeiro Nery é sócio(a) desde 05/10/2026 e trabalhou no gabinete (secretário parlamentar, SP04) de 23/07/2024 a 05/01/2025. Pagamentos: R$ 22.000,00 durante o vínculo, R$ 66.000,00 depois do vínculo. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Luciano Bivar (MDB/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/11986eb9fcaad27b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/11986eb9fcaad27b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MOVIDA LOCACAO DE VEICULOS S.A. e MOVIDA PARTICIPACOES S.A.: sócio em comum Daniela Sabbag Papa; juntas receberam R$ 75.895,57. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Fábio Teruel (MDB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/615d960238ea86b5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/615d960238ea86b5.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. AUTO POSTO CARLU LTDA e AUTO SERVICOS GRAND PRIX LTDA: sócio em comum Jose Carlos Simon Da Silva; juntas receberam R$ 73.339,73. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Keniston Braga (MDB/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/04a715ed7a1b4092.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/04a715ed7a1b4092.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. AUTO POSTO NOVA VIDA 1 COMERCIO DE COMBUSTIVEIS LTDA e AUTO POSTO NOVA VIDA 2 COMERCIO DE COMBUSTIVEIS LTDA: sócio em comum Bruno Barros De Oliveira; juntas receberam R$ 67.863,87. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Dr. Zacharias Calil (MDB/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a85fc3e8b5ee478c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a85fc3e8b5ee478c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. AUTO POSTO GLOBAL ARENA LTDA e AUTO POSTO BALI LTDA: sócio em comum Geraldo Da Rocha Dos Santos; juntas receberam R$ 38.977,96. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Célio Silveira (MDB/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b41081487f8b0200.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b41081487f8b0200.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MM COMBUSTIVEIS LUZIANIA LTDA, MM CORUMBA COMBUSTIVEIS LTDA, POSTO INDEPENDENCIA LTDA, SANSAO COMERCIO DE COMBUSTIVEL LTDA e MM COMBUSTIVEL VITORIA LTDA: sócio em comum Marcia Rodrigues Machado; juntas receberam R$ 35.341,16. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Antônio Doido (MDB/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/55d33690811a827c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/55d33690811a827c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. POSTO RODA VIVA LTDA, POSTO IRMAOS PAIER LTDA e RVT COM. DE DERIVADOS DE PETROLEO LTDA: sócio em comum Angela Maria Paier Guimaraes; juntas receberam R$ 31.910,26. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Antônio Doido (MDB/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d1a6090f921c8383.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d1a6090f921c8383.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. POSTO RODA VIVA LTDA e POSTO IRMAOS PAIER LTDA: sócio em comum Ampg Holding Ltda; juntas receberam R$ 31.890,26. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Baleia Rossi (MDB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e4cb3b70eef53c31.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e4cb3b70eef53c31.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. SAFEBANK GESTAO DA TECNOLOGIA LTDA e SECURE ACTION SEGURANCA DA INFORMACAO LTDA: sócio em comum Rodrigo Jose Zanetti; juntas receberam R$ 31.388,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

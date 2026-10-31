@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2973.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2973.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Joaquim Passarinho (PL/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b43d38d5bab3e085.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b43d38d5bab3e085.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 571569 de LOCALIZA RENT CAR S/A (R$ 4.259,47, 25/06/2024): foi declarado R$ 4.259,47, mas o maior valor no documento é R$ 4.080,97. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Joaquim Passarinho (PL/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/11cd83b33bc16d15.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/11cd83b33bc16d15.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3600.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3600.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Fornecedores diferentes com o mesmo dono — Keniston Braga (MDB/PA)</title>
@@ -31,17 +31,17 @@
 <category term="Alta"/>
 <summary>Gravidade alta. 56.420.806 BEATRIZ LEITE MONTEIRO está baixada desde 02/12/2024, mas emitiu 1 nota(s) depois disso (R$ 7.048,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Keniston Braga (MDB/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9630a19770bda996.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9630a19770bda996.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. LORHANNE KAROLINE AQUINO DOS SANTOS: 5 notas em 5 meses, numeradas de 2 a 6 (R$ 103.200,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Keniston Braga (MDB/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/70cf7f8bd71bb51c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/70cf7f8bd71bb51c.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 65.322.283 LORHANNE KAROLINE AQUINO DOS SANTOS foi aberta em 25/02/2026, 0 dias antes da primeira nota (25/02/2026); recebeu R$ 103.200,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Keniston Braga (MDB/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9630a19770bda996.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9630a19770bda996.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. LORHANNE KAROLINE AQUINO DOS SANTOS: 5 notas em 5 meses, numeradas de 2 a 6 (R$ 103.200,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Doador da campanha recebendo da cota — Keniston Braga (MDB/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4579056ccfdd5ae2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4579056ccfdd5ae2.html</id>

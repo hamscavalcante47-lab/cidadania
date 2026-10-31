@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3230.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3230.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:49-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Natália Bonavides (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb87ca2c5c38832b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb87ca2c5c38832b.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 493636 de LOCALIZA RENT A CAR S/A (R$ 11.651,40, 31/07/2025): foi declarado R$ 11.651,40, mas o maior valor no documento é R$ 11.651,36. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Natália Bonavides (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e47a641ab0c207e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e47a641ab0c207e3.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 15290OMAMVF1 de UNIDAS LOCADORA S.A. (R$ 1.494,21, 02/03/2026): foi declarado R$ 1.494,21, mas o maior valor no documento é R$ 1.400,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Natália Bonavides (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/338c0d7481bca121.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/338c0d7481bca121.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 27102453/1 de MOVIDA LOCAÇÃO DE VEÍCULOS S.A (R$ 1.040,93, 28/07/2025): o documento traz o(s) CNPJ(s) 25072374027777, e não o do fornecedor declarado (21314559000166). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Natália Bonavides (PT/RN)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6fba9cbd3cd03017.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6fba9cbd3cd03017.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/am.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/am.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Sidney Leite (PSD/AM)</title>
@@ -55,17 +55,17 @@
 <category term="Média"/>
 <summary>Gravidade média. A E ARAUJO DE ALMEIDA PUBLICIDADE LTDA: 5 notas em 5 meses, numeradas de 425 a 429 (R$ 109.000,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Fausto Jr. (UNIÃO/AM)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/60e296296ae2a4b3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/60e296296ae2a4b3.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. NEXOGEST SERVIÇOS DE PUBLICIDADE E COMUNICAÇÃO LTDA: 11 notas em 14 meses, numeradas de 1 a 12 (R$ 91.000,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Fausto Jr. (UNIÃO/AM)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4dbe2a9e6be0fe35.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4dbe2a9e6be0fe35.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. NEXOGEST SERVICOS DE PUBLICIDADE E COMUNICACAO LTDA foi aberta em 11/02/2025, 2 dias antes da primeira nota (13/02/2025); recebeu R$ 91.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Fausto Jr. (UNIÃO/AM)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/60e296296ae2a4b3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/60e296296ae2a4b3.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. NEXOGEST SERVIÇOS DE PUBLICIDADE E COMUNICAÇÃO LTDA: 11 notas em 14 meses, numeradas de 1 a 12 (R$ 91.000,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Doador da campanha recebendo da cota — Saullo Vianna (MDB/AM)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3e5b5d375f4a0309.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3e5b5d375f4a0309.html</id>

@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1531.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1531.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Alice Portugal (PCdoB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/941b8422513bc01c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/941b8422513bc01c.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1512702 de LOCALIZA RENT A CAR SA (R$ 10.283,80, 19/08/2026): foi declarado R$ 10.283,80, mas o maior valor no documento é R$ 10.283,76. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Alice Portugal (PCdoB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6b9af691db839346.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6b9af691db839346.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1501438 de LOCALIZA RENT A CAR SA (R$ 8.838,74, 20/07/2026): foi declarado R$ 9.378,14, mas o maior valor no documento é R$ 740,95. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Empresa aberta pouco antes de receber — Alice Portugal (PCdoB/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/69643efab3fc96a0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/69643efab3fc96a0.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

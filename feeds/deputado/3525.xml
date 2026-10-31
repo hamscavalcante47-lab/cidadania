@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3525.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3525.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Fornecedores diferentes com o mesmo dono — André Fernandes (PL/CE)</title>
@@ -13,6 +13,12 @@
 <category term="Média"/>
 <summary>Gravidade média. A &amp; E CHAVES COMERCIO DE DERIVADOS DE PETROLEO LTDA e POSTO ALPHA COMERCIO DE COMBUSTIVEIS LTDA.: sócio em comum Antonio Eder Nunes Chaves; juntas receberam R$ 20.561,48. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
+<title>Empresa aberta pouco antes de receber — André Fernandes (PL/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/569b0a0df12d703e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/569b0a0df12d703e.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. KERIGMA COMERCIO DE VEICULOS LTDA foi aberta em 25/08/2023, 39 dias antes da primeira nota (03/10/2023); recebeu R$ 96.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — André Fernandes (PL/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7bf32a8568c8796.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7bf32a8568c8796.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -20,27 +26,21 @@
 <summary>Gravidade média. KERIGMA COMERCIO E LOCAÇÃO DE VEÍCULOS LTDA: 12 notas em 12 meses, numeradas de 3 a 16 (R$ 96.000,00). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — André Fernandes (PL/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/569b0a0df12d703e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/569b0a0df12d703e.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. KERIGMA COMERCIO DE VEICULOS LTDA foi aberta em 25/08/2023, 39 dias antes da primeira nota (03/10/2023); recebeu R$ 96.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — André Fernandes (PL/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/20ac99a7a9070333.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/20ac99a7a9070333.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. BROAD BRASIL LTDA foi aberta em 21/12/2022, 92 dias antes da primeira nota (23/03/2023); recebeu R$ 36.750,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — André Fernandes (PL/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6f0f445852941a8e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f0f445852941a8e.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. LCR SERVICOS LTDA: 4 notas em 4 meses, numeradas de 17 a 23 (R$ 28.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Atividade da empresa não combina com o gasto — André Fernandes (PL/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/19d96243dbac5652.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/19d96243dbac5652.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. LCR SERVICOS LTDA recebeu R$ 28.000,00 por "locação ou fretamento de veículos automotores", mas sua atividade é "Aluguel de imóveis próprios" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — André Fernandes (PL/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6f0f445852941a8e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f0f445852941a8e.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. LCR SERVICOS LTDA: 4 notas em 4 meses, numeradas de 17 a 23 (R$ 28.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

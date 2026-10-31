@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3284.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3284.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Marreca Filho (PRD/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/052041bab0ed41f8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/052041bab0ed41f8.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 8548 de AGUIAR LOCAÇÃO E TURISMO (R$ 7.237,56, 07/01/2025): foi declarado R$ 10.990,20, mas o maior valor no documento é R$ 10.990,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Marreca Filho (PRD/MA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/62829380e2ccccc1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/62829380e2ccccc1.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -43,16 +49,16 @@
 <category term="Média"/>
 <summary>Gravidade média. DC2 COMUNICACOES LTDA foi aberta em 24/01/2025, 11 dias antes da primeira nota (04/02/2025); recebeu R$ 18.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Marreca Filho (PRD/MA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d35955aaa1a53673.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d35955aaa1a53673.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. VERTOM SANTOS DE OLIVEIRA: 5 notas em 5 meses, numeradas de 1 a 6 (R$ 12.500,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Marreca Filho (PRD/MA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6ef4a8e8977578da.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6ef4a8e8977578da.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 62.162.950 VERTOM SANTOS DE OLIVEIRA foi aberta em 11/08/2025, 1 dias antes da primeira nota (12/08/2025); recebeu R$ 12.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Marreca Filho (PRD/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d35955aaa1a53673.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d35955aaa1a53673.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. VERTOM SANTOS DE OLIVEIRA: 5 notas em 5 meses, numeradas de 1 a 6 (R$ 12.500,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

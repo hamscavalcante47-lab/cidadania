@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3316.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3316.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Pedro Lupion (REPUBLICANOS/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dd65bd0e6630f337.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dd65bd0e6630f337.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000276 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 05/03/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Pedro Lupion (REPUBLICANOS/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/93148066c16d6c68.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/93148066c16d6c68.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 246 de SUPREMA MOBILIDADE LTDA (R$ 750,00, 05/06/2023): foi declarado R$ 750,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Empresa aberta pouco antes de receber — Pedro Lupion (REPUBLICANOS/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4128a2fd2bcca217.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4128a2fd2bcca217.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

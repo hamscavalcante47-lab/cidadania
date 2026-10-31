@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3665.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3665.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Coronel Meira (PL/PE)</title>
@@ -37,16 +37,16 @@
 <category term="Média"/>
 <summary>Gravidade média. AUGUSTO CESAR BARBOSA RIBEIRO: 8 notas em 8 meses, numeradas de 4 a 25 (R$ 76.430,00). Fora deste gabinete, a empresa emitiu no máximo 14 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Coronel Meira (PL/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5d0e04db86fa3b08.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5d0e04db86fa3b08.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. THJ FILMES E MARKETING DIGITAL LTDA: 4 notas em 4 meses, numeradas de 4 a 12 (R$ 21.100,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Coronel Meira (PL/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5678271f72a35423.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5678271f72a35423.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. THJ FILMES E MARKETING DIGITAL LTDA foi aberta em 21/03/2024, 166 dias antes da primeira nota (03/09/2024); recebeu R$ 21.100,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Coronel Meira (PL/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5d0e04db86fa3b08.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5d0e04db86fa3b08.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. THJ FILMES E MARKETING DIGITAL LTDA: 4 notas em 4 meses, numeradas de 4 a 12 (R$ 21.100,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

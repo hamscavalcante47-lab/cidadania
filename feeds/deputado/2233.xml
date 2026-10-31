@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2233.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2233.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Weliton Prado (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d8b7e7a4df7c8210.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d8b7e7a4df7c8210.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 333697 de LOCALIZA RENT A CAR S/A (R$ 1.317,88, 27/08/2024): foi declarado R$ 1.317,88, mas o maior valor no documento é R$ 1.246,08. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Weliton Prado (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/19f4f4e8580d0132.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/19f4f4e8580d0132.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 279819 de LOCALIZA RENT A CAR S/A (R$ 1.064,63, 06/06/2023): foi declarado R$ 1.076,63, mas o maior valor no documento é R$ 1.017,03. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Weliton Prado (PSD/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ea3dc6fbd5b7bc80.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ea3dc6fbd5b7bc80.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

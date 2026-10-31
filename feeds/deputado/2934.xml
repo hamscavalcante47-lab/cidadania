@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2934.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2934.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Marcelo Álvaro Antônio (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e9b2f757af9a97d1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e9b2f757af9a97d1.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 034283 de PONTUAL LOC CAR LTDA (R$ 760,00, 31/07/2026): foi declarado R$ 760,00, mas o maior valor no documento é R$ 706,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Marcelo Álvaro Antônio (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4f7a135b8e702eab.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4f7a135b8e702eab.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3367.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3367.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Chris Tonietto (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/59c59926fcb95ff4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/59c59926fcb95ff4.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 7983 de Localiza Rent a Car S. A. (R$ 1.686,00, 30/01/2024): foi declarado R$ 1.859,19, mas o maior valor no documento é R$ 1.751,49. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Chris Tonietto (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3f17196ac9a668bc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3f17196ac9a668bc.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 128065 de UNIDAS LOCADORA S.A (R$ 941,34, 02/02/2024): foi declarado R$ 982,41, mas o maior valor no documento é R$ 940,24. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Chris Tonietto (PL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4d9a5b821da48fd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4d9a5b821da48fd.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

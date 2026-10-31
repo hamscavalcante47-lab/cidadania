@@ -4,9 +4,51 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/mt.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/mt.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Nelson Barbudo (PODE/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/de92469555867b1f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/de92469555867b1f.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 002412 de Doannytur Agência de Viagens (R$ 10.600,00, 01/07/2024): foi declarado R$ 10.600,00, mas o maior valor no documento é R$ 10.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Coronel Assis (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b30e1490bf744d38.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b30e1490bf744d38.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 134 de Novacar Locadora de Veículos Ltda (R$ 6.900,00, 08/12/2023): foi declarado R$ 6.900,00, mas o maior valor no documento é R$ 690,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Abilio Brunini (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3eefd3c5c6ebd6b5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3eefd3c5c6ebd6b5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 98 de NOVACAR LOCADORA DE VEICULOS LTDA (R$ 5.120,00, 09/10/2023): foi declarado R$ 5.120,00, mas o maior valor no documento é R$ 50,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Amália Barros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3ea810294a6ced1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f3ea810294a6ced1.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 190487 de UNIDAS LOCADORA S.A (R$ 4.305,00, 04/01/2024): foi declarado R$ 8.414,25, mas o maior valor no documento é R$ 5.434,87. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Amália Barros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2c872700a0d09202.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2c872700a0d09202.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 188742 de UNIDAS LOCADORA S.A (R$ 3.458,40, 22/12/2023): foi declarado R$ 3.876,47, mas o maior valor no documento é R$ 3.744,69. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Amália Barros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bcfa25186b2a8bde.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bcfa25186b2a8bde.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 16497/1 de VELZ RENT A CAR (R$ 1.227,60, 03/08/2023): o documento traz o(s) CNPJ(s) 22861906000133, e não o do fornecedor declarado (08306495000193). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a54e02c892e33953.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a54e02c892e33953.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 253554 de Localiza Rent a Car S/A (R$ 1.150,95, 02/09/2023): foi declarado R$ 1.185,90, mas o maior valor no documento é R$ 1.126,10. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor de outro gabinete — Gisela Simona (UNIÃO/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/053e7a95162afe04.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/053e7a95162afe04.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -193,17 +235,17 @@
 <category term="Média"/>
 <summary>Gravidade média. GIBSON FLORET DE FREITAS JUNIOR: 15 notas em 15 meses, numeradas de 5 a 28 (R$ 42.600,00). Fora deste gabinete, a empresa emitiu no máximo 9 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Coronel Assis (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8299817b237d6671.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8299817b237d6671.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 50.776.530 RENATA CAROLINA MARQUES FORRER GARCIA BOERY: 5 notas em 5 meses, numeradas de 2 a 14 (R$ 42.236,68). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Coronel Assis (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/346ed342af6bffeb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/346ed342af6bffeb.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 50.776.530 RENATA CAROLINA MARQUES FORRER GARCIA BOERY foi aberta em 22/05/2023, 49 dias antes da primeira nota (10/07/2023); recebeu R$ 42.236,68. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Coronel Assis (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8299817b237d6671.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8299817b237d6671.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 50.776.530 RENATA CAROLINA MARQUES FORRER GARCIA BOERY: 5 notas em 5 meses, numeradas de 2 a 14 (R$ 42.236,68). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Amália Barros (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa8629a93bc0292a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa8629a93bc0292a.html</id>
@@ -264,47 +306,5 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. EFRATA MOBILIDADE LTDA: 4 notas em 4 meses, numeradas de 38 a 41 (R$ 24.000,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Abilio Brunini (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f416b743f60b6a36.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f416b743f60b6a36.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. J C COMUNICAÇÃO LTDA ME: 4 notas em 4 meses, numeradas de 13 a 22 (R$ 22.000,00). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Abilio Brunini (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9669491d2dbbfa0c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9669491d2dbbfa0c.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. BROAD BRASIL LTDA foi aberta em 21/12/2022, 153 dias antes da primeira nota (23/05/2023); recebeu R$ 19.600,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Nelson Barbudo (PODE/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e20b60499e30ab59.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e20b60499e30ab59.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. GEVE COMUNICACAO LTDA foi aberta em 17/07/2024, 63 dias antes da primeira nota (18/09/2024); recebeu R$ 18.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Coronel Assis (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/88c6686f727d1155.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/88c6686f727d1155.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 47.082.493 VICTOR ANTUNES SABINO: 12 notas em 12 meses, numeradas de 6 a 21 (R$ 14.400,00). Fora deste gabinete, a empresa emitiu no máximo 4 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Gisela Simona (UNIÃO/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cccae2a52e4ca0e0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cccae2a52e4ca0e0.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. BKSOFT COMERCIO E SERVICOS DE SISTEMAS E SUPRIMENTOS DE INFORMATICA LTDA: 6 notas em 6 meses, numeradas de 315 a 328 (R$ 11.866,68). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Coronel Fernanda (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/702f53d154924f55.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/702f53d154924f55.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ELI MARKENTING LTDA: 4 notas em 4 meses, numeradas de 9 a 12 (R$ 9.000,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Rodrigo da Zaeli (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/602bcdde704ca331.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/602bcdde704ca331.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ITECH SINGLE TECNOLOGIA LTDA: 13 notas em 13 meses, numeradas de 9 a 41 (R$ 8.700,00). Fora deste gabinete, a empresa emitiu no máximo 20 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

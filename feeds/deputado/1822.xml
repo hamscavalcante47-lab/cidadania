@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1822.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1822.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:49-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Eduardo da Fonte (PP/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a44d4b14ef7db9a4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a44d4b14ef7db9a4.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº SN de HPE LOCADORA DE VEICULOS LTDA (R$ 5.475,00, 14/10/2026): foi declarado R$ 5.475,00, mas o maior valor no documento é R$ 475,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Eduardo da Fonte (PP/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4e6bd20d94a1598.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4e6bd20d94a1598.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -43,17 +49,17 @@
 <category term="Média"/>
 <summary>Gravidade média. IM2 SERVICOS LTDA foi aberta em 20/05/2024, 32 dias antes da primeira nota (21/06/2024); recebeu R$ 54.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Eduardo da Fonte (PP/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e4ce6b6f92a9367d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e4ce6b6f92a9367d.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 49.487.331 ISABELA REGINA DA SILVA PONTES: 4 notas em 4 meses, numeradas de 1 a 9 (R$ 26.940,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Eduardo da Fonte (PP/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0fea8331a80496a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0fea8331a80496a5.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 49.487.331 ISABELA REGINA DA SILVA PONTES foi aberta em 06/02/2023, 88 dias antes da primeira nota (05/05/2023); recebeu R$ 26.940,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Eduardo da Fonte (PP/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e4ce6b6f92a9367d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e4ce6b6f92a9367d.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 49.487.331 ISABELA REGINA DA SILVA PONTES: 4 notas em 4 meses, numeradas de 1 a 9 (R$ 26.940,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Eduardo da Fonte (PP/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b73eaabef26647aa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b73eaabef26647aa.html</id>

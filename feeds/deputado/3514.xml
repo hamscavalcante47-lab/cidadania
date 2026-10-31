@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3514.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3514.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Franciane Bayer (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1871bcafd6e2315.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1871bcafd6e2315.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 67 de SUPREMA MOBILIDADE LTDA (R$ 4.000,00, 01/03/2023): foi declarado R$ 4.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Franciane Bayer (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdf48d8678965bef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdf48d8678965bef.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000303 de SUPREMA MOBILIDADE LTDA (R$ 3.000,00, 01/04/2025): foi declarado R$ 3.000,00, mas o maior valor no documento é R$ 4,89. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e8c1a6531c2fe984.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e8c1a6531c2fe984.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -20,6 +32,12 @@
 <summary>Gravidade alta. nº C00200452 de EMPRESA CONCESSIONARIA DE RODOVIAS DO SUL S/A - ECOSUL (14/08/2023): 2 lançamentos em 1 competência(s); documento R$ 15,20, valor líquido R$ 30,40, restituições R$ 0,00, saldo R$ 30,40 (excedente R$ 15,20). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1a75f67803b8c4ca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1a75f67803b8c4ca.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 59398 de CONC. RODOVIAS INTEGRADAS DO SUL (11/08/2023): 3 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 17,40, restituições R$ 0,00, saldo R$ 17,40 (excedente R$ 11,60). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5da79b22dfb1a8fc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5da79b22dfb1a8fc.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
@@ -30,12 +48,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 58538 de CONC. RODOVIAS INTEGRADAS DO SUL (14/10/2023): 3 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 17,40, restituições R$ 0,00, saldo R$ 17,40 (excedente R$ 11,60). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1a75f67803b8c4ca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1a75f67803b8c4ca.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 59398 de CONC. RODOVIAS INTEGRADAS DO SUL (11/08/2023): 3 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 17,40, restituições R$ 0,00, saldo R$ 17,40 (excedente R$ 11,60). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5159b81d8e3c4576.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5159b81d8e3c4576.html</id>
@@ -56,34 +68,16 @@
 <summary>Gravidade alta. nº 30149 de EGR EMPRESA GAUCHA DE RODOVIAS SA (26/01/2024): 2 lançamentos em 1 competência(s); documento R$ 6,30, valor líquido R$ 12,60, restituições R$ 0,00, saldo R$ 12,60 (excedente R$ 6,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2916d5cf803d5386.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2916d5cf803d5386.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 59556 de CONC. RODOVIAS INTEGRADAS DO SUL (28/09/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/31f7f125a7ef63a6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/31f7f125a7ef63a6.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 58512 de CONC. RODOVIAS INTEGRADAS DO SUL (26/10/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d074b4ff1adb78c1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d074b4ff1adb78c1.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 59040 de CONC. RODOVIAS INTEGRADAS DO SUL (25/08/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7fcdc41c18f25f65.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7fcdc41c18f25f65.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 59153 de CONC. RODOVIAS INTEGRADAS DO SUL (11/08/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7d65de2d4525aedd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7d65de2d4525aedd.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 59372 de CONC. RODOVIAS INTEGRADAS DO SUL (14/10/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec537cf2712197a4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec537cf2712197a4.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 59458 de CONC. RODOVIAS INTEGRADAS DO SUL (16/09/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/78e9f10e0b47e4fc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/78e9f10e0b47e4fc.html</id>
@@ -92,10 +86,28 @@
 <summary>Gravidade alta. nº 59540 de CONC. RODOVIAS INTEGRADAS DO SUL (12/10/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2916d5cf803d5386.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2916d5cf803d5386.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7d65de2d4525aedd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7d65de2d4525aedd.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. nº 59556 de CONC. RODOVIAS INTEGRADAS DO SUL (28/09/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. nº 59372 de CONC. RODOVIAS INTEGRADAS DO SUL (14/10/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7fcdc41c18f25f65.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7fcdc41c18f25f65.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 59153 de CONC. RODOVIAS INTEGRADAS DO SUL (11/08/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d074b4ff1adb78c1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d074b4ff1adb78c1.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 59040 de CONC. RODOVIAS INTEGRADAS DO SUL (25/08/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec537cf2712197a4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec537cf2712197a4.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 59458 de CONC. RODOVIAS INTEGRADAS DO SUL (16/09/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5f832b93011e0e2f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5f832b93011e0e2f.html</id>
@@ -116,16 +128,16 @@
 <summary>Gravidade alta. nº 44693 de CONCESSIONÁRIA ROTA SANTA MARIA (15/01/2024): 2 lançamentos em 1 competência(s); documento R$ 4,30, valor líquido R$ 8,60, restituições R$ 0,00, saldo R$ 8,60 (excedente R$ 4,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/795c3a7c998a827d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/795c3a7c998a827d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 42452 de CONCESSIONÁRIA ROTA SANTA MARIA (26/06/2023): 2 lançamentos em 1 competência(s); documento R$ 4,10, valor líquido R$ 8,20, restituições R$ 0,00, saldo R$ 8,20 (excedente R$ 4,10). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3548030c072a063a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3548030c072a063a.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 42508 de CONCESSIONÁRIA ROTA SANTA MARIA (26/06/2023): 2 lançamentos em 1 competência(s); documento R$ 4,10, valor líquido R$ 8,20, restituições R$ 0,00, saldo R$ 8,20 (excedente R$ 4,10). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/795c3a7c998a827d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/795c3a7c998a827d.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 42452 de CONCESSIONÁRIA ROTA SANTA MARIA (26/06/2023): 2 lançamentos em 1 competência(s); documento R$ 4,10, valor líquido R$ 8,20, restituições R$ 0,00, saldo R$ 8,20 (excedente R$ 4,10). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Franciane Bayer (REPUBLICANOS/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ad881bfff3592859.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ad881bfff3592859.html</id>

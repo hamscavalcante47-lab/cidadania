@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3788.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3788.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:55-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Empresa aberta pouco antes de receber — Enfermeira Rejane (PCdoB/RJ)</title>
@@ -19,16 +19,16 @@
 <category term="Média"/>
 <summary>Gravidade média. 49.797.782 CARLOS HENRIQUE DE MELO PEREIRA: 7 notas em 7 meses, numeradas de 25 a 39 (R$ 65.500,00). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Enfermeira Rejane (PCdoB/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c8e6a351bb487af1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c8e6a351bb487af1.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. F. FERREIRA PIRES TAVARES: 7 notas em 4 meses, numeradas de 1 a 9 (R$ 31.666,67). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Enfermeira Rejane (PCdoB/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8174e24e207ff15b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8174e24e207ff15b.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. F. FERREIRA PIRES TAVARES foi aberta em 17/03/2026, 1 dias antes da primeira nota (18/03/2026); recebeu R$ 31.666,67. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Enfermeira Rejane (PCdoB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c8e6a351bb487af1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c8e6a351bb487af1.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. F. FERREIRA PIRES TAVARES: 7 notas em 4 meses, numeradas de 1 a 9 (R$ 31.666,67). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

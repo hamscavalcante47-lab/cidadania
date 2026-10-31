@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3315.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3315.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a54e02c892e33953.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a54e02c892e33953.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 253554 de Localiza Rent a Car S/A (R$ 1.150,95, 02/09/2023): foi declarado R$ 1.185,90, mas o maior valor no documento é R$ 1.126,10. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Emanuel Pinheiro Neto (PSD/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9bb93e527943a9ed.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9bb93e527943a9ed.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3292.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3292.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Notas com numeração quase seguida — Felipe Francischini (PODE/PR)</title>
@@ -31,16 +31,16 @@
 <category term="Média"/>
 <summary>Gravidade média. FABIO AURELLE ATALIBA: 6 notas em 5 meses, numeradas de 17 a 22 (R$ 65.000,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Felipe Francischini (PODE/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f2479dd1ad2a28ea.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f2479dd1ad2a28ea.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Francisco Adami Silva: 5 notas em 5 meses, numeradas de 1 a 5 (R$ 50.000,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Felipe Francischini (PODE/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bac651155570af78.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bac651155570af78.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 57.853.007 FRANCISCO ADAMI SILVA foi aberta em 26/10/2024, 26 dias antes da primeira nota (21/11/2024); recebeu R$ 50.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Felipe Francischini (PODE/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f2479dd1ad2a28ea.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f2479dd1ad2a28ea.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Francisco Adami Silva: 5 notas em 5 meses, numeradas de 1 a 5 (R$ 50.000,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3676.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3676.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:53-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Detinha (PL/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4122449708eeae0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4122449708eeae0.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0227 de ML LOCAÇÕES EIRELI (R$ 11.500,00, 01/09/2025): foi declarado R$ 11.500,00, mas o maior valor no documento é R$ 8,33. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Detinha (PL/MA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a91a7f2540b88a7f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a91a7f2540b88a7f.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

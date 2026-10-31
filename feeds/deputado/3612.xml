@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3612.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3612.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Fábio Teruel (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/363eca51d225500d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/363eca51d225500d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 10100 de VIA LOCADORA DE AUTOMOVEIS LTDA (R$ 5.750,00, 12/08/2024): foi declarado R$ 5.750,00, mas o maior valor no documento é R$ 5.390,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Fábio Teruel (MDB/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9a6094a789dda812.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9a6094a789dda812.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

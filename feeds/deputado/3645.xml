@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3645.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3645.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Gabriel Nunes (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a1e3a67839d2f4e1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a1e3a67839d2f4e1.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 23941781 de UNIDAS S/A (R$ 2.133,24, 02/02/2023): foi declarado R$ 2.133,24, mas o maior valor no documento é R$ 750,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Gabriel Nunes (PSD/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d96afe2b18bc6d9b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d96afe2b18bc6d9b.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

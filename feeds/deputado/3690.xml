@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3690.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3690.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Clodoaldo Magalhães (PV/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5ed925cfda3a407e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5ed925cfda3a407e.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 101152 de VIA LOCADORA DE AUTOMOVEIS LTDA (R$ 6.290,00, 08/01/2025): o documento traz o(s) CNPJ(s) 44013559000121, e não o do fornecedor declarado (45414964000114). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

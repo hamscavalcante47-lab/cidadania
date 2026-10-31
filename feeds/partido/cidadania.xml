@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/cidadania.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/cidadania.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Arnaldo Jardim (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3a223f668991fcc6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3a223f668991fcc6.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 272328 de LOCALIZA RENT A CAR SA (R$ 6.812,16, 25/03/2025): o documento traz o(s) CNPJ(s) 82065285000103, e não o do fornecedor declarado (16670085000155). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Arnaldo Jardim (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a03b5965a3061e36.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a03b5965a3061e36.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1718557 de LOCALIZA FLEET SA (R$ 5.738,00, 22/07/2024): o documento traz o(s) CNPJ(s) 90400888000142, e não o do fornecedor declarado (02286479000108). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Arnaldo Jardim (CIDADANIA/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3da1ffa45a909142.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3da1ffa45a909142.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

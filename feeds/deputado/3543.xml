@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3543.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3543.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Delegada Katarina (PSD/SE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8ea42ef389a1765.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8ea42ef389a1765.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 01 de UNIR LOCACOES E SERVICOS LTDA (R$ 12.700,00, 28/02/2023): foi declarado R$ 12.700,00, mas o maior valor no documento é R$ 6.350,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Delegada Katarina (PSD/SE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1e3cc818730c63db.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1e3cc818730c63db.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

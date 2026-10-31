@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2946.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2946.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Possível reembolso repetido após conciliação mensal — Luizianne Lins (REDE/CE)</title>
@@ -25,12 +25,6 @@
 <category term="Média"/>
 <summary>Gravidade média. Diego Ladim Borges: 16 notas em 13 meses, numeradas de 7 a 34 (R$ 48.000,00). Fora deste gabinete, a empresa emitiu no máximo 12 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c82ec0890cc339c6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c82ec0890cc339c6.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. João Lucas Diogenes Cavalcante: 9 notas em 9 meses, numeradas de 2 a 13 (R$ 30.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Luizianne Lins (REDE/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/97f75eee0b13b37c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/97f75eee0b13b37c.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -38,22 +32,28 @@
 <summary>Gravidade média. 54.085.696 JOAO LUCAS DIOGENES CAVALCANTE foi aberta em 27/02/2024, 21 dias antes da primeira nota (19/03/2024); recebeu R$ 30.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c82ec0890cc339c6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c82ec0890cc339c6.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. João Lucas Diogenes Cavalcante: 9 notas em 9 meses, numeradas de 2 a 13 (R$ 30.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/883e579be715759c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/883e579be715759c.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. Gustavo Costa Portela: 9 notas em 9 meses, numeradas de 211 a 228 (R$ 28.550,00). Fora deste gabinete, a empresa emitiu no máximo 9 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f53fba5998ebf0ce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f53fba5998ebf0ce.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. José Wesley Rogério Gomes: 8 notas em 8 meses, numeradas de 2 a 21 (R$ 25.500,00). Fora deste gabinete, a empresa emitiu no máximo 12 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Luizianne Lins (REDE/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6060fac8fa9ff44d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6060fac8fa9ff44d.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. JOSE WESLEY ROGERIO GOMES ***.264.863-** foi aberta em 11/10/2022, 137 dias antes da primeira nota (25/02/2023); recebeu R$ 25.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f53fba5998ebf0ce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f53fba5998ebf0ce.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. José Wesley Rogério Gomes: 8 notas em 8 meses, numeradas de 2 a 21 (R$ 25.500,00). Fora deste gabinete, a empresa emitiu no máximo 12 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/678d6c8b22af1788.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/678d6c8b22af1788.html</id>

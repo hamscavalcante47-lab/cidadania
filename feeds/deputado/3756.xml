@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3756.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3756.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Douglas Viegas (UNIÃO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8f9975748d618e73.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8f9975748d618e73.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000341 de SUPREMA MOBILIDADE LTDA (R$ 9.500,00, 01/04/2024): foi declarado R$ 9.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Douglas Viegas (UNIÃO/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b0397a4205148bc2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b0397a4205148bc2.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

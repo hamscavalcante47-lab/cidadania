@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pv.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pv.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Clodoaldo Magalhães (PV/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5ed925cfda3a407e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5ed925cfda3a407e.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 101152 de VIA LOCADORA DE AUTOMOVEIS LTDA (R$ 6.290,00, 08/01/2025): o documento traz o(s) CNPJ(s) 44013559000121, e não o do fornecedor declarado (45414964000114). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Prof. Reginaldo Veras (PV/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8a95b27a60a895e0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8a95b27a60a895e0.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000196 de SUPREMA MOBILIDADE LTDA (R$ 5.500,00, 20/03/2025): foi declarado R$ 5.500,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Prof. Reginaldo Veras (PV/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b6854744a21fb5b9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b6854744a21fb5b9.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000216 de SUPREMA MOBILIDADE LTDA (R$ 5.500,00, 20/04/2025): foi declarado R$ 5.500,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Prof. Reginaldo Veras (PV/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e9066ec8e6241a5f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e9066ec8e6241a5f.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 115 de SUPREMA MOBILIDADE LTDA (R$ 4.500,00, 28/03/2023): foi declarado R$ 4.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Aliel Machado (PV/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/11806697af955ee2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/11806697af955ee2.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -103,17 +127,17 @@
 <category term="Média"/>
 <summary>Gravidade média. POSTO 81 LTDA recebeu R$ 2.836,81 por "combustíveis e lubrificantes", mas sua atividade é "Gestão e administração da propriedade imobiliária" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Bandeira de Mello (PV/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe9f8c564f772892.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe9f8c564f772892.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. INCOMUM ASSESSORIA DE COMUNICAÇÃO LTDA: 37 notas em 39 meses, numeradas de 1 a 53 (R$ 312.000,00). Fora deste gabinete, a empresa emitiu no máximo 16 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Bandeira de Mello (PV/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/19e75e832093363f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/19e75e832093363f.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. INCOMUN ASSESSORIA DE COMUNICACAO LTDA foi aberta em 30/03/2023, 11 dias antes da primeira nota (10/04/2023); recebeu R$ 312.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Bandeira de Mello (PV/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe9f8c564f772892.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe9f8c564f772892.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. INCOMUM ASSESSORIA DE COMUNICAÇÃO LTDA: 37 notas em 39 meses, numeradas de 1 a 53 (R$ 312.000,00). Fora deste gabinete, a empresa emitiu no máximo 16 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Aliel Machado (PV/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d70134fff70067b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d70134fff70067b2.html</id>
@@ -169,16 +193,16 @@
 <category term="Média"/>
 <summary>Gravidade média. BROAD BRASIL LTDA foi aberta em 21/12/2022, 120 dias antes da primeira nota (20/04/2023); recebeu R$ 35.700,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Prof. Reginaldo Veras (PV/DF)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2b2bf0dc4e9e1a17.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2b2bf0dc4e9e1a17.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. DM CONSULTORIA DIGITAL LTDA: 5 notas em 5 meses, numeradas de 2 a 7 (R$ 32.500,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Prof. Reginaldo Veras (PV/DF)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/03a829ec45e0767d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/03a829ec45e0767d.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. DM CONSULTORIA DIGITAL LTDA foi aberta em 18/12/2025, 29 dias antes da primeira nota (16/01/2026); recebeu R$ 32.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Prof. Reginaldo Veras (PV/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2b2bf0dc4e9e1a17.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2b2bf0dc4e9e1a17.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. DM CONSULTORIA DIGITAL LTDA: 5 notas em 5 meses, numeradas de 2 a 7 (R$ 32.500,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

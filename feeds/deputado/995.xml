@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/995.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/995.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Claudio Cajado (PP/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c70360d35d677a72.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c70360d35d677a72.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 004/2025 de JF COMERCIO E SERVICOS LOCATICIOS LTDA (R$ 12.000,00, 02/04/2025): o documento traz o(s) CNPJ(s) 53494608000186, e não o do fornecedor declarado (58035724000150). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Claudio Cajado (PP/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/595319d7009797bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/595319d7009797bd.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

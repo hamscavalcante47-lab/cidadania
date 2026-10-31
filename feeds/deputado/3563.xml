@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3563.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3563.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Erika Hilton (PSOL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/289e06801c4df4e2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/289e06801c4df4e2.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 514820 de LOCALIZA RENT A CAR S/A (R$ 6.512,49, 08/03/2025): foi declarado R$ 6.512,49, mas o maior valor no documento é R$ 6.333,99. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Erika Hilton (PSOL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f622fd84c761a961.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f622fd84c761a961.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 514820 de LOCALIZA RENT A CAR S/A (R$ 6.512,49, 08/03/2025): o documento traz o(s) CNPJ(s) 16577631000299, e não o do fornecedor declarado (16670085001399). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Erika Hilton (PSOL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/235310f1c1836442.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/235310f1c1836442.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 512332 de LOCALIZA RENT A CAR S/A (R$ 5.951,66, 06/02/2025): foi declarado R$ 6.128,86, mas o maior valor no documento é R$ 5.950,36. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Erika Hilton (PSOL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a8b3eb1a3d90710a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a8b3eb1a3d90710a.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 507331 de LOCALIZA RENT A CAR S/A (R$ 5.946,33, 07/12/2024): foi declarado R$ 6.079,08, mas o maior valor no documento é R$ 5.900,58. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Erika Hilton (PSOL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/82e5469535541f05.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/82e5469535541f05.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 391093 de UNIDAS LOCADORA S.A (R$ 1.195,93, 18/03/2025): foi declarado R$ 1.195,93, mas o maior valor no documento é R$ 694,62. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Erika Hilton (PSOL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/05fb0fd23e653b21.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/05fb0fd23e653b21.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

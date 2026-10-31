@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1669.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1669.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Jefferson Campos (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/218766bc62df1030.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/218766bc62df1030.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº SN de MOVIDA LOCACAO DE VEICULOS S.A. (R$ 3.993,48, 05/06/2024): foi declarado R$ 3.993,48, mas o maior valor no documento é R$ 3.003,48. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Jefferson Campos (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7a2db439efcfa1bb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7a2db439efcfa1bb.html</id>
+<updated>2026-10-28T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de VIA LOCADORA DE AUTOMOVEIS LTDA foi anexado a 3 reembolsos. Despesas declaradas: nº 10195 (R$ 3.500,00, 01/11/2024); nº 10195 (R$ 0,00, 01/11/2024); nº 10195 (R$ 3.500,00, 01/11/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Jefferson Campos (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e6e1955daabb497a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e6e1955daabb497a.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

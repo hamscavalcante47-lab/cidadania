@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2305.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2305.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Padre João (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2158aca9a6fb5b14.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2158aca9a6fb5b14.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 301546651 de MOVIDA PARTICIPACOES S.A. (R$ 570,98, 30/06/2026): o documento traz o(s) CNPJ(s) 21314559005206, e não o do fornecedor declarado (07976147000160). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Padre João (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f5937cad98593eca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f5937cad98593eca.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

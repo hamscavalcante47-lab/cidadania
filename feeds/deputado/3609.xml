@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3609.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3609.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Célia Xakriabá (PSOL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/69d3b37393e6e197.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/69d3b37393e6e197.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 18860 de LOCADORA DE VEICULOS FLORESTA LTDA (R$ 2.580,65, 31/07/2026): o documento traz o(s) CNPJ(s) 03350577000111, e não o do fornecedor declarado (07560718000181). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Célia Xakriabá (PSOL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ac735e1ba59d3afe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ac735e1ba59d3afe.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 19049 de LOCADORA DE VEICULOS FLORESTA LTDA (R$ 903,23, 31/08/2026): o documento traz o(s) CNPJ(s) 03350577000111, e não o do fornecedor declarado (07560718000181). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Célia Xakriabá (PSOL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c4869b95e66b946d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c4869b95e66b946d.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

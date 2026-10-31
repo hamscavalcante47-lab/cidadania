@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3662.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3662.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Possível reembolso repetido após conciliação mensal — Coronel Ulysses (UNIÃO/AC)</title>
@@ -79,17 +79,17 @@
 <category term="Média"/>
 <summary>Gravidade média. EVELIN DE SA FREITAS: 4 notas em 4 meses, numeradas de 1 a 6 (R$ 20.000,00). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Coronel Ulysses (UNIÃO/AC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/db1dac66623f1c05.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/db1dac66623f1c05.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ALPHA ESTRATÉGIA E COMUNICAÇÃO LTDA: 5 notas em 5 meses, numeradas de 5 a 15 (R$ 17.300,00). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Coronel Ulysses (UNIÃO/AC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/16e79b676598e7d4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/16e79b676598e7d4.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. ALPHA ESTRATEGIA E COMUNICACAO LTDA foi aberta em 26/06/2025, 61 dias antes da primeira nota (26/08/2025); recebeu R$ 17.300,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Coronel Ulysses (UNIÃO/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/db1dac66623f1c05.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/db1dac66623f1c05.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ALPHA ESTRATÉGIA E COMUNICAÇÃO LTDA: 5 notas em 5 meses, numeradas de 5 a 15 (R$ 17.300,00). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Coronel Ulysses (UNIÃO/AC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/164b08cbcff29262.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/164b08cbcff29262.html</id>

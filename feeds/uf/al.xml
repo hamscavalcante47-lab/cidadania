@@ -4,17 +4,41 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/al.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/al.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Possível reembolso repetido após conciliação mensal — Paulão (PT/AL)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8eff6ebd666caa47.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8eff6ebd666caa47.html</id>
+<title>Valor declarado maior que o da nota — Daniel Barbosa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/778562487d2abadc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/778562487d2abadc.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 26 de SUPREMA MOBILIDADE LTDA (R$ 6.720,00, 01/11/2024): foi declarado R$ 6.720,00, mas o maior valor no documento é R$ 20,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Barbosa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ca9a9bbe56d94d98.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ca9a9bbe56d94d98.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 354 de SUPREMA MOBILIDADE LTDA (R$ 6.720,00, 01/08/2023): foi declarado R$ 6.720,00, mas o maior valor no documento é R$ 720,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Barbosa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/af30703ff7dbefd7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/af30703ff7dbefd7.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 64 de SUPREMA MOBILIDADE LTDA (R$ 5.200,00, 01/03/2023): foi declarado R$ 5.200,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Alfredo Gaspar (PL/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7826be4d065365bc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7826be4d065365bc.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 45 de DALETH VEICULOS LTDA EPP (R$ 3.800,00, 01/03/2023): foi declarado R$ 3.800,00, mas o maior valor no documento é R$ 2.533,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Delegado Fabio Costa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/26bd1d0fef91080a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/26bd1d0fef91080a.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 278 de C5 SERVIÇOS DE COMUNICAÇÃO LTDA (27/10/2025): 2 lançamentos em 1 competência(s); documento R$ 2.500,00, valor líquido R$ 5.000,00, restituições R$ 0,00, saldo R$ 5.000,00 (excedente R$ 2.500,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Delegado Fabio Costa (PP/AL)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/26bd1d0fef91080a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/26bd1d0fef91080a.html</id>
+<title>Possível reembolso repetido após conciliação mensal — Paulão (PT/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8eff6ebd666caa47.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8eff6ebd666caa47.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 278 de C5 SERVIÇOS DE COMUNICAÇÃO LTDA (27/10/2025): 2 lançamentos em 1 competência(s); documento R$ 2.500,00, valor líquido R$ 5.000,00, restituições R$ 0,00, saldo R$ 5.000,00 (excedente R$ 2.500,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
@@ -205,17 +229,17 @@
 <category term="Média"/>
 <summary>Gravidade média. OVERCOME PUBLICIDADE E MARKETING LTDA foi aberta em 20/06/2023, 126 dias antes da primeira nota (24/10/2023); recebeu R$ 12.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Paulão (PT/AL)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/af1292e97db1c3b0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/af1292e97db1c3b0.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ASSOCIAÇÃO COMUNITÁRIA DE DIFUSÃO DE COMERCIO FM: 4 notas em 5 meses, numeradas de 1 a 4 (R$ 10.000,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Luciano Amaral (PSD/AL)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83acad425ac77af0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83acad425ac77af0.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. NF COMUNICACAO DIGITAL LTDA foi aberta em 16/01/2024, 51 dias antes da primeira nota (07/03/2024); recebeu R$ 10.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Paulão (PT/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/af1292e97db1c3b0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/af1292e97db1c3b0.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ASSOCIAÇÃO COMUNITÁRIA DE DIFUSÃO DE COMERCIO FM: 4 notas em 5 meses, numeradas de 1 a 4 (R$ 10.000,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Luciano Amaral (PSD/AL)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/31d39e82e5509e46.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/31d39e82e5509e46.html</id>

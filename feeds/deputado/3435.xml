@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3435.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3435.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Eli Borges (REPUBLICANOS/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4dbfaa376ef5ffc6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4dbfaa376ef5ffc6.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202300000000035 de CLIMA CONSULTORIA EMPRESARIAL EIRELI (R$ 9.800,00, 01/09/2023): foi declarado R$ 9.800,00, mas o maior valor no documento é R$ 490,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Eli Borges (REPUBLICANOS/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/800ca6a2df0b0b45.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/800ca6a2df0b0b45.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202300000000037 de CLIMA CONSULTORIA EMPRESARIAL EIRELI (R$ 9.800,00, 20/09/2023): foi declarado R$ 9.800,00, mas o maior valor no documento é R$ 490,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Eli Borges (REPUBLICANOS/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/99a3af02c2a3b891.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/99a3af02c2a3b891.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

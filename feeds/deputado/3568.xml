@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3568.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3568.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Felipe Becari (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ce55e37b5ac0e951.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ce55e37b5ac0e951.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000709 de SUPREMA MOBILIDADE LTDA (R$ 6.750,00, 22/04/2026): foi declarado R$ 6.750,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Felipe Becari (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c65271dc047752f5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c65271dc047752f5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000530 de SUPREMA MOBILIDADE LTDA (R$ 4.700,00, 03/11/2025): foi declarado R$ 4.700,00, mas o maior valor no documento é R$ 700,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Felipe Becari (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2e76d18ede6b9268.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2e76d18ede6b9268.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 65 de SUPREMA MOBILIDADE LTDA (R$ 2.913,33, 01/03/2023): foi declarado R$ 2.913,33, mas o maior valor no documento é R$ 370,37. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Empresa aberta pouco antes de receber — Felipe Becari (PODE/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0f8c74cfe75b373e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0f8c74cfe75b373e.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -19,17 +37,17 @@
 <category term="Média"/>
 <summary>Gravidade média. ATOS 360 LTDA: 10 notas em 10 meses, numeradas de 40 a 61 (R$ 145.000,00). Fora deste gabinete, a empresa emitiu no máximo 12 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Felipe Becari (PODE/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b12ae42cbd46a3d2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b12ae42cbd46a3d2.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. GERENTE DE COMUNICACAO ONLINE LTDA: 7 notas em 7 meses, numeradas de 2 a 10 (R$ 90.300,00). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Felipe Becari (PODE/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/26ebf33e4d5c14b8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/26ebf33e4d5c14b8.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. GERENTE DE COMUNICACAO ONLINE LTDA foi aberta em 18/11/2025, 7 dias antes da primeira nota (25/11/2025); recebeu R$ 90.300,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Felipe Becari (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b12ae42cbd46a3d2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b12ae42cbd46a3d2.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. GERENTE DE COMUNICACAO ONLINE LTDA: 7 notas em 7 meses, numeradas de 2 a 10 (R$ 90.300,00). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Felipe Becari (PODE/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4184f0b863a785d8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4184f0b863a785d8.html</id>

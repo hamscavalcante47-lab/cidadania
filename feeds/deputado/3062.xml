@@ -4,20 +4,20 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3062.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3062.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa753bb4d9954f0b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa753bb4d9954f0b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 10 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (22/09/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<title>CNPJ do documento não é o do fornecedor declarado — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83df238ab2f2ea99.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83df238ab2f2ea99.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 565319 de LOCALIZA RENT A CAR SA (R$ 6.512,73, 01/05/2024): o documento traz o(s) CNPJ(s) 16577631000299, e não o do fornecedor declarado (16670085038390). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7d1fc571e3e21842.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7d1fc571e3e21842.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 231003 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (15/12/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bf712c31fc1d460d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bf712c31fc1d460d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 565319 de LOCALIZA RENT A CAR SA (R$ 6.512,73, 01/05/2024): foi declarado R$ 6.683,85, mas o maior valor no documento é R$ 716,13. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1c65702695885e67.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1c65702695885e67.html</id>
@@ -26,16 +26,28 @@
 <summary>Gravidade alta. nº 9 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (17/08/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7d1fc571e3e21842.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7d1fc571e3e21842.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 231003 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (15/12/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa753bb4d9954f0b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa753bb4d9954f0b.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 10 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (22/09/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0d989bdf1f38d815.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0d989bdf1f38d815.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 10 de MUNICIPIO DE CURITIBA (20/10/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec716ff2565c4ff4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec716ff2565c4ff4.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/307cdc4d5bf63811.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/307cdc4d5bf63811.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. nº 2 de MUNICIPIO DE CURITIBA (20/04/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. nº 7 de MUNICIPIO DE CURITIBA (20/09/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3111c647f77a6a4f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3111c647f77a6a4f.html</id>
@@ -44,10 +56,10 @@
 <summary>Gravidade alta. nº 6 de MUNICIPIO DE CURITIBA (20/06/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/307cdc4d5bf63811.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/307cdc4d5bf63811.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec716ff2565c4ff4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec716ff2565c4ff4.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. nº 7 de MUNICIPIO DE CURITIBA (20/09/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. nº 2 de MUNICIPIO DE CURITIBA (20/04/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1f86cbddaa9c5872.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1f86cbddaa9c5872.html</id>
@@ -163,16 +175,16 @@
 <category term="Média"/>
 <summary>Gravidade média. AUTO POSTO CASIL LTDA., AUTO POSTO ORLEANS LTDA e AUTO POSTO CURUPAITIS LTDA: sócio em comum Jones Da Silva Salvaro; juntas receberam R$ 22.171,84. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e565f08df6a819f0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e565f08df6a819f0.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 51.934.471 RAYAN RIBEIRO DA COSTA: 11 notas em 10 meses, numeradas de 2 a 23 (R$ 112.000,00). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1b22e98343c5b755.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1b22e98343c5b755.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. MKT61 - COMUNICACAO 360 LTDA foi aberta em 24/08/2023, 117 dias antes da primeira nota (19/12/2023); recebeu R$ 112.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e565f08df6a819f0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e565f08df6a819f0.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 51.934.471 RAYAN RIBEIRO DA COSTA: 11 notas em 10 meses, numeradas de 2 a 23 (R$ 112.000,00). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

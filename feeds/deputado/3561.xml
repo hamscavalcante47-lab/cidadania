@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3561.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3561.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:55-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Fornecedores diferentes com o mesmo dono — Daniel Agrobom (PSD/GO)</title>
@@ -25,16 +25,16 @@
 <category term="Média"/>
 <summary>Gravidade média. 54.676.123 ROBSON HENRIQUE FERREIRA DE MORAIS foi aberta em 10/04/2024, 8 dias antes da primeira nota (18/04/2024); recebeu R$ 125.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Daniel Agrobom (PSD/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4b2bebbc8c31ae8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4b2bebbc8c31ae8.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 64.123.103 ROBSON HENRIQUE FERREIRA DE MORAIS: 6 notas em 6 meses, numeradas de 1 a 9 (R$ 30.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Daniel Agrobom (PSD/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7800e019ac16d61e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7800e019ac16d61e.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 64.126.103 ROBSON HENRIQUE FERREIRA DE MORAIS foi aberta em 19/12/2025, 0 dias antes da primeira nota (19/12/2025); recebeu R$ 30.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Daniel Agrobom (PSD/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4b2bebbc8c31ae8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4b2bebbc8c31ae8.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 64.123.103 ROBSON HENRIQUE FERREIRA DE MORAIS: 6 notas em 6 meses, numeradas de 1 a 9 (R$ 30.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

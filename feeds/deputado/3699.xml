@@ -4,26 +4,32 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3699.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3699.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Marcelo Crivella (REPUBLICANOS/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8b1c86fce9792762.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8b1c86fce9792762.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 839378 de LOCALIZA RENT A CAR SA (R$ 3.999,74, 04/06/2023): foi declarado R$ 4.035,58, mas o maior valor no documento é R$ 869,90. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Empresa aberta pouco antes de receber — Marcelo Crivella (REPUBLICANOS/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/76e5012dff7a81e5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/76e5012dff7a81e5.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 50.976.261 ELISANGELA SALAROLI DOS SANTOS PENNA FIRME GUIMARAES foi aberta em 07/06/2023, 9 dias antes da primeira nota (16/06/2023); recebeu R$ 6.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Marcelo Crivella (REPUBLICANOS/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/97e6acc58077972d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/97e6acc58077972d.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. S7 Ltda: 10 notas em 10 meses, numeradas de 3 a 27 (R$ 304.000,00). Fora deste gabinete, a empresa emitiu no máximo 15 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Marcelo Crivella (REPUBLICANOS/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/44187a8976e92371.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/44187a8976e92371.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. S7 LTDA foi aberta em 26/09/2025, 5 dias antes da primeira nota (01/10/2025); recebeu R$ 304.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Marcelo Crivella (REPUBLICANOS/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/97e6acc58077972d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/97e6acc58077972d.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. S7 Ltda: 10 notas em 10 meses, numeradas de 3 a 27 (R$ 304.000,00). Fora deste gabinete, a empresa emitiu no máximo 15 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Marcelo Crivella (REPUBLICANOS/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/418b6a5c3da34d07.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/418b6a5c3da34d07.html</id>

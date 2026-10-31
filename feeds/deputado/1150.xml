@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1150.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1150.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Raimundo Santos (PSD/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9d2f5a214524eb5d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9d2f5a214524eb5d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 28520 de PANTANAL VEÍCULOS LTDA (R$ 4.900,00, 28/02/2026): foi declarado R$ 4.900,00, mas o maior valor no documento é R$ 900,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — Raimundo Santos (PSD/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9db0638dc8d9136d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9db0638dc8d9136d.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

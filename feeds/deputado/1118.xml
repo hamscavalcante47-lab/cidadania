@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1118.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1118.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Laura Carneiro (PSD/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ea5f32889afb7acc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ea5f32889afb7acc.html</id>
+<updated>2026-10-28T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de SERV RIO TERCEIRIZAÇÃO E SERVIÇOS foi anexado a 3 reembolsos. Despesas declaradas: nº 001829 (R$ 4.200,00, 30/06/2025); nº 001829 (R$ 0,00, 30/06/2025); nº 001829 (R$ 4.200,00, 30/06/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Laura Carneiro (PSD/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/10152ad854d110e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/10152ad854d110e3.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

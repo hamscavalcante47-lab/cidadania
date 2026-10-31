@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2271.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2271.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Hugo Motta (REPUBLICANOS/PB)</title>
@@ -13,17 +13,17 @@
 <category term="Alta"/>
 <summary>Gravidade alta. DAYANA MILLENA TRIGUEIRO NOBRE está inapta desde 08/02/2022, mas emitiu 14 nota(s) depois disso (R$ 8.100,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — Hugo Motta (REPUBLICANOS/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d526d5a26e40ffda.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d526d5a26e40ffda.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 60.531.133 SILVIO ROMERO MEDEIROS DO NASCIMENTO foi aberta em 24/04/2025, 35 dias antes da primeira nota (29/05/2025); recebeu R$ 5.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Hugo Motta (REPUBLICANOS/PB)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c5298fbf3d630770.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c5298fbf3d630770.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 60.531.133 SILVIO ROMERO MEDEIROS DO NASCIMENTO recebeu R$ 5.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Outras atividades de serviços pessoais não especificadas anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Hugo Motta (REPUBLICANOS/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d526d5a26e40ffda.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d526d5a26e40ffda.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 60.531.133 SILVIO ROMERO MEDEIROS DO NASCIMENTO foi aberta em 24/04/2025, 35 dias antes da primeira nota (29/05/2025); recebeu R$ 5.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Hugo Motta (REPUBLICANOS/PB)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eda40a4fefcbc2ca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eda40a4fefcbc2ca.html</id>

@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3549.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3549.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Atividade da empresa não combina com o gasto — Jadyel Alencar (REPUBLICANOS/PI)</title>
@@ -61,17 +61,17 @@
 <category term="Média"/>
 <summary>Gravidade média. 59.793.630 ANDRE DE MOURA PEREIRA COELHO foi aberta em 07/03/2025, 54 dias antes da primeira nota (30/04/2025); recebeu R$ 22.500,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — Jadyel Alencar (REPUBLICANOS/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1e33eb616eb7103.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1e33eb616eb7103.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. CARVALHO CONSULTORIA E COMUNICACAO LTDA foi aberta em 08/01/2025, 138 dias antes da primeira nota (26/05/2025); recebeu R$ 15.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Jadyel Alencar (REPUBLICANOS/PI)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/29fbd85b5ce4eb49.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/29fbd85b5ce4eb49.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. CARVALHO CONSULTORIA E COMUNICACAO LTDA recebeu R$ 15.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Jadyel Alencar (REPUBLICANOS/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1e33eb616eb7103.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1e33eb616eb7103.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. CARVALHO CONSULTORIA E COMUNICACAO LTDA foi aberta em 08/01/2025, 138 dias antes da primeira nota (26/05/2025); recebeu R$ 15.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Jadyel Alencar (REPUBLICANOS/PI)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2ab023e766d28113.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2ab023e766d28113.html</id>

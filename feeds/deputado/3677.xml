@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3677.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3677.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:49-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Denise Pessôa (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9191d86a18b98028.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9191d86a18b98028.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 13774 de SRL VEICULOS LTDA. (R$ 115,00, 20/03/2024): foi declarado R$ 283,71, mas o maior valor no documento é R$ 168,71. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Denise Pessôa (PT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6942b23c971cc0d5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6942b23c971cc0d5.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

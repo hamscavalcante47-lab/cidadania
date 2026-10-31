@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3377.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3377.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:55-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Luiz Antonio Corrêa (PP/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b52eed7cc3e24a51.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b52eed7cc3e24a51.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 33104 de LOCALIZA RENT A CAR S.A (R$ 7.795,15, 27/10/2025): foi declarado R$ 7.889,91, mas o maior valor no documento é R$ 48,50. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Empresa aberta pouco antes de receber — Luiz Antonio Corrêa (PP/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a90ede1103e73018.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a90ede1103e73018.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

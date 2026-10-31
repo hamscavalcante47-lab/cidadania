@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2238.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2238.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Zeca Dirceu (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8d6516cdf43200cc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8d6516cdf43200cc.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 37745 de Localiza Rent a Car S/A (R$ 1.148,97, 06/03/2023): foi declarado R$ 1.148,97, mas o maior valor no documento é R$ 1.050,97. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Empresa aberta pouco antes de receber — Zeca Dirceu (PT/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2c345f9be2ee3ce0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2c345f9be2ee3ce0.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -49,16 +55,16 @@
 <category term="Média"/>
 <summary>Gravidade média. 49.629.211 SONILDO RUZZENE BELTRAME foi aberta em 16/02/2023, 13 dias antes da primeira nota (01/03/2023); recebeu R$ 28.700,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Zeca Dirceu (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff0f512b358a338b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff0f512b358a338b.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 7 MICHELLY PAMELA CARVALHO BORGES DA COSTA: 9 notas em 8 meses, numeradas de 1 a 10 (R$ 23.920,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Zeca Dirceu (PT/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/68d20926c4578628.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/68d20926c4578628.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 55.356.317 MICHELLY PAMELA CARVALHO BORGES DA COSTA foi aberta em 02/06/2024, 5 dias antes da primeira nota (07/06/2024); recebeu R$ 23.920,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Zeca Dirceu (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff0f512b358a338b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff0f512b358a338b.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 7 MICHELLY PAMELA CARVALHO BORGES DA COSTA: 9 notas em 8 meses, numeradas de 1 a 10 (R$ 23.920,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

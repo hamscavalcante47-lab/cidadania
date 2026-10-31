@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3538.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3538.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:53-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Alfredo Gaspar (PL/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7826be4d065365bc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7826be4d065365bc.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 45 de DALETH VEICULOS LTDA EPP (R$ 3.800,00, 01/03/2023): foi declarado R$ 3.800,00, mas o maior valor no documento é R$ 2.533,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Alfredo Gaspar (PL/AL)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1a10d8475f5c42c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f1a10d8475f5c42c.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3351.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3351.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Luiz Carlos Motta (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/46ea9cc6c2e5cf7d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/46ea9cc6c2e5cf7d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 11 de J.A. SERVICE E TRANSPORTE LTDA (R$ 3.800,00, 30/03/2023): foi declarado R$ 3.800,00, mas o maior valor no documento é R$ 800,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — Luiz Carlos Motta (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2372443f3ce15d53.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2372443f3ce15d53.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

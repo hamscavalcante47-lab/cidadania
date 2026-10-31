@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2373.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2373.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:55-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Valor declarado maior que o da nota — Alexandre Leite (UNIÃO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1efc13b7be5d6468.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1efc13b7be5d6468.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 124 de STILLUS TRANSPORTE SERVICE CAR LTDA (R$ 5.500,00, 20/09/2026): foi declarado R$ 5.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

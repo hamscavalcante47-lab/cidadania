@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3589.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3589.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Kiko Celeguim (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5fa5d5d09a1de8f8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5fa5d5d09a1de8f8.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 181 de Novacar Locadora de Veículos Ltda (R$ 4.600,00, 05/04/2024): foi declarado R$ 4.600,00, mas o maior valor no documento é R$ 50,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Kiko Celeguim (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d76b4c92de64bcf6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d76b4c92de64bcf6.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 178 de Novacar Locadora de Veículos Ltda (R$ 4.000,00, 11/03/2024): foi declarado R$ 4.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Kiko Celeguim (PT/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6c356d37c0c74993.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6c356d37c0c74993.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

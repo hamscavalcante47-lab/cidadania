@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3365.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3365.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Otto Alencar Filho (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d3931676aeda689d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d3931676aeda689d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00000034389 de ATLÂNTICO TRANSPORTES LTDA. (R$ 8.500,00, 01/08/2023): foi declarado R$ 8.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Otto Alencar Filho (PSD/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a099ea378f498209.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a099ea378f498209.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -31,16 +37,16 @@
 <category term="Média"/>
 <summary>Gravidade média. CPD SERVICOS LTDA recebeu R$ 3.007,75 por "fornecimento de alimentação do parlamentar", mas sua atividade é "Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Otto Alencar Filho (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e7b9a524bf4960e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e7b9a524bf4960e3.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. GESTAO &amp; PODER COMUNICACAO LTDA: 35 notas em 35 meses, numeradas de 1 a 36 (R$ 361.064,50). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Otto Alencar Filho (PSD/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/44f34644e6814af7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/44f34644e6814af7.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. GESTAO &amp; PODER COMUNICACAO LTDA foi aberta em 14/02/2023, 15 dias antes da primeira nota (01/03/2023); recebeu R$ 361.064,50. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Otto Alencar Filho (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e7b9a524bf4960e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e7b9a524bf4960e3.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. GESTAO &amp; PODER COMUNICACAO LTDA: 35 notas em 35 meses, numeradas de 1 a 36 (R$ 361.064,50). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

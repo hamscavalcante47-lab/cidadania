@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3420.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3420.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Lafayette de Andrada (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dcea3781ab86dbe5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dcea3781ab86dbe5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 171059 de LOCALIZA RENT A CAR SA (R$ 7.728,48, 07/12/2023): foi declarado R$ 8.112,16, mas o maior valor no documento é R$ 8.013,16. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Lafayette de Andrada (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6dc6e57bddb63039.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6dc6e57bddb63039.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 292261 de LOCALIZA RENT A CAR S/A (R$ 1.340,75, 19/10/2025): foi declarado R$ 1.453,48, mas o maior valor no documento é R$ 1.417,58. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Lafayette de Andrada (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d927a423ab47a501.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d927a423ab47a501.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 323840 de LOCALIZA RENT A CAR SA (R$ 948,93, 06/07/2026): foi declarado R$ 1.084,30, mas o maior valor no documento é R$ 1.020,57. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Lafayette de Andrada (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d105754f289e02f1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d105754f289e02f1.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

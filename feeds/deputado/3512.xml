@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3512.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3512.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:53-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Mauricio Marcon (PL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff5bf39e089e2933.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff5bf39e089e2933.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3662026 de LEVVA MOBILIDADE LTDA (R$ 11.700,00, 03/09/2026): foi declarado R$ 11.700,00, mas o maior valor no documento é R$ 7.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Mauricio Marcon (PL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/46427784fdf04d04.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/46427784fdf04d04.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2344391 de LOCALIZA FLEET SA (R$ 6.404,96, 23/04/2025): foi declarado R$ 7.408,00, mas o maior valor no documento é R$ 6.558,67. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Mauricio Marcon (PL/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/715eda35e47dc606.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/715eda35e47dc606.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

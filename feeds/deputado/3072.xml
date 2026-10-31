@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3072.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3072.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Nilto Tatto (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41a6beda775c816e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41a6beda775c816e.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 235537 de LOCALIZA RENT A CAR S.A (R$ 5.834,89, 09/09/2023): foi declarado R$ 6.321,39, mas o maior valor no documento é R$ 6.171,39. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Empresa aberta pouco antes de receber — Nilto Tatto (PT/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f04377e74d0a18a3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f04377e74d0a18a3.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

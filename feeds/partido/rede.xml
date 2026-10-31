@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/rede.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/rede.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — André Janones (REDE/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4be56b575f490deb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4be56b575f490deb.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 232564 de LOCALIZA RENT A CAR S/A (R$ 1.198,22, 08/10/2024): foi declarado R$ 1.299,37, mas o maior valor no documento é R$ 1.209,62. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — André Janones (REDE/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/28cce3229e24b2e7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/28cce3229e24b2e7.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 886363 de LOCALIZA RENT A CAR S/A (R$ 1.078,41, 28/10/2023): foi declarado R$ 1.078,41, mas o maior valor no documento é R$ 1.036,90. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — André Janones (REDE/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dc21991f9493e7dc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dc21991f9493e7dc.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -55,12 +67,6 @@
 <category term="Média"/>
 <summary>Gravidade média. Fresta Politica Consultoria LTDA: 4 notas em 3 meses, numeradas de 48 a 53 (R$ 43.000,00). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c82ec0890cc339c6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c82ec0890cc339c6.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. João Lucas Diogenes Cavalcante: 9 notas em 9 meses, numeradas de 2 a 13 (R$ 30.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Luizianne Lins (REDE/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/97f75eee0b13b37c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/97f75eee0b13b37c.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -68,22 +74,28 @@
 <summary>Gravidade média. 54.085.696 JOAO LUCAS DIOGENES CAVALCANTE foi aberta em 27/02/2024, 21 dias antes da primeira nota (19/03/2024); recebeu R$ 30.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c82ec0890cc339c6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c82ec0890cc339c6.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. João Lucas Diogenes Cavalcante: 9 notas em 9 meses, numeradas de 2 a 13 (R$ 30.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/883e579be715759c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/883e579be715759c.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. Gustavo Costa Portela: 9 notas em 9 meses, numeradas de 211 a 228 (R$ 28.550,00). Fora deste gabinete, a empresa emitiu no máximo 9 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f53fba5998ebf0ce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f53fba5998ebf0ce.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. José Wesley Rogério Gomes: 8 notas em 8 meses, numeradas de 2 a 21 (R$ 25.500,00). Fora deste gabinete, a empresa emitiu no máximo 12 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Luizianne Lins (REDE/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6060fac8fa9ff44d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6060fac8fa9ff44d.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. JOSE WESLEY ROGERIO GOMES ***.264.863-** foi aberta em 11/10/2022, 137 dias antes da primeira nota (25/02/2023); recebeu R$ 25.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f53fba5998ebf0ce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f53fba5998ebf0ce.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. José Wesley Rogério Gomes: 8 notas em 8 meses, numeradas de 2 a 21 (R$ 25.500,00). Fora deste gabinete, a empresa emitiu no máximo 12 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Luizianne Lins (REDE/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/678d6c8b22af1788.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/678d6c8b22af1788.html</id>

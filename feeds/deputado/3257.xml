@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3257.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3257.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — André Janones (REDE/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4be56b575f490deb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4be56b575f490deb.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 232564 de LOCALIZA RENT A CAR S/A (R$ 1.198,22, 08/10/2024): foi declarado R$ 1.299,37, mas o maior valor no documento é R$ 1.209,62. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — André Janones (REDE/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/28cce3229e24b2e7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/28cce3229e24b2e7.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 886363 de LOCALIZA RENT A CAR S/A (R$ 1.078,41, 28/10/2023): foi declarado R$ 1.078,41, mas o maior valor no documento é R$ 1.036,90. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — André Janones (REDE/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dc21991f9493e7dc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dc21991f9493e7dc.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

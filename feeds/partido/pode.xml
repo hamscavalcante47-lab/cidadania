@@ -4,9 +4,51 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pode.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pode.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Nelson Barbudo (PODE/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/de92469555867b1f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/de92469555867b1f.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 002412 de Doannytur Agência de Viagens (R$ 10.600,00, 01/07/2024): foi declarado R$ 10.600,00, mas o maior valor no documento é R$ 10.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Fábio Macedo (PODE/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b8ba08255ba7a864.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b8ba08255ba7a864.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000369 de SUPREMA MOBILIDADE LTDA (R$ 7.000,00, 02/05/2024): foi declarado R$ 7.000,00, mas o maior valor no documento é R$ 0,01. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Felipe Becari (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ce55e37b5ac0e951.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ce55e37b5ac0e951.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000709 de SUPREMA MOBILIDADE LTDA (R$ 6.750,00, 22/04/2026): foi declarado R$ 6.750,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Luiz Carlos Hauly (PODE/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d3831ee867cab6f7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d3831ee867cab6f7.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000686 de SUPREMA MOBILIDADE LTDA (R$ 4.800,00, 31/03/2026): foi declarado R$ 4.800,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Felipe Becari (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c65271dc047752f5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c65271dc047752f5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000530 de SUPREMA MOBILIDADE LTDA (R$ 4.700,00, 03/11/2025): foi declarado R$ 4.700,00, mas o maior valor no documento é R$ 700,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Cristiane Lopes (PODE/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/13a33c0490f5d74a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/13a33c0490f5d74a.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 23904 de PANTANAL VEÍCULOS LTDA (R$ 3.850,00, 27/06/2023): foi declarado R$ 3.850,00, mas o maior valor no documento é R$ 850,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Felipe Becari (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2e76d18ede6b9268.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2e76d18ede6b9268.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 65 de SUPREMA MOBILIDADE LTDA (R$ 2.913,33, 01/03/2023): foi declarado R$ 2.913,33, mas o maior valor no documento é R$ 370,37. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Duda Ramos (PODE/RR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e236a671dec0ceef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e236a671dec0ceef.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -211,17 +253,17 @@
 <category term="Média"/>
 <summary>Gravidade média. ELCIO MORELI SANT ANA SERVICOS EM TECNOLOGIA LTDA foi aberta em 19/05/2025, 36 dias antes da primeira nota (24/06/2025); recebeu R$ 8.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — Delegado Bruno Lima (PODE/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bd355be704157149.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bd355be704157149.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MANO DO CEU AGENCIA DE MARKETING LTDA foi aberta em 26/11/2025, 41 dias antes da primeira nota (06/01/2026); recebeu R$ 7.500,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Rafael Fera (PODE/RO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/230733992f9d2356.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/230733992f9d2356.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 60.582.154 GLEIDSON RODRIGUES ALVES foi aberta em 28/04/2025, 150 dias antes da primeira nota (25/09/2025); recebeu R$ 7.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Empresa aberta pouco antes de receber — Delegado Bruno Lima (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bd355be704157149.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bd355be704157149.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MANO DO CEU AGENCIA DE MARKETING LTDA foi aberta em 26/11/2025, 41 dias antes da primeira nota (06/01/2026); recebeu R$ 7.500,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Tiago Dimas (PODE/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/30c9a2f5b81197ea.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/30c9a2f5b81197ea.html</id>
@@ -264,47 +306,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. FABIO NUNES DE MENEZES recebeu R$ 4.350,00 por "divulgação da atividade parlamentar", mas sua atividade é "Reparação e manutenção de computadores e de equipamentos periféricos" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Olival Marques (PODE/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa9b096d1652b2f8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa9b096d1652b2f8.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. DINAMIC COMERCIO E SERVICOS LTDA está inapta desde 13/08/2024, mas emitiu 3 nota(s) depois disso (R$ 50.000,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Sargento Portugal (PODE/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e7ecaf0f26ff464c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e7ecaf0f26ff464c.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. 62.291.322 ISABELLA FONSECA LEITE está baixada desde 20/10/2025, mas emitiu 1 nota(s) depois disso (R$ 2.950,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Fábio Macedo (PODE/MA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/127412d6eb043fa4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/127412d6eb043fa4.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. IMS SERVIÇOS EIRELI: 22 notas em 22 meses, numeradas de 46 a 87 (R$ 658.897,90). Fora deste gabinete, a empresa emitiu no máximo 20 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Olival Marques (PODE/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a0911ead2dd0a6ae.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a0911ead2dd0a6ae.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Dinamic Comercio e Serviços Eireli: 31 notas em 17 meses, numeradas de 150 a 185 (R$ 611.050,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Luiz Carlos Hauly (PODE/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bde5510cfa1f0269.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bde5510cfa1f0269.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. SVS COMUNICAÇÃO E MAARKETING DIGITAL LTDA: 9 notas em 12 meses, numeradas de 1 a 10 (R$ 279.943,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Luiz Carlos Hauly (PODE/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e3e9273beab34990.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e3e9273beab34990.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. SVS COMUNICACAO E MARKETING DIGITAL LTDA foi aberta em 16/05/2025, 27 dias antes da primeira nota (12/06/2025); recebeu R$ 279.943,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Olival Marques (PODE/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6baa205b9a9f0748.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6baa205b9a9f0748.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. DIAMOND COMERCIO E SERVICOS LTDA - DIAMOND: 10 notas em 8 meses, numeradas de 25 a 46 (R$ 273.200,00). Fora deste gabinete, a empresa emitiu no máximo 12 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3402.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3402.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:53-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Bia Kicis (PL/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3d585c3adfe75f71.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3d585c3adfe75f71.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 210 de Novacar Locadora de Veículos Ltda (R$ 5.000,00, 07/08/2024): foi declarado R$ 5.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Bia Kicis (PL/DF)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/40f2400709a063b4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/40f2400709a063b4.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -49,17 +55,17 @@
 <category term="Média"/>
 <summary>Gravidade média. LOCATI SERVICOS E LOCACAO DE EQUIPAMENTOS DE INFORMATICA LTDA foi aberta em 26/10/2022, 120 dias antes da primeira nota (23/02/2023); recebeu R$ 112.280,64. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Bia Kicis (PL/DF)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/48c7109c23c49635.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/48c7109c23c49635.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 50.137.444 NATALI AMORIM GOMES MORALES: 21 notas em 22 meses, numeradas de 1 a 22 (R$ 80.500,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Bia Kicis (PL/DF)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2fb88960c79b5afb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2fb88960c79b5afb.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 50.137.444 NATALI AMORIM GOMES MORALES foi aberta em 29/03/2023, 35 dias antes da primeira nota (03/05/2023); recebeu R$ 80.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Bia Kicis (PL/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/48c7109c23c49635.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/48c7109c23c49635.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 50.137.444 NATALI AMORIM GOMES MORALES: 21 notas em 22 meses, numeradas de 1 a 22 (R$ 80.500,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Bia Kicis (PL/DF)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/12ea2dac44e2349c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/12ea2dac44e2349c.html</id>

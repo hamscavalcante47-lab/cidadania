@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3243.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3243.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Fernando Rodolfo (PRD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/36298d87a6a83feb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/36298d87a6a83feb.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 106267 de localiza rent a car (R$ 3.986,66, 12/08/2025): foi declarado R$ 4.543,47, mas o maior valor no documento é R$ 710,32. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Fernando Rodolfo (PRD/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2d7a9e841455f359.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2d7a9e841455f359.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -49,17 +55,17 @@
 <category term="Média"/>
 <summary>Gravidade média. RSE - RICO SOLUCOES ESTRATEGICAS LTDA: 16 notas em 16 meses, numeradas de 2 a 28 (R$ 111.400,29). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Fernando Rodolfo (PRD/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/26757fcc95cc17cc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/26757fcc95cc17cc.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. FSP ANDRADE INOVA COMUNICAÇÃO E ASSESSORIA LTDA: 4 notas em 4 meses, numeradas de 2 a 8 (R$ 48.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Fernando Rodolfo (PRD/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0d54db3e48db86c8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0d54db3e48db86c8.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. F S P ANDRADE INOVA COMUNICACAO E ASSESSORIA LTDA foi aberta em 22/04/2025, 14 dias antes da primeira nota (06/05/2025); recebeu R$ 48.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Fernando Rodolfo (PRD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/26757fcc95cc17cc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/26757fcc95cc17cc.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. FSP ANDRADE INOVA COMUNICAÇÃO E ASSESSORIA LTDA: 4 notas em 4 meses, numeradas de 2 a 8 (R$ 48.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Fernando Rodolfo (PRD/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/12a1f782c25bc013.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/12a1f782c25bc013.html</id>

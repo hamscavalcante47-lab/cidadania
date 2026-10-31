@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3198.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3198.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Júnior Mano (PSB/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6a011732cdcc76a8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6a011732cdcc76a8.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 799183 de LOCALIZA RENT A CAR S/A (R$ 3.713,00, 29/11/2023): foi declarado R$ 4.711,69, mas o maior valor no documento é R$ 4.675,79. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Doador da campanha recebendo da cota — Júnior Mano (PSB/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f81aa211985c7dab.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f81aa211985c7dab.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

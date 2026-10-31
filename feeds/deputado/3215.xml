@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3215.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3215.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Dr. Jaziel (PL/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/473ddf2aebe9f34f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/473ddf2aebe9f34f.html</id>
+<updated>2026-10-28T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de GOLD CAR BRASILIA LOCACAO DE VEICULOS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 01448 (R$ 4.900,00, 01/06/2023); nº 1448 (R$ 4.900,00, 01/06/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Dr. Jaziel (PL/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/957bfd9cca3276d6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/957bfd9cca3276d6.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -103,17 +109,17 @@
 <category term="Média"/>
 <summary>Gravidade média. 52.099.836 ENILSON DA SILVA ANDRADE foi aberta em 06/09/2023, 2 dias antes da primeira nota (08/09/2023); recebeu R$ 37.200,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Dr. Jaziel (PL/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f4b91e4ec0a7c5fc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f4b91e4ec0a7c5fc.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 39.320.307 MARCOS VINICIUS PINHO DE SOUSA: 12 notas em 13 meses, numeradas de 1 a 15 (R$ 35.608,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Dr. Jaziel (PL/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b0c6c3290b3f97de.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b0c6c3290b3f97de.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 39.320.307 MARCOS VINICIUS PINHO DE SOUSA recebeu R$ 35.608,00 por "divulgação da atividade parlamentar", mas sua atividade é "Transporte rodoviário de carga, exceto produtos perigosos e mudanças, municipal." e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Dr. Jaziel (PL/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f4b91e4ec0a7c5fc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f4b91e4ec0a7c5fc.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 39.320.307 MARCOS VINICIUS PINHO DE SOUSA: 12 notas em 13 meses, numeradas de 1 a 15 (R$ 35.608,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Dr. Jaziel (PL/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0120ca32076de526.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0120ca32076de526.html</id>
@@ -182,16 +188,16 @@
 <summary>Gravidade média. 60.146.375 MARIA MAYRLA DA SILVA foi aberta em 28/03/2025, 81 dias antes da primeira nota (17/06/2025); recebeu R$ 16.500,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Dr. Jaziel (PL/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/99b0f319db050183.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/99b0f319db050183.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. EVELLY NAIRA HENRIQUE MARQUES - RED PRODUTORA: 4 notas em 5 meses, numeradas de 74 a 85 (R$ 10.000,00). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Dr. Jaziel (PL/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/511a5099c00ff760.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/511a5099c00ff760.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. GERMANA MOTA DE MESQUITA: 5 notas em 5 meses, numeradas de 3 a 11 (R$ 10.000,00). Fora deste gabinete, a empresa emitiu no máximo 4 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Dr. Jaziel (PL/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/99b0f319db050183.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/99b0f319db050183.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. EVELLY NAIRA HENRIQUE MARQUES - RED PRODUTORA: 4 notas em 5 meses, numeradas de 74 a 85 (R$ 10.000,00). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Dr. Jaziel (PL/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41ac310206c2d6d2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41ac310206c2d6d2.html</id>

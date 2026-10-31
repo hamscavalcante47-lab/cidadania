@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2907.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2907.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:55-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Eduardo Bolsonaro (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9f3e3bb46fa117d0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9f3e3bb46fa117d0.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 84 de NOVACAR LOCADORA DE VEICULOS LTDA (R$ 5.000,00, 14/08/2023): foi declarado R$ 5.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Eduardo Bolsonaro (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8172765cefb1bc22.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8172765cefb1bc22.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 67360 de LOCALIZA RENT A CAR S/A (R$ 2.888,55, 24/11/2023): foi declarado R$ 2.933,45, mas o maior valor no documento é R$ 2.843,70. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Eduardo Bolsonaro (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7f02dd29d1b9ad53.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7f02dd29d1b9ad53.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

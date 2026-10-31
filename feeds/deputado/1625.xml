@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1625.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1625.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Odair Cunha (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/55ea35107feb8247.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/55ea35107feb8247.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 003074 de JBPADUA LOCACAO DE VEICULOS LTDA (R$ 4.000,00, 01/06/2023): o documento traz o(s) CNPJ(s) 25275098000110, e não o do fornecedor declarado (07326841000132). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Odair Cunha (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b112f5556a960121.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b112f5556a960121.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 003094 de JBPADUA LOCACAO DE VEICULOS LTDA (R$ 2.800,00, 01/07/2023): o documento traz o(s) CNPJ(s) 25275098000110, e não o do fornecedor declarado (07326841000132). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Odair Cunha (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ebcdb8ff5a852473.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ebcdb8ff5a852473.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

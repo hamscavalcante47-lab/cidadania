@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3567.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3567.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Socorro Neri (PP/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4288097a5ca3a12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4288097a5ca3a12.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 8 de DIEGO DE M C ALVES COMERCIO DE VEICULOS NOVOS E US (R$ 6.000,00, 19/03/2026): o emissor da nota é o CNPJ 12.219.079/7570-00, não o fornecedor declarado; a nota é de 2000-40, mas foi declarada com data 19/03/2026. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Empresa aberta pouco antes de receber — Socorro Neri (PP/AC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ad8770abd60f296b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ad8770abd60f296b.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

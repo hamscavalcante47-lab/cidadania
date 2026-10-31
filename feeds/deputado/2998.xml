@@ -4,20 +4,26 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2998.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2998.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Notas com numeração quase seguida — Sóstenes Cavalcante (PL/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/faffa1bae3913708.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/faffa1bae3913708.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
+<title>CNPJ do documento não é o do fornecedor declarado — Sóstenes Cavalcante (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb76d96ba66efafc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb76d96ba66efafc.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. D.M.M.SILVA LTDA: 25 notas em 25 meses, numeradas de 1 a 61 (R$ 250.000,00). Fora deste gabinete, a empresa emitiu no máximo 36 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 0122024 de AMAZON SERVIÇOS E CONSTRUÇÕES LTDA (R$ 8.000,00, 03/04/2024): o documento traz o(s) CNPJ(s) 02697675000167, e não o do fornecedor declarado (24980538000178). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Sóstenes Cavalcante (PL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/30ed41101d4e8f29.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/30ed41101d4e8f29.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. D. M. M. SILVA LTDA foi aberta em 27/05/2024, 3 dias antes da primeira nota (30/05/2024); recebeu R$ 250.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Sóstenes Cavalcante (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/faffa1bae3913708.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/faffa1bae3913708.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. D.M.M.SILVA LTDA: 25 notas em 25 meses, numeradas de 1 a 61 (R$ 250.000,00). Fora deste gabinete, a empresa emitiu no máximo 36 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Sóstenes Cavalcante (PL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/395ebac537f9b842.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/395ebac537f9b842.html</id>
@@ -31,17 +37,17 @@
 <category term="Média"/>
 <summary>Gravidade média. HARUE LOCACAO DE VEICULOS LTDA: 23 notas em 23 meses, numeradas de 7 a 54 (R$ 79.613,00). Fora deste gabinete, a empresa emitiu no máximo 25 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Sóstenes Cavalcante (PL/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4c8027db6bd74a46.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4c8027db6bd74a46.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 49.651.462 JANE TEODORO DA SILVA: 10 notas em 9 meses, numeradas de 2 a 12 (R$ 70.000,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Sóstenes Cavalcante (PL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2adf77982fffe071.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2adf77982fffe071.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 49.651.462 JANE TEODORO DA SILVA foi aberta em 17/02/2023, 97 dias antes da primeira nota (25/05/2023); recebeu R$ 70.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Sóstenes Cavalcante (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4c8027db6bd74a46.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4c8027db6bd74a46.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 49.651.462 JANE TEODORO DA SILVA: 10 notas em 9 meses, numeradas de 2 a 12 (R$ 70.000,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Sóstenes Cavalcante (PL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bb815c5ca4523198.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bb815c5ca4523198.html</id>

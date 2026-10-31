@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3236.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3236.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Julio Cesar Ribeiro (REPUBLICANOS/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/963b298dbccb20c4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/963b298dbccb20c4.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000817 de SUPREMA MOBILIDADE LTDA (R$ 9.950,00, 30/06/2026): foi declarado R$ 9.950,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Julio Cesar Ribeiro (REPUBLICANOS/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0e8e5d4d40135efa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0e8e5d4d40135efa.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000404 de SUPREMA MOBILIDADE LTDA (R$ 7.500,00, 01/08/2025): foi declarado R$ 7.500,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Julio Cesar Ribeiro (REPUBLICANOS/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5439e785de4ab881.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5439e785de4ab881.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000299 de SUPREMA MOBILIDADE LTDA (R$ 7.500,00, 02/05/2025): foi declarado R$ 7.500,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Julio Cesar Ribeiro (REPUBLICANOS/DF)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd212d82459bc9a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd212d82459bc9a5.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -25,17 +43,17 @@
 <category term="Média"/>
 <summary>Gravidade média. VEIA PRODUCOES, EVENTOS E MARKETING LTDA foi aberta em 09/08/2023, 62 dias antes da primeira nota (10/10/2023); recebeu R$ 153.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Julio Cesar Ribeiro (REPUBLICANOS/DF)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b8a11dd8366d6447.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b8a11dd8366d6447.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ISABELLA CARNEIRO DE MELO PICARELLI: 6 notas em 6 meses, numeradas de 2 a 16 (R$ 31.200,00). Fora deste gabinete, a empresa emitiu no máximo 9 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Julio Cesar Ribeiro (REPUBLICANOS/DF)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7374a2cf7afeec3b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7374a2cf7afeec3b.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 58.494.900 ISABELLA CARNEIRO DE MELO PICARELLI foi aberta em 17/12/2024, 2 dias antes da primeira nota (19/12/2024); recebeu R$ 31.200,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Julio Cesar Ribeiro (REPUBLICANOS/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b8a11dd8366d6447.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b8a11dd8366d6447.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ISABELLA CARNEIRO DE MELO PICARELLI: 6 notas em 6 meses, numeradas de 2 a 16 (R$ 31.200,00). Fora deste gabinete, a empresa emitiu no máximo 9 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Julio Cesar Ribeiro (REPUBLICANOS/DF)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6a9e1a7664cbc0c2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6a9e1a7664cbc0c2.html</id>

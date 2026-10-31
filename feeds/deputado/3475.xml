@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3475.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3475.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Josivaldo JP (UNIÃO/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6778fd85cf4a90b5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6778fd85cf4a90b5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 264591191 de MOVIDA LOCAÇÃO DE VEÍCULOS S.A (R$ 3.276,83, 02/06/2025): foi declarado R$ 3.783,71, mas o maior valor no documento é R$ 3.306,83. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Josivaldo JP (UNIÃO/MA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/43419d29c087b97f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/43419d29c087b97f.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3529.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3529.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Rosangela Moro (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9c647d5c4a80aa5e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9c647d5c4a80aa5e.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1536824 de LOCALIZA RENT A CAR S/A AGENCIA AEROPORTO CONGONHA (R$ 1.350,71, 17/03/2025): foi declarado R$ 1.350,71, mas o maior valor no documento é R$ 144,72. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Rosangela Moro (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b36496b6a14f8725.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b36496b6a14f8725.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1533762 de LOCALIZA RENT A CAR S/A AGENCIA AEROPORTO CONGONHA (R$ 1.350,71, 10/03/2025): foi declarado R$ 1.350,71, mas o maior valor no documento é R$ 144,72. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Rosangela Moro (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a6d05d1623ae8113.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a6d05d1623ae8113.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

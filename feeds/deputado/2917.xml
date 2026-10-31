@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2917.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2917.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Fornecedores diferentes com o mesmo dono — Fausto Pinato (UNIÃO/SP)</title>
@@ -19,6 +19,12 @@
 <category term="Média"/>
 <summary>Gravidade média. 66.876.556 NATALIA DE GISSI PADUA foi aberta em 20/05/2026, 8 dias antes da primeira nota (28/05/2026); recebeu R$ 5.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
+<title>MEI recebendo mais que o limite anual — Fausto Pinato (UNIÃO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/08fadd95b816ebce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/08fadd95b816ebce.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 59.384.900 JOSE APARECIDO DIAS (MEI) recebeu R$ 139.860,01 da cota em 2025, R$ 124.060,01 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — Fausto Pinato (UNIÃO/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/459722fea202eaea.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/459722fea202eaea.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -30,12 +36,6 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 59.384.900 JOSE APARECIDO DIAS foi aberta em 10/02/2025, 0 dias antes da primeira nota (10/02/2025); recebeu R$ 124.060,01. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>MEI recebendo mais que o limite anual — Fausto Pinato (UNIÃO/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/08fadd95b816ebce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/08fadd95b816ebce.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 59.384.900 JOSE APARECIDO DIAS (MEI) recebeu R$ 139.860,01 da cota em 2025, R$ 124.060,01 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Fausto Pinato (UNIÃO/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d4ccefcf28b05a4c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d4ccefcf28b05a4c.html</id>

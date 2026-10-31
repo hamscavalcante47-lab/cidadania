@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3582.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3582.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Rosângela Reis (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/762191589a6a4f58.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/762191589a6a4f58.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 509 de Vagno Antônio Ribeiro (R$ 5.000,00, 02/05/2023): foi declarado R$ 5.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Rosângela Reis (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f358d17b7e3aee9a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f358d17b7e3aee9a.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

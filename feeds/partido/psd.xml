@@ -4,9 +4,159 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psd.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psd.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Delegada Katarina (PSD/SE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8ea42ef389a1765.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8ea42ef389a1765.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 01 de UNIR LOCACOES E SERVICOS LTDA (R$ 12.700,00, 28/02/2023): foi declarado R$ 12.700,00, mas o maior valor no documento é R$ 6.350,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Tiririca (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ad3bd4c0d537a7ff.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ad3bd4c0d537a7ff.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000714 de SUPREMA MOBILIDADE LTDA (R$ 8.667,00, 30/04/2026): foi declarado R$ 8.667,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Otto Alencar Filho (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d3931676aeda689d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d3931676aeda689d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00000034389 de ATLÂNTICO TRANSPORTES LTDA. (R$ 8.500,00, 01/08/2023): foi declarado R$ 8.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lucas Redecker (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f4767d8d08045887.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f4767d8d08045887.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 162447 de Unidas SA (R$ 6.598,27, 10/04/2023): o documento traz o(s) CNPJ(s) 45736131002628, e não o do fornecedor declarado (04437534024668). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lucas Redecker (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f59803b62af5958a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f59803b62af5958a.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 168904 de Unidas SA (R$ 6.598,27, 10/05/2023): o documento traz o(s) CNPJ(s) 45736131002628, e não o do fornecedor declarado (04437534024668). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Tiririca (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2f33b461481dba41.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2f33b461481dba41.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000291 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 02/05/2025): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Tiririca (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7577f74dda40f5f2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7577f74dda40f5f2.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000036 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 01/11/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Tiririca (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9adbeb73084cf501.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9adbeb73084cf501.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000528 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 03/11/2025): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lucas Redecker (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/06d9519e1a1ebd30.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/06d9519e1a1ebd30.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 24796520 de Unidas SA (R$ 5.867,10, 06/09/2023): o documento traz o(s) CNPJ(s) 45736131002628, e não o do fornecedor declarado (04437534024668). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lucas Redecker (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/716aba85342ffb6c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/716aba85342ffb6c.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 186572 de Unidas SA (R$ 5.867,10, 09/07/2023): o documento traz o(s) CNPJ(s) 45736131002628, e não o do fornecedor declarado (04437534024668). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lucas Redecker (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b4b03fde8f8401ee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b4b03fde8f8401ee.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 194767 de Unidas SA (R$ 5.867,10, 08/08/2023): o documento traz o(s) CNPJ(s) 45736131002628, e não o do fornecedor declarado (04437534024668). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lucas Redecker (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bbcdeb4b994e2b30.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bbcdeb4b994e2b30.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 177191 de Unidas SA (R$ 5.867,10, 09/06/2023): o documento traz o(s) CNPJ(s) 45736131002628, e não o do fornecedor declarado (04437534024668). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lucas Redecker (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ea9a073925a787c8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ea9a073925a787c8.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 212844 de Unidas SA (R$ 5.867,10, 06/10/2023): o documento traz o(s) CNPJ(s) 45736131002628, e não o do fornecedor declarado (04437534024668). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lucas Redecker (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dcf76691e9dbce38.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dcf76691e9dbce38.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 150789 de Unidas SA (R$ 5.708,61, 09/02/2023): o documento traz o(s) CNPJ(s) 45736131002628, e não o do fornecedor declarado (04437534024668). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lucas Redecker (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df78b181ee17d197.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df78b181ee17d197.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 24110532 de Unidas SA (R$ 5.708,61, 13/03/2023): o documento traz o(s) CNPJ(s) 45736131002628, e não o do fornecedor declarado (04437534024668). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Tiririca (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1bdb327089ee7c15.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1bdb327089ee7c15.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 55 de SUPREMA MOBILIDADE LTDA (R$ 5.100,00, 01/03/2023): foi declarado R$ 5.100,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Raimundo Santos (PSD/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9d2f5a214524eb5d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9d2f5a214524eb5d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 28520 de PANTANAL VEÍCULOS LTDA (R$ 4.900,00, 28/02/2026): foi declarado R$ 4.900,00, mas o maior valor no documento é R$ 900,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Stefano Aguiar (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/21c3ce8f49a6f1cf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/21c3ce8f49a6f1cf.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 320567 de LOCALIZA RENT A CAR SA (R$ 2.633,54, 11/06/2024): foi declarado R$ 3.871,95, mas o maior valor no documento é R$ 3.349,25. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Gabriel Nunes (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a1e3a67839d2f4e1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a1e3a67839d2f4e1.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 23941781 de UNIDAS S/A (R$ 2.133,24, 02/02/2023): foi declarado R$ 2.133,24, mas o maior valor no documento é R$ 750,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Guilherme Uchoa (PSD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a904edf63353f10a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a904edf63353f10a.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1521803 de LOCALIZA RENT A CAR S/A AGENCIA AEROPORTO CONGONHA (R$ 1.635,04, 10/02/2025): foi declarado R$ 1.670,67, mas o maior valor no documento é R$ 1.634,77. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Túlio Gadêlha (PSD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b5c9fd0720edeed9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b5c9fd0720edeed9.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 276056101 de MOVIDA LOCAÇÃO DE VEÍCULOS S.A. (R$ 1.324,06, 29/09/2025): o documento traz o(s) CNPJ(s) 21314559011281, e não o do fornecedor declarado (07976147001302). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Weliton Prado (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d8b7e7a4df7c8210.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d8b7e7a4df7c8210.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 333697 de LOCALIZA RENT A CAR S/A (R$ 1.317,88, 27/08/2024): foi declarado R$ 1.317,88, mas o maior valor no documento é R$ 1.246,08. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a54e02c892e33953.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a54e02c892e33953.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 253554 de Localiza Rent a Car S/A (R$ 1.150,95, 02/09/2023): foi declarado R$ 1.185,90, mas o maior valor no documento é R$ 1.126,10. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Weliton Prado (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/19f4f4e8580d0132.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/19f4f4e8580d0132.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 279819 de LOCALIZA RENT A CAR S/A (R$ 1.064,63, 06/06/2023): foi declarado R$ 1.076,63, mas o maior valor no documento é R$ 1.017,03. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Laura Carneiro (PSD/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ea5f32889afb7acc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ea5f32889afb7acc.html</id>
+<updated>2026-10-28T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de SERV RIO TERCEIRIZAÇÃO E SERVIÇOS foi anexado a 3 reembolsos. Despesas declaradas: nº 001829 (R$ 4.200,00, 30/06/2025); nº 001829 (R$ 0,00, 30/06/2025); nº 001829 (R$ 4.200,00, 30/06/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Mersinho Lucena (PSD/PB)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/accd657aabcf7ae4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/accd657aabcf7ae4.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -61,18 +211,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 193287 de CONDOMINIO MUNDO PLAZA (05/08/2023): 2 lançamentos em 2 competência(s); documento R$ 877,79, valor líquido R$ 1.587,92, restituições R$ 0,00, saldo R$ 1.587,92 (excedente R$ 710,13). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Fernando Monteiro (PSD/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/022cd64d7e55dcfd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/022cd64d7e55dcfd.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. A mesma chave de acesso de L.C. COMBUSTIVEIS LTDA. EPP foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Antonio Brito (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c517ee5ed0d5dafc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c517ee5ed0d5dafc.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6454860 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (10/08/2024): 2 lançamentos em 2 competência(s); documento R$ 488,82, valor líquido R$ 977,64, restituições R$ 0,00, saldo R$ 977,64 (excedente R$ 488,82). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Antonio Brito (PSD/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0b8bf233bba833af.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0b8bf233bba833af.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -86,10 +224,22 @@
 <summary>Gravidade alta. nº 6454887 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (10/08/2024): 2 lançamentos em 2 competência(s); documento R$ 488,82, valor líquido R$ 977,64, restituições R$ 0,00, saldo R$ 977,64 (excedente R$ 488,82). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Antonio Brito (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c517ee5ed0d5dafc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c517ee5ed0d5dafc.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 6454860 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (10/08/2024): 2 lançamentos em 2 competência(s); documento R$ 488,82, valor líquido R$ 977,64, restituições R$ 0,00, saldo R$ 977,64 (excedente R$ 488,82). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Antonio Brito (PSD/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e636252f85a1eeca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e636252f85a1eeca.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 6454860 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (05/06/2025): 2 lançamentos em 2 competência(s); documento R$ 512,65, valor líquido R$ 907,33, restituições R$ 0,00, saldo R$ 907,33 (excedente R$ 394,68). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Fernando Monteiro (PSD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61045672bbcaa02c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/022cd64d7e55dcfd.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. A NFC-e nº 130929 de L.C. COMBUSTIVEIS LTDA. EPP foi anexada a 2 reembolsos. Despesas declaradas: nº 130928 (R$ 371,00, 27/08/2025), que não tem comprovante próprio; nº 130929 (R$ 291,48, 27/08/2025), que corresponde à nota. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Luciano Alves (PSD/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f96dc2ccb2c6962f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f96dc2ccb2c6962f.html</id>
@@ -156,155 +306,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 134831 de POSTO DE ABASTECIMENTO GALLENA LAGOA LTDA (24/07/2024): 2 lançamentos em 1 competência(s); documento R$ 150,05, valor líquido R$ 300,10, restituições R$ 0,00, saldo R$ 300,10 (excedente R$ 150,05). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Stefano Aguiar (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8e283269ed1d40a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8e283269ed1d40a7.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. VIP SERVICE AGENCIA DE VIAGENS TURISMO RECEPTIVO &amp; EVENTOS LTDA está baixada desde 18/01/2023, mas emitiu 1 nota(s) depois disso (R$ 106,29). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Vitor Lippi (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/88042a464ec6b58a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/88042a464ec6b58a.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 1 nota(s) depois disso (R$ 75,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Vitor Lippi (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3b1216842b9bb4d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f3b1216842b9bb4d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. RADIO TAXI ALVORADA LTDA está baixada desde 11/03/2020, mas emitiu 1 nota(s) depois disso (R$ 70,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Dr. Daniel Soranz (PSD/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c969391be75a1468.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c969391be75a1468.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 174919 de POSTO DE COMBUSTIVEIS 214 SUL LTDA (13/04/2023): 2 lançamentos em 1 competência(s); documento R$ 70,00, valor líquido R$ 140,00, restituições R$ 0,00, saldo R$ 140,00 (excedente R$ 70,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Rodrigo Estacho (PSD/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c5dc52b9a3642d6d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c5dc52b9a3642d6d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. EXPRESSO PRINCESA DOS CAMPOS SA está baixada desde 25/05/2015, mas emitiu 1 nota(s) depois disso (R$ 61,11). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Beto Preto (PSD/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8505df2b13b1b32.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8505df2b13b1b32.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. LEO ILGENFRITZ ROCHA NETO ***.966.601-** está baixada desde 15/04/2024, mas emitiu 1 nota(s) depois disso (R$ 60,25). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Weliton Prado (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ea3dc6fbd5b7bc80.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ea3dc6fbd5b7bc80.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 1 nota(s) depois disso (R$ 56,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Dr. Daniel Soranz (PSD/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ad898a611e05636b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ad898a611e05636b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6739 de KAIQUE SILVA GINETTI GOMES (29/07/2026): 2 lançamentos em 1 competência(s); documento R$ 54,90, valor líquido R$ 109,80, restituições R$ 0,00, saldo R$ 109,80 (excedente R$ 54,90). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Beto Preto (PSD/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc44426a993144f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc44426a993144f.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. HAROLDO PEREIRA DA SILVA está baixada desde 02/05/1978, mas emitiu 2 nota(s) depois disso (R$ 51,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Stefano Aguiar (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e8a2dac68bd9c414.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e8a2dac68bd9c414.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. TAXI NA MAO LTDA está baixada desde 05/10/2018, mas emitiu 1 nota(s) depois disso (R$ 45,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Hugo Leal (PSD/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/085093d2e6fc7682.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/085093d2e6fc7682.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 1 nota(s) depois disso (R$ 38,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Vitor Lippi (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e9e74dce0359fb88.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e9e74dce0359fb88.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1254 de TÁXI LEGAL (12/09/2024): 2 lançamentos em 1 competência(s); documento R$ 30,00, valor líquido R$ 60,00, restituições R$ 0,00, saldo R$ 60,00 (excedente R$ 30,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Vitor Lippi (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7101d90a769e1878.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7101d90a769e1878.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 941 de TÁXI LEGAL (12/09/2023): 2 lançamentos em 1 competência(s); documento R$ 25,00, valor líquido R$ 50,00, restituições R$ 0,00, saldo R$ 50,00 (excedente R$ 25,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Stefano Aguiar (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/51b1edf6e65310e2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/51b1edf6e65310e2.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. CLAYTON RODRIGO DOS SANTOS ***.972.038-** está baixada desde 01/02/2018, mas emitiu 1 nota(s) depois disso (R$ 22,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Luciano Azevedo (PSD/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/256491c08f03106c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/256491c08f03106c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. MAIRI CASON está baixada desde 26/09/2018, mas emitiu 2 nota(s) depois disso (R$ 20,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Vitor Lippi (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1ef766217131cfd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f1ef766217131cfd.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1574 de TÁXI LEGAL (26/03/2024): 2 lançamentos em 1 competência(s); documento R$ 20,00, valor líquido R$ 40,00, restituições R$ 0,00, saldo R$ 40,00 (excedente R$ 20,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Vitor Lippi (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/55cbda34ebacbe18.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/55cbda34ebacbe18.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 2581 de TÁXI LEGAL (13/06/2023): 2 lançamentos em 1 competência(s); documento R$ 20,00, valor líquido R$ 40,00, restituições R$ 0,00, saldo R$ 40,00 (excedente R$ 20,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Leandre (PSD/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ba7162a58b11a99.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ba7162a58b11a99.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº KWS2209S83L0 de EPR IGUACU S.A. (03/08/2026): 2 lançamentos em 1 competência(s); documento R$ 16,70, valor líquido R$ 33,40, restituições R$ 0,00, saldo R$ 33,40 (excedente R$ 16,70). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Leandre (PSD/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bc2f7e8b78b639db.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bc2f7e8b78b639db.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº U8SHR85S824Q de EPR IGUACU S.A. (02/08/2026): 2 lançamentos em 1 competência(s); documento R$ 16,70, valor líquido R$ 33,40, restituições R$ 0,00, saldo R$ 33,40 (excedente R$ 16,70). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Leandre (PSD/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/04afd8a6a7819491.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/04afd8a6a7819491.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº SHL9I45S826P de EPR IGUACU S.A. (02/08/2026): 2 lançamentos em 1 competência(s); documento R$ 16,10, valor líquido R$ 32,20, restituições R$ 0,00, saldo R$ 32,20 (excedente R$ 16,10). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Jones Moura (PSD/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/30baae64a52eb3d5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/30baae64a52eb3d5.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 8 de UBER DO BRASIL TECNOLOGIA LTDA. (30/06/2023): 2 lançamentos em 1 competência(s); documento R$ 15,50, valor líquido R$ 31,00, restituições R$ 0,00, saldo R$ 31,00 (excedente R$ 15,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Leandre (PSD/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5ee25036bb74dae2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5ee25036bb74dae2.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº HHTLU4QS82AB de CONCESSIONARIA DE RODOVIAS PRVIAS S.A. (07/08/2026): 2 lançamentos em 1 competência(s); documento R$ 12,80, valor líquido R$ 25,60, restituições R$ 0,00, saldo R$ 25,60 (excedente R$ 12,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Leandre (PSD/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/09333f028f1dbe0b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/09333f028f1dbe0b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº MJLE50QS82T4 de CONCESSIONARIA DE RODOVIAS PRVIAS S.A. (07/08/2026): 2 lançamentos em 1 competência(s); documento R$ 12,00, valor líquido R$ 24,00, restituições R$ 0,00, saldo R$ 24,00 (excedente R$ 12,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Leandre (PSD/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dd30d08e93d4ff17.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dd30d08e93d4ff17.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº THKEM4QS85DH de CONCESSIONARIA DE RODOVIAS PRVIAS S.A. (07/08/2026): 2 lançamentos em 1 competência(s); documento R$ 12,00, valor líquido R$ 24,00, restituições R$ 0,00, saldo R$ 24,00 (excedente R$ 12,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Lucas Redecker (PSD/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ad48ce9d947c435d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ad48ce9d947c435d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 240006 de Caminhos da serra gaucha (23/09/2023): 2 lançamentos em 1 competência(s); documento R$ 11,90, valor líquido R$ 23,80, restituições R$ 0,00, saldo R$ 23,80 (excedente R$ 11,90). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

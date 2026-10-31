@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pa.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pa.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Henderson Pinto (UNIÃO/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1641684aa27f7d51.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1641684aa27f7d51.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 26845 de KAPO VEICULOS LTDA (R$ 9.900,00, 02/04/2026): foi declarado R$ 9.900,00, mas o maior valor no documento é R$ 900,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Raimundo Santos (PSD/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9d2f5a214524eb5d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9d2f5a214524eb5d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 28520 de PANTANAL VEÍCULOS LTDA (R$ 4.900,00, 28/02/2026): foi declarado R$ 4.900,00, mas o maior valor no documento é R$ 900,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Joaquim Passarinho (PL/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b43d38d5bab3e085.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b43d38d5bab3e085.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 571569 de LOCALIZA RENT CAR S/A (R$ 4.259,47, 25/06/2024): foi declarado R$ 4.259,47, mas o maior valor no documento é R$ 4.080,97. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Hélio Leite (UNIÃO/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/58c1cad3a9fe5289.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/58c1cad3a9fe5289.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -139,17 +157,17 @@
 <category term="Média"/>
 <summary>Gravidade média. Mundial Serviços de Locação de Automóveis EIRELI: 81 notas em 41 meses, numeradas de 1763 a 1910 (R$ 439.930,00). Fora deste gabinete, a empresa emitiu no máximo 67 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Renilce Nicodemos (MDB/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bea5c185eded21fb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bea5c185eded21fb.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. CGE COMUNICACAO GESTAO E ESTRATEGIA LTDA: 18 notas em 18 meses, numeradas de 1 a 29 (R$ 360.000,00). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Renilce Nicodemos (MDB/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1b8f0427b00cb627.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1b8f0427b00cb627.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. CGE COMUNICACAO GESTAO E ESTRATEGIA LTDA foi aberta em 28/02/2023, 30 dias antes da primeira nota (30/03/2023); recebeu R$ 360.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Renilce Nicodemos (MDB/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bea5c185eded21fb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bea5c185eded21fb.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. CGE COMUNICACAO GESTAO E ESTRATEGIA LTDA: 18 notas em 18 meses, numeradas de 1 a 29 (R$ 360.000,00). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Henderson Pinto (UNIÃO/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eb5be6edecb761db.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eb5be6edecb761db.html</id>
@@ -181,17 +199,17 @@
 <category term="Média"/>
 <summary>Gravidade média. OSIRES PATRICK PARAENSE CORREA LTDA e TROIKA MARKETING LTDA: sócio em comum Osires Patrick Paraense Correa; juntas receberam R$ 227.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Delegado Caveira (PL/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/486b8bf09321d4f2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/486b8bf09321d4f2.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MARIA DE FATIMA SOUZA DE QUEIROZ: 38 notas em 40 meses, numeradas de 2 a 43 (R$ 180.500,00). Fora deste gabinete, a empresa emitiu no máximo 4 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Delegado Caveira (PL/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1dae7c9d2e71babb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1dae7c9d2e71babb.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 49.603.746 MARIA DE FATIMA SOUZA DE QUEIROZ foi aberta em 14/02/2023, 35 dias antes da primeira nota (21/03/2023); recebeu R$ 180.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Delegado Caveira (PL/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/486b8bf09321d4f2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/486b8bf09321d4f2.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MARIA DE FATIMA SOUZA DE QUEIROZ: 38 notas em 40 meses, numeradas de 2 a 43 (R$ 180.500,00). Fora deste gabinete, a empresa emitiu no máximo 4 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Raimundo Santos (PSD/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9db0638dc8d9136d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9db0638dc8d9136d.html</id>
@@ -217,23 +235,17 @@
 <category term="Média"/>
 <summary>Gravidade média. INSTITUTO MAIS CIDADES ASSESSORIA E CONSULTORIA LTDA e AB COMUNICACAO DIGITAL LTDA: sócio em comum Alexandre Bueno Camargo; juntas receberam R$ 116.200,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Airton Faleiro (PT/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/368609685992f3f4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/368609685992f3f4.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. P8 RELACOES INSTITUCIONAIS LTDA: 10 notas em 10 meses, numeradas de 4 a 31 (R$ 114.000,00). Fora deste gabinete, a empresa emitiu no máximo 18 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Airton Faleiro (PT/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2239682fc2093c27.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2239682fc2093c27.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. P8 RELACOES INSTITUCIONAIS LTDA foi aberta em 26/01/2023, 34 dias antes da primeira nota (01/03/2023); recebeu R$ 114.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Júnior Ferrari (PSD/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7b6dafb2acf95080.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7b6dafb2acf95080.html</id>
+<title>Notas com numeração quase seguida — Airton Faleiro (PT/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/368609685992f3f4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/368609685992f3f4.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. PORTO PARA SERVIÇOS DE COMUNICAO LTDA: 9 notas em 8 meses, numeradas de 1 a 15 (R$ 111.100,00). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. P8 RELACOES INSTITUCIONAIS LTDA: 10 notas em 10 meses, numeradas de 4 a 31 (R$ 114.000,00). Fora deste gabinete, a empresa emitiu no máximo 18 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Júnior Ferrari (PSD/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4ead10ad18a0a670.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4ead10ad18a0a670.html</id>
@@ -241,23 +253,29 @@
 <category term="Média"/>
 <summary>Gravidade média. CM CONSULTORIA E MARKETING LTDA foi aberta em 19/09/2025, 43 dias antes da primeira nota (01/11/2025); recebeu R$ 111.100,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
+<title>Notas com numeração quase seguida — Júnior Ferrari (PSD/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7b6dafb2acf95080.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7b6dafb2acf95080.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. PORTO PARA SERVIÇOS DE COMUNICAO LTDA: 9 notas em 8 meses, numeradas de 1 a 15 (R$ 111.100,00). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — Antônio Doido (MDB/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/60f8d8a260686da9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/60f8d8a260686da9.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. PEJU PRODUÇÕES EIRELI: 5 notas em 5 meses, numeradas de 40 a 50 (R$ 107.438,00). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Keniston Braga (MDB/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9630a19770bda996.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9630a19770bda996.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. LORHANNE KAROLINE AQUINO DOS SANTOS: 5 notas em 5 meses, numeradas de 2 a 6 (R$ 103.200,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Keniston Braga (MDB/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/70cf7f8bd71bb51c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/70cf7f8bd71bb51c.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 65.322.283 LORHANNE KAROLINE AQUINO DOS SANTOS foi aberta em 25/02/2026, 0 dias antes da primeira nota (25/02/2026); recebeu R$ 103.200,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Keniston Braga (MDB/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9630a19770bda996.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9630a19770bda996.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. LORHANNE KAROLINE AQUINO DOS SANTOS: 5 notas em 5 meses, numeradas de 2 a 6 (R$ 103.200,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Raimundo Santos (PSD/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1bcb55e97addcf87.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1bcb55e97addcf87.html</id>
@@ -288,23 +306,5 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. AUTO POSTO NOVA VIDA 2 COMERCIO DE COMBUSTIVEIS LTDA recebeu R$ 63.263,93 da cota; o sócio Bruno Barros De Oliveira doou R$ 5.500,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Pastor Claudio Mariano (UNIÃO/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9cb7c85c2d9f4bf7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9cb7c85c2d9f4bf7.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. EVTECH ESCOLA DO VALE DE TECNOLOGIA LTDA: 5 notas em 5 meses, numeradas de 1 a 7 (R$ 61.806,70). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Elcione Barbalho (MDB/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/955d68e342c3cfdf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/955d68e342c3cfdf.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 49.050.662 THAMIRES NAZARE DO NASCIMENTO: 4 notas em 4 meses, numeradas de 1 a 4 (R$ 60.000,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Elcione Barbalho (MDB/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/af75e65ff6f24283.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/af75e65ff6f24283.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. TN COMUNICACAO LTDA foi aberta em 04/01/2023, 62 dias antes da primeira nota (07/03/2023); recebeu R$ 60.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3528.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3528.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Gustavo Gayer (PL/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8cae5cd5893b7e12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8cae5cd5893b7e12.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000033 de SUPREMA MOBILIDADE LTDA (R$ 3.700,00, 01/11/2024): foi declarado R$ 3.700,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Gustavo Gayer (PL/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e12350e4c149b126.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e12350e4c149b126.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -37,17 +43,17 @@
 <category term="Média"/>
 <summary>Gravidade média. BROAD BRASIL LTDA foi aberta em 21/12/2022, 127 dias antes da primeira nota (27/04/2023); recebeu R$ 42.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Doador da campanha recebendo da cota — Gustavo Gayer (PL/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/98f7ae1cafefacd5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/98f7ae1cafefacd5.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. GOIAS ONLINE COMUNICACOES E MARKETING PUBLICITARIO LTDA recebeu R$ 24.000,00 da cota; o sócio Joao Paulo De Sousa Cavalcante doou R$ 500,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Gustavo Gayer (PL/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61f36bacd2d93edf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61f36bacd2d93edf.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. GOIAS ONLINE COMUNICACOES E MARKETING PUBLICITARIO LTDA foi aberta em 15/03/2023, 7 dias antes da primeira nota (22/03/2023); recebeu R$ 24.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Doador da campanha recebendo da cota — Gustavo Gayer (PL/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/98f7ae1cafefacd5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/98f7ae1cafefacd5.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. GOIAS ONLINE COMUNICACOES E MARKETING PUBLICITARIO LTDA recebeu R$ 24.000,00 da cota; o sócio Joao Paulo De Sousa Cavalcante doou R$ 500,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Nota apresentada fora do prazo — Gustavo Gayer (PL/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5fe3955015f4f280.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5fe3955015f4f280.html</id>

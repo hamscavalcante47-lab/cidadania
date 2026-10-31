@@ -4,19 +4,19 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3668.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3668.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:49-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Notas com numeração quase seguida — Renilce Nicodemos (MDB/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bea5c185eded21fb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bea5c185eded21fb.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. CGE COMUNICACAO GESTAO E ESTRATEGIA LTDA: 18 notas em 18 meses, numeradas de 1 a 29 (R$ 360.000,00). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Renilce Nicodemos (MDB/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1b8f0427b00cb627.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1b8f0427b00cb627.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. CGE COMUNICACAO GESTAO E ESTRATEGIA LTDA foi aberta em 28/02/2023, 30 dias antes da primeira nota (30/03/2023); recebeu R$ 360.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Renilce Nicodemos (MDB/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bea5c185eded21fb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bea5c185eded21fb.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. CGE COMUNICACAO GESTAO E ESTRATEGIA LTDA: 18 notas em 18 meses, numeradas de 1 a 29 (R$ 360.000,00). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

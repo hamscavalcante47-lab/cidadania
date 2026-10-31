@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3234.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3234.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Carlos Veras (PT/PE)</title>
@@ -12,6 +12,12 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. VIVO S.A. está baixada desde 01/07/2013, mas emitiu 2 nota(s) depois disso (R$ 918,43). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41ec89d65ab4f5d4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41ec89d65ab4f5d4.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 9 de PREFEITURA DA CIDADE DO RECIFE (10/10/2025): 2 lançamentos em 1 competência(s); documento R$ 324,07, valor líquido R$ 648,14, restituições R$ 0,00, saldo R$ 648,14 (excedente R$ 324,07). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Carlos Veras (PT/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8c1ff461322c69c6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8c1ff461322c69c6.html</id>
@@ -24,12 +30,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 8 de PREFEITURA DA CIDADE DO RECIFE (10/09/2025): 2 lançamentos em 1 competência(s); documento R$ 324,07, valor líquido R$ 648,14, restituições R$ 0,00, saldo R$ 648,14 (excedente R$ 324,07). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Carlos Veras (PT/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41ec89d65ab4f5d4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41ec89d65ab4f5d4.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 9 de PREFEITURA DA CIDADE DO RECIFE (10/10/2025): 2 lançamentos em 1 competência(s); documento R$ 324,07, valor líquido R$ 648,14, restituições R$ 0,00, saldo R$ 648,14 (excedente R$ 324,07). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Carlos Veras (PT/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a19a1a8310fe2969.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a19a1a8310fe2969.html</id>
@@ -50,16 +50,16 @@
 <summary>Gravidade alta. nº 4915 de POUSADA BEZERRA (31/07/2023): 2 lançamentos em 1 competência(s); documento R$ 160,00, valor líquido R$ 320,00, restituições R$ 0,00, saldo R$ 320,00 (excedente R$ 160,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Carlos Veras (PT/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/daa345eb52b1242a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/daa345eb52b1242a.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 3 de PREFEITURA DA CIDADE DO RECIFE (10/04/2025): 2 lançamentos em 2 competência(s); documento R$ 324,07, valor líquido R$ 482,00, restituições R$ 0,00, saldo R$ 482,00 (excedente R$ 157,93). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Carlos Veras (PT/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61f1c54db3c9fcfe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61f1c54db3c9fcfe.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 5 de PREFEITURA DA CIDADE DO RECIFE (10/06/2025): 2 lançamentos em 1 competência(s); documento R$ 324,07, valor líquido R$ 482,00, restituições R$ 0,00, saldo R$ 482,00 (excedente R$ 157,93). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/daa345eb52b1242a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/daa345eb52b1242a.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 3 de PREFEITURA DA CIDADE DO RECIFE (10/04/2025): 2 lançamentos em 2 competência(s); documento R$ 324,07, valor líquido R$ 482,00, restituições R$ 0,00, saldo R$ 482,00 (excedente R$ 157,93). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Carlos Veras (PT/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dca3488450df4278.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dca3488450df4278.html</id>

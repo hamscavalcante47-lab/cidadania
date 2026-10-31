@@ -4,14 +4,14 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3526.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3526.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Mesmo documento usado em despesas diferentes — Roberta Roma (PL/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5556c53351e1f73b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5556c53351e1f73b.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7b4f58e1d2f2c566.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5556c53351e1f73b.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. A mesma chave de acesso de ARGOS COMBUSTIVEIS E LUBRIFICANTES LTDA - EPP foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. A NFC-e nº 1381451 de ARGOS COMBUSTIVEIS E LUBRIFICANTES LTDA - EPP foi anexada a 2 reembolsos. Despesas declaradas: nº 1381451 (R$ 458,60, 11/04/2026), que corresponde à nota; nº 1381451 (R$ 458,60, 11/04/2026), a mesma nota declarada de novo. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Roberta Roma (PL/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7bd8229a64065f62.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7bd8229a64065f62.html</id>
@@ -62,12 +62,6 @@
 <summary>Gravidade média. CAIO VIDEOMAKER LTDA foi aberta em 19/01/2023, 53 dias antes da primeira nota (13/03/2023); recebeu R$ 76.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Roberta Roma (PL/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f451f31b09b38890.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f451f31b09b38890.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. NOMAD.CO LTDA: 13 notas em 15 meses, numeradas de 1 a 18 (R$ 71.500,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Roberta Roma (PL/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/06fb38884f7b4734.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/06fb38884f7b4734.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
@@ -80,10 +74,10 @@
 <summary>Gravidade média. NOMAD.CO LTDA foi aberta em 03/09/2024, 1 dias antes da primeira nota (04/09/2024); recebeu R$ 71.500,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Roberta Roma (PL/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61ecc9983a147d3b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61ecc9983a147d3b.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f451f31b09b38890.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f451f31b09b38890.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. JOSE VINICUS VIEIRA LIMA RAMOS MELO: 7 notas em 7 meses, numeradas de 3 a 17 (R$ 31.828,00). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. NOMAD.CO LTDA: 13 notas em 15 meses, numeradas de 1 a 18 (R$ 71.500,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Roberta Roma (PL/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5a63b925104d1bcd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5a63b925104d1bcd.html</id>
@@ -92,15 +86,21 @@
 <summary>Gravidade média. 52.572.118 JOSE VINICIUS VIEIRA LIMA RAMOS MELO foi aberta em 18/10/2023, 12 dias antes da primeira nota (30/10/2023); recebeu R$ 31.828,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Roberta Roma (PL/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe89ba4223678a10.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe89ba4223678a10.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61ecc9983a147d3b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61ecc9983a147d3b.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. IANDRA SILVA SUSART: 8 notas em 8 meses, numeradas de 1 a 8 (R$ 25.500,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. JOSE VINICUS VIEIRA LIMA RAMOS MELO: 7 notas em 7 meses, numeradas de 3 a 17 (R$ 31.828,00). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Empresa aberta pouco antes de receber — Roberta Roma (PL/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/908d60058590693f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/908d60058590693f.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 62.682.496 IANDRA SILVA SUSART foi aberta em 11/09/2025, 18 dias antes da primeira nota (29/09/2025); recebeu R$ 25.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Roberta Roma (PL/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe89ba4223678a10.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe89ba4223678a10.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. IANDRA SILVA SUSART: 8 notas em 8 meses, numeradas de 1 a 8 (R$ 25.500,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

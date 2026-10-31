@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/prd.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/prd.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Marreca Filho (PRD/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/052041bab0ed41f8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/052041bab0ed41f8.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 8548 de AGUIAR LOCAÇÃO E TURISMO (R$ 7.237,56, 07/01/2025): foi declarado R$ 10.990,20, mas o maior valor no documento é R$ 10.990,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Fernando Rodolfo (PRD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/36298d87a6a83feb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/36298d87a6a83feb.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 106267 de localiza rent a car (R$ 3.986,66, 12/08/2025): foi declarado R$ 4.543,47, mas o maior valor no documento é R$ 710,32. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Marreca Filho (PRD/MA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/62829380e2ccccc1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/62829380e2ccccc1.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -97,17 +109,17 @@
 <category term="Média"/>
 <summary>Gravidade média. CAPACITA BR CAPACITAÇÃO E TREINAMENTO EIRELI: 19 notas em 19 meses, numeradas de 1 a 45 (R$ 56.625,00). Fora deste gabinete, a empresa emitiu no máximo 26 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Fernando Rodolfo (PRD/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/26757fcc95cc17cc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/26757fcc95cc17cc.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. FSP ANDRADE INOVA COMUNICAÇÃO E ASSESSORIA LTDA: 4 notas em 4 meses, numeradas de 2 a 8 (R$ 48.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Fernando Rodolfo (PRD/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0d54db3e48db86c8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0d54db3e48db86c8.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. F S P ANDRADE INOVA COMUNICACAO E ASSESSORIA LTDA foi aberta em 22/04/2025, 14 dias antes da primeira nota (06/05/2025); recebeu R$ 48.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Fernando Rodolfo (PRD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/26757fcc95cc17cc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/26757fcc95cc17cc.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. FSP ANDRADE INOVA COMUNICAÇÃO E ASSESSORIA LTDA: 4 notas em 4 meses, numeradas de 2 a 8 (R$ 48.000,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Fernando Rodolfo (PRD/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/12a1f782c25bc013.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/12a1f782c25bc013.html</id>
@@ -127,16 +139,16 @@
 <category term="Média"/>
 <summary>Gravidade média. DC2 COMUNICACOES LTDA foi aberta em 24/01/2025, 11 dias antes da primeira nota (04/02/2025); recebeu R$ 18.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Marreca Filho (PRD/MA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d35955aaa1a53673.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d35955aaa1a53673.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. VERTOM SANTOS DE OLIVEIRA: 5 notas em 5 meses, numeradas de 1 a 6 (R$ 12.500,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Marreca Filho (PRD/MA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6ef4a8e8977578da.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6ef4a8e8977578da.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 62.162.950 VERTOM SANTOS DE OLIVEIRA foi aberta em 11/08/2025, 1 dias antes da primeira nota (12/08/2025); recebeu R$ 12.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Marreca Filho (PRD/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d35955aaa1a53673.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d35955aaa1a53673.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. VERTOM SANTOS DE OLIVEIRA: 5 notas em 5 meses, numeradas de 1 a 6 (R$ 12.500,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

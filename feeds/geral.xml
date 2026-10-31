@@ -4,307 +4,307 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/geral.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/geral.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Mauricio do Vôlei (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3889c4ba2b721bef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3889c4ba2b721bef.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
+<title>Dados da chave de acesso não batem com a despesa declarada — Socorro Neri (PP/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4288097a5ca3a12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4288097a5ca3a12.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: JH FILMES E MIDIA DIGITAL LTDA recebeu R$ 310.000,00; Jean Hernani Guimaraes Vilela De Sousa é sócio(a) desde 13/03/2025 e trabalhou no gabinete de Carla Zambelli (PL/SP), Coronel Meira (PL/PE) (secretário parlamentar, SP09) de 17/05/2023 a 17/02/2026. Pagamentos: R$ 190.000,00 durante o vínculo, R$ 120.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 190.000,00 com a pessoa já sócia e servidora e R$ 120.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. nº 8 de DIEGO DE M C ALVES COMERCIO DE VEICULOS NOVOS E US (R$ 6.000,00, 19/03/2026): o emissor da nota é o CNPJ 12.219.079/7570-00, não o fornecedor declarado; a nota é de 2000-40, mas foi declarada com data 19/03/2026. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Mersinho Lucena (PSD/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/accd657aabcf7ae4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/accd657aabcf7ae4.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
+<title>Dados da chave de acesso não batem com a despesa declarada — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f0a55a62742e9d14.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f0a55a62742e9d14.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: CANAL DE VENDAS JP VIDEO LTDA recebeu R$ 99.588,50; Tamara Caroline Sousa Pignata é sócio(a) desde 22/04/2009 e trabalhou no gabinete (secretário parlamentar, SP14) de 06/09/2023 a 17/02/2026. Pagamentos: R$ 99.588,50 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 99.588,50 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. nº 64 de RONIMOTORS LOCAÇÔES LTDA (R$ 4.000,00, 27/12/2023): a nota é de 2024-02, mas foi declarada com data 27/12/2023. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Lucas Ramos (PSB/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b32c0c6247824915.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b32c0c6247824915.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: ENTRE LINHAS CONSULTORIA EM GESTAO EMPRESARIAL LTDA recebeu R$ 398.900,00; Felipe Augusto Da Rocha Lima é sócio(a) desde 18/06/2019 e trabalhou no gabinete (secretário parlamentar, SP15) de 09/02/2023 a 29/03/2023. Pagamentos: R$ 398.900,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 89.400,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7a40759897c87a83.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7a40759897c87a83.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 9885 de CASABLANCA RENT A CAR LTDA (R$ 16.487,70, 11/08/2025): foi declarado R$ 16.487,70, mas o maior valor no documento é R$ 16.487,67. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Gustavo Gayer (PL/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e12350e4c149b126.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e12350e4c149b126.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: ASPAR - ASSESSORIA E TECNOLOGIA LTDA recebeu R$ 72.750,00; Fernando Aguinaldo Alves é sócio(a) desde 12/08/2022 e trabalhou no gabinete (secretário parlamentar, SP04) desde 17/08/2026. Pagamentos: R$ 72.750,00 antes do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 72.750,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Murillo Gouvea (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ce8a372c76f4447f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ce8a372c76f4447f.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 6102025 de HORIZONTE 16 LOCADORA DE VEÍCULOS LTDA (R$ 16.000,00, 01/07/2025): foi declarado R$ 16.000,00, mas o maior valor no documento é R$ 1,75. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Antonio Andrade (PSDB/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/090d974ec5c305d8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/090d974ec5c305d8.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: PORTO REAL LTDA recebeu R$ 117.200,00; Maycos Gomes Lima Andrade é sócio(a) desde 28/03/2023 e trabalhou no gabinete (secretário parlamentar, SP10) de 13/02/2023 a 06/01/2025. Pagamentos: R$ 117.200,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 72.200,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/70b21b05b174173c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/70b21b05b174173c.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 10622 de CASABLANCA RENT A CAR LTDA (R$ 15.504,90, 11/02/2026): foi declarado R$ 15.504,90, mas o maior valor no documento é R$ 15.504,85. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Missionário José Olimpio (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3f9d91cdc76e4cbe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3f9d91cdc76e4cbe.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: JH FILMES E MIDIA DIGITAL LTDA recebeu R$ 59.000,00; Jean Hernani Guimaraes Vilela De Sousa é sócio(a) desde 13/03/2025 e trabalhou no gabinete de Carla Zambelli (PL/SP), Coronel Meira (PL/PE) (secretário parlamentar, SP09) de 17/05/2023 a 17/02/2026. Pagamentos: R$ 10.000,00 durante o vínculo, R$ 49.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 10.000,00 com a pessoa já sócia e servidora e R$ 49.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dee24a75e1e860e8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dee24a75e1e860e8.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 10937 de CASABLANCA RENT A CAR LTDA (R$ 14.051,30, 06/04/2026): foi declarado R$ 14.051,30, mas o maior valor no documento é R$ 14.051,28. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Tabata Amaral (PSB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/77e057f9135de34e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/77e057f9135de34e.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: LFMB SERVICOS DE COMUNICACAO LTDA recebeu R$ 53.205,00; Luiza Facchina Macedo Bessa é sócio(a) desde 20/08/2024 e trabalhou no gabinete (secretário parlamentar, SP25) de 25/10/2022 a 13/04/2025. Pagamentos: R$ 53.205,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 53.205,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Murillo Gouvea (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2c5096b1b9adff74.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2c5096b1b9adff74.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 144/2026 de SERVCAR SOLUCOES AUTOMOTIVAS LTDA (R$ 14.000,00, 24/06/2026): foi declarado R$ 14.000,00, mas o maior valor no documento é R$ 4.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Zé Trovão (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dbae0d033b9effdc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dbae0d033b9effdc.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: PRESS ARTES MARKETING DIGITAL &amp; ENTRETENIMENTO MUSICAL LTDA recebeu R$ 53.154,00; Alvaro Henrique Da Silva é sócio(a) desde 01/02/2023 e trabalhou no gabinete (secretário parlamentar, SP17) desde 08/02/2023. Pagamentos: R$ 15.954,00 durante o vínculo, R$ 37.200,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 15.954,00 com a pessoa já sócia e servidora e R$ 37.200,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Murillo Gouvea (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5e996c0ccebe8644.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5e996c0ccebe8644.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2012026 de SERVCAR SOLUCOES AUTOMOTIVAS LTDA (R$ 14.000,00, 25/08/2026): foi declarado R$ 14.000,00, mas o maior valor no documento é R$ 4.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Luiz Fernando Vampiro (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df2c164726a9ff13.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df2c164726a9ff13.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: AGENCIA CATARINA COMUNICACAO INTEGRADA LTDA recebeu R$ 107.750,00; Ketrin Iara Raitz é sócio(a) desde 15/02/2022 e trabalhou no gabinete de Carlos Chiodini (MDB/SC) (secretário parlamentar, SP22) de 06/12/2022 a 25/02/2025. Pagamentos: R$ 107.750,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 52.450,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Murillo Gouvea (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/63f1f04d22ec85fe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/63f1f04d22ec85fe.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1722026 de SERVCAR SOLUCOES AUTOMOTIVAS LTDA (R$ 14.000,00, 21/07/2026): foi declarado R$ 14.000,00, mas o maior valor no documento é R$ 4.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Cleber Verde (MDB/MA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dd0a2e107042d7dd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dd0a2e107042d7dd.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: SISTEMA INGA DE COMUNICACAO LTDA recebeu R$ 62.000,00; Idenildo Paixao é sócio(a) desde 30/05/2025 e trabalhou no gabinete (cargo de natureza especial, CNE13) de 02/04/2020 a 08/06/2025. Pagamentos: R$ 62.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 52.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Murillo Gouvea (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/da49996bf6069740.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/da49996bf6069740.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2222026 de SERVCAR SOLUCOES AUTOMOTIVAS LTDA (R$ 14.000,00, 22/09/2026): foi declarado R$ 14.000,00, mas o maior valor no documento é R$ 4.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Gisela Simona (UNIÃO/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/053e7a95162afe04.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/053e7a95162afe04.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: HF COMUNICACAO ESTRATEGIA E ASSESSORIA DE IMPRENSA LTDA recebeu R$ 49.838,70; Humberto Frederico Arruda E Sa Nunes Da Cunha é sócio(a) desde 22/11/2019 e trabalhou no gabinete de Amália Barros (PL/MT) (secretário parlamentar, SP21) de 06/03/2023 a 06/08/2023. Pagamentos: R$ 6.000,00 durante o vínculo, R$ 43.838,70 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 6.000,00 com a pessoa já sócia e servidora e R$ 37.838,70 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Murillo Gouvea (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f721002504d6499c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f721002504d6499c.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1172026 de SERVCAR SOLUÇÕES AUTOMOTIVAS LTDA ME (R$ 14.000,00, 20/05/2026): foi declarado R$ 14.000,00, mas o maior valor no documento é R$ 4.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Clarissa Tércio (PP/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/960c5101cfeffc11.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/960c5101cfeffc11.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: V.I.P SEGURANCA LTDA recebeu R$ 43.500,00; Slayton Alves Lima é sócio(a) desde 04/09/2023 e trabalhou no gabinete (secretário parlamentar, SP11) de 13/02/2023 a 30/08/2023. Pagamentos: R$ 43.500,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 43.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Nikolas Ferreira (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61a736dbc1e76335.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61a736dbc1e76335.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2232025 de Nacional Rent a Car Locação de Veiculos LTDA (R$ 13.500,00, 04/12/2025): foi declarado R$ 13.500,00, mas o maior valor no documento é R$ 5.500,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Duda Ramos (PODE/RR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e236a671dec0ceef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e236a671dec0ceef.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: PRIME MIDIA E MARKETING LTDA recebeu R$ 40.278,65; Marcelo Perdigao Guerra é sócio(a) desde 20/03/2025 e trabalhou no gabinete (secretário parlamentar, SP23) desde 17/07/2024. Pagamentos: R$ 40.278,65 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 40.278,65 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Nikolas Ferreira (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f577e31e2ff9fad5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f577e31e2ff9fad5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2142025 de Nacional Rent a Car Locação de Veiculos LTDA (R$ 13.500,00, 05/11/2025): foi declarado R$ 13.500,00, mas o maior valor no documento é R$ 5.500,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Giovani Cherini (PL/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/add326bc449c1038.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/add326bc449c1038.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: INSTITUTO MAIS CIDADES ASSESSORIA E CONSULTORIA LTDA recebeu R$ 276.400,00; Bruno Lara Martins é sócio(a) desde 06/10/2021 e trabalhou no gabinete (secretário parlamentar, SP22) de 20/07/2022 a 03/01/2023. Pagamentos: R$ 276.400,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 39.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Fernando Mineiro (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/184d5c80ec191adf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/184d5c80ec191adf.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 29886073 de MOVIDA PARTICIPACOES S.A. (R$ 13.299,10, 29/06/2026): foi declarado R$ 13.299,10, mas o maior valor no documento é R$ 13.299,07. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Renata Abreu (PODE/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a33b4fd0cdf3f87d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a33b4fd0cdf3f87d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: TECNOLOGIA E SOLUCOES EM GESTAO DE DADOS LTDA recebeu R$ 38.600,00; Caio Filipe Silva Franca é sócio(a) desde 06/11/2023 e trabalhou no gabinete (cargo de natureza especial, CNE12) de 11/10/2022 a 12/05/2025. Pagamentos: R$ 29.600,00 durante o vínculo, R$ 9.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 32.600,00 com a pessoa já sócia e servidora e R$ 6.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0507810f8b5c6e1f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0507810f8b5c6e1f.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 10006 de CASABLANCA RENT A CAR LTDA (R$ 12.830,20, 17/09/2025): foi declarado R$ 12.830,20, mas o maior valor no documento é R$ 12.830,16. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Carlos Sampaio (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2d10f8a567551786.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2d10f8a567551786.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: LKS MIDIA E PUBLICIDADE LTDA recebeu R$ 328.169,00; Leila Kelly Dos Santos Silva é sócio(a) desde 02/03/2023 e trabalhou no gabinete (secretário parlamentar, SP15) de 26/01/2023 a 12/02/2023. Pagamentos: R$ 328.169,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 36.540,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b8a118c490858cb0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b8a118c490858cb0.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 9624 de CASABLANCA RENT A CAR LTDA (R$ 12.783,80, 02/06/2025): foi declarado R$ 12.783,80, mas o maior valor no documento é R$ 12.783,76. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Delegado Ramagem (PL/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8e0984a37075b3a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8e0984a37075b3a7.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: MELLON COMUNICACAO E MARKETING LTDA recebeu R$ 75.000,00; Jose Matheus Sales Gomes é sócio(a) desde 17/05/2023 e trabalhou no gabinete (secretário parlamentar, SP20) de 13/03/2023 a 14/05/2023. Pagamentos: R$ 75.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 35.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ba15366e58e672d9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ba15366e58e672d9.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 6999 de CASABLANCA RENT A CAR LTDA (R$ 12.713,00, 11/04/2023): foi declarado R$ 16.188,20, mas o maior valor no documento é R$ 16.188,18. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Amaro Neto (PP/ES)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/77d750efff76c303.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/77d750efff76c303.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: T3 CONTEUDO DESIGN E ESTRATEGIA LTDA recebeu R$ 503.700,00; Igor Barbosa Lopes é sócio(a) desde 17/07/2024 e trabalhou no gabinete (secretário parlamentar, SP20) de 19/02/2021 a 22/04/2024. Pagamentos: R$ 257.600,00 durante o vínculo, R$ 246.100,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 32.400,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Pedro Campos (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e92f9933c3550f87.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e92f9933c3550f87.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 012179 de PARVI LOCADORA LTDA (R$ 12.713,00, 31/05/2023): foi declarado R$ 12.713,00, mas o maior valor no documento é R$ 8.554,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Coronel Meira (PL/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2408ce6fdfb3fd26.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2408ce6fdfb3fd26.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: COOPERATIVA DO PONTO DE TAXI 202 NORTE - COOPERNORTE recebeu R$ 70.577,58; Renato De Almeida Bertoldo é sócio(a) desde 02/05/2024 e trabalhou no gabinete (cargo de natureza especial, CNE14) desde 12/06/2024. Pagamentos: R$ 39.399,53 antes do vínculo, R$ 31.178,05 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 31.178,05 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Pedro Campos (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eeaa675d22a0acee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eeaa675d22a0acee.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 079374/079375 de PARVI LOCADORA LTDA (R$ 12.713,00, 14/11/2024): foi declarado R$ 12.713,00, mas o maior valor no documento é R$ 8.554,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Sonize Barbosa (PL/AP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/94cdefe0498d68d1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/94cdefe0498d68d1.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: CP3 LTDA recebeu R$ 133.000,00; Carlos Sergio Dos Santos Monteiro é sócio(a) desde 14/03/2008 e trabalhou no gabinete (secretário parlamentar, SP15) de 21/01/2025 a 13/03/2025. Pagamentos: R$ 103.000,00 antes do vínculo, R$ 30.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 30.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Delegada Katarina (PSD/SE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8ea42ef389a1765.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8ea42ef389a1765.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 01 de UNIR LOCACOES E SERVICOS LTDA (R$ 12.700,00, 28/02/2023): foi declarado R$ 12.700,00, mas o maior valor no documento é R$ 6.350,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Igor Timo (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdac2b0120182744.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdac2b0120182744.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: VISAO PUBLICA CONSULTORIA E MARKETING LTDA recebeu R$ 260.300,00; Maria Tereza De Jesus é sócio(a) desde 05/11/2024 e trabalhou no gabinete (secretário parlamentar, SP23) desde 30/06/2025. Pagamentos: R$ 231.900,00 antes do vínculo, R$ 28.400,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 28.400,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Juninho do Pneu (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bff04e29b17c966c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bff04e29b17c966c.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 001 de LocaBella (R$ 12.566,70, 31/03/2026): foi declarado R$ 12.566,70, mas o maior valor no documento é R$ 12.566,66. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Luiz Philippe de Orleans e Bragança (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b94a797ea1d412fe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b94a797ea1d412fe.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: ENVOLVE ASSESSORIA COMUNICACAO E SOLUCOES ESTRATEGICAS LTDA recebeu R$ 25.500,00; Silvia Fernanda Moura De Andrade é sócio(a) desde 11/01/2022 e trabalhou no gabinete (secretário parlamentar, SP19) de 22/12/2022 a 22/11/2023. Pagamentos: R$ 25.500,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 25.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Lêda Borges (REPUBLICANOS/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/987c9c5b137f76b7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/987c9c5b137f76b7.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 270 de SUPREMA MOBILIDADE LTDA (R$ 12.500,00, 27/06/2023): foi declarado R$ 12.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Arthur Oliveira Maia (UNIÃO/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4c1cdb9eeda86276.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4c1cdb9eeda86276.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: EASY WAY TECNOLOGIA E DESENVOLVIMENTO DE SOFTWARE LTDA recebeu R$ 97.500,00; Eduardo Ferreira De Sousa Cruz é sócio(a) desde 03/12/2025 e trabalhou no gabinete (cargo de natureza especial, CNE10) desde 17/01/2022. Pagamentos: R$ 60.000,00 durante o vínculo, R$ 37.500,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 22.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Lêda Borges (REPUBLICANOS/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b084c228f90b3b84.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b084c228f90b3b84.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 384 de SUPREMA MOBILIDADE LTDA (R$ 12.500,00, 23/08/2023): foi declarado R$ 12.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Mauricio Neves (PP/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/87af15cd41a71999.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/87af15cd41a71999.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: 60.272.827 LTDA recebeu R$ 82.500,00; Wilson Soares De Oliveira Filho é sócio(a) desde 12/03/2026 e trabalhou no gabinete (secretário parlamentar, SP24) desde 07/04/2025. Pagamentos: R$ 60.500,00 durante o vínculo, R$ 22.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 22.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Paulo Marinho Jr (PL/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4b22303fc41a6f5f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4b22303fc41a6f5f.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0241 de ML LOCAÇÕES EIRELI (R$ 12.000,00, 09/05/2026): foi declarado R$ 12.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Luiz Philippe de Orleans e Bragança (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/62fe67fb0e19866c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/62fe67fb0e19866c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: F2X COMUNICACAO LTDA recebeu R$ 263.503,40; Shismenia Ananias De Oliveira é sócio(a) desde 22/05/2023 e trabalhou no gabinete (secretário parlamentar, SP19) de 10/03/2023 a 28/05/2023. Pagamentos: R$ 263.503,40 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 21.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Paulo Marinho Jr (PL/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9eda877b82180fa7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9eda877b82180fa7.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0240 de ML LOCAÇÕES EIRELI (R$ 12.000,00, 13/04/2026): foi declarado R$ 12.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Missionário José Olimpio (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ac27acee85189fa4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ac27acee85189fa4.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: HERNANI FILMES E MARQUETING DIGITAL LTDA recebeu R$ 20.800,00; Monica Romina Santos De Sousa Guimaraes Vilela é sócio(a) desde 22/04/2022 e trabalhou no gabinete de Mauricio do Vôlei (PL/MG) (secretário parlamentar, SP06) desde 28/08/2025. Pagamentos: R$ 20.800,00 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 20.800,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Paulo Marinho Jr (PL/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a9431b2ca769d575.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a9431b2ca769d575.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0239 de ML LOCAÇÕES EIRELI (R$ 12.000,00, 13/04/2026): foi declarado R$ 12.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Ricardo Guidi (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/63c986181fdb0fc2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/63c986181fdb0fc2.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: CLIPPA COMUNICACAO LTDA recebeu R$ 20.000,00; Marieli Salvador De Souza é sócio(a) desde 21/01/2026 e trabalhou no gabinete (secretário parlamentar, SP12) de 10/06/2020 a 12/01/2026. Pagamentos: R$ 20.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 20.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>CNPJ do documento não é o do fornecedor declarado — Claudio Cajado (PP/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c70360d35d677a72.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c70360d35d677a72.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 004/2025 de JF COMERCIO E SERVICOS LOCATICIOS LTDA (R$ 12.000,00, 02/04/2025): o documento traz o(s) CNPJ(s) 53494608000186, e não o do fornecedor declarado (58035724000150). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Fabio Garcia (UNIÃO/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/547084dfd4b3bc33.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/547084dfd4b3bc33.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: HF COMUNICACAO ESTRATEGIA E ASSESSORIA DE IMPRENSA LTDA recebeu R$ 18.000,00; Humberto Frederico Arruda E Sa Nunes Da Cunha é sócio(a) desde 22/11/2019 e trabalhou no gabinete de Amália Barros (PL/MT) (secretário parlamentar, SP21) de 06/03/2023 a 06/08/2023. Pagamentos: R$ 18.000,00 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 18.000,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — José Rocha (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c6d015d463e566a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c6d015d463e566a5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 7322023 de WILSON SUEDY LOPES DA SILVA LTDA (R$ 11.985,00, 30/06/2023): foi declarado R$ 11.985,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Nelson Barbudo (PODE/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d685d7e08fe071ba.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d685d7e08fe071ba.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: GEVE COMUNICACAO LTDA recebeu R$ 18.000,00; Ana Eliza Pereira De Oliveira é sócio(a) desde 17/07/2024 e trabalhou no gabinete de Marussa Boldrin (REPUBLICANOS/GO) (secretário parlamentar, SP23) de 23/02/2023 a 29/01/2026. Pagamentos: R$ 15.000,00 durante o vínculo, R$ 3.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 15.000,00 com a pessoa já sócia e servidora e R$ 3.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — José Rocha (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1d02674147933d4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f1d02674147933d4.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1021 de Wilson Suedy Lopes da Silva Ltda (R$ 11.985,00, 30/10/2024): foi declarado R$ 11.985,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Sanderson (PL/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/48e2fb1708a85bd3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/48e2fb1708a85bd3.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: AGENCIA CATARINA COMUNICACAO INTEGRADA LTDA recebeu R$ 18.000,00; Ketrin Iara Raitz é sócio(a) desde 15/02/2022 e trabalhou no gabinete de Carlos Chiodini (MDB/SC) (secretário parlamentar, SP22) de 06/12/2022 a 25/02/2025. Pagamentos: R$ 4.500,00 durante o vínculo, R$ 13.500,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 4.500,00 com a pessoa já sócia e servidora e R$ 13.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Waldemar Oliveira (AVANTE/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d6dfdc4a08b49b09.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6dfdc4a08b49b09.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 53 de SUPREMA MOBILIDADE LTDA (R$ 11.980,00, 28/02/2023): foi declarado R$ 11.980,00, mas o maior valor no documento é R$ 370,37. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Dr. Victor Linhalis (PSB/ES)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3e328b6d0263f3db.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3e328b6d0263f3db.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: NEURALIS AGENCIA DE PUBLICIDADE LTDA recebeu R$ 31.500,00; Joao Rafael Pellacani Alves é sócio(a) desde 05/11/2025 e trabalhou no gabinete (secretário parlamentar, SP14) de 09/02/2023 a 28/08/2025. Pagamentos: R$ 31.500,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 17.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Dimas Gadelha (PT/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7fb4731a5a0d3aa6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7fb4731a5a0d3aa6.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 24749 de PANTANAL VEÍCULOS LTDA (R$ 11.760,50, 31/10/2023): foi declarado R$ 11.760,50, mas o maior valor no documento é R$ 11.760,45. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Zé Trovão (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/96cbc44d4ba33e21.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/96cbc44d4ba33e21.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: OCOTEA FILMES LTDA recebeu R$ 34.500,00; Anderson Dresch Dias Correa é sócio(a) desde 15/05/2023 e trabalhou no gabinete (secretário parlamentar, SP13) de 03/02/2023 a 31/08/2023. Pagamentos: R$ 20.000,00 durante o vínculo, R$ 14.500,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 14.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Mauricio Marcon (PL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff5bf39e089e2933.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff5bf39e089e2933.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3662026 de LEVVA MOBILIDADE LTDA (R$ 11.700,00, 03/09/2026): foi declarado R$ 11.700,00, mas o maior valor no documento é R$ 7.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Delegado da Cunha (UNIÃO/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/727995167842b4a6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/727995167842b4a6.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1783689767323 de LDS LOCADORA DE VEICULOS LTDA (10/07/2026): 2 lançamentos em 2 competência(s); documento R$ 13.000,00, valor líquido R$ 26.000,00, restituições R$ 0,00, saldo R$ 26.000,00 (excedente R$ 13.000,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Natália Bonavides (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb87ca2c5c38832b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb87ca2c5c38832b.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 493636 de LOCALIZA RENT A CAR S/A (R$ 11.651,40, 31/07/2025): foi declarado R$ 11.651,40, mas o maior valor no documento é R$ 11.651,36. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Sidney Leite (PSD/AM)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cee63cc6c0a4cc2d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cee63cc6c0a4cc2d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: PRIME MIDIA E MARKETING LTDA recebeu R$ 12.000,00; Marcelo Perdigao Guerra é sócio(a) desde 20/03/2025 e trabalhou no gabinete (secretário parlamentar, SP25) de 04/04/2022 a 07/07/2024. Pagamentos: R$ 12.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 12.000,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Jeferson Rodrigues (PSDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d76a91cc4cc627a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d76a91cc4cc627a5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 130 de SUPREMA MOBILIDADE LTDA (R$ 11.600,00, 03/04/2023): foi declarado R$ 11.600,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Josimar Maranhãozinho (PL/MA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/abcf44084b18f544.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/abcf44084b18f544.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 234 de ML LOCAÇÕES EIRELI (30/11/2025): 2 lançamentos em 1 competência(s); documento R$ 11.500,00, valor líquido R$ 23.000,00, restituições R$ 0,00, saldo R$ 23.000,00 (excedente R$ 11.500,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Dr. Luiz Ovando (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/30ae28614132cc53.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/30ae28614132cc53.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000360 de SUPREMA MOBILIDADE LTDA (R$ 11.500,00, 01/07/2025): foi declarado R$ 11.500,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Detinha (PL/MA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a91a7f2540b88a7f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a91a7f2540b88a7f.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 234 de ML LOCAÇÕES EIRELI (30/11/2025): 2 lançamentos em 1 competência(s); documento R$ 11.500,00, valor líquido R$ 23.000,00, restituições R$ 0,00, saldo R$ 23.000,00 (excedente R$ 11.500,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Dr. Luiz Ovando (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/95b56fe78ea46d93.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/95b56fe78ea46d93.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000562 de SUPREMA MOBILIDADE LTDA (R$ 11.500,00, 09/09/2024): foi declarado R$ 11.500,00, mas o maior valor no documento é R$ 1.500,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Maurício Carvalho (UNIÃO/RO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f5cae68380277e8b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f5cae68380277e8b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 299 de Casaquatro Produtora LTDA (26/06/2023): 2 lançamentos em 2 competência(s); documento R$ 10.000,00, valor líquido R$ 20.000,00, restituições R$ 0,00, saldo R$ 20.000,00 (excedente R$ 10.000,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Detinha (PL/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4122449708eeae0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4122449708eeae0.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0227 de ML LOCAÇÕES EIRELI (R$ 11.500,00, 01/09/2025): foi declarado R$ 11.500,00, mas o maior valor no documento é R$ 8,33. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — João Leão (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d249b076ee4a4bf9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d249b076ee4a4bf9.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 106550 de VIA LOCADORA DE AUTOMOVEIS LTDA (10/02/2025): 2 lançamentos em 2 competência(s); documento R$ 10.000,00, valor líquido R$ 20.000,00, restituições R$ 0,00, saldo R$ 20.000,00 (excedente R$ 10.000,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Dr. Luiz Ovando (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c0b2743fd715a4d1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c0b2743fd715a4d1.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 493 de SUPREMA MOBILIDADE LTDA (R$ 11.500,00, 29/07/2024): foi declarado R$ 11.500,00, mas o maior valor no documento é R$ 1.500,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Aguinaldo Ribeiro (PP/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9e48d2b40f0c42b4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9e48d2b40f0c42b4.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: AGENCIA CATARINA COMUNICACAO INTEGRADA LTDA recebeu R$ 9.000,00; Ketrin Iara Raitz é sócio(a) desde 15/02/2022 e trabalhou no gabinete de Carlos Chiodini (MDB/SC) (secretário parlamentar, SP22) de 06/12/2022 a 25/02/2025. Pagamentos: R$ 9.000,00 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 9.000,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Dr. Luiz Ovando (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f352c2045f12d5ec.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f352c2045f12d5ec.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000514 de SUPREMA MOBILIDADE LTDA (R$ 11.500,00, 01/08/2024): foi declarado R$ 11.500,00, mas o maior valor no documento é R$ 1.500,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Delegada Ione (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d4f3926665bcac6f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d4f3926665bcac6f.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: AWR CONSULTORIA LTDA recebeu R$ 8.615,00; Ricardo Alexandre Nogueira Miranda é sócio(a) desde 25/03/2022 e trabalhou no gabinete (secretário parlamentar, SP17) de 01/09/2023 a 06/03/2025. Pagamentos: R$ 8.615,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 8.615,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/52b9408e78ac75fa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/52b9408e78ac75fa.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 8915 de CASABLANCA RENT A CAR LTDA (R$ 11.390,50, 01/11/2024): foi declarado R$ 11.390,50, mas o maior valor no documento é R$ 11.390,46. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Dimas Fabiano (PP/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/57de6c8d01653f15.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/57de6c8d01653f15.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: LENZI SERVICOS DE PUBLICIDADE E PRODUCAO DE EVENTOS LTDA recebeu R$ 8.500,00; Renan Lenzi Silva é sócio(a) desde 22/04/2024 e trabalhou no gabinete (secretário parlamentar, SP17) de 01/09/2021 a 07/04/2024. Pagamentos: R$ 8.500,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 8.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ea4532dec28cbf29.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ea4532dec28cbf29.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 8312 de CASABLANCA RENT A CAR LTDA (R$ 11.390,50, 30/04/2024): foi declarado R$ 11.390,50, mas o maior valor no documento é R$ 11.390,48. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Hugo Motta (REPUBLICANOS/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/159c036286f11ab0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/159c036286f11ab0.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. DAYANA MILLENA TRIGUEIRO NOBRE está inapta desde 08/02/2022, mas emitiu 14 nota(s) depois disso (R$ 8.100,00). Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b0aaf33231889e94.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b0aaf33231889e94.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 8694 de CASABLANCA RENT A CAR LTDA (R$ 11.130,20, 02/09/2024): foi declarado R$ 11.130,20, mas o maior valor no documento é R$ 11.130,16. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Bia Kicis (PL/DF)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/40f2400709a063b4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/40f2400709a063b4.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: CREATIVE LAB LTDA recebeu R$ 254.000,00; Andre Orru Cesar De Azevedo é sócio(a) desde 19/03/2026 e trabalhou no gabinete (secretário parlamentar, SP22) desde 21/05/2026. Pagamentos: R$ 246.000,00 antes do vínculo, R$ 8.000,00 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 8.000,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/02d43ec13ef15bd6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/02d43ec13ef15bd6.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 9112 de CASABLANCA RENT A CAR LTDA (R$ 11.100,00, 03/01/2025): foi declarado R$ 11.100,00, mas o maior valor no documento é R$ 11.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Fabio Schiochet (UNIÃO/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/154964a4e6c90bd9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/154964a4e6c90bd9.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. RANUSIA MOREIRA GOUVEIA DE MOURA E OLIVEIRA está inapta desde 10/11/2023, mas emitiu 21 nota(s) depois disso (R$ 7.350,00). Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Délio Pinheiro (PDT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/03d65ce7c1343f18.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/03d65ce7c1343f18.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 075694 de LOCALIZA RENT A CAR SA (R$ 11.089,70, 29/07/2024): foi declarado R$ 11.598,00, mas o maior valor no documento é R$ 11.597,96. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Arnaldo Jardim (CIDADANIA/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3da1ffa45a909142.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3da1ffa45a909142.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: CM FERNANDES COMERCIO E SERVICOS DE INFORMATICA LTDA recebeu R$ 7.060,00; Cristiane Goncalves Pereira Fernandes é sócio(a) desde 26/09/2006 e trabalhou no gabinete (secretário parlamentar, SP17) desde 04/02/2019. Pagamentos: R$ 7.060,00 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 7.060,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Renildo Calheiros (PCdoB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/19dfde41e4ed2607.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/19dfde41e4ed2607.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1578 de LLAE LOCAÇÕES LTDA (R$ 11.000,00, 26/02/2025): foi declarado R$ 11.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Chico Alencar (PSOL/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8a15202bfb33b645.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8a15202bfb33b645.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: BRUNO LINS A.F. LTDA recebeu R$ 97.330,00; Bruno Lins Avila Ferreira é sócio(a) desde 09/10/2025 e trabalhou no gabinete (secretário parlamentar, SP21) de 03/02/2023 a 04/05/2025. Pagamentos: R$ 97.330,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 6.300,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<title>CNPJ do documento não é o do fornecedor declarado — Luiz Philippe de Orleans e Bragança (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/249b62f7644eb8bb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/249b62f7644eb8bb.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1773063021832 de LDS TRANSPORTES E SERVIÇOS LTDA (R$ 11.000,00, 09/03/2026): o documento traz o(s) CNPJ(s) 51206262000148, e não o do fornecedor declarado (13069001000134). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Jefferson Campos (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e6e1955daabb497a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e6e1955daabb497a.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 134109 de VIA LOCADORA DE AUTOMOVEIS LTDA (08/08/2025): 2 lançamentos em 2 competência(s); documento R$ 6.000,00, valor líquido R$ 12.000,00, restituições R$ 0,00, saldo R$ 12.000,00 (excedente R$ 6.000,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Renildo Calheiros (PCdoB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/57bb6ba1ec647163.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/57bb6ba1ec647163.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1533 de LLAE LOCAÇÕES LTDA (R$ 11.000,00, 26/08/2024): foi declarado R$ 11.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Castro Neto (MDB/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4a569b016b413b9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4a569b016b413b9.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 19 de FRANCISCA BEATRIZ NUNES DOS SANTOS ALBUQUERQUE (11/04/2025): 2 lançamentos em 2 competência(s); documento R$ 6.000,00, valor líquido R$ 12.000,00, restituições R$ 0,00, saldo R$ 12.000,00 (excedente R$ 6.000,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Renildo Calheiros (PCdoB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/679ac273d6a4a986.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/679ac273d6a4a986.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1539 de LLAE LOCAÇÕES LTDA (R$ 11.000,00, 30/09/2024): foi declarado R$ 11.000,00, mas o maior valor no documento é R$ 40,45. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Jorge Goetten (REPUBLICANOS/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1191ce0bcbafc27c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1191ce0bcbafc27c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: VEIA PRODUCOES, EVENTOS E MARKETING LTDA recebeu R$ 5.547,00; Eulla De Sousa Teixeira De Carvalho é sócio(a) desde 11/11/2024 e trabalhou no gabinete (secretário parlamentar, SP06) desde 19/09/2025. Pagamentos: R$ 5.547,00 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 5.547,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Renildo Calheiros (PCdoB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6d084a8ff4023584.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6d084a8ff4023584.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1551 de LLAE LOCAÇÕES LTDA (R$ 11.000,00, 26/11/2024): foi declarado R$ 11.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Fernando Coelho Filho (UNIÃO/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc74a92c833c65e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc74a92c833c65e.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 25585409 de MOVIDA PARTICIPAÇÕES S.A (08/05/2025): 2 lançamentos em 2 competência(s); documento R$ 4.999,46, valor líquido R$ 9.998,92, restituições R$ 0,00, saldo R$ 9.998,92 (excedente R$ 4.999,46). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<title>Valor declarado maior que o da nota — Renildo Calheiros (PCdoB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9893b4299aefdb9f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9893b4299aefdb9f.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1592 de LLAE LOCAÇÕES LTDA (R$ 11.000,00, 29/04/2025): foi declarado R$ 11.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

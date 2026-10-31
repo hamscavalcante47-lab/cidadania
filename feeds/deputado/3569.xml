@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3569.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3569.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:55-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Amália Barros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3ea810294a6ced1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f3ea810294a6ced1.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 190487 de UNIDAS LOCADORA S.A (R$ 4.305,00, 04/01/2024): foi declarado R$ 8.414,25, mas o maior valor no documento é R$ 5.434,87. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Amália Barros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2c872700a0d09202.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2c872700a0d09202.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 188742 de UNIDAS LOCADORA S.A (R$ 3.458,40, 22/12/2023): foi declarado R$ 3.876,47, mas o maior valor no documento é R$ 3.744,69. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Amália Barros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bcfa25186b2a8bde.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bcfa25186b2a8bde.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 16497/1 de VELZ RENT A CAR (R$ 1.227,60, 03/08/2023): o documento traz o(s) CNPJ(s) 22861906000133, e não o do fornecedor declarado (08306495000193). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Amália Barros (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aee6305d755fb89c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aee6305d755fb89c.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

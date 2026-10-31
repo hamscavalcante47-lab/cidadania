@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3360.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3360.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f0a55a62742e9d14.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f0a55a62742e9d14.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 64 de RONIMOTORS LOCAÇÔES LTDA (R$ 4.000,00, 27/12/2023): a nota é de 2024-02, mas foi declarada com data 27/12/2023. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd73f3a11efa69d3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd73f3a11efa69d3.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 142 de RONI MOTORS LOCACOES LTDA (R$ 6.700,00, 02/07/2026): foi declarado R$ 6.700,00, mas o maior valor no documento é R$ 8,98. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2f8ec0834a87ae0d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2f8ec0834a87ae0d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 141 de RONI MOTORS LOCACOES LTDA (R$ 6.000,00, 02/07/2026): foi declarado R$ 6.000,00, mas o maior valor no documento é R$ 8,98. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/73bd38d759a03454.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/73bd38d759a03454.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 139 de RONIMOTORS LOCAÇÔES LTDA (R$ 6.000,00, 03/06/2026): foi declarado R$ 6.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — Maria Rosas (REPUBLICANOS/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7a8e8f6d472446c3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7a8e8f6d472446c3.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

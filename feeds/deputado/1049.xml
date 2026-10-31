@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1049.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1049.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Ivan Valente (PSOL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/86a9f0317c59c936.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/86a9f0317c59c936.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 584610 de LOCALIZA RENT A CAR SA (R$ 2.676,74, 23/08/2023): foi declarado R$ 2.983,32, mas o maior valor no documento é R$ 2.727,95. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Ivan Valente (PSOL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ca93343338b2b513.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ca93343338b2b513.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

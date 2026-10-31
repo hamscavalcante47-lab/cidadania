@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2227.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2227.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:49-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Danilo Forte (PP/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6331761f1b347831.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6331761f1b347831.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1499430 de LOCALIZA FLEET SA (R$ 5.764,87, 22/03/2024): o documento traz o(s) CNPJ(s) 16670085000155, e não o do fornecedor declarado (02286479000108). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Danilo Forte (PP/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4ab84f259c6da868.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4ab84f259c6da868.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 220069 de LOCALIZA RENT A CAR SA (R$ 5.685,60, 13/09/2026): foi declarado R$ 5.685,60, mas o maior valor no documento é R$ 478,54. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Danilo Forte (PP/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9633884054b1518d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9633884054b1518d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 214734 de LOCALIZA RENT A CAR SA (R$ 5.685,60, 14/08/2026): foi declarado R$ 5.685,60, mas o maior valor no documento é R$ 741,60. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Danilo Forte (PP/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/effc9b7ddd948f32.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/effc9b7ddd948f32.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1499430 de LOCALIZA FLEET SA (R$ 4.598,73, 22/03/2024): o documento traz o(s) CNPJ(s) 16670085000155, e não o do fornecedor declarado (02286479000108). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Danilo Forte (PP/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cd3c6dacb5ca7ea7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cd3c6dacb5ca7ea7.html</id>
+<updated>2026-10-28T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de LOCALIZA FLEET SA foi anexado a 2 reembolsos. Despesas declaradas: nº 1499430 (R$ 4.598,73, 22/03/2024); nº 1499430 (R$ 5.764,87, 22/03/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Danilo Forte (PP/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b15789f8e99b4281.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b15789f8e99b4281.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

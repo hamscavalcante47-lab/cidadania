@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3021.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3021.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Baleia Rossi (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e7e6a58bd75bb31d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e7e6a58bd75bb31d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº sn de MOVIDA PARTICIPAÇÕES S.A. (R$ 4.839,90, 29/07/2025): o documento traz o(s) CNPJ(s) 21314559017646, e não o do fornecedor declarado (07976147026712). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Baleia Rossi (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a9ad227ee795f931.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a9ad227ee795f931.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº sn de MOVIDA PARTICIPAÇÕES S.A. (R$ 4.033,25, 03/11/2025): foi declarado R$ 4.839,90, mas o maior valor no documento é R$ 839,80. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Baleia Rossi (MDB/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e4cb3b70eef53c31.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e4cb3b70eef53c31.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

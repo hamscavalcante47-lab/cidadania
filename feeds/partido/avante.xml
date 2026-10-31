@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/avante.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/avante.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Waldemar Oliveira (AVANTE/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d6dfdc4a08b49b09.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6dfdc4a08b49b09.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 53 de SUPREMA MOBILIDADE LTDA (R$ 11.980,00, 28/02/2023): foi declarado R$ 11.980,00, mas o maior valor no documento é R$ 370,37. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Neto Carletto (AVANTE/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0b7631f2f033bed5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0b7631f2f033bed5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 255956 de LOCALIZA RENT A CAR S/A (R$ 4.437,62, 09/04/2023): foi declarado R$ 4.437,62, mas o maior valor no documento é R$ 4.103,97. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Neto Carletto (AVANTE/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/252ed5b7482b26d8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/252ed5b7482b26d8.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

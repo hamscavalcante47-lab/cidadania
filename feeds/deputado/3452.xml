@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3452.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3452.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:49-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Joseildo Ramos (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff4eca00f1fc721b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff4eca00f1fc721b.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 28696 de PANTANAL VEÍCULOS LTDA (R$ 3.450,00, 17/03/2026): o documento traz o(s) CNPJ(s) 13516648000167, e não o do fornecedor declarado (07319323000191). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Empresa aberta pouco antes de receber — Joseildo Ramos (PT/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/10138f622bf203fb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/10138f622bf203fb.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

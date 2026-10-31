@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3059.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3059.xml</id>
-<updated>2026-10-28T20:59:03-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Empresa aberta pouco antes de receber — Vicentinho Júnior (PSDB/TO)</title>
@@ -13,17 +13,23 @@
 <category term="Média"/>
 <summary>Gravidade média. 62.062.634 RUILAN DA SILVA SANTOS foi aberta em 04/08/2025, 24 dias antes da primeira nota (28/08/2025); recebeu R$ 7.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
+<title>Empresa aberta pouco antes de receber — Vicentinho Júnior (PSDB/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/50e7f0eb4fc42d1e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/50e7f0eb4fc42d1e.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. AOOM SERVICOS DE EVENTOS E PRODUCOES LTDA foi aberta em 06/10/2022, 151 dias antes da primeira nota (06/03/2023); recebeu R$ 190.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — Vicentinho Júnior (PSDB/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b55fc92cb6f3a300.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b55fc92cb6f3a300.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. AOOM SERVICOS DE EVENTOS E PRODUCOES LTDA: 6 notas em 6 meses, numeradas de 4 a 13 (R$ 190.000,00). Fora deste gabinete, a empresa emitiu no máximo 4 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — Vicentinho Júnior (PSDB/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/50e7f0eb4fc42d1e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/50e7f0eb4fc42d1e.html</id>
+<title>MEI recebendo mais que o limite anual — Vicentinho Júnior (PSDB/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. AOOM SERVICOS DE EVENTOS E PRODUCOES LTDA foi aberta em 06/10/2022, 151 dias antes da primeira nota (06/03/2023); recebeu R$ 190.000,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. 63.452.280 CRISTIANO MACHADO SANTOS (MEI) recebeu R$ 106.000,00 da cota em 2026, R$ 106.000,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Vicentinho Júnior (PSDB/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/807313a1af801959.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/807313a1af801959.html</id>
@@ -36,12 +42,6 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 63.452.280 CRISTIANO MACHADO SANTOS foi aberta em 31/10/2025, 102 dias antes da primeira nota (10/02/2026); recebeu R$ 106.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>MEI recebendo mais que o limite anual — Vicentinho Júnior (PSDB/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 63.452.280 CRISTIANO MACHADO SANTOS (MEI) recebeu R$ 106.000,00 da cota em 2026, R$ 106.000,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Notas com numeração quase seguida — Vicentinho Júnior (PSDB/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/36b32acbd7b4a9ec.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/36b32acbd7b4a9ec.html</id>

@@ -4,14 +4,32 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3328.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3328.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/10ddf58136d05953.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/10ddf58136d05953.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº S/N de SOM NA KAIXA COMÉRCIO DE ALARMES E SOM LTDA (R$ 2.930,00, 17/06/2025): foi declarado R$ 2.930,00, mas o maior valor no documento é R$ 930,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7183341c8ca24ddb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7183341c8ca24ddb.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 26965754 de UNIDAS LOCADORA S.A (R$ 208,05, 12/02/2025): foi declarado R$ 219,05, mas o maior valor no documento é R$ 196,66. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f5a284bc22c5a541.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f5a284bc22c5a541.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 124 de MOVIDA PARTICIPAÇÕES S.A. (R$ 139,00, 05/11/2025): o documento traz o(s) CNPJ(s) 43344419000173, e não o do fornecedor declarado (21314559015600). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Daniel Trzeciak (PSDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/87c9d1c620a7c409.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/87c9d1c620a7c409.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6127a873765d3d91.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/87c9d1c620a7c409.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. A mesma chave de acesso de COMERCIAL DE COMB. RAMADA LTDA foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. A NFC-e nº 166861 de COMERCIAL DE COMB. RAMADA LTDA foi anexada a 2 reembolsos. Despesas declaradas: nº 166861 (R$ 256,80, 16/05/2024), que corresponde à nota; nº 166861 (R$ 256,80, 16/05/2024), a mesma nota declarada de novo. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Daniel Trzeciak (PSDB/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9b46f593e50394ca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9b46f593e50394ca.html</id>

@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3650.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3650.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:54-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Gilvan da Federal (PL/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec29605847091e9c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec29605847091e9c.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 810361 de LOCALIZA RENT A CAR SA (R$ 3.889,09, 18/11/2024): foi declarado R$ 4.364,64, mas o maior valor no documento é R$ 4.035,99. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Gilvan da Federal (PL/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e91c9fa9260d2720.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e91c9fa9260d2720.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 886 de lLAND LOCADORA LTDA (R$ 450,00, 14/08/2023): foi declarado R$ 450,00, mas o maior valor no documento é R$ 150,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — Gilvan da Federal (PL/ES)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0b52db6c479980b9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0b52db6c479980b9.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

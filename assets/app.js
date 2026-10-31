@@ -1001,7 +1001,10 @@ async function iniciarAlertas() {
       if (!a.s) quem.push(`<span class="status">revisão pendente</span>`);
       return `<article class="alerta g${a.g}"><div class="cab"><span class="pill g${a.g}">${GRAV[a.g]}</span><h3><a href="alerta/${a.c}.html">${esc(titulo[a.r])}</a></h3>${a.vl > 0 ? `<span class="valor-alerta"><b class="num">${brlCurto(a.vl)}</b> envolvidos</span>` : ""}</div>
         <p class="meta">${quem.join(" · ")}</p><p class="desc">${esc(a.t)}</p>
-        ${a.s ? `<p class="revisao ${esc(a.s)}"><strong>${esc(a.rl || a.s)}.</strong> ${esc(a.v || "")}</p>` : ""}
+        ${a.s ? `<p class="revisao ${esc(a.s)}"><strong>${esc(a.rl || a.s)}.</strong> ${a.va
+          // revisão herdada na troca de chave: feita numa versão anterior (a revisada), que tem página própria
+          ? `Revisão feita numa versão anterior deste alerta (<a href="alerta/${esc(a.va[0])}.html">ver a versão revisada</a>), em ${esc(a.va[1])}${a.v ? `: ${esc(a.v)}` : "."}`
+          : esc(a.v || "")}</p>` : ""}
         ${notas ? `<details><summary>Notas envolvidas</summary><ul>${notas}</ul></details>` : ""}</article>`;
     }).join("") || `<p class="vazio">Nenhum alerta com esses filtros. Escolha outra gravidade ou outro período.</p>`;
     const resto = lista.length - estado.limite;

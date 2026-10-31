@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3649.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3649.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:53-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Marcos Tavares (PDT/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4212a939e1af16b7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4212a939e1af16b7.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000854 de SUPREMA MOBILIDADE LTDA (R$ 9.500,00, 03/08/2026): foi declarado R$ 9.500,00, mas o maior valor no documento é R$ 500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Marcos Tavares (PDT/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/32edf5eba7daac31.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/32edf5eba7daac31.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000347 de SUPREMA MOBILIDADE LTDA (R$ 6.250,00, 02/04/2024): foi declarado R$ 6.250,00, mas o maior valor no documento é R$ 50,11. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — Marcos Tavares (PDT/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/15525e30efc443f5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/15525e30efc443f5.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3537.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3537.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:53-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — General Pazuello (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4948cdfb6b5f8368.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4948cdfb6b5f8368.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 012024 de HADDAD RENT A CAR LOCADORA LTDA (R$ 10.400,00, 16/09/2024): foi declarado R$ 10.400,00, mas o maior valor no documento é R$ 10.399,95. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — General Pazuello (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61a2f9545bff620c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61a2f9545bff620c.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1090448 de LOCALIZA RENT A CAR S/A (R$ 1.289,89, 08/05/2023): foi declarado R$ 1.301,89, mas o maior valor no documento é R$ 1.288,45. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Empresa aberta pouco antes de receber — General Pazuello (PL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4e1b39f9fe7af66f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4e1b39f9fe7af66f.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

@@ -4,9 +4,45 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/go.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/go.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Lêda Borges (REPUBLICANOS/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/987c9c5b137f76b7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/987c9c5b137f76b7.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 270 de SUPREMA MOBILIDADE LTDA (R$ 12.500,00, 27/06/2023): foi declarado R$ 12.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Lêda Borges (REPUBLICANOS/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b084c228f90b3b84.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b084c228f90b3b84.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 384 de SUPREMA MOBILIDADE LTDA (R$ 12.500,00, 23/08/2023): foi declarado R$ 12.500,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Jeferson Rodrigues (PSDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d76a91cc4cc627a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d76a91cc4cc627a5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 130 de SUPREMA MOBILIDADE LTDA (R$ 11.600,00, 03/04/2023): foi declarado R$ 11.600,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Lêda Borges (REPUBLICANOS/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0ad7dde1fe31c5d5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0ad7dde1fe31c5d5.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000192 de SUPREMA MOBILIDADE LTDA (R$ 6.250,00, 01/03/2025): foi declarado R$ 6.250,00, mas o maior valor no documento é R$ 1,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Gustavo Gayer (PL/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8cae5cd5893b7e12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8cae5cd5893b7e12.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000033 de SUPREMA MOBILIDADE LTDA (R$ 3.700,00, 01/11/2024): foi declarado R$ 3.700,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Adriano do Baldy (PP/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7c6ca4b843b987de.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7c6ca4b843b987de.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 13996 de Cical Auto Locadora LTDA (R$ 3.300,00, 15/05/2023): foi declarado R$ 3.300,00, mas o maior valor no documento é R$ 443,85. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Gustavo Gayer (PL/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e12350e4c149b126.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e12350e4c149b126.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -19,17 +55,17 @@
 <category term="Alta"/>
 <summary>Gravidade alta. 39.152.506 AGUINALDO SANTANA VIEIRA está inapta desde 12/08/2024, mas emitiu 1 nota(s) depois disso (R$ 4.050,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Delegada Adriana Accorsi (PT/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d87657705dd67bdf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d87657705dd67bdf.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. A mesma chave de acesso de DRA4 DERIVADOS DE PETROLEO LTDA foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Adriano do Baldy (PP/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bb3d19d06a2ddebb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bb3d19d06a2ddebb.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. DIVINA DELFINA DE ARAUJO está inapta desde 10/11/2023, mas emitiu 2 nota(s) depois disso (R$ 220,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Delegada Adriana Accorsi (PT/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/70a89ff4ca05e281.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d87657705dd67bdf.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. A NFC-e nº 44912 de DRA4 DERIVADOS DE PETROLEO LTDA foi anexada a 2 reembolsos. Despesas declaradas: nº 44762 (R$ 209,50, 16/08/2023), que não tem comprovante próprio; nº 44912 (R$ 181,91, 22/08/2023), que corresponde à nota. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Jeferson Rodrigues (PSDB/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/775ec111f0a58e91.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/775ec111f0a58e91.html</id>
@@ -270,41 +306,5 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. MATA COMERCIO DE COMBUSTIVEIS LTDA e SUPER POSTO BRASIL V LTDA: sócio em comum Marcilene Maria Alves Lemos; juntas receberam R$ 210.203,22. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Jeferson Rodrigues (PSDB/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4e4ccf47c9e4a3fa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4e4ccf47c9e4a3fa.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. TAVARES EMPREENDIMENTOS E LOCACOES LTDA e CORCRED ASSESSORIA EMPRESARIAL LTDA: sócio em comum Mateus Tavares De Freitas; juntas receberam R$ 195.733,34. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Marussa Boldrin (REPUBLICANOS/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3dc4d169faf61444.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3dc4d169faf61444.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. AUTORIO ADMINISTRADORA E CONSTRUTORA LTDA e AUTORIO LOCADORA DE VEICULOS LTDA: sócio em comum Ariovaldo Alceu Dos Santos; juntas receberam R$ 191.520,82. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Rubens Otoni (PT/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aeb2cdfaf79acb25.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aeb2cdfaf79acb25.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. RAMA AGENCIA DIGITAL LTDA ME: 37 notas em 35 meses, numeradas de 7 a 114 (R$ 170.445,00). Fora deste gabinete, a empresa emitiu no máximo 71 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Lêda Borges (REPUBLICANOS/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/93af38a4701f8d3a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/93af38a4701f8d3a.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MSG SOLUCOES LTDA: 26 notas em 26 meses, numeradas de 1 a 27 (R$ 166.000,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Lêda Borges (REPUBLICANOS/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a350af7f2ab8b09f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a350af7f2ab8b09f.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MSG SOLUCOES LTDA foi aberta em 17/04/2024, 9 dias antes da primeira nota (26/04/2024); recebeu R$ 166.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Dr. Ismael Alexandrino (PSD/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec9bae6df357eb51.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec9bae6df357eb51.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Danilo Batista Dias: 26 notas em 24 meses, numeradas de 5 a 44 (R$ 160.350,00). Fora deste gabinete, a empresa emitiu no máximo 14 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

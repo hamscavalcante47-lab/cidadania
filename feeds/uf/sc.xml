@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/sc.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/sc.xml</id>
-<updated>2026-10-28T20:59:01-03:00</updated>
+<updated>2026-10-31T09:59:47-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Ismael (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ede48b5fdbbbcb13.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ede48b5fdbbbcb13.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1466 de LOCAR MAIS LTDA (R$ 8.999,00, 28/06/2025): foi declarado R$ 8.999,00, mas o maior valor no documento é R$ 899,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Ana Paula Lima (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e7fd6e2bf0b7947b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e7fd6e2bf0b7947b.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 83508 de Localiza Rent a Car S.A (R$ 5.173,33, 15/10/2025): foi declarado R$ 5.346,38, mas o maior valor no documento é R$ 490,80. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Jorge Goetten (REPUBLICANOS/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a944bca8b67e152b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a944bca8b67e152b.html</id>
+<updated>2026-10-28T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de PANTANAL VEÍCULOS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 24855 (R$ 4.700,00, 30/11/2023); nº 24855 (R$ 4.700,00, 30/11/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Zé Trovão (PL/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dbae0d033b9effdc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dbae0d033b9effdc.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -288,23 +306,5 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. THF SERVICOS LTDA e CRIACAO PROPAGANDA E PUBLICIDADE LTDA: sócio em comum Thiago Fernandes Filomeno; juntas receberam R$ 604.350,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Ricardo Guidi (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5f89c7061bacf229.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5f89c7061bacf229.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MAV VEICULOS E SERVICOS LTDA e VAM VEICULOS E SERVICOS LTDA: sócio em comum Marco Aurelio Viana; juntas receberam R$ 222.650,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Pezenti (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/836d7d7e883a3289.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/836d7d7e883a3289.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MSB CONSULTORIA LTDA recebeu R$ 164.500,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Ana Paula Lima (PT/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/75a8036ed56170b3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/75a8036ed56170b3.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. BRAVA PAINEIS LTDA e MASTER BRASIL PAINEIS LTDA: sócio em comum Adriano Fernando Nunes; juntas receberam R$ 161.440,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

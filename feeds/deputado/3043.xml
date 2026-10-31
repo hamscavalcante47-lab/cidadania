@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3043.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3043.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:48-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0091bbce95bbabbd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0091bbce95bbabbd.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 20382705 de MOVIDA LOCAÇÃO DE VEÍCULOS S.A (R$ 3.294,23, 14/04/2023): foi declarado R$ 3.333,43, mas o maior valor no documento é R$ 25,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f70b3e9c995d44b3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f70b3e9c995d44b3.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 053813 de UNIDAS S/A (R$ 2.888,94, 15/05/2023): foi declarado R$ 2.888,94, mas o maior valor no documento é R$ 1.619,06. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Diego Garcia (UNIÃO/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/205b30a1a8a35c74.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/205b30a1a8a35c74.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -68,16 +80,16 @@
 <summary>Gravidade alta. nº V4NN2Q1B824L de CONCESSIONARIA VIA ARAUCARIA (09/06/2026): 2 lançamentos em 1 competência(s); documento R$ 11,70, valor líquido R$ 23,40, restituições R$ 0,00, saldo R$ 23,40 (excedente R$ 11,70). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Diego Garcia (UNIÃO/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d5ec0093522e75c6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d5ec0093522e75c6.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 2616170120100007400 de EPR PARANA S.A. (25/06/2026): 2 lançamentos em 1 competência(s); documento R$ 10,50, valor líquido R$ 21,00, restituições R$ 0,00, saldo R$ 21,00 (excedente R$ 10,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Diego Garcia (UNIÃO/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0bb25dea2460ea7c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0bb25dea2460ea7c.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 2617570120200002600 de EPR PARANA S.A. (25/06/2026): 2 lançamentos em 1 competência(s); documento R$ 10,50, valor líquido R$ 21,00, restituições R$ 0,00, saldo R$ 21,00 (excedente R$ 10,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d5ec0093522e75c6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d5ec0093522e75c6.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 2616170120100007400 de EPR PARANA S.A. (25/06/2026): 2 lançamentos em 1 competência(s); documento R$ 10,50, valor líquido R$ 21,00, restituições R$ 0,00, saldo R$ 21,00 (excedente R$ 10,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Diego Garcia (UNIÃO/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c3e25c59b13df76c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c3e25c59b13df76c.html</id>
@@ -91,16 +103,16 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº WD162RKB84JW de CONCESSIONARIA DE RODOVIAS S.A (22/02/2026): 2 lançamentos em 1 competência(s); documento R$ 9,30, valor líquido R$ 18,60, restituições R$ 0,00, saldo R$ 18,60 (excedente R$ 9,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Diego Garcia (UNIÃO/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a592def481d9f2f1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a592def481d9f2f1.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ODISSEU COMUNICAÇÕES LTDA: 10 notas em 11 meses, numeradas de 2 a 19 (R$ 72.916,67). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Empresa aberta pouco antes de receber — Diego Garcia (UNIÃO/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83ae8c28bef6eb43.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83ae8c28bef6eb43.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. ODISSEU COMUNICACOES LTDA foi aberta em 03/01/2025, 18 dias antes da primeira nota (21/01/2025); recebeu R$ 72.916,67. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Notas com numeração quase seguida — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a592def481d9f2f1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a592def481d9f2f1.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ODISSEU COMUNICAÇÕES LTDA: 10 notas em 11 meses, numeradas de 2 a 19 (R$ 72.916,67). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

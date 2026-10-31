@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3672.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3672.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:49-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Dr. Francisco (PT/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc78aee6b7021a57.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc78aee6b7021a57.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 22812026 de MY CAR LOCAÇÃO DE VEICULOS LTDA (R$ 4.500,00, 23/01/2026): foi declarado R$ 4.500,00, mas o maior valor no documento é R$ 50,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Dr. Francisco (PT/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/74a4a54354e481e2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/74a4a54354e481e2.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 22802026 de MY CAR LOCAÇÃO DE VEICULOS LTDA (R$ 3.000,00, 23/01/2026): foi declarado R$ 3.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Dr. Francisco (PT/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dacd42b799b92de9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dacd42b799b92de9.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 22792026 de MY CAR LOCAÇÃO DE VEICULOS LTDA (R$ 3.000,00, 23/01/2026): foi declarado R$ 3.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Dr. Francisco (PT/PI)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41c4181edd055d20.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41c4181edd055d20.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

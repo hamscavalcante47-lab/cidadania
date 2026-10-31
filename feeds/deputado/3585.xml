@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3585.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3585.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:50-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Henderson Pinto (UNIÃO/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1641684aa27f7d51.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1641684aa27f7d51.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 26845 de KAPO VEICULOS LTDA (R$ 9.900,00, 02/04/2026): foi declarado R$ 9.900,00, mas o maior valor no documento é R$ 900,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Notas com numeração quase seguida — Henderson Pinto (UNIÃO/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6856c6ba416ba202.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6856c6ba416ba202.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

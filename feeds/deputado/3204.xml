@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3204.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3204.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:52-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Paulo Guedes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61f999c03ce69f67.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61f999c03ce69f67.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000204 de LOCADORA SHALON LTDA - ME (R$ 4.300,00, 30/04/2024): foi declarado R$ 4.300,00, mas o maior valor no documento é R$ 4.200,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Paulo Guedes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b9e62083425d80da.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b9e62083425d80da.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000194 de LOCADORA SHALON LTDA - ME (R$ 4.300,00, 29/02/2024): foi declarado R$ 4.300,00, mas o maior valor no documento é R$ 4.200,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Paulo Guedes (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8d0ffd56b3da80c5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8d0ffd56b3da80c5.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

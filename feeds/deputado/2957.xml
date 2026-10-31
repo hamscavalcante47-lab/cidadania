@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2957.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2957.xml</id>
-<updated>2026-10-28T20:59:02-03:00</updated>
+<updated>2026-10-31T09:59:51-03:00</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Orlando Silva (PCdoB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/16567145f153fb6d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/16567145f153fb6d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 271 de STILLUS TRANSPORTES (R$ 7.442,75, 03/02/2023): foi declarado R$ 7.442,75, mas o maior valor no documento é R$ 1.442,35. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Orlando Silva (PCdoB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/506ee66b63acf9c8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/506ee66b63acf9c8.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 20147180 de Movida Locações de Veículos LTDA (R$ 4.499,50, 04/12/2023): foi declarado R$ 4.499,50, mas o maior valor no documento é R$ 499,50. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Orlando Silva (PCdoB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d78a3d8471deddc3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d78a3d8471deddc3.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 20147180 de Movida Locações de Veículos LTDA (R$ 4.499,50, 10/08/2023): foi declarado R$ 4.499,50, mas o maior valor no documento é R$ 499,50. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Orlando Silva (PCdoB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/303b3cc2f8c9475d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/303b3cc2f8c9475d.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 23308683 de Movida Locações de Veículos LTDA (R$ 4.439,40, 12/03/2024): foi declarado R$ 4.459,30, mas o maior valor no documento é R$ 459,30. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Orlando Silva (PCdoB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bd225130bac6f48c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bd225130bac6f48c.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 264411301 de MOVIDA LOCACAO DE VEICULOS S.A. (R$ 4.158,19, 05/06/2025): o documento traz o(s) CNPJ(s) 21314559000166, 21314559003696, e não o do fornecedor declarado (07976147000160). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Orlando Silva (PCdoB/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dbab68ec7761979f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dbab68ec7761979f.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
