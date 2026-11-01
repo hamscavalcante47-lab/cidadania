@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acessibilidade · Cidadania</title>
+<meta name="description" content="O que foi testado no Cidadania (celular, teclado, tema escuro, impressão), o que ainda não foi e como avisar de uma barreira.">
+<meta property="og:title" content="Acessibilidade · Cidadania">
+<meta property="og:description" content="O que foi testado no Cidadania (celular, teclado, tema escuro, impressão), o que ainda não foi e como avisar de uma barreira.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#f3f5f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a110f" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://hamscavalcante47-lab.github.io/cidadania/acessibilidade.html">
+<meta property="og:url" content="https://hamscavalcante47-lab.github.io/cidadania/acessibilidade.html">
+
+<script>if (navigator.connection && navigator.connection.saveData || matchMedia("(prefers-reduced-data: reduce)").matches) document.documentElement.classList.add("economia")</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M5%202h14v20l-2.33-1.6-2.34%201.6-2.33-1.6-2.33%201.6-2.34-1.6L5%2022z%22%20fill%3D%22%230d5c45%22/%3E%3Cpath%20d%3D%22M8.5%207.5h7M8.5%2011h7M8.5%2014.5h4%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/estilo.css?v=7868f507">
+</head>
+<body data-pagina="acessibilidade" data-raiz="" data-versao="75acc0dfb2">
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header class="topo"><div class="cont">
+  <a class="marca" href="index.html"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0d5c45"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>Cidadania<small>cota parlamentar aberta</small></span></a>
+  <div class="busca" role="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <label class="vh" for="busca-global">Buscar deputado, fornecedor ou pessoa</label>
+    <input id="busca-global" type="search" placeholder="Deputado, empresa, CNPJ ou pessoa" autocomplete="off"
+      role="combobox" aria-expanded="false" aria-controls="busca-resultados" aria-keyshortcuts="/">
+    <kbd class="atalho" aria-hidden="true">/</kbd>
+    <ul class="resultados" id="busca-resultados" role="listbox" hidden></ul>
+  </div>
+  <nav aria-label="Principal"><a href="index.html">Mapa</a><a href="ranking.html">Ranking</a><a href="gastos.html">Gastos</a><a href="alertas.html">Alertas</a><a href="relatorios.html">Relatórios</a><a href="metodologia.html">Como funciona</a></nav>
+</div></header>
+<main id="conteudo"><div class="cont">
+
+<section class="abertura prosa">
+  <h1>Acessibilidade</h1>
+  <p class="lead">O Cidadania quer ser usável por qualquer pessoa: no celular, só com o teclado, com leitor de tela, com
+    o tema escuro ou com pouca internet. Esta página diz o que foi testado, o que não foi e como avisar de uma barreira.</p>
+  <p class="cat">Revista em 31/10/2026.</p>
+</section>
+<section class="secao prosa">
+  <h2>A meta</h2>
+  <p>As Diretrizes de Acessibilidade para Conteúdo Web (WCAG 2.2), nível AA. O site ainda não passou por uma auditoria
+  formal de acessibilidade, então não declaramos conformidade: declaramos o que foi conferido.</p>
+
+  <h2>O que foi testado</h2>
+  <ul>
+    <li>As telas novas (perfil do deputado com o gráfico e o painel das notas, Relatórios, edições, correções e as páginas
+      dos alertas) em 375 e 1.366 pixels de largura, nos temas claro e escuro, sem rolagem lateral, no Chrome.</li>
+    <li>O uso só com o teclado nessas telas: chegar a cada botão, abrir e fechar o painel (Esc), voltar ao ponto de
+      origem, percorrer os meses do gráfico com as setas.</li>
+    <li>Alvos de toque com pelo menos 24 pixels nessas telas.</li>
+    <li>Impressão: a página de um alerta sai em A4, clara, com o endereço permanente por extenso; quase sempre numa folha
+      (146 de 150 alertas sorteados), e nunca em mais de duas.</li>
+    <li>No gráfico do perfil, o toque escolhe o mês, sem depender de passar o mouse por cima.</li>
+  </ul>
+
+  <h2>O que ainda não foi testado</h2>
+  <ul>
+    <li>Leitores de tela de verdade: TalkBack (Android), VoiceOver (iPhone e Mac), NVDA e JAWS (Windows).</li>
+    <li>Aparelhos reais, Safari e Firefox; o botão Voltar do Android dentro do painel das notas.</li>
+    <li>O modo de alto contraste do Windows e a preferência por menos movimento: há regras para os dois no estilo do
+      site, mas não foram conferidas.</li>
+    <li>As páginas mais antigas (mapa, ranking, gastos) não passaram pela conferência acima.</li>
+  </ul>
+
+  <h2>Alternativas ao que é visual</h2>
+  <ul>
+    <li>Os gráficos do perfil têm uma descrição em texto e uma tabela com os mesmos dados, e o mês escolhido é escrito
+      numa região que o leitor de tela anuncia (sem teste com leitor de tela de verdade, como dito acima).</li>
+    <li>Os números dos relatórios também saem em planilha (CSV), e os dados abertos estão descritos em
+      <a href="imprensa.html">Para jornalistas</a>.</li>
+  </ul>
+
+  <h2>Limites conhecidos</h2>
+  <ul>
+    <li>As notas fiscais abrem no site da Câmara; muitas são imagens escaneadas, sem texto que um leitor de tela leia.</li>
+    <li>Os nomes de empresas e os textos dos alertas vêm dos dados oficiais, às vezes em maiúsculas e com abreviações.</li>
+  </ul>
+
+  <h2>Encontrou uma barreira?</h2>
+  <p>Escreva para <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a> dizendo a página, o aparelho
+  e o que aconteceu. A correção entra numa próxima atualização do site.</p>
+</section>
+</div></main>
+<footer class="rodape"><div class="cont">
+  <div class="rodape-grade">
+    <div class="rodape-sobre">
+      <p class="marca"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0d5c45"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>Cidadania</span></p>
+      <p>Monitoramento cidadão da cota parlamentar dos deputados federais. Os alertas são indícios apontados por
+        regras automáticas, não acusações: cada um leva à nota original.</p>
+    </div>
+    <div><h2>Navegar</h2><ul><li><a href="index.html">Mapa</a></li><li><a href="ranking.html">Ranking</a></li><li><a href="gastos.html">Gastos</a></li><li><a href="alertas.html">Alertas</a></li><li><a href="relatorios.html">Relatórios</a></li><li><a href="metodologia.html">Como funciona</a></li></ul></div>
+    <div><h2>Fontes dos dados</h2><ul><li><a href="https://dadosabertos.camara.leg.br/" target="_blank" rel="noopener">Câmara dos Deputados</a></li><li><a href="https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj" target="_blank" rel="noopener">Receita Federal (CNPJ)</a></li><li><a href="https://dadosabertos.tse.jus.br/" target="_blank" rel="noopener">TSE (contas de campanha)</a></li></ul></div>
+    <div><h2>Imprensa</h2><ul><li><a href="imprensa.html">Para jornalistas</a></li>
+      <li><a href="pedidos.html">Pedidos de esclarecimento</a></li><li><a href="feeds/geral.xml">Feed de alertas</a></li>
+      <li><a href="como-ler-um-indicio.html">Como ler um indício</a></li></ul></div>
+    <div><h2>Correções</h2><p>Encontrou um erro ou quer responder a um alerta? Escreva para
+      <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p></div>
+  </div>
+  <p class="rodape-base">Dados atualizados em 31/10/2026 · <a href="metodologia.html">Como funciona</a> · <a href="metodologia.html#glossario">Glossário</a> · <a href="acessibilidade.html">Acessibilidade</a></p>
+</div></footer>
+<script src="assets/app.js?v=7868f507" defer></script>
+</body>
+</html>

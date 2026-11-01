@@ -15,12 +15,13 @@
 <meta property="og:url" content="https://hamscavalcante47-lab.github.io/cidadania/deputado/3755.html">
 <meta property="og:image" content="https://www.camara.leg.br/internet/deputado/bandep/227401.jpg">
 <link rel="alternate" type="application/atom+xml" title="Alertas de Dr Fabio Rueda" href="../feeds/deputado/3755.xml">
+<script>if (navigator.connection && navigator.connection.saveData || matchMedia("(prefers-reduced-data: reduce)").matches) document.documentElement.classList.add("economia")</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M5%202h14v20l-2.33-1.6-2.34%201.6-2.33-1.6-2.33%201.6-2.34-1.6L5%2022z%22%20fill%3D%22%230d5c45%22/%3E%3Cpath%20d%3D%22M8.5%207.5h7M8.5%2011h7M8.5%2014.5h4%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=ef4e7cef">
+<link rel="stylesheet" href="../assets/estilo.css?v=7868f507">
 </head>
-<body data-pagina="deputado" data-raiz="../" data-versao="202610310952">
+<body data-pagina="deputado" data-raiz="../" data-versao="75acc0dfb2">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo"><div class="cont">
   <a class="marca" href="../index.html"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0d5c45"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>Cidadania<small>cota parlamentar aberta</small></span></a>
@@ -32,7 +33,7 @@
     <kbd class="atalho" aria-hidden="true">/</kbd>
     <ul class="resultados" id="busca-resultados" role="listbox" hidden></ul>
   </div>
-  <nav aria-label="Principal"><a href="../index.html">Mapa</a><a href="../ranking.html">Ranking</a><a href="../gastos.html">Gastos</a><a href="../alertas.html">Alertas</a><a href="../novidades.html">Novidades</a><a href="../metodologia.html">Como funciona</a></nav>
+  <nav aria-label="Principal"><a href="../index.html">Mapa</a><a href="../ranking.html">Ranking</a><a href="../gastos.html">Gastos</a><a href="../alertas.html">Alertas</a><a href="../relatorios.html">Relatórios</a><a href="../metodologia.html">Como funciona</a></nav>
 </div></header>
 <main id="conteudo"><div class="cont">
 
@@ -44,6 +45,7 @@
     <p class="meta">Nome civil: Fabio Gonçalves De Rueda</p>
     <p class='contato'><a href='https://www.camara.leg.br/deputados/227401' target='_blank' rel='noopener'>perfil na Câmara ↗</a></p>
     <div class='mandato'><span class='pill g2'>Suplente</span><p><strong>Fora do exercício</strong> desde 12/04/2024: saída automática do suplente (volta do titular ou fim da convocação).</p><p>Em exercício: 14/12/2023 a 12/04/2024 (4 meses no total).</p><p>Ocupou a cadeira de <a href='../deputado/3711.html'>Eduardo Velloso <span class='cat'>SOLIDARIEDADE/AC</span></a>, afastado(a) por licenças seguidas (posse em 14/12/2023).</p><p class='cat'>A Câmara não informa de quem é a vaga: ela é deduzida pelo estado e pela data da posse. <a href='../metodologia.html#mandatos'>Como funciona</a></p></div>
+    <button type="button" class="botao secundario pequeno" data-compartilhar="Gastos da cota parlamentar, alertas e presença no Plenário de Dr Fabio Rueda (UNIÃO/AC), com os dados públicos da Câmara, no Cidadania." data-url="https://hamscavalcante47-lab.github.io/cidadania/deputado/3755.html" data-rotulo="Compartilhar" hidden>Compartilhar</button>
   </div>
 </section>
 <p class="em-resumo">Dr Fabio Rueda recebeu <b>R$ 193 mil</b> da cota desde fevereiro de 2023, o 566º maior valor entre os 656 deputados que tiveram despesas e 88% abaixo da média do estado. O maior gasto foi com divulgação da atividade parlamentar: 81% do total. Nenhuma regra apontou alerta para este gabinete.</p>
@@ -63,16 +65,61 @@
   <a href="#resumo">Resumo</a><a href="#alertas">Alertas <span class="num">0</span></a><a href="#despesas">Despesas</a>
   <a href="#veiculos">Veículos</a><a href="#presenca">Presença</a><a href="#gabinete">Gabinete</a><a href="#fornecedores">Fornecedores</a><a href="#pedidos">Pedidos</a>
 </nav>
-<section class="secao cartao"><h3>Reembolsos mês a mês</h3>
-  <p class="sub">A linha tracejada é o limite mensal da cota no estado; a faixa hachurada, os meses ainda incompletos.
-    Clique num mês para ver as despesas dele.</p>
-  <div class="grafico" id="mensal"></div></section>
+<section class="secao cartao linha-tempo" id="linha-do-tempo" aria-labelledby="lt-titulo" data-titulo="Dr Fabio Rueda (UNIÃO/AC)" data-url="https://hamscavalcante47-lab.github.io/cidadania/deputado/3755.html">
+  <h3 id="lt-titulo">Gastos e indícios mês a mês</h3>
+  <p class="sub">A linha mostra o valor reembolsado em cada mês. Embaixo dela, cada ponto é uma nota com indício próprio
+    e cada losango, um padrão de um dia. Mais abaixo, no mesmo eixo, os dias de sessão no Plenário.
+    Escolha um mês para ver o que aconteceu.</p>
+  <ul class="legenda-lt" id="lt-legenda" aria-label="Legenda do gráfico" hidden>
+    <li><svg width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="5" class="pt g3"/></svg>alta</li>
+    <li><svg width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="5" class="pt g2"/></svg>média</li>
+    <li><svg width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="4.3" class="pt g1"/></svg>baixa</li>
+    <li><svg width="12" height="12" aria-hidden="true"><rect x="2.5" y="2.5" width="7" height="7" class="pt g3" transform="rotate(45 6 6)"/></svg>padrão de um dia</li>
+    <li><svg width="22" height="12" aria-hidden="true"><line x1="1" x2="21" y1="6" y2="6" class="limite-g"/></svg>limite da cota</li>
+    <li><svg width="14" height="12" aria-hidden="true"><rect width="14" height="12" class="lg-parcial"/><path d="M0 12L12 0M-3 6L3 0M6 12L14 4" class="hachura-traco"/></svg>mês incompleto</li>
+  </ul>
+  <div id="lt-controles" hidden>
+    <div class="recorte" id="recorte" role="group" aria-label="Período do gráfico"></div>
+  </div>
+  <p class="vh" id="lt-desc"></p>
+  <div class="grafico" id="mensal"></div>
+  <ul class="legenda-lt" id="pl-legenda" aria-label="Legenda do Plenário" hidden>
+    <li><svg width="12" height="12" aria-hidden="true"><rect width="12" height="12" rx="2" class="b-pres"/></svg>presente</li>
+    <li><svg width="12" height="12" aria-hidden="true"><rect width="12" height="12" rx="2" class="b-just"/><path d="M0 12L12 0M-3 6L3 0M6 12L12 6" class="hachura-traco"/></svg>ausência justificada</li>
+    <li><svg width="12" height="12" aria-hidden="true"><rect width="12" height="12" rx="2" class="b-falta"/></svg>falta sem justificativa</li>
+    <li><svg width="14" height="12" aria-hidden="true"><rect width="14" height="12" class="b-fora"/></svg>fora do exercício</li>
+    <li><svg width="12" height="12" aria-hidden="true"><rect width="12" height="12" rx="2" class="b-pres prov"/></svg>esmaecido: ainda pode mudar</li>
+  </ul>
+  <p class="vh" id="pl-desc"></p>
+  <div class="grafico grafico-plenario" id="plenario" hidden></div>
+  <div class="faixa-mes" id="lt-faixa" hidden><label for="mes">Mês escolhido</label>
+    <input id="mes" type="range" min="0" max="44" step="1" value="44"></div>
+  <p class="vh" id="lt-anuncio" aria-live="polite"></p>
+  <div id="lt-mais" hidden>
+    <div class="cartao-mes" id="cartao-mes" role="region" aria-labelledby="cartao-titulo"></div>
+    <h4>Fornecedores com indício</h4>
+    <p class="lt-texto">Quando o indício está no padrão da relação com o fornecedor, e não numa nota isolada, ele aparece
+      aqui. A faixa embaixo de cada um marca os meses com notas citadas, nos mesmos meses do gráfico.</p>
+    <ul class="forn-indicio" id="forn-indicio"></ul>
+    <button type="button" class="botao secundario pequeno forn-mais" id="forn-mais" hidden></button>
+    <details class="tabela-serie"><summary>Ver as notas com indício em lista</summary>
+      <div class="rolagem"><table id="tab-indicios"></table></div></details>
+    <p class="nota-tabela">Indício não é acusação: é um padrão nos dados que pede explicação. Confira a nota original
+      antes de concluir.</p>
+  </div>
+  <div class="lt-baixar" id="lt-baixar" hidden>
+    <p class="lt-texto" id="lt-baixar-texto">Para reportagem ou pesquisa: a planilha traz cada nota citada num alerta, com o motivo, a revisão,
+      o link da nota na Câmara e o da página permanente; o gráfico sai no período escolhido acima, com fonte e data.</p>
+    <p class="acoes-citar"><button type="button" class="botao secundario pequeno" id="lt-csv">Baixar os indícios (CSV)</button>
+      <button type="button" class="botao secundario pequeno" id="lt-svg">Baixar o gráfico (SVG)</button></p>
+  </div>
+</section>
 <section class="secao cartao"><h3>Gastos por tipo, mês a mês</h3>
   <p class="sub">Uma linha para cada tipo de gasto, com as mesmas cores da página <a href="../gastos.html">Gastos</a>;
     os tipos menores somam em “Outros”. Clique na legenda para esconder ou mostrar uma linha.</p>
   <div class="grafico" id="mensal-tipos"><span class="cat">Carregando…</span></div></section>
 <div class="duas secao">
-  <section class="cartao"><h3>Em que foi gasto</h3><div class="barras"><div class='barra'><span><a href='../gastos/divulgacao-da-atividade-parlamentar.html'>Divulgação da atividade parlamentar</a></span><span class='trilho'><span style='width:100.0%'></span></span><span class='valor'>R$ 157 mil</span></div><div class='barra'><span><a href='../gastos/passagem-aerea-emitida-pela-camara.html'>Passagem aérea (emitida pela Câmara)</a></span><span class='trilho'><span style='width:10.0%'></span></span><span class='valor'>R$ 16 mil</span></div><div class='barra'><span><a href='../gastos/veiculos.html'>Locação ou fretamento de veículos automotores</a></span><span class='trilho'><span style='width:5.0%'></span></span><span class='valor'>R$ 8 mil</span></div><div class='barra'><span><a href='../gastos/passagem-aerea-reembolso.html'>Passagem aérea (reembolso)</a></span><span class='trilho'><span style='width:4.7%'></span></span><span class='valor'>R$ 7 mil</span></div><div class='barra'><span><a href='../gastos/telefonia.html'>Telefonia</a></span><span class='trilho'><span style='width:1.3%'></span></span><span class='valor'>R$ 2 mil</span></div><div class='barra'><span><a href='../gastos/combustiveis-e-lubrificantes.html'>Combustíveis e lubrificantes</a></span><span class='trilho'><span style='width:1.3%'></span></span><span class='valor'>R$ 2 mil</span></div><div class='barra'><span><a href='../gastos/hospedagem-exceto-do-parlamentar-no-distrito-federal.html'>Hospedagem, exceto do parlamentar no Distrito Federal</a></span><span class='trilho'><span style='width:0.5%'></span></span><span class='valor'>R$ 1 mil</span></div><div class='barra'><span><a href='../gastos/manutencao-de-escritorio-de-apoio-a-atividade-parlamentar.html'>Manutenção de escritório de apoio à atividade parlamentar</a></span><span class='trilho'><span style='width:0.2%'></span></span><span class='valor'>R$ 0 mil</span></div></div></section>
+  <section class="cartao"><h3>Em que foi gasto</h3><div class="barras"><div class='barra'><span><a href='../gastos/divulgacao-da-atividade-parlamentar.html'>Divulgação da atividade parlamentar</a></span><span class='trilho'><span style='width:100.0%'></span></span><span class='valor'>R$ 157 mil</span></div><div class='barra'><span><a href='../gastos/passagem-aerea-emitida-pela-camara.html'>Passagem aérea (emitida pela Câmara)</a></span><span class='trilho'><span style='width:10.0%'></span></span><span class='valor'>R$ 16 mil</span></div><div class='barra'><span><a href='../gastos/veiculos.html'>Locação ou fretamento de veículos automotores</a></span><span class='trilho'><span style='width:5.0%'></span></span><span class='valor'>R$ 8 mil</span></div><div class='barra'><span><a href='../gastos/passagem-aerea-reembolso.html'>Passagem aérea (reembolso)</a></span><span class='trilho'><span style='width:4.7%'></span></span><span class='valor'>R$ 7 mil</span></div><div class='barra'><span><a href='../gastos/telefonia.html'>Telefonia</a></span><span class='trilho'><span style='width:1.3%'></span></span><span class='valor'>R$ 2 mil</span></div><div class='barra'><span><a href='../gastos/combustiveis-e-lubrificantes.html'>Combustíveis e lubrificantes</a></span><span class='trilho'><span style='width:1.3%'></span></span><span class='valor'>R$ 2 mil</span></div><div class='barra'><span><a href='../gastos/hospedagem-exceto-do-parlamentar-no-distrito-federal.html'>Hospedagem, exceto do parlamentar no Distrito Federal</a></span><span class='trilho'><span style='width:0.5%'></span></span><span class='valor'>R$ 780</span></div><div class='barra'><span><a href='../gastos/manutencao-de-escritorio-de-apoio-a-atividade-parlamentar.html'>Manutenção de escritório de apoio à atividade parlamentar</a></span><span class='trilho'><span style='width:0.2%'></span></span><span class='valor'>R$ 376</span></div></div></section>
   <section class="cartao"><h3>Onde estão os fornecedores</h3>
     <p class="sub">Estado da sede dos fornecedores, sem passagens e sem redes nacionais. Gastos longe da base eleitoral pedem atenção.</p>
     <div class="mini-mapa"><div class="mapa-area" id="mapa-gastos"></div></div></section>
@@ -157,15 +204,16 @@
       <p>Monitoramento cidadão da cota parlamentar dos deputados federais. Os alertas são indícios apontados por
         regras automáticas, não acusações: cada um leva à nota original.</p>
     </div>
-    <div><h2>Navegar</h2><ul><li><a href="../index.html">Mapa</a></li><li><a href="../ranking.html">Ranking</a></li><li><a href="../gastos.html">Gastos</a></li><li><a href="../alertas.html">Alertas</a></li><li><a href="../novidades.html">Novidades</a></li><li><a href="../metodologia.html">Como funciona</a></li></ul></div>
+    <div><h2>Navegar</h2><ul><li><a href="../index.html">Mapa</a></li><li><a href="../ranking.html">Ranking</a></li><li><a href="../gastos.html">Gastos</a></li><li><a href="../alertas.html">Alertas</a></li><li><a href="../relatorios.html">Relatórios</a></li><li><a href="../metodologia.html">Como funciona</a></li></ul></div>
     <div><h2>Fontes dos dados</h2><ul><li><a href="https://dadosabertos.camara.leg.br/" target="_blank" rel="noopener">Câmara dos Deputados</a></li><li><a href="https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj" target="_blank" rel="noopener">Receita Federal (CNPJ)</a></li><li><a href="https://dadosabertos.tse.jus.br/" target="_blank" rel="noopener">TSE (contas de campanha)</a></li></ul></div>
     <div><h2>Imprensa</h2><ul><li><a href="../imprensa.html">Para jornalistas</a></li>
-      <li><a href="../pedidos.html">Pedidos de esclarecimento</a></li><li><a href="../feeds/geral.xml">Feed de alertas</a></li></ul></div>
+      <li><a href="../pedidos.html">Pedidos de esclarecimento</a></li><li><a href="../feeds/geral.xml">Feed de alertas</a></li>
+      <li><a href="../como-ler-um-indicio.html">Como ler um indício</a></li></ul></div>
     <div><h2>Correções</h2><p>Encontrou um erro ou quer responder a um alerta? Escreva para
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p></div>
   </div>
-  <p class="rodape-base">Página gerada em 31/10/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a></p>
+  <p class="rodape-base">Dados atualizados em 31/10/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/app.js?v=ef4e7cef" defer></script>
+<script src="../assets/perfil.js?v=7868f507" defer></script><script src="../assets/app.js?v=7868f507" defer></script>
 </body>
 </html>

@@ -11,6 +11,10 @@ const MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "o
 const RAIZ = document.body.dataset.raiz || "";
 const VERSAO = document.body.dataset.versao || "";
 const SEM_MOVIMENTO = matchMedia("(prefers-reduced-motion: reduce)").matches;
+// modo econômico (E8): o navegador pediu economia de dados (navigator.connection.saveData, que hoje Opera, Samsung
+// Internet e Yandex informam; Safari, Firefox e o Chrome não). A marca vem do <head> (pagina(), no gerador), antes de o
+// CSS pedir as aquarelas, que somem; aqui, a comparação com todos os deputados vira um botão
+const ECONOMIA = document.documentElement.classList.contains("economia");
 
 const $ = (s, el = document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -55,7 +59,10 @@ function contarAlertas(d, idx, todos) {
 const json = async caminho => (await fetch(`${RAIZ}${caminho}?v=${VERSAO}`)).json();
 // planilha com ";" e vírgula decimal, que o Excel em português abre direto; o BOM garante os acentos
 function baixarCSV(nome, cabecalho, linhas) {
-  const celula = v => typeof v === "number" ? String(v).replace(".", ",") : `"${String(v ?? "").replace(/"/g, '""')}"`;
+  // texto que começa com = + - @ (ou tabulação e CR, que o Excel pula) seria lido como fórmula: ganha um apóstrofo,
+  // como no _csv dos relatórios
+  const celula = v => typeof v === "number" ? String(v).replace(".", ",")
+    : `"${String(v ?? "").replace(/^[=+\-@\t\r]/, "'$&").replace(/"/g, '""')}"`;
   const texto = [cabecalho, ...linhas].map(l => l.map(celula).join(";")).join("\r\n");
   const a = Object.assign(document.createElement("a"), {
     href: URL.createObjectURL(new Blob(["\ufeff" + texto], { type: "text/csv;charset=utf-8" })), download: nome,
@@ -513,6 +520,20 @@ async function iniciarPontos() {
     graficoPontos(el, deputados, { destaque });
     busca?.addEventListener("input", () => graficoPontos(el, deputados, { destaque, achados: busca.value.trim() }));
   };
+  // no modo econômico, o arquivo de todos os deputados (~110 KB comprimido) só com um toque; o foco fica na caixa do
+  // gráfico (o botão some), e uma falha de rede deixa o botão de novo, para tentar outra vez
+  if (el.dataset.destaque && ECONOMIA) {
+    const pedir = (texto = "Mostrar a comparação com os outros deputados") => {
+      el.innerHTML = `<button type="button" class="botao secundario pequeno">${texto}</button>`;
+      el.querySelector("button").addEventListener("click", async () => {
+        el.tabIndex = -1; el.focus();
+        el.innerHTML = `<p class="cat" role="status">Carregando a comparação…</p>`;
+        try { await desenhar(); } catch (erro) { console.error(erro); pedir("Não deu para carregar: tentar de novo"); el.querySelector("button").focus(); }
+      }, { once: true });
+    };
+    pedir();
+    return;
+  }
   // na página do deputado o arquivo de todos só é baixado quando o gráfico chega perto da tela
   if (!el.dataset.destaque || !("IntersectionObserver" in window)) return desenhar();
   const obs = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { obs.disconnect(); desenhar(); } }, { rootMargin: "300px" });
@@ -786,13 +807,48 @@ async function iniciarDeputado() {
   const estado = { periodo: indicesPeriodo(meses, h.get("per")).length ? (h.get("per") || "") : "", categoria: "", busca: "",
     ordem: ["data", "descending"], limite: 100 };
   opcoesPeriodo($("#d-periodo"), meses, estado.periodo);
-  const desenharGrafico = () => graficoLinha($("#mensal"), meses, dados.valores, {
+  // filtra a tabela pelo mês e leva a ela a vista e o foco (o botão que pediu some quando o cartão é redesenhado)
+  const verDespesas = valor => {
+    definirPeriodo(valor);
+    const titulo = $("#despesas h2");
+    titulo.tabIndex = -1;
+    titulo.focus({ preventScroll: true });
+    $("#despesas").scrollIntoView({ behavior: SEM_MOVIMENTO ? "auto" : "smooth" });
+  };
+  // as despesas com um fornecedor (pelo CNPJ, na busca da tabela), em toda a legislatura: pedido do painel do perfil
+  const verFornecedor = doc => {
+    definirPeriodo("");
+    estado.busca = doc; $("#d-busca").value = doc; estado.limite = 100;
+    desenharDespesas();
+    const titulo = $("#despesas h2");
+    titulo.tabIndex = -1;
+    titulo.focus({ preventScroll: true });
+    $("#despesas").scrollIntoView({ behavior: SEM_MOVIMENTO ? "auto" : "smooth" });
+  };
+  // a linha do tempo e o painel (perfil.js); sem ela, ou se ela falhar, o gráfico simples de antes, em que o clique
+  // filtra as despesas do mês. Um erro nela não pode parar o resto da página (tabela de despesas, gabinete...)
+  let linhaDoTempo = null;
+  try {
+    linhaDoTempo = window.LinhaDoTempo?.iniciar(dados, { periodo: estado.periodo, aoVerDespesas: verDespesas,
+      aoVerFornecedor: verFornecedor }) || null;
+  } catch (erro) { console.error(erro); }
+  const desenharGrafico = () => linhaDoTempo ? linhaDoTempo.periodo(estado.periodo) : graficoLinha($("#mensal"), meses, dados.valores, {
     altura: 220, limites: dados.limites, parciais: dados.parciais, destaque: estado.periodo ? indicesPeriodo(meses, estado.periodo) : null,
-    aoClicar: i => { definirPeriodo(String(meses[i])); $("#despesas").scrollIntoView({ behavior: SEM_MOVIMENTO ? "auto" : "smooth" }); },
+    aoClicar: i => verDespesas(String(meses[i])),
   });
-  desenharGrafico();
+  if (!linhaDoTempo) desenharGrafico();
 
   const [detalhe, resumo] = await Promise.all([json(`dados/dep/${dados.id}.json`), json("dados/resumo.json")]);
+  const linkNota = r => {
+    const ano = r[8] || Math.floor(meses[r[0]] / 100);
+    if (r[7] === 0) return `https://www.camara.leg.br/cota-parlamentar/documentos/publ/${dados.id}/${ano}/${r[6]}.pdf`;
+    if (r[7] === 1) return `https://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=${r[6]}`;
+    return null;
+  };
+  try {
+    linhaDoTempo?.detalhe(detalhe, { categorias: resumo.categorias, linkNota, sessoes: resumo.sessoes, presencaAte: resumo.presenca_ate,
+      edicao: resumo.edicao });
+  } catch (erro) { console.error(erro); }
   resumo.categorias.forEach((c, i) => $("#d-categoria").insertAdjacentHTML("beforeend", `<option value="${i}">${esc(c)}</option>`));
 
   // gastos por tipo, mês a mês: as cores vêm de resumo.cores, as mesmas da página Gastos; ajustes (-1) ficam de fora
@@ -808,12 +864,6 @@ async function iniciarDeputado() {
   seriesTipo.forEach(s => { s.valores = s.valores.map(Math.round); });
   if (seriesTipo.length) graficoLinhas($("#mensal-tipos"), meses, seriesTipo, { parciais: dados.parciais });
   else $("#mensal-tipos").innerHTML = `<span class="cat">Nenhuma despesa registrada.</span>`;
-  const linkNota = r => {
-    const ano = r[8] || Math.floor(meses[r[0]] / 100);
-    if (r[7] === 0) return `https://www.camara.leg.br/cota-parlamentar/documentos/publ/${dados.id}/${ano}/${r[6]}.pdf`;
-    if (r[7] === 1) return `https://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=${r[6]}`;
-    return null;
-  };
 
   function filtrarDespesas() {
     const idx = new Set(indicesPeriodo(meses, estado.periodo));
@@ -850,7 +900,10 @@ async function iniciarDeputado() {
   function definirPeriodo(valor) {
     estado.periodo = valor; $("#d-periodo").value = valor; estado.limite = 100;
     desenharDespesas(); desenharGrafico(); desenharEquipe();
-    history.replaceState(null, "", valor ? `#per=${valor}` : location.pathname);
+    // só o #per= muda: as outras chaves (a vista do painel, perfil.js) e o estado do histórico ficam
+    const p = new URLSearchParams(location.hash.includes("=") ? location.hash.slice(1) : "");
+    if (valor) p.set("per", valor); else p.delete("per");
+    history.replaceState(history.state, "", p.toString() ? `#${p}` : location.pathname);
   }
   $("#d-periodo").addEventListener("change", e => definirPeriodo(e.target.value));
   $("#d-categoria").addEventListener("change", e => { estado.categoria = e.target.value; estado.limite = 100; desenharDespesas(); });
@@ -1055,12 +1108,53 @@ async function iniciarAlertas() {
   desenhar();
 }
 
+// o botão diz o que aconteceu por 2,5 s e volta ao rótulo; o leitor de tela ouve o mesmo numa região viva (dentro do
+// <dialog> aberto, quando o botão está nele: o resto da página fica inerte atrás do painel)
+function avisarNoBotao(b, texto) {
+  b.dataset.rotulo ??= b.textContent;
+  b.textContent = texto;
+  const onde = b.closest("dialog") || document.body;
+  let viva = onde.querySelector(":scope > .aviso-botao");
+  if (!viva) {
+    viva = Object.assign(document.createElement("p"), { className: "vh aviso-botao" });
+    viva.setAttribute("aria-live", "polite");
+    onde.append(viva);
+  }
+  viva.textContent = "";
+  setTimeout(() => { viva.textContent = texto; }, 50);
+  clearTimeout(b._volta);
+  b._volta = setTimeout(() => { if (b.isConnected) b.textContent = b.dataset.rotulo; }, 2500);
+}
+
 document.addEventListener("click", async e => {
   const b = e.target.closest("[data-copiar]"); if (!b) return;
-  const texto = document.querySelector(b.dataset.copiar)?.textContent.trim() || "";
-  try { await navigator.clipboard.writeText(texto); b.textContent = "Citação copiada"; }
-  catch { getSelection().selectAllChildren(document.querySelector(b.dataset.copiar)); b.textContent = "Selecionado: use Ctrl+C"; }
+  const alvo = document.querySelector(b.dataset.copiar), texto = alvo?.textContent.trim() || "";
+  try { await navigator.clipboard.writeText(texto); avisarNoBotao(b, b.dataset.copiado || "Citação copiada"); }
+  catch { getSelection().selectAllChildren(alvo); avisarNoBotao(b, "Selecionado: use Ctrl+C"); }
 });
+
+// compartilhar (E8): a folha do sistema quando o navegador tem; senão copia o texto e o link. Usado também pelo painel
+// do perfil (perfil.js), que põe o mesmo data-compartilhar nos botões dele. Com a folha aberta, outro toque não faz
+// nada (o navegador recusaria com InvalidStateError, e o texto iria para a área de transferência sem ninguém pedir)
+async function compartilhar(b, texto, url) {
+  if (b._ocupado) return;
+  b._ocupado = true;
+  try {
+    if (navigator.share) {
+      try { await navigator.share({ title: document.title, text: texto, url }); return; }
+      catch (erro) { if (erro.name !== "NotAllowedError" && erro.name !== "TypeError") return; }  // cancelado: nada
+    }
+    try { await navigator.clipboard.writeText(`${texto} ${url}`); avisarNoBotao(b, "Texto e link copiados"); }
+    catch { avisarNoBotao(b, "Não deu para copiar: copie o endereço da página"); }
+  } finally { b._ocupado = false; }
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-compartilhar]");
+  if (b) compartilhar(b, b.dataset.compartilhar, b.dataset.url || location.href);
+  else if (e.target.closest("[data-imprimir]")) print();
+});
+// sem JS esses botões não fazem nada: nascem escondidos
+document.querySelectorAll("[data-copiar], [data-compartilhar], [data-imprimir]").forEach(b => { b.hidden = false; });
 
 iniciarBusca();
 iniciarPontos();
