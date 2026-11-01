@@ -1212,3 +1212,89 @@ html:has(dialog.ficha-indicio[open]) { overflow: hidden; scrollbar-gutter: stabl
   .fi-corpo > * + * { margin-top: 12px; }
   .fi-cab button { display: none; }
 }
+
+/* ---------------------------------------------------------------- barra de seções do celular
+   o mesmo vidro flutuante do cabeçalho, solto da borda: no celular o menu de cima não cabe em 375 px */
+.barra-secoes { display: none; }
+@media (max-width: 760px) {
+  .topo nav { display: none; }
+  body { padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
+  .barra-secoes { display: grid; grid-template-columns: repeat(6, 1fr); position: fixed; z-index: 30;
+    left: 10px; right: 10px; bottom: calc(10px + env(safe-area-inset-bottom, 0px)); padding: 5px;
+    border-radius: var(--raio); background: var(--vidro);
+    backdrop-filter: saturate(1.6) blur(18px); -webkit-backdrop-filter: saturate(1.6) blur(18px);
+    border: 1px solid color-mix(in srgb, var(--linha-forte) 55%, transparent); box-shadow: var(--sombra-alta), var(--realce); }
+  .barra-secoes a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; min-height: 50px;
+    color: var(--tinta-2); text-decoration: none; font: 600 10.5px/1.1 var(--texto); border-radius: calc(var(--raio) - 5px); }
+  .barra-secoes svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .barra-secoes a[aria-current] { color: var(--verde-forte); background: var(--papel); box-shadow: 0 1px 2px rgba(16, 40, 32, .08); }
+  .barra-secoes a:focus-visible { outline-offset: -3px; }
+}
+@media print { .barra-secoes { display: none !important; } }
+/* o brilho atrás do recibo passava 14% para fora da tela: no celular a página ficava com 410 px em vez de 375, e a
+   barra presa embaixo saía cortada */
+@media (max-width: 760px) { .recibo::before { left: 0; right: 0; } }
+
+/* ---------------------------------------------------------------- confirmados e apontados na lista de deputados */
+.pill.confirmado { background: var(--alta); color: var(--papel); }
+.pill.apontado { background: var(--papel-2); color: var(--tinta-2); box-shadow: inset 0 0 0 1px var(--linha-forte); font-weight: 500; }
+
+/* ---------------------------------------------------------------- período em duas caixas: ano e mês */
+.periodo-duplo { display: inline-flex; gap: 6px; flex-wrap: wrap; min-width: 0; }
+.periodo-duplo select { min-width: 0; }
+.periodo-duplo select:disabled { display: none; }  /* o mês só aparece depois do ano */
+
+/* ---------------------------------------------------------------- ouvir esta página e cobertura do perfil */
+.ouvir-linha { display: flex; justify-content: flex-end; margin: 12px 0 -8px; min-height: 0; }
+.ouvir-linha:has(> [hidden]) { display: none; }
+@media print { .ouvir-linha { display: none; } }
+.cobertura { font-size: 13.5px; color: var(--tinta-3); max-width: 72ch; margin: -8px 0 24px; }
+
+/* ---------------------------------------------------------------- alvos de toque: links soltos com 24 px de altura
+   (o enchimento vertical de um link na linha aumenta a área de toque sem mexer na altura da linha) */
+td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { padding-block: 3px; }
+
+/* ---------------------------------------------------------------- comparar deputados */
+.comparar-escolha { display: grid; gap: 14px; padding: 20px; }
+.busca-comparar { position: relative; display: grid; gap: 6px; max-width: 520px; }
+.busca-comparar label, .comparar-escolha .filtros label { font-weight: 600; font-size: 14px; }
+.busca-comparar input { font: inherit; padding: 12px 14px; border: 1px solid var(--linha-forte); border-radius: var(--raio-p);
+  background: var(--papel); color: var(--tinta); min-height: 44px; }
+.busca-comparar .resultados { top: calc(100% + 4px); z-index: 5; padding: 6px; list-style: none; margin: 0; }
+.busca-comparar [role="option"] { display: flex; align-items: center; gap: 10px; padding: 8px 10px; min-height: 44px;
+  border-radius: var(--raio-p); cursor: pointer; }
+.busca-comparar [role="option"][aria-selected="true"], .busca-comparar [role="option"]:hover { background: var(--papel-2); }
+.busca-comparar [role="option"] small, .comparar-escolhidos small { display: block; color: var(--tinta-3); font-size: 12.5px; }
+.busca-comparar .foto, .comparar-escolhidos .foto { border-radius: 50%; object-fit: cover; flex: none; }
+.comparar-escolhidos { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.comparar-escolhidos:empty { display: none; }
+.comparar-escolhidos li { display: flex; align-items: center; gap: 8px; padding: 4px 4px 4px 6px; border-radius: var(--pilula);
+  background: var(--papel-2); border: 1px solid var(--linha); }
+.comparar-escolhidos li > span { line-height: 1.15; font-size: 14px; }
+.comparar-escolhidos button { width: 32px; height: 32px; border-radius: 50%; border: 0; background: transparent; color: var(--tinta-2);
+  font-size: 20px; line-height: 1; cursor: pointer; }
+.comparar-escolhidos button:hover { background: var(--linha); color: var(--tinta); }
+.comparar-tabela { margin-top: 16px; padding: 0; }
+.comparar-tabela table { min-width: 100%; border-collapse: separate; border-spacing: 0; }
+.comparar-tabela th, .comparar-tabela td { padding: 14px 16px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--linha); min-width: 150px; }
+.comparar-tabela th[scope="row"] { position: sticky; left: 0; background: var(--papel); z-index: 1; font-weight: 600; font-size: 13.5px;
+  color: var(--tinta-2); min-width: 128px; max-width: 160px; box-shadow: inset -1px 0 0 var(--linha); }
+.comparar-tabela th[scope="col"] a { display: grid; gap: 8px; justify-items: start; color: var(--tinta); font-weight: 600; }
+.comparar-tabela th[scope="col"] .foto { border-radius: 50%; object-fit: cover; }
+.comparar-tabela td small, .comparar-tabela th small { display: block; color: var(--tinta-3); font-size: 12.5px; font-weight: 400; margin-top: 2px; }
+.acoes-ficha { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; }
+.comparar-tabela th { text-transform: none; letter-spacing: normal; }
+/* no celular, dois gabinetes cabem sem rolar de lado; do terceiro em diante, a tabela rola com a primeira coluna presa */
+@media (max-width: 560px) {
+  .comparar-tabela th, .comparar-tabela td { padding: 10px 8px; min-width: 112px; font-size: 13.5px; overflow-wrap: anywhere; }
+  .comparar-tabela th[scope="row"] { min-width: 92px; max-width: 96px; font-size: 12px; }
+  .comparar-tabela th[scope="col"] .foto { width: 40px; height: 40px; }
+}
+
+/* ---------------------------------------------------------------- quem me representa */
+.sua-cidade { display: grid; gap: 6px; margin-top: 20px; max-width: 440px; }
+.sua-cidade label { font-weight: 600; font-size: 14px; }
+.sua-cidade span { display: flex; gap: 8px; }
+.sua-cidade input { flex: 1; min-width: 0; font: inherit; padding: 12px 14px; min-height: 44px; border-radius: var(--pilula);
+  border: 1px solid var(--linha-forte); background: var(--papel); color: var(--tinta); }
+.linhas .fatia { display: block; font-size: 12.5px; color: var(--tinta-3); }

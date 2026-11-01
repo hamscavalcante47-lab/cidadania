@@ -7,6 +7,10 @@ const NOMES_UF = {
   RJ: "Rio de Janeiro", RN: "Rio Grande do Norte", RS: "Rio Grande do Sul", RO: "Rondônia", RR: "Roraima",
   SC: "Santa Catarina", SP: "São Paulo", SE: "Sergipe", TO: "Tocantins",
 };
+// o artigo de cada estado ("a Paraíba", "o Acre", "Minas Gerais"), para a frase sair certa
+const ARTIGO_UF = { AC: "o", AP: "o", AM: "o", BA: "a", CE: "o", DF: "o", ES: "o", MA: "o", PA: "o", PB: "a", PR: "o",
+  PI: "o", RJ: "o", RN: "o", RS: "o", TO: "o" };
+const comArtigo = uf => ARTIGO_UF[uf] ? `${ARTIGO_UF[uf]} ${NOMES_UF[uf]}` : NOMES_UF[uf];
 const MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
 const RAIZ = document.body.dataset.raiz || "";
 const VERSAO = document.body.dataset.versao || "";
@@ -41,6 +45,41 @@ function opcoesPeriodo(select, meses, padrao = "") {
     <optgroup label="Ano">${anos.map(a => `<option value="${a}">${a}</option>`).join("")}</optgroup>
     <optgroup label="Mês">${[...meses].reverse().map(m => `<option value="${m}">${nomeMesLongo(m)}</option>`).join("")}</optgroup>`;
   select.value = padrao;
+  dividirPeriodo(select, meses);
+}
+// Ano e mês em duas caixas (45 opções numa caixa só não cabem no celular). A caixa original fica escondida e continua
+// sendo a fonte da verdade: quem lê ou muda select.value, ou ouve o "change" dela, não precisa saber das duas.
+function dividirPeriodo(select, meses) {
+  if (select.dataset.dividido) return;
+  select.dataset.dividido = "1";
+  const anos = [...new Set(meses.map(m => Math.floor(m / 100)))];
+  const ano = Object.assign(document.createElement("select"), { id: `${select.id}-ano` });
+  ano.innerHTML = `<option value="">Toda a legislatura</option>${anos.map(a => `<option value="${a}">${a}</option>`).join("")}`;
+  const mes = Object.assign(document.createElement("select"), { id: `${select.id}-mes` });
+  mes.setAttribute("aria-label", "Mês");
+  const caixa = Object.assign(document.createElement("span"), { className: "periodo-duplo" });
+  caixa.append(ano, mes);
+  select.after(caixa);
+  select.hidden = true;
+  const rotulo = document.querySelector(`label[for="${select.id}"]`);
+  if (rotulo) rotulo.htmlFor = ano.id;
+  else ano.setAttribute("aria-label", "Período");
+  const original = Object.getOwnPropertyDescriptor(HTMLSelectElement.prototype, "value");
+  const sincronizar = () => {
+    const v = original.get.call(select);
+    const a = v ? v.slice(0, 4) : "";
+    ano.value = a;
+    mes.innerHTML = `<option value="">${a ? "O ano todo" : "Escolha um ano"}</option>` + meses.filter(m => String(m).startsWith(a) && a)
+      .map(m => `<option value="${m}">${MESES_LONGOS[m % 100 - 1]}</option>`).join("");
+    mes.value = v.length === 6 ? v : "";
+    mes.disabled = !a;
+  };
+  Object.defineProperty(select, "value", { configurable: true, get() { return original.get.call(this); },
+    set(v) { original.set.call(this, v); sincronizar(); } });
+  const escolher = v => { select.value = v; select.dispatchEvent(new Event("change", { bubbles: true })); };
+  ano.addEventListener("change", () => escolher(ano.value));
+  mes.addEventListener("change", () => escolher(mes.value || ano.value));
+  sincronizar();
 }
 function indicesPeriodo(meses, valor) {
   if (!valor) return meses.map((_, i) => i);
@@ -51,10 +90,12 @@ const nomePeriodo = valor => !valor ? "toda a legislatura" : +valor < 10000 ? `$
 const somar = (arr, idx) => idx.reduce((s, i) => s + (arr[i] || 0), 0);
 // limite da cota nos meses do período em que o deputado teve despesa (exercício do mandato)
 const limiteAtivo = (d, idx, limites) => idx.reduce((s, i) => s + (d.m[i] ? limites[d.uf][i] : 0), 0);
+// d.a: [mês, gravidade] dos alertas médios e altos e [mês, gravidade, 1] de todo alerta confirmado (também os baixos)
 function contarAlertas(d, idx, todos) {
   const conjunto = new Set(idx);
   const lista = todos ? d.a : d.a.filter(([m]) => m !== null && conjunto.has(m));
-  return { g3: lista.filter(a => a[1] === 3).length, g2: lista.filter(a => a[1] === 2).length };
+  return { g3: lista.filter(a => a[1] === 3).length, g2: lista.filter(a => a[1] === 2).length,
+    k: lista.filter(a => a[2] === 1).length };
 }
 const json = async caminho => (await fetch(`${RAIZ}${caminho}?v=${VERSAO}`)).json();
 // planilha com ";" e vírgula decimal, que o Excel em português abre direto; o BOM garante os acentos
@@ -423,11 +464,14 @@ function iniciarGastos() {
   }
 }
 
+// confirmados na revisão em destaque; os apontados pelas regras (médios e altos, quase todos sem revisão), à parte e
+// em tom neutro: a lista não pode ler como acusação o que ninguém conferiu
 function pills(d) {
+  const apontados = d.g3 + d.g2;
   const p = [];
-  if (d.g3) p.push(`<span class="pill g3">${d.g3} alta${d.g3 > 1 ? "s" : ""}</span>`);
-  if (d.g2) p.push(`<span class="pill g2">${d.g2} média${d.g2 > 1 ? "s" : ""}</span>`);
-  return `<span class="pills">${p.join("") || `<span class="pill g1">sem alertas graves</span>`}</span>`;
+  if (d.k) p.push(`<span class="pill confirmado">${d.k} confirmado${d.k > 1 ? "s" : ""}</span>`);
+  if (apontados) p.push(`<span class="pill apontado" title="${d.g3} de gravidade alta e ${d.g2} de gravidade média">${apontados} apontado${apontados > 1 ? "s" : ""}</span>`);
+  return `<span class="pills">${p.join("") || `<span class="pill apontado">nenhum alerta médio ou alto</span>`}</span>`;
 }
 
 // ------------------------------------------------------------------ cada deputado, um ponto
@@ -543,7 +587,7 @@ async function iniciarPontos() {
 // ------------------------------------------------------------------ página inicial
 async function iniciarInicio() {
   const [deputados, resumo, svg] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json"), carregarMapa($("#mapa-area"))]);
-  const estado = { uf: null, partidos: new Set(), busca: "", ordem: "alertas", situacao: "exercicio", metrica: "gasto", limite: 40, periodo: "" };
+  const estado = { uf: null, partidos: new Set(), busca: "", ordem: "nome", situacao: "exercicio", metrica: "gasto", limite: 40, periodo: "" };
   const h = new URLSearchParams(location.hash.slice(1));
   if (NOMES_UF[h.get("uf")]) estado.uf = h.get("uf");
   if (h.get("p")) h.get("p").split(",").forEach(p => estado.partidos.add(p));
@@ -608,6 +652,7 @@ async function iniciarInicio() {
     const lista = deputados.filter(d => doRecorte(d) && (!q || d.b.includes(q)))
       .map(d => ({ d, v: gasto(d), a: alertas(d), lim: limiteAtivo(d, idx, resumo.limites) }));
     lista.sort({
+      confirmados: (x, y) => y.a.k - x.a.k || x.d.n.localeCompare(y.d.n, "pt-BR"),
       alertas: (x, y) => y.a.g3 - x.a.g3 || y.a.g2 - x.a.g2 || y.v - x.v,
       gasto: (x, y) => y.v - x.v,
       nome: (x, y) => x.d.n.localeCompare(y.d.n, "pt-BR"),
@@ -1156,7 +1201,211 @@ document.addEventListener("click", e => {
 // sem JS esses botões não fazem nada: nascem escondidos
 document.querySelectorAll("[data-copiar], [data-compartilhar], [data-imprimir]").forEach(b => { b.hidden = false; });
 
+// ------------------------------------------------------------------ comparar gabinetes (2 a 5, em colunas)
+// Só números dos dados públicos, na ordem em que a pessoa escolheu: sem nota, sem "melhor" e "pior". O maior tipo de
+// gasto vem do arquivo de cada deputado (dados/dep/<id>.json), baixado só para quem está na comparação.
+async function iniciarComparar() {
+  const [deputados, resumo, presenca] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json"),
+    json("dados/presenca.json").catch(() => ({}))]);
+  const porId = Object.fromEntries(deputados.map(d => [String(d.id), d]));
+  const h = new URLSearchParams(location.hash.slice(1));
+  const estado = { ids: (h.get("ids") || "").split(",").filter(id => porId[id]).slice(0, 5), periodo: "" };
+  if (h.get("per") && indicesPeriodo(resumo.meses, h.get("per")).length) estado.periodo = h.get("per");
+  opcoesPeriodo($("#c-periodo"), resumo.meses, estado.periodo);
+  const arquivos = {};
+  const arquivo = id => arquivos[id] ??= json(`dados/dep/${id}.json`).catch(() => null);
+  const busca = $("#c-busca"), lista = $("#c-sugestoes");
+  let sugestoes = [], ativa = -1;
+
+  function salvar() {
+    const p = new URLSearchParams();
+    if (estado.ids.length) p.set("ids", estado.ids.join(","));
+    if (estado.periodo) p.set("per", estado.periodo);
+    history.replaceState(null, "", p.toString() ? `#${p}` : location.pathname);
+  }
+  function fecharSugestoes() { lista.hidden = true; busca.setAttribute("aria-expanded", "false"); busca.removeAttribute("aria-activedescendant"); ativa = -1; }
+  function mostrarSugestoes() {
+    const q = normalizar(busca.value.trim());
+    sugestoes = q.length < 2 ? [] : deputados.filter(d => d.b.includes(q) && !estado.ids.includes(String(d.id))).slice(0, 8);
+    lista.innerHTML = sugestoes.map((d, i) => `<li role="option" id="c-op-${i}" data-id="${d.id}" aria-selected="${i === ativa}">
+      <img class="foto" src="${esc(d.f)}" alt="" width="32" height="32" loading="lazy" ${SEM_FOTO}>
+      <span><b>${esc(d.n)}</b><small>${esc(d.p)} · ${esc(d.uf)}${d.x ? "" : " · fora do exercício"}</small></span></li>`).join("");
+    lista.hidden = !sugestoes.length || estado.ids.length >= 5;
+    busca.setAttribute("aria-expanded", String(!lista.hidden));
+  }
+  function adicionar(id) {
+    if (estado.ids.length >= 5 || estado.ids.includes(String(id))) return;
+    estado.ids.push(String(id)); busca.value = ""; fecharSugestoes(); desenhar(); busca.focus();
+  }
+  busca.addEventListener("input", () => { ativa = -1; mostrarSugestoes(); });
+  busca.addEventListener("keydown", e => {
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      if (!sugestoes.length) return;
+      e.preventDefault();
+      ativa = (ativa + (e.key === "ArrowDown" ? 1 : -1) + sugestoes.length) % sugestoes.length;
+      mostrarSugestoes(); busca.setAttribute("aria-activedescendant", `c-op-${ativa}`);
+    } else if (e.key === "Enter" && sugestoes.length) { e.preventDefault(); adicionar(sugestoes[Math.max(ativa, 0)].id); }
+    else if (e.key === "Escape") fecharSugestoes();
+  });
+  lista.addEventListener("click", e => { const li = e.target.closest("[data-id]"); if (li) adicionar(li.dataset.id); });
+  document.addEventListener("click", e => { if (!e.target.closest(".busca-comparar")) fecharSugestoes(); });
+  $("#c-escolhidos").addEventListener("click", e => {
+    const b = e.target.closest("[data-tirar]"); if (!b) return;
+    estado.ids = estado.ids.filter(id => id !== b.dataset.tirar); desenhar(); busca.focus();
+  });
+  $("#c-periodo").addEventListener("change", e => { estado.periodo = e.target.value; desenhar(); });
+
+  async function desenhar() {
+    salvar();
+    const idx = indicesPeriodo(resumo.meses, estado.periodo), conjunto = new Set(idx);
+    const escolhidos = estado.ids.map(id => porId[id]);
+    $("#c-escolhidos").innerHTML = escolhidos.map(d => `<li><img class="foto" src="${esc(d.f)}" alt="" width="28" height="28" ${SEM_FOTO}>
+      <span>${esc(d.n)} <small>${esc(d.p)}/${esc(d.uf)}</small></span>
+      <button type="button" data-tirar="${d.id}" aria-label="Tirar ${esc(d.n)} da comparação">×</button></li>`).join("");
+    busca.disabled = escolhidos.length >= 5;
+    busca.placeholder = escolhidos.length >= 5 ? "Já são cinco: tire alguém para trocar" : "Nome do deputado";
+    $("#c-resumo").textContent = escolhidos.length < 2
+      ? `${escolhidos.length ? "Escolha mais um deputado" : "Escolha dois deputados"} para começar a comparação.`
+      : `${escolhidos.length} deputados em ${nomePeriodo(estado.periodo)}.`;
+    $("#c-quadro").hidden = $("#c-nota").hidden = escolhidos.length < 2;
+    if (escolhidos.length < 2) return;
+    const dados = escolhidos.map(d => {
+      const ativos = idx.filter(i => d.m[i] > 0);
+      const v = somar(d.m, idx), lim = limiteAtivo(d, idx, resumo.limites), a = contarAlertas(d, idx, !estado.periodo);
+      const p = { dias: 0, pres: 0, faltas: 0 };
+      (presenca[d.id] || []).forEach(([i, dias, pres, faltas]) => { if (conjunto.has(i)) { p.dias += dias; p.pres += pres; p.faltas += faltas; } });
+      return { d, v, media: ativos.length ? v / ativos.length : 0, meses: ativos.length, lim, a, p };
+    });
+    const linha = (rotulo, f) => `<tr><th scope="row">${rotulo}</th>${dados.map(x => `<td>${f(x)}</td>`).join("")}</tr>`;
+    const tipo = x => `<span data-tipo="${x.d.id}" class="cat">carregando…</span>`;
+    $("#c-tabela").innerHTML = `<tr><td></td>${dados.map(x => `<th scope="col"><a href="deputado/${x.d.id}.html">
+        <img class="foto" src="${esc(x.d.f)}" alt="" width="48" height="48" ${SEM_FOTO}><span>${esc(x.d.n)}</span></a>
+        <small>${esc(x.d.p)} · ${esc(x.d.uf)}${condicao(x.d)}</small></th>`).join("")}</tr>` +
+      linha("Reembolsado da cota", x => `<b class="num">${brl(x.v)}</b>`) +
+      linha("Média por mês com despesa", x => x.meses ? `${brl(x.media)}<small>${x.meses} ${x.meses === 1 ? "mês" : "meses"}</small>` : "—") +
+      linha("Uso do limite da cota", x => x.lim ? pct(x.v / x.lim) : "—") +
+      linha("Maior tipo de gasto", tipo) +
+      linha("Presença no Plenário", x => x.p.dias ? `${pct(x.p.pres / x.p.dias)}<small>${x.p.pres} de ${x.p.dias} dias de sessão</small>` : "—") +
+      linha("Faltas sem justificativa", x => x.p.dias ? `${x.p.faltas}` : "—") +
+      linha("Alertas confirmados", x => `<b class="num">${x.a.k}</b>`) +
+      linha("Alertas apontados (altos e médios)", x => `${x.a.g3 + x.a.g2}<small>${x.a.g3} altos · ${x.a.g2} médios</small>`);
+    for (const x of dados) {
+      const dep = await arquivo(x.d.id), alvo = document.querySelector(`[data-tipo="${x.d.id}"]`);
+      if (!alvo) continue;
+      if (!dep) { alvo.textContent = "não deu para carregar"; continue; }
+      const somas = {};
+      dep.d.forEach(r => { if (conjunto.has(r[0])) somas[r[2]] = (somas[r[2]] || 0) + r[5]; });
+      const [cat, v] = Object.entries(somas).sort((a, b) => b[1] - a[1])[0] || [];
+      alvo.className = "";
+      alvo.innerHTML = cat === undefined ? "—" : `${esc(resumo.categorias[cat])}<small>${brl(v)} · ${x.v ? pct(v / x.v) : "—"} do total</small>`;
+    }
+  }
+  desenhar();
+}
+
+// ------------------------------------------------------------------ o voto da sua cidade (votos por município)
+// municipios.json: {ano, m: [[uf, nome, código TSE]]}; votos/<uf>.json: {código: [votos nominais do cargo, [[id, votos]]]},
+// baixado só quando a pessoa escolhe a cidade. A cidade vem de ?c= (formulário da página inicial) ou de #m=<código>.
+async function iniciarCidade() {
+  const [indice, deputados] = await Promise.all([json("dados/municipios.json"), json("dados/deputados.json")]);
+  const porId = Object.fromEntries(deputados.map(d => [d.id, d]));
+  const cidades = indice.m.map(([uf, nome, cod]) => ({ uf, nome, cod, b: normalizar(`${nome} ${uf}`) }));
+  const busca = $("#m-busca"), lista = $("#m-sugestoes");
+  let sugestoes = [], ativa = -1;
+  $("#m-resumo").textContent = `${cidades.length.toLocaleString("pt-BR")} cidades. Digite pelo menos três letras.`;
+
+  const procurar = texto => {
+    const q = normalizar(texto.trim());
+    if (q.length < 3) return [];
+    const exatas = cidades.filter(c => normalizar(c.nome) === q);
+    return [...exatas, ...cidades.filter(c => c.b.includes(q) && !exatas.includes(c))].slice(0, 8);
+  };
+  function fechar() { lista.hidden = true; busca.setAttribute("aria-expanded", "false"); busca.removeAttribute("aria-activedescendant"); ativa = -1; }
+  function mostrar() {
+    sugestoes = procurar(busca.value);
+    lista.innerHTML = sugestoes.map((c, i) => `<li role="option" id="m-op-${i}" data-cod="${c.cod}" aria-selected="${i === ativa}">
+      <span><b>${esc(c.nome)}</b><small>${NOMES_UF[c.uf] || c.uf}</small></span></li>`).join("");
+    lista.hidden = !sugestoes.length;
+    busca.setAttribute("aria-expanded", String(!lista.hidden));
+  }
+  async function escolher(cidade, rolar = true) {
+    fechar();
+    busca.value = `${cidade.nome} (${cidade.uf})`;
+    history.replaceState(null, "", `${location.pathname}#m=${cidade.cod}`);
+    $("#m-resumo").textContent = "Carregando os votos…";
+    const votos = await json(`dados/votos/${cidade.uf.toLowerCase()}.json`);
+    const [total, lista] = votos[cidade.cod] || [0, []];
+    const bancada = deputados.filter(d => d.uf === cidade.uf && d.x).length;
+    const mostrados = lista.filter(([id]) => porId[id]).slice(0, 10);
+    $("#m-titulo").textContent = `${cidade.nome} (${cidade.uf})`;
+    const estado = comArtigo(cidade.uf);
+    $("#m-sub").textContent = `${estado[0].toUpperCase()}${estado.slice(1)} tem ${bancada} deputados federais em exercício. ` +
+      (mostrados.length ? `Os ${mostrados.length === 1 ? "único que recebeu" : `${mostrados.length} que mais receberam`} votos aqui em ${indice.ano}, entre os que exerceram mandato nesta legislatura:`
+        : `Nenhum dos deputados desta legislatura recebeu votos aqui em ${indice.ano}.`);
+    $("#m-estado").href = `estado/${cidade.uf.toLowerCase()}.html`;
+    $("#m-lista").innerHTML = mostrados.map(([id, n]) => {
+      const d = porId[id], a = contarAlertas(d, [], true);
+      return `<li><a class="linha" href="deputado/${d.id}.html">
+        <img class="foto" src="${esc(d.f)}" alt="" loading="lazy" decoding="async" width="44" height="44" ${SEM_FOTO}>
+        <span><span class="nome">${esc(d.n)}</span><br><span class="meta">${esc(d.p)} · ${esc(d.uf)}${condicao(d)}${d.x || d.c === "a" ? "" : " · fora do exercício"}</span>
+          <span class="fatia">${n.toLocaleString("pt-BR")} votos aqui${total ? ` · ${(100 * n / total).toLocaleString("pt-BR", { maximumFractionDigits: 1 })}% dos votos para deputado federal` : ""}</span></span>
+        <span class="direita"><span class="total">${brl(d.t)}</span><br>${pills(a)}</span></a></li>`;
+    }).join("") || `<li class="vazio">Sem votos registrados para os deputados desta legislatura.</li>`;
+    $("#m-resultado").hidden = false;
+    $("#m-resumo").textContent = `Mostrando ${cidade.nome} (${cidade.uf}).`;
+    if (rolar) $("#m-resultado").scrollIntoView({ behavior: SEM_MOVIMENTO ? "auto" : "smooth", block: "start" });
+  }
+  busca.addEventListener("input", () => { ativa = -1; mostrar(); });
+  busca.addEventListener("keydown", e => {
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      if (!sugestoes.length) return;
+      e.preventDefault();
+      ativa = (ativa + (e.key === "ArrowDown" ? 1 : -1) + sugestoes.length) % sugestoes.length;
+      mostrar(); busca.setAttribute("aria-activedescendant", `m-op-${ativa}`);
+    } else if (e.key === "Enter") { e.preventDefault(); const s = sugestoes[Math.max(ativa, 0)] || procurar(busca.value)[0]; if (s) escolher(s); }
+    else if (e.key === "Escape") fechar();
+  });
+  lista.addEventListener("click", e => { const li = e.target.closest("[data-cod]"); if (li) escolher(cidades.find(c => c.cod === +li.dataset.cod)); });
+  document.addEventListener("click", e => { if (!e.target.closest(".busca-comparar")) fechar(); });
+  const pedida = new URLSearchParams(location.hash.slice(1)).get("m");
+  const doFormulario = new URLSearchParams(location.search).get("c");
+  const inicial = pedida ? cidades.find(c => c.cod === +pedida) : doFormulario ? procurar(doFormulario)[0] : null;
+  if (inicial) escolher(inicial, false);
+  else if (doFormulario) { busca.value = doFormulario; mostrar(); $("#m-resumo").textContent = "Nenhuma cidade com esse nome: confira a grafia."; }
+}
+
+// ler em voz alta: a voz do próprio aparelho lê os títulos e os parágrafos do conteúdo (sem tabelas, gráficos, menus
+// nem o que está dentro de "mostrar mais" fechado), um trecho de cada vez: num texto só, alguns navegadores param no meio
+function iniciarOuvir() {
+  const b = $("#ouvir");
+  if (!b || !("speechSynthesis" in window)) return;
+  const fala = speechSynthesis;
+  const fora = "table, svg, nav, script, style, .vh, [hidden], dialog, .ouvir-linha, .subnav, details:not([open]) > :not(summary)";
+  const trechos = () => [...$("main").querySelectorAll("h1, h2, h3, h4, p, li")]
+    .filter(el => !el.closest(fora) && !el.parentElement.closest("p, li") && el.offsetParent !== null)
+    .map(el => el.innerText.replace(/\s+/g, " ").trim()).filter(t => t.length > 1);
+  const voz = () => fala.getVoices().find(v => v.lang === "pt-BR") || fala.getVoices().find(v => v.lang.startsWith("pt"));
+  const parar = () => { fala.cancel(); b.textContent = "Ler em voz alta"; b.setAttribute("aria-pressed", "false"); };
+  b.setAttribute("aria-pressed", "false");
+  b.hidden = false;
+  b.addEventListener("click", () => {
+    if (b.getAttribute("aria-pressed") === "true") return parar();
+    fala.cancel();
+    const lista = trechos();
+    lista.forEach((t, i) => {
+      const u = Object.assign(new SpeechSynthesisUtterance(t), { lang: "pt-BR", rate: 1 });
+      if (voz()) u.voice = voz();
+      if (i === lista.length - 1) u.onend = parar;
+      fala.speak(u);
+    });
+    b.textContent = "Parar a leitura"; b.setAttribute("aria-pressed", "true");
+  });
+  addEventListener("pagehide", () => fala.cancel());
+}
+
 iniciarBusca();
 iniciarPontos();
+iniciarOuvir();
 document.querySelectorAll("table.ordenavel").forEach(t => tabelaOrdenavel(t));
-({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: iniciarAlertas, ranking: iniciarRanking, gastos: iniciarGastos })[document.body.dataset.pagina]?.();
+({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: iniciarAlertas, ranking: iniciarRanking, gastos: iniciarGastos,
+  comparar: iniciarComparar, cidade: iniciarCidade })[document.body.dataset.pagina]?.();

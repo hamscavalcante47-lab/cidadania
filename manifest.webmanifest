@@ -1,0 +1,19 @@
+{
+ "name": "Cidadania · cota parlamentar aberta",
+ "short_name": "Cidadania",
+ "lang": "pt-BR",
+ "description": "Gastos da cota parlamentar dos deputados federais, com alertas e links para cada nota fiscal.",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f3f5f2",
+ "theme_color": "#0d5c45",
+ "icons": [
+  {
+   "src": "assets/icone.svg",
+   "type": "image/svg+xml",
+   "sizes": "any",
+   "purpose": "any"
+  }
+ ]
+}
