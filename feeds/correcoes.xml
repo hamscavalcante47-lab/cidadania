@@ -4,187 +4,507 @@
 <subtitle>Alertas da cota parlamentar descartados, que deixaram de ser apontados ou ganharam versão nova</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/correcoes.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/correcoes.html"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/correcoes.xml</id>
-<updated>2026-10-28T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name></author>
 <entry>
-<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Mesmo documento usado em despesas diferentes — Delegado Paulo Bilynskyj (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e83e1651d100cd2d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e83e1651d100cd2d.html#correcao-2026-10-28</id>
-<updated>2026-10-28T00:00:00Z</updated>
-<summary>A mesma chave de acesso de SERVICO NACIONAL DE APRENDIZAGEM COMERCIAL SENAC foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Eduardo Bolsonaro (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffac60e2d7e24511.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffac60e2d7e24511.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 84 de NOVACAR LOCADORA DE VEICULOS LTDA (R$ 5.000,00, 14/08/2023): foi declarado R$ 5.000,00, mas o maior valor lido no documento é R$ 0,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
 </entry><entry>
-<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Mesmo documento usado em despesas diferentes — Delegada Adriana Accorsi (PT/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d87657705dd67bdf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d87657705dd67bdf.html#correcao-2026-10-28</id>
-<updated>2026-10-28T00:00:00Z</updated>
-<summary>A mesma chave de acesso de DRA4 DERIVADOS DE PETROLEO LTDA foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Mauricio Marcon (PL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff5bf39e089e2933.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff5bf39e089e2933.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 3662026 de LEVVA MOBILIDADE LTDA (R$ 11.700,00, 03/09/2026): foi declarado R$ 11.700,00, mas o maior valor no documento é R$ 7.000,00.</summary>
 </entry><entry>
-<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Mesmo documento usado em despesas diferentes — Paulinho Freire (UNIÃO/RN)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a5b3cc55b279c0f0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a5b3cc55b279c0f0.html#correcao-2026-10-28</id>
-<updated>2026-10-28T00:00:00Z</updated>
-<summary>A mesma chave de acesso de FLOR &amp; CIA LTDA foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Helio Lopes (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe4ea8f4493a5a12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe4ea8f4493a5a12.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 18 de TAGG SERVICES LTDA (R$ 7.000,00, 02/04/2026): foi declarado R$ 7.000,00, mas o maior valor no documento é R$ 1,00.</summary>
 </entry><entry>
-<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Mesmo documento usado em despesas diferentes — Luciano Ducci (PSB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/96aa5f268e5e3eb7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/96aa5f268e5e3eb7.html#correcao-2026-10-28</id>
-<updated>2026-10-28T00:00:00Z</updated>
-<summary>A mesma chave de acesso de AUTO POSTO R JUVEVE LTDA foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Dr. Victor Linhalis (PSB/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe45c1aaafd74f8d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe45c1aaafd74f8d.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 240681 de LOCALIZA RENT A CAR SA (R$ 4.601,46, 11/07/2023): foi declarado R$ 5.514,25, mas o maior valor no documento é R$ 4.746,86.</summary>
 </entry><entry>
-<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Mesmo documento usado em despesas diferentes — Daniel Trzeciak (PSDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/87c9d1c620a7c409.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/87c9d1c620a7c409.html#correcao-2026-10-28</id>
-<updated>2026-10-28T00:00:00Z</updated>
-<summary>A mesma chave de acesso de COMERCIAL DE COMB. RAMADA LTDA foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Denise Pessôa (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe1340d133944eea.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe1340d133944eea.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 13774 de SRL VEICULOS LTDA. (R$ 115,00, 20/03/2024): foi declarado R$ 283,71, mas o maior valor lido no documento é R$ 168,71.</summary>
 </entry><entry>
-<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Mesmo documento usado em despesas diferentes — Roberta Roma (PL/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5556c53351e1f73b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5556c53351e1f73b.html#correcao-2026-10-28</id>
-<updated>2026-10-28T00:00:00Z</updated>
-<summary>A mesma chave de acesso de ARGOS COMBUSTIVEIS E LUBRIFICANTES LTDA - EPP foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Franciane Bayer (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdf48d8678965bef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdf48d8678965bef.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 000303 de SUPREMA MOBILIDADE LTDA (R$ 3.000,00, 01/04/2025): foi declarado R$ 3.000,00, mas o maior valor no documento é R$ 4,89.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Doador da campanha recebendo da cota — Jonas Donizette (PSB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1c04ac11662e9b0c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1c04ac11662e9b0c.html#correcao-2026-10-28</id>
-<updated>2026-10-28T00:00:00Z</updated>
-<summary>SOCIEDADE DE ABASTECIMENTO DE AGUA E SANEAMENTO SA recebeu R$ 4.706,85 da cota; o sócio Antonio Carlos Barbosa Filho doou R$ 10.000,00 à campanha.</summary>
+<title>A descrição mudou; a versão seguinte também deixou de ser apontada: Valor declarado maior que o da nota — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd73f3a11efa69d3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd73f3a11efa69d3.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 142 de RONI MOTORS LOCACOES LTDA (R$ 6.700,00, 02/07/2026): foi declarado R$ 6.700,00, mas o maior valor no documento é R$ 8,98.</summary>
 </entry><entry>
-<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Mesmo documento usado em despesas diferentes — Fernando Monteiro (PSD/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/022cd64d7e55dcfd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/022cd64d7e55dcfd.html#correcao-2026-10-28</id>
-<updated>2026-10-28T00:00:00Z</updated>
-<summary>A mesma chave de acesso de L.C. COMBUSTIVEIS LTDA. EPP foi apresentada em 2 reembolsos diferentes, pelo mesmo gabinete.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Any Ortiz (PP/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd56ce02807c0e73.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd56ce02807c0e73.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 040672 de LOCADORA DE VEÍCULOS SANTA CRUZ LTDA (R$ 466,65, 02/12/2024): foi declarado R$ 466,65, mas o maior valor no documento é R$ 0,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Felipe Becari (PODE/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe01d6d75dfe9e4d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe01d6d75dfe9e4d.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): GERENTE DE COMUNICACAO ONLINE LTDA recebeu R$ 90.300,00; Lisandra Martins Da Silva é sócio(a) desde 18/11/2025 e trabalhou no gabinete (secretário parlamentar, SP18) desde 15/06/2026. Pagamentos: R$ 90.300,00 antes do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Dr. Francisco (PT/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc78aee6b7021a57.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc78aee6b7021a57.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 22812026 de MY CAR LOCAÇÃO DE VEICULOS LTDA (R$ 4.500,00, 23/01/2026): foi declarado R$ 4.500,00, mas o maior valor no documento é R$ 50,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Pedro Aihara (PP/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd74f66301196ca7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd74f66301196ca7.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Ex-servidor(a) que virou fornecedor: NX POUSADAS LTDA recebeu R$ 1.870,00; Andre Luiz Giovannini Paiva é sócio(a) desde 06/08/2024 e trabalhou no gabinete (secretário parlamentar, SP11) de 16/04/2024 a 05/08/2024. Pagamentos: R$ 1.870,00 depois do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc2601e72b155cad.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc2601e72b155cad.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 00976 de MNR Serviços Especializados LTDA (R$ 9.800,00, 01/08/2024): foi declarado R$ 9.800,00, mas o maior valor no documento é R$ 0,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f2708740a57caa03.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f2708740a57caa03.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): O NOVO OESTE AGENCIA DE PUBLICIDADE E EVENTOS LTDA recebeu R$ 3.000,00; Joao Paulo Triches é sócio(a) desde 01/09/2017 e trabalhou no gabinete (secretário parlamentar, SP19) desde 22/04/2026. Pagamentos: R$ 3.000,00 antes do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fbb9188d9f17b13c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fbb9188d9f17b13c.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 0125 de MNR Serviços Especializados LTDA (R$ 2.300,00, 01/05/2025): foi declarado R$ 2.300,00, mas o maior valor no documento é R$ 0,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Milton Vieira (REPUBLICANOS/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1246e101ec1949a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f1246e101ec1949a.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Ex-servidor(a) que virou fornecedor: SHIFTWORKS TECNOLOGIA E MARKETING DO BRASIL LTDA recebeu R$ 14.000,00; Osvaldo Leandro Lima De Domenico é sócio(a) desde 13/03/2026 e trabalhou no gabinete (secretário parlamentar, SP09) de 14/07/2022 a 28/02/2023. Pagamentos: R$ 14.000,00 depois do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Natália Bonavides (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb87ca2c5c38832b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb87ca2c5c38832b.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 493636 de LOCALIZA RENT A CAR S/A (R$ 11.651,40, 31/07/2025): foi declarado R$ 11.651,40, mas o maior valor no documento é R$ 11.651,36.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Fausto Jr. (UNIÃO/AM)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ebd03c26f5eb1f38.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ebd03c26f5eb1f38.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Ex-servidor(a) que virou fornecedor: NEXOGEST SERVICOS DE PUBLICIDADE E COMUNICACAO LTDA recebeu R$ 91.000,00; Kerolayne Rosas Lima De Queiroz é sócio(a) desde 16/09/2025 e trabalhou no gabinete (secretário parlamentar, SP07) de 07/06/2023 a 10/01/2024. Pagamentos: R$ 91.000,00 depois do vínculo.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Márcio Jerry (PCdoB/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb821b889d0878dd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb821b889d0878dd.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 3041 de SAINT LOUIS RENT A CAR (R$ 1.240,00, 18/06/2025): foi declarado R$ 1.240,00, mas o maior valor no documento é R$ 1.024,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Cota pagou empresa de servidor do próprio gabinete — Abilio Brunini (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d6fdc9f03b8a5560.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6fdc9f03b8a5560.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Servidor(a) e sócio(a) ao mesmo tempo: INSTITUTO BRASILEIRO DE ASSESSORIA INSTITUCIONAL - IBRASSI recebeu R$ 6.000,00; Elson Ferreira De Oliveira Junior é sócio(a) desde 22/06/2016 e trabalhou no gabinete (secretário parlamentar, SP15) de 07/02/2023 a 30/12/2024. Pagamentos: R$ 6.000,00 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 6.000,00 com a pessoa já sócia e servidora.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb7ad185e8d5e3e2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb7ad185e8d5e3e2.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 18524 de LOCACENTER LOCADORA DE AUTOMOVEIS LTDA (R$ 2.700,00, 16/03/2023): foi declarado R$ 2.700,00, mas o maior valor no documento é R$ 0,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Cleber Verde (MDB/MA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d65bb4fe0ee1f467.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d65bb4fe0ee1f467.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): FRANCAR LOCACAO SLZ LTDA recebeu R$ 146.849,60; Lucas Marques Aguiar é sócio(a) desde 24/03/2026 e trabalhou no gabinete (secretário parlamentar, SP21) de 22/08/2025 a 17/02/2026. Pagamentos: R$ 146.849,60 antes do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Renildo Calheiros (PCdoB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb18d42d7e3aa02f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb18d42d7e3aa02f.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 1633 de LLAE LOCAÇÕES LTDA (R$ 6.000,00, 15/09/2025): foi declarado R$ 6.000,00, mas o maior valor no documento é R$ 0,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Pedro Lucas Fernandes (UNIÃO/MA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cb4c9d0822a6fc5e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cb4c9d0822a6fc5e.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): MATOS CONSULTORIA LTDA recebeu R$ 232.500,00; Jean Carlos Moraes De Matos é sócio(a) desde 24/03/2026 e trabalhou no gabinete (secretário parlamentar, SP16) desde 16/04/2026. Pagamentos: R$ 232.500,00 antes do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Delegada Katarina (PSD/SE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8ea42ef389a1765.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8ea42ef389a1765.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 01 de UNIR LOCACOES E SERVICOS LTDA (R$ 12.700,00, 28/02/2023): foi declarado R$ 12.700,00, mas o maior valor no documento é R$ 6.350,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Rafael Brito (MDB/AL)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c34592b3927f6416.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c34592b3927f6416.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): MESCLA CONSULTORIA LTDA recebeu R$ 52.800,00; Rosa Licia Ferro Vieira é sócio(a) desde 11/07/2018 e trabalhou no gabinete (secretário parlamentar, SP14) desde 06/02/2024. Pagamentos: R$ 52.800,00 antes do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Fernando Mineiro (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8bfc124dd9af120.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8bfc124dd9af120.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 428547 de LOCALIZA RENT A CAR S/A (R$ 1.469,99, 08/07/2024): foi declarado R$ 1.477,95, mas o maior valor no documento é R$ 219,80.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Rosangela Moro (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bb3ca8d29c64f4ac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bb3ca8d29c64f4ac.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Ex-servidor(a) que virou fornecedor: RUDGE COMUNICACAO LTDA recebeu R$ 42.500,00; Tayna Alvares Cruz Rudge é sócio(a) desde 06/02/2023 e trabalhou no gabinete (secretário parlamentar, SP25) de 03/02/2023 a 12/08/2024. Pagamentos: R$ 42.500,00 depois do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7fb968e24338b09.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7fb968e24338b09.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 0123 de MNR Serviços Especializados LTDA (R$ 7.500,00, 01/01/2025): foi declarado R$ 7.500,00, mas o maior valor no documento é R$ 0,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Dimas Gadelha (PT/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b77dbe57172229b9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b77dbe57172229b9.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): TNDT SOLUTIONS SERVICE LTDA recebeu R$ 15.250,00; Thiago Almeida Dumiense é sócio(a) desde 25/07/2023 e trabalhou no gabinete (secretário parlamentar, SP08) desde 04/11/2024. Pagamentos: R$ 15.250,00 antes do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Murillo Gouvea (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f721002504d6499c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f721002504d6499c.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 1172026 de SERVCAR SOLUÇÕES AUTOMOTIVAS LTDA ME (R$ 14.000,00, 20/05/2026): foi declarado R$ 14.000,00, mas o maior valor no documento é R$ 4.000,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Giovani Cherini (PL/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b5d675835fcf6aa1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b5d675835fcf6aa1.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Ex-servidor(a) que virou fornecedor: AGENCIA VIRALIS MARKETING DIGITAL LTDA recebeu R$ 112.250,00; Bruno Lara Martins é sócio(a) desde 17/06/2025 e trabalhou no gabinete (secretário parlamentar, SP22) de 20/07/2022 a 03/01/2023. Pagamentos: R$ 112.250,00 depois do vínculo.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f70b3e9c995d44b3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f70b3e9c995d44b3.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 053813 de UNIDAS S/A (R$ 2.888,94, 15/05/2023): foi declarado R$ 2.888,94, mas o maior valor no documento é R$ 1.619,06.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Saullo Vianna (MDB/AM)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a080e7f003f0b53f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a080e7f003f0b53f.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Ex-servidor(a) que virou fornecedor: ERS LOCACOES LTDA recebeu R$ 136.000,00; Edson Ribeiro Da Silva Junior é sócio(a) desde 26/06/2019 e trabalhou no gabinete (secretário parlamentar, SP23) de 16/02/2023 a 05/03/2023. Pagamentos: R$ 136.000,00 depois do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Camila Jara (PT/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f61cbe4f6edc9378.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f61cbe4f6edc9378.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 0002 de S M SBARDELOTTO (R$ 3.800,00, 30/09/2024): foi declarado R$ 3.800,00, mas o maior valor no documento é R$ 380,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Cota pagou empresa de servidor do próprio gabinete — Marussa Boldrin (REPUBLICANOS/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/974546aef8bf5f76.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/974546aef8bf5f76.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Servidor(a) e sócio(a) ao mesmo tempo: GEVE COMUNICACAO LTDA recebeu R$ 33.500,00; Ana Eliza Pereira De Oliveira é sócio(a) desde 17/07/2024 e trabalhou no gabinete (secretário parlamentar, SP23) de 23/02/2023 a 29/01/2026. Pagamentos: R$ 33.500,00 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 33.500,00 com a pessoa já sócia e servidora.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Rodolfo Nogueira (PL/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f618ef2b76d936d4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f618ef2b76d936d4.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 0007 de S M SBARDELOTTO (R$ 6.500,00, 16/10/2025): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 650,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Sanderson (PL/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/919d7b7a8e01bf54.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/919d7b7a8e01bf54.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Ex-servidor(a) que virou fornecedor: JULIANO F NASCIMENTO &amp; CIA LTDA recebeu R$ 1.150,00; Jose Amilton Moraes Ferreira é sócio(a) desde 04/06/2021 e trabalhou no gabinete (secretário parlamentar, SP22) de 11/11/2022 a 02/04/2023. Pagamentos: R$ 1.150,00 depois do vínculo.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Nikolas Ferreira (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f577e31e2ff9fad5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f577e31e2ff9fad5.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 2142025 de Nacional Rent a Car Locação de Veiculos LTDA (R$ 13.500,00, 05/11/2025): foi declarado R$ 13.500,00, mas o maior valor no documento é R$ 5.500,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Julia Zanatta (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8511944f1b40c473.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8511944f1b40c473.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): LIMA SONAGLIO &amp; VIEIRA CONSULTORIA E PUBLICIDADE LTDA recebeu R$ 39.310,00; Guilherme Pereira Sonaglio é sócio(a) desde 01/03/2021 e trabalhou no gabinete (secretário parlamentar, SP24) de 21/11/2023 a 14/03/2024. Pagamentos: R$ 39.310,00 antes do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f494eee9907440c7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f494eee9907440c7.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 000981 de MNR Serviços Especializados LTDA (R$ 7.500,00, 01/09/2025): foi declarado R$ 7.500,00, mas o maior valor no documento é R$ 0,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Delegada Adriana Accorsi (PT/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/701b5ade800d94e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/701b5ade800d94e3.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): ANNA RAQUEL GOMES E PEREIRA recebeu R$ 6.000,00; Anna Raquel Gomes E Pereira é o próprio fornecedor e trabalhou no gabinete (secretário parlamentar, SP24) de 24/04/2025 a 01/09/2025. Pagamentos: R$ 6.000,00 antes do vínculo.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Amália Barros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3ea810294a6ced1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f3ea810294a6ced1.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 190487 de UNIDAS LOCADORA S.A (R$ 4.305,00, 04/01/2024): foi declarado R$ 8.414,25, mas o maior valor no documento é R$ 5.434,87.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Roberto Monteiro Pai (PL/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/65ffd3877bfb757c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/65ffd3877bfb757c.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): QUARK DESENVOLVIMENTO DE SISTEMAS DE INFORMATICA LTDA recebeu R$ 18.394,00; Joao Santos Silva Mauro é sócio(a) desde 14/10/2009 e trabalhou no gabinete (secretário parlamentar, SP19) desde 01/07/2026. Pagamentos: R$ 18.394,00 antes do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3d997f8cf7d9c13.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f3d997f8cf7d9c13.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 0125 de MNR Serviços Especializados LTDA (R$ 2.300,00, 01/04/2025): foi declarado R$ 2.300,00, mas o maior valor no documento é R$ 0,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Pastor Henrique Vieira (PSOL/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4db4a73c51f117ae.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4db4a73c51f117ae.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Pago durante o vínculo, antes de a pessoa constar como sócia: FLEX MARKETING DIRETO LTDA recebeu R$ 474.080,40; Joao Paulo De Araujo Gouveia é sócio(a) desde 21/08/2026 e trabalhou no gabinete (secretário parlamentar, SP21) de 13/02/2023 a 27/02/2025. Pagamentos: R$ 276.250,00 durante o vínculo, R$ 197.830,40 depois do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Dr. Luiz Ovando (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f352c2045f12d5ec.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f352c2045f12d5ec.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 000514 de SUPREMA MOBILIDADE LTDA (R$ 11.500,00, 01/08/2024): foi declarado R$ 11.500,00, mas o maior valor no documento é R$ 1.500,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Luiz Gastão (PSD/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4c1349802e31ee76.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4c1349802e31ee76.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Pago durante o vínculo, antes de a pessoa constar como sócia: ROSENDO TURISMO E LOCADORA LTDA recebeu R$ 107.250,13; Marco Aurelio Francisco Rosendo é sócio(a) desde 08/07/2025 e trabalhou no gabinete (secretário parlamentar, SP08) desde 07/02/2023. Pagamentos: R$ 107.250,13 durante o vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3248c1167af427c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f3248c1167af427c.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 00985 de MNR Serviços Especializados LTDA (R$ 2.300,00, 01/01/2025): foi declarado R$ 2.300,00, mas o maior valor no documento é R$ 0,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Daniel Freitas (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3ddbdc20f5887e2c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3ddbdc20f5887e2c.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Ex-servidor(a) que virou fornecedor: SANTA 360 COMUNICACOES LTDA recebeu R$ 1.500,00; Tuliana Fernandes Rosa é sócio(a) desde 10/01/2024 e trabalhou no gabinete (secretário parlamentar, SP14) de 06/02/2019 a 23/07/2023. Pagamentos: R$ 1.500,00 depois do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Rodolfo Nogueira (PL/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f301b5bfbe4f82a6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f301b5bfbe4f82a6.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 0011 de S M SBARDELOTTO (R$ 5.500,00, 07/01/2026): foi declarado R$ 5.500,00, mas o maior valor no documento é R$ 550,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Miguel Ângelo (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3affe4729d1b188c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3affe4729d1b188c.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): CM COMUNICACAO E MARKETING LTDA recebeu R$ 135.000,00; Cristiane Silva Mattar é sócio(a) desde 07/03/2025 e trabalhou no gabinete (secretário parlamentar, SP12) desde 13/04/2026. Pagamentos: R$ 135.000,00 antes do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — José Rocha (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1d02674147933d4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f1d02674147933d4.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 1021 de Wilson Suedy Lopes da Silva Ltda (R$ 11.985,00, 30/10/2024): foi declarado R$ 11.985,00, mas o maior valor no documento é R$ 0,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Arthur Oliveira Maia (UNIÃO/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/35918948ab686d34.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/35918948ab686d34.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): ALUNETA LTDA recebeu R$ 10.500,00; Maikon Douglas Moreira De Melo é sócio(a) desde 30/12/2021 e trabalhou no gabinete (secretário parlamentar, SP24) desde 03/07/2023. Pagamentos: R$ 10.500,00 antes do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Eriberto Medeiros (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f14021a63a5e6e69.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f14021a63a5e6e69.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 730368 de LOCALIZA RENT A CAR SA (R$ 1.255,25, 04/05/2025): foi declarado R$ 1.292,20, mas o maior valor no documento é R$ 1.220,40.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Greyce Elias (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2d63b689e72de81f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2d63b689e72de81f.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Ex-servidor(a) que virou fornecedor: JORNAL GAZETA DE PATROCINIO LTDA recebeu R$ 9.440,00; Isabela Rezende Cunha é sócio(a) desde 10/08/2023 e trabalhou no gabinete (secretário parlamentar, SP15) de 30/06/2022 a 06/02/2023. Pagamentos: R$ 9.440,00 depois do vínculo.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Miguel Ângelo (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f0f42a9474a7646f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f0f42a9474a7646f.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 271598 de UNIDAS S/A (R$ 788,89, 10/02/2023): foi declarado R$ 788,89, mas o maior valor no documento é R$ 750,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — José Medeiros (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2c24d71424b15232.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2c24d71424b15232.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Fornecedor que depois virou servidor(a): CENTRO OESTE NEWS COMUNICACOES LTDA recebeu R$ 44.500,00; Antonio Cesar Da Silva é sócio(a) desde 14/05/2021 e trabalhou no gabinete (secretário parlamentar, SP17) desde 07/04/2025. Pagamentos: R$ 44.500,00 antes do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Luciano Bivar (MDB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f0a2d0a174f1cb84.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f0a2d0a174f1cb84.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 582113 de LOCALIZA RENT A CAR SA (R$ 4.466,45, 18/09/2025): foi declarado R$ 4.466,45, mas o maior valor no documento é R$ 478,55.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Sonize Barbosa (PL/AP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/23311c4ed9ef547a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/23311c4ed9ef547a.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Pago durante o vínculo, antes de a pessoa constar como sócia: INSTITUTO LUMEA recebeu R$ 475.022,20; Camila Naiana Soares Marcelino é sócio(a) desde 07/07/2026 e trabalhou no gabinete (secretário parlamentar, SP25) de 05/05/2023 a 30/03/2025. Pagamentos: R$ 392.022,20 durante o vínculo, R$ 83.000,00 depois do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f06197734e4e26a6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f06197734e4e26a6.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 0106 de MNR Serviços Especializados LTDA (R$ 2.900,00, 01/05/2024): foi declarado R$ 2.900,00, mas o maior valor no documento é R$ 0,00.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Marcelo Crivella (REPUBLICANOS/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/12981ee7b354c6d5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/12981ee7b354c6d5.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Ex-servidor(a) que virou fornecedor: MIDIA CORINGA COMUNICACAO LTDA. recebeu R$ 5.000,00; Daniel Pereira Da Silva é sócio(a) desde 05/12/2014 e trabalhou no gabinete (secretário parlamentar, SP14) de 17/02/2023 a 15/07/2024. Pagamentos: R$ 5.000,00 depois do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Eriberto Medeiros (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f00e7748d9db00df.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f00e7748d9db00df.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 20955 de LOCALIZA RENT A CAR S.A (R$ 1.860,57, 03/06/2025): foi declarado R$ 1.915,52, mas o maior valor lido no documento é R$ 1.807,83. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Fornecedor ligado a servidor ou ex-servidor do gabinete — Pedro Uczai (PT/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/01dfe9f20bdadb56.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/01dfe9f20bdadb56.html#correcao-2026-10-27</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<summary>Ex-servidor(a) que virou fornecedor: M.O CONSULTORIA E GESTAO COMERCIAL LTDA recebeu R$ 6.000,00; Ana Claudia Chefer Marcon é sócio(a) desde 14/01/2025 e trabalhou no gabinete (secretário parlamentar, SP18) de 16/02/2024 a 16/12/2024. Pagamentos: R$ 6.000,00 depois do vínculo.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eff225e564b7a767.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eff225e564b7a767.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 00978 de MNR Serviços Especializados LTDA (R$ 2.900,00, 01/09/2024): foi declarado R$ 2.900,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Pedro Campos (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eeaa675d22a0acee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eeaa675d22a0acee.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 079374/079375 de PARVI LOCADORA LTDA (R$ 12.713,00, 14/11/2024): foi declarado R$ 12.713,00, mas o maior valor no documento é R$ 8.554,00.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Ismael (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ede48b5fdbbbcb13.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ede48b5fdbbbcb13.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 1466 de LOCAR MAIS LTDA (R$ 8.999,00, 28/06/2025): foi declarado R$ 8.999,00, mas o maior valor no documento é R$ 899,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Dr. Luiz Ovando (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ed7f28f7913b2864.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ed7f28f7913b2864.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 61 de SUPREMA MOBILIDADE LTDA (R$ 4.500,00, 01/03/2023): foi declarado R$ 4.500,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Pedro Campos (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eca0418f9ac55b31.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eca0418f9ac55b31.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 012179 de PARVI LOCADORA LTDA (R$ 12.713,00, 31/05/2023): foi declarado R$ 12.713,00, mas o maior valor lido no documento é R$ 8.554,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Gilvan da Federal (PL/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec29605847091e9c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec29605847091e9c.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 810361 de LOCALIZA RENT A CAR SA (R$ 3.889,09, 18/11/2024): foi declarado R$ 4.364,64, mas o maior valor no documento é R$ 4.035,99.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Vicentinho (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ebc11772ab5fe4c1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ebc11772ab5fe4c1.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 426678 de UNIDAS (R$ 2.719,49, 16/03/2023): foi declarado R$ 2.749,49, mas o maior valor no documento é R$ 2.719,49.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Eriberto Medeiros (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ebb43f2aa1ab7ee5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ebb43f2aa1ab7ee5.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 20955 de LOCALIZA RENT A CAR S.A (R$ 1.860,57, 03/06/2025): foi declarado R$ 1.915,52, mas o maior valor no documento é R$ 1.507,82.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ana Paula Lima (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eb658ca73b59084c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eb658ca73b59084c.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 83508 de Localiza Rent a Car S.A (R$ 5.173,33, 15/10/2025): foi declarado R$ 5.346,38, mas o maior valor lido no documento é R$ 490,80. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eb6424aac6bc4ab9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eb6424aac6bc4ab9.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 00978 de MNR Serviços Especializados LTDA (R$ 2.900,00, 01/04/2024): foi declarado R$ 2.900,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Marcel van Hattem (NOVO/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ea740aa7e4c7e447.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ea740aa7e4c7e447.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 96929 de Localiza Rent a Car S/A (R$ 1.069,09, 04/07/2024): foi declarado R$ 1.230,54, mas o maior valor no documento é R$ 989,41.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ea4532dec28cbf29.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ea4532dec28cbf29.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 8312 de CASABLANCA RENT A CAR LTDA (R$ 11.390,50, 30/04/2024): foi declarado R$ 11.390,50, mas o maior valor no documento é R$ 11.390,48.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Marcelo Álvaro Antônio (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e9b2f757af9a97d1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e9b2f757af9a97d1.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 034283 de PONTUAL LOC CAR LTDA (R$ 760,00, 31/07/2026): foi declarado R$ 760,00, mas o maior valor no documento é R$ 706,00.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Pedro Campos (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e92f9933c3550f87.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e92f9933c3550f87.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 012179 de PARVI LOCADORA LTDA (R$ 12.713,00, 31/05/2023): foi declarado R$ 12.713,00, mas o maior valor no documento é R$ 8.554,00.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Gilvan da Federal (PL/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e91c9fa9260d2720.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e91c9fa9260d2720.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 886 de lLAND LOCADORA LTDA (R$ 450,00, 14/08/2023): foi declarado R$ 450,00, mas o maior valor no documento é R$ 150,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Prof. Reginaldo Veras (PV/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e9066ec8e6241a5f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e9066ec8e6241a5f.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 115 de SUPREMA MOBILIDADE LTDA (R$ 4.500,00, 28/03/2023): foi declarado R$ 4.500,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e8b3ba9b2ac7d3dc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e8b3ba9b2ac7d3dc.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 00976 de MNR Serviços Especializados LTDA (R$ 9.800,00, 01/09/2024): foi declarado R$ 9.800,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Pompeo de Mattos (PDT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e86ed50823df4fb7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e86ed50823df4fb7.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 80 de NOVACAR LOCADORA DE VEICULOS LTDA (R$ 5.150,00, 14/08/2023): foi declarado R$ 5.150,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e822f97eb758c10e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e822f97eb758c10e.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 0000278 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 07/03/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 1,00.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Ana Paula Lima (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e7fd6e2bf0b7947b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e7fd6e2bf0b7947b.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 83508 de Localiza Rent a Car S.A (R$ 5.173,33, 15/10/2025): foi declarado R$ 5.346,38, mas o maior valor no documento é R$ 490,80.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Dr. Fernando Máximo (PL/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e7c264b096e370af.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e7c264b096e370af.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 109 de NOVACAR LOCADORA DE VEICULOS LTDA (R$ 4.000,00, 09/10/2023): foi declarado R$ 4.000,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Dr. Fernando Máximo (PL/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e6b07f42f17e5111.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e6b07f42f17e5111.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 000492 de SUPREMA MOBILIDADE LTDA (R$ 3.700,00, 24/07/2024): foi declarado R$ 3.700,00, mas o maior valor no documento é R$ 700,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Márcio Jerry (PCdoB/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e5ab6942a3cd29de.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e5ab6942a3cd29de.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 668997 de LOCALIZA (R$ 5.147,40, 17/05/2026): foi declarado R$ 5.147,40, mas o maior valor no documento é R$ 671,40.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e589fab375c5e84c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e589fab375c5e84c.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 00982 de MNR Serviços Especializados LTDA (R$ 2.300,00, 01/06/2025): foi declarado R$ 2.300,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Lídice da Mata (PSB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e567eaaad3da9d4a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e567eaaad3da9d4a.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 349 de SUPREMA MOBILIDADE LTDA (R$ 2.500,00, 01/08/2023): foi declarado R$ 2.500,00, mas o maior valor no documento é R$ 2,50.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Helio Lopes (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e55e1315ea39e125.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e55e1315ea39e125.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 19 de TAGG SERVICES LTDA (R$ 7.000,00, 02/04/2026): foi declarado R$ 7.000,00, mas o maior valor no documento é R$ 1,00.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Natália Bonavides (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e47a641ab0c207e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e47a641ab0c207e3.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 15290OMAMVF1 de UNIDAS LOCADORA S.A. (R$ 1.494,21, 02/03/2026): foi declarado R$ 1.494,21, mas o maior valor no documento é R$ 1.400,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e3624cb83e9927b1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e3624cb83e9927b1.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 18805 de LOCACENTER - Locadora de Automóveis Ltda. (R$ 5.800,00, 20/05/2024): foi declarado R$ 5.800,00, mas o maior valor lido no documento é R$ 250,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Helio Lopes (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e35071671da8bb7c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e35071671da8bb7c.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 20 de TAGG SERVICES LTDA (R$ 7.000,00, 17/01/2026): foi declarado R$ 7.000,00, mas o maior valor no documento é R$ 1,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e26e0485edb05abb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e26e0485edb05abb.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 00976 de MNR Serviços Especializados LTDA (R$ 9.800,00, 30/11/2023): foi declarado R$ 9.800,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e26545d4b32cb345.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e26545d4b32cb345.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 981 de MNR Serviços Especializados LTDA (R$ 7.500,00, 01/02/2025): foi declarado R$ 7.500,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Reginaldo Lopes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e2624764718a539d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e2624764718a539d.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 813600 de LOCALIZA RENT A CAR SA (R$ 1.248,50, 05/06/2023): foi declarado R$ 1.283,40, mas o maior valor no documento é R$ 800,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Franciane Bayer (REPUBLICANOS/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1871bcafd6e2315.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1871bcafd6e2315.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 67 de SUPREMA MOBILIDADE LTDA (R$ 4.000,00, 01/03/2023): foi declarado R$ 4.000,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dee24a75e1e860e8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dee24a75e1e860e8.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 10937 de CASABLANCA RENT A CAR LTDA (R$ 14.051,30, 06/04/2026): foi declarado R$ 14.051,30, mas o maior valor no documento é R$ 14.051,28.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Nelson Barbudo (PODE/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/de92469555867b1f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/de92469555867b1f.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 002412 de Doannytur Agência de Viagens (R$ 10.600,00, 01/07/2024): foi declarado R$ 10.600,00, mas o maior valor no documento é R$ 10.000,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ricardo Salles (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/de5eda71d5dac9d3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/de5eda71d5dac9d3.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 00977 de MNR Serviços Especializados LTDA (R$ 9.800,00, 31/12/2023): foi declarado R$ 9.800,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/de4b7ff63ac61caa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/de4b7ff63ac61caa.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 18587 de LOCACENTER - Locadora de Automóveis Ltda. (R$ 5.800,00, 26/09/2023): foi declarado R$ 5.800,00, mas o maior valor no documento é R$ 800,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Nikolas Ferreira (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ddb7d280f5c866e2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ddb7d280f5c866e2.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 000265 de SUPREMA MOBILIDADE LTDA (R$ 3.100,00, 05/03/2024): foi declarado R$ 3.100,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Rodolfo Nogueira (PL/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dd8b1ade5a68cfac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dd8b1ade5a68cfac.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 0001 de S M SBARDELOTTO (R$ 6.500,00, 06/03/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 650,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Pedro Lupion (REPUBLICANOS/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dd65bd0e6630f337.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dd65bd0e6630f337.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 000276 de SUPREMA MOBILIDADE LTDA (R$ 6.500,00, 05/03/2024): foi declarado R$ 6.500,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Cabo Gilberto Silva (PL/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dd0a9526da917163.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dd0a9526da917163.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 000669 de WMR LOCADORA DE VEICULOS LTDA (R$ 8.900,00, 06/10/2026): foi declarado R$ 8.900,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Luisa Canziani (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dd066ec34777559b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dd066ec34777559b.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 325 de SUPREMA MOBILIDADE LTDA (R$ 3.700,00, 07/07/2023): foi declarado R$ 3.700,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Lafayette de Andrada (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dcea3781ab86dbe5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dcea3781ab86dbe5.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 171059 de LOCALIZA RENT A CAR SA (R$ 7.728,48, 07/12/2023): foi declarado R$ 8.112,16, mas o maior valor no documento é R$ 8.013,16.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Bruno Farias (REPUBLICANOS/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dba06eb1e12c24ae.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dba06eb1e12c24ae.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 2375 de VALOR LOCACOES LTDA (R$ 2.890,00, 01/09/2026): foi declarado R$ 2.890,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Dr. Francisco (PT/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dacd42b799b92de9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dacd42b799b92de9.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 22792026 de MY CAR LOCAÇÃO DE VEICULOS LTDA (R$ 3.000,00, 23/01/2026): foi declarado R$ 3.000,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Missionário José Olimpio (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/da9dc0463ff035f6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/da9dc0463ff035f6.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 1542025 de NOVACAR LOCADORA DE VEICULOS LTDA (R$ 5.000,00, 03/06/2025): foi declarado R$ 5.000,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Murillo Gouvea (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/da49996bf6069740.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/da49996bf6069740.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 2222026 de SERVCAR SOLUCOES AUTOMOTIVAS LTDA (R$ 14.000,00, 22/09/2026): foi declarado R$ 14.000,00, mas o maior valor no documento é R$ 4.000,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Lafayette de Andrada (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d927a423ab47a501.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d927a423ab47a501.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 323840 de LOCALIZA RENT A CAR SA (R$ 948,93, 06/07/2026): foi declarado R$ 1.084,30, mas o maior valor no documento é R$ 1.020,57.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Weliton Prado (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d8b7e7a4df7c8210.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d8b7e7a4df7c8210.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 333697 de LOCALIZA RENT A CAR S/A (R$ 1.317,88, 27/08/2024): foi declarado R$ 1.317,88, mas o maior valor no documento é R$ 1.246,08.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Renildo Calheiros (PCdoB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d7bbd93c732aa12e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d7bbd93c732aa12e.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 1539 de LLAE LOCAÇÕES LTDA (R$ 11.000,00, 30/09/2024): foi declarado R$ 11.000,00, mas o maior valor lido no documento é R$ 42,48. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Orlando Silva (PCdoB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d78a3d8471deddc3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d78a3d8471deddc3.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 20147180 de Movida Locações de Veículos LTDA (R$ 4.499,50, 10/08/2023): foi declarado R$ 4.499,50, mas o maior valor no documento é R$ 499,50.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Kiko Celeguim (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d76b4c92de64bcf6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d76b4c92de64bcf6.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 178 de Novacar Locadora de Veículos Ltda (R$ 4.000,00, 11/03/2024): foi declarado R$ 4.000,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Jeferson Rodrigues (PSDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d76a91cc4cc627a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d76a91cc4cc627a5.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 130 de SUPREMA MOBILIDADE LTDA (R$ 11.600,00, 03/04/2023): foi declarado R$ 11.600,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Rodolfo Nogueira (PL/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d742e50619d10878.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d742e50619d10878.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 0003 de S M SBARDELOTTO (R$ 5.500,00, 07/05/2025): foi declarado R$ 5.500,00, mas o maior valor no documento é R$ 550,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Waldemar Oliveira (AVANTE/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d6dfdc4a08b49b09.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6dfdc4a08b49b09.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 53 de SUPREMA MOBILIDADE LTDA (R$ 11.980,00, 28/02/2023): foi declarado R$ 11.980,00, mas o maior valor no documento é R$ 370,37.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Fernando Mineiro (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d60d063058dcd347.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d60d063058dcd347.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 447110 de LOCALIZA RENT A CAR S/A (R$ 7.074,86, 28/10/2024): foi declarado R$ 7.074,86, mas o maior valor no documento é R$ 6.902,31.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Vicentinho (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d5d776ef6379d17d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d5d776ef6379d17d.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 042558 de UNIDAS LOCADORA S.A (R$ 3.007,52, 08/04/2023): foi declarado R$ 3.037,52, mas o maior valor no documento é R$ 1.374,70.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Sargento Fahur (PL/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d4f712600253b2a4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d4f712600253b2a4.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 174387 de LOCALIZA RENT A CAR S/A (R$ 3.892,90, 06/09/2023): foi declarado R$ 3.892,90, mas o maior valor no documento é R$ 417,10.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Dr. Luiz Ovando (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d4b018841840a0df.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d4b018841840a0df.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 346 de SUPREMA MOBILIDADE LTDA (R$ 4.000,00, 01/08/2023): foi declarado R$ 4.000,00, mas o maior valor no documento é R$ 0,08.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Helio Lopes (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d3f5d2e8a3169189.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d3f5d2e8a3169189.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 34 de TAGG SERVICES LTDA (R$ 7.000,00, 27/06/2026): foi declarado R$ 7.000,00, mas o maior valor no documento é R$ 1,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Otto Alencar Filho (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d3931676aeda689d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d3931676aeda689d.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 00000034389 de ATLÂNTICO TRANSPORTES LTDA. (R$ 8.500,00, 01/08/2023): foi declarado R$ 8.500,00, mas o maior valor no documento é R$ 0,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Luiz Carlos Hauly (PODE/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d3831ee867cab6f7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d3831ee867cab6f7.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 000686 de SUPREMA MOBILIDADE LTDA (R$ 4.800,00, 31/03/2026): foi declarado R$ 4.800,00, mas o maior valor no documento é R$ 1,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d3174e152915404d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d3174e152915404d.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 78258 de LOCALIZA RENT A CAR SA (R$ 3.178,17, 19/08/2026): foi declarado R$ 3.228,12, mas o maior valor no documento é R$ 129,19.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Renildo Calheiros (PCdoB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d17811251b91e648.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d17811251b91e648.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 1609 de LLAE LOCAÇÕES LTDA (R$ 1.700,00, 01/07/2025): foi declarado R$ 1.700,00, mas o maior valor no documento é R$ 1.400,00.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Rodolfo Nogueira (PL/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d0ef076511ba92bb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d0ef076511ba92bb.html#correcao-2026-11-01</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<summary>nº 0003 de S M SBARDELOTTO (R$ 5.500,00, 06/05/2024): foi declarado R$ 5.500,00, mas o maior valor no documento é R$ 550,00.</summary>
 </entry>
 </feed>

@@ -7,18 +7,6 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Valor declarado maior que o da nota — Ismael (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ede48b5fdbbbcb13.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ede48b5fdbbbcb13.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 1466 de LOCAR MAIS LTDA (R$ 8.999,00, 28/06/2025): foi declarado R$ 8.999,00, mas o maior valor no documento é R$ 899,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Ana Paula Lima (PT/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e7fd6e2bf0b7947b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e7fd6e2bf0b7947b.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 83508 de Localiza Rent a Car S.A (R$ 5.173,33, 15/10/2025): foi declarado R$ 5.346,38, mas o maior valor no documento é R$ 490,80. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Jorge Goetten (REPUBLICANOS/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a944bca8b67e152b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a944bca8b67e152b.html</id>
 <updated>2026-10-28T00:00:00Z</updated>
@@ -306,5 +294,17 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. E.C.P. INCORPORACOES LTDA e INCORPORADORA CAMBORIU LTDA: sócio em comum Maria Da Graca Souza; juntas receberam R$ 150.122,84. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Caroline de Toni (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e3c607979dc9b2c0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e3c607979dc9b2c0.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. GAMBATTO VEICULOS CRICIUMA LTDA e GAMBATTO VEICULOS LTDA: sócio em comum Gustavo Gambatto; juntas receberam R$ 127.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Geovania de Sá (REPUBLICANOS/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3583a06eb3611fd4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3583a06eb3611fd4.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. SOCIEDADE ABASTECEDORA SANTA BARBARA LTDA recebeu R$ 100.407,65 por "combustíveis e lubrificantes", mas sua atividade é "Aluguel de imóveis próprios" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

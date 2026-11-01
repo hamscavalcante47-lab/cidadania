@@ -462,6 +462,313 @@ function iniciarGastos() {
     const d = JSON.parse(varios.textContent);
     graficoLinhas($("#gastos-mensal"), d.meses, d.series, { parciais: d.parciais });
   }
+  iniciarTipos();
+}
+
+// página Gastos: cada tipo da lista numerada abre um painel com os gabinetes que gastaram com ele e os indícios das
+// notas desse tipo (dados/gastos/<tipo>.json, baixado na hora; os nomes vêm de alertas-meta.json). Sobe de baixo no
+// celular e abre como gaveta à direita no computador, como o painel do perfil. O endereço guarda o tipo e o gabinete
+// abertos (#tipo=, &gab=): o Voltar do navegador volta uma vista ou fecha o painel. Sem <dialog>, o link leva à
+// página do tipo
+function iniciarTipos() {
+  const fonte = $("#dados-tipos");
+  if (!fonte || typeof HTMLDialogElement !== "function" || !("showModal" in HTMLDialogElement.prototype)) return;
+  const TIPOS = JSON.parse(fonte.textContent);
+  const N_TIPOS = Object.keys(TIPOS).length;
+  const GRAV = { 3: "Alta", 2: "Média", 1: "Baixa" };
+  const LOTE = 40;
+  const mil = n => n.toLocaleString("pt-BR");
+  const plural = (n, um, varios) => `${mil(n)} ${n === 1 ? um : varios}`;
+  const porcento = v => `${v.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}%`;
+  let meta = null;
+  const cache = {};
+  const carregar = slug => cache[slug] ??= Promise.all([json(`dados/gastos/${slug}.json`),
+    meta ??= json("dados/alertas-meta.json").then(m => ({
+      dep: m.deputados, regra: Object.fromEntries(m.regras.map(r => [r.codigo, r.titulo])) }))])
+    .catch(erro => { delete cache[slug]; meta = null; throw erro; });
+
+  const caixa = document.createElement("dialog");
+  caixa.className = "ficha-indicio painel-tipo";
+  caixa.setAttribute("aria-labelledby", "pt-titulo");
+  caixa.innerHTML = `<div class="fi-cab"><button type="button" class="fi-voltar" hidden>‹ Voltar</button>
+    <div class="fi-titulos"><p class="rotulo" id="pt-rotulo"></p><h2 id="pt-titulo" tabindex="-1"></h2></div>
+    <button type="button" class="fi-fechar" aria-label="Fechar o painel">×</button></div>
+    <div class="fi-corpo" id="pt-corpo"></div><p class="vh" id="pt-anuncio" aria-live="polite"></p>`;
+  document.body.appendChild(caixa);
+  const rotulo = $("#pt-rotulo", caixa), titulo = $("#pt-titulo", caixa), corpo = $("#pt-corpo", caixa);
+  const voltar = $(".fi-voltar", caixa), anuncio = $("#pt-anuncio", caixa);
+
+  // o que o leitor escolheu dentro do tipo (aba, busca, ordem, filtro): volta igual da ficha do gabinete
+  const inicial = () => ({ aba: "gab", q: "", ordem: "valor", so: false, filtro: "", limite: LOTE, rolagem: 0, deGab: null });
+  const est = { slug: null, origem: null, dados: null, ...inicial() };
+  let vez = 0;
+  const profundidade = () => (history.state && history.state.pt) || 0;
+  const doEndereco = () => {
+    const h = new URLSearchParams(location.hash.slice(1));
+    return TIPOS[h.get("tipo")] ? { slug: h.get("tipo"), gab: h.get("gab") } : null;
+  };
+  const semHash = () => location.pathname + location.search;
+
+  function abrir(slug, de) {
+    if (est.slug !== slug) Object.assign(est, inicial(), { slug, dados: null });
+    est.origem = de;
+    if (location.hash) history.replaceState(null, "", semHash());
+    history.pushState({ pt: 1 }, "", `#tipo=${slug}`);
+    mostrar();
+  }
+  function abrirGab(pid, de) {
+    est.rolagem = corpo.scrollTop;
+    est.deGab = de && de.dataset.gab ? `[data-gab="${de.dataset.gab}"]${de.closest(".pt-ind") ? "" : ".gab-linha"}` : null;
+    history.pushState({ pt: profundidade() + 1 }, "", `#tipo=${est.slug}&gab=${pid}`);
+    mostrar();
+  }
+  function fechar() {
+    const n = profundidade();
+    if (n > 0) history.go(-n); else concluir();
+  }
+  function concluir() {
+    if (caixa.open) caixa.close();
+    const o = est.origem;
+    est.origem = null;
+    if (o && o.isConnected) o.focus();
+  }
+  // endereço com #tipo= ao abrir a página (ou trocado à mão): a entrada da página fica sem ele e o painel ganha as suas
+  function linkDireto() {
+    const v = doEndereco();
+    if (!v) return;
+    if (profundidade() === 0) {
+      history.replaceState(null, "", semHash());
+      history.pushState({ pt: 1 }, "", `#tipo=${v.slug}`);
+      if (v.gab) history.pushState({ pt: 2 }, "", `#tipo=${v.slug}&gab=${v.gab}`);
+    }
+    est.origem = $(`.tipo-linha[data-tipo="${v.slug}"]`);
+    mostrar();
+  }
+
+  async function mostrar({ voltando = false } = {}) {
+    const v = doEndereco();
+    if (!v) return concluir();
+    if (v.slug !== est.slug) Object.assign(est, inicial(), { slug: v.slug, dados: null });
+    const t = TIPOS[v.slug], minha = ++vez;
+    voltar.hidden = !v.gab || profundidade() < 2;
+    if (!v.gab) { rotulo.textContent = `Tipo de gasto · ${t.pos}º de ${N_TIPOS}`; titulo.textContent = t.nome; }
+    if (!caixa.open) caixa.showModal();
+    if (!est.dados) {
+      if (v.gab) { rotulo.textContent = t.nome; titulo.textContent = "Carregando…"; }
+      corpo.innerHTML = `<p class="fi-meta">Carregando os gabinetes e os indícios deste tipo…</p>`;
+      try { est.dados = await carregar(v.slug); }
+      catch {
+        if (minha !== vez) return;
+        corpo.innerHTML = `<p class="fi-aviso">Não foi possível carregar os dados agora.</p>
+          <button type="button" class="botao secundario pequeno" data-acao="tentar">Tentar de novo</button>`;
+        return;
+      }
+      if (minha !== vez) return;
+    }
+    if (v.gab) vistaGab(t, v.gab);
+    else vistaTipo(t);
+    if (!v.gab && voltando) {
+      corpo.scrollTop = est.rolagem;
+      const alvo = est.deGab && corpo.querySelector(est.deGab);
+      if (alvo) { alvo.focus({ preventScroll: true }); return; }
+    } else corpo.scrollTop = 0;
+    titulo.focus();
+  }
+
+  // ---- vista do tipo: números, abas Gabinetes e Indícios
+  function vistaTipo(t) {
+    const [d] = est.dados;
+    corpo.innerHTML = `<div class="pt-numeros" style="--cor: var(--serie-${t.cor || "outros"})">
+        <div><b>${brlCurto(t.total)}</b><span>${porcento(t.pct)} da cota</span></div>
+        <div><b>${mil(t.gab)}</b><span>${t.gab === 1 ? "gabinete usou" : "gabinetes usaram"}</span></div>
+        <div><b>${mil(t.ind)}</b><span>${t.ind === 1 ? "indício" : "indícios"}${t.conf ? ` · ${plural(t.conf, "confirmado", "confirmados")}` : ""}</span></div></div>
+      ${t.desc ? `<p class="fi-desc">${esc(t.desc)}</p>` : ""}
+      ${t.outros ? `<p class="fi-aviso">Nos gráficos por tipo, este gasto entra na soma de “Outros”.</p>` : ""}
+      <div class="pt-abas" role="tablist" aria-label="O que mostrar">
+        <button type="button" role="tab" id="pt-aba-gab" data-aba="gab" aria-controls="pt-painel">Gabinetes <span class="num">${mil(d.g.length)}</span></button>
+        <button type="button" role="tab" id="pt-aba-ind" data-aba="ind" aria-controls="pt-painel">Indícios <span class="num">${mil(d.a.length)}</span></button>
+      </div>
+      <div id="pt-painel" role="tabpanel"><div id="pt-controles"></div><div id="pt-lista"></div></div>
+      <a class="botao secundario pequeno pt-pagina" href="gastos/${est.slug}.html">Página do tipo: fornecedores e mês a mês</a>`;
+    desenharAba();
+  }
+
+  function desenharAba() {
+    const [d] = est.dados;
+    corpo.querySelectorAll("[data-aba]").forEach(b => {
+      const sim = b.dataset.aba === est.aba;
+      b.setAttribute("aria-selected", sim);
+      b.tabIndex = sim ? 0 : -1;
+    });
+    $("#pt-painel", corpo).setAttribute("aria-labelledby", `pt-aba-${est.aba}`);
+    const controles = $("#pt-controles", corpo);
+    if (est.aba === "gab") {
+      const comInd = d.g.filter(g => g[3]).length;
+      controles.innerHTML = `<div class="filtros pt-filtros">
+          <input type="search" id="pt-busca" placeholder="Buscar deputado, partido ou UF" aria-label="Buscar gabinete" value="${esc(est.q)}">
+          <select id="pt-ordem" aria-label="Ordem da lista">
+            <option value="valor">Maior gasto</option><option value="ind">Mais indícios</option><option value="nome">Nome (A a Z)</option></select>
+          <button type="button" class="chip" id="pt-so" aria-pressed="${est.so}"${comInd ? "" : " disabled"}>Só com indícios<span class="num">${mil(comInd)}</span></button>
+        </div>`;
+      $("#pt-ordem", controles).value = est.ordem;
+    } else {
+      const conta = { "": d.a.length, conf: d.a.filter(a => a.s === "confirmado").length,
+        3: d.a.filter(a => a.g === 3).length, 2: d.a.filter(a => a.g === 2).length, 1: d.a.filter(a => a.g === 1).length };
+      const chip = (valor, nome) => `<button type="button" class="chip" data-filtro="${valor}" aria-pressed="${est.filtro === valor}"${conta[valor] || est.filtro === valor ? "" : " disabled"}>${nome}<span class="num">${mil(conta[valor])}</span></button>`;
+      controles.innerHTML = d.a.length ? `<p class="fi-meta pt-explica">Indício é o que uma regra automática apontou numa nota.
+          Só os marcados como confirmados foram conferidos na revisão; os outros ainda não são conclusão.</p>
+        <div class="pt-chips">${chip("", "Todos")}${chip("conf", "Confirmados")}${chip("3", "Alta")}${chip("2", "Média")}${chip("1", "Baixa")}</div>
+        <div class="filtros pt-filtros"><input type="search" id="pt-busca" placeholder="Buscar deputado, partido, UF ou texto" aria-label="Buscar indício" value="${esc(est.q)}"></div>` : "";
+    }
+    desenharLista();
+  }
+
+  function desenharLista() {
+    const [d, m] = est.dados;
+    const lista = $("#pt-lista", corpo), q = normalizar(est.q).trim();
+    const dep = id => m.dep[id] || { nome: `Deputado ${id}`, partido: "", uf: "" };
+    // "PL/SP", como a lista mostra, ou "PL SP"
+    const quem = d => `${d.nome} ${d.partido}/${d.uf} ${d.partido} ${d.uf}`;
+    let itens, total, html;
+    if (est.aba === "gab") {
+      const maior = d.g.length ? d.g[0][1] || 1 : 1;
+      itens = d.g.map((g, i) => ({ pid: g[0], v: g[1], notas: g[2], ind: g[3], pos: i + 1, d: dep(g[0]) }))
+        .filter(g => (!est.so || g.ind) && (!q || normalizar(quem(g.d)).includes(q)));
+      if (est.ordem === "ind") itens.sort((a, b) => b.ind - a.ind || b.v - a.v);
+      else if (est.ordem === "nome") itens.sort((a, b) => a.d.nome.localeCompare(b.d.nome, "pt-BR"));
+      total = itens.length;
+      html = itens.slice(0, est.limite).map(g => `<li><button type="button" class="gab-linha" data-gab="${g.pid}">
+          <span class="gl-pos num" title="Posição no gasto deste tipo">${g.pos}º</span>
+          <span class="gl-txt"><b>${esc(g.d.nome)}</b><small>${esc(g.d.partido)}/${esc(g.d.uf)} · ${plural(g.notas, "nota", "notas")}</small>
+            <span class="gl-trilho" aria-hidden="true"><span style="width:${Math.max(100 * g.v / maior, .8).toFixed(1)}%"></span></span></span>
+          <span class="gl-dir"><span class="gl-v num">${brlCurto(g.v)}</span>${g.ind ? `<span class="gl-ind">${plural(g.ind, "indício", "indícios")}</span>` : ""}</span>
+          <span class="seta" aria-hidden="true">›</span></button></li>`).join("");
+      html = html ? `<ol class="pt-gabs">${html}</ol>` : `<p class="fi-aviso">Nenhum gabinete com esse filtro.</p>`;
+    } else {
+      itens = d.a.filter(a => (!est.filtro || (est.filtro === "conf" ? a.s === "confirmado" : a.g === +est.filtro)) &&
+        (!q || normalizar(`${quem(dep(a.p))} ${a.t} ${m.regra[a.r] || ""}`).includes(q)));
+      total = itens.length;
+      html = !d.a.length ? `<p class="fi-aviso">Nenhum indício apontado nas notas deste tipo de gasto.</p>`
+        : itens.slice(0, est.limite).map(a => cartaoIndicio(a, true)).join("") || `<p class="fi-aviso">Nenhum indício com esse filtro.</p>`;
+    }
+    const resto = total - est.limite;
+    lista.innerHTML = html + (resto > 0 ? `<button type="button" class="botao secundario pequeno pt-mais" data-acao="mais">
+      Mostrar mais ${mil(Math.min(LOTE, resto))} (faltam ${mil(resto)})</button>` : "");
+    anuncio.textContent = est.aba === "gab" ? plural(total, "gabinete", "gabinetes") : plural(total, "indício", "indícios");
+  }
+
+  function cartaoIndicio(a, comNome) {
+    const [, m] = est.dados, d = m.dep[a.p] || { nome: `Deputado ${a.p}`, partido: "", uf: "" };
+    const revisao = a.s === "confirmado" ? `<span class="pill confirmado">${esc(a.rl || "Confirmado na revisão")}</span>`
+      : a.s ? `<span class="pill apontado">${esc(a.rl || "Revisado")}</span>` : `<span class="fi-escopo">revisão pendente</span>`;
+    return `<article class="fi-motivo pt-ind">
+      <div class="fi-motivo-cab"><span class="pill g${a.g}">${GRAV[a.g]}</span>${revisao}</div>
+      <h4>${esc(m.regra[a.r] || a.r)}</h4>
+      ${comNome ? `<p class="fi-meta"><button type="button" class="fi-link pt-quem" data-gab="${a.p}">${esc(d.nome)}</button> ${esc(d.partido)}/${esc(d.uf)}</p>` : ""}
+      <p class="pt-valor"><b class="num">${brl(a.v)}</b> em ${plural(a.n, "nota", "notas")} deste tipo</p>
+      <p class="fi-desc">${esc(a.t)}</p>
+      <a class="fi-link" href="alerta/${esc(a.c)}.html">Abrir o indício: notas, regra e revisão</a></article>`;
+  }
+
+  // ---- vista do gabinete: quanto gastou no tipo, comparado à média, e os indícios dele nesse tipo
+  function vistaGab(t, pid) {
+    const [d, m] = est.dados;
+    const i = d.g.findIndex(g => String(g[0]) === String(pid));
+    const dep = m.dep[pid] || { nome: `Deputado ${pid}`, partido: "", uf: "" };
+    titulo.textContent = dep.nome;
+    if (i < 0) {
+      rotulo.textContent = t.nome;
+      corpo.innerHTML = `<p class="fi-aviso">Este gabinete não tem notas deste tipo de gasto.</p>`;
+      return;
+    }
+    const [, v, notas] = d.g[i], media = t.total / d.g.length, maior = Math.max(d.g[0][1], 1);
+    const razao = v / media;
+    const comparacao = razao >= 1.1 ? `${razao.toLocaleString("pt-BR", { maximumFractionDigits: 1 })} vezes a média dos gabinetes`
+      : razao <= .9 ? `${porcento(100 * razao)} da média dos gabinetes` : "perto da média dos gabinetes";
+    const lista = d.a.filter(a => String(a.p) === String(pid));
+    rotulo.textContent = `${t.nome} · ${i + 1}º de ${d.g.length}`;
+    corpo.innerHTML = `<p class="fi-meta">${esc(dep.partido)}/${esc(dep.uf)} · ${i + 1}º maior gasto deste tipo, entre ${plural(d.g.length, "gabinete", "gabinetes")}</p>
+      <div class="pt-numeros" style="--cor: var(--serie-${t.cor || "outros"})">
+        <div><b>${brlCurto(v)}</b><span>neste tipo</span></div>
+        <div><b>${mil(notas)}</b><span>${notas === 1 ? "nota" : "notas"}</span></div>
+        <div><b>${porcento(100 * v / t.total)}</b><span>do total do tipo</span></div></div>
+      <div class="pt-compara">
+        <p>Gastou <strong>${brl(v)}</strong>, ${comparacao}.</p>
+        <div class="pt-escala" role="img" aria-label="Gasto do gabinete comparado à média e ao maior gasto deste tipo">
+          <span class="pt-barra" style="width:${Math.max(100 * v / maior, .8).toFixed(1)}%"></span>
+          <span class="pt-media" style="left:${(100 * media / maior).toFixed(1)}%"></span></div>
+        <p class="pt-legenda"><span><i class="pt-marca" aria-hidden="true"></i>média ${brlCurto(media)}</span><span>maior gasto ${brlCurto(maior)}</span></p>
+      </div>
+      <h3>Indícios nas notas deste tipo (${mil(lista.length)})</h3>
+      ${lista.map(a => cartaoIndicio(a, false)).join("") || `<p class="fi-aviso">Nenhum indício apontado nas notas deste tipo de gasto deste gabinete.</p>`}
+      <div class="fi-acoes"><a class="botao pequeno" href="deputado/${esc(pid)}.html">Abrir o perfil do deputado</a></div>`;
+  }
+
+  // ---- eventos
+  document.addEventListener("click", e => {
+    const a = e.target.closest(".tipo-linha[data-tipo]");
+    if (!a || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    abrir(a.dataset.tipo, a);
+  });
+  corpo.addEventListener("click", e => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    if (b.dataset.aba && b.dataset.aba !== est.aba) {
+      Object.assign(est, { aba: b.dataset.aba, q: "", limite: LOTE });
+      desenharAba();
+    } else if (b.dataset.gab) abrirGab(b.dataset.gab, b);
+    else if (b.dataset.filtro !== undefined) {
+      est.filtro = est.filtro === b.dataset.filtro ? "" : b.dataset.filtro;
+      est.limite = LOTE;
+      corpo.querySelectorAll("[data-filtro]").forEach(c => c.setAttribute("aria-pressed", c.dataset.filtro === est.filtro));
+      desenharLista();
+    } else if (b.id === "pt-so") {
+      est.so = !est.so; est.limite = LOTE;
+      b.setAttribute("aria-pressed", est.so);
+      desenharLista();
+    } else if (b.dataset.acao === "mais") {
+      const antes = est.limite;
+      est.limite += LOTE;
+      desenharLista();
+      // o foco vai ao primeiro item novo, e não volta ao topo
+      const novo = corpo.querySelectorAll("#pt-lista .gab-linha, #pt-lista .pt-ind")[antes];
+      if (novo) (novo.matches("button") ? novo : $(".fi-link, a", novo) || novo).focus();
+    } else if (b.dataset.acao === "tentar") mostrar();
+  });
+  // setas entre as abas, como numa lista de abas
+  corpo.addEventListener("keydown", e => {
+    const b = e.target.closest("[data-aba]");
+    if (!b || !["ArrowLeft", "ArrowRight"].includes(e.key)) return;
+    const outra = corpo.querySelector(`[data-aba="${b.dataset.aba === "gab" ? "ind" : "gab"}"]`);
+    outra.click();
+    outra.focus();
+  });
+  corpo.addEventListener("input", e => {
+    if (e.target.id === "pt-busca") { est.q = e.target.value; est.limite = LOTE; desenharLista(); }
+    else if (e.target.id === "pt-ordem") { est.ordem = e.target.value; est.limite = LOTE; desenharLista(); }
+  });
+  voltar.addEventListener("click", () => history.back());
+  $(".fi-fechar", caixa).addEventListener("click", fechar);
+  // o véu fecha, só quando o toque também começou nele (uma seleção de texto que sai da caixa termina no <dialog>)
+  let comecouNoVeu = false;
+  caixa.addEventListener("pointerdown", e => { comecouNoVeu = e.target === caixa; });
+  caixa.addEventListener("click", e => { if (comecouNoVeu && e.target === caixa) fechar(); comecouNoVeu = false; });
+  // no Android, o Voltar do sistema chega como pedido de fechamento: com a ficha do gabinete aberta, volta ao tipo
+  let porEsc = false;
+  caixa.addEventListener("keydown", e => { porEsc = e.key === "Escape"; });
+  caixa.addEventListener("cancel", e => {
+    if (!porEsc && profundidade() > 1 && e.cancelable) { e.preventDefault(); history.back(); }
+    porEsc = false;
+  });
+  caixa.addEventListener("close", () => { if (profundidade() > 0) fechar(); });
+  addEventListener("popstate", () => {
+    const v = doEndereco();
+    if (v && profundidade() > 0) mostrar({ voltando: true });
+    else if (v) linkDireto();
+    else concluir();
+  });
+  linkDireto();
 }
 
 // confirmados na revisão em destaque; os apontados pelas regras (médios e altos, quase todos sem revisão), à parte e

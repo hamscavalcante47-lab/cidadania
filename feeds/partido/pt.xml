@@ -7,30 +7,6 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Valor declarado maior que o da nota — Fernando Mineiro (PT/RN)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/184d5c80ec191adf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/184d5c80ec191adf.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 29886073 de MOVIDA PARTICIPACOES S.A. (R$ 13.299,10, 29/06/2026): foi declarado R$ 13.299,10, mas o maior valor no documento é R$ 13.299,07. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Dimas Gadelha (PT/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7fb4731a5a0d3aa6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7fb4731a5a0d3aa6.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 24749 de PANTANAL VEÍCULOS LTDA (R$ 11.760,50, 31/10/2023): foi declarado R$ 11.760,50, mas o maior valor no documento é R$ 11.760,45. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Natália Bonavides (PT/RN)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb87ca2c5c38832b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb87ca2c5c38832b.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 493636 de LOCALIZA RENT A CAR S/A (R$ 11.651,40, 31/07/2025): foi declarado R$ 11.651,40, mas o maior valor no documento é R$ 11.651,36. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Florentino Neto (PT/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1bf4a3aa78e5fe4e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1bf4a3aa78e5fe4e.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 0449 de mazz veiculos (R$ 10.000,00, 25/05/2026): foi declarado R$ 10.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Florentino Neto (PT/PI)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/292965ceab28c7ed.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/292965ceab28c7ed.html</id>
 <updated>2026-10-31T00:00:00Z</updated>
@@ -61,23 +37,11 @@
 <category term="Média"/>
 <summary>Gravidade média. nº 0425 de mazz veiculos (R$ 10.000,00, 09/04/2026): o documento traz o(s) CNPJ(s) 09192288000118, e não o do fornecedor declarado (18318945000111). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Valor declarado maior que o da nota — Merlong Solano (PT/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/08873818eefb5163.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/08873818eefb5163.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 06386 de MAZUAD AUTOLOCADORA (R$ 9.500,00, 04/09/2024): foi declarado R$ 9.500,00, mas o maior valor no documento é R$ 2.540,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Florentino Neto (PT/PI)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2d1be425d7085b98.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2d1be425d7085b98.html</id>
 <updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 0355 de mazz veiculos (R$ 9.000,00, 04/11/2025): o documento traz o(s) CNPJ(s) 09192288000118, e não o do fornecedor declarado (18318945000111). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Florentino Neto (PT/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/77dfb1d02b741a3c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/77dfb1d02b741a3c.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 06395 de MAZUAD AUTOLOCADORA (R$ 9.000,00, 06/09/2024): foi declarado R$ 9.000,00, mas o maior valor no documento é R$ 5,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Florentino Neto (PT/PI)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a18286510cea0b0e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a18286510cea0b0e.html</id>
@@ -97,173 +61,17 @@
 <category term="Média"/>
 <summary>Gravidade média. nº 0300 de mazz veiculos (R$ 9.000,00, 08/04/2025): o documento traz o(s) CNPJ(s) 09192288000118, e não o do fornecedor declarado (18318945000111). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Valor declarado maior que o da nota — Vicentinho (PT/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9ce1649073332719.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9ce1649073332719.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 101267 de LOCALIZA RENT A CAR S/A (R$ 7.604,73, 03/11/2025): foi declarado R$ 7.604,73, mas o maior valor no documento é R$ 882,94. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Vicentinho (PT/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6ab5906b40fe592f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6ab5906b40fe592f.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 99904 de LOCALIZA RENT A CAR S/A (R$ 7.436,68, 04/10/2025): foi declarado R$ 7.499,33, mas o maior valor no documento é R$ 755,88. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Fernando Mineiro (PT/RN)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d60d063058dcd347.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d60d063058dcd347.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 447110 de LOCALIZA RENT A CAR S/A (R$ 7.074,86, 28/10/2024): foi declarado R$ 7.074,86, mas o maior valor no documento é R$ 6.902,31. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Nilto Tatto (PT/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41a6beda775c816e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41a6beda775c816e.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 235537 de LOCALIZA RENT A CAR S.A (R$ 5.834,89, 09/09/2023): foi declarado R$ 6.321,39, mas o maior valor no documento é R$ 6.171,39. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2bd932a90b133f3a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2bd932a90b133f3a.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 18651 de LOCACENTER - Locadora de Automóveis Ltda. (R$ 5.800,00, 22/11/2023): foi declarado R$ 5.800,00, mas o maior valor no documento é R$ 290,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/35e988bf6ab1df7e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/35e988bf6ab1df7e.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 18688 de LOCACENTER - Locadora de Automóveis Ltda. (R$ 5.800,00, 21/03/2024): foi declarado R$ 5.800,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4885e4fd3e92153e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4885e4fd3e92153e.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 18839 de LOCACENTER - Locadora de Automóveis Ltda. (R$ 5.800,00, 23/07/2024): foi declarado R$ 5.800,00, mas o maior valor no documento é R$ 250,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/50b9ee22c657061e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/50b9ee22c657061e.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 18697 de LOCACENTER - Locadora de Automóveis Ltda. (R$ 5.800,00, 19/04/2024): foi declarado R$ 5.800,00, mas o maior valor no documento é R$ 290,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7bf34df1a8729c5e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7bf34df1a8729c5e.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 18848 de LOCACENTER - Locadora de Automóveis Ltda. (R$ 5.800,00, 23/08/2024): foi declarado R$ 5.800,00, mas o maior valor no documento é R$ 290,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aab42a10a8b19650.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aab42a10a8b19650.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 18667 de LOCACENTER - Locadora de Automóveis Ltda. (R$ 5.800,00, 18/01/2024): foi declarado R$ 5.800,00, mas o maior valor no documento é R$ 290,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cc95b6bf9f3a4cb4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cc95b6bf9f3a4cb4.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 18805 de LOCACENTER - Locadora de Automóveis Ltda. (R$ 5.800,00, 20/05/2024): foi declarado R$ 5.800,00, mas o maior valor no documento é R$ 250,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/de4b7ff63ac61caa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/de4b7ff63ac61caa.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 18587 de LOCACENTER - Locadora de Automóveis Ltda. (R$ 5.800,00, 26/09/2023): foi declarado R$ 5.800,00, mas o maior valor no documento é R$ 800,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Tadeu Veneri (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/95bb0138b559dd57.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/95bb0138b559dd57.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 577390 de LOCALIZA RENT A CAR SA (R$ 5.665,94, 02/07/2024): foi declarado R$ 5.791,67, mas o maior valor no documento é R$ 620,54. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Ana Paula Lima (PT/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e7fd6e2bf0b7947b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e7fd6e2bf0b7947b.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 83508 de Localiza Rent a Car S.A (R$ 5.173,33, 15/10/2025): foi declarado R$ 5.346,38, mas o maior valor no documento é R$ 490,80. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Rubens Pereira Júnior (PT/MA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/78d7ee7fc3cb9031.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/78d7ee7fc3cb9031.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 848108 de LOCALIZA RENT A CAR SA (R$ 4.990,47, 10/07/2026): foi declarado R$ 5.140,47, mas o maior valor no documento é R$ 898,84. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Kiko Celeguim (PT/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5fa5d5d09a1de8f8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5fa5d5d09a1de8f8.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 181 de Novacar Locadora de Veículos Ltda (R$ 4.600,00, 05/04/2024): foi declarado R$ 4.600,00, mas o maior valor no documento é R$ 50,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Dr. Francisco (PT/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc78aee6b7021a57.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc78aee6b7021a57.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 22812026 de MY CAR LOCAÇÃO DE VEICULOS LTDA (R$ 4.500,00, 23/01/2026): foi declarado R$ 4.500,00, mas o maior valor no documento é R$ 50,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Camila Jara (PT/MS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/42f872794f38f7ed.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/42f872794f38f7ed.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 0004 de S M SBARDELOTTO (R$ 4.350,00, 07/07/2025): foi declarado R$ 4.350,00, mas o maior valor no documento é R$ 435,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Paulo Guedes (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61f999c03ce69f67.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61f999c03ce69f67.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 000204 de LOCADORA SHALON LTDA - ME (R$ 4.300,00, 30/04/2024): foi declarado R$ 4.300,00, mas o maior valor no documento é R$ 4.200,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Paulo Guedes (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b9e62083425d80da.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b9e62083425d80da.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 000194 de LOCADORA SHALON LTDA - ME (R$ 4.300,00, 29/02/2024): foi declarado R$ 4.300,00, mas o maior valor no documento é R$ 4.200,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Fernando Mineiro (PT/RN)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6c7e0f9e3d5ef6ef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6c7e0f9e3d5ef6ef.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 468642 de LOCALIZA RENT A CAR S/A (R$ 4.204,71, 01/03/2025): foi declarado R$ 4.641,91, mas o maior valor no documento é R$ 3.979,30. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Odair Cunha (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/55ea35107feb8247.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/55ea35107feb8247.html</id>
 <updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 003074 de JBPADUA LOCACAO DE VEICULOS LTDA (R$ 4.000,00, 01/06/2023): o documento traz o(s) CNPJ(s) 25275098000110, e não o do fornecedor declarado (07326841000132). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Valor declarado maior que o da nota — Florentino Neto (PT/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/896b4e3465deddf9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/896b4e3465deddf9.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 07153 de MAZUAD AUTOLOCADORA (R$ 4.000,00, 18/03/2026): foi declarado R$ 4.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Kiko Celeguim (PT/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d76b4c92de64bcf6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d76b4c92de64bcf6.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 178 de Novacar Locadora de Veículos Ltda (R$ 4.000,00, 11/03/2024): foi declarado R$ 4.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Vicentinho (PT/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c87b54e7be47e289.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c87b54e7be47e289.html</id>
 <updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 257537671 de MOVIDA LOCAÇÃO DE VEÍCULOS LTDA (R$ 3.922,72, 03/03/2025): o documento traz o(s) CNPJ(s) 31551765000143, e não o do fornecedor declarado (21314559003858). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Camila Jara (PT/MS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/57de64d8fc4c3e50.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/57de64d8fc4c3e50.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 0001 de S M SBARDELOTTO (R$ 3.800,00, 30/05/2024): foi declarado R$ 3.800,00, mas o maior valor no documento é R$ 380,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Camila Jara (PT/MS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9b015e69a2769fd9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9b015e69a2769fd9.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 0001 de S M SBARDELOTTO (R$ 3.800,00, 30/12/2024): foi declarado R$ 3.800,00, mas o maior valor no documento é R$ 380,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Camila Jara (PT/MS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f61cbe4f6edc9378.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f61cbe4f6edc9378.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 0002 de S M SBARDELOTTO (R$ 3.800,00, 30/09/2024): foi declarado R$ 3.800,00, mas o maior valor no documento é R$ 380,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Joseildo Ramos (PT/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff4eca00f1fc721b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff4eca00f1fc721b.html</id>
@@ -272,39 +80,231 @@
 <summary>Gravidade média. nº 28696 de PANTANAL VEÍCULOS LTDA (R$ 3.450,00, 17/03/2026): o documento traz o(s) CNPJ(s) 13516648000167, e não o do fornecedor declarado (07319323000191). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Rogério Correia (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c15a8e1fa75287de.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c15a8e1fa75287de.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4660fdeba4b6a3de.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c15a8e1fa75287de.html</id>
 <updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 034662 de PONTUAL LOC CAR LTDA (R$ 3.295,00, 31/08/2026): foi declarado R$ 6.590,00, mas o maior valor no documento é R$ 3.295,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Vicentinho (PT/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d5d776ef6379d17d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d5d776ef6379d17d.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 042558 de UNIDAS LOCADORA S.A (R$ 3.007,52, 08/04/2023): foi declarado R$ 3.037,52, mas o maior valor no documento é R$ 1.374,70. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Dr. Francisco (PT/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/74a4a54354e481e2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/74a4a54354e481e2.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 22802026 de MY CAR LOCAÇÃO DE VEICULOS LTDA (R$ 3.000,00, 23/01/2026): foi declarado R$ 3.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Merlong Solano (PT/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b847ae7f6bfaa3c7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b847ae7f6bfaa3c7.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 06385 de MAZUAD AUTOLOCADORA (R$ 3.000,00, 04/09/2024): foi declarado R$ 3.000,00, mas o maior valor no documento é R$ 2.004,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Dr. Francisco (PT/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dacd42b799b92de9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dacd42b799b92de9.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 22792026 de MY CAR LOCAÇÃO DE VEICULOS LTDA (R$ 3.000,00, 23/01/2026): foi declarado R$ 3.000,00, mas o maior valor no documento é R$ 0,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 034662 de PONTUAL LOC CAR LTDA (R$ 3.295,00, 31/08/2026): foi declarado R$ 6.590,00, mas o maior valor lido no documento é R$ 3.295,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Odair Cunha (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b112f5556a960121.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b112f5556a960121.html</id>
 <updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 003094 de JBPADUA LOCACAO DE VEICULOS LTDA (R$ 2.800,00, 01/07/2023): o documento traz o(s) CNPJ(s) 25275098000110, e não o do fornecedor declarado (07326841000132). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Natália Bonavides (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/338c0d7481bca121.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/338c0d7481bca121.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 27102453/1 de MOVIDA LOCAÇÃO DE VEÍCULOS S.A (R$ 1.040,93, 28/07/2025): o documento traz o(s) CNPJ(s) 25072374027777, e não o do fornecedor declarado (21314559000166). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Padre João (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2158aca9a6fb5b14.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2158aca9a6fb5b14.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 301546651 de MOVIDA PARTICIPACOES S.A. (R$ 570,98, 30/06/2026): o documento traz o(s) CNPJ(s) 21314559005206, e não o do fornecedor declarado (07976147000160). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Vicentinho (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5aae8205531c5a1e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5aae8205531c5a1e.html</id>
+<updated>2026-10-31T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 23604321 de UNIDAS LOCADORA S.A (R$ 438,18, 11/04/2024): o documento traz o(s) CNPJ(s) 07976147000160, 09227084000175, e não o do fornecedor declarado (45736131017307). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Camila Jara (PT/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b44c325bb43a4762.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b44c325bb43a4762.html</id>
+<updated>2026-10-28T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de SMART VEICULOS LTDA foi anexado a 3 reembolsos. Despesas declaradas: nº 5347 (R$ 3.500,00, 24/07/2026); nº 5347 (R$ 3.500,00, 24/07/2026); nº 5347 (R$ 0,00, 24/07/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Carlos Zarattini (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/35d6a5e4df466611.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/35d6a5e4df466611.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 20286325 de MOVIDA LOCACAO DE VEICULOS S.A. (24/08/2023): 2 lançamentos em 2 competência(s); documento R$ 2.919,60, valor líquido R$ 5.839,20, restituições R$ 0,00, saldo R$ 5.839,20 (excedente R$ 2.919,60). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Paulão (PT/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8eff6ebd666caa47.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8eff6ebd666caa47.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 278 de C5 SERVIÇOS DE COMUNICAÇÃO LTDA (27/10/2025): 2 lançamentos em 1 competência(s); documento R$ 2.500,00, valor líquido R$ 5.000,00, restituições R$ 0,00, saldo R$ 5.000,00 (excedente R$ 2.500,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Paulo Guedes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8d0ffd56b3da80c5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8d0ffd56b3da80c5.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. GELSON APARECIDO OLIVEIRA REIS está inapta desde 07/06/2022, mas emitiu 1 nota(s) depois disso (R$ 2.000,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Dr. Francisco (PT/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41c4181edd055d20.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41c4181edd055d20.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 20735229 de MOVIDA LOCAÇÃO DE VEICULOS S.A (27/07/2023): 2 lançamentos em 2 competência(s); documento R$ 1.969,50, valor líquido R$ 3.939,00, restituições R$ 0,00, saldo R$ 3.939,00 (excedente R$ 1.969,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Dr. Francisco (PT/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/56d5f450123eeba0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/56d5f450123eeba0.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 20735229 de MOVIDA LOCAÇÃO DE VEICULOS S.A (15/09/2023): 2 lançamentos em 2 competência(s); documento R$ 1.969,50, valor líquido R$ 3.939,00, restituições R$ 0,00, saldo R$ 3.939,00 (excedente R$ 1.969,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Natália Bonavides (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6fba9cbd3cd03017.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6fba9cbd3cd03017.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. 99 TECNOLOGIA LTDA está baixada desde 17/05/2023, mas emitiu 54 nota(s) depois disso (R$ 947,40). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4d82918f4d5ec738.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4d82918f4d5ec738.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. VIVO S.A. está baixada desde 01/07/2013, mas emitiu 2 nota(s) depois disso (R$ 918,43). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Gleisi Hoffmann (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ed592b1dd5ee0a00.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ed592b1dd5ee0a00.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. HOTEIS ELO - MARINGA LTDA está inapta desde 09/06/2022, mas emitiu 3 nota(s) depois disso (R$ 883,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Pedro Uczai (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cbae4d4778f8471c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cbae4d4778f8471c.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 3982 de ZOMM VIDEO COMMUNICATIONS INC (29/05/2023): 2 lançamentos em 1 competência(s); documento R$ 575,86, valor líquido R$ 1.151,72, restituições R$ 0,00, saldo R$ 1.151,72 (excedente R$ 575,86). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Camila Jara (PT/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/861332eee5e418c1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/861332eee5e418c1.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 171806625/2025-7 de prefeitura municipal de campo grande (14/04/2025): 2 lançamentos em 1 competência(s); documento R$ 526,99, valor líquido R$ 1.053,98, restituições R$ 0,00, saldo R$ 1.053,98 (excedente R$ 526,99). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Rogério Correia (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e6b4d9e35aecda57.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e6b4d9e35aecda57.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 14978 de STATIC TONER DO BRASIL LTDA. (09/12/2024): 2 lançamentos em 1 competência(s); documento R$ 385,86, valor líquido R$ 771,72, restituições R$ 0,00, saldo R$ 771,72 (excedente R$ 385,86). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Jorge Solla (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/328b1bd441813f31.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/328b1bd441813f31.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. ASSOCIACAO DOS TAXISTAS DA BAHIA está inapta desde 07/11/2018, mas emitiu 9 nota(s) depois disso (R$ 385,69). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Welter (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/49008d80c2a08073.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/49008d80c2a08073.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. HOTEIS ELO - MARINGA LTDA está inapta desde 09/06/2022, mas emitiu 2 nota(s) depois disso (R$ 380,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Paulo Guedes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/badedda2f889e5a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/badedda2f889e5a7.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 191261 de DRA4 DERIVADOS DE PETROLEO LTDA (29/06/2026): 2 lançamentos em 1 competência(s); documento R$ 358,46, valor líquido R$ 716,92, restituições R$ 0,00, saldo R$ 716,92 (excedente R$ 358,46). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Natália Bonavides (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/860e3bbd3b0a788b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/860e3bbd3b0a788b.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. TIM CELULAR S.A. está baixada desde 31/10/2018, mas emitiu 3 nota(s) depois disso (R$ 331,49). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41ec89d65ab4f5d4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41ec89d65ab4f5d4.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 9 de PREFEITURA DA CIDADE DO RECIFE (10/10/2025): 2 lançamentos em 1 competência(s); documento R$ 324,07, valor líquido R$ 648,14, restituições R$ 0,00, saldo R$ 648,14 (excedente R$ 324,07). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8c1ff461322c69c6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8c1ff461322c69c6.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 6 de PREFEITURA DA CIDADE DO RECIFE (10/07/2025): 2 lançamentos em 1 competência(s); documento R$ 324,07, valor líquido R$ 648,14, restituições R$ 0,00, saldo R$ 648,14 (excedente R$ 324,07). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df7c89fecacd4af9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df7c89fecacd4af9.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 8 de PREFEITURA DA CIDADE DO RECIFE (10/09/2025): 2 lançamentos em 1 competência(s); documento R$ 324,07, valor líquido R$ 648,14, restituições R$ 0,00, saldo R$ 648,14 (excedente R$ 324,07). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Dandara (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4936d54c61a46535.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4936d54c61a46535.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 5 de Jocilene Carneiro da Silva Soares (10/05/2023): 2 lançamentos em 2 competência(s); documento R$ 300,00, valor líquido R$ 600,00, restituições R$ 0,00, saldo R$ 600,00 (excedente R$ 300,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Kiko Celeguim (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6c356d37c0c74993.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6c356d37c0c74993.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 10 de Jocilene Carneiro da Silva Soares (09/10/2023): 2 lançamentos em 2 competência(s); documento R$ 300,00, valor líquido R$ 600,00, restituições R$ 0,00, saldo R$ 600,00 (excedente R$ 300,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Kiko Celeguim (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/783c0da5ace30dd8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/783c0da5ace30dd8.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 11 de Jocilene Carneiro da Silva Soares (10/11/2023): 2 lançamentos em 2 competência(s); documento R$ 300,00, valor líquido R$ 600,00, restituições R$ 0,00, saldo R$ 600,00 (excedente R$ 300,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Dandara (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/95954fde47c6d833.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/95954fde47c6d833.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 11 de Jocilene Carneiro da Silva Soares (10/11/2023): 2 lançamentos em 2 competência(s); documento R$ 300,00, valor líquido R$ 600,00, restituições R$ 0,00, saldo R$ 600,00 (excedente R$ 300,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Dandara (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b3daa40a1e854c46.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b3daa40a1e854c46.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 10 de Jocilene Carneiro da Silva Soares (09/10/2023): 2 lançamentos em 2 competência(s); documento R$ 300,00, valor líquido R$ 600,00, restituições R$ 0,00, saldo R$ 600,00 (excedente R$ 300,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Kiko Celeguim (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c6e7ea973ee64ad6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c6e7ea973ee64ad6.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 5 de Jocilene Carneiro da Silva Soares (10/05/2023): 2 lançamentos em 2 competência(s); documento R$ 300,00, valor líquido R$ 600,00, restituições R$ 0,00, saldo R$ 600,00 (excedente R$ 300,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Camila Jara (PT/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4062347bdd241277.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4062347bdd241277.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 452360 de SOUZA &amp;amp; MIRANDA LTDA (14/07/2026): 2 lançamentos em 1 competência(s); documento R$ 293,05, valor líquido R$ 586,10, restituições R$ 0,00, saldo R$ 586,10 (excedente R$ 293,05). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Camila Jara (PT/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/103ad0b52a091892.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/103ad0b52a091892.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 1055803 de POSTO CARANDA LOCATELLI LTDA (17/07/2026): 2 lançamentos em 1 competência(s); documento R$ 284,50, valor líquido R$ 569,00, restituições R$ 0,00, saldo R$ 569,00 (excedente R$ 284,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Fernando Mineiro (PT/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5cb3a20c1be6302c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5cb3a20c1be6302c.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. UBER DO BRASIL TECNOLOGIA LTDA. está baixada desde 26/02/2021, mas emitiu 7 nota(s) depois disso (R$ 276,06). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Arlindo Chinaglia (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/86bfdca503de2445.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/86bfdca503de2445.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 39040 de JAPAN COPY EQUIPAMENTOS PARA ESC.LTDA-EPP (01/10/2025): 2 lançamentos em 1 competência(s); documento R$ 260,00, valor líquido R$ 520,00, restituições R$ 0,00, saldo R$ 520,00 (excedente R$ 260,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota emitida por empresa baixada, inapta ou suspensa — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a19a1a8310fe2969.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a19a1a8310fe2969.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. ASSOCIACAO SAO PAULO DE TAXI está inapta desde 23/10/2018, mas emitiu 4 nota(s) depois disso (R$ 257,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Reginete Bispo (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/52078c7afcd3f1e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/52078c7afcd3f1e3.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 203963 de ABASTECEDORA DE COMBUSTIVEIS PORTO ALEGRE LTDA (25/07/2024): 2 lançamentos em 1 competência(s); documento R$ 255,94, valor líquido R$ 511,88, restituições R$ 0,00, saldo R$ 511,88 (excedente R$ 255,94). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Paulo Guedes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4648b103c62b9c78.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4648b103c62b9c78.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 188447 de DRA4 DERIVADOS DE PETROLEO LTDA (25/06/2026): 2 lançamentos em 1 competência(s); documento R$ 369,33, valor líquido R$ 623,66, restituições R$ 0,00, saldo R$ 623,66 (excedente R$ 254,33). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Possível reembolso repetido após conciliação mensal — Camila Jara (PT/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ab9f37e34d8831fd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ab9f37e34d8831fd.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 819787 de AUTO POSTO PREMIUM LTDA EPP (26/04/2024): 2 lançamentos em 1 competência(s); documento R$ 250,56, valor líquido R$ 501,12, restituições R$ 0,00, saldo R$ 501,12 (excedente R$ 250,56). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>
