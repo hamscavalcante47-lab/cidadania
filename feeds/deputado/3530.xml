@@ -7,10 +7,16 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Possível reembolso repetido após conciliação mensal — Silvye Alves (UNIÃO/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/53ab690ee48bc00b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/53ab690ee48bc00b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
+<title>Dados da chave de acesso não batem com a despesa declarada — Silvye Alves (UNIÃO/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e79ef98f6b84a4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e79ef98f6b84a4.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. nº 89170 de POSTO 4o RADIAL LTDA (14/05/2024): 2 lançamentos em 1 competência(s); documento R$ 150,00, valor líquido R$ 300,00, restituições R$ 0,00, saldo R$ 300,00 (excedente R$ 150,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. nº 000089170 de POSTO 4o RADIAL LTDA (R$ 150,00, 14/05/2024): o emissor da nota é o CNPJ 27.309.823/0001-50, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Silvye Alves (UNIÃO/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3e82cab8eca67515.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3e82cab8eca67515.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000089170 de POSTO 4o RADIAL LTDA (R$ 150,00, 14/05/2024): o documento traz o(s) CNPJ(s) 27309823000150, e não o do fornecedor declarado (42380935000190). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

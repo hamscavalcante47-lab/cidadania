@@ -7,22 +7,16 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Claudio Cajado (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c70360d35d677a72.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c70360d35d677a72.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 004/2025 de JF COMERCIO E SERVICOS LOCATICIOS LTDA (R$ 12.000,00, 02/04/2025): o documento traz o(s) CNPJ(s) 53494608000186, e não o do fornecedor declarado (58035724000150). Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Claudio Cajado (PP/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1cf30c194a63321.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f1cf30c194a63321.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR foi anexado a 2 reembolsos. Despesas declaradas: nº 5649110 (R$ 398,31, 01/09/2025); nº 5649110 (R$ 398,31, 01/09/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Claudio Cajado (PP/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/595319d7009797bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/595319d7009797bd.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 5649110 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (01/09/2025): 2 lançamentos em 1 competência(s); documento R$ 398,31, valor líquido R$ 796,62, restituições R$ 0,00, saldo R$ 796,62 (excedente R$ 398,31). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Claudio Cajado (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b67f0637c5bfa098.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b67f0637c5bfa098.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 5649110 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (01/11/2025): 2 lançamentos em 2 competência(s); documento R$ 398,31, valor líquido R$ 695,89, restituições R$ 0,00, saldo R$ 695,89 (excedente R$ 297,58). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

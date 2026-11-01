@@ -7,11 +7,17 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Orlando Silva (PCdoB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bd225130bac6f48c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bd225130bac6f48c.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 264411301 de MOVIDA LOCACAO DE VEICULOS S.A. (R$ 4.158,19, 05/06/2025): o documento traz o(s) CNPJ(s) 21314559000166, 21314559003696, e não o do fornecedor declarado (07976147000160). Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Márcio Jerry (PCdoB/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ced911644f769913.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ced911644f769913.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de AMRB- ADEMAR MARIANO RONIERD BARROS CONSULTORIA IMOBILIÁRIA foi anexado a 2 reembolsos. Despesas declaradas: nº 7518 (R$ 1.690,00, 01/11/2024); nº 7518 (R$ 1.690,00, 01/11/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Daniel Almeida (PCdoB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/43fd2e1ff0e529bf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/43fd2e1ff0e529bf.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONDOMINIO EDIFICIO EMPRESARIAL ITAIGARA foi anexado a 2 reembolsos. Despesas declaradas: nº 203 (R$ 924,35, 23/01/2025); nº 203 (R$ 924,35, 23/01/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Márcio Jerry (PCdoB/MA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/afb0e8c6541c57f6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb821b889d0878dd.html</id>

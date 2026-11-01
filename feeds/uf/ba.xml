@@ -7,11 +7,35 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Claudio Cajado (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c70360d35d677a72.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c70360d35d677a72.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 004/2025 de JF COMERCIO E SERVICOS LOCATICIOS LTDA (R$ 12.000,00, 02/04/2025): o documento traz o(s) CNPJ(s) 53494608000186, e não o do fornecedor declarado (58035724000150). Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b957b4d22e559f41.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b957b4d22e559f41.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MARINALVA ALVES DE OLIVEIRA - ME foi anexado a 2 reembolsos. Despesas declaradas: nº 00000596 (R$ 1.000,00, 02/10/2025); nº 596 (R$ 1.000,00, 02/10/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Daniel Almeida (PCdoB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/43fd2e1ff0e529bf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/43fd2e1ff0e529bf.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONDOMINIO EDIFICIO EMPRESARIAL ITAIGARA foi anexado a 2 reembolsos. Despesas declaradas: nº 203 (R$ 924,35, 23/01/2025); nº 203 (R$ 924,35, 23/01/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Claudio Cajado (PP/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1cf30c194a63321.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f1cf30c194a63321.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR foi anexado a 2 reembolsos. Despesas declaradas: nº 5649110 (R$ 398,31, 01/09/2025); nº 5649110 (R$ 398,31, 01/09/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Waldenor Pereira (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2e27c51612b7adee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2e27c51612b7adee.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 0003 (R$ 29,99, 04/07/2025); nº 0003 (R$ 29,99, 04/07/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Waldenor Pereira (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/18f81cec356c7139.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/18f81cec356c7139.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 0002 (R$ 21,94, 03/07/2025); nº 0002 (R$ 21,94, 03/07/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Joseildo Ramos (PT/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff4eca00f1fc721b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff4eca00f1fc721b.html</id>
@@ -36,12 +60,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 39554 de AIR BP PETROBAHIA LTDA (21/08/2025): 2 lançamentos em 1 competência(s); documento R$ 2.393,04, valor líquido R$ 4.786,08, restituições R$ 0,00, saldo R$ 4.786,08 (excedente R$ 2.393,04). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Rogéria Santos (REPUBLICANOS/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/baf25c8302394ba4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/baf25c8302394ba4.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº A-733/783 de CONDOMINIO CENTRO EMPRESARIAL IGUATEMI (18/04/2023): 2 lançamentos em 2 competência(s); documento R$ 1.148,00, valor líquido R$ 2.296,00, restituições R$ 0,00, saldo R$ 2.296,00 (excedente R$ 1.148,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — João Leão (PP/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7477f1182490a106.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7477f1182490a106.html</id>
@@ -79,24 +97,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 193287 de CONDOMINIO MUNDO PLAZA (05/08/2023): 2 lançamentos em 2 competência(s); documento R$ 877,79, valor líquido R$ 1.587,92, restituições R$ 0,00, saldo R$ 1.587,92 (excedente R$ 710,13). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Antonio Brito (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0b8bf233bba833af.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0b8bf233bba833af.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6454879 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (10/08/2024): 2 lançamentos em 2 competência(s); documento R$ 488,82, valor líquido R$ 977,64, restituições R$ 0,00, saldo R$ 977,64 (excedente R$ 488,82). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Antonio Brito (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8b6ef026c7dc3fc4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8b6ef026c7dc3fc4.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6454887 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (10/08/2024): 2 lançamentos em 2 competência(s); documento R$ 488,82, valor líquido R$ 977,64, restituições R$ 0,00, saldo R$ 977,64 (excedente R$ 488,82). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Antonio Brito (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c517ee5ed0d5dafc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c517ee5ed0d5dafc.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6454860 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (10/08/2024): 2 lançamentos em 2 competência(s); documento R$ 488,82, valor líquido R$ 977,64, restituições R$ 0,00, saldo R$ 977,64 (excedente R$ 488,82). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Roberta Roma (PL/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7b4f58e1d2f2c566.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5556c53351e1f73b.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -115,12 +115,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 5649110 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (01/09/2025): 2 lançamentos em 1 competência(s); documento R$ 398,31, valor líquido R$ 796,62, restituições R$ 0,00, saldo R$ 796,62 (excedente R$ 398,31). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Antonio Brito (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e636252f85a1eeca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e636252f85a1eeca.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6454860 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (05/06/2025): 2 lançamentos em 2 competência(s); documento R$ 512,65, valor líquido R$ 907,33, restituições R$ 0,00, saldo R$ 907,33 (excedente R$ 394,68). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Jorge Solla (PT/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/328b1bd441813f31.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/328b1bd441813f31.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -128,52 +122,10 @@
 <summary>Gravidade alta. ASSOCIACAO DOS TAXISTAS DA BAHIA está inapta desde 07/11/2018, mas emitiu 9 nota(s) depois disso (R$ 385,69). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Leo Prates (REPUBLICANOS/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b0adaffbacd68e82.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b0adaffbacd68e82.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1404443 de Condomínio Salvador Prime -Work sala 1404 (25/07/2024): 2 lançamentos em 1 competência(s); documento R$ 356,39, valor líquido R$ 712,78, restituições R$ 0,00, saldo R$ 712,78 (excedente R$ 356,39). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Leo Prates (REPUBLICANOS/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0042807d8eb35585.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0042807d8eb35585.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 4B50J5259 de MUNICIPIO DE SALVADOR (06/03/2024): 2 lançamentos em 2 competência(s); documento R$ 307,87, valor líquido R$ 615,74, restituições R$ 0,00, saldo R$ 615,74 (excedente R$ 307,87). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Leo Prates (REPUBLICANOS/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/39117a97c23fd671.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/39117a97c23fd671.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 4B50J5454 de MUNICIPIO DE SALVADOR (06/03/2024): 2 lançamentos em 2 competência(s); documento R$ 307,87, valor líquido R$ 615,74, restituições R$ 0,00, saldo R$ 615,74 (excedente R$ 307,87). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Claudio Cajado (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b67f0637c5bfa098.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b67f0637c5bfa098.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 5649110 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (01/11/2025): 2 lançamentos em 2 competência(s); documento R$ 398,31, valor líquido R$ 695,89, restituições R$ 0,00, saldo R$ 695,89 (excedente R$ 297,58). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Leo Prates (REPUBLICANOS/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a7947496aac5aea1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a7947496aac5aea1.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 1/11 de MUNICIPIO DE SALVADOR (27/02/2023): 2 lançamentos em 1 competência(s); documento R$ 294,25, valor líquido R$ 588,50, restituições R$ 0,00, saldo R$ 588,50 (excedente R$ 294,25). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Antonio Brito (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0edc86cd19ced978.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0edc86cd19ced978.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6454887 de MUNICIPIO DE SALVADOR (05/08/2026): 2 lançamentos em 2 competência(s); documento R$ 535,52, valor líquido R$ 824,60, restituições R$ 0,00, saldo R$ 824,60 (excedente R$ 289,08). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — João Leão (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4e53b88cae1603d9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4e53b88cae1603d9.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 676.805-9 de SECRETARIA DE ESTADO DE FAZENDA DA BAHIA (18/09/2024): 2 lançamentos em 2 competência(s); documento R$ 267,40, valor líquido R$ 534,80, restituições R$ 0,00, saldo R$ 534,80 (excedente R$ 267,40). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — João Leão (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/77b6f4b6fca1b222.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/77b6f4b6fca1b222.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6768067 de SECRETARIA DE ESTADO DE FAZENDA DA BAHIA (18/09/2024): 2 lançamentos em 2 competência(s); documento R$ 267,40, valor líquido R$ 534,80, restituições R$ 0,00, saldo R$ 534,80 (excedente R$ 267,40). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Raimundo Costa (PSD/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c21cbe2fe60151d2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c21cbe2fe60151d2.html</id>
@@ -253,12 +205,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. 99 TECNOLOGIA LTDA está baixada desde 17/05/2023, mas emitiu 1 nota(s) depois disso (R$ 28,62). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Valmir Assunção (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c3f0eb8bc7e7ca89.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c3f0eb8bc7e7ca89.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 2497 de UBER DO BRASIL TECNOLOGIA LTDA. (17/06/2023): 2 lançamentos em 1 competência(s); documento R$ 24,97, valor líquido R$ 49,94, restituições R$ 0,00, saldo R$ 49,94 (excedente R$ 24,97). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Waldenor Pereira (PT/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/57996833ae3ab49d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/57996833ae3ab49d.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -306,5 +252,59 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. POSTO DE COMBUSTIVEIS JAGUARIBE LTDA, HP COMERCIO E DERIVADOS DE PETROLEO LTDA, ML COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA, RPMP COMERCIO DE COMBUSTIVEIS LTDA, PELICANO COMERCIO DE COMBUSTIVEIS LUBRIFICANTES E SERVICOS LTDA, GAIVOTA COMERCIO DE COMBUSTIVEIS LUBRIFICANTES E SERVICOS LTDA., MP COMERCIO DE COMBUSTIVEIS LTDA, POSTO GARIBALDI REVENDEDORA DE COMBUSTIVEIS E LUBRIFICANTES LTDA, POSTO DE GASOLINA MUNIZ LTDA, GS REVENDEDORA DE COMBUSTIVEIS LTDA, SAO RAFAEL POSTOS DE SERVICOS LTDA, POSTO DE COMBUSTIVEIS JAUA LTDA, CAMPO AZUL COMERCIO DE COMBUSTIVEIS LTDA, POSTO JACUIPE COMERCIO DE COMBUSTIVEIS LTDA, POSTO DE COMBUSTIVEIS BUSCA VIDA LTDA, POSTO DE COMBUSTIVEIS JOAO DURVAL LTDA, COMERCIO DE COMBUSTIVEIS PACATUBA LTDA, GARDA COMERCIO DE COMBUSTIVEIS LTDA, COMERCIO DE COMBUSTIVEIS PARADA DO ENGENHO LTDA, TORRES COMERCIO E DERIVADOS DE PETROLEO LTDA, COMERCIO DE COMBUSTIVEIS SANTO ESTEVAO LTDA, POSTO DE COMBUSTIVEIS ORLANDO GOMES LTDA, ALPHA COMERCIO E DERIVADOS DE PETROLEO LTDA e RODRIGUES TORRES COMERCIO E DERIVADOS DE PETROLEO LTDA: sócio em comum Jaguar Holding Ltda; juntas receberam R$ 65.181,49. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Valmir Assunção (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c78a90e3e2b40013.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c78a90e3e2b40013.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. POSTO DE COMBUSTIVEIS PORTAL DE SALVADOR LTDA. e POSTO DE COMBUSTIVEIS RODOVIARIA LTDA.: sócio em comum Maria Nivea Tavares Do Rosario; juntas receberam R$ 48.304,22. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Bacelar (PV/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b2970f2206d3498b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b2970f2206d3498b.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. POSTO DE ABASTECIMENTO E SERVICOS NOTA 10 LTDA, HP COMERCIO E DERIVADOS DE PETROLEO LTDA, MP COMERCIO DE COMBUSTIVEIS LTDA, POSTO DO CRISTO DE COMBUSTIVEIS LTDA, POSTO DE COMBUSTIVEIS PITANGUEIRAS LTDA., BOCA DA MATA AUTO POSTO LTDA., COMERCIO DE COMBUSTIVEIS PACATUBA LTDA, COMERCIO DE COMBUSTIVEIS JAQUEIRA LTDA e RODRIGUES TORRES COMERCIO E DERIVADOS DE PETROLEO LTDA: sócio em comum Jaguar Holding Ltda; juntas receberam R$ 47.696,69. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Charles Fernandes (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd2a1097babc2c8c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd2a1097babc2c8c.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. POSTO GRUTA DA LAPA LTDA, POSTO SEABRA LTDA, MACAUBENSE COMERCIO DE DERIVADOS DE PETROLEO LTDA e POSTO MACAUBENSE LTDA: sócio em comum Robinson Camargo Ribeiro Nunes; juntas receberam R$ 37.931,33. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Lídice da Mata (PSB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6016cbf8de3b7c87.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6016cbf8de3b7c87.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. POSTO DE COMBUSTIVEIS JAGUARIBE LTDA, HP COMERCIO E DERIVADOS DE PETROLEO LTDA, ALBATROZ COMERCIO DE COMBUSTIVEIS, LUBRIFICANTES E SERVICOS DE LAVAGEM LTDA, MP COMERCIO DE COMBUSTIVEIS LTDA, POSTO GARIBALDI REVENDEDORA DE COMBUSTIVEIS E LUBRIFICANTES LTDA, POSTO DO CRISTO DE COMBUSTIVEIS LTDA, CAMPO AZUL COMERCIO DE COMBUSTIVEIS LTDA, ENTREPOSTO COMERCIAL DE AMARALINA LTDA, TORRES COMERCIO E DERIVADOS DE PETROLEO LTDA, POSTO DE COMBUSTIVEIS ORLANDO GOMES LTDA, ALPHA COMERCIO E DERIVADOS DE PETROLEO LTDA e RODRIGUES TORRES COMERCIO E DERIVADOS DE PETROLEO LTDA: sócio em comum Jaguar Holding Ltda; juntas receberam R$ 34.411,82. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Paulo Magalhães (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/75983bd777966e03.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/75983bd777966e03.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. POSTO DE COMBUSTIVEIS JAGUARIBE LTDA, POSTO DE ABASTECIMENTO E SERVICOS NOTA 10 LTDA, HP COMERCIO E DERIVADOS DE PETROLEO LTDA, RPMP COMERCIO DE COMBUSTIVEIS LTDA, POSTO GARIBALDI REVENDEDORA DE COMBUSTIVEIS E LUBRIFICANTES LTDA, POSTO DE GASOLINA MUNIZ LTDA, COMERCIO DE CARBURANTES E LUBRIFICANTES ITAPARICA LTDA, SAO RAFAEL POSTOS DE SERVICOS LTDA, BOCA DA MATA AUTO POSTO LTDA., ENTREPOSTO COMERCIAL DE AMARALINA LTDA, TORRES COMERCIO E DERIVADOS DE PETROLEO LTDA, ALPHA COMERCIO E DERIVADOS DE PETROLEO LTDA, POSTO DE COMBUSTIVEIS SANTOS DUMONT LTDA e RODRIGUES TORRES COMERCIO E DERIVADOS DE PETROLEO LTDA: sócio em comum Jaguar Holding Ltda; juntas receberam R$ 33.201,64. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Charles Fernandes (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/366ebd31368109fe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/366ebd31368109fe.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. REVENDEDORA DE COMBUSTIVEIS L.J. LTDA, ICR COMBUSTIVEIS LTDA, AUTO POSTO MAXX XVI LTDA, POSTO DE COMBUSTIVEIS MAXX XII LTDA e AUTO POSTO MAXX XIII LTDA: sócio em comum Alcides Cardoso Coutinho Neto; juntas receberam R$ 32.615,20. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Antonio Brito (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e96228bf371d3f60.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e96228bf371d3f60.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. POSTO DE COMBUSTIVEIS LTDA., POSTO DE COMBUSTIVEIS PORTAL DE SALVADOR LTDA., POSTO DE COMBUSTIVEIS RODOVIARIA LTDA. e EN COMBUSTIVEL LTDA: sócio em comum En Participacoes Ltda.; juntas receberam R$ 31.982,99. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Roberta Roma (PL/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e0551b4acc8233ef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e0551b4acc8233ef.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ECOPOSTOS - COMBUSTIVEIS E SERVICOS LTDA, EUROPOSTO COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA e POSTO DIQUE COMBUSTIVEIS LTDA.: sócio em comum Erico Gouveia De Oliveira; juntas receberam R$ 30.397,52. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Dal Barreto (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ba45502c3c829b84.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ba45502c3c829b84.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. GIRLAN PRODUCAO E VEICULACAO DE PLACAS LTDA e GIRLAN MIDIA E PRODUCAO LTDA: sócio em comum Girlan Claudio Sampaio Porto; juntas receberam R$ 30.320,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

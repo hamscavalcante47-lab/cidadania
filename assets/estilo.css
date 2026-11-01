@@ -1237,9 +1237,12 @@ html:has(dialog.ficha-indicio[open]) { overflow: hidden; scrollbar-gutter: stabl
   .linha .foto { width: 40px; height: 40px; }
   .linha .direita { grid-column: 2; text-align: left; }
   .pills { justify-content: flex-start; }
-  .ranking a { grid-template-columns: 28px 40px minmax(0, 1fr) auto; padding: 12px 10px; gap: 10px; }
+  /* o valor e a comparação com o limite descem para baixo do nome: lado a lado, espremiam o nome em poucos pixels */
+  .ranking a { grid-template-columns: 28px 40px minmax(0, 1fr); padding: 12px 10px; gap: 4px 10px; }
+  .ranking .pos, .ranking .foto { grid-row: span 2; }
   .ranking .foto { width: 40px; height: 40px; }
   .ranking .trilho { display: none; }
+  .ranking .valores { grid-column: 3; text-align: left; white-space: normal; }
   .barra { grid-template-columns: 1fr auto; }
   .barra .trilho { grid-column: 1 / -1; grid-row: 2; }
   .mapa-br .sigla { font-size: 30px; }

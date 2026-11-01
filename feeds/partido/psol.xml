@@ -7,11 +7,29 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Erika Hilton (PSOL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f622fd84c761a961.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f622fd84c761a961.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 514820 de LOCALIZA RENT A CAR S/A (R$ 6.512,49, 08/03/2025): o documento traz o(s) CNPJ(s) 16577631000299, e não o do fornecedor declarado (16670085001399). Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Chico Alencar (PSOL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7af461d20ad62538.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7af461d20ad62538.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 2503 (R$ 49,96, 25/03/2024); nº 2503 (R$ 46,97, 25/03/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Duda Salabert (PSOL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b54a5879fa784bcc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b54a5879fa784bcc.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de TÁXI LEGAL foi anexado a 2 reembolsos. Despesas declaradas: nº 00023 (R$ 25,00, 19/03/2024); nº 00023 (R$ 25,00, 19/03/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Professora Luciene Cavalcante (PSOL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/98e0e810b041aad8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/98e0e810b041aad8.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 14 (R$ 18,80, 13/12/2023); nº 14 (R$ 18,80, 13/12/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Glauber Braga (PSOL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1c952b54bff2c429.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1c952b54bff2c429.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONCESSIONARIA ROTA 116 S/A foi anexado a 2 reembolsos. Despesas declaradas: nº 0105STOQ4Q11 (R$ 9,60, 17/08/2025); nº 0105STOQ4Q11 (R$ 9,60, 17/08/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Célia Xakriabá (PSOL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/69d3b37393e6e197.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/69d3b37393e6e197.html</id>
@@ -114,12 +132,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 3494 de UBER DO BRASIL TECNOLOGIA LTDA. (24/10/2023): 2 lançamentos em 2 competência(s); documento R$ 34,94, valor líquido R$ 69,88, restituições R$ 0,00, saldo R$ 69,88 (excedente R$ 34,94). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Duda Salabert (PSOL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a6a710790459905f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a6a710790459905f.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6 de TÁXI LEGAL (21/05/2024): 2 lançamentos em 1 competência(s); documento R$ 30,00, valor líquido R$ 60,00, restituições R$ 0,00, saldo R$ 60,00 (excedente R$ 30,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Chico Alencar (PSOL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/785201159a50c635.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/785201159a50c635.html</id>

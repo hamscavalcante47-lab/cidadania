@@ -7,6 +7,42 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Zé Silva (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/14c6151aec0bec6b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/14c6151aec0bec6b.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de HOTEL LONDON - LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 000000000042794 (R$ 179,20, 25/06/2025); nº 00000000042794 (R$ 179,20, 25/06/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Silvye Alves (UNIÃO/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e79ef98f6b84a4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e79ef98f6b84a4.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 000089170 de POSTO 4o RADIAL LTDA (R$ 150,00, 14/05/2024): o emissor da nota é o CNPJ 27.309.823/0001-50, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/651967fdd1995990.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/651967fdd1995990.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ASSOCIAÇÃO DOS TAXISTAS DO DISTRITO FEDERAL foi anexado a 2 reembolsos. Despesas declaradas: nº 10593 (R$ 25,67, 19/05/2025); nº 10593 (R$ 25,67, 19/05/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Igor Timo (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d6ec325a809bed6c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6ec325a809bed6c.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de VIA CRISTAIS foi anexado a 2 reembolsos. Despesas declaradas: nº MN260503 (R$ 11,50, 19/05/2025); nº MN260503 (R$ 11,50, 19/05/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Samuel Viana (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0119037afce63334.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0119037afce63334.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de AUTO PISTA FERNÂO DIAS S/A foi anexado a 2 reembolsos. Despesas declaradas: nº JALOP05J468C (R$ 2,80, 30/11/2023); nº JALOP05J468C (R$ 2,80, 30/11/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Silvye Alves (UNIÃO/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3e82cab8eca67515.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3e82cab8eca67515.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000089170 de POSTO 4o RADIAL LTDA (R$ 150,00, 14/05/2024): o documento traz o(s) CNPJ(s) 27309823000150, e não o do fornecedor declarado (42380935000190). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor de outro gabinete — Gisela Simona (UNIÃO/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/053e7a95162afe04.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/053e7a95162afe04.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -48,18 +84,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. RANUSIA MOREIRA GOUVEIA DE MOURA E OLIVEIRA está inapta desde 10/11/2023, mas emitiu 21 nota(s) depois disso (R$ 7.350,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Fernando Coelho Filho (UNIÃO/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc74a92c833c65e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc74a92c833c65e.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 25585409 de MOVIDA PARTICIPAÇÕES S.A (08/05/2025): 2 lançamentos em 2 competência(s); documento R$ 4.999,46, valor líquido R$ 9.998,92, restituições R$ 0,00, saldo R$ 9.998,92 (excedente R$ 4.999,46). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Fernando Coelho Filho (UNIÃO/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7ec82f9123441bc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7ec82f9123441bc.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 25585409 de MOVIDA PARTICIPAÇÕES S.A (28/05/2025): 2 lançamentos em 2 competência(s); documento R$ 4.999,46, valor líquido R$ 9.998,92, restituições R$ 0,00, saldo R$ 9.998,92 (excedente R$ 4.999,46). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Fernando Coelho Filho (UNIÃO/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3cd701f8abe97b10.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3cd701f8abe97b10.html</id>
@@ -120,12 +144,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 42794 de HOTEL LONDON - LTDA (25/06/2025): 2 lançamentos em 1 competência(s); documento R$ 179,20, valor líquido R$ 358,40, restituições R$ 0,00, saldo R$ 358,40 (excedente R$ 179,20). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Silvye Alves (UNIÃO/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/53ab690ee48bc00b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/53ab690ee48bc00b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 89170 de POSTO 4o RADIAL LTDA (14/05/2024): 2 lançamentos em 1 competência(s); documento R$ 150,00, valor líquido R$ 300,00, restituições R$ 0,00, saldo R$ 300,00 (excedente R$ 150,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Diego Garcia (UNIÃO/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b425cca81a4a0b18.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b425cca81a4a0b18.html</id>
@@ -193,23 +211,11 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 10593 de ASSOCIAÇÃO DOS TAXISTAS DO DISTRITO FEDERAL (19/05/2025): 2 lançamentos em 1 competência(s); documento R$ 25,67, valor líquido R$ 51,34, restituições R$ 0,00, saldo R$ 51,34 (excedente R$ 25,67). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Diego Garcia (UNIÃO/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/846fa9f87b665e32.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/846fa9f87b665e32.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 2106 de ASSOCIACAO DOS TAXISTAS DO DISTRITO FEDERAL (23/07/2026): 2 lançamentos em 1 competência(s); documento R$ 25,00, valor líquido R$ 50,00, restituições R$ 0,00, saldo R$ 50,00 (excedente R$ 25,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Lebrão (UNIÃO/RO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b6b2d9524acb8a54.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b6b2d9524acb8a54.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 1 nota(s) depois disso (R$ 25,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Diego Garcia (UNIÃO/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f4aea7759d92fa3d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f4aea7759d92fa3d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº V4NN2Q1B824L de CONCESSIONARIA VIA ARAUCARIA (09/06/2026): 2 lançamentos em 1 competência(s); documento R$ 11,70, valor líquido R$ 23,40, restituições R$ 0,00, saldo R$ 23,40 (excedente R$ 11,70). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Igor Timo (UNIÃO/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff05da4dd0b33d4c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff05da4dd0b33d4c.html</id>
@@ -300,11 +306,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. ARNOGAS &amp; CIA LTDA e RODAO AUTO POSTO LTDA: sócio em comum Arnobio Albuquerque Da Silva; juntas receberam R$ 134.416,28. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedores diferentes com o mesmo dono — Rafael Simoes (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a16bc82827f549af.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a16bc82827f549af.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. AUTO POSTO DAS INDUSTRIAS LTDA e AUTO POSTO LIMEIRA LTDA: sócio em comum Alcivar Coelho; juntas receberam R$ 92.256,31. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -7,29 +7,101 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83df238ab2f2ea99.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83df238ab2f2ea99.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 565319 de LOCALIZA RENT A CAR SA (R$ 6.512,73, 01/05/2024): o documento traz o(s) CNPJ(s) 16577631000299, e não o do fornecedor declarado (16670085038390). Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d7aa2fc4e7473158.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d7aa2fc4e7473158.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO foi anexado a 2 reembolsos. Despesas declaradas: nº 231003 (R$ 761,92, 15/12/2023); nº 231003 (R$ 761,92, 15/12/2023). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Sargento Fahur (PL/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8313030ac2be0cbf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8313030ac2be0cbf.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 28643147 de MOVIDA LOCACAO DE VEICULOS S.A. (R$ 1.857,23, 22/01/2026): o documento traz o(s) CNPJ(s) 21314559000166, e não o do fornecedor declarado (07976147000160). Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Tadeu Veneri (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0f31b2f31803a82c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0f31b2f31803a82c.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 010712 (R$ 41,19, 07/12/2023); nº 010712 (R$ 41,19, 07/12/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/00f9e68872d2a31a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/00f9e68872d2a31a.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 3014 (R$ 30,14, 19/09/2023); nº 3014 (R$ 30,14, 19/09/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Tadeu Veneri (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e3a715c939e670b3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e3a715c939e670b3.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 240807 (R$ 29,93, 24/08/2023); nº 240807 (R$ 29,93, 24/08/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/08ce3c91dbe838c4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/08ce3c91dbe838c4.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 2797 (R$ 27,97, 10/11/2023); nº 2797 (R$ 27,97, 10/11/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/651967fdd1995990.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/651967fdd1995990.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ASSOCIAÇÃO DOS TAXISTAS DO DISTRITO FEDERAL foi anexado a 2 reembolsos. Despesas declaradas: nº 10593 (R$ 25,67, 19/05/2025); nº 10593 (R$ 25,67, 19/05/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7f0e9f5a344e5f06.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7f0e9f5a344e5f06.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 2495 (R$ 24,95, 27/03/2023); nº 2495 (R$ 24,95, 27/03/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/abb6af72a1b4d868.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/abb6af72a1b4d868.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 1997 (R$ 19,97, 30/10/2023); nº 1997 (R$ 19,97, 30/10/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/95ae8e92e490a375.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/95ae8e92e490a375.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 1990 (R$ 19,90, 08/05/2023); nº 1990 (R$ 19,90, 08/05/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Leandre (PSD/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a71f68d61413ba32.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a71f68d61413ba32.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de EPR IGUACU S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº KWS2209S83L0 (R$ 16,70, 03/08/2026); nº KWS2209S83L0 (R$ 16,70, 03/08/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Tadeu Veneri (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dabe03e21276258b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dabe03e21276258b.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 110816 (R$ 14,93, 11/08/2023); nº 110816 (R$ 14,93, 11/08/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/13177c8f913fc827.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/13177c8f913fc827.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 1430 (R$ 14,30, 15/03/2023); nº 1430 (R$ 14,30, 15/03/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8c930a3586922ff1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8c930a3586922ff1.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 1387 (R$ 13,87, 12/07/2023); nº 1387 (R$ 13,87, 12/07/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Rodrigo Estacho (PSD/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dc3e3ed69f198b0e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dc3e3ed69f198b0e.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONCESSIONARIA VIA ARAUCARIA foi anexado a 2 reembolsos. Despesas declaradas: nº QIBJ9TQB445G (R$ 10,90, 07/06/2025); nº QIBJ9TQB445G (R$ 10,90, 07/06/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Leandre (PSD/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6d0445b129c827a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6d0445b129c827a7.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de VIA ARAUCARIA CONCESSIONARIA DE RODOVIAS S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº N9PIV8QS86JL (R$ 9,30, 07/08/2026); nº N9PIV8QS86JL (R$ 9,30, 07/08/2026). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Luiz Carlos Hauly (PODE/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f24ec612e0e2efc2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f24ec612e0e2efc2.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. MARINA SIQUEIRA MENDONCA ***.567.929-** está baixada desde 28/08/2024, mas emitiu 1 nota(s) depois disso (R$ 3.500,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Marco Brasil (PP/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3714bb0826ce088e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3714bb0826ce088e.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 20079872 de MOVIDA LOCAÇÃO DE VEÍCULOS SA (26/07/2023): 2 lançamentos em 2 competência(s); documento R$ 2.999,10, valor líquido R$ 5.998,20, restituições R$ 0,00, saldo R$ 5.998,20 (excedente R$ 2.999,10). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Gleisi Hoffmann (PT/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ed592b1dd5ee0a00.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ed592b1dd5ee0a00.html</id>
@@ -44,64 +116,16 @@
 <summary>Gravidade alta. HOTEIS ELO - MARINGA LTDA está inapta desde 09/06/2022, mas emitiu 4 nota(s) depois disso (R$ 709,10). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1c65702695885e67.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1c65702695885e67.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 9 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (17/08/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7d1fc571e3e21842.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7d1fc571e3e21842.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 231003 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (15/12/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa753bb4d9954f0b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa753bb4d9954f0b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 10 de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO (22/09/2023): 2 lançamentos em 1 competência(s); documento R$ 831,70, valor líquido R$ 1.523,84, restituições R$ 0,00, saldo R$ 1.523,84 (excedente R$ 692,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Welter (PT/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/49008d80c2a08073.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/49008d80c2a08073.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. HOTEIS ELO - MARINGA LTDA está inapta desde 09/06/2022, mas emitiu 2 nota(s) depois disso (R$ 380,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0d989bdf1f38d815.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0d989bdf1f38d815.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 10 de MUNICIPIO DE CURITIBA (20/10/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/307cdc4d5bf63811.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/307cdc4d5bf63811.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 7 de MUNICIPIO DE CURITIBA (20/09/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3111c647f77a6a4f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3111c647f77a6a4f.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6 de MUNICIPIO DE CURITIBA (20/06/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec716ff2565c4ff4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec716ff2565c4ff4.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 2 de MUNICIPIO DE CURITIBA (20/04/2024): 2 lançamentos em 1 competência(s); documento R$ 346,19, valor líquido R$ 692,38, restituições R$ 0,00, saldo R$ 692,38 (excedente R$ 346,19). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1f86cbddaa9c5872.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1f86cbddaa9c5872.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6 de MUNICIPIO DE CURITIBA (20/09/2023): 2 lançamentos em 1 competência(s); documento R$ 333,66, valor líquido R$ 667,32, restituições R$ 0,00, saldo R$ 667,32 (excedente R$ 333,66). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2224f6310fe54c05.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2224f6310fe54c05.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 7 de MUNICIPIO DE CURITIBA (20/06/2023): 2 lançamentos em 1 competência(s); documento R$ 333,66, valor líquido R$ 667,32, restituições R$ 0,00, saldo R$ 667,32 (excedente R$ 333,66). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Aliel Machado (PV/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/11806697af955ee2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/11806697af955ee2.html</id>
@@ -150,12 +174,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 157141 de AUTO POSTO BCA LUIZIANA LTDA (12/04/2024): 2 lançamentos em 1 competência(s); documento R$ 226,93, valor líquido R$ 453,86, restituições R$ 0,00, saldo R$ 453,86 (excedente R$ 226,93). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/177460bce00da93e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/177460bce00da93e.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 9 de MUNICIPIO DE CURITIBA (20/09/2025): 2 lançamentos em 1 competência(s); documento R$ 359,12, valor líquido R$ 566,24, restituições R$ 0,00, saldo R$ 566,24 (excedente R$ 207,12). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Luciano Ducci (PSB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1cf6fd5b7294e517.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1cf6fd5b7294e517.html</id>
@@ -288,23 +306,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 7141 de ASSOCIAÇÃO RÁDIO TAXI LONDRINA (01/11/2023): 2 lançamentos em 1 competência(s); documento R$ 32,70, valor líquido R$ 65,40, restituições R$ 0,00, saldo R$ 65,40 (excedente R$ 32,70). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4a55f177be1c786c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4a55f177be1c786c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 3014 de UBER DO BRASIL TECNOLOGIA LTDA. (19/09/2023): 2 lançamentos em 1 competência(s); documento R$ 30,14, valor líquido R$ 60,28, restituições R$ 0,00, saldo R$ 60,28 (excedente R$ 30,14). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Tadeu Veneri (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/366622732c73fc94.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/366622732c73fc94.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 240807 de UBER DO BRASIL TECNOLOGIA LTDA. (24/08/2023): 2 lançamentos em 1 competência(s); documento R$ 29,93, valor líquido R$ 59,86, restituições R$ 0,00, saldo R$ 59,86 (excedente R$ 29,93). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3321a7ed98ffcb32.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3321a7ed98ffcb32.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 2797 de UBER DO BRASIL TECNOLOGIA LTDA. (10/11/2023): 2 lançamentos em 1 competência(s); documento R$ 27,97, valor líquido R$ 55,94, restituições R$ 0,00, saldo R$ 55,94 (excedente R$ 27,97). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

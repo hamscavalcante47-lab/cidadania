@@ -7,47 +7,65 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Dados da chave de acesso não batem com a despesa declarada — Socorro Neri (PP/AC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4288097a5ca3a12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4288097a5ca3a12.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<title>Mesmo documento usado em despesas diferentes — Delegado Fabio Costa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8bb69db4f973189.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8bb69db4f973189.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. nº 8 de DIEGO DE M C ALVES COMERCIO DE VEICULOS NOVOS E US (R$ 6.000,00, 19/03/2026): o emissor da nota é o CNPJ 12.219.079/7570-00, não o fornecedor declarado; a nota é de 2000-40, mas foi declarada com data 19/03/2026. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. O mesmo arquivo de nota de C5 SERVIÇOS DE COMUNICAÇÃO LTDA foi anexado a 2 reembolsos, de gabinetes diferentes. Despesas declaradas: nº 278 (R$ 2.500,00, 27/10/2025); nº 278 (R$ 2.500,00, 27/10/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Claudio Cajado (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c70360d35d677a72.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c70360d35d677a72.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 004/2025 de JF COMERCIO E SERVICOS LOCATICIOS LTDA (R$ 12.000,00, 02/04/2025): o documento traz o(s) CNPJ(s) 53494608000186, e não o do fornecedor declarado (58035724000150). Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Claudio Cajado (PP/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1cf30c194a63321.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f1cf30c194a63321.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR foi anexado a 2 reembolsos. Despesas declaradas: nº 5649110 (R$ 398,31, 01/09/2025); nº 5649110 (R$ 398,31, 01/09/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Pedro Aihara (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/39bd791a7e334a53.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/39bd791a7e334a53.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº ANDRESA0107 (R$ 23,94, 30/07/2026); nº ANDRESA0107 (R$ 23,94, 30/07/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Afonso Hamm (PP/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/91d1eb82917abd2a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/91d1eb82917abd2a.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de EMPRESA CONCESSIONARIA DE RODOVIAS DO SUL S/A - ECOSUL foi anexado a 2 reembolsos. Despesas declaradas: nº OA3C37E2 (R$ 15,20, 23/03/2023); nº OA3C37E2 (R$ 15,20, 23/03/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Dimas Fabiano (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7f2dbd337f9b7d3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7f2dbd337f9b7d3.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Concessionária Rota das Bandeiras foi anexado a 2 reembolsos. Despesas declaradas: nº 0278 (R$ 14,00, 18/06/2024); nº 278 (R$ 14,00, 18/06/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Adriano do Baldy (PP/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/40968a74a5670894.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/40968a74a5670894.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONCEBRA - CONCESSIONARIA DAS RODOVIAS CENTRAIS DO BRASIL S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº dfe 3003111 (R$ 7,90, 10/09/2024); nº dfe 3003111 (R$ 7,90, 10/09/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Adriano do Baldy (PP/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2fb860b22f0e674e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2fb860b22f0e674e.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONCEBRA - CONCESSIONARIA DAS RODOVIAS CENTRAIS DO BRASIL S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº DFE2002641726072283 (R$ 5,40, 11/09/2024); nº DFE2002641726072283 (R$ 5,40, 11/09/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Adriano do Baldy (PP/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa4599c083265917.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa4599c083265917.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONCEBRA - CONCESSIONARIA DAS RODOVIAS CENTRAIS DO BRASIL S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº 202191700690354 (R$ 5,10, 22/11/2023); nº 202191700690354 (R$ 5,10, 22/11/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Adriano do Baldy (PP/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb21e109f257075d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb21e109f257075d.html</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONCEBRA - CONCESSIONARIA DAS RODOVIAS CENTRAIS DO BRASIL S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº 2002641698886723 (R$ 5,10, 01/11/2023); nº 2002641698886723 (R$ 5,10, 01/11/2023). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Simone Marquetto (PP/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7cab6e522bcd6d35.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7cab6e522bcd6d35.html</id>
 <updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 404 de Locabras Locadora Brasilia de Veiculos LTDA-ME (R$ 8.000,00, 02/09/2024): o documento traz o(s) CNPJ(s) 01615224000170, e não o do fornecedor declarado (00331066000164). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Danilo Forte (PP/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6331761f1b347831.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6331761f1b347831.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 1499430 de LOCALIZA FLEET SA (R$ 5.764,87, 22/03/2024): o documento traz o(s) CNPJ(s) 16670085000155, e não o do fornecedor declarado (02286479000108). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Danilo Forte (PP/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/effc9b7ddd948f32.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/effc9b7ddd948f32.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 1499430 de LOCALIZA FLEET SA (R$ 4.598,73, 22/03/2024): o documento traz o(s) CNPJ(s) 16670085000155, e não o do fornecedor declarado (02286479000108). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — André Abdon (PP/AP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/40f17de77371fb67.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/40f17de77371fb67.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 0062026 de A &amp; A AGRA LTDA (R$ 4.000,00, 30/06/2026): o documento traz o(s) CNPJ(s) 02452603000150, e não o do fornecedor declarado (12064991000155). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Danilo Forte (PP/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cd3c6dacb5ca7ea7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cd3c6dacb5ca7ea7.html</id>
-<updated>2026-10-28T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de LOCALIZA FLEET SA foi anexado a 2 reembolsos. Despesas declaradas: nº 1499430 (R$ 4.598,73, 22/03/2024); nº 1499430 (R$ 5.764,87, 22/03/2024). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Clarissa Tércio (PP/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/960c5101cfeffc11.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/960c5101cfeffc11.html</id>
@@ -85,12 +103,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: LENZI SERVICOS DE PUBLICIDADE E PRODUCAO DE EVENTOS LTDA recebeu R$ 8.500,00; Renan Lenzi Silva é sócio(a) desde 22/04/2024 e trabalhou no gabinete (secretário parlamentar, SP17) de 01/09/2021 a 07/04/2024. Pagamentos: R$ 8.500,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 8.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Marco Brasil (PP/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3714bb0826ce088e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3714bb0826ce088e.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 20079872 de MOVIDA LOCAÇÃO DE VEÍCULOS SA (26/07/2023): 2 lançamentos em 2 competência(s); documento R$ 2.999,10, valor líquido R$ 5.998,20, restituições R$ 0,00, saldo R$ 5.998,20 (excedente R$ 2.999,10). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Delegado Fabio Costa (PP/AL)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/26bd1d0fef91080a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/26bd1d0fef91080a.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -127,18 +139,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 3 de FELIPE PAZ DE ALMEIDA FERREIRA DOS SANTOS (20/10/2023): 2 lançamentos em 1 competência(s); documento R$ 600,00, valor líquido R$ 1.200,00, restituições R$ 0,00, saldo R$ 1.200,00 (excedente R$ 600,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Lula da Fonte (PP/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/46685b40f65c7bf3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/46685b40f65c7bf3.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 107 de Americo Rodrigo Guimaraes dos Santos (24/09/2025): 2 lançamentos em 1 competência(s); documento R$ 500,00, valor líquido R$ 1.000,00, restituições R$ 0,00, saldo R$ 1.000,00 (excedente R$ 500,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Eduardo da Fonte (PP/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4e6bd20d94a1598.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4e6bd20d94a1598.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 107 de Americo Rodrigo Guimaraes dos Santos (24/09/2025): 2 lançamentos em 1 competência(s); documento R$ 500,00, valor líquido R$ 1.000,00, restituições R$ 0,00, saldo R$ 1.000,00 (excedente R$ 500,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Claudio Cajado (PP/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/595319d7009797bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/595319d7009797bd.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -162,24 +162,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 58936 de AUTO POSTO PICA PAU (20/05/2024): 2 lançamentos em 1 competência(s); documento R$ 300,00, valor líquido R$ 600,00, restituições R$ 0,00, saldo R$ 600,00 (excedente R$ 300,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Claudio Cajado (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b67f0637c5bfa098.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b67f0637c5bfa098.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 5649110 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (01/11/2025): 2 lançamentos em 2 competência(s); documento R$ 398,31, valor líquido R$ 695,89, restituições R$ 0,00, saldo R$ 695,89 (excedente R$ 297,58). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — João Leão (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4e53b88cae1603d9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4e53b88cae1603d9.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 676.805-9 de SECRETARIA DE ESTADO DE FAZENDA DA BAHIA (18/09/2024): 2 lançamentos em 2 competência(s); documento R$ 267,40, valor líquido R$ 534,80, restituições R$ 0,00, saldo R$ 534,80 (excedente R$ 267,40). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — João Leão (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/77b6f4b6fca1b222.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/77b6f4b6fca1b222.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 6768067 de SECRETARIA DE ESTADO DE FAZENDA DA BAHIA (18/09/2024): 2 lançamentos em 2 competência(s); documento R$ 267,40, valor líquido R$ 534,80, restituições R$ 0,00, saldo R$ 534,80 (excedente R$ 267,40). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Bebeto (PP/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dabf4ed444e775aa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dabf4ed444e775aa.html</id>
@@ -236,12 +218,6 @@
 <summary>Gravidade alta. nº OA3C37E2 de EMPRESA CONCESSIONARIA DE RODOVIAS DO SUL S/A - ECOSUL (23/03/2023): 2 lançamentos em 1 competência(s); documento R$ 15,20, valor líquido R$ 30,40, restituições R$ 0,00, saldo R$ 30,40 (excedente R$ 15,20). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Dimas Fabiano (PP/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ed3d1b24478a4879.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ed3d1b24478a4879.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 385 de EPR VIAS DO CAFE VARGINHA - MG (13/06/2026): 2 lançamentos em 1 competência(s); documento R$ 15,00, valor líquido R$ 30,00, restituições R$ 0,00, saldo R$ 30,00 (excedente R$ 15,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Dimas Fabiano (PP/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/71ddb9689d59e5e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/71ddb9689d59e5e6.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
@@ -258,12 +234,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº dfe 3003111 de CONCEBRA - CONCESSIONARIA DAS RODOVIAS CENTRAIS DO BRASIL S.A. (10/09/2024): 2 lançamentos em 1 competência(s); documento R$ 7,90, valor líquido R$ 15,80, restituições R$ 0,00, saldo R$ 15,80 (excedente R$ 7,90). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Padovani (PP/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3cbf9af21e3fef48.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3cbf9af21e3fef48.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 3152 de CONCEBRA - CONCESSIONARIA DAS RODOVIAS CENTRAIS DO BRASIL S.A. (05/05/2024): 2 lançamentos em 1 competência(s); documento R$ 7,40, valor líquido R$ 14,80, restituições R$ 0,00, saldo R$ 14,80 (excedente R$ 7,40). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Any Ortiz (PP/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/32b50d33caf197dd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/32b50d33caf197dd.html</id>
@@ -283,12 +253,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº hgv2llhj02tu de CONC. RODOVIAS INTEGRADAS DO SUL (13/07/2024): 2 lançamentos em 1 competência(s); documento R$ 5,50, valor líquido R$ 11,00, restituições R$ 0,00, saldo R$ 11,00 (excedente R$ 5,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Any Ortiz (PP/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff5be116f8b1b409.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff5be116f8b1b409.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 58580 de CONC. RODOVIAS INTEGRADAS DO SUL (08/07/2024): 2 lançamentos em 1 competência(s); documento R$ 5,50, valor líquido R$ 11,00, restituições R$ 0,00, saldo R$ 11,00 (excedente R$ 5,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Adriano do Baldy (PP/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7c12ed6b46ca469e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7c12ed6b46ca469e.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -306,5 +270,41 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 202191700690354 de CONCEBRA - CONCESSIONARIA DAS RODOVIAS CENTRAIS DO BRASIL S.A. (22/11/2023): 2 lançamentos em 1 competência(s); documento R$ 5,10, valor líquido R$ 10,20, restituições R$ 0,00, saldo R$ 10,20 (excedente R$ 5,10). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Simone Marquetto (PP/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/42791820af70f46c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/42791820af70f46c.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. FRANCIOSI CADASTROS E COBRANCAS LTDA e FRANCIOSI CONSTRUTORA E IMOVEIS LTDA: sócio em comum Eres Paolo Franciosi; juntas receberam R$ 132.640,88. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedor ligado a servidor ou ex-servidor do gabinete — Coronel Telhada (PP/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83a3f43919672710.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83a3f43919672710.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Pago durante o vínculo, antes de a pessoa constar como sócia: LEVVA MOBILIDADE LTDA recebeu R$ 91.537,64; Antonia Daniele Melo Araujo é sócio(a) desde 31/07/2026 e trabalhou no gabinete (secretário parlamentar, SP25) de 16/02/2023 a 26/03/2023. Pagamentos: R$ 4.000,00 antes do vínculo, R$ 4.000,00 durante o vínculo, R$ 83.537,64 depois do vínculo. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Pedro Aihara (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61d830ab98a5c3c7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61d830ab98a5c3c7.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. OK CRED SERVICOS LTDA e NX POUSADAS LTDA: sócio em comum Marcilene Moreira; juntas receberam R$ 69.370,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedor ligado a servidor ou ex-servidor do gabinete — Coronel Telhada (PP/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7fecb35db4d7c2ae.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7fecb35db4d7c2ae.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Pago durante o vínculo, antes de a pessoa constar como sócia: I9 SOLUCOES EM MARKETING E MIDIAS DIGITAIS LTDA recebeu R$ 55.850,00; Antonia Daniele Melo Araujo é sócio(a) desde 12/02/2026 e trabalhou no gabinete (secretário parlamentar, SP25) de 16/02/2023 a 26/03/2023. Pagamentos: R$ 30.000,00 durante o vínculo, R$ 25.850,00 depois do vínculo. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Ana Paula Leão (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/02ecfa68a63a933d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/02ecfa68a63a933d.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. INTELLIGENTSIA &amp; ATTITUDE COMUNICACAO LTDA e ABRIL TECH LTDA: sócio em comum Adriano Gomides Santos; juntas receberam R$ 50.640,50. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — João Maia (PP/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ebc9e7c607b58c58.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ebc9e7c607b58c58.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. LUIZ FLOR &amp; FILHOS LTDA e FLOR COMERCIO DE COMBUSTIVEIS LTDA: sócio em comum Leide Maria Soares Flor; juntas receberam R$ 46.648,62. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>
