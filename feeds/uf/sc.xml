@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/sc.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/sc.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Ismael (PL/SC)</title>
@@ -229,24 +229,6 @@
 <category term="Média"/>
 <summary>Gravidade média. META LINEAR ARTIGOS DE PAPELARIA E ESCRITORIO LTDA recebeu R$ 14.903,68 por "combustíveis e lubrificantes", mas sua atividade é "Gestão e administração da propriedade imobiliária" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — Carlos Chiodini (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ca8d389b6e460ecc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ca8d389b6e460ecc.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. SYNP LTDA foi aberta em 13/04/2026, 16 dias antes da primeira nota (29/04/2026); recebeu R$ 10.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Pedro Uczai (PT/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c373c7381707f215.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c373c7381707f215.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 52.114.548 FRANCIELI CAVALI REINEHR foi aberta em 08/09/2023, 103 dias antes da primeira nota (20/12/2023); recebeu R$ 9.672,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Ricardo Guidi (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8c14ba497634cf25.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8c14ba497634cf25.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. VALE REDE DE POSTOS LTDA foi aberta em 08/02/2024, 133 dias antes da primeira nota (20/06/2024); recebeu R$ 9.590,80. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Daniel Freitas (PL/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ea925ddcfc42c76.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ea925ddcfc42c76.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -258,12 +240,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. BOUTIQUE DOS CARIMBOS INDUSTRIA, COMERCIO, VAREJISTA E SERVICOS DE ARTIGOS PARA ESCRITORIO LTDA recebeu R$ 6.800,00 da cota; o sócio Anderson Rossi doou R$ 2.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Cobalchini (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b61e500dbc8025bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b61e500dbc8025bd.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 64.766.721 CLAUDINEIA BANDEIRA LOPES RIBEIRO DA SILVA foi aberta em 28/01/2026, 120 dias antes da primeira nota (28/05/2026); recebeu R$ 6.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Atividade da empresa não combina com o gasto — Daniel Freitas (PL/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9368bdc1488d5d86.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9368bdc1488d5d86.html</id>
@@ -306,5 +282,29 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. THF SERVICOS LTDA e CRIACAO PROPAGANDA E PUBLICIDADE LTDA: sócio em comum Thiago Fernandes Filomeno; juntas receberam R$ 604.350,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Ricardo Guidi (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5f89c7061bacf229.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5f89c7061bacf229.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MAV VEICULOS E SERVICOS LTDA e VAM VEICULOS E SERVICOS LTDA: sócio em comum Marco Aurelio Viana; juntas receberam R$ 222.650,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Pezenti (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/836d7d7e883a3289.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/836d7d7e883a3289.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MSB CONSULTORIA LTDA recebeu R$ 164.500,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Ana Paula Lima (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/75a8036ed56170b3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/75a8036ed56170b3.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. BRAVA PAINEIS LTDA e MASTER BRASIL PAINEIS LTDA: sócio em comum Adriano Fernando Nunes; juntas receberam R$ 161.440,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Pezenti (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/70d540ae2eb7eb18.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/70d540ae2eb7eb18.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. E.C.P. INCORPORACOES LTDA e INCORPORADORA CAMBORIU LTDA: sócio em comum Maria Da Graca Souza; juntas receberam R$ 150.122,84. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

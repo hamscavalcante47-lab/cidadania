@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3043.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3043.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Diego Garcia (UNIÃO/PR)</title>
@@ -102,17 +102,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº WD162RKB84JW de CONCESSIONARIA DE RODOVIAS S.A (22/02/2026): 2 lançamentos em 1 competência(s); documento R$ 9,30, valor líquido R$ 18,60, restituições R$ 0,00, saldo R$ 18,60 (excedente R$ 9,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Diego Garcia (UNIÃO/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83ae8c28bef6eb43.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83ae8c28bef6eb43.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ODISSEU COMUNICACOES LTDA foi aberta em 03/01/2025, 18 dias antes da primeira nota (21/01/2025); recebeu R$ 72.916,67. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Diego Garcia (UNIÃO/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a592def481d9f2f1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a592def481d9f2f1.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ODISSEU COMUNICAÇÕES LTDA: 10 notas em 11 meses, numeradas de 2 a 19 (R$ 72.916,67). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

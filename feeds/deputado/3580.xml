@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3580.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3580.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Jeferson Rodrigues (PSDB/GO)</title>
@@ -25,12 +25,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 20100305602290 de SECRETARIA MUNICIPAL DA FAZENDA (26/12/2025): 2 lançamentos em 2 competência(s); documento R$ 143,37, valor líquido R$ 286,74, restituições R$ 0,00, saldo R$ 286,74 (excedente R$ 143,37). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — Jeferson Rodrigues (PSDB/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/47db316b17644817.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/47db316b17644817.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. GOIAS DE FATO MULTIMIDIA LTDA foi aberta em 13/02/2023, 15 dias antes da primeira nota (28/02/2023); recebeu R$ 13.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Jeferson Rodrigues (PSDB/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8636edc17720dab6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8636edc17720dab6.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -48,11 +42,5 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. TAVARES EMPREENDIMENTOS E LOCACOES LTDA e CORCRED ASSESSORIA EMPRESARIAL LTDA: sócio em comum Mateus Tavares De Freitas; juntas receberam R$ 195.733,34. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Jeferson Rodrigues (PSDB/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/305322232a8f462e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/305322232a8f462e.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. TJ COMUNICACAO LTDA foi aberta em 30/11/2022, 132 dias antes da primeira nota (11/04/2023); recebeu R$ 77.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3391.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3391.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Juninho do Pneu (PSDB/RJ)</title>
@@ -42,17 +42,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. SONAP SOCIEDADE NACIONAL DE PETROLEO LTDA recebeu R$ 3.991,90 por "combustíveis e lubrificantes", mas sua atividade é "Serviços combinados de escritório e apoio administrativo" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Juninho do Pneu (PSDB/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2bf871cfc369e69a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2bf871cfc369e69a.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. GDAY PROJETOS E COMUNICACAO VISUAL LTDA foi aberta em 08/02/2024, 62 dias antes da primeira nota (10/04/2024); recebeu R$ 311.035,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Juninho do Pneu (PSDB/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6ff318efc2327dad.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6ff318efc2327dad.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. NUVEM E REBOOT COMUNICACAO INTEGRADA LTDA foi aberta em 13/03/2023, 154 dias antes da primeira nota (14/08/2023); recebeu R$ 14.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

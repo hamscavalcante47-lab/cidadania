@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3574.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3574.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Fornecedores diferentes com o mesmo dono — Thiago Flores (UNIÃO/RO)</title>
@@ -12,12 +12,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. AUTO POSTO PATRAO CACOAL LTDA, AUTO POSTO PATRAO ARIQUEMES LTDA e AUTO POSTO JK LTDA: sócio em comum Francisco Varea Domingues Neto; juntas receberam R$ 87.884,74. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Thiago Flores (UNIÃO/RO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e0376b6c18a57e6a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e0376b6c18a57e6a.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 60.582.154 GLEIDSON RODRIGUES ALVES foi aberta em 28/04/2025, 0 dias antes da primeira nota (28/04/2025); recebeu R$ 8.400,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Doador da campanha recebendo da cota — Thiago Flores (UNIÃO/RO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/18542a30f8cb2339.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/18542a30f8cb2339.html</id>
@@ -30,11 +24,5 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. ASSOCIACAO RADIO COMUNITARIA EDUCATIVA VERDE AMAZONIA - FM recebeu R$ 31.400,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de associações de defesa de direitos sociais" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Thiago Flores (UNIÃO/RO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8b4de330ce3da2b1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8b4de330ce3da2b1.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 41.203.085 EVANILDO JOSE DOS SANTOS: 34 notas em 36 meses, numeradas de 1 a 54 (R$ 28.800,00). Fora deste gabinete, a empresa emitiu no máximo 20 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

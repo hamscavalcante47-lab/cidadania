@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2356.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2356.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Dimas Fabiano (PP/MG)</title>
@@ -72,17 +72,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 2651 de Concessionária Rota das Bandeiras (06/01/2026): 2 lançamentos em 1 competência(s); documento R$ 10,60, valor líquido R$ 21,20, restituições R$ 0,00, saldo R$ 21,20 (excedente R$ 10,60). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Dimas Fabiano (PP/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2938677f86f649a6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2938677f86f649a6.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. LENZI SERVICOS DE PUBLICIDADE E PRODUCAO DE EVENTOS LTDA foi aberta em 22/04/2024, 3 dias antes da primeira nota (25/04/2024); recebeu R$ 8.500,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Dimas Fabiano (PP/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9670e6a8c61cb45c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9670e6a8c61cb45c.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. DENUCCI DIGITAL MENTORIA E PRODUTOS DIGITAIS LTDA foi aberta em 07/10/2024, 170 dias antes da primeira nota (26/03/2025); recebeu R$ 12.466,66. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

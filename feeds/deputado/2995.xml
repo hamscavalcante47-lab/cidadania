@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2995.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2995.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Miguel Lombardi (PL/SP)</title>
@@ -30,23 +30,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. ELIS REGINA MAGALHAES PORTO recebeu R$ 3.080,00 por "divulgação da atividade parlamentar", mas sua atividade é "Comércio varejista de outros artigos de uso pessoal e doméstico não especificados anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Miguel Lombardi (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9c87bb736b3d4f66.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9c87bb736b3d4f66.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. TZG MARKETING: 5 notas em 5 meses, numeradas de 56 a 64 (R$ 72.200,00). Fora deste gabinete, a empresa emitiu no máximo 4 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Miguel Lombardi (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/01c37470e0ce8dc4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/01c37470e0ce8dc4.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Aurilene Gomes Monteiro: 12 notas em 13 meses, numeradas de 1 a 13 (R$ 26.000,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Miguel Lombardi (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/88428bbe9d350d29.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/88428bbe9d350d29.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 49.657.511 AURILENE GOMES MONTEIRO foi aberta em 20/02/2023, 164 dias antes da primeira nota (03/08/2023); recebeu R$ 26.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

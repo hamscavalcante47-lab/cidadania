@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2894.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2894.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Nota emitida por empresa baixada, inapta ou suspensa — Helder Salomão (PT/ES)</title>
@@ -18,17 +18,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº C1C703F de ECO101 CONCESSIONARIA DE RODOVIAS S/A (13/03/2023): 2 lançamentos em 1 competência(s); documento R$ 4,50, valor líquido R$ 9,00, restituições R$ 0,00, saldo R$ 9,00 (excedente R$ 4,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Helder Salomão (PT/ES)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a8cd9be1596b919d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a8cd9be1596b919d.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 52.688.863 DANILO LASLO GONCALVES TERRA foi aberta em 26/10/2023, 4 dias antes da primeira nota (30/10/2023); recebeu R$ 112.500,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Helder Salomão (PT/ES)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/07768f4e1575966b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/07768f4e1575966b.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. GABRIELA GONCALVES REZENDE BERNARDO: 22 notas em 24 meses, numeradas de 10 a 56 (R$ 50.000,00). Fora deste gabinete, a empresa emitiu no máximo 25 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

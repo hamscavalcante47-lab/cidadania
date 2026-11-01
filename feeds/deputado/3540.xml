@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3540.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3540.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Augusto Puppio (MDB/AP)</title>
@@ -36,11 +36,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. Pago durante o vínculo, antes de a pessoa constar como sócia: IPE CRIATIVO LTDA recebeu R$ 88.000,00; Milena Ribeiro Nery é sócio(a) desde 05/10/2026 e trabalhou no gabinete (secretário parlamentar, SP04) de 23/07/2024 a 05/01/2025. Pagamentos: R$ 22.000,00 durante o vínculo, R$ 66.000,00 depois do vínculo. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Augusto Puppio (MDB/AP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9956abe882783293.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9956abe882783293.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. IPE CRIATIVO LTDA: 4 notas em 4 meses, numeradas de 1 a 5 (R$ 88.000,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

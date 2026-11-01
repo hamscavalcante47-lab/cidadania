@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psdb.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psdb.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Murillo Gouvea (PSDB/RJ)</title>
@@ -253,30 +253,6 @@
 <category term="Média"/>
 <summary>Gravidade média. AUTO POSTO GIGANTE LTDA e REDE GIGANTE COMBUSTIVEIS LTDA: sócio em comum Amanda Campos Silva Leao; juntas receberam R$ 20.757,44. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — Jeferson Rodrigues (PSDB/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/47db316b17644817.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/47db316b17644817.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. GOIAS DE FATO MULTIMIDIA LTDA foi aberta em 13/02/2023, 15 dias antes da primeira nota (28/02/2023); recebeu R$ 13.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Vicentinho Júnior (PSDB/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8bca175c37bc7934.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8bca175c37bc7934.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 62.062.634 RUILAN DA SILVA SANTOS foi aberta em 04/08/2025, 24 dias antes da primeira nota (28/08/2025); recebeu R$ 7.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Ricardo Abrão (PSDB/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f6740e0cb7f943cd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f6740e0cb7f943cd.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 51.662.299 ALEXANDRE DE ANDRADE FERRAZ foi aberta em 02/08/2023, 75 dias antes da primeira nota (16/10/2023); recebeu R$ 6.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Daniel Trzeciak (PSDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/444c44a91e73efc0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/444c44a91e73efc0.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. EDITORA A HORA DO SUL LTDA foi aberta em 02/07/2024, 54 dias antes da primeira nota (25/08/2024); recebeu R$ 5.207,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Juninho do Pneu (PSDB/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a3a544e783557c76.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a3a544e783557c76.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -295,16 +271,40 @@
 <category term="Média"/>
 <summary>Gravidade média. 41.643.692 MARIA DO CARMO DA SILVA recebeu R$ 2.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Reparação e manutenção de computadores e de equipamentos periféricos" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — Juninho do Pneu (PSDB/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2bf871cfc369e69a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2bf871cfc369e69a.html</id>
+<title>Fornecedores diferentes com o mesmo dono — Jeferson Rodrigues (PSDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8636edc17720dab6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8636edc17720dab6.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. GDAY PROJETOS E COMUNICACAO VISUAL LTDA foi aberta em 08/02/2024, 62 dias antes da primeira nota (10/04/2024); recebeu R$ 311.035,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. MATA COMERCIO DE COMBUSTIVEIS LTDA, POSTO SABADIN II LTDA e SUPER POSTO BRASIL V LTDA: sócio em comum Nestor Jose Lemos; juntas receberam R$ 270.632,95. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Luciano Vieira (PSDB/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5f545b705c1cded2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5f545b705c1cded2.html</id>
+<title>Fornecedores diferentes com o mesmo dono — Jeferson Rodrigues (PSDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/89402617d9ba7580.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/89402617d9ba7580.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. FACTUM COMUNICACÃO EIRELI: 21 notas em 21 meses, numeradas de 1 a 46 (R$ 281.400,00). Fora deste gabinete, a empresa emitiu no máximo 25 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. MATA COMERCIO DE COMBUSTIVEIS LTDA e SUPER POSTO BRASIL V LTDA: sócio em comum Marcilene Maria Alves Lemos; juntas receberam R$ 210.203,22. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Jeferson Rodrigues (PSDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4e4ccf47c9e4a3fa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4e4ccf47c9e4a3fa.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. TAVARES EMPREENDIMENTOS E LOCACOES LTDA e CORCRED ASSESSORIA EMPRESARIAL LTDA: sócio em comum Mateus Tavares De Freitas; juntas receberam R$ 195.733,34. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Ricardo Abrão (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8a1a39ca3403ae04.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8a1a39ca3403ae04.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MANUQUIP COMERCIO E SERVICOS LTDA e SERV-RIO TERCEIRIZACAO E SERVICOS LTDA: sócio em comum Lucia De Pinho Bastos Ferreira; juntas receberam R$ 132.333,35. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Marcelo Queiroz (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d7fb6a17785bfb4b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d7fb6a17785bfb4b.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MARCELLE COLBERT B. A. BARBOSA LTDA recebeu R$ 122.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de artistas plásticos, jornalistas independentes e escritores" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>MEI recebendo mais que o limite anual — Vicentinho Júnior (PSDB/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 63.452.280 CRISTIANO MACHADO SANTOS (MEI) recebeu R$ 106.000,00 da cota em 2026, R$ 106.000,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

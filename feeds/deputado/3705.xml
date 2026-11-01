@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3705.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3705.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Ana Paula Lima (PT/SC)</title>
@@ -42,23 +42,5 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. BRAVA PAINEIS LTDA e MASTER BRASIL PAINEIS LTDA: sócio em comum Adriano Fernando Nunes; juntas receberam R$ 161.440,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Ana Paula Lima (PT/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/06d51784373aea20.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/06d51784373aea20.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. INTELBOX TECNOLOGIA LTDA foi aberta em 22/01/2025, 48 dias antes da primeira nota (11/03/2025); recebeu R$ 88.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Ana Paula Lima (PT/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7804199601b6892a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7804199601b6892a.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. INTELBOX TECNOLOGIA LTDA: 16 notas em 16 meses, numeradas de 1 a 38 (R$ 88.000,00). Fora deste gabinete, a empresa emitiu no máximo 22 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Ana Paula Lima (PT/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/959bf2099e99bcc0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/959bf2099e99bcc0.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. KELVIN WEISS ME: 4 notas em 4 meses, numeradas de 156 a 165 (R$ 22.000,00). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

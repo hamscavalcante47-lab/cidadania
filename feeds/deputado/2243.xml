@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2243.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2243.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Possível reembolso repetido após conciliação mensal — Pedro Uczai (PT/SC)</title>
@@ -42,17 +42,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 103 de UBER DO BRASIL TECNOLOGIA LTDA. (01/03/2024): 2 lançamentos em 1 competência(s); documento R$ 23,09, valor líquido R$ 46,07, restituições R$ 0,00, saldo R$ 46,07 (excedente R$ 22,98). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Pedro Uczai (PT/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c373c7381707f215.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c373c7381707f215.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 52.114.548 FRANCIELI CAVALI REINEHR foi aberta em 08/09/2023, 103 dias antes da primeira nota (20/12/2023); recebeu R$ 9.672,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Pedro Uczai (PT/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/da379f5c8590c91d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/da379f5c8590c91d.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 53.945.953 LUCAS MACHADO foi aberta em 16/02/2024, 33 dias antes da primeira nota (20/03/2024); recebeu R$ 22.970,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

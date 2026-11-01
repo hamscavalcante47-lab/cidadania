@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2305.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2305.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Padre João (PT/MG)</title>
@@ -18,17 +18,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. BELVEDERE COMBUSTIVEIS LTDA, AUTO POSTO RODA D'AGUA LTDA, POSTO ESMERALDAS LTDA, POSTO BRASILEIRO LTDA, PIO XII COMBUSTIVEIS LTDA e POSTO DO MERCADO LTDA: sócio em comum Ernani Mauricio Guerra Mendes; juntas receberam R$ 20.915,01. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Padre João (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/db10f773a788f234.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/db10f773a788f234.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. TREVAO LAFAIETE COMBUSTIVEIS LTDA foi aberta em 24/11/2023, 118 dias antes da primeira nota (21/03/2024); recebeu R$ 5.916,44. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Padre João (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c82b1e265126aadf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c82b1e265126aadf.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MALDONADO E LUCCHESI LTDA foi aberta em 30/04/2024, 34 dias antes da primeira nota (03/06/2024); recebeu R$ 14.135,25. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

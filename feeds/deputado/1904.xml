@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1904.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1904.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Possível reembolso repetido após conciliação mensal — Paulo Abi-Ackel (PSDB/MG)</title>
@@ -36,11 +36,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. LOURDES CONVENIENCIA LTDA recebeu R$ 2.174,23 por "combustíveis e lubrificantes", mas sua atividade é "Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Paulo Abi-Ackel (PSDB/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdb7f2d9b4790a8c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdb7f2d9b4790a8c.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. FAS DESENVOLVIMENTO DE SOFTWARE E CONSULTORIA LTDA foi aberta em 22/05/2024, 139 dias antes da primeira nota (08/10/2024); recebeu R$ 26.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

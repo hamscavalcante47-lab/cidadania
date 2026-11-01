@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3328.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3328.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
@@ -42,12 +42,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº IEE2026003211744 de Adobe Systems Software Ireland Ltd 4-6 Riverwalk (19/02/2026): 2 lançamentos em 2 competência(s); documento R$ 175,94, valor líquido R$ 351,88, restituições R$ 0,00, saldo R$ 351,88 (excedente R$ 175,94). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Daniel Trzeciak (PSDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/444c44a91e73efc0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/444c44a91e73efc0.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. EDITORA A HORA DO SUL LTDA foi aberta em 02/07/2024, 54 dias antes da primeira nota (25/08/2024); recebeu R$ 5.207,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Doador da campanha recebendo da cota — Daniel Trzeciak (PSDB/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9b51c475de95e763.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9b51c475de95e763.html</id>

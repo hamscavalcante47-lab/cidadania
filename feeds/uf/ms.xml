@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ms.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ms.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Dr. Luiz Ovando (PP/MS)</title>
@@ -253,24 +253,6 @@
 <category term="Média"/>
 <summary>Gravidade média. EMPRESA DE RADIODIFUSAO PANTANEIRA LTDA e SISTEMA DE RADIODIFUSAO PIONEIRA LTDA: sócio em comum Enrico Carlos Rodrigues Feitosa; juntas receberam R$ 20.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — Dr. Luiz Ovando (PP/MS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d66df5f47e787082.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d66df5f47e787082.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 53.366.776 LEONARDO CALDAS VARGAS foi aberta em 04/01/2024, 47 dias antes da primeira nota (20/02/2024); recebeu R$ 10.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Geraldo Resende (UNIÃO/MS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/92963e17f2539b9b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/92963e17f2539b9b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. C. M. VEIGA LTDA foi aberta em 11/11/2024, 109 dias antes da primeira nota (28/02/2025); recebeu R$ 9.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Dagoberto Nogueira (PP/MS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ec376356267e4b6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ec376356267e4b6.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. AVA COMUNICACAO LTDA foi aberta em 24/06/2024, 1 dias antes da primeira nota (25/06/2024); recebeu R$ 5.110,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Marcos Pollon (PL/MS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4ea8be5e43f25f3c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4ea8be5e43f25f3c.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -283,28 +265,46 @@
 <category term="Média"/>
 <summary>Gravidade média. 54.943.066 LTDA recebeu R$ 2.130,00 por "combustíveis e lubrificantes", mas sua atividade é "Comércio a varejo de peças e acessórios novos para veículos automotores" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Vander Loubet (PT/MS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/367b1fb123541f0e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/367b1fb123541f0e.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. eder florencio yanaguita: 41 notas em 41 meses, numeradas de 196 a 317 (R$ 580.569,00). Fora deste gabinete, a empresa emitiu no máximo 81 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Geraldo Resende (UNIÃO/MS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ede0f7174409f133.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ede0f7174409f133.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. K&amp;A COMUNICACAO E EVENTOS LTDA foi aberta em 23/01/2023, 38 dias antes da primeira nota (02/03/2023); recebeu R$ 480.197,76. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Rodolfo Nogueira (PL/MS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2c2507e37589586c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2c2507e37589586c.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Cocriar Negocios Digitais: 20 notas em 18 meses, numeradas de 72 a 115 (R$ 371.000,00). Fora deste gabinete, a empresa emitiu no máximo 24 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Dagoberto Nogueira (PP/MS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e2ea4db804b55faa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e2ea4db804b55faa.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. BM9 COMUNICACAO LTDA e BMNOVE COMUNICACAO E TECNOLOGIA LTDA: sócio em comum Elen Malfara De Mesquita; juntas receberam R$ 202.620,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Rodolfo Nogueira (PL/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d525ee4e060226c2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d525ee4e060226c2.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. GRAFICA LUAR EDITORA E PAPELARIA LTDA e GRAFICA E EDITORA SOLLAR LTDA: sócio em comum Lucilene Teixeira; juntas receberam R$ 113.930,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>MEI recebendo mais que o limite anual — Marcos Pollon (PL/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7704cf4887be9818.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7704cf4887be9818.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 49.663.463 ADRIANA TENORIO SEHNEM (MEI) recebeu R$ 105.000,00 da cota em 2023, R$ 105.000,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Dagoberto Nogueira (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/34e85aebebe9498e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/34e85aebebe9498e.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. V8CAR MECANICA E FUNILARIA LTDA recebeu R$ 52.500,00 por "divulgação da atividade parlamentar", mas sua atividade é "Serviços de lanternagem ou funilaria e pintura de veículos automotores" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Dr. Luiz Ovando (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/912a7d095c93f6a0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/912a7d095c93f6a0.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. POSTO CARANDA LOCATELLI LTDA e POSTO SAO FRANCISCO LOCATELLI LTDA: sócio em comum Pricila Regina Locatelli Salomao; juntas receberam R$ 42.211,54. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fornecedores diferentes com o mesmo dono — Marcos Pollon (PL/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dada76ec508cd7b5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dada76ec508cd7b5.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. APARECE BRASIL DESENVOLVIMENTO DE SOFTWARE LTDA e FAS DESENVOLVIMENTO DE SOFTWARE E CONSULTORIA LTDA: sócio em comum Antonio Soares Junior; juntas receberam R$ 32.080,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota apresentada fora do prazo — Dagoberto Nogueira (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bd4f77f9eee92d4c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bd4f77f9eee92d4c.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº S.N de Maria Anete Barros (R$ 4.745,63) foi emitida em 05/01/2023 e reembolsada como despesa de 12/2023. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

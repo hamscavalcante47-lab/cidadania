@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3435.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3435.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Eli Borges (REPUBLICANOS/TO)</title>
@@ -36,17 +36,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. LV CONSULTORIA ADMINISTRATIVA LTDA recebeu R$ 5.348,36 por "combustíveis e lubrificantes", mas sua atividade é "Serviços combinados de escritório e apoio administrativo" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Eli Borges (REPUBLICANOS/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc453d62d2918b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4cc453d62d2918b2.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. BROAD BRASIL LTDA foi aberta em 21/12/2022, 56 dias antes da primeira nota (15/02/2023); recebeu R$ 23.022,72. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Eli Borges (REPUBLICANOS/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ea5a0b3ded75788.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ea5a0b3ded75788.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 48.941.740 MYLLENA PEREIRA DO AMARAL foi aberta em 20/12/2022, 70 dias antes da primeira nota (28/02/2023); recebeu R$ 21.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

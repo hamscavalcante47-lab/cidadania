@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3452.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3452.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Joseildo Ramos (PT/BA)</title>
@@ -12,23 +12,5 @@
 <updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 28696 de PANTANAL VEÍCULOS LTDA (R$ 3.450,00, 17/03/2026): o documento traz o(s) CNPJ(s) 13516648000167, e não o do fornecedor declarado (07319323000191). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Joseildo Ramos (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/10138f622bf203fb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/10138f622bf203fb.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. WEB ESTACIONAMENTOS LTDA foi aberta em 22/07/2025, 41 dias antes da primeira nota (01/09/2025); recebeu R$ 5.460,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Joseildo Ramos (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4205b62d0aa21919.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4205b62d0aa21919.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. THAYLANE GLEYCE ARAUJO SANTOS: 23 notas em 23 meses, numeradas de 27 a 87 (R$ 55.200,00). Fora deste gabinete, a empresa emitiu no máximo 38 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Joseildo Ramos (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8b672c0c08960c3c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8b672c0c08960c3c.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. RODRIGO DE MOURA LIMA: 11 notas em 11 meses, numeradas de 1 a 19 (R$ 12.000,00). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

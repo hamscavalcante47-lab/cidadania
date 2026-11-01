@@ -4,15 +4,9 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3583.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3583.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Empresa aberta pouco antes de receber — Dilvanda Faro (PT/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/791c4d6bf42f66fa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/791c4d6bf42f66fa.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. P8 RELACOES INSTITUCIONAIS LTDA foi aberta em 26/01/2023, 139 dias antes da primeira nota (14/06/2023); recebeu R$ 444.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Dilvanda Faro (PT/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6464d1c2ac442e6d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6464d1c2ac442e6d.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -24,11 +18,5 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. NORTE COMERCIO, SERVICOS E MANUTENCAO LTDA e GERIZIM CONSTRUTORA, INCORPORADORA, CONSULTORIA E SERVICOS LTDA: sócio em comum Admar Rocha Correa; juntas receberam R$ 120.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Dilvanda Faro (PT/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7c2381dc45b56229.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7c2381dc45b56229.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 58.611.926 THIAGO VALENTE DE MELO foi aberta em 03/01/2025, 3 dias antes da primeira nota (06/01/2025); recebeu R$ 22.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

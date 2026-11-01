@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3522.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3522.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Possível reembolso repetido após conciliação mensal — Duda Salabert (PSOL/MG)</title>
@@ -24,23 +24,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 23 de TÁXI LEGAL (19/03/2024): 2 lançamentos em 1 competência(s); documento R$ 25,00, valor líquido R$ 50,00, restituições R$ 0,00, saldo R$ 50,00 (excedente R$ 25,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Duda Salabert (PSOL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2cc90c4d4bfc3633.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2cc90c4d4bfc3633.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MARIA ISABEL DE OLIVEIRA: 7 notas em 7 meses, numeradas de 2 a 13 (R$ 40.000,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Duda Salabert (PSOL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1659dd66c17ea6e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f1659dd66c17ea6e.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 62.401.311 MARIA ISABEL DE OLIVEIRA foi aberta em 26/08/2025, 113 dias antes da primeira nota (17/12/2025); recebeu R$ 40.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Duda Salabert (PSOL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a60c063edd6e10a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a60c063edd6e10a7.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. YAS! ESTUDIO CRIATIVO LTDA foi aberta em 13/01/2025, 52 dias antes da primeira nota (06/03/2025); recebeu R$ 18.510,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

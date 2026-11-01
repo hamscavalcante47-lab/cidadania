@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3669.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3669.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Zucco (PL/RS)</title>
@@ -18,11 +18,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. MECANICA EUROTECH LTDA recebeu R$ 2.672,00 por "combustíveis e lubrificantes", mas sua atividade é "Serviços de manutenção e reparação mecânica de veículos automotores" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Zucco (PL/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d75b5db4a0dcd21d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d75b5db4a0dcd21d.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. BROAD BRASIL LTDA foi aberta em 21/12/2022, 148 dias antes da primeira nota (18/05/2023); recebeu R$ 30.450,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

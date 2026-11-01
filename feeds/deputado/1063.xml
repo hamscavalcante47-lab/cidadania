@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1063.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1063.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Possível reembolso repetido após conciliação mensal — João Leão (PP/BA)</title>
@@ -31,12 +31,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 6768067 de SECRETARIA DE ESTADO DE FAZENDA DA BAHIA (18/09/2024): 2 lançamentos em 2 competência(s); documento R$ 267,40, valor líquido R$ 534,80, restituições R$ 0,00, saldo R$ 534,80 (excedente R$ 267,40). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — João Leão (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2dd10aa3283b5a33.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2dd10aa3283b5a33.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 53.814.941 PAULO CESAR OLIVEIRA DOS SANTOS foi aberta em 06/02/2024, 35 dias antes da primeira nota (12/03/2024); recebeu R$ 9.500,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Atividade da empresa não combina com o gasto — João Leão (PP/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/98bd3b8ac0fb1e68.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/98bd3b8ac0fb1e68.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -49,18 +43,6 @@
 <category term="Média"/>
 <summary>Gravidade média. KAPO VEICULOS LTDA e VIA LOCADORA DE AUTOMOVEIS LTDA: sócio em comum Jose Carlos Dourado De Azevedo Junior; juntas receberam R$ 426.389,66. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — João Leão (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/77381a7314874ea5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/77381a7314874ea5.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MIRO PSAROS COMUNICACAO DIGITAL LTDA foi aberta em 07/08/2024, 106 dias antes da primeira nota (21/11/2024); recebeu R$ 155.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — João Leão (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9fbd3111e5242103.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9fbd3111e5242103.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. JS PRODUÇÕES E INTERMIDIAÇÕES LTDA: 5 notas em 5 meses, numeradas de 2 a 11 (R$ 87.000,00). Fora deste gabinete, a empresa emitiu no máximo 5 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — João Leão (PP/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/20ef6b1ed528f87f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/20ef6b1ed528f87f.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -72,11 +54,5 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. ALLPARK EMPREENDIMENTOS, PARTICIPACOES E SERVICOS S.A. e WELLPARK - ESTACIONAMENTOS E SERVICOS LTDA.: sócio em comum Daniel Henrique Nogueira Soraggi E Castro; juntas receberam R$ 39.744,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — João Leão (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdfaa35aa2da9140.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdfaa35aa2da9140.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ALLPARK EMPREENDIMENTOS, PARTICIPACOES E SERVICOS S.A. foi aberta em 25/04/2024, 102 dias antes da primeira nota (05/08/2024); recebeu R$ 21.600,00. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

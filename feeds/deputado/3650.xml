@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3650.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3650.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Gilvan da Federal (PL/ES)</title>
@@ -18,17 +18,5 @@
 <updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 886 de lLAND LOCADORA LTDA (R$ 450,00, 14/08/2023): foi declarado R$ 450,00, mas o maior valor no documento é R$ 150,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Gilvan da Federal (PL/ES)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0b52db6c479980b9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0b52db6c479980b9.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. J WESLWY DE S PEREIRA: 11 notas em 11 meses, numeradas de 6 a 34 (R$ 68.838,70). Fora deste gabinete, a empresa emitiu no máximo 18 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Gilvan da Federal (PL/ES)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4208885da150a1c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4208885da150a1c.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 26.443.412 CAROLINE DE MENDONCA ZANETTI: 5 notas em 5 meses, numeradas de 1 a 7 (R$ 25.670,00). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

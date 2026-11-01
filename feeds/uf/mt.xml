@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/mt.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/mt.xml</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Nelson Barbudo (PODE/MT)</title>
@@ -145,12 +145,6 @@
 <category term="Média"/>
 <summary>Gravidade média. MALUJOA COMUNICACOES LTDA e SOCRAM COMUNICACAO LTDA: sócio em comum Joaquim Manfrim Coutinho Barbosa; juntas receberam R$ 20.000,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Empresa aberta pouco antes de receber — Abilio Brunini (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c6bc2bc67ab9adc7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c6bc2bc67ab9adc7.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 49.682.953 THIAGO MARTINS DA SILVA foi aberta em 23/02/2023, 4 dias antes da primeira nota (27/02/2023); recebeu R$ 8.700,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Atividade da empresa não combina com o gasto — José Medeiros (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/56c75569de30a3f4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/56c75569de30a3f4.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -163,29 +157,11 @@
 <category term="Alta"/>
 <summary>Gravidade alta. OMEGA EMPREENDIMENTOS IMOBILIARIOS LTDA está baixada desde 02/02/2024, mas emitiu 4 nota(s) depois disso (R$ 21.600,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Emanuel Pinheiro Neto (PSD/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5155e3c958a2f32f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5155e3c958a2f32f.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. FERNANDA CAMARGOS COMUNICACAO LTDA: 31 notas em 31 meses, numeradas de 3 a 93 (R$ 313.900,00). Fora deste gabinete, a empresa emitiu no máximo 60 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Coronel Assis (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/964466639f04656b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/964466639f04656b.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ESTRATEGIA COMUNICACOES LTDA foi aberta em 13/01/2023, 140 dias antes da primeira nota (02/06/2023); recebeu R$ 247.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Coronel Fernanda (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0d3032ec41bb077f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0d3032ec41bb077f.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. I9 SOLUCOES EM MARKETING E MIDIAS DIGITAIS LTDA e LEVVA MOBILIDADE LTDA: sócio em comum Antonia Daniele Melo Araujo; juntas receberam R$ 189.800,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Gisela Simona (UNIÃO/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e451b8bb966cb53d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e451b8bb966cb53d.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MARISA HELENA MARTINS BATALHA: 24 notas em 23 meses, numeradas de 2 a 33 (R$ 183.500,00). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — José Medeiros (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0e26ff75939d31f8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0e26ff75939d31f8.html</id>
@@ -199,112 +175,10 @@
 <category term="Média"/>
 <summary>Gravidade média. MARISA HELENA MARTINS BATALHA ***.762.036-** (MEI) recebeu R$ 101.000,00 da cota em 2025, R$ 101.000,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Notas com numeração quase seguida — Emanuel Pinheiro Neto (PSD/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f02350addd425e22.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f02350addd425e22.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ENGRENA COMUNICACAO LTDA: 8 notas em 8 meses, numeradas de 6 a 16 (R$ 83.200,00). Fora deste gabinete, a empresa emitiu no máximo 3 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Juarez Costa (REPUBLICANOS/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/80fc3a4726f4b613.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/80fc3a4726f4b613.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. REAVEL VEICULOS EIRELI: 9 notas em 9 meses, numeradas de 67 a 90 (R$ 78.019,36). Fora deste gabinete, a empresa emitiu no máximo 15 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Rodrigo da Zaeli (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3f58555b81bf653c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3f58555b81bf653c.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MMM BRASIL PUBLICIDADE LTDA DUCA!: 4 notas em 4 meses, numeradas de 16 a 21 (R$ 62.568,96). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Rodrigo da Zaeli (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b1ebf1700b936a55.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b1ebf1700b936a55.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. JESIEL DA SILVA DE PAULA - VELC: 8 notas em 8 meses, numeradas de 3 a 21 (R$ 57.000,00). Fora deste gabinete, a empresa emitiu no máximo 11 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — José Medeiros (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6b9b03ed3dfd71b9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6b9b03ed3dfd71b9.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. CENTRO OESTE NEWS COMUNICACOES LTDA: 5 notas em 5 meses, numeradas de 52 a 56 (R$ 44.500,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Emanuel Pinheiro Neto (PSD/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/42d41fe263d3ac6a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/42d41fe263d3ac6a.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. GIBSON FLORET DE FREITAS JUNIOR: 15 notas em 15 meses, numeradas de 5 a 28 (R$ 42.600,00). Fora deste gabinete, a empresa emitiu no máximo 9 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Coronel Assis (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/346ed342af6bffeb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/346ed342af6bffeb.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 50.776.530 RENATA CAROLINA MARQUES FORRER GARCIA BOERY foi aberta em 22/05/2023, 49 dias antes da primeira nota (10/07/2023); recebeu R$ 42.236,68. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Coronel Assis (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8299817b237d6671.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8299817b237d6671.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 50.776.530 RENATA CAROLINA MARQUES FORRER GARCIA BOERY: 5 notas em 5 meses, numeradas de 2 a 14 (R$ 42.236,68). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Amália Barros (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa8629a93bc0292a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa8629a93bc0292a.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. CARD AGENCIA DE MARKETING DIGITAL E ESTRATEGIA LTDA foi aberta em 22/03/2023, 14 dias antes da primeira nota (05/04/2023); recebeu R$ 38.500,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Abilio Brunini (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/75b7bc380a20af67.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/75b7bc380a20af67.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. PINHEIRO ESTRATEGIA E COMUNICACAO LTDA foi aberta em 16/05/2023, 140 dias antes da primeira nota (03/10/2023); recebeu R$ 37.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Flavinha (MDB/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f146a91e6ad7348b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f146a91e6ad7348b.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. REAVEL VEICULOS EIRELI: 4 notas em 4 meses, numeradas de 76 a 81 (R$ 34.220,00). Fora deste gabinete, a empresa emitiu no máximo 2 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Empresa aberta pouco antes de receber — Coronel Assis (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/109e0bcc45235471.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/109e0bcc45235471.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MARKETING IMPACTO DIGITAL LTDA foi aberta em 19/08/2025, 29 dias antes da primeira nota (17/09/2025); recebeu R$ 34.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Coronel Fernanda (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7e2b92d6dd2acf82.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7e2b92d6dd2acf82.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Wmh Arte Visual Ltda.: 4 notas em 4 meses, numeradas de 44 a 53 (R$ 32.500,00). Fora deste gabinete, a empresa emitiu no máximo 6 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Coronel Fernanda (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/083d128c64800949.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/083d128c64800949.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MB CONSULTORIA E ASSESSORIA POLITICA LTDA: 7 notas em 7 meses, numeradas de 22 a 36 (R$ 32.000,00). Fora deste gabinete, a empresa emitiu no máximo 8 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Coronel Assis (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2ce960fcc18d086d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2ce960fcc18d086d.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 37.893.144 EDUARDO HENRIQUE BORDONI LINHARES: 6 notas em 7 meses, numeradas de 1 a 7 (R$ 29.500,00). Fora deste gabinete, a empresa emitiu no máximo 1 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Coronel Assis (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0f815fa1012395cb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0f815fa1012395cb.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. POSTO COMERCIAL UNB LTDA e CONTROLL ENERGY REPRESENTACAO LTDA: sócio em comum Clever Morato Axhcar; juntas receberam R$ 28.355,85. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — Coronel Fernanda (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1a0f6fd9440ea53b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1a0f6fd9440ea53b.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 7TRES7 SOLUÇÕES E TECNOLOGIA LTDA: 5 notas em 5 meses, numeradas de 8 a 16 (R$ 26.670,00). Fora deste gabinete, a empresa emitiu no máximo 4 outra(s) nota(s) no período. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Notas com numeração quase seguida — José Medeiros (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/15b406c814e88da7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/15b406c814e88da7.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. EFRATA MOBILIDADE LTDA: 4 notas em 4 meses, numeradas de 38 a 41 (R$ 24.000,00). Fora deste gabinete, a empresa não emitiu nenhuma outra nota no período. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>
