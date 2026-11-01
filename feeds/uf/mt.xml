@@ -25,24 +25,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: GEVE COMUNICACAO LTDA recebeu R$ 18.000,00; Ana Eliza Pereira De Oliveira é sócio(a) desde 17/07/2024 e trabalhou no gabinete de Marussa Boldrin (REPUBLICANOS/GO) (secretário parlamentar, SP23) de 23/02/2023 a 29/01/2026. Pagamentos: R$ 15.000,00 durante o vínculo, R$ 3.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 15.000,00 com a pessoa já sócia e servidora e R$ 3.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — José Medeiros (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ca832a95d11a8e4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ca832a95d11a8e4.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 1 nota(s) depois disso (R$ 30,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Coronel Fernanda (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b52a5b197d0c2c2b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b52a5b197d0c2c2b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. UBER DO BRASIL TECNOLOGIA LTDA. está baixada desde 14/03/2024, mas emitiu 1 nota(s) depois disso (R$ 28,60). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Coronel Fernanda (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/859e7b30ab09b63c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/859e7b30ab09b63c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. UBER DO BRASIL TECNOLOGIA LTDA. está baixada desde 14/03/2024, mas emitiu 1 nota(s) depois disso (R$ 27,97). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — José Medeiros (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6071e56818dbaa16.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6071e56818dbaa16.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -103,11 +85,11 @@
 <category term="Média"/>
 <summary>Gravidade média. AUTOPETRO CALIFORNIA LTDA recebeu R$ 2.242,77 por "combustíveis e lubrificantes", mas sua atividade é "Aluguel de imóveis próprios" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Emanuel Pinheiro Neto (PSD/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/899c587e7f755aa3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/899c587e7f755aa3.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. OMEGA EMPREENDIMENTOS IMOBILIARIOS LTDA está baixada desde 02/02/2024, mas emitiu 4 nota(s) depois disso (R$ 21.600,00). Alerta não é acusação: confira a nota original.</summary>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — José Medeiros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/065ed26cd4549f72.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ca832a95d11a8e4.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA aparece na Receita Federal como inapta desde 04/01/2022; há 1 nota(s) com data posterior (R$ 30,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Coronel Fernanda (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0d3032ec41bb077f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0d3032ec41bb077f.html</id>
@@ -132,5 +114,11 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. POSTO COMERCIAL UNB LTDA e CONTROLL ENERGY REPRESENTACAO LTDA: sócio em comum Clever Morato Axhcar; juntas receberam R$ 28.355,85. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f58bc013ca78ea44.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/899c587e7f755aa3.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. OMEGA EMPREENDIMENTOS IMOBILIARIOS LTDA aparece na Receita Federal como baixada desde 02/02/2024; há 4 nota(s) com data posterior (R$ 21.600,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

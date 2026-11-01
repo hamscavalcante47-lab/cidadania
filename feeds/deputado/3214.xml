@@ -7,12 +7,6 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — José Nelto (UNIÃO/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/47dd3417226cde23.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/47dd3417226cde23.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. 39.152.506 AGUINALDO SANTANA VIEIRA está inapta desde 12/08/2024, mas emitiu 1 nota(s) depois disso (R$ 4.050,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — José Nelto (UNIÃO/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8959e6f4186adccb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8959e6f4186adccb.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -24,5 +18,11 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. PETROMIX COMBUSTIVEIS E LUBRIFICANTES LTDA recebeu R$ 9.079,70 da cota; o sócio Giovani Antonio Barbosa doou R$ 30.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — José Nelto (UNIÃO/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0ccb12b733b9df10.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/47dd3417226cde23.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 39.152.506 AGUINALDO SANTANA VIEIRA aparece na Receita Federal como inapta desde 12/08/2024; há 1 nota(s) com data posterior (R$ 4.050,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

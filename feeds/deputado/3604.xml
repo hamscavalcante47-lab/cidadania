@@ -43,12 +43,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 1568 de TÁXI LEGAL (28/02/2023): 3 lançamentos em 1 competência(s); documento R$ 55,41, valor líquido R$ 166,23, restituições R$ 0,00, saldo R$ 166,23 (excedente R$ 110,82). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Miguel Ângelo (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/36f400b7138455f3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/36f400b7138455f3.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 1 nota(s) depois disso (R$ 24,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Miguel Ângelo (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6adc419d63a12e5a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6adc419d63a12e5a.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -102,5 +96,11 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. IKEDA PROJETOS &amp; HOTELARIA LTDA recebeu R$ 2.625,00 por "hospedagem, exceto do parlamentar no distrito federal", mas sua atividade é "Serviços combinados de escritório e apoio administrativo" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Miguel Ângelo (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa5fd6bd0c81abaf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/36f400b7138455f3.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA aparece na Receita Federal como inapta desde 04/01/2022; há 1 nota(s) com data posterior (R$ 24,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

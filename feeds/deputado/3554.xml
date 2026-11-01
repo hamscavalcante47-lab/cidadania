@@ -13,29 +13,11 @@
 <category term="Alta"/>
 <summary>Gravidade alta. O mesmo arquivo de nota de Caminhos da serra gaucha foi anexado a 2 reembolsos. Despesas declaradas: nº 30020855 (R$ 8,64, 24/11/2025); nº 30020855 (R$ 8,64, 24/11/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Alexandre Lindenmeyer (PT/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bcbccfe8519bffcd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bcbccfe8519bffcd.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. 99 TECNOLOGIA LTDA está baixada desde 17/05/2023, mas emitiu 7 nota(s) depois disso (R$ 143,39). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Alexandre Lindenmeyer (PT/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a0854997dc282f95.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a0854997dc282f95.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 1 nota(s) depois disso (R$ 20,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Alexandre Lindenmeyer (PT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b731dedfe02b9496.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b731dedfe02b9496.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 137480E8 de EMPRESA CONCESSIONARIA DE RODOVIAS DO SUL S/A - ECOSUL (12/12/2025): 2 lançamentos em 1 competência(s); documento R$ 19,60, valor líquido R$ 39,20, restituições R$ 0,00, saldo R$ 39,20 (excedente R$ 19,60). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Alexandre Lindenmeyer (PT/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/92b731b5b074ce08.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/92b731b5b074ce08.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. EDUARDO GUEDES RANGEL DA SILVA ***.880.077-** está baixada desde 21/09/2023, mas emitiu 2 nota(s) depois disso (R$ 16,62). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Alexandre Lindenmeyer (PT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2f873624152f908e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2f873624152f908e.html</id>
@@ -72,6 +54,12 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. POSTO DE COMBUSTIVEIS ULYSSE MARASCHIN LTDA recebeu R$ 9.452,55 por "combustíveis e lubrificantes", mas sua atividade é "Aluguel de imóveis próprios" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/44ab5dd3f7fe0a42.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a0854997dc282f95.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA aparece na Receita Federal como inapta desde 04/01/2022; há 1 nota(s) com data posterior (R$ 20,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Nota apresentada fora do prazo — Alexandre Lindenmeyer (PT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4dd56823d2fb4401.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4dd56823d2fb4401.html</id>

@@ -7,23 +7,23 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Zé Vitor (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e97f5fcf690807.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e97f5fcf690807.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. ASSOCIACAO DOS CONDUTORES AUTONOMOS DE TAXI - ACAT está inapta desde 31/05/2019, mas emitiu 2 nota(s) depois disso (R$ 335,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Zé Vitor (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cd46481820e1d919.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cd46481820e1d919.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. ASSOCIACAO DOS TAXISTAS DO PONTO DE TAXI SAO PAULO está baixada desde 28/06/2018, mas emitiu 1 nota(s) depois disso (R$ 49,50). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Doador da campanha recebendo da cota — Zé Vitor (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dac4528e3a3decc8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dac4528e3a3decc8.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. CINQUENTAO COMERCIO DE COMBUSTIVEIS LTDA recebeu R$ 1.115,78 da cota; o sócio Roberto Balsanufo Costa E Silva doou R$ 20.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Zé Vitor (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/88c1fb309d0b57d0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e97f5fcf690807.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ASSOCIACAO DOS CONDUTORES AUTONOMOS DE TAXI - ACAT aparece na Receita Federal como inapta desde 31/05/2019; há 2 nota(s) com data posterior (R$ 335,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Zé Vitor (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3e8c05024483f56a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cd46481820e1d919.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ASSOCIACAO DOS TAXISTAS DO PONTO DE TAXI SAO PAULO aparece na Receita Federal como baixada desde 28/06/2018; há 1 nota(s) com data posterior (R$ 49,50). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Doador da campanha recebendo da cota — Zé Vitor (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/20f6c85c8c9fbcc0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/20f6c85c8c9fbcc0.html</id>

@@ -13,24 +13,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 169 de Elegis Gestão Estratégica, Consultoria e Tecn... (09/12/2025): 2 lançamentos em 1 competência(s); documento R$ 649,00, valor líquido R$ 1.298,00, restituições R$ 0,00, saldo R$ 1.298,00 (excedente R$ 649,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Roberto Duarte (REPUBLICANOS/AC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/55f96668b4d57ca8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/55f96668b4d57ca8.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. R. BRITO DE AGUIAR está baixada desde 01/04/2022, mas emitiu 1 nota(s) depois disso (R$ 520,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6f45cbc9fcc41423.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f45cbc9fcc41423.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. R. BRITO DE AGUIAR está baixada desde 01/04/2022, mas emitiu 3 nota(s) depois disso (R$ 490,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Meire Serafim (UNIÃO/AC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/44e5b76f69f8e719.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/44e5b76f69f8e719.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. HADID COMERCIO DE ALIMENTOS LTDA está baixada desde 09/10/2023, mas emitiu 1 nota(s) depois disso (R$ 42,40). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Coronel Ulysses (UNIÃO/AC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e9c1550fa968449a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e9c1550fa968449a.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -73,11 +55,23 @@
 <category term="Média"/>
 <summary>Gravidade média. 62.205.988 NIELLE FRANCA DE MELO recebeu R$ 4.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Instalação e manutenção elétrica" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Coronel Ulysses (UNIÃO/AC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c108e3c72c8f41ad.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c108e3c72c8f41ad.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. DANILO FERREIRA DA SILVA ***.529.502-** está baixada desde 02/10/2025, mas emitiu 1 nota(s) depois disso (R$ 7.000,00). Alerta não é acusação: confira a nota original.</summary>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Roberto Duarte (REPUBLICANOS/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc2d1fbfde84e6a0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/55f96668b4d57ca8.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. R. BRITO DE AGUIAR aparece na Receita Federal como baixada desde 01/04/2022; há 1 nota(s) com data posterior (R$ 520,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/13c5a86f43e7c920.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f45cbc9fcc41423.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. R. BRITO DE AGUIAR aparece na Receita Federal como baixada desde 01/04/2022; há 3 nota(s) com data posterior (R$ 490,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Meire Serafim (UNIÃO/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bce60d1e8ab0c251.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/44e5b76f69f8e719.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. HADID COMERCIO DE ALIMENTOS LTDA aparece na Receita Federal como baixada desde 09/10/2023; há 1 nota(s) com data posterior (R$ 42,40). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Doador da campanha recebendo da cota — Socorro Neri (PP/AC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ab9499759e987744.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ab9499759e987744.html</id>
@@ -114,5 +108,11 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. A SANTANA SOUZA JUNIOR LTDA recebeu R$ 42.247,21 por "combustíveis e lubrificantes", mas sua atividade é "Representantes comerciais e agentes do comércio de mercadorias em geral não especializado" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Coronel Ulysses (UNIÃO/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/92e2144425478917.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c108e3c72c8f41ad.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. DANILO FERREIRA DA SILVA ***52950*** aparece na Receita Federal como baixada desde 02/10/2025; há 1 nota(s) com data posterior (R$ 7.000,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

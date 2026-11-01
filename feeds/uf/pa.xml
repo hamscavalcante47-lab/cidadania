@@ -7,12 +7,6 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Hélio Leite (UNIÃO/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/58c1cad3a9fe5289.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/58c1cad3a9fe5289.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. T DOS REIS SILVA LTDA está inapta desde 21/08/2024, mas emitiu 1 nota(s) depois disso (R$ 800,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Júnior Ferrari (PSD/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0b78e7047b74a2f9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0b78e7047b74a2f9.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -56,22 +50,16 @@
 <summary>Gravidade média. AUTO POSTO NOVA VIDA 1 COMERCIO DE COMBUSTIVEIS LTDA recebeu R$ 4.599,94 da cota; o sócio Bruno Barros De Oliveira doou R$ 5.500,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Atividade da empresa não combina com o gasto — Joaquim Passarinho (PL/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/11cd83b33bc16d15.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/11cd83b33bc16d15.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/852790285688d0ee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/11cd83b33bc16d15.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. QUADROS HOLDING LTDA recebeu R$ 2.009,82 por "combustíveis e lubrificantes", mas sua atividade é "Holdings de instituições não-financeiras" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. Declarado como POSTO COPA 94 LTDA, que recebeu R$ 2.009,82 por "combustíveis e lubrificantes"; o CNPJ 05.044.096/0001-03 aparece hoje na Receita como QUADROS HOLDING LTDA, com atividade "Holdings de instituições não-financeiras". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Olival Marques (PODE/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa9b096d1652b2f8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa9b096d1652b2f8.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. DINAMIC COMERCIO E SERVICOS LTDA está inapta desde 13/08/2024, mas emitiu 3 nota(s) depois disso (R$ 50.000,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Keniston Braga (MDB/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f4aab1659de82d50.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f4aab1659de82d50.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. 56.420.806 BEATRIZ LEITE MONTEIRO está baixada desde 02/12/2024, mas emitiu 1 nota(s) depois disso (R$ 7.048,00). Alerta não é acusação: confira a nota original.</summary>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Hélio Leite (UNIÃO/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6c096570a8c5d252.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/58c1cad3a9fe5289.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. T DOS REIS SILVA LTDA aparece na Receita Federal como inapta desde 21/08/2024; há 1 nota(s) com data posterior (R$ 800,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Antônio Doido (MDB/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bbc743233d3ebd6f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bbc743233d3ebd6f.html</id>
@@ -108,6 +96,12 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. AUTO POSTO NOVA VIDA 2 COMERCIO DE COMBUSTIVEIS LTDA recebeu R$ 63.263,93 da cota; o sócio Bruno Barros De Oliveira doou R$ 5.500,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Olival Marques (PODE/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b5ceec237d5c85c1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa9b096d1652b2f8.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. DINAMIC COMERCIO E SERVICOS LTDA aparece na Receita Federal como inapta desde 13/08/2024; há 3 nota(s) com data posterior (R$ 50.000,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Hélio Leite (UNIÃO/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff2b1278b5327d1f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff2b1278b5327d1f.html</id>

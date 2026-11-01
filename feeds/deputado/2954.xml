@@ -13,18 +13,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. O mesmo arquivo de nota de TÁXI LEGAL foi anexado a 2 reembolsos. Despesas declaradas: nº 1574 (R$ 20,00, 26/03/2024); nº 1574 (R$ 20,00, 26/03/2024). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Vitor Lippi (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/88042a464ec6b58a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/88042a464ec6b58a.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 1 nota(s) depois disso (R$ 75,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Vitor Lippi (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3b1216842b9bb4d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f3b1216842b9bb4d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. RADIO TAXI ALVORADA LTDA está baixada desde 11/03/2020, mas emitiu 1 nota(s) depois disso (R$ 70,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Vitor Lippi (PSD/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7101d90a769e1878.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7101d90a769e1878.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -54,5 +42,17 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. BERTOLAI E CARRIERI LTDA recebeu R$ 3.600,00 por "divulgação da atividade parlamentar", mas sua atividade é "Serviços de malote não realizados pelo Correio Nacional" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/377cff0065873a92.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/88042a464ec6b58a.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA aparece na Receita Federal como inapta desde 04/01/2022; há 1 nota(s) com data posterior (R$ 75,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4b5cccbdbcd96f67.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f3b1216842b9bb4d.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. RADIO TAXI ALVORADA LTDA aparece na Receita Federal como baixada desde 11/03/2020; há 1 nota(s) com data posterior (R$ 70,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -7,22 +7,16 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — General Girão (PL/RN)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/190c4ed28711f01f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/190c4ed28711f01f.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. ELISABETE BORINELLI ***.012.229-** está baixada desde 18/05/2023, mas emitiu 4 nota(s) depois disso (R$ 185,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — General Girão (PL/RN)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/05e27cc10a577ebf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/05e27cc10a577ebf.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. EDUARDO GUEDES RANGEL DA SILVA ***.880.077-** está baixada desde 21/09/2023, mas emitiu 1 nota(s) depois disso (R$ 39,60). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Atividade da empresa não combina com o gasto — General Girão (PL/RN)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a6bb6051d0240df8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a6bb6051d0240df8.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. IKEDA PROJETOS &amp; HOTELARIA LTDA recebeu R$ 2.310,00 por "hospedagem, exceto do parlamentar no distrito federal", mas sua atividade é "Serviços combinados de escritório e apoio administrativo" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — General Girão (PL/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0098c579612f4012.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/190c4ed28711f01f.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ELISABETE BORINELLI ***01222*** aparece na Receita Federal como baixada desde 18/05/2023; há 4 nota(s) com data posterior (R$ 185,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

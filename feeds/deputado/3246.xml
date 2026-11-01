@@ -7,12 +7,6 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Otoni de Paula (PSD/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/53f9cccd15b21a1a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/53f9cccd15b21a1a.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. AUTO POSTO DO TRABALHO S/A está baixada desde 28/12/2022, mas emitiu 9 nota(s) depois disso (R$ 2.180,03). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Otoni de Paula (PSD/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/68f30aad8a9216df.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/68f30aad8a9216df.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -24,5 +18,11 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. AUTO POSTO DO TRABALHO FREGUESIA LTDA e AUTO POSTO DO TRABALHO JACAREPAGUA LTDA: sócio em comum Forza Empreendimentos E Participacoes Ltda.; juntas receberam R$ 31.840,88. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Otoni de Paula (PSD/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bf1a51e412bb33f2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/53f9cccd15b21a1a.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. AUTO POSTO DO TRABALHO S/A aparece na Receita Federal como baixada desde 28/12/2022; há 9 nota(s) com data posterior (R$ 2.180,03). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

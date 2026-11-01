@@ -7,22 +7,16 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Deltan Dallagnol (PODE/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/50ead4fe6156a403.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/50ead4fe6156a403.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. EDITORA ABRIL S.A. está baixada desde 30/09/2012, mas emitiu 1 nota(s) depois disso (R$ 96,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Deltan Dallagnol (PODE/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d180f4605d48e4f0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d180f4605d48e4f0.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. SINDICATO DOS MOTORISTAS DE TAXI DE CASCAVEL está inapta desde 09/03/2021, mas emitiu 1 nota(s) depois disso (R$ 21,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Deltan Dallagnol (PODE/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d75fbcdb5a6b6e5e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d75fbcdb5a6b6e5e.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. FABIO NUNES DE MENEZES recebeu R$ 4.350,00 por "divulgação da atividade parlamentar", mas sua atividade é "Reparação e manutenção de computadores e de equipamentos periféricos" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Deltan Dallagnol (PODE/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c4e7947fb87b40b5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d180f4605d48e4f0.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. SINDICATO DOS MOTORISTAS DE TAXI DE CASCAVEL aparece na Receita Federal como inapta desde 09/03/2021; há 1 nota(s) com data posterior (R$ 21,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

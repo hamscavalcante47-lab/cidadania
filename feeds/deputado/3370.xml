@@ -19,12 +19,6 @@
 <category term="Média"/>
 <summary>Gravidade média. 58.047.162 JARDEL GOMES BOTELHO recebeu R$ 2.700,00 por "divulgação da atividade parlamentar", mas sua atividade é "Serviços de pintura de edifícios em geral" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Coronel Chrisóstomo (PL/RO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/64739b7770deab47.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/64739b7770deab47.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. 50.544.595 JUNIOR CESAR LORENA está baixada desde 21/07/2025, mas emitiu 1 nota(s) depois disso (R$ 1.500,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Coronel Chrisóstomo (PL/RO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/99a3fa358b3d4193.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/99a3fa358b3d4193.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
@@ -42,5 +36,11 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. ASSOCIACAO DE DIFUSAO COMUNITARIA CIDADE FM recebeu R$ 27.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de associações de defesa de direitos sociais" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Coronel Chrisóstomo (PL/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/117594b6fafaf4a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/64739b7770deab47.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 50.544.595 JUNIOR CESAR LORENA aparece na Receita Federal como baixada desde 21/07/2025; há 1 nota(s) com data posterior (R$ 1.500,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -463,6 +463,53 @@ function iniciarGastos() {
     graficoLinhas($("#gastos-mensal"), d.meses, d.series, { parciais: d.parciais });
   }
   iniciarTipos();
+  iniciarRestaurantes();
+}
+
+// página Restaurantes: a lista inteira vem de dados/restaurantes.json; a busca filtra por nome, cidade ou CNPJ, e cada
+// restaurante, ao abrir, mostra os gabinetes que consumiram lá. Sem JavaScript ficam os maiores, já no HTML
+async function iniciarRestaurantes() {
+  const lista = $("#restaurantes");
+  if (!lista) return;
+  const busca = $("#rest-busca"), resumo = $("#rest-resumo"), mais = $("#rest-mais");
+  const LOTE = 50;
+  let limite = LOTE, dados;
+  try { dados = await json("dados/restaurantes.json"); }
+  catch { resumo.textContent = "Não foi possível carregar a lista completa; abaixo, os maiores."; return; }
+  const itens = dados.r.map((r, i) => ({ r, i, texto: normalizar(`${r[0]} ${r[2]}`), digitos: r[1].replace(/\D/g, "") }));
+  const plural = (n, um, varios) => `${n.toLocaleString("pt-BR")} ${n === 1 ? um : varios}`;
+  // sem centavos na tabela de gabinetes: no celular, a coluna do total cabe no cartão
+  const reais = v => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
+
+  function desenhar() {
+    const q = normalizar(busca.value.trim()), qDigitos = busca.value.replace(/\D/g, "");
+    const achados = itens.filter(x => !q || x.texto.includes(q) || (qDigitos.length >= 3 && x.digitos.includes(qDigitos)));
+    resumo.textContent = q ? plural(achados.length, "restaurante encontrado", "restaurantes encontrados")
+      : plural(achados.length, "restaurante", "restaurantes");
+    lista.innerHTML = achados.slice(0, limite).map(({ r, i }) => `<li><details class="forn" data-i="${i}">
+      <summary><span class="forn-l1"><span class="forn-nome">${esc(r[0])}</span></span>
+      <span class="forn-meta">${r[2] ? `${esc(r[2])} · ` : ""}${plural(r[4], "nota", "notas")} · ${plural(r[6].length, "gabinete", "gabinetes")} ·
+      <b>${brl2(r[3])}</b></span></summary><div class="rest-gab rolagem"></div></details></li>`).join("")
+      || `<li class="lt-vazio">Nenhum restaurante com esse nome, cidade ou CNPJ.</li>`;
+    mais.hidden = achados.length <= limite;
+  }
+  // toggle não sobe pela árvore: a escuta é na captura
+  lista.addEventListener("toggle", e => {
+    const d = e.target;
+    if (!(d instanceof HTMLDetailsElement) || !d.open || d.dataset.feito || d.dataset.i === undefined) return;
+    d.dataset.feito = "1";
+    const r = dados.r[+d.dataset.i];
+    const forn = r[5] ? `<a href="${RAIZ}fornecedor/${r[1].replace(/\D/g, "")}.html">página do fornecedor</a> · ` : "";
+    d.querySelector(".rest-gab").innerHTML = `<p class="forn-meta">${forn}<span class="mono">${esc(r[1])}</span></p>
+      <table><tr><th>Deputado(a)</th><th class="n">Notas</th><th class="n">Total</th></tr>${r[6].map(([pid, n, t]) => {
+        const [nome, partido, uf] = dados.d[pid];
+        return `<tr><td><a href="${RAIZ}deputado/${pid}.html">${esc(nome)}</a> <span class="cat">${esc(partido)}/${esc(uf)}</span></td>
+          <td class="n">${n.toLocaleString("pt-BR")}</td><td class="n">${reais(t)}</td></tr>`;
+      }).join("")}</table>`;
+  }, true);
+  busca.addEventListener("input", () => { limite = LOTE; desenhar(); });
+  mais.addEventListener("click", () => { limite += LOTE; desenhar(); });
+  desenhar();
 }
 
 // página Gastos: cada tipo da lista numerada abre um painel com os gabinetes que gastaram com ele e os indícios das
@@ -1242,7 +1289,7 @@ async function iniciarDeputado() {
         const url = linkNota(r), [nome, doc] = detalhe.f[r[3]];
         return `<tr><td class="mono">${esc(r[1] || nomeMes(meses[r[0]]))}</td><td class="cat">${esc(resumo.categorias[r[2]])}</td>
           <td>${esc(nome)}<br><span class="mono cat">${esc(doc)}</span></td><td class="mono">${esc(r[4])}</td>
-          <td class="n">${brl2(r[5])}</td><td>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">ver nota</a>` : "—"}</td></tr>`;
+          <td class="n">${r[9] ? `<span class="cat">devolução de</span> ${brl2(r[9])}` : brl2(r[5])}</td><td>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">ver nota</a>` : "—"}</td></tr>`;
       }).join("") + (lista.length ? "" : `<tr><td colspan="6" class="vazio">Nenhuma despesa com esses filtros.</td></tr>`);
     $("#d-tabela").dataset.ordem = estado.ordem.join(":");
     tabelaOrdenavel($("#d-tabela"), (coluna, direcao) => { estado.ordem = [coluna, direcao]; estado.limite = 100; desenharDespesas(); });

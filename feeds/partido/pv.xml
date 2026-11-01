@@ -31,18 +31,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 1083701 de AUTO POSTO RAVANELLO LTDA (20/02/2025): 2 lançamentos em 1 competência(s); documento R$ 230,12, valor líquido R$ 460,24, restituições R$ 0,00, saldo R$ 460,24 (excedente R$ 230,12). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Bandeira de Mello (PV/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/037dceae53e92493.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/037dceae53e92493.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. ASSOCIACAO DOS TAXISTAS AUTONOMOS DA UNIVERSIDADE FEDERAL DO PARA está inapta desde 06/11/2018, mas emitiu 1 nota(s) depois disso (R$ 40,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Bandeira de Mello (PV/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/be8304a37a120847.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/be8304a37a120847.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. ASSOCIACAO RIO'S PERSONAL TAXI está baixada desde 10/11/2015, mas emitiu 1 nota(s) depois disso (R$ 21,60). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Prof. Reginaldo Veras (PV/DF)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/da0c24d5e5c92f36.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/da0c24d5e5c92f36.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -90,6 +78,18 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. POSTO 81 LTDA recebeu R$ 2.836,81 por "combustíveis e lubrificantes", mas sua atividade é "Gestão e administração da propriedade imobiliária" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Bandeira de Mello (PV/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1319755cba0e5e9b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/037dceae53e92493.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ASSOCIACAO DOS TAXISTAS AUTONOMOS DA UNIVERSIDADE FEDERAL DO PARA aparece na Receita Federal como inapta desde 06/11/2018; há 1 nota(s) com data posterior (R$ 40,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Bandeira de Mello (PV/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5903049f8890c3b8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/be8304a37a120847.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ASSOCIACAO RIO'S PERSONAL TAXI aparece na Receita Federal como baixada desde 10/11/2015; há 1 nota(s) com data posterior (R$ 21,60). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Aliel Machado (PV/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d70134fff70067b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d70134fff70067b2.html</id>

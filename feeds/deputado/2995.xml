@@ -7,12 +7,6 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Miguel Lombardi (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b6f28361f0759f57.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b6f28361f0759f57.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. 41.902.736 ANDRE LUIZ MARTINATTI JUNIOR está baixada desde 18/05/2026, mas emitiu 1 nota(s) depois disso (R$ 624,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Miguel Lombardi (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/010c61b1cdd90eac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/010c61b1cdd90eac.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -30,5 +24,11 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. ELIS REGINA MAGALHAES PORTO recebeu R$ 3.080,00 por "divulgação da atividade parlamentar", mas sua atividade é "Comércio varejista de outros artigos de uso pessoal e doméstico não especificados anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Miguel Lombardi (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61455f8e29d83bbd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b6f28361f0759f57.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 41.902.736 ANDRE LUIZ MARTINATTI JUNIOR aparece na Receita Federal como baixada desde 18/05/2026; há 1 nota(s) com data posterior (R$ 624,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

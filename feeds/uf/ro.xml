@@ -13,18 +13,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 299 de Casaquatro Produtora LTDA (26/06/2023): 2 lançamentos em 2 competência(s); documento R$ 10.000,00, valor líquido R$ 20.000,00, restituições R$ 0,00, saldo R$ 20.000,00 (excedente R$ 10.000,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Lucio Mosquini (PL/RO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/85cf9809561260ce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/85cf9809561260ce.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. L M DO CARMO HOTEL LTDA está inapta desde 26/05/2026, mas emitiu 1 nota(s) depois disso (R$ 360,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Lebrão (UNIÃO/RO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b6b2d9524acb8a54.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b6b2d9524acb8a54.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 1 nota(s) depois disso (R$ 25,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Dr. Fernando Máximo (PL/RO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7a72efcd3aa1ba4c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7a72efcd3aa1ba4c.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -110,10 +98,10 @@
 <summary>Gravidade média. 58.047.162 JARDEL GOMES BOTELHO recebeu R$ 2.700,00 por "divulgação da atividade parlamentar", mas sua atividade é "Serviços de pintura de edifícios em geral" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Atividade da empresa não combina com o gasto — Silvia Cristina (PP/RO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5176b13450a80218.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5176b13450a80218.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d8db39dfb9309924.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5176b13450a80218.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. RONDOIMOVEIS LOCACAO DE BENS LTDA recebeu R$ 2.639,09 por "combustíveis e lubrificantes", mas sua atividade é "Aluguel de imóveis próprios" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. Declarado como COMERCIO DE COMBUSTIVEL RONDOPOSTO LTDA, que recebeu R$ 2.639,09 por "combustíveis e lubrificantes"; o CNPJ 04.685.448/0001-47 aparece hoje na Receita como RONDOIMOVEIS LOCACAO DE BENS LTDA, com atividade "Aluguel de imóveis próprios". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Doador da campanha recebendo da cota — Thiago Flores (UNIÃO/RO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/18542a30f8cb2339.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/18542a30f8cb2339.html</id>
@@ -121,11 +109,17 @@
 <category term="Média"/>
 <summary>Gravidade média. AUTO POSTO CATARINENSE LTDA recebeu R$ 1.214,96 da cota; o sócio Jaime Maximino Bagattoli doou R$ 50.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Coronel Chrisóstomo (PL/RO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/64739b7770deab47.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/64739b7770deab47.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. 50.544.595 JUNIOR CESAR LORENA está baixada desde 21/07/2025, mas emitiu 1 nota(s) depois disso (R$ 1.500,00). Alerta não é acusação: confira a nota original.</summary>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Lucio Mosquini (PL/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f4803d4ee0513976.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/85cf9809561260ce.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. L M DO CARMO HOTEL LTDA aparece na Receita Federal como inapta desde 26/05/2026; há 1 nota(s) com data posterior (R$ 360,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Lebrão (UNIÃO/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ccd2f7638d086591.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b6b2d9524acb8a54.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA aparece na Receita Federal como inapta desde 04/01/2022; há 1 nota(s) com data posterior (R$ 25,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Maurício Carvalho (UNIÃO/RO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/92985ce44a2afaf1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/92985ce44a2afaf1.html</id>
@@ -180,5 +174,11 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. ASSOCIACAO RADIO COMUNITARIA EDUCATIVA VERDE AMAZONIA - FM recebeu R$ 3.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de associações de defesa de direitos sociais" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Coronel Chrisóstomo (PL/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/117594b6fafaf4a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/64739b7770deab47.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 50.544.595 JUNIOR CESAR LORENA aparece na Receita Federal como baixada desde 21/07/2025; há 1 nota(s) com data posterior (R$ 1.500,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

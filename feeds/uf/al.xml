@@ -43,12 +43,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 60115 de GRAN COFFEE COM. LOC. E SERVICOS S.A. (01/10/2024): 2 lançamentos em 2 competência(s); documento R$ 350,00, valor líquido R$ 700,00, restituições R$ 0,00, saldo R$ 700,00 (excedente R$ 350,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Delegado Fabio Costa (PP/AL)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5d14090384925151.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5d14090384925151.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. 27.199.604 JULLY EMILLY GONCALVES DIAS VALOES está inapta desde 16/08/2024, mas emitiu 1 nota(s) depois disso (R$ 300,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Luciano Amaral (PSD/AL)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9000b3a2907fea91.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9000b3a2907fea91.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -79,11 +73,11 @@
 <category term="Média"/>
 <summary>Gravidade média. AUTO POSTO AMELIA ROSA LTDA recebeu R$ 1.083,61 da cota; o sócio James Thorp Neto doou R$ 10.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Daniel Barbosa (PP/AL)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3f0b3ec7154f1ff5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3f0b3ec7154f1ff5.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. JULLYANE CALDAS DE FARIAS MATOS ***.518.704-** está baixada desde 04/01/2024, mas emitiu 1 nota(s) depois disso (R$ 7.000,00). Alerta não é acusação: confira a nota original.</summary>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Delegado Fabio Costa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/01a2a262b87248f9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5d14090384925151.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 27.199.604 JULLY EMILLY GONCALVES DIAS VALOES aparece na Receita Federal como inapta desde 16/08/2024; há 1 nota(s) com data posterior (R$ 300,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Paulão (PT/AL)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/82b50b68b4087651.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/82b50b68b4087651.html</id>
@@ -126,5 +120,11 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. AUTO POSTO MILLENIUM LTDA recebeu R$ 25.093,55 da cota; o sócio James Thorp Neto doou R$ 10.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Daniel Barbosa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/09b7920bc3dbb932.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3f0b3ec7154f1ff5.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. JULLYANE CALDAS DE FARIAS MATOS ***51870*** aparece na Receita Federal como baixada desde 04/01/2024; há 1 nota(s) com data posterior (R$ 7.000,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

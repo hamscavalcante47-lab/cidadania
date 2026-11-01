@@ -1412,3 +1412,11 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
 .sua-cidade input { flex: 1; min-width: 0; font: inherit; padding: 12px 14px; min-height: 44px; border-radius: var(--pilula);
   border: 1px solid var(--linha-forte); background: var(--papel); color: var(--tinta); }
 .linhas .fatia { display: block; font-size: 12.5px; color: var(--tinta-3); }
+/* restaurantes: os gabinetes de cada restaurante abrem dentro do cartão */
+.rest-gab { padding: 0 12px 12px; }
+.rest-gab table { width: 100%; font-size: 14px; }
+.rest-gab .forn-meta { margin: 0 0 6px; }
+#restaurantes { grid-template-columns: minmax(0, 1fr); }
+#restaurantes .forn-meta { overflow-wrap: anywhere; }
+.rest-gab th, .rest-gab td { padding: 8px 6px; }
+.rest-gab td.n { white-space: nowrap; }

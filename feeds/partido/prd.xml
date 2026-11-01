@@ -7,24 +7,6 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Marreca Filho (PRD/MA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/62829380e2ccccc1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/62829380e2ccccc1.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. DC1 COMUNICACOES LTDA está inapta desde 20/08/2024, mas emitiu 2 nota(s) depois disso (R$ 4.800,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Fred Costa (PRD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6531542e7a976004.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6531542e7a976004.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. MUNICIPIO DE BELO HORIZONTE está baixada desde 26/04/2000, mas emitiu 3 nota(s) depois disso (R$ 2.274,83). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Fabiano Cazeca (PRD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9023486a43e01ac0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9023486a43e01ac0.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. 99 TECNOLOGIA LTDA está baixada desde 04/07/2025, mas emitiu 2 nota(s) depois disso (R$ 28,04). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Fernando Rodolfo (PRD/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2d7a9e841455f359.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2d7a9e841455f359.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -55,11 +37,17 @@
 <category term="Média"/>
 <summary>Gravidade média. POSTO PETROTURBO LTDA, AMERICA SERVICOS DE ADMINISTRACAO LTDA e AUTO POSTO GARANHUNS LTDA: sócio em comum Jose Edwerby Arruda Torres Junior; juntas receberam R$ 23.769,39. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Atividade da empresa não combina com o gasto — Fernando Rodolfo (PRD/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2b6f8a2a6664f448.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2b6f8a2a6664f448.html</id>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Marreca Filho (PRD/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/676fbe871c9b63bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/62829380e2ccccc1.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. HOTEL JURITI LTDA recebeu R$ 3.811,12 por "combustíveis e lubrificantes", mas sua atividade é "Hotéis" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. DC1 COMUNICACOES LTDA aparece na Receita Federal como inapta desde 20/08/2024; há 2 nota(s) com data posterior (R$ 4.800,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Atividade da empresa não combina com o gasto — Fernando Rodolfo (PRD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6461c1c204490309.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2b6f8a2a6664f448.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Declarado como AUTO POSTO JURITY LTDA, que recebeu R$ 3.811,12 por "combustíveis e lubrificantes"; o CNPJ 04.907.385/0001-26 aparece hoje na Receita como HOTEL JURITI LTDA, com atividade "Hotéis". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedor ligado a servidor ou ex-servidor do gabinete — Fernando Rodolfo (PRD/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5d99d3947e48c26b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5d99d3947e48c26b.html</id>
@@ -68,9 +56,9 @@
 <summary>Gravidade média. Ex-servidor(a) que virou fornecedor: 0DB.SOUND LTDA recebeu R$ 1.200,00; Kleber Batista Lindoso é sócio(a) desde 28/09/2023 e trabalhou no gabinete (secretário parlamentar, SP14) de 12/02/2019 a 24/07/2023. Pagamentos: R$ 1.200,00 depois do vínculo. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Atividade da empresa não combina com o gasto — Marreca Filho (PRD/MA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e9e21f1a9b5d3af6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e9e21f1a9b5d3af6.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/de8c04c79bef1b37.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e9e21f1a9b5d3af6.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. SENSE - CLINICA DE REABILITACAO INFANTIL LTDA recebeu R$ 30.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de psicologia e psicanálise" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. Declarado como +BRASIL CONSULTORIA ORCAMENTARIA E LEGISLATIVA TECNICA LTDA, que recebeu R$ 30.000,00 por "divulgação da atividade parlamentar"; o CNPJ 48.265.262/0001-04 aparece hoje na Receita como SENSE - CLINICA DE REABILITACAO INFANTIL LTDA, com atividade "Atividades de psicologia e psicanálise". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

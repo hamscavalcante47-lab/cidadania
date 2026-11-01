@@ -55,23 +55,17 @@
 <category term="Média"/>
 <summary>Gravidade média. Fornecedor que depois virou servidor(a): MALOCA ASSESSORIA EM COMUNICACAO E DESIGN LTDA recebeu R$ 18.000,00; Mario Santos Peixoto Junior é sócio(a) desde 07/03/2013 e trabalhou no gabinete (secretário parlamentar, SP19) de 18/10/2023 a 06/10/2024. Pagamentos: R$ 18.000,00 antes do vínculo. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Albuquerque (REPUBLICANOS/RR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/11e816ea6a28e4e8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/11e816ea6a28e4e8.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. VIA MIDIA PRODUCOES E SERVICOS LTDA está inapta desde 26/10/2023, mas emitiu 14 nota(s) depois disso (R$ 210.000,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Nicoletti (PL/RR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ccd8422efdba1e2b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ccd8422efdba1e2b.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. VERITAS PUBLICIDADE E MARKETING LTDA está suspensa desde 02/06/2025, mas emitiu 1 nota(s) depois disso (R$ 4.000,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Nicoletti (PL/RR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d83e8c9a1b5c4ceb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d83e8c9a1b5c4ceb.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. STAFF LTDA e STAFF SEGURANCA LTDA: sócio em comum Leandro Berredo Dos Santos; juntas receberam R$ 226.200,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Albuquerque (REPUBLICANOS/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b89b5a9332cdf071.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/11e816ea6a28e4e8.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. VIA MIDIA PRODUCOES E SERVICOS LTDA aparece na Receita Federal como inapta desde 26/10/2023; há 14 nota(s) com data posterior (R$ 210.000,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Pastor Diniz (UNIÃO/RR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/054d3b0a066becd8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/054d3b0a066becd8.html</id>
@@ -90,5 +84,11 @@
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. BRASIL NORTE EMPREENDIMENTOS LTDA recebeu R$ 54.000,00 por "locação ou fretamento de veículos automotores", mas sua atividade é "Instalação e manutenção de sistemas centrais de ar condicionado, de ventilação e refrigeração" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Nicoletti (PL/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec3b531e5ee31138.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ccd8422efdba1e2b.html</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. VERITAS PUBLICIDADE E MARKETING LTDA aparece na Receita Federal como suspensa desde 02/06/2025; há 1 nota(s) com data posterior (R$ 4.000,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

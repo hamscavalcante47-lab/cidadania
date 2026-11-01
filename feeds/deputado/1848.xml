@@ -19,12 +19,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. nº 134831 de POSTO DE ABASTECIMENTO GALLENA LAGOA LTDA (24/07/2024): 2 lançamentos em 1 competência(s); documento R$ 150,05, valor líquido R$ 300,10, restituições R$ 0,00, saldo R$ 300,10 (excedente R$ 150,05). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Hugo Leal (PSD/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/085093d2e6fc7682.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/085093d2e6fc7682.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 1 nota(s) depois disso (R$ 38,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Hugo Leal (PSD/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/586eead0a7b0b404.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/586eead0a7b0b404.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -36,5 +30,11 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. VEP VEICULOS ESPECIAIS DE PETROPOLIS LTDA e AUTO POSTO BONSUCESSO LTDA: sócio em comum Fplj Participacoes Ltda; juntas receberam R$ 34.511,26. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Hugo Leal (PSD/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/517f00b8905ff721.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/085093d2e6fc7682.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA aparece na Receita Federal como inapta desde 04/01/2022; há 1 nota(s) com data posterior (R$ 38,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -7,12 +7,6 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6f45cbc9fcc41423.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f45cbc9fcc41423.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. R. BRITO DE AGUIAR está baixada desde 01/04/2022, mas emitiu 3 nota(s) depois disso (R$ 490,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/db26b25d2ded4029.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/db26b25d2ded4029.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -36,5 +30,11 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 62.205.988 NIELLE FRANCA DE MELO recebeu R$ 4.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Instalação e manutenção elétrica" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/13c5a86f43e7c920.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f45cbc9fcc41423.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. R. BRITO DE AGUIAR aparece na Receita Federal como baixada desde 01/04/2022; há 3 nota(s) com data posterior (R$ 490,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

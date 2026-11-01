@@ -55,18 +55,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: ASPAR - ASSESSORIA E TECNOLOGIA LTDA recebeu R$ 72.750,00; Fernando Aguinaldo Alves é sócio(a) desde 12/08/2022 e trabalhou no gabinete (secretário parlamentar, SP04) desde 17/08/2026. Pagamentos: R$ 72.750,00 antes do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 72.750,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — José Nelto (UNIÃO/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/47dd3417226cde23.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/47dd3417226cde23.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. 39.152.506 AGUINALDO SANTANA VIEIRA está inapta desde 12/08/2024, mas emitiu 1 nota(s) depois disso (R$ 4.050,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Adriano do Baldy (PP/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bb3d19d06a2ddebb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bb3d19d06a2ddebb.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. DIVINA DELFINA DE ARAUJO está inapta desde 10/11/2023, mas emitiu 2 nota(s) depois disso (R$ 220,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Delegada Adriana Accorsi (PT/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/70a89ff4ca05e281.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d87657705dd67bdf.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -78,12 +66,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 20100305602281 de SECRETARIA MUNICIPAL DA FAZENDA (26/12/2025): 3 lançamentos em 2 competência(s); documento R$ 90,27, valor líquido R$ 270,81, restituições R$ 0,00, saldo R$ 270,81 (excedente R$ 180,54). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Gustavo Gayer (PL/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2fcff6fecb91a20a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2fcff6fecb91a20a.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. AATU ALL VIAGENS &amp; TURISMO LTDA está baixada desde 02/09/2010, mas emitiu 1 nota(s) depois disso (R$ 175,10). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — José Nelto (UNIÃO/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8959e6f4186adccb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8959e6f4186adccb.html</id>
@@ -193,6 +175,12 @@
 <category term="Média"/>
 <summary>Gravidade média. COUNTRY CLUBE DE GOIAS recebeu R$ 5.250,03 por "fornecimento de alimentação do parlamentar", mas sua atividade é "Clubes sociais, esportivos e similares" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — José Nelto (UNIÃO/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0ccb12b733b9df10.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/47dd3417226cde23.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 39.152.506 AGUINALDO SANTANA VIEIRA aparece na Receita Federal como inapta desde 12/08/2024; há 1 nota(s) com data posterior (R$ 4.050,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Daniel Agrobom (PSD/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3160aef100485a88.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3160aef100485a88.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -204,6 +192,12 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. MIX ADMINISTRADORA DE IMOVEIS LTDA recebeu R$ 2.200,00 por "hospedagem, exceto do parlamentar no distrito federal", mas sua atividade é "Corretagem no aluguel de imóveis" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Adriano do Baldy (PP/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e88d6d3d9230612e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bb3d19d06a2ddebb.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. DIVINA DELFINA DE ARAUJO aparece na Receita Federal como inapta desde 10/11/2023; há 2 nota(s) com data posterior (R$ 220,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Jeferson Rodrigues (PSDB/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8636edc17720dab6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8636edc17720dab6.html</id>

@@ -13,18 +13,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. O mesmo arquivo de nota de POUSADA BEZERRA foi anexado a 2 reembolsos. Despesas declaradas: nº 004915 (R$ 160,00, 31/07/2023); nº 4915 (R$ 160,00, 31/07/2023). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Carlos Veras (PT/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4d82918f4d5ec738.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4d82918f4d5ec738.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. VIVO S.A. está baixada desde 01/07/2013, mas emitiu 2 nota(s) depois disso (R$ 918,43). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Carlos Veras (PT/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a19a1a8310fe2969.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a19a1a8310fe2969.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. ASSOCIACAO SAO PAULO DE TAXI está inapta desde 23/10/2018, mas emitiu 4 nota(s) depois disso (R$ 257,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Carlos Veras (PT/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a88a636a4be7f141.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a88a636a4be7f141.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -54,5 +42,11 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. POSTO DISLUB INTERNACIONAL LTDA e POSTO PORTO DE GALINHAS LTDA: sócio em comum Alfredo Pinheiro Ramos; juntas receberam R$ 22.577,08. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c8db28cfdd32f95a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a19a1a8310fe2969.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. ASSOCIACAO SAO PAULO DE TAXI aparece na Receita Federal como inapta desde 23/10/2018; há 4 nota(s) com data posterior (R$ 257,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

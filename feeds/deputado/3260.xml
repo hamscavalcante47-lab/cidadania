@@ -7,18 +7,6 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Pinheirinho (PP/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/39f4dfc4bf0e1df2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/39f4dfc4bf0e1df2.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. COOPERATIVA DE TAXI BELVEDERE - COOPERBELVE está baixada desde 11/07/2018, mas emitiu 3 nota(s) depois disso (R$ 337,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Pinheirinho (PP/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/664065aa1e344287.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/664065aa1e344287.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA está inapta desde 04/01/2022, mas emitiu 2 nota(s) depois disso (R$ 44,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Pinheirinho (PP/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/727ba085f8670dad.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/727ba085f8670dad.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -30,5 +18,17 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. AUTO POSTO MAQUINE LTDA recebeu R$ 1.427,00 da cota; o sócio Wagner Carvalho Villanueva doou R$ 15.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Pinheirinho (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5c03c4b62401aa55.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/39f4dfc4bf0e1df2.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. COOPERATIVA DE TAXI BELVEDERE - COOPERBELVE aparece na Receita Federal como baixada desde 11/07/2018; há 3 nota(s) com data posterior (R$ 337,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Pinheirinho (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ed7a2e7217b6b7dd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/664065aa1e344287.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. COOPERATIVA UNIAO DOS TAXISTAS DO DISTRITO FEDERAL LTDA aparece na Receita Federal como inapta desde 04/01/2022; há 2 nota(s) com data posterior (R$ 44,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

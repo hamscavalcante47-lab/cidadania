@@ -31,12 +31,6 @@
 <category term="Alta"/>
 <summary>Gravidade alta. O mesmo arquivo de nota de CONCEBRA - CONCESSIONARIA DAS RODOVIAS CENTRAIS DO BRASIL S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº 2002641698886723 (R$ 5,10, 01/11/2023); nº 2002641698886723 (R$ 5,10, 01/11/2023). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Adriano do Baldy (PP/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bb3d19d06a2ddebb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bb3d19d06a2ddebb.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. DIVINA DELFINA DE ARAUJO está inapta desde 10/11/2023, mas emitiu 2 nota(s) depois disso (R$ 220,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Adriano do Baldy (PP/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ee2781e3b8cf11d9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ee2781e3b8cf11d9.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -66,5 +60,11 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. SUCESSO BURITI COMUNICACAO LTDA e CONEXAO BRASIL GOIAS COMUNICACAO MARKETING E INTERNET LTDA: sócio em comum Gabriela Ferreira Gomes; juntas receberam R$ 29.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Adriano do Baldy (PP/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e88d6d3d9230612e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bb3d19d06a2ddebb.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. DIVINA DELFINA DE ARAUJO aparece na Receita Federal como inapta desde 10/11/2023; há 2 nota(s) com data posterior (R$ 220,00). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

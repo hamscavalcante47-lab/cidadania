@@ -7,12 +7,6 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Nota emitida por empresa baixada, inapta ou suspensa — Lucio Mosquini (PL/RO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/85cf9809561260ce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/85cf9809561260ce.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. L M DO CARMO HOTEL LTDA está inapta desde 26/05/2026, mas emitiu 1 nota(s) depois disso (R$ 360,00). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
 <title>Fornecedores diferentes com o mesmo dono — Lucio Mosquini (PL/RO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d5b555cc72e68fac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d5b555cc72e68fac.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
@@ -36,6 +30,12 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. M. CAMPELO LTDA recebeu R$ 5.500,00 por "divulgação da atividade parlamentar", mas sua atividade é "Fabricação de painéis e letreiros luminosos" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Lucio Mosquini (PL/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f4803d4ee0513976.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/85cf9809561260ce.html</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. L M DO CARMO HOTEL LTDA aparece na Receita Federal como inapta desde 26/05/2026; há 1 nota(s) com data posterior (R$ 360,00). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Atividade da empresa não combina com o gasto — Lucio Mosquini (PL/RO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ba121d74eb34cf27.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ba121d74eb34cf27.html</id>
