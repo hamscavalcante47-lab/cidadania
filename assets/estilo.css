@@ -1431,3 +1431,21 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
 .forn-filtros .fo-busca { flex-basis: 100%; }
 #fornecedores { grid-template-columns: minmax(0, 1fr); }
 #fornecedores .forn-meta { overflow-wrap: anywhere; }
+
+/* relatório Combustível e barcos: um cartão por caso */
+/* minmax(0, 1fr): a tabela de cupons rola dentro do cartão em vez de alargar a página */
+.casos { display: grid; gap: 18px; grid-template-columns: minmax(0, 1fr); }
+.caso { padding: 22px 24px; min-width: 0; }
+.caso > header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+.caso > header h3 { margin: 0; padding: 0; }
+.caso .caso-manchete { font-weight: 600; color: var(--tinta); margin: 10px 0 0; }
+.caso p { color: var(--tinta-2); max-width: 72ch; }
+.caso .caso-cupons { margin-top: 14px; border: 1px solid var(--linha); border-radius: var(--raio-m); }
+.caso .caso-cupons table { font-size: 14px; }
+.caso .caso-links { font-size: 13.5px; overflow-wrap: anywhere; }
+.regras-locacao td:first-child { font-weight: 600; }
+@media (max-width: 560px) {
+  .caso { padding: 16px; }
+  .caso .caso-cupons td, .caso .caso-cupons th { padding: 8px 6px; }
+  .regras-locacao td, .regras-locacao th { min-width: 120px; }
+}
