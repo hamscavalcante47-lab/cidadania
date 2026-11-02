@@ -884,6 +884,10 @@ th.n { font-family: var(--texto); }
 .mini-mapa .mapa-br .uf { cursor: default; }
 
 /* ---------------------------------------------------------------- texto corrido */
+/* parágrafos justificados em todo o site; a hifenização em português (lang="pt-BR") evita buracos entre as palavras
+   nas linhas curtas do celular. O que tem alinhamento próprio (centralizado, à direita) continua como está, porque a
+   classe pesa mais que o elemento; numa linha só, o justificado não muda nada */
+p, .prosa li { text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
 .prosa { max-width: 72ch; }
 .prosa p, .prosa li { color: var(--tinta-2); }
 .prosa h2 { margin-top: 52px; }
@@ -1420,3 +1424,10 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
 #restaurantes .forn-meta { overflow-wrap: anywhere; }
 .rest-gab th, .rest-gab td { padding: 8px 6px; }
 .rest-gab td.n { white-space: nowrap; }
+/* fornecedores: os filtros com rótulo visível; no celular, dois por linha e a busca na linha inteira */
+.forn-filtros label { display: grid; gap: 4px; flex: 1 1 150px; min-width: 0; font-size: 13px; font-weight: 600; color: var(--tinta-2); }
+.forn-filtros select, .forn-filtros input { width: 100%; min-height: 44px; }
+.forn-filtros select:disabled { opacity: .55; cursor: not-allowed; }
+.forn-filtros .fo-busca { flex-basis: 100%; }
+#fornecedores { grid-template-columns: minmax(0, 1fr); }
+#fornecedores .forn-meta { overflow-wrap: anywhere; }

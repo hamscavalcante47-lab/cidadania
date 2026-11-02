@@ -464,32 +464,106 @@ function iniciarGastos() {
   }
   iniciarTipos();
   iniciarRestaurantes();
+  iniciarFornecedores();
+}
+
+// página Fornecedores: dados/fornecedores/<UF>.json, um arquivo por estado do fornecedor, baixado quando o estado é
+// escolhido ("Todo o Brasil" baixa todos). Cada linha é [fornecedor, tipo, aaaamm, notas, soma, maior nota]: os filtros
+// de ano, mês e tipo escolhem as linhas, e a lista soma as de cada fornecedor. Sem JavaScript ficam os maiores
+async function iniciarFornecedores() {
+  const lista = $("#fornecedores"), cfg = $("#dados-fornecedores");
+  if (!lista || !cfg) return;
+  const { ufs } = JSON.parse(cfg.textContent);
+  const campo = id => $(`#fo-${id}`), resumo = campo("resumo"), mais = campo("mais");
+  const LOTE = 50, cache = {};
+  let limite = LOTE, achados = [], pedido = 0;
+  const plural = (n, um, varios) => `${n.toLocaleString("pt-BR")} ${n === 1 ? um : varios}`;
+  const carregar = uf => cache[uf] ??= json(`dados/fornecedores/${uf}.json`).then(d => {
+    d.f.forEach(f => { f.texto = normalizar(`${f[0]} ${f[2]}`); f.digitos = f[1].replace(/\D/g, ""); });
+    return d;
+  });
+  const ordens = { total: (a, b) => b.total - a.total, maior: (a, b) => b.maior - a.maior || b.total - a.total,
+                   notas: (a, b) => b.notas - a.notas || b.total - a.total };
+
+  async function filtrar() {
+    const meu = ++pedido, uf = campo("uf").value, ano = +campo("ano").value || 0, mes = +campo("mes").value || 0;
+    const tipo = campo("tipo").value === "" ? -1 : +campo("tipo").value;
+    resumo.textContent = "Carregando…";
+    let grupos;
+    try { grupos = await Promise.all((uf ? [uf] : ufs).map(carregar)); }
+    catch { resumo.textContent = "Não foi possível carregar os fornecedores; abaixo, os maiores do período inteiro."; return; }
+    if (meu !== pedido) return;  // outro filtro foi escolhido enquanto este carregava
+    const q = normalizar(campo("busca").value.trim()), qDigitos = campo("busca").value.replace(/\D/g, "");
+    achados = [];
+    for (const g of grupos) {
+      const soma = new Map();
+      for (const [f, t, m, n, s, maior] of g.l) {
+        if ((tipo >= 0 && t !== tipo) || (ano && Math.floor(m / 100) !== ano) || (mes && m % 100 !== mes)) continue;
+        const x = soma.get(f) || soma.set(f, { f: g.f[f], total: 0, notas: 0, maior: 0 }).get(f);
+        x.total += s; x.notas += n; x.maior = Math.max(x.maior, maior);
+      }
+      for (const x of soma.values())
+        if (!q || x.f.texto.includes(q) || (qDigitos.length >= 3 && x.f.digitos.includes(qDigitos))) achados.push(x);
+    }
+    achados.sort(ordens[campo("ordem").value] || ordens.total);
+    const total = achados.reduce((t, x) => t + x.total, 0);
+    resumo.textContent = `${plural(achados.length, "fornecedor", "fornecedores")} · ${brl2(total)} no total`;
+    limite = LOTE;
+    desenhar();
+  }
+
+  function desenhar() {
+    lista.innerHTML = achados.slice(0, limite).map(({ f, total, notas, maior }) => `<li><details class="forn">
+      <summary><span class="forn-l1"><span class="forn-nome">${esc(f[0])}</span></span>
+      <span class="forn-meta">${f[2] ? `${esc(f[2])} · ` : ""}${plural(notas, "nota", "notas")} · maior nota ${brl2(maior)} ·
+      <b>${brl2(total)}</b></span></summary><div class="rest-gab"><p class="forn-meta">${f[3]
+        ? `<a href="${RAIZ}fornecedor/${f.digitos}.html">página do fornecedor</a> · ` : ""}<span class="mono">${esc(f[1])}</span></p></div>
+      </details></li>`).join("") || `<li class="lt-vazio">Nenhum fornecedor com esses filtros.</li>`;
+    mais.hidden = achados.length <= limite;
+  }
+
+  campo("filtros").hidden = false;
+  campo("ano").addEventListener("change", () => {
+    campo("mes").disabled = !campo("ano").value;
+    if (!campo("ano").value) campo("mes").value = "";
+  });
+  for (const id of ["uf", "ano", "mes", "tipo", "ordem"]) campo(id).addEventListener("change", filtrar);
+  campo("busca").addEventListener("input", filtrar);
+  mais.addEventListener("click", () => { limite += LOTE; desenhar(); });
+  filtrar();
 }
 
 // página Restaurantes: a lista inteira vem de dados/restaurantes.json; a busca filtra por nome, cidade ou CNPJ, e cada
-// restaurante, ao abrir, mostra os gabinetes que consumiram lá. Sem JavaScript ficam os maiores, já no HTML
+// restaurante, ao abrir, mostra os gabinetes que consumiram lá. A lista sai pelo total, pelo valor médio por nota (só
+// os que têm o mínimo de notas do data-minimo) ou pelo número de notas. Sem JavaScript ficam os maiores, já no HTML
 async function iniciarRestaurantes() {
   const lista = $("#restaurantes");
   if (!lista) return;
-  const busca = $("#rest-busca"), resumo = $("#rest-resumo"), mais = $("#rest-mais");
-  const LOTE = 50;
+  const busca = $("#rest-busca"), resumo = $("#rest-resumo"), mais = $("#rest-mais"), ordem = $("#rest-ordem");
+  const LOTE = 50, minimo = +ordem.dataset.minimo;
   let limite = LOTE, dados;
   try { dados = await json("dados/restaurantes.json"); }
   catch { resumo.textContent = "Não foi possível carregar a lista completa; abaixo, os maiores."; return; }
-  const itens = dados.r.map((r, i) => ({ r, i, texto: normalizar(`${r[0]} ${r[2]}`), digitos: r[1].replace(/\D/g, "") }));
+  $("#rest-filtros").hidden = false;
+  // a média só conta as notas de valor positivo (r[7]): a linha de devolução não a puxa para baixo
+  const itens = dados.r.map((r, i) => ({ r, i, texto: normalizar(`${r[0]} ${r[2]}`), digitos: r[1].replace(/\D/g, ""),
+    media: r[7] ? r[3] / r[7] : 0 }));
+  const criterios = { total: (a, b) => b.r[3] - a.r[3], media: (a, b) => b.media - a.media, notas: (a, b) => b.r[4] - a.r[4] || b.r[3] - a.r[3] };
   const plural = (n, um, varios) => `${n.toLocaleString("pt-BR")} ${n === 1 ? um : varios}`;
   // sem centavos na tabela de gabinetes: no celular, a coluna do total cabe no cartão
   const reais = v => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
 
   function desenhar() {
-    const q = normalizar(busca.value.trim()), qDigitos = busca.value.replace(/\D/g, "");
-    const achados = itens.filter(x => !q || x.texto.includes(q) || (qDigitos.length >= 3 && x.digitos.includes(qDigitos)));
-    resumo.textContent = q ? plural(achados.length, "restaurante encontrado", "restaurantes encontrados")
-      : plural(achados.length, "restaurante", "restaurantes");
-    lista.innerHTML = achados.slice(0, limite).map(({ r, i }) => `<li><details class="forn" data-i="${i}">
+    const q = normalizar(busca.value.trim()), qDigitos = busca.value.replace(/\D/g, ""), porMedia = ordem.value === "media";
+    const achados = itens.filter(x => (!q || x.texto.includes(q) || (qDigitos.length >= 3 && x.digitos.includes(qDigitos)))
+      && (!porMedia || x.r[7] >= minimo)).sort(criterios[ordem.value] || criterios.total);
+    resumo.textContent = (q ? plural(achados.length, "restaurante encontrado", "restaurantes encontrados")
+      : plural(achados.length, "restaurante", "restaurantes")) + (porMedia ? ` com ${minimo} notas ou mais` : "");
+    lista.innerHTML = achados.slice(0, limite).map(({ r, i, media }) => `<li><details class="forn" data-i="${i}">
       <summary><span class="forn-l1"><span class="forn-nome">${esc(r[0])}</span></span>
       <span class="forn-meta">${r[2] ? `${esc(r[2])} · ` : ""}${plural(r[4], "nota", "notas")} · ${plural(r[6].length, "gabinete", "gabinetes")} ·
-      <b>${brl2(r[3])}</b></span></summary><div class="rest-gab rolagem"></div></details></li>`).join("")
+      ${porMedia ? `<b>média de ${brl2(media)}</b> · ${brl2(r[3])} no total` : `<b>${brl2(r[3])}</b>${r[7] ? ` · média de ${brl2(media)}` : ""}`}</span></summary>
+      <div class="rest-gab rolagem"></div></details></li>`).join("")
       || `<li class="lt-vazio">Nenhum restaurante com esse nome, cidade ou CNPJ.</li>`;
     mais.hidden = achados.length <= limite;
   }
@@ -508,6 +582,7 @@ async function iniciarRestaurantes() {
       }).join("")}</table>`;
   }, true);
   busca.addEventListener("input", () => { limite = LOTE; desenhar(); });
+  ordem.addEventListener("change", () => { limite = LOTE; desenhar(); });
   mais.addEventListener("click", () => { limite += LOTE; desenhar(); });
   desenhar();
 }
