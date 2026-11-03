@@ -19,7 +19,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=1d08877f">
+<link rel="stylesheet" href="../assets/estilo.css?v=346a1da3">
 </head>
 <body data-pagina="alerta" data-raiz="../" data-versao="27059c7b3d">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -28,15 +28,16 @@
   <div class="busca" role="search">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
     <label class="vh" for="busca-global">Buscar deputado, fornecedor ou pessoa</label>
-    <input id="busca-global" type="search" placeholder="Deputado, empresa, CNPJ ou pessoa" autocomplete="off"
+    <input id="busca-global" type="search" placeholder="Buscar deputado ou empresa" autocomplete="off"
       role="combobox" aria-expanded="false" aria-controls="busca-resultados" aria-keyshortcuts="/">
     <kbd class="atalho" aria-hidden="true">/</kbd>
     <ul class="resultados" id="busca-resultados" role="listbox" hidden></ul>
   </div>
-  <nav aria-label="Principal"><a href="../index.html">Mapa</a><a href="../ranking.html">Ranking</a><a href="../gastos.html">Gastos</a><a href="../alertas.html">Alertas</a><a href="../apuracoes.html">Apurações</a><a href="../metodologia.html">Como funciona</a></nav>
+  <nav aria-label="Principal"><a href="../index.html">Início</a><a href="../ranking.html">Deputados</a><a href="../gastos.html">Gastos</a><a href="../alertas.html" aria-current="true">Alertas</a><a href="../apuracoes.html">Apurações</a><a href="../metodologia.html">Como funciona</a></nav>
 </div></header>
 <main id="conteudo"><div class="cont">
-<p class="ouvir-linha"><button type="button" class="botao secundario pequeno" id="ouvir" hidden>Ler em voz alta</button></p>
+<p class="ouvir-linha"><button type="button" class="ouvir" id="ouvir" title="Ler em voz alta" hidden><svg viewBox="0 0 24 24" aria-hidden="true">
+  <path class="falar" d="M4 9.5h3.5L12 5v14l-4.5-4.5H4v-5Zm11.5-1a4.5 4.5 0 0 1 0 7m2.5-10a8.5 8.5 0 0 1 0 13"/><path class="parar" d="M8 8h8v8H8z"/></svg><span class="vh">Ler em voz alta</span></button></p>
 
 <nav class="trilha" aria-label="Você está em"><a href="../alertas.html">Alertas</a> › <span class="mono">8a7b0c3517566fdb</span></nav>
 <section class="abertura">
@@ -88,7 +89,8 @@
 </section>
 
 </div></main>
-<nav class="barra-secoes" aria-label="Seções do site"><a href="../index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Zm0 0v14m6-12v14"/></svg><span>Mapa</span></a><a href="../ranking.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20v-9m7 9V4m7 16v-6"/></svg><span>Ranking</span></a><a href="../gastos.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2V3Zm3 5h6m-6 4h6"/></svg><span>Gastos</span></a><a href="../alertas.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 2.8 20h18.4L12 4Zm0 6v4.5m0 2.5v.5"/></svg><span>Alertas</span></a><a href="../apuracoes.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7V3Zm7 0v4h4M10 12h5m-5 4h5"/></svg><span>Apurações</span></a><a href="../metodologia.html"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-9.5v.5"/></svg><span>Sobre</span></a></nav>
+<nav class="barra-secoes" aria-label="Seções do site"><a href="../index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 11 12 4l8.5 7M5.5 9.5V20h4.5v-6h4v6h4.5V9.5"/></svg><span>Início</span></a><a href="../ranking.html"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.1-5.5 6.5-5.5s5.9 1.9 6.5 5.5M15.5 4.8a3.5 3.5 0 0 1 0 6.4M17.5 14.8c2 .8 3.2 2.6 3.6 5.2"/></svg><span>Deputados</span></a><a href="../alertas.html" aria-current="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 2.8 20h18.4L12 4Zm0 6v4.5m0 2.5v.5"/></svg><span>Alertas</span></a><a href="../apuracoes.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7V3Zm7 0v4h4M10 12h5m-5 4h5"/></svg><span>Apurações</span></a><button type="button" class="barra-mais" aria-expanded="false" aria-controls="menu-mais"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Mais</span></button></nav>
+<div class="menu-mais" id="menu-mais" hidden><p>Mais seções</p><ul><li><a href="../gastos.html">Gastos por tipo</a></li><li><a href="../metodologia.html">Como funciona</a></li><li><a href="../comparar.html">Comparar gabinetes</a></li><li><a href="../voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="../novidades.html">Novidades</a></li><li><a href="../relatorios.html">Dados e planilhas</a></li><li><a href="../pedidos.html">Pedidos de esclarecimento</a></li><li><a href="../imprensa.html">Para jornalistas</a></li></ul></div>
 <footer class="rodape"><div class="cont">
   <div class="rodape-grade">
     <div class="rodape-sobre">
@@ -96,7 +98,7 @@
       <p>Monitoramento cidadão da cota parlamentar dos deputados federais. Os alertas são indícios apontados por
         regras automáticas, não acusações: cada um leva à nota original.</p>
     </div>
-    <div><h2>Navegar</h2><ul><li><a href="../index.html">Mapa</a></li><li><a href="../ranking.html">Ranking</a></li><li><a href="../gastos.html">Gastos</a></li><li><a href="../alertas.html">Alertas</a></li><li><a href="../apuracoes.html">Apurações</a></li><li><a href="../metodologia.html">Como funciona</a></li><li><a href="../comparar.html">Comparar gabinetes</a></li><li><a href="../voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="../relatorios.html">Dados e planilhas</a></li></ul></div>
+    <div><h2>Navegar</h2><ul><li><a href="../index.html">Início</a></li><li><a href="../ranking.html">Deputados</a></li><li><a href="../gastos.html">Gastos</a></li><li><a href="../alertas.html" aria-current="true">Alertas</a></li><li><a href="../apuracoes.html">Apurações</a></li><li><a href="../metodologia.html">Como funciona</a></li><li><a href="../comparar.html">Comparar gabinetes</a></li><li><a href="../voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="../relatorios.html">Dados e planilhas</a></li></ul></div>
     <div><h2>Fontes dos dados</h2><ul><li><a href="https://dadosabertos.camara.leg.br/" target="_blank" rel="noopener">Câmara dos Deputados</a></li><li><a href="https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj" target="_blank" rel="noopener">Receita Federal (CNPJ)</a></li><li><a href="https://dadosabertos.tse.jus.br/" target="_blank" rel="noopener">TSE (contas de campanha)</a></li></ul></div>
     <div><h2>Imprensa</h2><ul><li><a href="../imprensa.html">Para jornalistas</a></li>
       <li><a href="../pedidos.html">Pedidos de esclarecimento</a></li><li><a href="../feeds/geral.xml">Feed de alertas</a></li><li><a href="../feeds/apuracoes.xml">Feed das apurações</a></li>
@@ -107,6 +109,6 @@
   </div>
   <p class="rodape-base">Dados atualizados em 01/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/app.js?v=1d08877f" defer></script>
+<script src="../assets/app.js?v=346a1da3" defer></script>
 </body>
 </html>

@@ -1472,7 +1472,12 @@ function marcarSecaoAtual() {
   const observador = new IntersectionObserver(entradas => {
     entradas.forEach(e => e.isIntersecting ? visiveis.add(e.target.id) : visiveis.delete(e.target.id));
     const atual = secoes.find(s => visiveis.has(s.id));
-    if (atual) links.forEach(a => a.hash === `#${atual.id}` ? a.setAttribute("aria-current", "true") : a.removeAttribute("aria-current"));
+    if (!atual) return;
+    links.forEach(a => a.hash === `#${atual.id}` ? a.setAttribute("aria-current", "true") : a.removeAttribute("aria-current"));
+    // no celular o menu é mais largo que a tela: rola de lado até a seção acesa, para ela não ficar escondida
+    const a = links.find(l => l.hash === `#${atual.id}`), nav = a.parentElement;
+    if (a.offsetLeft < nav.scrollLeft || a.offsetLeft + a.offsetWidth > nav.scrollLeft + nav.clientWidth)
+      nav.scrollTo({ left: a.offsetLeft - 24, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
   }, { rootMargin: "-140px 0px -55% 0px" });
   secoes.forEach(s => observador.observe(s));
 }
@@ -1829,7 +1834,9 @@ function iniciarOuvir() {
     .filter(el => !el.closest(fora) && !el.parentElement.closest("p, li") && el.offsetParent !== null)
     .map(el => el.innerText.replace(/\s+/g, " ").trim()).filter(t => t.length > 1);
   const voz = () => fala.getVoices().find(v => v.lang === "pt-BR") || fala.getVoices().find(v => v.lang.startsWith("pt"));
-  const parar = () => { fala.cancel(); b.textContent = "Ler em voz alta"; b.setAttribute("aria-pressed", "false"); };
+  // o botão é só um ícone: o nome muda no title (dica do mouse) e no texto escondido, que o leitor de tela lê
+  const rotulo = t => { b.title = t; b.querySelector(".vh").textContent = t; };
+  const parar = () => { fala.cancel(); rotulo("Ler em voz alta"); b.setAttribute("aria-pressed", "false"); };
   b.setAttribute("aria-pressed", "false");
   b.hidden = false;
   b.addEventListener("click", () => {
@@ -1842,14 +1849,30 @@ function iniciarOuvir() {
       if (i === lista.length - 1) u.onend = parar;
       fala.speak(u);
     });
-    b.textContent = "Parar a leitura"; b.setAttribute("aria-pressed", "true");
+    rotulo("Parar a leitura"); b.setAttribute("aria-pressed", "true");
   });
   addEventListener("pagehide", () => fala.cancel());
+}
+
+// o Mais da barra do celular: abre e fecha o cartão com as outras seções; fecha com Esc, com um toque fora ou ao
+// escolher um link
+function iniciarMais() {
+  const b = $(".barra-mais"), menu = $("#menu-mais");
+  if (!b || !menu) return;
+  const abrir = sim => { menu.hidden = !sim; b.setAttribute("aria-expanded", String(sim)); };
+  b.addEventListener("click", () => {
+    abrir(menu.hidden);
+    if (!menu.hidden) menu.querySelector("a")?.focus();
+  });
+  document.addEventListener("click", ev => { if (!menu.hidden && !menu.contains(ev.target) && !b.contains(ev.target)) abrir(false); });
+  document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !menu.hidden) { abrir(false); b.focus(); } });
+  menu.addEventListener("click", ev => { if (ev.target.closest("a")) abrir(false); });
 }
 
 iniciarBusca();
 iniciarPontos();
 iniciarOuvir();
+iniciarMais();
 document.querySelectorAll("table.ordenavel").forEach(t => tabelaOrdenavel(t));
 ({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: iniciarAlertas, ranking: iniciarRanking, gastos: iniciarGastos,
   comparar: iniciarComparar, cidade: iniciarCidade })[document.body.dataset.pagina]?.();

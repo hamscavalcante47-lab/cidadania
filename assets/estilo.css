@@ -231,8 +231,9 @@ h3 { font-size: 20px; font-weight: 600; }
   --aquarela: url("topo-esplanada-2400.webp"); --aquarela-p: url("topo-esplanada-1280.webp"); --aquarela-pos: center 96%; --aquarela-h: 470px; }
 main { position: relative; isolation: isolate; }
 main::before { content: ""; position: absolute; z-index: -1; top: -160px; left: 0; right: 0; height: var(--aquarela-h, 720px); pointer-events: none;
-  /* véu claro à esquerda: o texto fica legível mesmo onde passa sobre a ilustração */
-  background: linear-gradient(90deg, rgba(243, 245, 242, .82) 0%, rgba(243, 245, 242, .6) 30%, rgba(243, 245, 242, 0) 52%),
+  /* véu claro à esquerda, até onde o parágrafo de abertura chega (cerca de 60% da largura): o texto fica legível
+     mesmo onde passa sobre a ilustração */
+  background: linear-gradient(90deg, rgba(243, 245, 242, .9) 0%, rgba(243, 245, 242, .8) 40%, rgba(243, 245, 242, 0) 64%),
               var(--aquarela, none) var(--aquarela-pos, right 38%) / cover no-repeat;
   -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent); mask-image: linear-gradient(to bottom, #000 70%, transparent);
   animation: aparecer 1.4s var(--suave) both; }
@@ -246,6 +247,16 @@ main::before { content: ""; position: absolute; z-index: -1; top: -160px; left: 
 .abertura > :nth-child(4), .abertura-inicio > div > :nth-child(4) { animation-delay: .21s; }
 .abertura > :nth-child(n+5), .abertura-inicio > div > :nth-child(n+5) { animation-delay: .28s; }
 .atalhos { display: flex; gap: 12px; flex-wrap: wrap; margin: 32px 0 0; }
+/* Comece por aqui: os três caminhos de quem chega pela primeira vez, logo abaixo do parágrafo de abertura */
+.comece { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 26px 0 8px; }
+.comece a { display: flex; flex-direction: column; gap: 4px; min-height: 48px; padding: 13px 15px; border-radius: var(--raio-p);
+  text-decoration: none; background: var(--papel); border: 1px solid var(--linha-forte); box-shadow: var(--sombra), var(--realce);
+  transition: border-color .2s, translate .2s var(--suave); }
+.comece b { color: var(--verde-forte); font-size: 15px; line-height: 1.25; }
+.comece b::after { content: " →"; }
+.comece span { color: var(--tinta-3); font-size: 13px; line-height: 1.35; }
+.comece a:hover { border-color: color-mix(in srgb, var(--verde) 45%, var(--linha-forte)); translate: 0 -1px; }
+@media (max-width: 560px) { .comece { grid-template-columns: 1fr; gap: 8px; } .comece a { padding: 11px 14px; } }
 .aviso { margin-top: 22px; font-size: 14px; color: var(--tinta-2); display: flex; gap: 10px; align-items: flex-start; max-width: 70ch; }
 .aviso::before { content: "i"; flex: none; width: 20px; height: 20px; border-radius: 50%; background: var(--verde-suave); color: var(--verde-forte);
   font: italic 600 13px/20px var(--display); text-align: center; margin-top: 1px; }
@@ -606,7 +617,7 @@ p.vazio::before, li.vazio::before { content: ""; position: absolute; inset: 0; z
 .alerta h3 a:hover { color: var(--verde); text-decoration: underline; }
 
 /* ---------------------------------------------------------------- página permanente do alerta */
-.trilha { padding-top: 32px; font-size: 13px; color: var(--tinta-3); }
+.trilha { padding-top: 32px; padding-right: 56px; font-size: 13px; color: var(--tinta-3); }  /* à direita fica o botão de ouvir */
 .trilha a { text-decoration: none; padding: 4px 10px; border-radius: var(--pilula); background: var(--papel); border: 1px solid var(--linha); }
 .trilha + .abertura { padding-top: 20px; }
 .titulo-alerta { font-size: clamp(30px, 4vw, 48px); max-width: 24ch; }
@@ -893,10 +904,11 @@ th.n { font-family: var(--texto); }
 .mini-mapa .mapa-br .uf { cursor: default; }
 
 /* ---------------------------------------------------------------- texto corrido */
-/* parágrafos justificados em todo o site; a hifenização em português (lang="pt-BR") evita buracos entre as palavras
-   nas linhas curtas do celular. O que tem alinhamento próprio (centralizado, à direita) continua como está, porque a
-   classe pesa mais que o elemento; numa linha só, o justificado não muda nada */
-p, .prosa li { text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
+/* parágrafos justificados só em tela larga: nas linhas curtas do celular, nomes próprios e datas não se hifenizam e o
+   justificado abria buracos entre as palavras ("Nome   civil:   Dilceu"). O que tem alinhamento próprio (centralizado,
+   à direita) continua como está, porque a classe pesa mais que o elemento */
+p, .prosa li { -webkit-hyphens: auto; hyphens: auto; }
+@media (min-width: 761px) { p, .prosa li { text-align: justify; } }
 .prosa { max-width: 72ch; }
 .prosa p, .prosa li { color: var(--tinta-2); }
 .prosa h2 { margin-top: 52px; }
@@ -1296,7 +1308,7 @@ html:has(dialog.ficha-indicio[open]) { overflow: hidden; scrollbar-gutter: stabl
   .abertura-inicio h1 { max-width: none; }
   /* no celular a aquarela fica só atrás do texto, mais clara, com a ilustração no alto à direita */
   main::before { top: -240px; height: calc(min(var(--aquarela-h, 720px), 760px) + 80px); background-position: 0 0, var(--aquarela-pos, 78% 0);
-    background-image: linear-gradient(rgba(243, 245, 242, .55), rgba(243, 245, 242, .55)), var(--aquarela-p, none);
+    background-image: linear-gradient(rgba(243, 245, 242, .72), rgba(243, 245, 242, .72)), var(--aquarela-p, none);
     -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent); mask-image: linear-gradient(to bottom, #000 55%, transparent); }
   .recibo { max-width: 420px; rotate: .6deg; }
   .rodape-grade { grid-template-columns: 1fr 1fr; }
@@ -1312,7 +1324,8 @@ html:has(dialog.ficha-indicio[open]) { overflow: hidden; scrollbar-gutter: stabl
     -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent); mask-image: linear-gradient(90deg, #000 85%, transparent); }
   .topo nav::-webkit-scrollbar { display: none; }
   .topo nav a { padding: 8px 12px; font-size: 14px; }
-  .subnav { top: 8px; }
+  /* o menu do perfil é mais largo que a tela: a borda direita some em degradê, sinal de que rola de lado */
+  .subnav { top: 8px; padding-right: 44px; -webkit-mask-image: linear-gradient(90deg, #000 86%, transparent); mask-image: linear-gradient(90deg, #000 86%, transparent); }
   .mapa-cartao { top: auto; }
   .secao { margin-top: 64px; }
   .rodape { margin: 0 6px; border-radius: var(--raio) var(--raio) 0 0; padding-top: 48px; }
@@ -1427,18 +1440,46 @@ html:has(dialog.ficha-indicio[open]) { overflow: hidden; scrollbar-gutter: stabl
 @media (max-width: 760px) {
   .topo nav { display: none; }
   body { padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
-  .barra-secoes { display: grid; grid-template-columns: repeat(6, 1fr); position: fixed; z-index: 30;
+  .barra-secoes { display: grid; grid-template-columns: repeat(5, 1fr); position: fixed; z-index: 30;
     left: 10px; right: 10px; bottom: calc(10px + env(safe-area-inset-bottom, 0px)); padding: 5px;
     border-radius: var(--raio); background: var(--vidro);
     backdrop-filter: saturate(1.6) blur(18px); -webkit-backdrop-filter: saturate(1.6) blur(18px);
     border: 1px solid color-mix(in srgb, var(--linha-forte) 55%, transparent); box-shadow: var(--sombra-alta), var(--realce); }
-  .barra-secoes a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; min-height: 50px;
-    color: var(--tinta-2); text-decoration: none; font: 600 10.5px/1.1 var(--texto); border-radius: calc(var(--raio) - 5px); }
+  .barra-secoes a, .barra-mais { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; min-height: 50px;
+    padding: 0; border: 0; background: none; cursor: pointer; color: var(--tinta-2); text-decoration: none;
+    font: 600 10.5px/1.1 var(--texto); border-radius: calc(var(--raio) - 5px); }
+  .barra-mais.marcado, .barra-mais[aria-expanded="true"] { color: var(--verde-forte); background: var(--papel); box-shadow: 0 1px 2px rgba(16, 40, 32, .08); }
+  .barra-mais:focus-visible { outline-offset: -3px; }
+  /* o Mais abre um cartão logo acima da barra, com as outras seções em lista de toque (48 px por linha) */
+  .menu-mais { position: fixed; z-index: 31; left: 10px; right: 10px; bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+    padding: 14px 8px 8px; border-radius: var(--raio); background: var(--papel); border: 1px solid var(--linha-forte);
+    box-shadow: var(--sombra-alta); }
+  .menu-mais[hidden] { display: none; }
+  .menu-mais p { margin: 0 10px 6px; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-3); text-align: left; }
+  .menu-mais ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+  .menu-mais a { display: flex; align-items: center; min-height: 48px; padding: 6px 10px; border-radius: var(--raio-p);
+    color: var(--tinta); text-decoration: none; font-weight: 500; font-size: 14.5px; line-height: 1.2; }
+  .menu-mais a:active, .menu-mais a[aria-current] { background: var(--papel-2); color: var(--verde-forte); }
   .barra-secoes svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
   .barra-secoes a[aria-current] { color: var(--verde-forte); background: var(--papel); box-shadow: 0 1px 2px rgba(16, 40, 32, .08); }
   .barra-secoes a:focus-visible { outline-offset: -3px; }
 }
-@media print { .barra-secoes { display: none !important; } }
+@media print { .barra-secoes, .menu-mais { display: none !important; } }
+@media (min-width: 761px) { .menu-mais { display: none !important; } }
+
+/* ---------------------------------------------------------------- subabas da seção (Deputados, Apurações, Como funciona)
+   pílulas no alto da página, que rolam de lado no celular; a margem à direita deixa livre o botão de ouvir */
+.subabas { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin: 14px 0 0; padding: 2px; max-width: calc(100% - 56px); font-size: 14px; }
+.subabas::-webkit-scrollbar { display: none; }
+.subabas a { flex: none; padding: 8px 14px; border-radius: var(--pilula); text-decoration: none; font-weight: 500; white-space: nowrap;
+  color: var(--tinta-2); background: color-mix(in srgb, var(--papel) 75%, transparent); border: 1px solid var(--linha); }
+.subabas a:hover { color: var(--verde-forte); border-color: var(--linha-forte); }
+.subabas a[aria-current] { color: var(--sobre-verde); background: var(--verde); border-color: var(--verde); }
+.subabas + .abertura { padding-top: 32px; }
+@media (max-width: 760px) {
+  .subabas { -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent); mask-image: linear-gradient(90deg, #000 88%, transparent); }
+}
+@media print { .subabas { display: none; } }
 /* o brilho atrás do recibo passava 14% para fora da tela: no celular a página ficava com 410 px em vez de 375, e a
    barra presa embaixo saía cortada */
 @media (max-width: 760px) { .recibo::before { left: 0; right: 0; } }
@@ -1453,8 +1494,18 @@ html:has(dialog.ficha-indicio[open]) { overflow: hidden; scrollbar-gutter: stabl
 .periodo-duplo select:disabled { display: none; }  /* o mês só aparece depois do ano */
 
 /* ---------------------------------------------------------------- ouvir esta página e cobertura do perfil */
-.ouvir-linha { display: flex; justify-content: flex-end; margin: 12px 0 -8px; min-height: 0; }
+/* um ícone redondo no canto de cima, à direita, que não ocupa linha própria: a primeira tela fica para o conteúdo */
+.ouvir-linha { position: relative; height: 0; margin: 0; z-index: 2; }
 .ouvir-linha:has(> [hidden]) { display: none; }
+.ouvir { position: absolute; top: 14px; right: 0; display: grid; place-items: center; width: 44px; height: 44px; padding: 0;
+  border-radius: 50%; border: 1px solid var(--linha-forte); background: var(--papel); color: var(--tinta-2); cursor: pointer;
+  box-shadow: var(--sombra), var(--realce); }
+.ouvir:hover { color: var(--verde-forte); border-color: color-mix(in srgb, var(--verde) 45%, var(--linha-forte)); }
+.ouvir svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.ouvir .parar { display: none; fill: currentColor; }
+.ouvir[aria-pressed="true"] { color: var(--sobre-verde); background: var(--verde); border-color: var(--verde); }
+.ouvir[aria-pressed="true"] .falar { display: none; }
+.ouvir[aria-pressed="true"] .parar { display: block; }
 @media print { .ouvir-linha { display: none; } }
 .cobertura { font-size: 13.5px; color: var(--tinta-3); max-width: 72ch; margin: -8px 0 24px; }
 
