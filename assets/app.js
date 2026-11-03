@@ -1431,7 +1431,6 @@ async function iniciarDeputado() {
   desenharEquipe();
 
   marcarSecaoAtual();
-  filtrarAlertasPorTipo();
 
   const area = $("#mapa-gastos");
   if (!area || !Object.keys(dados.ufs).length) return;
@@ -1444,24 +1443,6 @@ async function iniciarDeputado() {
     p.removeAttribute("role"); p.removeAttribute("aria-pressed"); p.removeAttribute("tabindex");
   });
   dicaNoMapa(area, svg, uf => dados.ufs[uf] ? `<strong>${NOMES_UF[uf]}</strong>${brl(dados.ufs[uf])} em fornecedores sediados aqui` : "");
-}
-
-function filtrarAlertasPorTipo() {
-  const caixa = $("#lista-alertas-deputado"), botoes = caixa && $(".tipos-deputado", caixa);
-  if (!botoes) return;
-  botoes.addEventListener("click", e => {
-    const b = e.target.closest("[data-grupo]"); if (!b) return;
-    const grupo = b.dataset.grupo;
-    botoes.querySelectorAll("[data-grupo]").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
-    caixa.querySelectorAll(".alerta").forEach(a => a.hidden = !!grupo && a.dataset.grupo !== grupo);
-    // os de gravidade baixa ficam recolhidos: abre a caixa quando o tipo escolhido tem algum lá dentro
-    const baixos = $(".alertas-baixos", caixa);
-    if (baixos) {
-      const visiveis = [...baixos.querySelectorAll(".alerta")].filter(a => !a.hidden).length;
-      baixos.hidden = !visiveis;
-      if (grupo && visiveis) baixos.open = true;
-    }
-  });
 }
 
 function marcarSecaoAtual() {
