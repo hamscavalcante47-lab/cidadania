@@ -379,6 +379,7 @@ main::before { content: ""; position: absolute; z-index: -1; top: -160px; left: 
 .tipo-grupo:hover:not(:disabled) { border-color: color-mix(in srgb, var(--verde) 40%, var(--linha-forte)); color: var(--tinta); transform: translateY(-1px); }
 .tipo-grupo[aria-pressed="true"] { background: var(--verde); border-color: var(--verde); color: var(--sobre-verde); box-shadow: var(--sombra-verde); }
 .tipo-grupo[aria-pressed="true"] .num { color: var(--sobre-verde); opacity: .8; }
+.tipo-grupo.fora-do-filtro { border-style: dashed; color: var(--tinta-2); }
 .tipos-regras { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; padding: 12px; background: var(--papel-2);
   border: 1px solid var(--linha); border-radius: var(--raio-m); animation: surgir-menu .25s var(--suave); }
 .tipos-vazio { font-size: 13px; color: var(--tinta-3); align-self: center; }
@@ -625,6 +626,14 @@ p.vazio::before, li.vazio::before { content: ""; position: absolute; inset: 0; z
 .cartao.alerta-texto > h3 { padding: 0; margin-top: 26px; font-size: 18px; }
 .alerta-texto .desc { font-size: 17px; max-width: 80ch; }
 .alerta-texto .revisao { font-size: 14px; color: var(--tinta-2); background: var(--papel-2); border: 1px solid var(--linha); border-radius: var(--raio-m); padding: 12px 16px; max-width: 80ch; }
+.pessoas-citadas { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 10px; max-width: 80ch; }
+.pessoas-citadas li { display: grid; gap: 2px; padding: 10px 14px; border: 1px solid var(--linha); border-radius: var(--raio-m); overflow-wrap: anywhere; }
+.pessoas-citadas li.em-comum { border-color: color-mix(in srgb, var(--media) 40%, transparent); background: var(--media-bg); }
+.regra-legal { max-width: 80ch; }
+.regra-legal blockquote { margin: 12px 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--verde); color: var(--tinta-2); }
+.regra-legal blockquote p { margin: 0; text-align: left; hyphens: auto; }
+.regra-legal mark { background: var(--media-bg); color: var(--tinta); font-weight: 600; padding: 0 2px; }
+.regra-legal .regra-norma { font-weight: 600; }
 .alerta-texto .revisao.confirmado { background: var(--alta-bg); border-color: color-mix(in srgb, var(--alta) 18%, transparent); color: var(--tinta); }
 
 /* ---------------------------------------------------------------- novidades, estados */
@@ -1085,6 +1094,87 @@ html.economia p.vazio, html.economia li.vazio { min-height: 0; padding: 24px; }
 .rel-numeros b { color: var(--tinta); font-size: 15px; }
 .rel-csv a { display: inline-block; padding: 4px 0; font-weight: 600; font-size: 13.5px; }
 .rel-indice a { display: inline-block; padding: 5px 0; }
+.abertura .rel-data { font-size: 13px; color: var(--tinta-3); margin: 10px 0 0; }
+
+/* ---------------------------------------------------------------- apurações (apuracoes.py): a lista, com a mais nova
+   em destaque, e a página de cada uma. Jornal sem cara de jornal: a manchete em serifa, fios finos em vez de caixas,
+   o texto corrido em coluna estreita e alinhado à esquerda (justificado abre buracos nas linhas curtas do celular) */
+.apu-chapeu { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--verde); text-align: left; }
+.apu-data { margin: 0; font-size: 13px; color: var(--tinta-3); text-align: left; }
+.apu-formato { color: var(--tinta-3); }
+.apu-destaque { margin-top: 36px; }
+.apu-cartao { position: relative; padding: 24px 28px 22px; display: grid; gap: 8px; align-content: start; max-width: 880px;
+  border-top: 3px solid var(--tinta); transition: box-shadow .2s ease, transform .2s ease; }
+.apu-cartao > * { margin: 0; text-align: left; }
+.apu-cartao h3 { padding: 0; font: 600 clamp(25px, 3.4vw, 34px)/1.12 var(--display); letter-spacing: -0.015em; text-wrap: balance; }
+.apu-cartao h3 a { color: var(--tinta); text-decoration: none; }
+.apu-cartao h3 a::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+.apu-cartao h3 a:focus-visible { outline: none; }
+.apu-cartao:focus-within { outline: 2px solid var(--verde); outline-offset: 3px; }
+.apu-cartao .apu-data { padding-bottom: 10px; border-bottom: 1px solid var(--linha); }
+.apu-cartao .apu-resumo { font-size: 16px; line-height: 1.6; color: var(--tinta-2); max-width: 68ch; padding-top: 4px; }
+.apu-ler { font-weight: 600; font-size: 14px; color: var(--verde); padding-top: 4px; }
+@media (hover: hover) {
+  .apu-cartao:hover { transform: translateY(-2px); box-shadow: var(--sombra-alta); }
+  .apu-cartao:hover h3 a { color: var(--verde); }
+}
+@media (prefers-reduced-motion: reduce) { .apu-cartao { transition: none; } .apu-cartao:hover { transform: none; } }
+/* as anteriores: por dia, separadas por fios */
+.apu-dia { margin-top: 26px; }
+.apu-dia > .rotulo { margin: 0 0 4px; font-family: var(--texto); }
+.apu-lista { list-style: none; margin: 0; padding: 0; max-width: 760px; }
+.apu-lista li { padding: 18px 0; border-top: 1px solid var(--linha); display: grid; gap: 6px; }
+.apu-lista li > * { margin: 0; text-align: left; }
+.apu-lista h3 { padding: 0; font: 600 21px/1.25 var(--display); }
+.apu-lista h3 a { color: var(--tinta); text-decoration: none; display: inline-block; padding: 2px 0; }
+.apu-lista h3 a:hover { color: var(--verde); text-decoration: underline; text-underline-offset: 3px; }
+.apu-lista .apu-resumo { font-size: 15px; color: var(--tinta-2); max-width: 66ch; }
+.apu-dados { margin-top: 64px; padding: 22px 26px; max-width: 880px; }
+.apu-dados h2 { font-size: 24px; margin: 0; }
+.apu-dados p { color: var(--tinta-2); text-align: left; max-width: 66ch; }
+/* a página da apuração */
+.apuracao { max-width: 720px; }
+.apu-cab { padding-top: 20px; }
+.apu-cab h1 { font-size: clamp(34px, 5.4vw, 52px); line-height: 1.06; text-wrap: balance; margin-top: 10px; }
+.apu-cab .lead { text-align: left; max-width: 62ch; }
+.apu-meta { margin: 18px 0 0; padding-top: 14px; border-top: 1px solid var(--linha); font-size: 13.5px; color: var(--tinta-3); text-align: left; }
+.apu-texto { margin-top: 34px; font: 19px/1.7 var(--display); color: var(--tinta); }
+.apu-texto p, .apu-texto li { text-align: left; max-width: 66ch; }
+.apu-texto p { margin: 0 0 1.05em; }
+.apu-texto h2 { font: 600 25px/1.2 var(--display); margin: 1.7em 0 .55em; scroll-margin-top: calc(var(--topo-h) + 16px); }
+.apu-texto ul { padding-left: 1.2em; margin: 0 0 1.05em; }
+.apu-texto li { margin-bottom: .35em; }
+.apu-texto blockquote { margin: 1.3em 0; padding: 4px 0 4px 20px; border-left: 3px solid var(--verde); color: var(--tinta-2); font-style: italic; }
+.apu-texto blockquote p { margin: 0; }
+.apu-texto a { color: var(--verde); text-underline-offset: 3px; overflow-wrap: anywhere; }
+/* fontes e o caminho para conferir: uma caixa em papel, com os passos numerados em círculos verdes */
+.apu-texto .apu-conferir { margin: 2em 0 0; padding: 4px 24px 10px; background: var(--papel); border: 1px solid var(--linha);
+  border-radius: var(--raio-m); font: 16px/1.6 var(--texto); }
+.apu-texto .apu-conferir + .apu-conferir { margin-top: 14px; }
+.apu-texto .apu-conferir h2 { font: 600 13px/1.4 var(--texto); letter-spacing: .1em; text-transform: uppercase; color: var(--tinta-3); margin: 18px 0 10px; }
+.apu-texto .apu-conferir p, .apu-texto .apu-conferir li { color: var(--tinta-2); }
+.apu-texto .apu-conferir ol { list-style: none; counter-reset: passo; padding: 0; }
+.apu-texto .apu-conferir ol li { counter-increment: passo; position: relative; padding-left: 40px; margin-bottom: .8em; min-height: 28px; }
+.apu-texto .apu-conferir ol li::before { content: counter(passo); position: absolute; left: 0; top: 0; width: 28px; height: 28px;
+  border-radius: 50%; background: var(--verde-suave); color: var(--verde-forte); font-weight: 700; font-size: 14px;
+  display: grid; place-items: center; }
+.apu-texto .apu-conferir ul { padding-left: 1.1em; }
+@media (max-width: 640px) { .apu-texto .apu-conferir { padding: 2px 16px 8px; } }
+.apu-meta a, .abertura .rel-data a { color: var(--verde); font-weight: 600; }
+.apu-citados, .apu-correcoes, .apu-citar { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--linha); }
+.apu-citados h2, .apu-correcoes h2, .apu-citar h2 { font-size: 13px; font-family: var(--texto); font-weight: 600; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--tinta-3); margin: 0 0 12px; }
+.apu-citados ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.apu-citados a { display: inline-block; padding: 7px 14px; border-radius: var(--pilula); background: var(--papel); border: 1px solid var(--linha);
+  text-decoration: none; font-weight: 600; color: var(--tinta); }
+.apu-citados span { color: var(--tinta-3); font-size: 13px; margin-left: 4px; }
+.apu-correcoes p { color: var(--tinta-2); text-align: left; font-size: 15px; max-width: 62ch; }
+.apu-leia { margin-top: 56px; }
+@media (max-width: 640px) {
+  .apu-cartao { padding: 18px 18px 16px; }
+  .apu-texto { font-size: 18px; margin-top: 26px; }
+  .apu-lista h3 { font-size: 19px; }
+}
 
 /* ---------------------------------------------------------------- painel do perfil (perfil.js): nota, alerta,
    fornecedor e mês. Sobe de baixo no celular e abre como gaveta à direita no computador */

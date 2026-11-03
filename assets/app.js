@@ -1546,6 +1546,9 @@ async function iniciarAlertas() {
   const acerto = r => !r.revisados ? "Nenhum alerta deste tipo revisado ainda"
     : r.revisados < 5 ? `${r.revisados} revisado(s), ${r.confirmados} confirmado(s): poucas revisões ainda`
     : `${r.revisados} revisados, ${r.confirmados} confirmados (${Math.round(100 * r.confirmados / r.revisados)}%)`;
+  // alertas da família abaixo da gravidade escolhida (0 sem filtro de gravidade)
+  const abaixoDoFiltro = g => !estado.gravidade ? 0 :
+    Object.entries(g.n || {}).reduce((s, [v, n]) => s + (+v < +estado.gravidade ? n : 0), 0);
   // botões de tipo de achado: família primeiro, depois o tipo dentro dela
   function desenharTipos(semTipo) {
     const porRegra = {}, porGrupo = {};
@@ -1553,7 +1556,13 @@ async function iniciarAlertas() {
     const botao = (classe, dados, ativo, rotulo, n, titulo = "") => `<button type="button" class="${classe}" ${dados}
       aria-pressed="${ativo}"${titulo ? ` title="${esc(titulo)}"` : ""}${n || ativo ? "" : " disabled"}>${esc(rotulo)}<span class="num">${n.toLocaleString("pt-BR")}</span></button>`;
     $("#tipos-grupos").innerHTML = botao("tipo-grupo", `data-grupo=""`, !estado.grupo, "Todos", semTipo.length) +
-      meta.grupos.map(g => botao("tipo-grupo", `data-grupo="${g.chave}"`, estado.grupo === g.chave, g.nome, porGrupo[g.chave] || 0, g.descricao)).join("");
+      meta.grupos.map(g => {
+        const n = porGrupo[g.chave] || 0, abaixo = n ? 0 : abaixoDoFiltro(g);
+        // família sem alerta na gravidade escolhida, mas com alertas mais leves: continua clicável e diz quantos tem
+        return abaixo ? botao("tipo-grupo fora-do-filtro", `data-grupo="${g.chave}"`, false, g.nome, abaixo,
+          `${abaixo.toLocaleString("pt-BR")} de gravidade ${g.n[2] ? "média" : "baixa"}${g.n[2] && g.n[1] ? " ou baixa" : ""}: ao escolher, a lista passa a mostrá-los`)
+          : botao("tipo-grupo", `data-grupo="${g.chave}"`, estado.grupo === g.chave, g.nome, n, g.descricao);
+      }).join("");
     const regras = meta.regras.filter(r => r.grupo === estado.grupo && (porRegra[r.codigo] || r.codigo === estado.regra))
       .sort((a, b) => (porRegra[b.codigo] || 0) - (porRegra[a.codigo] || 0));
     $("#tipos-regras").hidden = !estado.grupo;
@@ -1564,7 +1573,13 @@ async function iniciarAlertas() {
   }
   $("#tipos-grupos").addEventListener("click", e => {
     const b = e.target.closest("[data-grupo]"); if (!b) return;
-    estado.grupo = estado.grupo === b.dataset.grupo ? "" : b.dataset.grupo; estado.regra = ""; estado.limite = 50; desenhar();
+    if (b.classList.contains("fora-do-filtro")) {  // abre a gravidade mais alta em que a família tem alertas
+      const g = meta.grupos.find(x => x.chave === b.dataset.grupo);
+      estado.gravidade = g.n[2] && +estado.gravidade > 2 ? "2" : "";
+      $("#f-grav").value = estado.gravidade;
+      estado.grupo = g.chave;
+    } else estado.grupo = estado.grupo === b.dataset.grupo ? "" : b.dataset.grupo;
+    estado.regra = ""; estado.limite = 50; desenhar();
   });
   $("#tipos-regras").addEventListener("click", e => {
     const b = e.target.closest("[data-regra]"); if (!b) return;
