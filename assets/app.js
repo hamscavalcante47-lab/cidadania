@@ -658,8 +658,9 @@ async function iniciarRestaurantes() {
   desenhar();
 }
 
-// página Gastos: cada tipo da lista numerada abre um painel com os gabinetes que gastaram com ele e os indícios das
-// notas desse tipo (dados/gastos/<tipo>.json, baixado na hora; os nomes vêm de alertas-meta.json). Sobe de baixo no
+// página Gastos: a lista numerada leva direto à página de cada tipo. Um endereço com #tipo= (links antigos) ainda abre
+// um painel com os gabinetes que gastaram com o tipo e os indícios das notas desse tipo
+// (dados/gastos/<tipo>.json, baixado na hora; os nomes vêm de alertas-meta.json). Sobe de baixo no
 // celular e abre como gaveta à direita no computador, como o painel do perfil. O endereço guarda o tipo e o gabinete
 // abertos (#tipo=, &gab=): o Voltar do navegador volta uma vista ou fecha o painel. Sem <dialog>, o link leva à
 // página do tipo
@@ -702,13 +703,6 @@ function iniciarTipos() {
   };
   const semHash = () => location.pathname + location.search;
 
-  function abrir(slug, de) {
-    if (est.slug !== slug) Object.assign(est, inicial(), { slug, dados: null });
-    est.origem = de;
-    if (location.hash) history.replaceState(null, "", semHash());
-    history.pushState({ pt: 1 }, "", `#tipo=${slug}`);
-    mostrar();
-  }
   function abrirGab(pid, de) {
     est.rolagem = corpo.scrollTop;
     est.deGab = de && de.dataset.gab ? `[data-gab="${de.dataset.gab}"]${de.closest(".pt-ind") ? "" : ".gab-linha"}` : null;
@@ -734,7 +728,7 @@ function iniciarTipos() {
       history.pushState({ pt: 1 }, "", `#tipo=${v.slug}`);
       if (v.gab) history.pushState({ pt: 2 }, "", `#tipo=${v.slug}&gab=${v.gab}`);
     }
-    est.origem = $(`.tipo-linha[data-tipo="${v.slug}"]`);
+    est.origem = $(`.tipo-linha[href="gastos/${v.slug}.html"]`);
     mostrar();
   }
 
@@ -898,12 +892,6 @@ function iniciarTipos() {
   }
 
   // ---- eventos
-  document.addEventListener("click", e => {
-    const a = e.target.closest(".tipo-linha[data-tipo]");
-    if (!a || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-    e.preventDefault();
-    abrir(a.dataset.tipo, a);
-  });
   corpo.addEventListener("click", e => {
     const b = e.target.closest("button");
     if (!b) return;
