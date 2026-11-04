@@ -1125,6 +1125,27 @@ html.economia p.vazio, html.economia li.vazio { min-height: 0; padding: 24px; }
 .rel-indice a { display: inline-block; padding: 5px 0; }
 .abertura .rel-data { font-size: 13px; color: var(--tinta-3); margin: 10px 0 0; }
 
+/* explicações longas do relatório: títulos e fontes ficam no fluxo, o detalhe abre por ação */
+.explicacao-recolhivel { margin-top: 16px; }
+.explicacao-recolhivel > summary { list-style: none; cursor: pointer; position: relative; display: grid; gap: 4px;
+  min-height: 56px; padding: 12px 52px 12px 16px; border: 1px solid var(--linha-forte); border-radius: var(--raio-m);
+  background: var(--papel); color: var(--tinta); font: 600 15px/1.4 var(--texto); box-shadow: var(--sombra), var(--realce); }
+.explicacao-recolhivel > summary::-webkit-details-marker { display: none; }
+.explicacao-recolhivel > summary::after { content: ""; position: absolute; right: 20px; top: 50%; width: 9px; height: 9px;
+  margin-top: -7px; border: solid var(--verde); border-width: 0 2px 2px 0; transform: rotate(45deg); }
+.explicacao-recolhivel[open] > summary::after { transform: rotate(-135deg); margin-top: -2px; }
+.explicacao-recolhivel > summary:hover { background: var(--papel-2); border-color: color-mix(in srgb, var(--verde) 45%, var(--linha-forte)); }
+.explicacao-recolhivel > summary:focus-visible { outline: 2px solid var(--verde); outline-offset: 2px; }
+.explicacao-recolhivel > summary small { color: var(--tinta-2); font: 400 13px/1.4 var(--texto); }
+.explicacao-recolhivel[open] > summary { background: var(--papel-2); }
+.explicacao-recolhivel-conteudo { padding-top: 12px; }
+/* no papel não há o que clicar: o conteúdo sai aberto (navegadores com ::details-content; nos outros, sai só o título) */
+@media print {
+  .explicacao-recolhivel::details-content { content-visibility: visible; display: block; }
+  .explicacao-recolhivel > summary { min-height: 0; padding: 0; border: 0; box-shadow: none; background: none; }
+  .explicacao-recolhivel > summary::after { display: none; }
+}
+
 /* ---------------------------------------------------------------- apurações (apuracoes.py): a lista, com a mais nova
    em destaque, e a página de cada uma. Jornal sem cara de jornal: a manchete em serifa, fios finos em vez de caixas,
    o texto corrido em coluna estreita e alinhado à esquerda (justificado abre buracos nas linhas curtas do celular) */
