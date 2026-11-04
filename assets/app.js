@@ -464,7 +464,78 @@ function iniciarGastos() {
   }
   iniciarTipos();
   iniciarRestaurantes();
+  iniciarPostos();
   iniciarFornecedores();
+}
+
+// página Postos: a lista inteira vem de dados/postos.json; a busca filtra por nome, cidade ou CNPJ, o seletor pelo
+// estado da sede, e cada posto, ao abrir, mostra o ano a ano, o mês a mês e os gabinetes que apresentaram notas dele.
+// Sem JavaScript ficam os maiores, já no HTML
+async function iniciarPostos() {
+  const lista = $("#postos");
+  if (!lista) return;
+  const busca = $("#posto-busca"), resumo = $("#posto-resumo"), mais = $("#posto-mais"), ordem = $("#posto-ordem"), uf = $("#posto-uf");
+  const LOTE = 50;
+  let limite = LOTE, dados;
+  try { dados = await json("dados/postos.json"); }
+  catch { resumo.textContent = "Não foi possível carregar a lista completa; abaixo, os maiores."; return; }
+  $("#posto-filtros").hidden = false;
+  // p: nome, CNPJ (só dígitos), cidade/UF, UF, total, notas, página de fornecedor, número de gabinetes; o resto
+  // (gabinetes, ano a ano, mês a mês) fica em dados/postos/<UF>.json, baixado ao abrir um posto daquele estado
+  const itens = dados.p.map((p, i) => ({ p, i, texto: normalizar(`${p[0]} ${p[2]}`), digitos: p[1] }));
+  const criterios = { total: (a, b) => b.p[4] - a.p[4], notas: (a, b) => b.p[5] - a.p[5] || b.p[4] - a.p[4],
+    gabinetes: (a, b) => b.p[7] - a.p[7] || b.p[4] - a.p[4] };
+  const cnpj = d => d.length === 14 ? d.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})$/, "$1.$2.$3/$4-$5") : d;
+  const porUF = {};
+  const detalhes = uf => porUF[uf] ??= json(`dados/postos/${uf || "sem-uf"}.json`);
+  const plural = (n, um, varios) => `${n.toLocaleString("pt-BR")} ${n === 1 ? um : varios}`;
+  const reais = v => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
+  const dataBR = s => s ? `${s.slice(8, 10)}/${s.slice(5, 7)}/${s.slice(0, 4)}` : "";
+
+  function desenhar() {
+    const q = normalizar(busca.value.trim()), qDigitos = busca.value.replace(/\D/g, ""), estado = uf.value;
+    const achados = itens.filter(x => (!estado || x.p[3] === estado)
+      && (!q || x.texto.includes(q) || (qDigitos.length >= 3 && x.digitos.includes(qDigitos)))).sort(criterios[ordem.value] || criterios.total);
+    const total = achados.reduce((t, x) => t + x.p[4], 0);
+    // os totais da lista vêm em reais inteiros: a soma sai sem centavos para não fingir uma precisão que não tem
+    resumo.textContent = `${plural(achados.length, q || estado ? "posto encontrado" : "posto", q || estado ? "postos encontrados" : "postos")} · ${reais(total)} no total`;
+    lista.innerHTML = achados.slice(0, limite).map(({ p, i }) => `<li><details class="forn" data-i="${i}">
+      <summary><span class="forn-l1"><span class="forn-nome">${esc(p[0])}</span></span>
+      <span class="forn-meta">${p[2] ? `${esc(p[2])} · ` : ""}${plural(p[5], "nota", "notas")} · ${plural(p[7], "gabinete", "gabinetes")} ·
+      <b>${reais(p[4])}</b></span></summary>
+      <div class="rest-gab rolagem"></div></details></li>`).join("")
+      || `<li class="lt-vazio">Nenhum posto com esse nome, cidade ou CNPJ.</li>`;
+    mais.hidden = achados.length <= limite;
+  }
+  // toggle não sobe pela árvore: a escuta é na captura
+  lista.addEventListener("toggle", async e => {
+    const d = e.target;
+    if (!(d instanceof HTMLDetailsElement) || !d.open || d.dataset.feito || d.dataset.i === undefined) return;
+    d.dataset.feito = "1";
+    const p = dados.p[+d.dataset.i], caixa = d.querySelector(".rest-gab");
+    caixa.innerHTML = `<p class="forn-meta">Carregando…</p>`;
+    let det;
+    try { det = (await detalhes(p[3]))[p[1]]; } catch { det = null; }
+    if (!det) { caixa.innerHTML = `<p class="forn-meta">Não foi possível carregar este posto.</p>`; delete d.dataset.feito; return; }
+    const [gabinetes, porAno, porMes] = det;
+    const forn = p[6] ? `<a href="${RAIZ}fornecedor/${p[1]}.html">página do fornecedor</a> · ` : "";
+    const anos = porAno.map(([a, v]) => `<tr><td>${a}</td><td class="n">${reais(v)}</td></tr>`).join("");
+    const meses = porMes.slice().reverse().map(([m, v]) => `<tr><td>${nomeMes(m)}</td><td class="n">${reais(v)}</td></tr>`).join("");
+    caixa.innerHTML = `<p class="forn-meta">${forn}<span class="mono">${esc(cnpj(p[1]))}</span></p>
+      <table><tr><th>Ano</th><th class="n">Reembolsado</th></tr>${anos}</table>
+      <details class="tabela-serie"><summary>Mês a mês</summary><table><tr><th>Mês da nota</th><th class="n">Reembolsado</th></tr>${meses}</table></details>
+      <table><tr><th>Deputado(a)</th><th class="n">Notas</th><th class="n">Total</th></tr>${gabinetes.map(([pid, n, t, ini, fim]) => {
+        const [nome, partido, sigla] = dados.d[pid];
+        return `<tr><td><a href="${RAIZ}deputado/${pid}.html">${esc(nome)}</a> <span class="cat">${esc(partido)}/${esc(sigla)}</span>
+          ${ini ? `<br><span class="cat">${ini === fim ? dataBR(ini) : `${dataBR(ini)} a ${dataBR(fim)}`}</span>` : ""}</td>
+          <td class="n">${n.toLocaleString("pt-BR")}</td><td class="n">${reais(t)}</td></tr>`;
+      }).join("")}</table>`;
+  }, true);
+  busca.addEventListener("input", () => { limite = LOTE; desenhar(); });
+  ordem.addEventListener("change", () => { limite = LOTE; desenhar(); });
+  uf.addEventListener("change", () => { limite = LOTE; desenhar(); });
+  mais.addEventListener("click", () => { limite += LOTE; desenhar(); });
+  desenhar();
 }
 
 // página Fornecedores: dados/fornecedores/<UF>.json, um arquivo por estado do fornecedor, baixado quando o estado é
