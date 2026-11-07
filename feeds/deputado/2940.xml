@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2940.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2940.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Toninho Wandscheer (PP/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4322371e1c2aa9f2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4322371e1c2aa9f2.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 108521 de POSTO PAULISTA DE LIMEIRA LTDA (R$ 408,40, 15/03/2026): foi declarado R$ 408,40, mas o maior valor lido no documento é R$ 406,40. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Toninho Wandscheer (PP/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bcdb0c04b91bea47.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bcdb0c04b91bea47.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

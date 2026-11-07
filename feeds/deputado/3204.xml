@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3204.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3204.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Paulo Guedes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8cfe70be4e1e0651.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8cfe70be4e1e0651.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Auto Posto Amanda e Julia LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 926697 (R$ 200,03, 10/03/2025); nº 295379 (R$ 220,03, 25/03/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Paulo Guedes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/77078852896dba83.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/77078852896dba83.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de COMERCIAL LABATU LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 137256 (R$ 200,00, 28/08/2026); nº 137256 (R$ 200,00, 28/08/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Paulo Guedes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6a1c0988e5a8717d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6a1c0988e5a8717d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 926697 de Auto Posto Amanda e Julia LTDA (R$ 200,03, 10/03/2025): o documento traz o(s) CNPJ(s) 15629012000157, e não o do fornecedor declarado (09489996000204). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Paulo Guedes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/daf605575d0c3e33.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/daf605575d0c3e33.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 342382 de ANTARES COMBUSTIVEIS LTDA (R$ 3.750,01, 15/10/2023): foi declarado R$ 3.750,10, mas o maior valor lido no documento é R$ 375,01. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Paulo Guedes (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/badedda2f889e5a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/badedda2f889e5a7.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

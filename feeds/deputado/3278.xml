@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3278.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3278.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Silvia Cristina (PP/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e9afdc0e663bf7e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e9afdc0e663bf7e6.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CMP COMUNICACAO E ASSESSORIA LTDA-ME foi anexado a 2 reembolsos. Despesas declaradas: nº 7720 (R$ 2.000,00, 27/06/2025); nº 7720 (R$ 1.000,00, 27/06/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Silvia Cristina (PP/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/735606f76d6cda70.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/735606f76d6cda70.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 7720 de CN EDITORA DE JORNAIS E REVISTAS LTDA - ME (R$ 1.000,00, 27/06/2025): o documento traz o(s) CNPJ(s) 05903125000145, 08742048000187, e não o do fornecedor declarado (08379006000123). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Silvia Cristina (PP/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5bbacb8f05fb06c1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5bbacb8f05fb06c1.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 11997 de AUTO POSTO LIBERDADE EIRELE - ME (R$ 419,55, 12/04/2023): o emissor da nota é o CNPJ 01.249.146/0001-38, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Silvia Cristina (PP/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4a77f5cf66abf27e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4a77f5cf66abf27e.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 353 de SMCORMERCIO DE COMBUSTIVEL LTDA (R$ 441,29, 01/05/2026): foi declarado R$ 441,29, mas o maior valor lido no documento é R$ 411,29. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Silvia Cristina (PP/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/947059bc191a96e2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/947059bc191a96e2.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 11997 de AUTO POSTO LIBERDADE EIRELE - ME (R$ 419,55, 12/04/2023): o documento traz o(s) CNPJ(s) 01249146000138, e não o do fornecedor declarado (19878460000145). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Silvia Cristina (PP/RO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d7e177c525d9dd8a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d7e177c525d9dd8a.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

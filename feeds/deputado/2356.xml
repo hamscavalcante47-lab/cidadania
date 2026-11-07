@@ -4,9 +4,69 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2356.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2356.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Dimas Fabiano (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3de4d452d4d51c3d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3de4d452d4d51c3d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO DOM PEDRO I 124 SUL EIRELI foi anexado a 2 reembolsos. Despesas declaradas: nº 939077 (R$ 243,61, 06/08/2024); nº 939077 (R$ 243,61, 08/08/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Dimas Fabiano (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c21308f3c8c93978.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c21308f3c8c93978.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de JOSE ROBERTO LANDIM foi anexado a 2 reembolsos. Despesas declaradas: nº 212168 (R$ 100,00, 22/04/2024); nº 212168 (R$ 202,59, 01/09/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Dimas Fabiano (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a06c4b85d6c7c006.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a06c4b85d6c7c006.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO NAVE REDE VIDA VARGINHA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 138223 (R$ 138,00, 03/08/2025); nº 138223 (R$ 90,00, 04/08/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Dimas Fabiano (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d8b6414b1d5527a3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d8b6414b1d5527a3.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO DOM PEDRO BRAGAN foi anexado a 2 reembolsos. Despesas declaradas: nº 168885 (R$ 78,99, 12/03/2024); nº 162885 (R$ 78,99, 12/03/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Dimas Fabiano (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2cf3c0dda6035848.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2cf3c0dda6035848.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 212168 de AUTO POSTO RODOVIA REAL LTDA (R$ 202,59, 01/09/2024): foi declarado R$ 202,59, mas o maior valor lido no documento é R$ 100,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Dimas Fabiano (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3730de95a89f0efd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3730de95a89f0efd.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 212168 de AUTO POSTO RODOVIA REAL LTDA (R$ 202,59, 01/09/2024): o documento traz o(s) CNPJ(s) 02988827000180, e não o do fornecedor declarado (40919812000150). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Dimas Fabiano (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61330f199bfbb9bb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61330f199bfbb9bb.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 35936 de AUTO POSTO FARIA LEMOS LTDA (R$ 98,78, 02/05/2025): foi declarado R$ 98,78, mas o maior valor lido no documento é R$ 96,78. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Dimas Fabiano (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0545adc69983c933.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0545adc69983c933.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0608 de AUTO POSTO CAMBUI LTDA (R$ 60,00, 25/07/2026): o documento traz o(s) CNPJ(s) 34390392000164, e não o do fornecedor declarado (19051754000107). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Dimas Fabiano (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5044c22e73412a65.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5044c22e73412a65.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 8735 de POSTO ET LTDA (R$ 50,00, 05/06/2023): o documento traz o(s) CNPJ(s) 19363555000126, e não o do fornecedor declarado (03960180000141). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Dimas Fabiano (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cf8b9b461c05ef83.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cf8b9b461c05ef83.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ATLANTICA HOTELS INTERNATIONAL BRASIL LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 252840 (R$ 181,52, 01/11/2023); nº 252880 (R$ 181,52, 01/11/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Dimas Fabiano (PP/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7f2dbd337f9b7d3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7f2dbd337f9b7d3.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

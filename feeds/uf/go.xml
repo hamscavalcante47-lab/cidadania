@@ -4,9 +4,105 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/go.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/go.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Adriano do Baldy (PP/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d6476bf06ffa1e12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6476bf06ffa1e12.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de VCOM MARKETING E INTELIGENCIA DIGITAL LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 00000000097 (R$ 6.000,00, 08/05/2024); nº 0000000097 (R$ 6.000,00, 08/05/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b715b79e2c23e278.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b715b79e2c23e278.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Auto Posto Indiara Ltda foi anexado a 2 reembolsos. Despesas declaradas: nº 504894 (R$ 136,02, 02/07/2024); nº 504894 (R$ 339,26, 27/07/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b2e0a2a8faaeafe8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b2e0a2a8faaeafe8.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 504894 de AUTO POSTO K 127 EIRELI (R$ 339,26, 27/07/2024): o emissor da nota é o CNPJ 01.756.915/0001-94, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Marussa Boldrin (REPUBLICANOS/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8efefffdd1105d12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8efefffdd1105d12.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 10519 de Rrs Auto Posto Ltda (R$ 325,67, 07/09/2023): o emissor da nota é o CNPJ 00.307.362/0001-20, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Gustavo Gayer (PL/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/909d4c4783405457.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/909d4c4783405457.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 196071 de AUTO POSTO MADAGASCAR LTDA (R$ 175,10, 13/07/2023): o emissor da nota é o CNPJ 04.028.876/0001-05, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd6774c8179a7d01.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd6774c8179a7d01.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 504894 de AUTO POSTO K 127 EIRELI (R$ 339,26, 27/07/2024): foi declarado R$ 339,26, mas o maior valor lido no documento é R$ 136,02. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Marussa Boldrin (REPUBLICANOS/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b49f81449b8ff06e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b49f81449b8ff06e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 10519 de Rrs Auto Posto Ltda (R$ 325,67, 07/09/2023): o documento traz o(s) CNPJ(s) 00307362000120, e não o do fornecedor declarado (31537668000104). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Gustavo Gayer (PL/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9f2ae252a43b5d28.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9f2ae252a43b5d28.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 90169 de POSTO Z+Z T9 LTDA (R$ 132,92, 15/04/2023): foi declarado R$ 132,92, mas o maior valor lido no documento é R$ 123,92. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Rubens Otoni (PT/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c9541f353ea8e75b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c9541f353ea8e75b.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 11567 de POSTO Z+Z NOSSA SENHORA MEDALHA MILAGROSA LTDA (R$ 3.326,50, 30/08/2024): foi declarado R$ 3.326,50, mas o maior valor lido no documento é R$ 3.226,50. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — José Nelto (UNIÃO/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b1f617964cc368fc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b1f617964cc368fc.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 6004 de POSTO 2000 LTDA (R$ 2.021,03, 13/09/2023): foi declarado R$ 2.021,03, mas o maior valor lido no documento é R$ 2.012,03. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7c523eb813e89228.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7c523eb813e89228.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 295504 de AUTO POSTO PIRANHAS EIRELI (R$ 500,00, 25/08/2025): foi declarado R$ 500,00, mas o maior valor lido no documento é R$ 50,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Agrobom (PSD/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1410fbaba09131f7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1410fbaba09131f7.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 09948812 de VERISURE BRASIL MONITORAMENTO (R$ 271,00, 12/07/2023): foi declarado R$ 271,00, mas o maior valor lido no documento é R$ 231,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Agrobom (PSD/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5864309bd5eee953.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5864309bd5eee953.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 09072700 de VERISURE BRASIL MONITORAMENTO (R$ 271,00, 08/03/2023): foi declarado R$ 271,00, mas o maior valor lido no documento é R$ 231,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Agrobom (PSD/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/73d6dab5e21dd1d0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/73d6dab5e21dd1d0.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 11724826 de VERISURE BRASIL MONITORAMENTO (R$ 271,00, 10/03/2024): foi declarado R$ 271,00, mas o maior valor lido no documento é R$ 231,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Agrobom (PSD/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eb6eface79a89ab8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eb6eface79a89ab8.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 11342841 de VERISURE BRASIL MONITORAMENTO (R$ 271,00, 13/01/2024): foi declarado R$ 271,00, mas o maior valor lido no documento é R$ 231,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Gustavo Gayer (PL/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e8e95f60bfb9a2ed.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e8e95f60bfb9a2ed.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 6382 de GUARD PROTECTION SMART LTDA (R$ 199,54, 03/06/2024): foi declarado R$ 199,54, mas o maior valor lido no documento é R$ 195,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Jeferson Rodrigues (PSDB/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/834e82e9ce68e185.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/834e82e9ce68e185.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

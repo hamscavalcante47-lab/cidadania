@@ -4,9 +4,117 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pe.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pe.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Eduardo da Fonte (PP/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/887a34ba9724e626.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/887a34ba9724e626.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ALESSANDRA FERREIRA SALVINO foi anexado a 2 reembolsos. Despesas declaradas: nº 000986 (R$ 1.000,00, 22/01/2025); nº 167 (R$ 500,00, 28/01/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Lula da Fonte (PP/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c539c71feae97c0f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c539c71feae97c0f.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de PORTAL COMUNICAÇÃO E MARKETING LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 5 (R$ 500,00, 02/12/2025); nº 9 (R$ 500,00, 02/12/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — André Ferreira (PL/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eb77589218944e61.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eb77589218944e61.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO RECH LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 109828 (R$ 150,00, 02/05/2024); nº 24842 (R$ 200,00, 19/05/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — André Ferreira (PL/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b7d6b1a99f4c38ff.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b7d6b1a99f4c38ff.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 109828 de POSTO RECH LTDA (R$ 150,00, 02/05/2024): o emissor da nota é o CNPJ 11.601.184/0001-61, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lula da Fonte (PP/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4ad2caa1d73529fe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4ad2caa1d73529fe.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00000330 de FCT MULTISERV COMERCIO E SERVICOS LTDA (R$ 1.000,00, 02/03/2023): o documento traz o(s) CNPJ(s) 11251832000105, 40568080000109, e não o do fornecedor declarado (17237187000144). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lula da Fonte (PP/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/25b1965842f4639b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/25b1965842f4639b.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 6 de SEVERINO APARECIDO DA SILVA (R$ 600,00, 01/03/2024): o documento traz o(s) CNPJ(s) 41220147000174, e não o do fornecedor declarado (32648043000174). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Eduardo da Fonte (PP/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/85d46a8504a9679e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/85d46a8504a9679e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00000373 de SAO SEBASTIAO LOCACAO DE VEICULOS E TURISMO LTDA (R$ 500,00, 10/03/2023): o documento traz o(s) CNPJ(s) 33470439000137, e não o do fornecedor declarado (05132492000192). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Eduardo da Fonte (PP/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9f7c9861c6415fea.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9f7c9861c6415fea.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 167 de SEVERINO APARECIDO DA SILVA (R$ 500,00, 28/01/2025): o documento traz o(s) CNPJ(s) 10110989000140, 30785194000149, e não o do fornecedor declarado (32648043000174). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — André Ferreira (PL/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a0dcd5821dc1c028.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a0dcd5821dc1c028.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 109828 de POSTO RECH LTDA (R$ 150,00, 02/05/2024): o documento traz o(s) CNPJ(s) 11601184000161, e não o do fornecedor declarado (11052812000105). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Fernando Monteiro (PSD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/131585c14435e6e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/131585c14435e6e3.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de J A HOTEL LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 468 (R$ 412,50, 02/03/2026); nº 469 (R$ 412,50, 02/03/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Pedro Campos (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bf4d8167d9b0d0b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bf4d8167d9b0d0b2.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Claúdio Felipe da Costa Junior - ME foi anexado a 2 reembolsos. Despesas declaradas: nº 00001358 (R$ 130,00, 22/06/2023); nº 000013658 (R$ 130,00, 22/06/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Lucas Ramos (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/70a1753c16aa2741.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/70a1753c16aa2741.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00681736 de HOTELARIA ACCOR BRASIL S/A (R$ 1.115,64, 27/03/2025): foi declarado R$ 1.115,64, mas o maior valor lido no documento é R$ 1.004,07. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Felipe Carreras (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/040ce2cc93407994.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/040ce2cc93407994.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 16954 de C A E - SERVICOS GASTRONOMICOS E EVENTOS LTDA (R$ 1.055,00, 26/01/2026): foi declarado R$ 1.055,00, mas o maior valor lido no documento é R$ 1.005,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Fernando Rodolfo (PRD/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3c73763fb78bf86d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3c73763fb78bf86d.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0000001063 de NOBILE SUITES DEL RIO PETROLINA (R$ 700,00, 04/02/2026): o documento traz o(s) CNPJ(s) 49718085000137, e não o do fornecedor declarado (26607888000119). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/287493a69bf6143b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/287493a69bf6143b.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000011354 de COLUMINHO HOSPEDAGENS E RESTAURANTE LTDA (R$ 500,00, 11/07/2025): o documento traz o(s) CNPJ(s) 70089032000190, e não o do fornecedor declarado (31721545000110). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/314042f024011e54.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/314042f024011e54.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000011355 de COLUMINHO HOSPEDAGENS E RESTAURANTE LTDA (R$ 500,00, 11/07/2025): o documento traz o(s) CNPJ(s) 70089032000190, e não o do fornecedor declarado (31721545000110). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c86ea9146efac1ad.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c86ea9146efac1ad.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000011356 de COLUMINHO HOSPEDAGENS E RESTAURANTE LTDA (R$ 500,00, 11/07/2025): o documento traz o(s) CNPJ(s) 70089032000190, e não o do fornecedor declarado (31721545000110). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Maria Arraes (PSB/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/260013c53764eb04.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/260013c53764eb04.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00021911 de FRANCISCO LOPES DA SILVA - POUSADA DIAS (R$ 190,00, 06/06/2026): foi declarado R$ 190,00, mas o maior valor lido no documento é R$ 140,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Carlos Veras (PT/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ba10f4f001965ade.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ba10f4f001965ade.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

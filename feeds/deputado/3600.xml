@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3600.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3600.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Keniston Braga (MDB/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/36555114f545608d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/36555114f545608d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2 de BEATRIZ LEITE MONTEIRO (R$ 7.048,00, 02/12/2024): o documento traz o(s) CNPJ(s) 58305168000195, e não o do fornecedor declarado (56420806000193). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Doador da campanha recebendo da cota — Keniston Braga (MDB/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c022cb9d313ddac4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c022cb9d313ddac4.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

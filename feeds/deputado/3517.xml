@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3517.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3517.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Daniela Reinehr (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3d28c2039c1854f0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3d28c2039c1854f0.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MARAVILHA PALACE HOTEL LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 353001 (R$ 150,00, 15/07/2023); nº 35301 (R$ 150,00, 15/07/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Daniela Reinehr (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/524fa81603174c9d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/524fa81603174c9d.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 227490 de FEMA HOTEL  LTDA (R$ 961,80, 25/05/2026): o documento traz o(s) CNPJ(s) 83864819000205, e não o do fornecedor declarado (04263016000148). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Daniela Reinehr (PL/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6e9d80068673d4ea.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6e9d80068673d4ea.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

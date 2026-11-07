@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1686.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1686.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Rubens Otoni (PT/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c9541f353ea8e75b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c9541f353ea8e75b.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 11567 de POSTO Z+Z NOSSA SENHORA MEDALHA MILAGROSA LTDA (R$ 3.326,50, 30/08/2024): foi declarado R$ 3.326,50, mas o maior valor lido no documento é R$ 3.226,50. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Rubens Otoni (PT/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e75d2352a041bf3b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e75d2352a041bf3b.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

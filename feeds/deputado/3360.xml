@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3360.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3360.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/95b95c48f3922d72.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/95b95c48f3922d72.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 102297 de AUTO POSTO SLOMPO LTDA (R$ 150,00, 12/05/2025): o emissor da nota é o CNPJ 05.825.869/0001-99, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9763d47f346ba394.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9763d47f346ba394.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 379150 de PORTAL ESTRELA DO MORUMBI CENTRO AUTOMOTIVO LTDA (R$ 261,43, 26/04/2023): foi declarado R$ 261,43, mas o maior valor lido no documento é R$ 216,43. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/970a2cd14a47dfca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/970a2cd14a47dfca.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 102297 de AUTO POSTO SLOMPO LTDA (R$ 150,00, 12/05/2025): o documento traz o(s) CNPJ(s) 05825869000199, e não o do fornecedor declarado (03524616000150). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Dados da chave de acesso não batem com a despesa declarada — Maria Rosas (REPUBLICANOS/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f0a55a62742e9d14.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f0a55a62742e9d14.html</id>
 <updated>2026-10-31T00:00:00Z</updated>

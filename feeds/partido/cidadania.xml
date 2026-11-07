@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/cidadania.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/cidadania.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Arnaldo Jardim (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa4b7b758ff052bc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa4b7b758ff052bc.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 568478 de AUTO POSTO SAN MARTIN II LTDA (R$ 167,42, 13/12/2024): o emissor da nota é o CNPJ 60.703.675/0001-29, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Arnaldo Jardim (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/095579caa4bf5dfc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/095579caa4bf5dfc.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 959800 de AUTO POSTO CENTER PARAISO LT (R$ 100,00, 21/09/2023): o emissor da nota é o CNPJ 02.892.311/0001-38, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Arnaldo Jardim (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/512ab8041e60d123.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3cd3c4cb3f1ce95c.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 568478 de AUTO POSTO SAN MARTIN II LTDA (R$ 167,42, 13/12/2024): o documento traz o(s) CNPJ(s) 60703675000129, e não o do fornecedor declarado (17965332000103). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Arnaldo Jardim (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa95b626b89af9e8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5ae20534e8a22892.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 959800 de AUTO POSTO CENTER PARAISO LT (R$ 100,00, 21/09/2023): o documento traz o(s) CNPJ(s) 02892311000138, e não o do fornecedor declarado (44022747000116). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Arnaldo Jardim (CIDADANIA/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3da1ffa45a909142.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3da1ffa45a909142.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

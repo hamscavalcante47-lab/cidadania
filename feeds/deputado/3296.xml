@@ -4,7 +4,25 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3296.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3296.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Mesmo documento usado em despesas diferentes — Tiago Dimas (PODE/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa7d0e3a8b8c97a8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa7d0e3a8b8c97a8.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de AMAURI DE LIMA GOES ***.263.001-** foi anexado a 2 reembolsos. Despesas declaradas: nº 202600000000009 (R$ 3.550,00, 10/04/2026); nº 202600000000009 (R$ 3.550,00, 12/04/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Tiago Dimas (PODE/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1cdb0000552e06ce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1cdb0000552e06ce.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202600000000009 de MAWAI MIDIA E PRODUÇÕES LTDA (R$ 3.550,00, 12/04/2026): o documento traz o(s) CNPJ(s) 46944540000124, e não o do fornecedor declarado (33556976000102). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Tiago Dimas (PODE/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f03e2eeabaae7ce0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f03e2eeabaae7ce0.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2026000000936 de ATLAS HOTEL LTDA (R$ 1.150,94, 21/06/2026): foi declarado R$ 1.150,94, mas o maior valor lido no documento é R$ 1.115,94. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

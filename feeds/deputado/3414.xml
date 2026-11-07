@@ -4,9 +4,81 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3414.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3414.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/621ce6ee87de178d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/621ce6ee87de178d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 389876 de POSTO S.R. LTDA - EPP (R$ 273,00, 12/04/2024): o emissor da nota é o CNPJ 11.356.187/0001-87, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0bb487f792169521.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0bb487f792169521.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 2543054 de SOCIEDADE COMERCIAL CANAA -LTDA (R$ 200,00, 25/11/2025): o emissor da nota é o CNPJ 17.011.467/0001-30, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/64eca9e4290aff1f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/64eca9e4290aff1f.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2166237 de POSTO S.R. LTDA - EPP (R$ 382,06, 12/11/2023): o documento traz o(s) CNPJ(s) 19751553000104, e não o do fornecedor declarado (17011467000130). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2f199dd6db0cd110.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2f199dd6db0cd110.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1892716 de SOCIEDADE COMERCIAL CANAA -LTDA (R$ 338,78, 28/05/2024): foi declarado R$ 338,78, mas o maior valor lido no documento é R$ 327,37. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df389f7291dbde6d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df389f7291dbde6d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1892716 de SOCIEDADE COMERCIAL CANAA -LTDA (R$ 338,78, 28/05/2024): o documento traz o(s) CNPJ(s) 37842300000128, e não o do fornecedor declarado (21504196000121). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9f8b196d2269cef0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9f8b196d2269cef0.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 646281827 de POSTO TROPICO LTDA (R$ 309,10, 28/06/2025): o documento traz o(s) CNPJ(s) 04088208000165, e não o do fornecedor declarado (20757282000183). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/afe85ef194447718.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/afe85ef194447718.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 646281827 de POSTO TROPICO LTDA (R$ 309,10, 28/06/2025): foi declarado R$ 324,00, mas o maior valor lido no documento é R$ 263,88. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/42230ecffe8e8717.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/42230ecffe8e8717.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 418689 de POSTO CURVA DO RETIRO LTDA (R$ 270,39, 05/08/2024): o documento traz o(s) CNPJ(s) 17011467000130, e não o do fornecedor declarado (04437401000164). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0583488d9afd723a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0583488d9afd723a.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2543054 de SOCIEDADE COMERCIAL CANAA -LTDA (R$ 200,00, 25/11/2025): o documento traz o(s) CNPJ(s) 17011467000130, e não o do fornecedor declarado (21504196000121). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/251838157aa7b337.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/251838157aa7b337.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 4954783 de EXPRESSO UNIÃO LTDA (R$ 405,52, 09/05/2026): foi declarado R$ 405,52, mas o maior valor lido no documento é R$ 349,59. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c936e1fe3813eb62.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c936e1fe3813eb62.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 010268657693 de Expresso União ltda (R$ 383,59, 27/01/2025): foi declarado R$ 383,59, mas o maior valor lido no documento é R$ 382,40. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/035dc816c12ea298.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/035dc816c12ea298.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1827 de HOTEL BASÍLIO E OLIVEIRA LTDA (R$ 240,00, 25/04/2024): o documento traz o(s) CNPJ(s) 07823342000150, e não o do fornecedor declarado (03723120000105). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Greyce Elias (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7728d63e1d979b98.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c31cc012e591b003.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

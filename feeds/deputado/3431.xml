@@ -4,7 +4,19 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3431.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3431.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Alencar Santana (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3485b1e206bdf7d5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3485b1e206bdf7d5.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 681338 de RODOVIA COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA (R$ 162,28, 29/05/2023): o emissor da nota é o CNPJ 19.046.218/0010-04, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alencar Santana (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bb4d1444cb83d1ca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bb4d1444cb83d1ca.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 681338 de RODOVIA COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA (R$ 162,28, 29/05/2023): o documento traz o(s) CNPJ(s) 19046218001004, e não o do fornecedor declarado (17361190000175). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

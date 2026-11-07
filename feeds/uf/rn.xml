@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/rn.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/rn.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — General Girão (PL/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/67df9ab77551957e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/67df9ab77551957e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de FRANCICLEIDE ARAÚJO DA SILVA foi anexado a 2 reembolsos. Despesas declaradas: nº 27 (R$ 1.500,00, 01/04/2024); nº 30 (R$ 1.500,00, 02/05/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — João Maia (PP/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/60352e3ff861e086.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/60352e3ff861e086.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000000234 de KAIO CARDOSO BORGES DA SILVA (R$ 2.000,00, 07/05/2025): o documento traz o(s) CNPJ(s) 42429173000170, e não o do fornecedor declarado (52219562000124). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — General Girão (PL/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8a0f3876ca17e83b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8a0f3876ca17e83b.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de HOTEL CAMINHOS DA OITICICA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 2600000000440 (R$ 290,00, 01/06/2026); nº 2600000000440 (R$ 290,00, 02/06/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — General Girão (PL/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2007268fb8359e18.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2007268fb8359e18.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0000000130 de 554000190SEG NATAL SIST ELETRONICO DE ALARME LTDA (R$ 162,00, 02/06/2025): o documento traz o(s) CNPJ(s) 58950300000111, e não o do fornecedor declarado (48188554000190). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — General Girão (PL/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9b693d268594747b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9b693d268594747b.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 26000616 de TUNGSTENIO HOTEL E RESTAURANTE LTDA (R$ 140,00, 21/07/2026): o documento traz o(s) CNPJ(s) 58131245000138, e não o do fornecedor declarado (35956290000126). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Benes Leocádio (UNIÃO/RN)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ded19698d9a41308.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ded19698d9a41308.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

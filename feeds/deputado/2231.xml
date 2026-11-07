@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2231.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2231.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Zé Silva (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7e4201e555858c8c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7e4201e555858c8c.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202418 de BENDITA AGENCIA DE MARKENTING DIGITAL E EVENTOS LTDA (R$ 14.685,00, 03/05/2024): foi declarado R$ 14.685,00, mas o maior valor lido no documento é R$ 14.680,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Zé Silva (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d8239e133a8a88c9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d8239e133a8a88c9.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de AVENIDA HOTEL E SERVIÇOS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 522 (R$ 225,00, 21/06/2025); nº 552 (R$ 225,00, 21/06/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Zé Silva (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9001e670886c9d3f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9001e670886c9d3f.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 5138 de Jose Cadete de Sousa Filho Eireli (R$ 374,00, 26/04/2025): foi declarado R$ 374,00, mas o maior valor lido no documento é R$ 347,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Zé Silva (UNIÃO/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/14c6151aec0bec6b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/14c6151aec0bec6b.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

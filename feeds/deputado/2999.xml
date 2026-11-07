@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2999.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2999.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Mesmo documento usado em despesas diferentes — Aluisio Mendes (REPUBLICANOS/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/906d499c6893c31d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/906d499c6893c31d.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de BRISTOL HOSPITALITY IMPERATRIZ ADMINISTRACAO DE HOTEIS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 8416 (R$ 462,00, 04/08/2026); nº 8416 (R$ 462,00, 06/08/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

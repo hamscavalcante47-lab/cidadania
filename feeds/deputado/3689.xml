@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3689.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3689.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Delegada Ione (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/696a4ba56704e0ff.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/696a4ba56704e0ff.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 497247 de POSTO SANTA EDWIGES PETROLEO LTDA - FILIAL JK (R$ 214,80, 11/04/2024): o emissor da nota é o CNPJ 03.812.019/0001-20, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Delegada Ione (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3ea6bab7de68542.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f3ea6bab7de68542.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 497247 de POSTO SANTA EDWIGES PETROLEO LTDA - FILIAL JK (R$ 214,80, 11/04/2024): o documento traz o(s) CNPJ(s) 03812019000120, e não o do fornecedor declarado (19848233000762). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Delegada Ione (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4f491cacaa5ab8a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4f491cacaa5ab8a.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO SÃO JOSÉ LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 371516 (R$ 270,03, 04/10/2023); nº 371655 (R$ 100,03, 04/10/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Delegada Ione (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/19d59de2065cc8d3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/19d59de2065cc8d3.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

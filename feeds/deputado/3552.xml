@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3552.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3552.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Andreia Siqueira (PSB/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/228304356f7b1467.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/228304356f7b1467.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 47 de TECNEGOCIOS SOLUÇÕES EM INFORMÁTICA LTDA (R$ 6.000,00, 03/05/2024): o documento traz o(s) CNPJ(s) 49340295000134, e não o do fornecedor declarado (11521613000190). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

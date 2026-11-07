@@ -4,7 +4,19 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3387.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3387.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Valor declarado maior que o da nota — Fred Costa (PRD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a19444d60c461752.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a19444d60c461752.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2024/5117 de Hotel Panorama Economic Eirele (R$ 239,00, 22/09/2024): foi declarado R$ 239,00, mas o maior valor lido no documento é R$ 229,95. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Fred Costa (PRD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2b25cfb7311395c9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2b25cfb7311395c9.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2024/5118 de Hotel Panorama Economic Eirele (R$ 209,00, 22/09/2024): foi declarado R$ 209,00, mas o maior valor lido no documento é R$ 199,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

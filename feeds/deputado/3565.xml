@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3565.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3565.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Zé Trovão (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/187fea48eba57785.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/187fea48eba57785.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 232546 de DECIO COM E SERV ROD LTDA (R$ 454,80, 18/02/2024): o emissor da nota é o CNPJ 24.187.119/0001-83, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Zé Trovão (PL/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4c8332950f4ca269.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4c8332950f4ca269.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

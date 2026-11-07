@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1625.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1625.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Valor declarado maior que o da nota — Odair Cunha (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7163e81db9b76f23.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7163e81db9b76f23.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 222637 de POSTO 3 LTDA (R$ 403,16, 17/02/2023): foi declarado R$ 403,16, mas o maior valor lido no documento é R$ 150,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

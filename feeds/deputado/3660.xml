@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3660.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3660.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/85b5f50f2ea28ff5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/85b5f50f2ea28ff5.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 139621 de POSTO KIT BARAO LTDA ME (R$ 283,97, 03/10/2023): foi declarado R$ 283,97, mas o maior valor lido no documento é R$ 183,97. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d3c658bf5919f2b7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d3c658bf5919f2b7.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 086408 de AUTO POSTO EXPEDICIONARIOS LTDA (R$ 156,26, 12/12/2023): foi declarado R$ 156,26, mas o maior valor lido no documento é R$ 154,26. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aef1824d604a8c65.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6678e7408739a536.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 267707 de CENTRO AUTOMOTIVO REAL LESTE LTDA. (R$ 140,00, 13/04/2023): o documento traz o(s) CNPJ(s) 43663160000123, e não o do fornecedor declarado (01456575000186). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/efa7b5c6ed96f165.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/efa7b5c6ed96f165.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 231985 de AUTO POSTO JOAO XXIII - II LTDA (R$ 128,82, 04/04/2023): foi declarado R$ 128,82, mas o maior valor lido no documento é R$ 124,82. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Rodrigo Gambale (PODE/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ed616e0f7e57f46.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ed616e0f7e57f46.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

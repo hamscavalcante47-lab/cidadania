@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2243.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2243.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Pedro Uczai (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4f6f25caa3be4496.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4f6f25caa3be4496.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00000009837 de RESTAURANTE IOMERE LTDA (R$ 185,00, 05/12/2025): o documento traz o(s) CNPJ(s) 24982192000147, e não o do fornecedor declarado (11586050000119). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Pedro Uczai (PT/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9ac6708eaf9f224c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9ac6708eaf9f224c.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

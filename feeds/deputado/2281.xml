@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2281.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2281.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Giovani Cherini (PL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e67be3b5f429008a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e67be3b5f429008a.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 493 de Informativo Regional Empresa Jornalistica Ltda ME (R$ 750,00, 03/06/2026): o emissor da nota é o CNPJ 04.539.571/0001-50, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Giovani Cherini (PL/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/add326bc449c1038.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/add326bc449c1038.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

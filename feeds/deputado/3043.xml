@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3043.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3043.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5d0872f2a85d9e8a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5d0872f2a85d9e8a.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 895061 de AUTO POSTO SABIAO LTDA (R$ 285,11, 08/05/2026): o emissor da nota é o CNPJ 77.755.742/0001-51, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8c874a77c082c0ee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8c874a77c082c0ee.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 363626 de CENTRO DE SERVIÇOS FRANGO ASSADO - NORTE LTDA (R$ 60,52, 28/01/2024): o emissor da nota é o CNPJ 16.960.793/0001-20, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a666f4fcb0fb7ad3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a666f4fcb0fb7ad3.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 895061 de AUTO POSTO SABIAO LTDA (R$ 285,11, 08/05/2026): o documento traz o(s) CNPJ(s) 77755742000151, e não o do fornecedor declarado (05650896000178). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a67ea1239234e64d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a67ea1239234e64d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1006143 de AUTO POSTO VIA LAGO LTDA (R$ 233,74, 26/04/2024): foi declarado R$ 233,74, mas o maior valor lido no documento é R$ 223,74. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f42427620df48f5c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/287b21a6675ebcbf.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 363626 de CENTRO DE SERVIÇOS FRANGO ASSADO - NORTE LTDA (R$ 60,52, 28/01/2024): o documento traz o(s) CNPJ(s) 16960793000120, e não o do fornecedor declarado (02896671001341). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Diego Garcia (UNIÃO/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/651967fdd1995990.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/651967fdd1995990.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3528.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3528.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Gustavo Gayer (PL/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/909d4c4783405457.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/909d4c4783405457.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 196071 de AUTO POSTO MADAGASCAR LTDA (R$ 175,10, 13/07/2023): o emissor da nota é o CNPJ 04.028.876/0001-05, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Gustavo Gayer (PL/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9f2ae252a43b5d28.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9f2ae252a43b5d28.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 90169 de POSTO Z+Z T9 LTDA (R$ 132,92, 15/04/2023): foi declarado R$ 132,92, mas o maior valor lido no documento é R$ 123,92. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Gustavo Gayer (PL/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e8e95f60bfb9a2ed.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e8e95f60bfb9a2ed.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 6382 de GUARD PROTECTION SMART LTDA (R$ 199,54, 03/06/2024): foi declarado R$ 199,54, mas o maior valor lido no documento é R$ 195,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Gustavo Gayer (PL/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e12350e4c149b126.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e12350e4c149b126.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

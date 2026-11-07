@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3622.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3622.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Samuel Viana (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/235b414da9ac0183.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/235b414da9ac0183.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO BURITIS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 2353 (R$ 158,35, 06/02/2023); nº 2358 (R$ 158,35, 06/02/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Samuel Viana (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/512d1071ebe22063.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/512d1071ebe22063.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de VIAÇÃO NOVO HORIZONTE LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 316202 (R$ 202,39, 08/05/2024); nº 316202 (R$ 202,39, 09/05/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Samuel Viana (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a02f1461801e6769.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a02f1461801e6769.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de RAMETTA &amp; SOARES LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 2023000000009988 (R$ 143,00, 04/04/2023); nº 202300000009988 (R$ 143,00, 04/04/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Samuel Viana (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c1a13b94c1e25e37.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c1a13b94c1e25e37.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 262 de Manoel Afonso Queiroz (R$ 80,00, 15/07/2023): foi declarado R$ 80,00, mas o maior valor lido no documento é R$ 60,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Samuel Viana (UNIÃO/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0119037afce63334.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0119037afce63334.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

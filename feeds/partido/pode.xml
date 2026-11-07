@@ -4,9 +4,183 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pode.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pode.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Tiago Dimas (PODE/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa7d0e3a8b8c97a8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa7d0e3a8b8c97a8.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de AMAURI DE LIMA GOES ***.263.001-** foi anexado a 2 reembolsos. Despesas declaradas: nº 202600000000009 (R$ 3.550,00, 10/04/2026); nº 202600000000009 (R$ 3.550,00, 12/04/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Nely Aquino (PODE/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b74e159b8627bdc4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b74e159b8627bdc4.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de REM 2 COMERCIO DE COMBUSTIVEL LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 20699 (R$ 250,00, 15/11/2023); nº 116231 (R$ 150,00, 16/11/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Nely Aquino (PODE/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/24cb1c8facfeb046.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/24cb1c8facfeb046.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO JOCA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 407186 (R$ 150,00, 12/06/2024); nº 14610 (R$ 150,00, 12/06/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Enfermeira Ana Paula (PODE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e115f237a2f98098.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e115f237a2f98098.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 3670 de SOBRAL &amp; PALACIO PETROLEO LTDA (R$ 300,00, 18/12/2025): o emissor da nota é o CNPJ 23.570.062/0001-34, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Enfermeira Ana Paula (PODE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b7095520048befe8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b7095520048befe8.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 38039 de PRAIA COMERCIO DE PETROLEO (R$ 235,04, 23/12/2025): o emissor da nota é o CNPJ 07.240.641/0003-24, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Nely Aquino (PODE/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/391a7b9e225982ba.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/391a7b9e225982ba.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO GUARAPARI LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 121977 (R$ 100,00, 21/05/2024); nº 743173 (R$ 100,00, 23/05/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Enfermeira Ana Paula (PODE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7fc8c45a3e56ba31.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7fc8c45a3e56ba31.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 33391 de ESTACAO COMERCIO DE PETROLEO E SERVICOS LTDA (R$ 200,00, 05/02/2026): o emissor da nota é o CNPJ 07.240.641/0046-64, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Gilson Daniel (PODE/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e2b3f749300d6eff.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e2b3f749300d6eff.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 33 de ELIAS SOARES DA SILVA (R$ 12.500,00, 10/03/2026): foi declarado R$ 12.500,00, mas o maior valor lido no documento é R$ 12.250,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Nely Aquino (PODE/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83ac2b2a0e316eae.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83ac2b2a0e316eae.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 27 de JOAO CARLOS MEDEIROS DOS SANTOS (R$ 5.000,00, 28/06/2024): foi declarado R$ 5.000,00, mas o maior valor lido no documento é R$ 2.500,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Tiago Dimas (PODE/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1cdb0000552e06ce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1cdb0000552e06ce.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202600000000009 de MAWAI MIDIA E PRODUÇÕES LTDA (R$ 3.550,00, 12/04/2026): o documento traz o(s) CNPJ(s) 46944540000124, e não o do fornecedor declarado (33556976000102). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Ruy Carneiro (PODE/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df6aa345389dd5b8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df6aa345389dd5b8.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 32 de MARIA DA GLORIA SOARES PESSOA - RADIO WEB SANTA RITA (R$ 1.500,00, 17/09/2025): foi declarado R$ 1.500,00, mas o maior valor lido no documento é R$ 1.200,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Ruy Carneiro (PODE/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/38ba45c54210b2ee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/38ba45c54210b2ee.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1000659 de ESTRATEGIA SERVIÇOS DE COMUNICAÇÃO EIRELI (R$ 1.200,00, 25/06/2025): foi declarado R$ 1.200,00, mas o maior valor lido no documento é R$ 1.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Ruy Carneiro (PODE/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c361d3144570ddd5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c361d3144570ddd5.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1000978 de BLOG MAIS COMUNICAÇÃO (R$ 1.200,00, 11/12/2024): o documento traz o(s) CNPJ(s) 18302933000107, e não o do fornecedor declarado (30647703000177). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Leonardo Gadelha (PODE/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/798bf8b69cd3cc7b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/798bf8b69cd3cc7b.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1000350 de LUCAS MACHADO COMUNICAÇÃO (R$ 600,00, 15/10/2024): o documento traz o(s) CNPJ(s) 34476454000155, e não o do fornecedor declarado (53945953000199). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Enfermeira Ana Paula (PODE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bf2057c9ed7f4bcf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bf2057c9ed7f4bcf.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0228853 de POSTO PADRE PIO (R$ 303,03, 02/03/2025): foi declarado R$ 303,03, mas o maior valor lido no documento é R$ 300,05. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Enfermeira Ana Paula (PODE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d20a5339ac656037.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d20a5339ac656037.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3670 de SOBRAL &amp; PALACIO PETROLEO LTDA (R$ 300,00, 18/12/2025): o documento traz o(s) CNPJ(s) 23570062000134, e não o do fornecedor declarado (07240641000324). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/85b5f50f2ea28ff5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/85b5f50f2ea28ff5.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 139621 de POSTO KIT BARAO LTDA ME (R$ 283,97, 03/10/2023): foi declarado R$ 283,97, mas o maior valor lido no documento é R$ 183,97. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Delegado Palumbo (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b4ab010eee157146.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b4ab010eee157146.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 6024 de AUTO POSTO BAURU LTDA (R$ 280,83, 07/08/2025): foi declarado R$ 280,83, mas o maior valor lido no documento é R$ 230,83. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Enfermeira Ana Paula (PODE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/497d1637a867f82f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/497d1637a867f82f.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 38039 de PRAIA COMERCIO DE PETROLEO (R$ 235,04, 23/12/2025): o documento traz o(s) CNPJ(s) 07240641000324, e não o do fornecedor declarado (24762120000194). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Enfermeira Ana Paula (PODE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ef12bc37eb2d315e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ef12bc37eb2d315e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 33391 de ESTACAO COMERCIO DE PETROLEO E SERVICOS LTDA (R$ 200,00, 05/02/2026): o documento traz o(s) CNPJ(s) 07240641004664, e não o do fornecedor declarado (18489825000187). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d3c658bf5919f2b7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d3c658bf5919f2b7.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 086408 de AUTO POSTO EXPEDICIONARIOS LTDA (R$ 156,26, 12/12/2023): foi declarado R$ 156,26, mas o maior valor lido no documento é R$ 154,26. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Nely Aquino (PODE/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2d68693dc9c118f6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2d68693dc9c118f6.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 116231 de Posto Serena Norte Comercio de Combustiveis (R$ 150,00, 16/11/2023): o documento traz o(s) CNPJ(s) 32917609000116, e não o do fornecedor declarado (35223590000104). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aef1824d604a8c65.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6678e7408739a536.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 267707 de CENTRO AUTOMOTIVO REAL LESTE LTDA. (R$ 140,00, 13/04/2023): o documento traz o(s) CNPJ(s) 43663160000123, e não o do fornecedor declarado (01456575000186). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/efa7b5c6ed96f165.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/efa7b5c6ed96f165.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 231985 de AUTO POSTO JOAO XXIII - II LTDA (R$ 128,82, 04/04/2023): foi declarado R$ 128,82, mas o maior valor lido no documento é R$ 124,82. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Nely Aquino (PODE/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3344906098daddee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3344906098daddee.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 121977 de POSTO GUARAPARI LTDA (R$ 100,00, 21/05/2024): o documento traz o(s) CNPJ(s) 26079200000175, e não o do fornecedor declarado (65131195000154). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Felipe Becari (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5c989345365eb1c9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5c989345365eb1c9.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00160030101774545028047302FE7 de AUTO POSTO PORTAL DE INTERLAGOS LTDA (R$ 13,60, 26/03/2026): o documento traz o(s) CNPJ(s) 02451848000162, e não o do fornecedor declarado (10203913000169). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Ribamar Silva (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7328ad27d1232bbd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7328ad27d1232bbd.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ALTERNATIVA AUTO POSTO LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 0000366641 (R$ 279,58, 11/05/2026); nº 36641 (R$ 279,58, 11/05/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Tiago Dimas (PODE/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f03e2eeabaae7ce0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f03e2eeabaae7ce0.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2026000000936 de ATLAS HOTEL LTDA (R$ 1.150,94, 21/06/2026): foi declarado R$ 1.150,94, mas o maior valor lido no documento é R$ 1.115,94. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Sargento Portugal (PODE/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/513fdd3ccdfeb50a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/513fdd3ccdfeb50a.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00131604 de HOTELARIA ALBA S.A. (R$ 398,03, 10/10/2026): foi declarado R$ 398,03, mas o maior valor lido no documento é R$ 389,03. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Rodrigo Gambale (PODE/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ed616e0f7e57f46.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ed616e0f7e57f46.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

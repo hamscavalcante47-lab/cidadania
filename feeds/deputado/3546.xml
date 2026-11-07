@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3546.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3546.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Ivoneide Caetano (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1f417bd191980cd6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1f417bd191980cd6.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 21095 de VENTURA HOTEL (R$ 160,00, 23/02/2026): o documento traz o(s) CNPJ(s) 30445400000171, e não o do fornecedor declarado (23815287000103). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Doador da campanha recebendo da cota — Ivoneide Caetano (PT/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4c8e3ad5f64c4e4a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4c8e3ad5f64c4e4a.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

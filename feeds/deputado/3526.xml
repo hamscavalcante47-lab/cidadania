@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3526.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3526.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Roberta Roma (PL/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3e6d504aaa52544.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f3e6d504aaa52544.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202618 de TERABYTE COMERCIO E SERVIÇOS DE INFORMATICA LTDA (R$ 10.100,00, 15/01/2026): o documento traz o(s) CNPJ(s) 07280184000130, e não o do fornecedor declarado (64005092000185). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Roberta Roma (PL/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f0335a3498fdf786.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f0335a3498fdf786.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3 de JOSE VINICUS VIEIRA LIMA RAMOS MELO (R$ 2.578,00, 30/10/2023): foi declarado R$ 2.578,00, mas o maior valor lido no documento é R$ 2.572,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Roberta Roma (PL/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7b4f58e1d2f2c566.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5556c53351e1f73b.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

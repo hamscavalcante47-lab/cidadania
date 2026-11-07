@@ -4,7 +4,25 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3544.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3544.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Mesmo documento usado em despesas diferentes — Coronel Assis (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b4f36dfcc470ff6e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b4f36dfcc470ff6e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de JGJ COMERCIO DE PETROLEO LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 1968969 (R$ 227,04, 18/01/2026); nº 1690969 (R$ 173,75, 18/01/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Coronel Assis (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/94490b4bc7b4b249.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/94490b4bc7b4b249.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 151676 de Comercial de Petróleo F. Correa Ltda. (R$ 278,24, 14/04/2026): o emissor da nota é o CNPJ 02.350.920/0003-27, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Coronel Assis (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fd5eef86d6cb3a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fd5eef86d6cb3a.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1968969 de JGJ COMERCIO DE PETROLEO LTDA (R$ 227,04, 18/01/2026): foi declarado R$ 227,04, mas o maior valor lido no documento é R$ 173,75. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

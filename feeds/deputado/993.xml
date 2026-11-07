@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/993.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/993.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/70c85ddd26fa95a2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/70c85ddd26fa95a2.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 26001 de POSTO AUSTRIA (R$ 171,78, 31/01/2026): o emissor da nota é o CNPJ 44.141.521/0001-34, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4e40c7fd5a4c8619.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4e40c7fd5a4c8619.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 26001 de POSTO AUSTRIA (R$ 171,78, 31/01/2026): o documento traz o(s) CNPJ(s) 44141521000134, e não o do fornecedor declarado (27751075004310). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/741d0c94d546e152.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/741d0c94d546e152.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 173845 de AUTO POSTO BUG LT (R$ 279,89, 28/06/2024): o emissor da nota é o CNPJ 54.780.739/0001-92, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8e858580a8a8f396.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c92d54a748c2a8f0.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 173845 de AUTO POSTO BUG LT (R$ 279,89, 28/06/2024): o documento traz o(s) CNPJ(s) 54780739000192, e não o do fornecedor declarado (43368281000142). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Celso Russomanno (REPUBLICANOS/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ddb706b3e96c1088.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ddb706b3e96c1088.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

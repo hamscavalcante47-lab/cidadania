@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2946.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2946.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Luizianne Lins (REDE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ac2f47e9bf5f6fd2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ac2f47e9bf5f6fd2.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Posto Cumbuco foi anexado a 2 reembolsos. Despesas declaradas: nº 224639 (R$ 100,00, 07/10/2024); nº 224699 (R$ 100,00, 07/10/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Luizianne Lins (REDE/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8b6ca43ba6c74ea7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8b6ca43ba6c74ea7.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

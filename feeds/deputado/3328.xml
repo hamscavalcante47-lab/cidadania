@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3328.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3328.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df2ea087be474007.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df2ea087be474007.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de EMPRESA EMBAIXADOR LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 3076494 (R$ 97,05, 24/02/2024); nº sn (R$ 97,05, 24/02/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1a4c7a038d79e3f8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3ae781ede1711b42.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1002806196289 de ETERPEL EMPRESA MUNICIPALDO TERMINAL RODOVIARIO DE PEL. (R$ 173,15, 07/02/2025): o documento traz o(s) CNPJ(s) 92189612000192, e não o do fornecedor declarado (89606933000130). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/93a624145adebbb7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/93a624145adebbb7.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1002806196289 de ETERPEL EMPRESA MUNICIPALDO TERMINAL RODOVIARIO DE PEL. (R$ 173,15, 07/02/2025): foi declarado R$ 173,15, mas o maior valor lido no documento é R$ 167,60. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6911d3d18cb9c8a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6911d3d18cb9c8a7.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3820894 de Expresso Embaixador (R$ 165,40, 01/08/2025): foi declarado R$ 165,40, mas o maior valor lido no documento é R$ 159,85. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/118f4081c15728a2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/118f4081c15728a2.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 70015985 de Expresso Embaixador (R$ 129,35, 08/10/2025): foi declarado R$ 129,35, mas o maior valor lido no documento é R$ 123,80. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Daniel Trzeciak (PSDB/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f5a284bc22c5a541.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f5a284bc22c5a541.html</id>
 <updated>2026-10-31T00:00:00Z</updated>

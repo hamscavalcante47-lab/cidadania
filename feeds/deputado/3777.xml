@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3777.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3777.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luiz Fernando Vampiro (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5ba97a7ac1847fdb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5ba97a7ac1847fdb.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3895 de LETSROCKET COMUNICAÇÃO DIGITAL LTDA (R$ 1.290,00, 01/11/2024): o documento traz o(s) CNPJ(s) 22507365000140, e não o do fornecedor declarado (42092121000150). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Luiz Fernando Vampiro (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff576b10be0395fd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff576b10be0395fd.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 56450 de HOTEL ITAJARA LTDA. (R$ 472,00, 29/10/2024): foi declarado R$ 472,00, mas o maior valor lido no documento é R$ 342,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor de outro gabinete — Luiz Fernando Vampiro (MDB/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df2c164726a9ff13.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df2c164726a9ff13.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

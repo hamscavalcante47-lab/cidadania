@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3529.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3529.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Rosangela Moro (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/12b77e99f6e7cbc3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/12b77e99f6e7cbc3.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00061765 de HOTEL NACIONAL INN CAMPINAS (R$ 30,00, 02/11/2024): o documento traz o(s) CNPJ(s) 20283726000196, e não o do fornecedor declarado (00124587000140). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Rosangela Moro (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4ec748be60d2cbac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4ec748be60d2cbac.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

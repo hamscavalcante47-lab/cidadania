@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3208.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3208.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Tabata Amaral (PSB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4ce5b344f9a91906.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4ce5b344f9a91906.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00004280 de MULTILEADS INTELIGENCIA DE SERVIÇOS VIRTUAIS EIRELI (R$ 3.400,00, 13/05/2024): foi declarado R$ 3.400,00, mas o maior valor lido no documento é R$ 3.040,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Tabata Amaral (PSB/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a6569f801c7d64cc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a6569f801c7d64cc.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

@@ -4,7 +4,31 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2229.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2229.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Mesmo documento usado em despesas diferentes — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b715b79e2c23e278.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b715b79e2c23e278.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Auto Posto Indiara Ltda foi anexado a 2 reembolsos. Despesas declaradas: nº 504894 (R$ 136,02, 02/07/2024); nº 504894 (R$ 339,26, 27/07/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b2e0a2a8faaeafe8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b2e0a2a8faaeafe8.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 504894 de AUTO POSTO K 127 EIRELI (R$ 339,26, 27/07/2024): o emissor da nota é o CNPJ 01.756.915/0001-94, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd6774c8179a7d01.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd6774c8179a7d01.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 504894 de AUTO POSTO K 127 EIRELI (R$ 339,26, 27/07/2024): foi declarado R$ 339,26, mas o maior valor lido no documento é R$ 136,02. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7c523eb813e89228.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7c523eb813e89228.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 295504 de AUTO POSTO PIRANHAS EIRELI (R$ 500,00, 25/08/2025): foi declarado R$ 500,00, mas o maior valor lido no documento é R$ 50,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

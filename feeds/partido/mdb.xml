@@ -4,9 +4,135 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/mdb.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/mdb.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b715b79e2c23e278.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b715b79e2c23e278.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Auto Posto Indiara Ltda foi anexado a 2 reembolsos. Despesas declaradas: nº 504894 (R$ 136,02, 02/07/2024); nº 504894 (R$ 339,26, 27/07/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b2e0a2a8faaeafe8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b2e0a2a8faaeafe8.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 504894 de AUTO POSTO K 127 EIRELI (R$ 339,26, 27/07/2024): o emissor da nota é o CNPJ 01.756.915/0001-94, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Fábio Teruel (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6708b916dacce906.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6708b916dacce906.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 163343 de AUTO POSTO CARLU LT (R$ 218,87, 05/04/2024): o emissor da nota é o CNPJ 06.224.122/0001-48, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Fábio Teruel (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0e666e72d5ca6d24.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0e666e72d5ca6d24.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 515258 de POSTO DE SERVICO LUA NOVA (R$ 71,37, 07/08/2024): o emissor da nota é o CNPJ 21.384.959/0001-48, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Keniston Braga (MDB/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/36555114f545608d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/36555114f545608d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2 de BEATRIZ LEITE MONTEIRO (R$ 7.048,00, 02/12/2024): o documento traz o(s) CNPJ(s) 58305168000195, e não o do fornecedor declarado (56420806000193). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luiz Fernando Vampiro (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5ba97a7ac1847fdb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5ba97a7ac1847fdb.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3895 de LETSROCKET COMUNICAÇÃO DIGITAL LTDA (R$ 1.290,00, 01/11/2024): o documento traz o(s) CNPJ(s) 22507365000140, e não o do fornecedor declarado (42092121000150). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Cobalchini (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/084e18576c459f70.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/084e18576c459f70.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 43 de JORNAL O  NOROESTE - EDITORA CAPITAL DO NOROESTE LTDA (R$ 350,00, 04/03/2026): foi declarado R$ 350,00, mas o maior valor lido no documento é R$ 300,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd6774c8179a7d01.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd6774c8179a7d01.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 504894 de AUTO POSTO K 127 EIRELI (R$ 339,26, 27/07/2024): foi declarado R$ 339,26, mas o maior valor lido no documento é R$ 136,02. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Fábio Teruel (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/622525571cb43258.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/622525571cb43258.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 56960 de AUTO SERVIÇOS GRAND-PRIX LT (R$ 275,75, 16/01/2026): foi declarado R$ 275,75, mas o maior valor lido no documento é R$ 257,75. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Fábio Teruel (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5917720580f08b8e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5917720580f08b8e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 983271 de AUTO SERVIÇOS GRAND-PRIX LT (R$ 274,03, 27/01/2025): foi declarado R$ 274,03, mas o maior valor lido no documento é R$ 247,03. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — João Cury (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/92a614edd65110fb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/92a614edd65110fb.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 106076 de BAR RESTAURANTE POSTO AVENIDA LTDA (R$ 252,02, 08/09/2026): foi declarado R$ 252,02, mas o maior valor lido no documento é R$ 90,50. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Fábio Teruel (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ca61ec3ac0edfeee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2dd83c33111d3efa.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 163343 de AUTO POSTO CARLU LT (R$ 218,87, 05/04/2024): o documento traz o(s) CNPJ(s) 06224122000148, e não o do fornecedor declarado (43187418000162). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Fábio Teruel (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e97c63a7ffe8de1b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e97c63a7ffe8de1b.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 402266 de ANGELA APARECIDA MENDES SILVA DOS REIS EIRELI (R$ 192,60, 11/10/2023): foi declarado R$ 192,60, mas o maior valor lido no documento é R$ 190,60. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Fábio Teruel (MDB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6c4e7f442eb7e97d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2d94cd5a568c163e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 515258 de POSTO DE SERVICO LUA NOVA (R$ 71,37, 07/08/2024): o documento traz o(s) CNPJ(s) 21384959000148, e não o do fornecedor declarado (10296451000171). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Flávia Morais (MDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7c523eb813e89228.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7c523eb813e89228.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 295504 de AUTO POSTO PIRANHAS EIRELI (R$ 500,00, 25/08/2025): foi declarado R$ 500,00, mas o maior valor lido no documento é R$ 50,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Luiz Fernando Vampiro (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff576b10be0395fd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff576b10be0395fd.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 56450 de HOTEL ITAJARA LTDA. (R$ 472,00, 29/10/2024): foi declarado R$ 472,00, mas o maior valor lido no documento é R$ 342,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/585a8658386d8b85.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/585a8658386d8b85.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 589 de VALLER PARQUE HOTEL LTDA (R$ 385,00, 26/02/2026): o documento traz o(s) CNPJ(s) 17448625000113, e não o do fornecedor declarado (40118287000173). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/04fc643b534b15ef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/04fc643b534b15ef.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 16693 de VILLAS HOTEL LTDA (R$ 355,00, 05/05/2026): foi declarado R$ 355,00, mas o maior valor lido no documento é R$ 350,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Pezenti (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f5ea4d624adae952.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f5ea4d624adae952.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 19820 de PARK HOTEL CLASEN (R$ 230,00, 02/02/2024): foi declarado R$ 230,00, mas o maior valor lido no documento é R$ 140,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4f84749561362374.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4f84749561362374.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3446 de GISLAINE BECKER (R$ 211,40, 29/09/2026): o documento traz o(s) CNPJ(s) 29116411000129, e não o do fornecedor declarado (05454085000100). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bfae1fa2d7a838a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bfae1fa2d7a838a5.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 5073 de IRMAOS GRANETTO E CIA LTDA (R$ 190,00, 07/02/2024): o documento traz o(s) CNPJ(s) 21098305000158, e não o do fornecedor declarado (13588775000171). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d7aa2fc4e7473158.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d7aa2fc4e7473158.html</id>
 <updated>2026-11-01T00:00:00Z</updated>
@@ -180,131 +306,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 1990 de UBER DO BRASIL TECNOLOGIA LTDA. (08/05/2023): 2 lançamentos em 1 competência(s); documento R$ 19,90, valor líquido R$ 39,80, restituições R$ 0,00, saldo R$ 39,80 (excedente R$ 19,90). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/658be7c71f5524b3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/658be7c71f5524b3.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1968 de UBER DO BRASIL TECNOLOGIA LTDA. (11/03/2024): 2 lançamentos em 1 competência(s); documento R$ 19,68, valor líquido R$ 39,36, restituições R$ 0,00, saldo R$ 39,36 (excedente R$ 19,68). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/765538809771f0b7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/765538809771f0b7.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1430 de UBER DO BRASIL TECNOLOGIA LTDA. (15/03/2023): 2 lançamentos em 1 competência(s); documento R$ 14,30, valor líquido R$ 28,60, restituições R$ 0,00, saldo R$ 28,60 (excedente R$ 14,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e5dd1f3367c5db25.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e5dd1f3367c5db25.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1387 de UBER DO BRASIL TECNOLOGIA LTDA. (12/07/2023): 2 lançamentos em 1 competência(s); documento R$ 13,87, valor líquido R$ 27,74, restituições R$ 0,00, saldo R$ 27,74 (excedente R$ 13,87). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5c96f081910e3d70.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5c96f081910e3d70.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1211 de UBER DO BRASIL TECNOLOGIA LTDA. (20/03/2024): 2 lançamentos em 1 competência(s); documento R$ 12,11, valor líquido R$ 24,22, restituições R$ 0,00, saldo R$ 24,22 (excedente R$ 12,11). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Newton Cardoso Jr (MDB/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6cc6965640c7aa2d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6cc6965640c7aa2d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº PP19R50B81KD de VIA CRISTAIS (09/02/2026): 2 lançamentos em 1 competência(s); documento R$ 11,40, valor líquido R$ 22,80, restituições R$ 0,00, saldo R$ 22,80 (excedente R$ 11,40). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedor com sócio de sobrenome raro do deputado — Baleia Rossi (MDB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/791be90ede60dedb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/791be90ede60dedb.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Marcio Antonio Rossi recebeu R$ 410.081,36; Marcio Antonio Rossi (fornecedor pessoa física) tem o(s) sobrenome(s) Rossi em comum com o nome civil do deputado (Luiz Felipe Baleia Tenuto Rossi). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedor ligado a servidor ou ex-servidor do gabinete — Augusto Puppio (MDB/AP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/209799304142a19d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/209799304142a19d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Pago durante o vínculo, antes de a pessoa constar como sócia: IPE CRIATIVO LTDA recebeu R$ 88.000,00; Milena Ribeiro Nery é sócio(a) desde 05/10/2026 e trabalhou no gabinete (secretário parlamentar, SP04) de 23/07/2024 a 05/01/2025. Pagamentos: R$ 22.000,00 durante o vínculo, R$ 66.000,00 depois do vínculo. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Doador da campanha recebendo da cota — Ricardo Maia (MDB/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d08079d6fa3c24c0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d08079d6fa3c24c0.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. POSTO CANABRAVA LTDA recebeu R$ 11.574,59 da cota; o sócio Antonio Wendell Pereira De Souza doou R$ 19.600,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Doador da campanha recebendo da cota — Ricardo Maia (MDB/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/962cd81cba9cf42f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/962cd81cba9cf42f.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. POSTO CANABRAVA LTDA recebeu R$ 7.799,46 da cota; o sócio Antonio Wendell Pereira De Souza doou R$ 19.600,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Doador da campanha recebendo da cota — Luiz Fernando Vampiro (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/535e48be0f5f9d2d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/535e48be0f5f9d2d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. BOUTIQUE DOS CARIMBOS INDUSTRIA, COMERCIO, VAREJISTA E SERVICOS DE ARTIGOS PARA ESCRITORIO LTDA recebeu R$ 6.800,00 da cota; o sócio Anderson Rossi doou R$ 2.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedor com sócio de sobrenome raro do deputado — Carlos Chiodini (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/49e5ce830f6a2352.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/49e5ce830f6a2352.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. POSTO MIME S.A. recebeu R$ 5.739,11; Ana Clara Franzner Chiodini (Administrador, desde 16/04/2019) tem o(s) sobrenome(s) Chiodini em comum com o nome civil do deputado (Carlos Alberto Chiodini). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Dr. Zacharias Calil (MDB/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8abeee108097a0a0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8abeee108097a0a0.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. COUNTRY CLUBE DE GOIAS recebeu R$ 5.250,03 por "fornecimento de alimentação do parlamentar", mas sua atividade é "Clubes sociais, esportivos e similares" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Doador da campanha recebendo da cota — Baleia Rossi (MDB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/37a9e3d1b9e86a9d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/37a9e3d1b9e86a9d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ALCANS TELECOM LTDA recebeu R$ 5.172,72 da cota; o sócio Fernando Fracaroli Noronha doou R$ 20.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Doador da campanha recebendo da cota — Keniston Braga (MDB/PA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c022cb9d313ddac4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c022cb9d313ddac4.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. AUTO POSTO NOVA VIDA 1 COMERCIO DE COMBUSTIVEIS LTDA recebeu R$ 4.599,94 da cota; o sócio Bruno Barros De Oliveira doou R$ 5.500,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Adail Filho (MDB/AM)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8d6fec34a87c6836.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8d6fec34a87c6836.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ELIS REGINA MAGALHAES PORTO recebeu R$ 3.850,00 por "divulgação da atividade parlamentar", mas sua atividade é "Comércio varejista de outros artigos de uso pessoal e doméstico não especificados anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — João Cury (MDB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa59a301e0545004.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa59a301e0545004.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. JATTO SERVICOS LTDA recebeu R$ 2.700,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de vigilância e segurança privada" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Alceu Moreira (MDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1fa164f2f8ae927a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1fa164f2f8ae927a.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. NACOES SERVICOS E APOIO LTDA recebeu R$ 2.456,07 por "combustíveis e lubrificantes", mas sua atividade é "Serviços combinados de escritório e apoio administrativo" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedor com sócio de sobrenome raro do deputado — Carlos Chiodini (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fbbb09477686f12c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fbbb09477686f12c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. POSTO MIME S.A. recebeu R$ 1.922,29; Ana Clara Franzner Chiodini (Administrador, desde 16/04/2019) tem o(s) sobrenome(s) Chiodini em comum com o nome civil do deputado (Carlos Alberto Chiodini). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Doador da campanha recebendo da cota — João Cury (MDB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ae8ff8ff6b162e50.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ae8ff8ff6b162e50.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. FABIO ALHER &amp; CIA LTDA recebeu R$ 1.557,03 da cota; o sócio Fabio Alher doou R$ 4.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedor com sócio de sobrenome raro do deputado — Carlos Chiodini (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7878dbfd3ed17af3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7878dbfd3ed17af3.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. POSTO MIME S.A. recebeu R$ 1.539,71; Ana Clara Franzner Chiodini (Administrador, desde 16/04/2019) tem o(s) sobrenome(s) Chiodini em comum com o nome civil do deputado (Carlos Alberto Chiodini). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedor com sócio de sobrenome raro do deputado — Carlos Chiodini (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4effa225dcf2d2fd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4effa225dcf2d2fd.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. POSTO MIME S.A. recebeu R$ 1.387,94; Ana Clara Franzner Chiodini (Administrador, desde 16/04/2019) tem o(s) sobrenome(s) Chiodini em comum com o nome civil do deputado (Carlos Alberto Chiodini). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

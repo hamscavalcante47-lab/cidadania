@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2915.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2915.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Aliel Machado (PV/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6877ef5e62cb1de4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6877ef5e62cb1de4.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de LARANJEIRAS PALACE HOTEL EIRELI foi anexado a 2 reembolsos. Despesas declaradas: nº 19743 (R$ 189,00, 26/07/2023); nº 19743 (R$ 189,00, 27/07/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Aliel Machado (PV/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/11806697af955ee2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/11806697af955ee2.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

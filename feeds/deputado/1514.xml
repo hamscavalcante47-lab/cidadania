@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1514.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1514.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Osmar Terra (PL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/211d566949a76a30.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/211d566949a76a30.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 302976 de VIACAO OURO E PRATA S A (R$ 283,55, 06/02/2026): foi declarado R$ 283,55, mas o maior valor lido no documento é R$ 267,50. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Doador da campanha recebendo da cota — Osmar Terra (PL/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1db05d02353fd607.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1db05d02353fd607.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

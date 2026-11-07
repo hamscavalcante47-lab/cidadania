@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3554.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3554.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/59f853d862539ac2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/59f853d862539ac2.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Planalto Transportes ltda foi anexado a 2 reembolsos. Despesas declaradas: nº 2584 (R$ 235,75, 22/04/2024); nº 345414 (R$ 235,75, 22/04/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/63cb532d8c60dacd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5fc1cb8efba9cd8f.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3746991 de Planalto Transportes ltda (R$ 109,09, 07/06/2025): o documento traz o(s) CNPJ(s) 89606933000130, 92189612000192, e não o do fornecedor declarado (95592077000104). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/091f54958647290a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/091f54958647290a.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de PRESIDENTE 1913 HOTEIS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 815 (R$ 316,00, 03/07/2026); nº 814 (R$ 206,00, 04/07/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f17e723547b576ec.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f17e723547b576ec.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 814 de HOTEL CAVERA LTDA (R$ 206,00, 04/07/2026): o documento traz o(s) CNPJ(s) 26309454000132, e não o do fornecedor declarado (04543595000182). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/51df0b93a30c1e41.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/51df0b93a30c1e41.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00000038 de ALVAREZ SERVIÇOS LTDA - ME (R$ 145,35, 08/05/2026): o documento traz o(s) CNPJ(s) 57378693000178, e não o do fornecedor declarado (01931205000153). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Alexandre Lindenmeyer (PT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41cc580bbfea554a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41cc580bbfea554a.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

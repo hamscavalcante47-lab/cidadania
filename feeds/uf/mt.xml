@@ -4,9 +4,105 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/mt.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/mt.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Coronel Assis (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b4f36dfcc470ff6e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b4f36dfcc470ff6e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de JGJ COMERCIO DE PETROLEO LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 1968969 (R$ 227,04, 18/01/2026); nº 1690969 (R$ 173,75, 18/01/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Coronel Assis (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/94490b4bc7b4b249.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/94490b4bc7b4b249.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 151676 de Comercial de Petróleo F. Correa Ltda. (R$ 278,24, 14/04/2026): o emissor da nota é o CNPJ 02.350.920/0003-27, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7c83bc87e2a10973.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7c83bc87e2a10973.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Castelo Branco Comercio de Combustiveis Ltda foi anexado a 2 reembolsos. Despesas declaradas: nº 347387 (R$ 100,00, 12/04/2024); nº 2327238 (R$ 178,21, 12/04/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Gisela Simona (UNIÃO/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1ca43bcd993cd01f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1ca43bcd993cd01f.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de AMICO ASA SUL COM?RCIO DE ALIMENTOS EIRELI LTDA - EPP foi anexado a 2 reembolsos. Despesas declaradas: nº 174135 (R$ 114,52, 10/09/2023); nº 171462 (R$ 114,52, 10/09/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff5ac926df13efa8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff5ac926df13efa8.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 44291 de AUTO POSTO NORTELANDIA LTDA (R$ 195,53, 10/03/2026): o emissor da nota é o CNPJ 09.001.879/0012-13, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8983efdefeb92c2b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8983efdefeb92c2b.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 2327238 de REDE DE POSTOS CONTI COMIGO LTDA (R$ 178,21, 12/04/2024): o emissor da nota é o CNPJ 15.746.214/0001-89, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/033af03220468c85.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/033af03220468c85.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 10 de GRÁFICA CUIABÁ LTDA (R$ 1.600,00, 29/04/2026): o documento traz o(s) CNPJ(s) 65751647000109, e não o do fornecedor declarado (19527767000100). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Coronel Assis (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fd5eef86d6cb3a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fd5eef86d6cb3a.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1968969 de JGJ COMERCIO DE PETROLEO LTDA (R$ 227,04, 18/01/2026): foi declarado R$ 227,04, mas o maior valor lido no documento é R$ 173,75. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/27bce0030233a10d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/27bce0030233a10d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 10461 de SANTA HELENA COMERCIO DE COMBUSTIVEIS LTDA (R$ 198,01, 12/10/2025): foi declarado R$ 198,01, mas o maior valor lido no documento é R$ 196,01. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/659e176cdc74b816.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/659e176cdc74b816.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2327238 de REDE DE POSTOS CONTI COMIGO LTDA (R$ 178,21, 12/04/2024): o documento traz o(s) CNPJ(s) 15746214000189, e não o do fornecedor declarado (19495968000164). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7b1b0548dc871247.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7b1b0548dc871247.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2327238 de REDE DE POSTOS CONTI COMIGO LTDA (R$ 178,21, 12/04/2024): foi declarado R$ 178,21, mas o maior valor lido no documento é R$ 100,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — José Medeiros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/74ef35dc15de18f7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/74ef35dc15de18f7.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de BRAVO NACIONAL HOTEL RONDONOPOLIS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 13477 (R$ 460,00, 23/03/2024); nº 13477 (R$ 460,00, 23/03/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — José Medeiros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa853310d724a1a8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa853310d724a1a8.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de PAIAGUAS HOTEIS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 122878 (R$ 369,00, 16/04/2024); nº 122882 (R$ 369,00, 16/04/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — José Medeiros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/78d8f927b0824c17.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/78d8f927b0824c17.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de BRAVO NACIONAL HOTEL RONDONOPOLIS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 13477 (R$ 220,00, 22/03/2024); nº 13472 (R$ 220,00, 22/03/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d8eee2c7c2b4e09c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d8eee2c7c2b4e09c.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 21012 de Odara Barra do Garças Serviços em Hotelaria (R$ 761,00, 22/03/2025): o documento traz o(s) CNPJ(s) 03054186000150, e não o do fornecedor declarado (03439239000150). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Coronel Fernanda (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b3aad9deb3164a78.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b3aad9deb3164a78.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202300000000669 de SERRA DO RONCADOR HOTELARIA LTDA (R$ 310,00, 20/02/2023): foi declarado R$ 310,00, mas o maior valor lido no documento é R$ 210,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor de outro gabinete — Gisela Simona (UNIÃO/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/053e7a95162afe04.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/053e7a95162afe04.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

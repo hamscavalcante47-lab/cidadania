@@ -4,7 +4,43 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3664.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3664.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Mesmo documento usado em despesas diferentes — Ana Paula Leão (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/23b0a04b93ce0d57.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/23b0a04b93ce0d57.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Letalk Plataforma LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 202500000000893 (R$ 664,00, 29/01/2025); nº 202500000000893 (R$ 664,00, 29/01/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Ana Paula Leão (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/92589e0b09c648bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/92589e0b09c648bd.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de AUTO POSTO AGUAS DE CAXAMBU LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 106210 (R$ 217,00, 06/05/2026); nº 317287 (R$ 300,00, 06/05/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Ana Paula Leão (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3bb18bb886511569.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3bb18bb886511569.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Cazeca Comércio de Derivados de Petróleo Ltda foi anexado a 2 reembolsos. Despesas declaradas: nº 1896 (R$ 179,90, 06/05/2025); nº 2385464 (R$ 179,70, 22/05/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Ana Paula Leão (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f0eafc305c6e9ec6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f0eafc305c6e9ec6.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 23 de BE HOST TECNOLOGIA LTDA (R$ 300,00, 01/03/2026): foi declarado R$ 300,00, mas o maior valor lido no documento é R$ 100,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Ana Paula Leão (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/68ac9636883934ed.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/68ac9636883934ed.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 106210 de AUTO POSTO AGUAS DE CAXAMBU LTDA (R$ 217,00, 06/05/2026): o documento traz o(s) CNPJ(s) 86539418000197, e não o do fornecedor declarado (26219316000162). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Ana Paula Leão (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6c3057fa0508e250.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6c3057fa0508e250.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 259847 de CINQUENTAO COMERCIO DE COMBUSTIVEIS LTDA. (R$ 50,00, 05/04/2023): o documento traz o(s) CNPJ(s) 44097360000633, e não o do fornecedor declarado (04224679000153). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

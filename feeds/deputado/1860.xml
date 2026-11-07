@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1860.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1860.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Valor declarado maior que o da nota — José Airton Félix Cirilo (PT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/721e3f582e1955c8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/721e3f582e1955c8.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0000124319 de DJ - HOTELARIA S/A (R$ 1.072,85, 08/03/2025): foi declarado R$ 1.072,85, mas o maior valor lido no documento é R$ 734,86. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

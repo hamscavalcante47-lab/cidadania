@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2998.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2998.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Sóstenes Cavalcante (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/438aeecf9c04bf0b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/438aeecf9c04bf0b.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 373745 de 072 - 403 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA (R$ 313,22, 06/02/2025): a nota é de 2024-02, mas foi declarada com data 06/02/2025. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Sóstenes Cavalcante (PL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb76d96ba66efafc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb76d96ba66efafc.html</id>
 <updated>2026-10-31T00:00:00Z</updated>

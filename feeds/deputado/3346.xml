@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3346.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3346.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Ricardo Guidi (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/59f87e801b17910e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/59f87e801b17910e.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 72092 de AGPS - HOTELARIA LTDA - EPP (R$ 369,43, 11/04/2023): foi declarado R$ 369,43, mas o maior valor lido no documento é R$ 299,26. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Ricardo Guidi (PL/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/63c986181fdb0fc2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/63c986181fdb0fc2.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2950.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2950.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Capitão Augusto (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d2a0cd6f7d49b6e7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d2a0cd6f7d49b6e7.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO RODOSERV LT foi anexado a 2 reembolsos. Despesas declaradas: nº 038151 (R$ 196,80, 04/07/2024); nº 38151 (R$ 196,80, 04/07/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Capitão Augusto (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/372e0dc6dc11c1e1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/372e0dc6dc11c1e1.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Dallas Bosque Auto Posto Ltda foi anexado a 2 reembolsos. Despesas declaradas: nº 640066 (R$ 250,07, 05/07/2024); nº 640067 (R$ 140,04, 05/07/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Capitão Augusto (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8a39d67cb4162055.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8a39d67cb4162055.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 640066 de Dallas Bosque Auto Posto Ltda (R$ 250,07, 05/07/2024): foi declarado R$ 250,07, mas o maior valor lido no documento é R$ 140,04. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Capitão Augusto (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ec6139af4221d85d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ec6139af4221d85d.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

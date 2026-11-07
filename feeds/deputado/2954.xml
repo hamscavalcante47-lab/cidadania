@@ -4,9 +4,57 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2954.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2954.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83d169c77247deb2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83d169c77247deb2.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de AUTO POSTO RT99 LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 048454 (R$ 218,91, 10/11/2023); nº 40454 (R$ 210,91, 10/11/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0fae83197645b97b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0fae83197645b97b.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO DOS TROPEIROS SOROCABA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 301550 (R$ 173,78, 03/04/2023); nº 301550 (R$ 200,00, 04/04/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/53fda8f4d6cd9aac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/53fda8f4d6cd9aac.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 301550 de AUTO POSTO DOIS IRMAOS SHIOKAWA EIRELI (R$ 200,00, 04/04/2023): o emissor da nota é o CNPJ 10.509.267/0001-62, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3cedb032b67ce573.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3cedb032b67ce573.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 426073 de POSTO DOS TROPEIROS SOROCABA LTDA (R$ 120,00, 11/09/2023): o emissor da nota é o CNPJ 07.282.923/0001-22, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa6dcfb34c9e1b22.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa6dcfb34c9e1b22.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 326320 de POSTO DE ABASTECIMENTO SAO LUCAS LTDA EPP (R$ 120,00, 01/09/2023): o emissor da nota é o CNPJ 10.509.267/0001-62, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41385d98bb9b75a8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41385d98bb9b75a8.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 301550 de AUTO POSTO DOIS IRMAOS SHIOKAWA EIRELI (R$ 200,00, 04/04/2023): o documento traz o(s) CNPJ(s) 04588995000104, 10509267000162, e não o do fornecedor declarado (07545240000110). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7df553c0897a0a23.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/89e8f29c22975360.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 326320 de POSTO DE ABASTECIMENTO SAO LUCAS LTDA EPP (R$ 120,00, 01/09/2023): o documento traz o(s) CNPJ(s) 10509267000162, e não o do fornecedor declarado (07282923000122). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e54558382d0077a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a443d9d743651831.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 426073 de POSTO DOS TROPEIROS SOROCABA LTDA (R$ 120,00, 11/09/2023): o documento traz o(s) CNPJ(s) 07282923000122, e não o do fornecedor declarado (10509267000162). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Vitor Lippi (PSD/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c3464277eeedeceb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c3464277eeedeceb.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

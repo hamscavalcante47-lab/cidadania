@@ -4,7 +4,19 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3555.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3555.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Roberto Monteiro Pai (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4ad723b17a062d4c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4ad723b17a062d4c.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 20926 de POSTO PARACATU LTDA (R$ 327,38, 13/05/2026): o emissor da nota é o CNPJ 05.348.485/0001-22, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Roberto Monteiro Pai (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c3311798fcd3fa58.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c3311798fcd3fa58.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 20926 de POSTO PARACATU LTDA (R$ 327,38, 13/05/2026): o documento traz o(s) CNPJ(s) 05348485000122, e não o do fornecedor declarado (07830113000163). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

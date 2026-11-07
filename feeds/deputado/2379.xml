@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2379.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2379.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/585a8658386d8b85.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/585a8658386d8b85.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 589 de VALLER PARQUE HOTEL LTDA (R$ 385,00, 26/02/2026): o documento traz o(s) CNPJ(s) 17448625000113, e não o do fornecedor declarado (40118287000173). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/04fc643b534b15ef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/04fc643b534b15ef.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 16693 de VILLAS HOTEL LTDA (R$ 355,00, 05/05/2026): foi declarado R$ 355,00, mas o maior valor lido no documento é R$ 350,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4f84749561362374.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4f84749561362374.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3446 de GISLAINE BECKER (R$ 211,40, 29/09/2026): o documento traz o(s) CNPJ(s) 29116411000129, e não o do fornecedor declarado (05454085000100). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bfae1fa2d7a838a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bfae1fa2d7a838a5.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 5073 de IRMAOS GRANETTO E CIA LTDA (R$ 190,00, 07/02/2024): o documento traz o(s) CNPJ(s) 21098305000158, e não o do fornecedor declarado (13588775000171). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Alceu Moreira (MDB/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1fa164f2f8ae927a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1fa164f2f8ae927a.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

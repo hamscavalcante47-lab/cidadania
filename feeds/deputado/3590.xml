@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3590.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3590.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Valor declarado maior que o da nota — Florentino Neto (PT/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc7c9a9650e9200a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc7c9a9650e9200a.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1246 de VISUAL CLIPAGEM (R$ 1.500,00, 16/01/2026): foi declarado R$ 1.500,00, mas o maior valor lido no documento é R$ 1.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

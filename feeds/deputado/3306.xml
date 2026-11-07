@@ -4,7 +4,19 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3306.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3306.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Celso Sabino (PDT/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/46afee77d25401e7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/46afee77d25401e7.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 40073 de 031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA (R$ 217,53, 11/04/2023): o emissor da nota é o CNPJ 19.257.042/0001-30, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Celso Sabino (PDT/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9dbfb6c06b44aab1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9dbfb6c06b44aab1.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 40073 de 031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA (R$ 217,53, 11/04/2023): o documento traz o(s) CNPJ(s) 19257042000130, e não o do fornecedor declarado (00306597003112). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

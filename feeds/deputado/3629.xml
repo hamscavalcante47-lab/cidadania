@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3629.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3629.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Julia Zanatta (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ee7c7378075d58c2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ee7c7378075d58c2.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 134 de JORNAL IMIGRANTES (R$ 500,00, 27/05/2025): o documento traz o(s) CNPJ(s) 52143002000133, e não o do fornecedor declarado (49559811000116). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Julia Zanatta (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ad6ddabcc0cacfe0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ad6ddabcc0cacfe0.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 311757 de ATRIO HOTEIS S.A. (R$ 750,00, 12/09/2024): foi declarado R$ 750,00, mas o maior valor lido no documento é R$ 746,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Julia Zanatta (PL/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/627a723244412282.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/627a723244412282.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

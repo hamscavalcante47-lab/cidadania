@@ -4,9 +4,117 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/sc.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/sc.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Jorge Goetten (REPUBLICANOS/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/07788a0277aa314e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/07788a0277aa314e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 49 de LUIS GUSTAVO CAMPOS MUNIZ DA SILVA ***.597.547-** (R$ 1.500,00, 03/03/2023): o documento traz o(s) CNPJ(s) 22885439000181, e não o do fornecedor declarado (42454821000148). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luiz Fernando Vampiro (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5ba97a7ac1847fdb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5ba97a7ac1847fdb.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3895 de LETSROCKET COMUNICAÇÃO DIGITAL LTDA (R$ 1.290,00, 01/11/2024): o documento traz o(s) CNPJ(s) 22507365000140, e não o do fornecedor declarado (42092121000150). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Julia Zanatta (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ee7c7378075d58c2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ee7c7378075d58c2.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 134 de JORNAL IMIGRANTES (R$ 500,00, 27/05/2025): o documento traz o(s) CNPJ(s) 52143002000133, e não o do fornecedor declarado (49559811000116). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Cobalchini (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/084e18576c459f70.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/084e18576c459f70.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 43 de JORNAL O  NOROESTE - EDITORA CAPITAL DO NOROESTE LTDA (R$ 350,00, 04/03/2026): foi declarado R$ 350,00, mas o maior valor lido no documento é R$ 300,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Gilson Marques (NOVO/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bf6996fd05389e90.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bf6996fd05389e90.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Posto Vale Europeu foi anexado a 2 reembolsos. Despesas declaradas: nº 000039620 (R$ 297,09, 03/03/2023); nº 000039620 (R$ 297,09, 06/03/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Zé Trovão (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/187fea48eba57785.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/187fea48eba57785.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 232546 de DECIO COM E SERV ROD LTDA (R$ 454,80, 18/02/2024): o emissor da nota é o CNPJ 24.187.119/0001-83, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Geovania de Sá (REPUBLICANOS/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d05dae77bc6036e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d05dae77bc6036e6.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 25084 de SOCIEDADE ABAST. SANTA BARBARA LTDA (R$ 265,92, 18/04/2024): a nota é de 2023-04, mas foi declarada com data 18/04/2024. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Ana Paula Lima (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe2cbaf312ceddcb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe2cbaf312ceddcb.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de HOTEL VALERIM ITAJAI LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 00000100348 (R$ 330,00, 29/05/2026); nº 00000100348 (R$ 330,00, 30/05/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Fabio Schiochet (UNIÃO/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e9523c42672921b4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e9523c42672921b4.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MOGANO HOTEL foi anexado a 2 reembolsos. Despesas declaradas: nº 0000446167 (R$ 270,40, 14/05/2025); nº 0000446168 (R$ 270,40, 14/05/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Daniela Reinehr (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3d28c2039c1854f0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3d28c2039c1854f0.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MARAVILHA PALACE HOTEL LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 353001 (R$ 150,00, 15/07/2023); nº 35301 (R$ 150,00, 15/07/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Daniela Reinehr (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/524fa81603174c9d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/524fa81603174c9d.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 227490 de FEMA HOTEL  LTDA (R$ 961,80, 25/05/2026): o documento traz o(s) CNPJ(s) 83864819000205, e não o do fornecedor declarado (04263016000148). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Julia Zanatta (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ad6ddabcc0cacfe0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ad6ddabcc0cacfe0.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 311757 de ATRIO HOTEIS S.A. (R$ 750,00, 12/09/2024): foi declarado R$ 750,00, mas o maior valor lido no documento é R$ 746,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Luiz Fernando Vampiro (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff576b10be0395fd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff576b10be0395fd.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 56450 de HOTEL ITAJARA LTDA. (R$ 472,00, 29/10/2024): foi declarado R$ 472,00, mas o maior valor lido no documento é R$ 342,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Ricardo Guidi (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/59f87e801b17910e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/59f87e801b17910e.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 72092 de AGPS - HOTELARIA LTDA - EPP (R$ 369,43, 11/04/2023): foi declarado R$ 369,43, mas o maior valor lido no documento é R$ 299,26. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Pezenti (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f5ea4d624adae952.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f5ea4d624adae952.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 19820 de PARK HOTEL CLASEN (R$ 230,00, 02/02/2024): foi declarado R$ 230,00, mas o maior valor lido no documento é R$ 140,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Ana Paula Lima (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/10ee92f96d8ae4af.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/10ee92f96d8ae4af.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202300000001402 de HOPHA HOTEIS (R$ 222,50, 23/08/2023): foi declarado R$ 222,50, mas o maior valor lido no documento é R$ 215,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Ana Paula Lima (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/86307693e4836746.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/86307693e4836746.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202300000001401 de HOPHA HOTEIS (R$ 219,00, 23/08/2023): foi declarado R$ 219,00, mas o maior valor lido no documento é R$ 215,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Pedro Uczai (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4f6f25caa3be4496.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4f6f25caa3be4496.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00000009837 de RESTAURANTE IOMERE LTDA (R$ 185,00, 05/12/2025): o documento traz o(s) CNPJ(s) 24982192000147, e não o do fornecedor declarado (11586050000119). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Pedro Uczai (PT/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9ac6708eaf9f224c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9ac6708eaf9f224c.html</id>
 <updated>2026-11-01T00:00:00Z</updated>
@@ -198,77 +306,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. COLOR STARS PAINEIS PUBLICITARIOS LTDA recebeu R$ 2.250,00 por "divulgação da atividade parlamentar", mas sua atividade é "Instalação de painéis publicitários" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Fabio Schiochet (UNIÃO/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/56a53ff1456dde92.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/56a53ff1456dde92.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. SM MARINHO LTDA recebeu R$ 2.230,00 por "hospedagem, exceto do parlamentar no distrito federal", mas sua atividade é "Restaurantes e similares" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Gilson Marques (NOVO/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7bc6294a53a0c0cc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7bc6294a53a0c0cc.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. IKEDA PROJETOS &amp; HOTELARIA LTDA recebeu R$ 2.160,00 por "hospedagem, exceto do parlamentar no distrito federal", mas sua atividade é "Serviços combinados de escritório e apoio administrativo" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedor com sócio de sobrenome raro do deputado — Carlos Chiodini (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fbbb09477686f12c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fbbb09477686f12c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. POSTO MIME S.A. recebeu R$ 1.922,29; Ana Clara Franzner Chiodini (Administrador, desde 16/04/2019) tem o(s) sobrenome(s) Chiodini em comum com o nome civil do deputado (Carlos Alberto Chiodini). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Doador da campanha recebendo da cota — Gilson Marques (NOVO/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/67bf6ae2f270b890.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/67bf6ae2f270b890.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. HOTEIS SB KINDERMANN LTDA recebeu R$ 1.825,00 da cota; o sócio Valeria Kindermann Sabadin doou R$ 5.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedor com sócio de sobrenome raro do deputado — Carlos Chiodini (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7878dbfd3ed17af3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7878dbfd3ed17af3.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. POSTO MIME S.A. recebeu R$ 1.539,71; Ana Clara Franzner Chiodini (Administrador, desde 16/04/2019) tem o(s) sobrenome(s) Chiodini em comum com o nome civil do deputado (Carlos Alberto Chiodini). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Fornecedor com sócio de sobrenome raro do deputado — Carlos Chiodini (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4effa225dcf2d2fd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4effa225dcf2d2fd.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. POSTO MIME S.A. recebeu R$ 1.387,94; Ana Clara Franzner Chiodini (Administrador, desde 16/04/2019) tem o(s) sobrenome(s) Chiodini em comum com o nome civil do deputado (Carlos Alberto Chiodini). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível parente do deputado no próprio gabinete — Ricardo Guidi (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ecac04648b5f30b9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ecac04648b5f30b9.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Eduardo Zanatta Filho (secretário parlamentar; SP18, 05/02/2019 a 31/07/2023; SP18, 21/11/2023 a 22/11/2023; SP18, 05/06/2024 a 17/02/2026; SP16, desde 18/02/2026) tem o(s) sobrenome(s) Zanatta em comum com o nome civil do deputado (Ricardo Zanatta Guidi). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Pezenti (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/836d7d7e883a3289.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/836d7d7e883a3289.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MSB CONSULTORIA LTDA recebeu R$ 164.500,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Geovania de Sá (REPUBLICANOS/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3583a06eb3611fd4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3583a06eb3611fd4.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. SOCIEDADE ABASTECEDORA SANTA BARBARA LTDA recebeu R$ 100.407,65 por "combustíveis e lubrificantes", mas sua atividade é "Aluguel de imóveis próprios" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Luiz Fernando Vampiro (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/59eccb47a204ce78.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/59eccb47a204ce78.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MSB CONSULTORIA LTDA recebeu R$ 50.150,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Julia Zanatta (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f2e2d62c2289e3ae.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f2e2d62c2289e3ae.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. SOCIEDADE ABASTECEDORA SANTA BARBARA LTDA recebeu R$ 5.545,19 por "combustíveis e lubrificantes", mas sua atividade é "Aluguel de imóveis próprios" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Ricardo Guidi (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/11f2ba8083cb383a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bad901f31fbf4e8d.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Declarado como VELOE COMPANINHA BRASILEIRA DE SOLUÇOES E SERVIÇOS, que recebeu R$ 5.000,00 por "serviço de táxi, pedágio e estacionamento"; o CNPJ 04.740.876/0001-25 aparece hoje na Receita como ALELO S.A., com atividade "Emissão de vales-alimentação, vales-transporte e similares". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

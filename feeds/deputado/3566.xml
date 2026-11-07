@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3566.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3566.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Mauricio do Vôlei (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2cae1bc2e4962e2f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2cae1bc2e4962e2f.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 5585 de RADIO VILA REAL LTDA-ME (R$ 2.342,08, 18/12/2023): o documento traz o(s) CNPJ(s) 21310917000162, e não o do fornecedor declarado (22241954000129). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor de outro gabinete — Mauricio do Vôlei (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3889c4ba2b721bef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3889c4ba2b721bef.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

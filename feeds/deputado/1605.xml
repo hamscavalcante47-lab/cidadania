@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1605.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1605.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Maria do Rosário (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b6e315203144a12b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b6e315203144a12b.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 973 de CASA SANTA CRUZ LTDA (R$ 193,00, 05/07/2026): foi declarado R$ 193,00, mas o maior valor lido no documento é R$ 189,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Maria do Rosário (PT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b96b3b19135e61e0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b96b3b19135e61e0.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3575.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3575.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Roberto Duarte (REPUBLICANOS/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a1b7aa269db746d0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a1b7aa269db746d0.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 5195 de HOTEL &amp; RESTAURANTE ACAI LTDA (R$ 218,00, 22/07/2026): o documento traz o(s) CNPJ(s) 15541783000198, e não o do fornecedor declarado (07639184000183). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pi.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pi.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Florentino Neto (PT/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc7c9a9650e9200a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc7c9a9650e9200a.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1246 de VISUAL CLIPAGEM (R$ 1.500,00, 16/01/2026): foi declarado R$ 1.500,00, mas o maior valor lido no documento é R$ 1.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Julio Arcoverde (PP/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2df61eb7a9d4c7a4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2df61eb7a9d4c7a4.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 13229 de J W SARAIVA E CIA LTDA (R$ 4.629,00, 26/02/2025): foi declarado R$ 4.629,00, mas o maior valor lido no documento é R$ 4.620,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Castro Neto (MDB/PI)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a4a569b016b413b9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a4a569b016b413b9.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

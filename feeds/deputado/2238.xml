@@ -4,7 +4,31 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2238.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2238.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Mesmo documento usado em despesas diferentes — Zeca Dirceu (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/009b148a1f529be2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/009b148a1f529be2.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Auto Posto Universitário Ltda foi anexado a 2 reembolsos. Despesas declaradas: nº 000.021.769 (R$ 246,73, 15/08/2025); nº 21769 (R$ 246,73, 15/08/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Zeca Dirceu (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5596bbc8da4d3129.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5596bbc8da4d3129.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de C S JACOMELI COMERCIO DE COMBUSTIVEIS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 174513 (R$ 200,00, 15/08/2025); nº 174513 (R$ 200,00, 29/08/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Zeca Dirceu (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7614360d4a7d6a44.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7614360d4a7d6a44.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 20241549 de Taroba Industria Hoteleira Ltda (R$ 919,82, 24/02/2024): foi declarado R$ 919,82, mas o maior valor lido no documento é R$ 916,82. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Zeca Dirceu (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c8054b666ed6018c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c8054b666ed6018c.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 020940 de SAFIRA SERVICOS DE HOTELARIA LTDA (R$ 343,00, 25/08/2024): foi declarado R$ 343,00, mas o maior valor lido no documento é R$ 340,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

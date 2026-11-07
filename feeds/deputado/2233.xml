@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2233.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2233.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Weliton Prado (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a3f5fd1f515c8a92.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a3f5fd1f515c8a92.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 463857 de PAIVA &amp; MOREIRA AUTO POSTO LTDA (R$ 245,58, 07/08/2025): foi declarado R$ 245,58, mas o maior valor lido no documento é R$ 242,58. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Weliton Prado (PSD/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1427525ad3ead6ad.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1427525ad3ead6ad.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

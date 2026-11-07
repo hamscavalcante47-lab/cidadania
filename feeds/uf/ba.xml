@@ -4,271 +4,307 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ba.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ba.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Charles Fernandes (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e3a0acf59083f3f4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e3a0acf59083f3f4.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de IGUANAMBI PRODUÇÕES LTDA ME foi anexado a 2 reembolsos. Despesas declaradas: nº 202500000000009 (R$ 8.000,00, 27/02/2025); nº 202500000000009 (R$ 7.800,00, 03/03/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Zé Neto (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/848247e6cc477e44.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/848247e6cc477e44.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONSULTE CONSULTORIA, PROJETOS E ASSESSORIA LTDA - ME foi anexado a 2 reembolsos. Despesas declaradas: nº 202400000000029 (R$ 1.250,00, 12/04/2024); nº 202400000000029 (R$ 600,00, 07/05/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b957b4d22e559f41.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b957b4d22e559f41.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c7afa9a2e37aab11.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c7afa9a2e37aab11.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de MARINALVA ALVES DE OLIVEIRA - ME foi anexado a 2 reembolsos. Despesas declaradas: nº 00000596 (R$ 1.000,00, 02/10/2025); nº 596 (R$ 1.000,00, 02/10/2025). Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. O mesmo arquivo de nota de MARIANA NASCIMENTO FIGUEREDO foi anexado a 2 reembolsos. Despesas declaradas: nº 13 (R$ 600,00, 06/09/2024); nº 13 (R$ 600,00, 16/09/2024). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Daniel Almeida (PCdoB/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/43fd2e1ff0e529bf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/43fd2e1ff0e529bf.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de CONDOMINIO EDIFICIO EMPRESARIAL ITAIGARA foi anexado a 2 reembolsos. Despesas declaradas: nº 203 (R$ 924,35, 23/01/2025); nº 203 (R$ 924,35, 23/01/2025). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Claudio Cajado (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1cf30c194a63321.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f1cf30c194a63321.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR foi anexado a 2 reembolsos. Despesas declaradas: nº 5649110 (R$ 398,31, 01/09/2025); nº 5649110 (R$ 398,31, 01/09/2025). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Waldenor Pereira (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2e27c51612b7adee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2e27c51612b7adee.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 0003 (R$ 29,99, 04/07/2025); nº 0003 (R$ 29,99, 04/07/2025). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Waldenor Pereira (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/18f81cec356c7139.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/18f81cec356c7139.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 0002 (R$ 21,94, 03/07/2025); nº 0002 (R$ 21,94, 03/07/2025). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Joseildo Ramos (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff4eca00f1fc721b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff4eca00f1fc721b.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
+<title>CNPJ do documento não é o do fornecedor declarado — Capitão Alden (PL/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c84946f6a16aadbf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c84946f6a16aadbf.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 28696 de PANTANAL VEÍCULOS LTDA (R$ 3.450,00, 17/03/2026): o documento traz o(s) CNPJ(s) 13516648000167, e não o do fornecedor declarado (07319323000191). Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 00000120 de AGÊNCIA BRANDING MARKETING DIRETO LTDA (R$ 16.300,00, 28/10/2025): o documento traz o(s) CNPJ(s) 45891954000170, e não o do fornecedor declarado (41501897000114). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Arthur Oliveira Maia (UNIÃO/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4c1cdb9eeda86276.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4c1cdb9eeda86276.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: EASY WAY TECNOLOGIA E DESENVOLVIMENTO DE SOFTWARE LTDA recebeu R$ 97.500,00; Eduardo Ferreira De Sousa Cruz é sócio(a) desde 03/12/2025 e trabalhou no gabinete (cargo de natureza especial, CNE10) desde 17/01/2022. Pagamentos: R$ 60.000,00 durante o vínculo, R$ 37.500,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 22.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — João Leão (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d249b076ee4a4bf9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d249b076ee4a4bf9.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 106550 de VIA LOCADORA DE AUTOMOVEIS LTDA (10/02/2025): 2 lançamentos em 2 competência(s); documento R$ 10.000,00, valor líquido R$ 20.000,00, restituições R$ 0,00, saldo R$ 20.000,00 (excedente R$ 10.000,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Neto Carletto (AVANTE/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/252ed5b7482b26d8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/252ed5b7482b26d8.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 39554 de AIR BP PETROBAHIA LTDA (21/08/2025): 2 lançamentos em 1 competência(s); documento R$ 2.393,04, valor líquido R$ 4.786,08, restituições R$ 0,00, saldo R$ 4.786,08 (excedente R$ 2.393,04). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Raimundo Costa (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f6c74fa593f5a2d8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f6c74fa593f5a2d8.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 596 de MARINALVA ALVES DE OLIVEIRA - ME (02/10/2025): 2 lançamentos em 1 competência(s); documento R$ 1.000,00, valor líquido R$ 2.000,00, restituições R$ 0,00, saldo R$ 2.000,00 (excedente R$ 1.000,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Daniel Almeida (PCdoB/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/154461b02f7bb38c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/154461b02f7bb38c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 203 de CONDOMINIO EDIFICIO EMPRESARIAL ITAIGARA (23/01/2025): 2 lançamentos em 1 competência(s); documento R$ 924,35, valor líquido R$ 1.848,70, restituições R$ 0,00, saldo R$ 1.848,70 (excedente R$ 924,35). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Otto Alencar Filho (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a099ea378f498209.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a099ea378f498209.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 38541 de CONDOMINIO MUNDO PLAZA (05/04/2024): 2 lançamentos em 1 competência(s); documento R$ 908,33, valor líquido R$ 1.669,48, restituições R$ 0,00, saldo R$ 1.669,48 (excedente R$ 761,15). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Otto Alencar Filho (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3b09fd15dca7c95b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3b09fd15dca7c95b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 193286 de CONDOMINIO MUNDO PLAZA (05/08/2023): 2 lançamentos em 2 competência(s); documento R$ 877,79, valor líquido R$ 1.587,92, restituições R$ 0,00, saldo R$ 1.587,92 (excedente R$ 710,13). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Otto Alencar Filho (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/97574312053e7a80.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/97574312053e7a80.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 193287 de CONDOMINIO MUNDO PLAZA (05/08/2023): 2 lançamentos em 2 competência(s); documento R$ 877,79, valor líquido R$ 1.587,92, restituições R$ 0,00, saldo R$ 1.587,92 (excedente R$ 710,13). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Roberta Roma (PL/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7b4f58e1d2f2c566.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5556c53351e1f73b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. A NFC-e nº 1381451 de ARGOS COMBUSTIVEIS E LUBRIFICANTES LTDA - EPP foi anexada a 2 reembolsos. Despesas declaradas: nº 1381451 (R$ 458,60, 11/04/2026), que corresponde à nota; nº 1381451 (R$ 458,60, 11/04/2026), a mesma nota declarada de novo. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Roberta Roma (PL/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7bd8229a64065f62.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7bd8229a64065f62.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1381451 de ARGOS COMBUSTIVEIS E LUBRIFICANTES LTDA - EPP (11/04/2026): 2 lançamentos em 1 competência(s); documento R$ 458,60, valor líquido R$ 917,20, restituições R$ 0,00, saldo R$ 917,20 (excedente R$ 458,60). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Claudio Cajado (PP/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/595319d7009797bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/595319d7009797bd.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 5649110 de SECRETARIA MUNICIPAL DA FAZENDA SALVADOR (01/09/2025): 2 lançamentos em 1 competência(s); documento R$ 398,31, valor líquido R$ 796,62, restituições R$ 0,00, saldo R$ 796,62 (excedente R$ 398,31). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Leo Prates (REPUBLICANOS/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a7947496aac5aea1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a7947496aac5aea1.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1/11 de MUNICIPIO DE SALVADOR (27/02/2023): 2 lançamentos em 1 competência(s); documento R$ 294,25, valor líquido R$ 588,50, restituições R$ 0,00, saldo R$ 588,50 (excedente R$ 294,25). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Raimundo Costa (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c21cbe2fe60151d2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c21cbe2fe60151d2.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 4608385 de TIC COMERCIO DE COMBUSTIVEIS LTDA ME (22/05/2024): 2 lançamentos em 1 competência(s); documento R$ 249,66, valor líquido R$ 499,32, restituições R$ 0,00, saldo R$ 499,32 (excedente R$ 249,66). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Ricardo Maia (MDB/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/34afe1f8328dde84.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/34afe1f8328dde84.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 172071 de LSL COMERCIO DE DERIVADOS DE PETROLEO LTDA (19/04/2024): 2 lançamentos em 1 competência(s); documento R$ 213,76, valor líquido R$ 427,52, restituições R$ 0,00, saldo R$ 427,52 (excedente R$ 213,76). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Raimundo Costa (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1b4dd4a8fd5ad022.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1b4dd4a8fd5ad022.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 41898 de POSTO DE COMBUSTIVEIS VALENCA LTDA (14/05/2024): 2 lançamentos em 1 competência(s); documento R$ 206,38, valor líquido R$ 412,76, restituições R$ 0,00, saldo R$ 412,76 (excedente R$ 206,38). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Raimundo Costa (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/37c96241ad26af69.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/37c96241ad26af69.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1303829 de POSTO DE COMBUSTIVEIS RODOVIARIA LTDA (08/05/2024): 2 lançamentos em 1 competência(s); documento R$ 206,30, valor líquido R$ 412,60, restituições R$ 0,00, saldo R$ 412,60 (excedente R$ 206,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Waldenor Pereira (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6620862c06733c7e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6620862c06733c7e.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 3 de UBER DO BRASIL TECNOLOGIA LTDA. (04/07/2025): 2 lançamentos em 1 competência(s); documento R$ 29,99, valor líquido R$ 59,98, restituições R$ 0,00, saldo R$ 59,98 (excedente R$ 29,99). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Waldenor Pereira (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/57996833ae3ab49d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/57996833ae3ab49d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 2 de UBER DO BRASIL TECNOLOGIA LTDA. (03/07/2025): 2 lançamentos em 1 competência(s); documento R$ 21,94, valor líquido R$ 43,88, restituições R$ 0,00, saldo R$ 43,88 (excedente R$ 21,94). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Valmir Assunção (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/531db7c3151f62e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/531db7c3151f62e3.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1998 de UBER DO BRASIL TECNOLOGIA LTDA. (11/02/2024): 2 lançamentos em 1 competência(s); documento R$ 19,98, valor líquido R$ 39,96, restituições R$ 0,00, saldo R$ 39,96 (excedente R$ 19,98). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Arthur Oliveira Maia (UNIÃO/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f2bd1c4ebcfc7d02.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f2bd1c4ebcfc7d02.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
+<title>CNPJ do documento não é o do fornecedor declarado — Roberta Roma (PL/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3e6d504aaa52544.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f3e6d504aaa52544.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. ASSOCIACAO CULTURAL DE DIFUSAO COMUNITARIA PARAISO FM recebeu R$ 16.210,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades associativas não especificadas anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 202618 de TERABYTE COMERCIO E SERVIÇOS DE INFORMATICA LTDA (R$ 10.100,00, 15/01/2026): o documento traz o(s) CNPJ(s) 07280184000130, e não o do fornecedor declarado (64005092000185). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Doador da campanha recebendo da cota — Ricardo Maia (MDB/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d08079d6fa3c24c0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d08079d6fa3c24c0.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
+<title>Valor declarado maior que o da nota — Roberta Roma (PL/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f0335a3498fdf786.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f0335a3498fdf786.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. POSTO CANABRAVA LTDA recebeu R$ 11.574,59 da cota; o sócio Antonio Wendell Pereira De Souza doou R$ 19.600,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 3 de JOSE VINICUS VIEIRA LIMA RAMOS MELO (R$ 2.578,00, 30/10/2023): foi declarado R$ 2.578,00, mas o maior valor lido no documento é R$ 2.572,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Atividade da empresa não combina com o gasto — Raimundo Costa (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d99777396cb3c383.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f09219921cf9f76f.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
+<title>CNPJ do documento não é o do fornecedor declarado — Leo Prates (REPUBLICANOS/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/600aee1443085645.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/600aee1443085645.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. Declarado como POSTO DE COMBUSTIVEIS VALENCA LTDA., que recebeu R$ 11.083,11 por "combustíveis e lubrificantes"; o CNPJ 22.169.506/0001-61 aparece hoje na Receita como MOREIRA LAVAGEM E POLIMENTOS LTDA, com atividade "Serviços de lavagem, lubrificação e polimento de veículos automotores". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 00000724 de LUAN JOAQUIM DE JESUS SANTOS (R$ 2.000,00, 16/06/2025): o documento traz o(s) CNPJ(s) 13715891000104, 32970798000190, e não o do fornecedor declarado (32252078000190). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Doador da campanha recebendo da cota — Ricardo Maia (MDB/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/962cd81cba9cf42f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/962cd81cba9cf42f.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
+<title>Valor declarado maior que o da nota — Zé Neto (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdfc9afa3c38b9ab.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdfc9afa3c38b9ab.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. POSTO CANABRAVA LTDA recebeu R$ 7.799,46 da cota; o sócio Antonio Wendell Pereira De Souza doou R$ 19.600,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 202400000000029 de CONSULTE CONSULTORIA, PROJETOS E ASSESSORIA LTDA - ME (R$ 1.250,00, 12/04/2024): foi declarado R$ 1.250,00, mas o maior valor lido no documento é R$ 600,00. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Atividade da empresa não combina com o gasto — Jorge Solla (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ace28a10f933ee09.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83d1c4650c56ff38.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Declarado como M RIBEIRO COMBUSTIVEIS LTDA, que recebeu R$ 4.843,02 por "combustíveis e lubrificantes"; o CNPJ 29.972.605/0001-26 aparece hoje na Receita como VALPARK REPRESENTACAO LTDA, com atividade "Representantes comerciais e agentes do comércio de combustíveis, minerais, produtos siderúrgicos e químicos". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Jorge Solla (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6bc84f8c5ce3334a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6bc84f8c5ce3334a.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO DE SERVICOS RIBEIRO LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 39173147 (R$ 572,02, 25/04/2024); nº 493896 (R$ 527,02, 25/04/2024). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Atividade da empresa não combina com o gasto — Otto Alencar Filho (PSD/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0bdc15a8548e934b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0bdc15a8548e934b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. CPD SERVICOS LTDA recebeu R$ 3.007,75 por "fornecimento de alimentação do parlamentar", mas sua atividade é "Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/43af27efb0083e7c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/43af27efb0083e7c.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 5 reembolsos. Despesas declaradas: nº 868992 (R$ 134,40, 18/04/2025); nº 868992 (R$ 134,40, 18/04/2025); nº 868992 (R$ 134,40, 18/04/2025); nº 868992 (R$ 134,40, 18/04/2025); nº 868992 (R$ 134,40, 18/04/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Atividade da empresa não combina com o gasto — Roberta Roma (PL/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4b8f1f95748bc0e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4b8f1f95748bc0e3.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. GUEBOR COMERCIAL DISTRIBUIDORA LTDA recebeu R$ 2.762,00 por "combustíveis e lubrificantes", mas sua atividade é "Comércio a varejo de automóveis, camionetas e utilitários novos" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/04b1c494277873ab.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/04b1c494277873ab.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 918080 (R$ 182,52, 07/06/2025); nº sn (R$ 182,52, 07/06/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Atividade da empresa não combina com o gasto — Arthur Oliveira Maia (UNIÃO/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b1b0c68ed2f9e261.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/564bcf89433e756e.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Declarado como Rádio Nova Visão FM, que recebeu R$ 2.500,00 por "divulgação da atividade parlamentar"; o CNPJ 02.711.681/0001-21 aparece hoje na Receita como ASSOCIACAO NOVO HORIZONTE DOS MORADORES DO BAIRRO SANTA CRUZ E ADJACENCIAS, com atividade "Atividades de associações de defesa de direitos sociais". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1e94074ba3ced65d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1e94074ba3ced65d.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 3 reembolsos. Despesas declaradas: nº 28.04.2025 (R$ 107,90, 16/04/2025); nº 643456 (R$ 107,90, 16/04/2025); nº 643456 (R$ 107,90, 16/04/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Atividade da empresa não combina com o gasto — Waldenor Pereira (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/46c8aced9d7ddedb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/46c8aced9d7ddedb.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. HOTEL E POUSADA ALTO DAS COLINAS LTDA recebeu R$ 2.100,00 por "divulgação da atividade parlamentar", mas sua atividade é "Hotéis" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c3a3b283d68e4a3c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c3a3b283d68e4a3c.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 985792 (R$ 130,65, 26/06/2025); nº 985792 (R$ 130,65, 26/06/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Doador da campanha recebendo da cota — Ivoneide Caetano (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4c8e3ad5f64c4e4a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4c8e3ad5f64c4e4a.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. PPO COMUNICACAO E PUBLICIDADE LTDA recebeu R$ 427.000,00 da cota; o sócio Geraldo Honorato Santos De Oliveira doou R$ 400,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5f31c0d431c0d4bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5f31c0d431c0d4bd.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 570.688 (R$ 122,90, 14/10/2023); nº 570688 (R$ 122,90, 14/10/2023). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Doador da campanha recebendo da cota — Pastor Sargento Isidório (AVANTE/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e46535407a9c304c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e46535407a9c304c.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. REALIZADOS LOCAR LOCADORA DE VEICULOS LTDA recebeu R$ 291.760,00 da cota; o sócio Joao Tiago Da Silva Pereira doou R$ 1.200,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2e3d6396f32a5381.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2e3d6396f32a5381.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 330368 (R$ 121,68, 06/11/2025); nº 330368 (R$ 121,68, 06/11/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>MEI recebendo mais que o limite anual — Neto Carletto (AVANTE/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eba3a0fabf6f02cc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eba3a0fabf6f02cc.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 36.087.515 HUXLEI GONCALVES DE CASSIO (MEI) recebeu R$ 162.439,30 da cota em 2023, R$ 162.439,30 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e44caea34519a678.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e44caea34519a678.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 233152 (R$ 121,68, 09/06/2025); nº 233152 (R$ 121,68, 09/06/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>MEI recebendo mais que o limite anual — Neto Carletto (AVANTE/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b9cd48142300b86e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b9cd48142300b86e.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 36.087.515 HUXLEI GONCALVES DE CASSIO (MEI) recebeu R$ 135.000,00 da cota em 2024, R$ 135.000,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5d2851d30e5cbab9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5d2851d30e5cbab9.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 625088 (R$ 116,87, 11/06/2026); nº 625088 (R$ 116,87, 11/06/2026). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>MEI recebendo mais que o limite anual — Bacelar (PV/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8bf684dce026b0d9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8bf684dce026b0d9.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 39.227.792 EMIC DE SOUZA REIS (MEI) recebeu R$ 100.000,00 da cota em 2025, R$ 100.000,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0f4bbe9c73efa88e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0f4bbe9c73efa88e.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 3 reembolsos. Despesas declaradas: nº 106.368 (R$ 76,05, 29/11/2023); nº 106.368 (R$ 76,05, 29/11/2023); nº 106368 (R$ 76,05, 29/11/2023). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>MEI recebendo mais que o limite anual — Josias Gomes (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f2098d3894a7104a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f2098d3894a7104a.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. LUIS FERNANDO DA SILVA SALES ***.789.885-** (MEI) recebeu R$ 84.000,00 da cota em 2024, R$ 84.000,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/332f50a562a662d2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/332f50a562a662d2.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 220288 (R$ 112,71, 28/11/2025); nº 220288 (R$ 112,71, 28/11/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>MEI recebendo mais que o limite anual — Alice Portugal (PCdoB/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c2fd9ad82a894825.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c2fd9ad82a894825.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 66.748.580 TASSO GOMES DA SILVA (MEI) recebeu R$ 85.990,00 da cota em 2026, R$ 73.990,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6f3275731ac744e1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f3275731ac744e1.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 486661 (R$ 112,71, 15/09/2025); nº 486661 (R$ 112,71, 15/09/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Atividade da empresa não combina com o gasto — Lídice da Mata (PSB/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3b9835621f4be4f7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3b9835621f4be4f7.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. UBER DO BRASIL TECNOLOGIA LTDA. recebeu R$ 21.335,41 por "serviço de táxi, pedágio e estacionamento", mas sua atividade é "Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/73bb52d40ad88212.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/73bb52d40ad88212.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 290560 (R$ 112,71, 20/08/2025); nº 290560 (R$ 112,71, 20/08/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>MEI recebendo mais que o limite anual — Marcelo Nilo (REPUBLICANOS/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/42fb55769b1a3ae0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/42fb55769b1a3ae0.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 66.748.580 TASSO GOMES DA SILVA (MEI) recebeu R$ 85.990,00 da cota em 2026, R$ 12.000,00 deste gabinete. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b3865675bf8855e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b3865675bf8855e6.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 431488 (R$ 112,71, 19/05/2025); nº sn (R$ 112,71, 19/05/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
-<title>Atividade da empresa não combina com o gasto — Ricardo Maia (MDB/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b01cb3d5bf1cad4e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b01cb3d5bf1cad4e.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f233d87f87fdbcad.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f233d87f87fdbcad.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 473152 (R$ 112,71, 30/10/2025); nº 473152 (R$ 112,71, 30/10/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/00201586c001e9a1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/00201586c001e9a1.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 593.792 (R$ 107,90, 13/02/2025); nº 593.792 (R$ 107,90, 13/02/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0e9f3f44fa4ab821.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0e9f3f44fa4ab821.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 948.672 (R$ 107,90, 07/04/2025); nº 948.672 (R$ 107,90, 07/04/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bdd00502529e4f8e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bdd00502529e4f8e.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 795.392 (R$ 107,90, 21/01/2025); nº 795392 (R$ 107,90, 21/01/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/66d942c67e01d920.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/66d942c67e01d920.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 016896 (R$ 107,51, 01/06/2026); nº s/n (R$ 107,51, 01/06/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/08c4e47d1fb572e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/08c4e47d1fb572e6.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 126.720 (R$ 105,70, 02/12/2023); nº 508126720 (R$ 105,70, 02/12/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1cd81ba5b33c5ceb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1cd81ba5b33c5ceb.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 738752 (R$ 105,69, 14/12/2023); nº 738752 (R$ 105,69, 14/12/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41f405ee5c61fea1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41f405ee5c61fea1.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 149568 (R$ 103,74, 01/10/2025); nº 149568 (R$ 103,74, 01/10/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8d43f71f85e200aa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8d43f71f85e200aa.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 827584 (R$ 103,74, 26/01/2026); nº 827584 (R$ 103,74, 26/01/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e2ec99cc6628b941.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e2ec99cc6628b941.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 526336 (R$ 99,32, 14/04/2025); nº 526336 (R$ 99,32, 14/04/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c301c1e48d05abbf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c301c1e48d05abbf.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 064 (R$ 99,19, 12/07/2023); nº 064 (R$ 99,19, 12/07/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/40df7671ff69cb80.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/40df7671ff69cb80.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 478.592 (R$ 97,24, 21/09/2023); nº 478592 (R$ 97,24, 21/09/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ee6994867f150efc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ee6994867f150efc.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 695.232 (R$ 97,24, 01/12/2023); nº 695232 (R$ 97,24, 04/12/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/21d65d494c9881e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/21d65d494c9881e6.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 582.080 (R$ 96,20, 05/03/2025); nº 582.080 (R$ 96,20, 05/03/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1161a603472a823.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1161a603472a823.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 3 reembolsos. Despesas declaradas: nº 6445 (R$ 62,50, 13/06/2025); nº 6445 (R$ 62,50, 13/06/2025); nº 6445 (R$ 62,50, 13/06/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/44f52cde245d30cb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/44f52cde245d30cb.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 713.792 (R$ 89,60, 27/01/2025); nº 713792 (R$ 89,60, 27/01/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa5b77e4b7cc7277.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa5b77e4b7cc7277.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 303.744 (R$ 89,60, 11/03/2025); nº 303.744 (R$ 89,60, 11/03/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/88741c7ef5267927.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/88741c7ef5267927.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 440320 (R$ 86,70, 12/06/2025); nº 440320 (R$ 86,70, 12/06/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f49fa9af4583c7ab.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f49fa9af4583c7ab.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 623488 (R$ 75,40, 14/05/2024); nº S/N (R$ 76,40, 14/05/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f955f784aa31bda0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f955f784aa31bda0.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INTERNACIONAL TRAVESSIAS SALVADOR S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 200.960 (R$ 74,80, 29/04/2024); nº 604864 (R$ 74,80, 30/04/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Jorge Solla (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e76882eb51f9cc83.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e76882eb51f9cc83.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. RM VEICULOS LTDA recebeu R$ 10.980,00 por "combustíveis e lubrificantes", mas sua atividade é "Comércio sob consignação de veículos automotores" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 39173147 de POSTO DE SERVICOS RIBEIRO LTDA (R$ 572,02, 25/04/2024): foi declarado R$ 572,02, mas o maior valor lido no documento é R$ 217,02. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Jorge Solla (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aec4e2bb991e5b3a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/be9685cfb2626474.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2347013 de ENTRAM- EMPRESA DE TRANSPORTES MACAUBENSE (R$ 360,99, 10/09/2025): o documento traz o(s) CNPJ(s) 25634569000130, e não o do fornecedor declarado (16041592000120). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Jorge Solla (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c2ec35516e36c800.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c2ec35516e36c800.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202400000001296 de LEOPOLDO EMPREENDIMENTO TURISTICO LTDA (R$ 266,00, 04/05/2024): foi declarado R$ 266,00, mas o maior valor lido no documento é R$ 182,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f5fb8a1f642267a2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f5fb8a1f642267a2.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 486661 de INTERNACIONAL TRAVESSIAS SALVADOR S.A (R$ 135,55, 12/08/2026): foi declarado R$ 135,55, mas o maior valor lido no documento é R$ 116,87. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8d6289ac4717f54d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8d6289ac4717f54d.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UNIAO EMPREENDIMENTOS TURISTICOS DA BAHIA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 149463 (R$ 659,40, 01/02/2024); nº 202400000001369 (R$ 659,40, 01/02/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e5e37978cd0482d1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e5e37978cd0482d1.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ARRAIAL CANA BRAVA HOTEL LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 11132 (R$ 338,00, 05/06/2026); nº 11132 (R$ 338,00, 05/06/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Raimundo Costa (PSD/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dcbc5f6468fccba9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dcbc5f6468fccba9.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00003024 de J.C.Q &amp; CIA LTDA (R$ 505,00, 25/08/2025): o documento traz o(s) CNPJ(s) 08882173000192, 14105209000124, e não o do fornecedor declarado (14105183000114). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9e105083f4118d4a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/24d0cf30c5dc4df8.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 11132 de ARRAIAL CANA BRAVA HOTEL LTDA (R$ 338,00, 05/06/2026): o documento traz o(s) CNPJ(s) 34251463000148, e não o do fornecedor declarado (33795303000369). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

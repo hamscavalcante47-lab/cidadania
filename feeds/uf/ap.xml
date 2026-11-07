@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ap.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ap.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Sonize Barbosa (PL/AP)</title>
@@ -42,12 +42,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. Fúlvio Ariosto Ferreira Favacho (secretário parlamentar; SP11, 21/03/2023 a 29/01/2024) tem o(s) sobrenome(s) Favacho em comum com o nome civil do deputado (Acácio Da Silva Favacho Neto). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Sonize Barbosa (PL/AP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3c6f2b15b071859.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc8d53b422614ef2.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Declarado como CARLOS BARBOSA DE SOUSA CARTAMIDIA MARKETING E CONSULTORIA, que recebeu R$ 475.022,20 por "divulgação da atividade parlamentar"; o CNPJ 52.219.562/0001-24 aparece hoje na Receita como INSTITUTO LUMEA, com atividade "Atividades de associações de defesa de direitos sociais". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>MEI recebendo mais que o limite anual — Professora Goreth (PDT/AP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/690e9e4f61719e73.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/690e9e4f61719e73.html</id>

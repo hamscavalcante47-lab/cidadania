@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ac.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ac.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Coronel Ulysses (UNIÃO/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/039a5ffd58797bf6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/039a5ffd58797bf6.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 80 de CLAUDIO GOMES DA SILVA ME (R$ 5.000,00, 01/04/2024): foi declarado R$ 5.000,00, mas o maior valor lido no documento é R$ 3.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4d74954a18fc12d9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4d74954a18fc12d9.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 267528 de POSTO DE COMBUSTIVEL GUERREIRINHO LTDA (R$ 244,22, 01/03/2023): o documento traz o(s) CNPJ(s) 33775462000130, e não o do fornecedor declarado (35340529000139). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dac82de8f024a095.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dac82de8f024a095.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 267528 de POSTO DE COMBUSTIVEL GUERREIRINHO LTDA (R$ 244,22, 01/03/2023): foi declarado R$ 244,22, mas o maior valor lido no documento é R$ 200,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Zezinho Barbary (PP/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/457fa3ded81be0a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/457fa3ded81be0a7.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 5922 de IVANILDE RODRIGUES LIMA DE OLIVEIRA (R$ 1.992,00, 08/05/2023): foi declarado R$ 1.992,00, mas o maior valor lido no documento é R$ 1.192,60. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Roberto Duarte (REPUBLICANOS/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a1b7aa269db746d0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a1b7aa269db746d0.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 5195 de HOTEL &amp; RESTAURANTE ACAI LTDA (R$ 218,00, 22/07/2026): o documento traz o(s) CNPJ(s) 15541783000198, e não o do fornecedor declarado (07639184000183). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Coronel Ulysses (UNIÃO/AC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d59cab56cad51c0f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d59cab56cad51c0f.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

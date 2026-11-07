@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3719.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3719.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Coronel Telhada (PP/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5414707a07451112.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5414707a07451112.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Wmh Arte Visual Ltda. foi anexado a 2 reembolsos. Despesas declaradas: nº 29 (R$ 12.500,00, 06/03/2024); nº 29 (R$ 12.133,30, 18/03/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Coronel Telhada (PP/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/741beb850b6e3491.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/741beb850b6e3491.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CENTRO AUTOMOTIVO DUQUE ESTADAO LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 181004 (R$ 102,37, 23/02/2023); nº 002912 (R$ 150,00, 23/02/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Coronel Telhada (PP/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/522de87c6008c39d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/522de87c6008c39d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 002912 de POSTO BOLA PESADA LT (R$ 150,00, 23/02/2023): o emissor da nota é o CNPJ 42.066.893/0001-18, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Coronel Telhada (PP/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d0fd94b455189b5e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d0fd94b455189b5e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 29 de Wmh Arte Visual Ltda. (R$ 12.500,00, 06/03/2024): o documento traz o(s) CNPJ(s) 49311629000141, e não o do fornecedor declarado (32854151000101). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Coronel Telhada (PP/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ddd275c9d84d1b9d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6e8d74cfaa42a94d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 002912 de POSTO BOLA PESADA LT (R$ 150,00, 23/02/2023): o documento traz o(s) CNPJ(s) 42066893000118, e não o do fornecedor declarado (62972492000134). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor de outro gabinete — Coronel Telhada (PP/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d9c7f80204362430.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d9c7f80204362430.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

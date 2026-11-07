@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3662.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3662.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Coronel Ulysses (UNIÃO/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/039a5ffd58797bf6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/039a5ffd58797bf6.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 80 de CLAUDIO GOMES DA SILVA ME (R$ 5.000,00, 01/04/2024): foi declarado R$ 5.000,00, mas o maior valor lido no documento é R$ 3.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Coronel Ulysses (UNIÃO/AC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d59cab56cad51c0f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d59cab56cad51c0f.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

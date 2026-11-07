@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3561.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3561.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Daniel Agrobom (PSD/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1410fbaba09131f7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1410fbaba09131f7.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 09948812 de VERISURE BRASIL MONITORAMENTO (R$ 271,00, 12/07/2023): foi declarado R$ 271,00, mas o maior valor lido no documento é R$ 231,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Agrobom (PSD/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5864309bd5eee953.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5864309bd5eee953.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 09072700 de VERISURE BRASIL MONITORAMENTO (R$ 271,00, 08/03/2023): foi declarado R$ 271,00, mas o maior valor lido no documento é R$ 231,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Agrobom (PSD/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/73d6dab5e21dd1d0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/73d6dab5e21dd1d0.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 11724826 de VERISURE BRASIL MONITORAMENTO (R$ 271,00, 10/03/2024): foi declarado R$ 271,00, mas o maior valor lido no documento é R$ 231,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Agrobom (PSD/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eb6eface79a89ab8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eb6eface79a89ab8.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 11342841 de VERISURE BRASIL MONITORAMENTO (R$ 271,00, 13/01/2024): foi declarado R$ 271,00, mas o maior valor lido no documento é R$ 231,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Daniel Agrobom (PSD/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3160aef100485a88.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3160aef100485a88.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

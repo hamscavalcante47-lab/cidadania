@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psol.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psol.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Erika Hilton (PSOL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a8e80d11097a1ad3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a8e80d11097a1ad3.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 49381837 de VIACAO COMETA S A (R$ 190,50, 14/06/2026): foi declarado R$ 190,50, mas o maior valor lido no documento é R$ 109,50. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Erika Hilton (PSOL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2ce935704bb813a0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2ce935704bb813a0.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 20452607 de VIACAO COMETA S A (R$ 102,98, 05/06/2026): o documento traz o(s) CNPJ(s) 17289475000142, 54360623000102, e não o do fornecedor declarado (61084018000103). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Tarcísio Motta (PSOL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0d0e688cc92ce028.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0d0e688cc92ce028.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 194320 de HOTEL PHENICIA LTDA (R$ 2.602,60, 14/12/2023): foi declarado R$ 2.602,60, mas o maior valor lido no documento é R$ 2.360,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Chico Alencar (PSOL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7af461d20ad62538.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7af461d20ad62538.html</id>
 <updated>2026-11-01T00:00:00Z</updated>
@@ -36,12 +54,6 @@
 <updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 18860 de LOCADORA DE VEICULOS FLORESTA LTDA (R$ 2.580,65, 31/07/2026): o documento traz o(s) CNPJ(s) 03350577000111, e não o do fornecedor declarado (07560718000181). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Célia Xakriabá (PSOL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ac735e1ba59d3afe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ac735e1ba59d3afe.html</id>
-<updated>2026-10-31T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 19049 de LOCADORA DE VEICULOS FLORESTA LTDA (R$ 903,23, 31/08/2026): o documento traz o(s) CNPJ(s) 03350577000111, e não o do fornecedor declarado (07560718000181). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Chico Alencar (PSOL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8a15202bfb33b645.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8a15202bfb33b645.html</id>

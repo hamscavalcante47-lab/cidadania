@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3420.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3420.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Lafayette de Andrada (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/834b7f467e5d924d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/834b7f467e5d924d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 654 de AUTO POSTO RODA D'AGUA LTDA - ME (R$ 358,48, 02/03/2026): o emissor da nota é o CNPJ 40.084.269/0001-18, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Lafayette de Andrada (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a7ea23a18049ecab.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a7ea23a18049ecab.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 2533756 de CEMIG DISTRIBUIÇÃO S.A. (R$ 132,59, 06/04/2026): o emissor da nota é o CNPJ 05.246.123/0001-20, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lafayette de Andrada (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6f5b0b270d3f4c48.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f5b0b270d3f4c48.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 654 de AUTO POSTO RODA D'AGUA LTDA - ME (R$ 358,48, 02/03/2026): o documento traz o(s) CNPJ(s) 40084269000118, e não o do fornecedor declarado (19222613000100). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lafayette de Andrada (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aac4778a3f57b148.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aac4778a3f57b148.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2533756 de CEMIG DISTRIBUIÇÃO S.A. (R$ 132,59, 06/04/2026): o documento traz o(s) CNPJ(s) 05246123000120, e não o do fornecedor declarado (06981180000116). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Lafayette de Andrada (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cbaebc2562cbd754.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cbaebc2562cbd754.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 69278 de POSTO PIONEIRO LTDA (R$ 112,64, 12/07/2025): o documento traz o(s) CNPJ(s) 03478410000130, e não o do fornecedor declarado (20465753000180). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Dados da chave de acesso não batem com a despesa declarada — Lafayette de Andrada (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/02ba47d39c10afe5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/02ba47d39c10afe5.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1699.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1699.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Vicentinho (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/189c92806a71e0b5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/189c92806a71e0b5.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de AUTO POSTO SAO BERNARDO LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 13540 (R$ 1.807,66, 16/06/2023); nº 13640 (R$ 1.807,66, 16/06/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Vicentinho (PT/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5aae8205531c5a1e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5aae8205531c5a1e.html</id>
 <updated>2026-10-31T00:00:00Z</updated>

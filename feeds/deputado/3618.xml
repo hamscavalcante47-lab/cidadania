@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3618.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3618.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Sargento Portugal (PODE/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/513fdd3ccdfeb50a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/513fdd3ccdfeb50a.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00131604 de HOTELARIA ALBA S.A. (R$ 398,03, 10/10/2026): foi declarado R$ 398,03, mas o maior valor lido no documento é R$ 389,03. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Sargento Portugal (PODE/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/787e5687a23d6413.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/787e5687a23d6413.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

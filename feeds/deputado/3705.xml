@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3705.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3705.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Ana Paula Lima (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe2cbaf312ceddcb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe2cbaf312ceddcb.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de HOTEL VALERIM ITAJAI LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 00000100348 (R$ 330,00, 29/05/2026); nº 00000100348 (R$ 330,00, 30/05/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Ana Paula Lima (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/10ee92f96d8ae4af.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/10ee92f96d8ae4af.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202300000001402 de HOPHA HOTEIS (R$ 222,50, 23/08/2023): foi declarado R$ 222,50, mas o maior valor lido no documento é R$ 215,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Ana Paula Lima (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/86307693e4836746.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/86307693e4836746.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202300000001401 de HOPHA HOTEIS (R$ 219,00, 23/08/2023): foi declarado R$ 219,00, mas o maior valor lido no documento é R$ 215,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Ana Paula Lima (PT/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/16024accba30c9d1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/16024accba30c9d1.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

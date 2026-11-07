@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2276.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2276.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Ruy Carneiro (PODE/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df6aa345389dd5b8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df6aa345389dd5b8.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 32 de MARIA DA GLORIA SOARES PESSOA - RADIO WEB SANTA RITA (R$ 1.500,00, 17/09/2025): foi declarado R$ 1.500,00, mas o maior valor lido no documento é R$ 1.200,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Ruy Carneiro (PODE/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/38ba45c54210b2ee.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/38ba45c54210b2ee.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1000659 de ESTRATEGIA SERVIÇOS DE COMUNICAÇÃO EIRELI (R$ 1.200,00, 25/06/2025): foi declarado R$ 1.200,00, mas o maior valor lido no documento é R$ 1.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Ruy Carneiro (PODE/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c361d3144570ddd5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c361d3144570ddd5.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1000978 de BLOG MAIS COMUNICAÇÃO (R$ 1.200,00, 11/12/2024): o documento traz o(s) CNPJ(s) 18302933000107, e não o do fornecedor declarado (30647703000177). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Ruy Carneiro (PODE/PB)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b7d16a2a94bf9e02.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b7d16a2a94bf9e02.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

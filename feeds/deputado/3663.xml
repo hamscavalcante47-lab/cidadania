@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3663.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3663.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Reimont (PT/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2a05222f008de9bb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2a05222f008de9bb.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de SOCIAL COMPANY SISTEMAS E MKT PARA INTERNET foi anexado a 2 reembolsos. Despesas declaradas: nº 086/8 (R$ 183,95, 28/08/2023); nº 086/09 (R$ 185,95, 01/09/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Reimont (PT/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/98b25038266ef47a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/98b25038266ef47a.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

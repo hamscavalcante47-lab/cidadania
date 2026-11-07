@@ -4,9 +4,135 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/republicanos.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/republicanos.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Julio Cesar Ribeiro (REPUBLICANOS/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3dcf326e63ff2178.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3dcf326e63ff2178.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MARCELO S DA ROCHA SOUSA-BLOG OLHAR DIGITAL foi anexado a 2 reembolsos. Despesas declaradas: nº 42 (R$ 2.500,00, 05/03/2025); nº 42 (R$ 3.000,00, 05/03/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Marussa Boldrin (REPUBLICANOS/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8efefffdd1105d12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8efefffdd1105d12.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 10519 de Rrs Auto Posto Ltda (R$ 325,67, 07/09/2023): o emissor da nota é o CNPJ 00.307.362/0001-20, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Luis Carlos Gomes (REPUBLICANOS/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2045ca25f39c2310.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2045ca25f39c2310.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 559189 de AUTO POSTO AEROPORTO LTDA (R$ 210,96, 19/11/2024): a nota é de 2023-11, mas foi declarada com data 19/11/2024. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/70c85ddd26fa95a2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/70c85ddd26fa95a2.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 26001 de POSTO AUSTRIA (R$ 171,78, 31/01/2026): o emissor da nota é o CNPJ 44.141.521/0001-34, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/95b95c48f3922d72.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/95b95c48f3922d72.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 102297 de AUTO POSTO SLOMPO LTDA (R$ 150,00, 12/05/2025): o emissor da nota é o CNPJ 05.825.869/0001-99, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Julio Cesar Ribeiro (REPUBLICANOS/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/52b2911749e6b549.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/52b2911749e6b549.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 42 de MARCELO S DA ROCHA SOUSA-BLOG OLHAR DIGITAL (R$ 2.500,00, 05/03/2025): o documento traz o(s) CNPJ(s) 19397550000114, e não o do fornecedor declarado (30856625000110). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Ricardo Ayres (REPUBLICANOS/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5b4160c508621255.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5b4160c508621255.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 202300000000217 de T1 CONTEÚDOS NA INTERNET LTDA (R$ 2.000,00, 23/11/2023): o documento traz o(s) CNPJ(s) 09617148000144, e não o do fornecedor declarado (05841131000115). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Leo Prates (REPUBLICANOS/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/600aee1443085645.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/600aee1443085645.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 00000724 de LUAN JOAQUIM DE JESUS SANTOS (R$ 2.000,00, 16/06/2025): o documento traz o(s) CNPJ(s) 13715891000104, 32970798000190, e não o do fornecedor declarado (32252078000190). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Jorge Goetten (REPUBLICANOS/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/07788a0277aa314e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/07788a0277aa314e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 49 de LUIS GUSTAVO CAMPOS MUNIZ DA SILVA ***.597.547-** (R$ 1.500,00, 03/03/2023): o documento traz o(s) CNPJ(s) 22885439000181, e não o do fornecedor declarado (42454821000148). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Marussa Boldrin (REPUBLICANOS/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b49f81449b8ff06e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b49f81449b8ff06e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 10519 de Rrs Auto Posto Ltda (R$ 325,67, 07/09/2023): o documento traz o(s) CNPJ(s) 00307362000120, e não o do fornecedor declarado (31537668000104). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9763d47f346ba394.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9763d47f346ba394.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 379150 de PORTAL ESTRELA DO MORUMBI CENTRO AUTOMOTIVO LTDA (R$ 261,43, 26/04/2023): foi declarado R$ 261,43, mas o maior valor lido no documento é R$ 216,43. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4e40c7fd5a4c8619.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4e40c7fd5a4c8619.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 26001 de POSTO AUSTRIA (R$ 171,78, 31/01/2026): o documento traz o(s) CNPJ(s) 44141521000134, e não o do fornecedor declarado (27751075004310). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Maria Rosas (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/970a2cd14a47dfca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/970a2cd14a47dfca.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 102297 de AUTO POSTO SLOMPO LTDA (R$ 150,00, 12/05/2025): o documento traz o(s) CNPJ(s) 05825869000199, e não o do fornecedor declarado (03524616000150). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Euclydes Pettersen (REPUBLICANOS/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7594ffc1ef69eea4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7594ffc1ef69eea4.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 7415 de VIBRA ENERGIA S.A (R$ 843,66, 06/02/2024): o emissor da nota é o CNPJ 01.445.057/0001-67, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/741d0c94d546e152.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/741d0c94d546e152.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 173845 de AUTO POSTO BUG LT (R$ 279,89, 28/06/2024): o emissor da nota é o CNPJ 54.780.739/0001-92, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Geovania de Sá (REPUBLICANOS/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d05dae77bc6036e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d05dae77bc6036e6.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 25084 de SOCIEDADE ABAST. SANTA BARBARA LTDA (R$ 265,92, 18/04/2024): a nota é de 2023-04, mas foi declarada com data 18/04/2024. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Euclydes Pettersen (REPUBLICANOS/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5ef747674c442f68.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5ef747674c442f68.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 7415 de VIBRA ENERGIA S.A (R$ 843,66, 06/02/2024): o documento traz o(s) CNPJ(s) 01445057000167, e não o do fornecedor declarado (34274233011210). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Bruno Farias (REPUBLICANOS/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/525f7b7c57a06bba.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/525f7b7c57a06bba.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 6312 de EMPRESA GONTIJO DE TRANSPORTES LIMITADA (R$ 461,10, 26/04/2023): foi declarado R$ 461,10, mas o maior valor lido no documento é R$ 376,40. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8e858580a8a8f396.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c92d54a748c2a8f0.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 173845 de AUTO POSTO BUG LT (R$ 279,89, 28/06/2024): o documento traz o(s) CNPJ(s) 54780739000192, e não o do fornecedor declarado (43368281000142). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Aluisio Mendes (REPUBLICANOS/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/906d499c6893c31d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/906d499c6893c31d.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de BRISTOL HOSPITALITY IMPERATRIZ ADMINISTRACAO DE HOTEIS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 8416 (R$ 462,00, 04/08/2026); nº 8416 (R$ 462,00, 06/08/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Roberto Duarte (REPUBLICANOS/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a1b7aa269db746d0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a1b7aa269db746d0.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 5195 de HOTEL &amp; RESTAURANTE ACAI LTDA (R$ 218,00, 22/07/2026): o documento traz o(s) CNPJ(s) 15541783000198, e não o do fornecedor declarado (07639184000183). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Bruno Farias (REPUBLICANOS/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2f456ddccf2e44ab.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2f456ddccf2e44ab.html</id>
 <updated>2026-11-01T00:00:00Z</updated>
@@ -180,131 +306,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº C00200452 de EMPRESA CONCESSIONARIA DE RODOVIAS DO SUL S/A - ECOSUL (14/08/2023): 2 lançamentos em 1 competência(s); documento R$ 15,20, valor líquido R$ 30,40, restituições R$ 0,00, saldo R$ 30,40 (excedente R$ 15,20). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Ronaldo Nogueira (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/da01434187948a3d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/da01434187948a3d.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1282108 de Caminhos da serra gaucha (28/05/2025): 2 lançamentos em 1 competência(s); documento R$ 11,69, valor líquido R$ 23,38, restituições R$ 0,00, saldo R$ 23,38 (excedente R$ 11,69). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1a75f67803b8c4ca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1a75f67803b8c4ca.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 59398 de CONC. RODOVIAS INTEGRADAS DO SUL (11/08/2023): 3 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 17,40, restituições R$ 0,00, saldo R$ 17,40 (excedente R$ 11,60). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5da79b22dfb1a8fc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5da79b22dfb1a8fc.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 51304 de CONC. RODOVIAS INTEGRADAS DO SUL (12/10/2023): 3 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 17,40, restituições R$ 0,00, saldo R$ 17,40 (excedente R$ 11,60). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/61ae00098926785f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/61ae00098926785f.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 58538 de CONC. RODOVIAS INTEGRADAS DO SUL (14/10/2023): 3 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 17,40, restituições R$ 0,00, saldo R$ 17,40 (excedente R$ 11,60). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5159b81d8e3c4576.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5159b81d8e3c4576.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 22179 de EGR EMPRESA GAUCHA DE RODOVIAS SA (10/08/2023): 3 lançamentos em 1 competência(s); documento R$ 3,25, valor líquido R$ 9,75, restituições R$ 0,00, saldo R$ 9,75 (excedente R$ 6,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6c35e8974b2c8bf2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6c35e8974b2c8bf2.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 22251 de EGR EMPRESA GAUCHA DE RODOVIAS SA (10/08/2023): 3 lançamentos em 1 competência(s); documento R$ 3,25, valor líquido R$ 9,75, restituições R$ 0,00, saldo R$ 9,75 (excedente R$ 6,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/31f7f125a7ef63a6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/31f7f125a7ef63a6.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 58512 de CONC. RODOVIAS INTEGRADAS DO SUL (26/10/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7d65de2d4525aedd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7d65de2d4525aedd.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 59372 de CONC. RODOVIAS INTEGRADAS DO SUL (14/10/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d074b4ff1adb78c1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d074b4ff1adb78c1.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 59040 de CONC. RODOVIAS INTEGRADAS DO SUL (25/08/2023): 2 lançamentos em 1 competência(s); documento R$ 5,80, valor líquido R$ 11,60, restituições R$ 0,00, saldo R$ 11,60 (excedente R$ 5,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Ronaldo Nogueira (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3240f830b6f30907.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3240f830b6f30907.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº ST25PPQJ0960 de CONC. RODOVIAS INTEGRADAS DO SUL (07/07/2024): 2 lançamentos em 1 competência(s); documento R$ 5,50, valor líquido R$ 11,00, restituições R$ 0,00, saldo R$ 11,00 (excedente R$ 5,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Ronaldo Nogueira (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a62324f8c564e158.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a62324f8c564e158.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 10004011174861312700934EB52 de CONC. RODOVIAS INTEGRADAS DO SUL (30/05/2025): 2 lançamentos em 1 competência(s); documento R$ 5,50, valor líquido R$ 11,00, restituições R$ 0,00, saldo R$ 11,00 (excedente R$ 5,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Ronaldo Nogueira (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e2e8cd942759d471.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e2e8cd942759d471.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 10007003174862723109030346E de CONC. RODOVIAS INTEGRADAS DO SUL (30/05/2025): 2 lançamentos em 1 competência(s); documento R$ 5,50, valor líquido R$ 11,00, restituições R$ 0,00, saldo R$ 11,00 (excedente R$ 5,50). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4ac386b03e31e0ef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4ac386b03e31e0ef.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 26170 de EGR EMPRESA GAUCHA DE RODOVIAS SA (11/08/2023): 2 lançamentos em 1 competência(s); documento R$ 5,20, valor líquido R$ 10,40, restituições R$ 0,00, saldo R$ 10,40 (excedente R$ 5,20). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Franciane Bayer (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a030299ecf1cfd42.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a030299ecf1cfd42.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 44693 de CONCESSIONÁRIA ROTA SANTA MARIA (15/01/2024): 2 lançamentos em 1 competência(s); documento R$ 4,30, valor líquido R$ 8,60, restituições R$ 0,00, saldo R$ 8,60 (excedente R$ 4,30). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Doador da campanha recebendo da cota — Fred Linhares (REPUBLICANOS/DF)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8d3169e34876bb7c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8d3169e34876bb7c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. R2X DIGITAL SOCIEDADE LIMITADA recebeu R$ 15.000,00 da cota; o sócio Ian Fontenele Figueiredo doou R$ 1.000,00 à campanha. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Jadyel Alencar (REPUBLICANOS/PI)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8dd6c0b1851e0b62.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8dd6c0b1851e0b62.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. LEMS CASA E FESTA LTDA recebeu R$ 6.925,00 por "divulgação da atividade parlamentar", mas sua atividade é "Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal; instrumentos musicais" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Lêda Borges (REPUBLICANOS/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/90bb75e58967ef6c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/90bb75e58967ef6c.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MM SOLUCOES EM PAINEIS LUMINOSOS LTDA recebeu R$ 6.200,00 por "divulgação da atividade parlamentar", mas sua atividade é "Instalação de painéis publicitários" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Eli Borges (REPUBLICANOS/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3ef2bd553489e8c4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1ea17338526b2597.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Declarado como 3 VIAS COMERCIO DE DERIVADOS DE PETROLEO LTDA, que recebeu R$ 5.348,36 por "combustíveis e lubrificantes"; o CNPJ 11.430.412/0005-01 aparece hoje na Receita como LV CONSULTORIA ADMINISTRATIVA LTDA, com atividade "Serviços combinados de escritório e apoio administrativo". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Hugo Motta (REPUBLICANOS/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c5298fbf3d630770.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c5298fbf3d630770.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. 60.531.133 SILVIO ROMERO MEDEIROS DO NASCIMENTO recebeu R$ 5.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Outras atividades de serviços pessoais não especificadas anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Thiago de Joaldo (REPUBLICANOS/SE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/24fdc296da10bc3b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/24fdc296da10bc3b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. ASSOCIACAO DE RADIODIFUSAO COMUNITARIA DA CIDADE DE PORTO DA FOLHA recebeu R$ 3.600,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades associativas não especificadas anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Bruno Farias (REPUBLICANOS/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9cf1368ba9c61a60.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe1bee846550d244.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. Declarado como auto posto de combustiveis ferrari ltda, que recebeu R$ 3.262,93 por "combustíveis e lubrificantes"; o CNPJ 33.722.643/0001-06 aparece hoje na Receita como SANTA CLARA CONSULTORIA EMPRESARIAL LTDA, com atividade "Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

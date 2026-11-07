@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2289.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2289.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Diego Andrade (PSD/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8e0fbd47aef28a62.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8e0fbd47aef28a62.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 71590 de POSTO SÃO JOSÉ (R$ 455,05, 26/05/2026): o documento traz o(s) CNPJ(s) 21804120000626, e não o do fornecedor declarado (25269507000176). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

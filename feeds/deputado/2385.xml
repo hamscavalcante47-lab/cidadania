@@ -4,7 +4,31 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2385.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2385.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Mesmo documento usado em despesas diferentes — Eros Biondini (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/33dc191904658839.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/33dc191904658839.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ARCO ADMINISTRADORA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 12861 (R$ 920,25, 16/08/2026); nº 12861 (R$ 920,25, 16/08/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Eros Biondini (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/15b0bd10cab6eb0a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/15b0bd10cab6eb0a.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 12861 de ARCO ADMINISTRADORA LTDA (R$ 920,25, 16/08/2026): o documento traz o(s) CNPJ(s) 28015401000134, e não o do fornecedor declarado (02302811000849). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Eros Biondini (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/67145afeb5e771d4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/67145afeb5e771d4.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 444301 de VILA GALE BRASIL - ATIVIDADES HOTELEIRAS LTDA (R$ 596,00, 15/02/2025): foi declarado R$ 596,00, mas o maior valor lido no documento é R$ 567,80. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Eros Biondini (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8fd3ee7937861d9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8fd3ee7937861d9.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 444301 de VILA GALE BRASIL - ATIVIDADES HOTELEIRAS LTDA (R$ 596,00, 15/02/2025): o documento traz o(s) CNPJ(s) 04463276000833, e não o do fornecedor declarado (04027102000666). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

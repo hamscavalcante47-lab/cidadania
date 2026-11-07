@@ -4,7 +4,25 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1590.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1590.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luiz Couto (PT/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/226beb00122d960f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/226beb00122d960f.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1000113 de cooperativa  de comunicação e cultura de roda (R$ 2.000,00, 10/05/2024): o documento traz o(s) CNPJ(s) 40705206000131, e não o do fornecedor declarado (46111517000159). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f818d3f18b105cc7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f818d3f18b105cc7.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1000113 de cooperativa  de comunicação e cultura de roda (R$ 2.000,00, 10/05/2024): foi declarado R$ 2.000,00, mas o maior valor lido no documento é R$ 1.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ef0a3001401502c5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ef0a3001401502c5.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1006592 de NAJA VIGILANCIA E SEGURANCA LTDA (R$ 295,88, 20/04/2023): foi declarado R$ 295,88, mas o maior valor lido no documento é R$ 280,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

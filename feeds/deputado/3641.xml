@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3641.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3641.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Mario Frias (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3e5e7106f198d4fd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3e5e7106f198d4fd.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MONTE AZUL COMERCIAL PRODUTOS DE PETROLEO LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 615683 (R$ 335,81, 19/08/2024); nº 355174 (R$ 194,24, 20/08/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Mario Frias (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1f3d1d9b2bcde64c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1f3d1d9b2bcde64c.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 615683 de MONTE AZUL COMERCIAL PRODUTOS DE PETROLEO LTDA (R$ 335,81, 19/08/2024): foi declarado R$ 335,81, mas o maior valor lido no documento é R$ 194,24. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Mario Frias (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2a69969aea831b43.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2a69969aea831b43.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 615683 de MONTE AZUL COMERCIAL PRODUTOS DE PETROLEO LTDA (R$ 335,81, 19/08/2024): o documento traz o(s) CNPJ(s) 24439031000101, e não o do fornecedor declarado (66762535000108). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor de outro gabinete — Mario Frias (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1ec5ce703afaaef5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1ec5ce703afaaef5.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

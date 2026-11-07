@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3624.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3624.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Bruno Farias (REPUBLICANOS/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/525f7b7c57a06bba.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/525f7b7c57a06bba.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 6312 de EMPRESA GONTIJO DE TRANSPORTES LIMITADA (R$ 461,10, 26/04/2023): foi declarado R$ 461,10, mas o maior valor lido no documento é R$ 376,40. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Bruno Farias (REPUBLICANOS/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2f456ddccf2e44ab.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2f456ddccf2e44ab.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

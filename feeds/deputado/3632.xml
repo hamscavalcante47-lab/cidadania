@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3632.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3632.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Carol Dartora (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/73ce50efd1ff0285.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/73ce50efd1ff0285.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1447 de Hotel Dom Leopoldo (R$ 752,00, 19/05/2026): o documento traz o(s) CNPJ(s) 03822198000187, e não o do fornecedor declarado (60290136000105). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

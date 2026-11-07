@@ -4,7 +4,37 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3396.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3396.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Mesmo documento usado em despesas diferentes — Eduardo Bismarck (PV/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5d1a2577610c1764.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5d1a2577610c1764.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de JANGADA COMERCIO DE COMBUSTIVEIS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 407935 (R$ 250,00, 27/06/2024); nº 29598 (R$ 401,86, 30/06/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Eduardo Bismarck (PV/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1e3cb3252a22fdc3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1e3cb3252a22fdc3.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ORGANIZACAO HELIO MEIRELES PETROLEO LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 282504 (R$ 231,32, 05/10/2023); nº 282504 (R$ 213,32, 09/10/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Eduardo Bismarck (PV/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/faea5c82e574a350.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/faea5c82e574a350.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 29598 de OLIRIO II COMERCIO DE DERIVADOS (R$ 401,86, 30/06/2024): o emissor da nota é o CNPJ 18.977.100/0001-38, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Eduardo Bismarck (PV/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/423849c0a8bbc23d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/423849c0a8bbc23d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 29598 de OLIRIO II COMERCIO DE DERIVADOS (R$ 401,86, 30/06/2024): foi declarado R$ 401,86, mas o maior valor lido no documento é R$ 256,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Eduardo Bismarck (PV/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d6d2de53572ec678.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6d2de53572ec678.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0000000046 de A. P. O. LIMA SILVA SERVICOS LTDA (R$ 106,00, 25/07/2024): foi declarado R$ 106,00, mas o maior valor lido no documento é R$ 100,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

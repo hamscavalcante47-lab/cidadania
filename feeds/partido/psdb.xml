@@ -4,9 +4,45 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psdb.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psdb.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df2ea087be474007.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df2ea087be474007.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de EMPRESA EMBAIXADOR LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 3076494 (R$ 97,05, 24/02/2024); nº sn (R$ 97,05, 24/02/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1a4c7a038d79e3f8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3ae781ede1711b42.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1002806196289 de ETERPEL EMPRESA MUNICIPALDO TERMINAL RODOVIARIO DE PEL. (R$ 173,15, 07/02/2025): o documento traz o(s) CNPJ(s) 92189612000192, e não o do fornecedor declarado (89606933000130). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/93a624145adebbb7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/93a624145adebbb7.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1002806196289 de ETERPEL EMPRESA MUNICIPALDO TERMINAL RODOVIARIO DE PEL. (R$ 173,15, 07/02/2025): foi declarado R$ 173,15, mas o maior valor lido no documento é R$ 167,60. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6911d3d18cb9c8a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6911d3d18cb9c8a7.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3820894 de Expresso Embaixador (R$ 165,40, 01/08/2025): foi declarado R$ 165,40, mas o maior valor lido no documento é R$ 159,85. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/118f4081c15728a2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/118f4081c15728a2.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 70015985 de Expresso Embaixador (R$ 129,35, 08/10/2025): foi declarado R$ 129,35, mas o maior valor lido no documento é R$ 123,80. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Beto Richa (PSDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d05d946ce1a14f3d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d05d946ce1a14f3d.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 46399 de DELFIM COMUNICACAO E TURISMO LTDA (R$ 340,00, 25/06/2025): foi declarado R$ 340,00, mas o maior valor lido no documento é R$ 20,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Jeferson Rodrigues (PSDB/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/834e82e9ce68e185.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/834e82e9ce68e185.html</id>
 <updated>2026-11-01T00:00:00Z</updated>
@@ -84,12 +120,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. 41.643.692 MARIA DO CARMO DA SILVA recebeu R$ 2.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Reparação e manutenção de computadores e de equipamentos periféricos" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Marcelo Queiroz (PSDB/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d7fb6a17785bfb4b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d7fb6a17785bfb4b.html</id>
-<updated>2026-10-26T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. MARCELLE COLBERT B. A. BARBOSA LTDA recebeu R$ 122.000,00 por "divulgação da atividade parlamentar", mas sua atividade é "Atividades de artistas plásticos, jornalistas independentes e escritores" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>MEI recebendo mais que o limite anual — Vicentinho Júnior (PSDB/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5759669193c837b2.html</id>

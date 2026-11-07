@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3357.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3357.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Gilson Marques (NOVO/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bf6996fd05389e90.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bf6996fd05389e90.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Posto Vale Europeu foi anexado a 2 reembolsos. Despesas declaradas: nº 000039620 (R$ 297,09, 03/03/2023); nº 000039620 (R$ 297,09, 06/03/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Gilson Marques (NOVO/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/942b1d3f3662713e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/942b1d3f3662713e.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

@@ -4,9 +4,51 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pa.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pa.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Celso Sabino (PDT/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/46afee77d25401e7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/46afee77d25401e7.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 40073 de 031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA (R$ 217,53, 11/04/2023): o emissor da nota é o CNPJ 19.257.042/0001-30, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Keniston Braga (MDB/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/36555114f545608d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/36555114f545608d.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2 de BEATRIZ LEITE MONTEIRO (R$ 7.048,00, 02/12/2024): o documento traz o(s) CNPJ(s) 58305168000195, e não o do fornecedor declarado (56420806000193). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Andreia Siqueira (PSB/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/228304356f7b1467.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/228304356f7b1467.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 47 de TECNEGOCIOS SOLUÇÕES EM INFORMÁTICA LTDA (R$ 6.000,00, 03/05/2024): o documento traz o(s) CNPJ(s) 49340295000134, e não o do fornecedor declarado (11521613000190). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Celso Sabino (PDT/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9dbfb6c06b44aab1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9dbfb6c06b44aab1.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 40073 de 031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA (R$ 217,53, 11/04/2023): o documento traz o(s) CNPJ(s) 19257042000130, e não o do fornecedor declarado (00306597003112). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Júnior Ferrari (PSD/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c54c72aec59f1a42.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c54c72aec59f1a42.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 307490 de AUTO POSTO BRAGA LTDA (R$ 200,00, 06/10/2023): foi declarado R$ 200,00, mas o maior valor lido no documento é R$ 109,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Júnior Ferrari (PSD/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/19b254271d30df3e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/19b254271d30df3e.html</id>
+<updated>2026-11-05T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de POSTO PINHEIRO LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 171047 (R$ 375,06, 25/09/2023); nº 171642 (R$ 300,00, 29/09/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Raimundo Santos (PSD/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/241e54d97b185748.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/241e54d97b185748.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 5389 de RB3 HOTELARIA LTDA (R$ 649,49, 16/08/2023): foi declarado R$ 649,49, mas o maior valor lido no documento é R$ 646,94. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Hélio Leite (UNIÃO/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b63528c7adf0b3dd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b63528c7adf0b3dd.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

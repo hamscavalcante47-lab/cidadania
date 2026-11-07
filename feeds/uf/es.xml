@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/es.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/es.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Gilson Daniel (PODE/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e2b3f749300d6eff.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e2b3f749300d6eff.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 33 de ELIAS SOARES DA SILVA (R$ 12.500,00, 10/03/2026): foi declarado R$ 12.500,00, mas o maior valor lido no documento é R$ 12.250,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Helder Salomão (PT/ES)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/077190e1ba81c864.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/077190e1ba81c864.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

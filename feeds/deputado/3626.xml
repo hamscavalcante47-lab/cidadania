@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3626.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3626.xml</id>
-<updated>2026-11-01T00:00:00Z</updated>
+<updated>2026-11-07T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Ana Pimentel (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/37a814d5861efea4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/37a814d5861efea4.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 17884 de AUTO POSTO CRISTIANO OTONI LTDA (R$ 150,00, 01/10/2026): o emissor da nota é o CNPJ 00.786.662/0001-39, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Ana Pimentel (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e11d39f8c0a8bf3e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e11d39f8c0a8bf3e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 17884 de AUTO POSTO CRISTIANO OTONI LTDA (R$ 150,00, 01/10/2026): o documento traz o(s) CNPJ(s) 00786662000139, e não o do fornecedor declarado (48531691000186). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Ana Pimentel (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5fcfa9d0385d52d2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5fcfa9d0385d52d2.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 433038 de POSTO SANTA TEREZINHA LTDA (R$ 100,00, 31/05/2023): o documento traz o(s) CNPJ(s) 29077402000176, e não o do fornecedor declarado (02735929000194). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Ana Pimentel (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5cc8c0b18cfc129a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5cc8c0b18cfc129a.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
