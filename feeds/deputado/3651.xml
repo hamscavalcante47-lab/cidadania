@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3651.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3651.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Mesmo documento usado em despesas diferentes — Jack Rocha (PT/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f59cf7051fae35dc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f59cf7051fae35dc.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ALGAR TELECOM S/A foi anexado a 2 reembolsos. Despesas declaradas: nº 000187155 (R$ 193,79, 21/09/2024); nº 000187155 (R$ 193,79, 11/10/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

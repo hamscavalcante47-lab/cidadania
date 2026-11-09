@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2934.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2934.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Marcelo Álvaro Antônio (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/133276cbcda5ae8f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/133276cbcda5ae8f.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MOVIMENTO SISTEMAS DE GESTAO LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 0000.00000000201 (R$ 848,00, 23/03/2026); nº 000000000000201 (R$ 848,00, 23/03/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Marcelo Álvaro Antônio (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/00276761c18dada9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/00276761c18dada9.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de PAPELARIA E ARMARINHO FONSECA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 227 (R$ 308,90, 08/03/2023); nº 227 (R$ 308,90, 08/04/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Marcelo Álvaro Antônio (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bbeb5d1294d00271.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bbeb5d1294d00271.html</id>
 <updated>2026-11-04T00:00:00Z</updated>

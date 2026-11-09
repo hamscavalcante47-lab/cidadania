@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3328.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3328.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0ea030e9d2ba113b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0ea030e9d2ba113b.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de PREFEITURA DE PELOTAS RS foi anexado a 2 reembolsos. Despesas declaradas: nº sn (R$ 575,04, 10/03/2024); nº 11395353 (R$ 575,04, 01/04/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Recibos de vários meses gravados de uma vez, antes das datas — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/931d2d772d0f22eb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/931d2d772d0f22eb.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 10 comprovantes de pagamento de SOM NA KAIXA COMÉRCIO DE ALARMES E SOM LTDA, com quitação datada de 01/08/2023 a 01/12/2023 (R$ 57.500,00), estão em arquivos PDF gravados em 10/07/2023 entre 07h38 e 07h45, junto com outro comprovante do mesmo fornecedor. O mais adiantado foi gravado 144 dias antes do dia em que diz ter recebido o pagamento. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Recibos de vários meses gravados de uma vez, antes das datas — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a8d3c7c223bfb38a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a8d3c7c223bfb38a.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 4 comprovantes de pagamento de SOM NA KAIXA COMÉRCIO DE ALARMES E SOM LTDA, com quitação datada de 01/04/2023 a 01/07/2023 (R$ 28.000,00), estão em arquivos PDF gravados em 07/03/2023 entre 01h25 e 01h26, junto com outros 2 comprovantes do mesmo fornecedor. O mais adiantado foi gravado 116 dias antes do dia em que diz ter recebido o pagamento. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Recibos de vários meses gravados de uma vez, antes das datas — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ed8fd3836c11571.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ed8fd3836c11571.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 6 comprovantes de pagamento de SOM NA KAIXA COMÉRCIO DE ALARMES E SOM LTDA, com quitação datada de 02/11/2024 a 01/02/2025 (R$ 27.900,00), estão em arquivos PDF gravados em 31/10/2024 entre 00h09 e 00h15, junto com outros 3 comprovantes do mesmo fornecedor. O mais adiantado foi gravado 93 dias antes do dia em que diz ter recebido o pagamento. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Daniel Trzeciak (PSDB/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df2ea087be474007.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df2ea087be474007.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
@@ -20,22 +44,22 @@
 <summary>Gravidade média. nº 1002806196289 de ETERPEL EMPRESA MUNICIPALDO TERMINAL RODOVIARIO DE PEL. (R$ 173,15, 07/02/2025): o documento traz o(s) CNPJ(s) 92189612000192, e não o do fornecedor declarado (89606933000130). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/93a624145adebbb7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/93a624145adebbb7.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/722130625fe2076e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/93a624145adebbb7.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 1002806196289 de ETERPEL EMPRESA MUNICIPALDO TERMINAL RODOVIARIO DE PEL. (R$ 173,15, 07/02/2025): foi declarado R$ 173,15, mas o maior valor lido no documento é R$ 167,60. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 1002806196289 de ETERPEL EMPRESA MUNICIPALDO TERMINAL RODOVIARIO DE PEL. (R$ 173,15, 07/02/2025): foi declarado R$ 173,15, mas o maior valor lido no documento é R$ 167,60. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6911d3d18cb9c8a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6911d3d18cb9c8a7.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3861d082e2ab0d9c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6911d3d18cb9c8a7.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 3820894 de Expresso Embaixador (R$ 165,40, 01/08/2025): foi declarado R$ 165,40, mas o maior valor lido no documento é R$ 159,85. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 3820894 de Expresso Embaixador (R$ 165,40, 01/08/2025): foi declarado R$ 165,40, mas o maior valor lido no documento é R$ 159,85. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/118f4081c15728a2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/118f4081c15728a2.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd731f9c39aa91a0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/118f4081c15728a2.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 70015985 de Expresso Embaixador (R$ 129,35, 08/10/2025): foi declarado R$ 129,35, mas o maior valor lido no documento é R$ 123,80. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 70015985 de Expresso Embaixador (R$ 129,35, 08/10/2025): foi declarado R$ 129,35, mas o maior valor lido no documento é R$ 123,80. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Daniel Trzeciak (PSDB/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f5a284bc22c5a541.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f5a284bc22c5a541.html</id>

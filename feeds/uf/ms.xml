@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ms.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ms.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Dr. Luiz Ovando (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/33e162e2630db629.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/33e162e2630db629.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de PROATIVA INFORMATICA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 04433 (R$ 480,00, 26/04/2023); nº 5043 (R$ 4.809,41, 28/04/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Dr. Luiz Ovando (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0dadab6b57a43905.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0dadab6b57a43905.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de PROATIVA INFORMATICA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 04573 (R$ 480,00, 27/11/2023); nº 04573 (R$ 480,00, 27/11/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Camila Jara (PT/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3f656b935594bc2b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3f656b935594bc2b.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 014179604 de ENERGISA DISTRIBUIDORA DE ENERGIA / MS. (R$ 473,10, 12/03/2024): a nota é de 2024-01, mas foi declarada com data 12/03/2024. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Marcos Pollon (PL/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7281110f68eb2c5b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7281110f68eb2c5b.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 25 de FAS DESENVOLVIMENTO DE SOFTWARE E CNSULTORIA LTDA (R$ 2.400,00, 09/09/2024): o documento traz o(s) CNPJ(s) 51913681000110, e não o do fornecedor declarado (55226129000104). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Dr. Luiz Ovando (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f386eff646758335.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f386eff646758335.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 04433 de PROATIVA INFORMATICA LTDA (R$ 480,00, 26/04/2023): o documento traz o(s) CNPJ(s) 01755916000114, e não o do fornecedor declarado (11275814000155). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Dr. Luiz Ovando (PP/MS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3affe70f755eeb9a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3affe70f755eeb9a.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

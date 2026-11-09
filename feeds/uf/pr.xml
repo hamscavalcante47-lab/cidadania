@@ -4,9 +4,135 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pr.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pr.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d221376112fe4888.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d221376112fe4888.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de M P SILVEIRA INFORMATICA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 00011 (R$ 600,00, 27/10/2025); nº 00011 (R$ 600,00, 27/10/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c5de2ade3cca0d96.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c5de2ade3cca0d96.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ARTE E CRIATIVIDADE COMUNICAÇÃO VISUAL LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 000000005334 (R$ 525,00, 17/09/2025); nº 000000005334 (R$ 525,00, 17/12/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/af5e116aa6ba40b0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/af5e116aa6ba40b0.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MUNICIPIO DE CURITIBA foi anexado a 2 reembolsos. Despesas declaradas: nº 595521804009 (R$ 287,39, 20/07/2025); nº 595521804009 (R$ 287,39, 21/07/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Marco Brasil (PP/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4eec7ca4c8512436.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4eec7ca4c8512436.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 60139 de 031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA (R$ 294,82, 02/05/2024): o emissor da nota é o CNPJ 81.579.633/0001-06, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Sargento Fahur (PL/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8ec031930b1423af.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8ec031930b1423af.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 264555 de PBJM COMERCIO DE GENEROS ALIMENTICIOS LTDA (R$ 38,52, 17/05/2024): o emissor da nota é o CNPJ 11.082.059/0001-92, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luisa Canziani (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0f8dc0903199686c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0f8dc0903199686c.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1728 de BARISTA SHOP COMERCIO E INDUSTRIA DE  ALIMENTOS LT (R$ 1.200,00, 01/04/2025): o documento traz o(s) CNPJ(s) 07528296000167, e não o do fornecedor declarado (20176241000101). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luisa Canziani (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4cd6b7d8f3aca3e7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4cd6b7d8f3aca3e7.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1730 de BARISTA SHOP COMERCIO E INDUSTRIA DE  ALIMENTOS LT (R$ 1.200,00, 13/06/2025): o documento traz o(s) CNPJ(s) 07528296000167, e não o do fornecedor declarado (20176241000101). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luisa Canziani (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8fd62184ef68faf7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8fd62184ef68faf7.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1729 de BARISTA SHOP COMERCIO E INDUSTRIA DE  ALIMENTOS LT (R$ 1.200,00, 01/05/2025): o documento traz o(s) CNPJ(s) 07528296000167, e não o do fornecedor declarado (20176241000101). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Carol Dartora (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/796bafb9762379f3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/796bafb9762379f3.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2398 de The Palm Bar &amp; Grille (R$ 453,84, 15/03/2026): foi declarado R$ 453,84, mas o maior valor lido no documento é R$ 2,26. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Carol Dartora (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bf58f9eb431baad7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bf58f9eb431baad7.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1215 de Excess Baggage Company (R$ 219,02, 16/04/2024): foi declarado R$ 219,02, mas o maior valor lido no documento é R$ 0,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Carol Dartora (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6ce37178b7671c58.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6ce37178b7671c58.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000014 de Maison Açai (R$ 118,21, 14/04/2024): foi declarado R$ 118,21, mas o maior valor lido no documento é R$ 9,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Sargento Fahur (PL/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6f0ece3c190bee43.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f0ece3c190bee43.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 264555 de PBJM COMERCIO DE GENEROS ALIMENTICIOS LTDA (R$ 38,52, 17/05/2024): o documento traz o(s) CNPJ(s) 11082059000192, e não o do fornecedor declarado (09054158000119). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Beto Richa (PSDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5a554d14abe15372.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5a554d14abe15372.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 02/02/2023: nota de hospedagem de LA HOTELS EMPREENDIMENTOS 1 LTDA - (RT BRASILIA ALVORADA), em Brasília, com o próprio deputado como hóspede, de R$ 2.904,15. Na data, o deputado recebia auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Aliel Machado (PV/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4b6b9cbb7a1866eb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4b6b9cbb7a1866eb.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 16/04/2026 a 23/04/2026 em Las Vegas (exterior), com 5 diárias de R$ 3.111,48 pagas pela Câmara: 10 notas de hospedagem da cota com data de 17/04/2026 a 23/04/2026; as notas são de fornecedores no Brasil (PR), não do destino, somando R$ 2.005,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Leandre (PSD/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cb7643f196a4501e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cb7643f196a4501e.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 13/06/2026 a 21/06/2026 em San Sebastian (exterior), com 4,5 diárias de R$ 3.129,57 pagas pela Câmara: 7 notas de hospedagem da cota com data de 16/06/2026 a 19/06/2026; as notas são de fornecedores no Brasil (PR), não do destino, somando R$ 1.000,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Aliel Machado (PV/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8f1b67e404eaf114.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8f1b67e404eaf114.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 08/06/2026 a 14/06/2026 em Bruxelas, Londres (exterior), com 5 diárias de R$ 3.220,02 pagas pela Câmara: 4 notas de hospedagem da cota com data de 09/06/2026 a 12/06/2026; as notas são de fornecedores no Brasil (PR), não do destino, somando R$ 892,78. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Filipe Barros (PL/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/00dd545fb3c5ef4c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/00dd545fb3c5ef4c.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 04/03/2024 a 08/03/2024 em Dubai (exterior), com 3,5 diárias de R$ 2.195,64 pagas pela Câmara: 1 nota de hospedagem da cota com data em 07/03/2024; a nota é de fornecedor no Brasil (PR), não do destino, somando R$ 845,63. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Marco Brasil (PP/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d341be305f3038dc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d341be305f3038dc.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 60139 de 031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA (R$ 294,82, 02/05/2024): o documento traz o(s) CNPJ(s) 81579633000106, e não o do fornecedor declarado (00306597003112). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Deltan Dallagnol (PODE/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b0a3d2006d36be2a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b0a3d2006d36be2a.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 01/02/2023: nota de hospedagem de TIBA EMPREENDIMENTOS IMOBILIARIOS LTDA, em Brasília, com o próprio deputado como hóspede, de R$ 283,65. Na data, o deputado recebia auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Zeca Dirceu (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1150177f8b2296c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1150177f8b2296c.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 21/03/2023 a 30/03/2023 em Pequim (exterior), com 5 diárias de R$ 2.302,64 pagas pela Câmara: 1 nota de hospedagem da cota com data em 22/03/2023; a nota é de fornecedor no Brasil (PR), não do destino, somando R$ 215,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Padovani (PP/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/26239867d75feff1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/26239867d75feff1.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 01/10/2023 a 03/10/2023 em Muçum/RS, Roca Sales/RS (Brasil), com 2,5 diárias de R$ 524,00 pagas pela Câmara: 1 nota de alimentação da cota com data em 02/10/2023; fornecedor cadastrado em RS, somando R$ 105,50. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Dilceu Sperafico (PP/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a9604410059a65f0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a9604410059a65f0.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -180,131 +306,5 @@
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 895061 de AUTO POSTO SABIAO LTDA (R$ 285,11, 08/05/2026): o documento traz o(s) CNPJ(s) 77755742000151, e não o do fornecedor declarado (05650896000178). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Diego Garcia (UNIÃO/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a67ea1239234e64d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a67ea1239234e64d.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 1006143 de AUTO POSTO VIA LAGO LTDA (R$ 233,74, 26/04/2024): foi declarado R$ 233,74, mas o maior valor lido no documento é R$ 223,74. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Luciano Ducci (PSB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/25993ae98bfaac5e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/25993ae98bfaac5e.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 1685354 de REDE SALVARO - AUTO POSTO CASIL LTDA (R$ 230,00, 10/10/2023): o documento traz o(s) CNPJ(s) 78901915000912, e não o do fornecedor declarado (28239223000125). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Luciano Ducci (PSB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/930a9abf17caf7da.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/930a9abf17caf7da.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 113487 de PHOENIX AUTO POSTO LTDA (R$ 130,00, 22/12/2023): o documento traz o(s) CNPJ(s) 07388800000170, e não o do fornecedor declarado (00296112000131). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Luciano Ducci (PSB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c3c79088a4daadd8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c3c79088a4daadd8.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 173747 de PARADAO AUTO POSTO EIRELI (R$ 130,00, 22/12/2023): o documento traz o(s) CNPJ(s) 00296112000131, e não o do fornecedor declarado (07388800000170). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Luciano Ducci (PSB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/41d8160c71fd2bb1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/41d8160c71fd2bb1.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 000822670 de AUTO POSTO ADZ LTDA. (R$ 103,01, 05/05/2023): foi declarado R$ 103,01, mas o maior valor lido no documento é R$ 100,01. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Diego Garcia (UNIÃO/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f42427620df48f5c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/287b21a6675ebcbf.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 363626 de CENTRO DE SERVIÇOS FRANGO ASSADO - NORTE LTDA (R$ 60,52, 28/01/2024): o documento traz o(s) CNPJ(s) 16960793000120, e não o do fornecedor declarado (02896671001341). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Luciano Ducci (PSB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/90bdf806a20f1454.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/90bdf806a20f1454.html</id>
-<updated>2026-11-05T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de AUTO POSTO SERENATA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 287316 (R$ 328,70, 03/02/2026); nº 287318 (R$ 328,70, 03/02/2026). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Dilceu Sperafico (PP/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6372b9cbd0c343e8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6372b9cbd0c343e8.html</id>
-<updated>2026-11-05T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de AUTO POSTO TOLECEMA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 32173 (R$ 324,97, 02/10/2024); nº 32587 (R$ 306,35, 28/10/2024). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Luciano Ducci (PSB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/acb9202e856a9bf2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/acb9202e856a9bf2.html</id>
-<updated>2026-11-05T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de AUTO POSTO SERENATA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 327732 (R$ 69,50, 01/07/2026); nº 330190 (R$ 69,50, 10/07/2026). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Vermelho (PL/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8102c566c963a3a9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8102c566c963a3a9.html</id>
-<updated>2026-11-05T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 12401162 de VIAÇÃO GARCIA LTDA (R$ 468,88, 05/03/2024): foi declarado R$ 468,88, mas o maior valor lido no documento é R$ 466,88. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Toninho Wandscheer (PP/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4322371e1c2aa9f2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4322371e1c2aa9f2.html</id>
-<updated>2026-11-05T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 108521 de POSTO PAULISTA DE LIMEIRA LTDA (R$ 408,40, 15/03/2026): foi declarado R$ 408,40, mas o maior valor lido no documento é R$ 406,40. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Dilceu Sperafico (PP/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2bdf677d3c21a745.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2bdf677d3c21a745.html</id>
-<updated>2026-11-05T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 32173 de AUTO POSTO TOLECEMA LTDA (R$ 324,97, 02/10/2024): foi declarado R$ 324,97, mas o maior valor lido no documento é R$ 312,60. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Luciano Ducci (PSB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2228eba695ec315d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2228eba695ec315d.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de HOTEL EXECUTIVE ARAPONGAS foi anexado a 2 reembolsos. Despesas declaradas: nº 34100 (R$ 257,00, 19/07/2023); nº 34100 (R$ 257,00, 20/07/2023). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Aliel Machado (PV/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6877ef5e62cb1de4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6877ef5e62cb1de4.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de LARANJEIRAS PALACE HOTEL EIRELI foi anexado a 2 reembolsos. Despesas declaradas: nº 19743 (R$ 189,00, 26/07/2023); nº 19743 (R$ 189,00, 27/07/2023). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Zeca Dirceu (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7614360d4a7d6a44.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7614360d4a7d6a44.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 20241549 de Taroba Industria Hoteleira Ltda (R$ 919,82, 24/02/2024): foi declarado R$ 919,82, mas o maior valor lido no documento é R$ 916,82. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Carol Dartora (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/73ce50efd1ff0285.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/73ce50efd1ff0285.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 1447 de Hotel Dom Leopoldo (R$ 752,00, 19/05/2026): o documento traz o(s) CNPJ(s) 03822198000187, e não o do fornecedor declarado (60290136000105). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Zeca Dirceu (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c8054b666ed6018c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c8054b666ed6018c.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 020940 de SAFIRA SERVICOS DE HOTELARIA LTDA (R$ 343,00, 25/08/2024): foi declarado R$ 343,00, mas o maior valor lido no documento é R$ 340,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Beto Richa (PSDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d05d946ce1a14f3d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d05d946ce1a14f3d.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 46399 de DELFIM COMUNICACAO E TURISMO LTDA (R$ 340,00, 25/06/2025): foi declarado R$ 340,00, mas o maior valor lido no documento é R$ 20,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d7aa2fc4e7473158.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d7aa2fc4e7473158.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de CENTRO EMPRESARIAL ADAM SMITH ED FRANCISCO V MACHADO foi anexado a 2 reembolsos. Despesas declaradas: nº 231003 (R$ 761,92, 15/12/2023); nº 231003 (R$ 761,92, 15/12/2023). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Tadeu Veneri (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0f31b2f31803a82c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0f31b2f31803a82c.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 010712 (R$ 41,19, 07/12/2023); nº 010712 (R$ 41,19, 07/12/2023). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/00f9e68872d2a31a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/00f9e68872d2a31a.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 3014 (R$ 30,14, 19/09/2023); nº 3014 (R$ 30,14, 19/09/2023). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

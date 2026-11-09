@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2950.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2950.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Capitão Augusto (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/04171e3aaf7c6250.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/04171e3aaf7c6250.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de RESTAURANTE E LANCHONETE MARISTELA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 255673 (R$ 76,03, 28/09/2023); nº 255673 (R$ 97,93, 30/09/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Capitão Augusto (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/072afbf5f4cecef3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/072afbf5f4cecef3.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de DEPARTAMENTO DE AGUA E ESGOTO DE BAURU foi anexado a 2 reembolsos. Despesas declaradas: nº 1513 (R$ 29,65, 30/05/2025); nº 339100025/052025 (R$ 29,65, 30/05/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Capitão Augusto (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9236d74fa80eeed8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9236d74fa80eeed8.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 225 de Thiago Martins dos Santos ME (R$ 20,00, 28/09/2023): o emissor da nota é o CNPJ 47.350.677/0001-13, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Capitão Augusto (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d2a0cd6f7d49b6e7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d2a0cd6f7d49b6e7.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

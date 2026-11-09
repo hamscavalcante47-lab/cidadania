@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1963.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1963.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Carlos Zarattini (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ef7916b188592b9b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ef7916b188592b9b.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UNIVERSO ONLINE S/A foi anexado a 2 reembolsos. Despesas declaradas: nº 0428752209 (R$ 185,39, 14/07/2026); nº 042948381 (R$ 188,29, 14/07/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Carlos Zarattini (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c3bda706917da433.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c3bda706917da433.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de UNIVERSO ONLINE S/A foi anexado a 2 reembolsos. Despesas declaradas: nº 253255 (R$ 145,03, 12/10/2023); nº 253255 (R$ 89,97, 24/10/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Carlos Zarattini (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4725edf8a02d3177.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4725edf8a02d3177.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 253255 de UNIVERSO ONLINE S/A (R$ 145,03, 12/10/2023): o documento traz o(s) CNPJ(s) 12356100002269, e não o do fornecedor declarado (01109184000438). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — Carlos Zarattini (PT/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aed3e890e9b3f27b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aed3e890e9b3f27b.html</id>
 <updated>2026-11-05T00:00:00Z</updated>

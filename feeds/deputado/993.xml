@@ -4,9 +4,45 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/993.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/993.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4bae60214ddc25f5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4bae60214ddc25f5.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 001907062 de SABESP - COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO (R$ 239,53, 07/10/2025): o emissor da nota é o CNPJ 61.695.227/0001-93, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/59aa1d2dc2d1b465.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/59aa1d2dc2d1b465.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 010371555 de SABESP - COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO (R$ 231,46, 06/11/2025): o emissor da nota é o CNPJ 61.695.227/0001-93, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a3e376be11a984c1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a3e376be11a984c1.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 001982129 de SABESP - COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO (R$ 168,35, 07/10/2025): o emissor da nota é o CNPJ 61.695.227/0001-93, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/096a2fe4dd997e48.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/096a2fe4dd997e48.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 010419834 de SABESP - COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO (R$ 152,43, 07/11/2025): o emissor da nota é o CNPJ 61.695.227/0001-93, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d01ba82b8b02c51a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d01ba82b8b02c51a.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 608857 de POSTO VILLA LOBOS LTDA (R$ 473,11, 12/04/2024): foi declarado R$ 473,11, mas o maior valor lido no documento é R$ 437,12. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b0be1a8214bb900d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b0be1a8214bb900d.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 272048 de MC DONALDS - MUA (R$ 35,90, 06/03/2023): o documento traz o(s) CNPJ(s) 10542662000228, e não o do fornecedor declarado (42591651088300). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Dados da chave de acesso não batem com a despesa declarada — Celso Russomanno (REPUBLICANOS/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/70c85ddd26fa95a2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/70c85ddd26fa95a2.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

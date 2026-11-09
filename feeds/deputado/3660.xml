@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3660.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3660.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Rodrigo Gambale (PODE/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc8cf233aa9bb7bb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc8cf233aa9bb7bb.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de EDP São Paulo Distribuição de Energia S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 182123046 (R$ 350,06, 20/12/2024); nº 182123046 (R$ 350,06, 06/01/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — Rodrigo Gambale (PODE/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/85b5f50f2ea28ff5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/85b5f50f2ea28ff5.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

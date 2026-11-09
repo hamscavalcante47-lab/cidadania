@@ -4,14 +4,14 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3244.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3244.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Carla Zambelli (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a133b941ee353ecc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a133b941ee353ecc.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/709a9466635ea638.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a133b941ee353ecc.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 0064063 de BUS SERVIÇOS DE AGENDAMENTO SA (R$ 186,19, 26/04/2025): foi declarado R$ 186,19, mas o maior valor lido no documento é R$ 178,19. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 0064063 de BUS SERVIÇOS DE AGENDAMENTO SA (R$ 186,19, 26/04/2025): foi declarado R$ 186,19, mas o maior valor lido no documento é R$ 178,19. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Dados da chave de acesso não batem com a despesa declarada — Carla Zambelli (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1e5b15cd06c4205f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1e5b15cd06c4205f.html</id>
@@ -25,17 +25,17 @@
 <category term="Média"/>
 <summary>Gravidade média. nº 57 de BRASTURINVEST INVESTIMENTO (R$ 520,50, 19/11/2024): o documento traz o(s) CNPJ(s) 49215695000118, e não o do fornecedor declarado (03422594001008). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
+<title>Valor declarado maior que o da nota — Carla Zambelli (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/44d801b1280eb632.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83afb5d481aa438d.html</id>
+<updated>2026-11-04T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 45319 de KAFÉ HOTEL LTDA (R$ 313,00, 23/10/2023): foi declarado R$ 313,00, mas o maior valor lido no documento é R$ 73,60. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Carla Zambelli (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/810078ec968bd5c2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/11ef0648c4fd01ce.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 45319 de KAFÉ HOTEL LTDA (R$ 313,00, 23/10/2023): o documento traz o(s) CNPJ(s) 61084018000103, e não o do fornecedor declarado (48410898000100). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Carla Zambelli (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83afb5d481aa438d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83afb5d481aa438d.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 45319 de KAFÉ HOTEL LTDA (R$ 313,00, 23/10/2023): foi declarado R$ 313,00, mas o maior valor lido no documento é R$ 73,60. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Carla Zambelli (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/becf8136864b0893.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/becf8136864b0893.html</id>

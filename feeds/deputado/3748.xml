@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3748.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3748.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Saulo Pedroso (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/51eaa4181e0774bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/51eaa4181e0774bd.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de COMPANHIA DE SANEAMENTO AMBIENTAL DE ATIBAIA - SAAE foi anexado a 2 reembolsos. Despesas declaradas: nº 20042025 (R$ 166,29, 21/03/2025); nº 119555 (R$ 166,29, 23/04/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Saulo Pedroso (PSD/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa27adee532cbde9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa27adee532cbde9.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

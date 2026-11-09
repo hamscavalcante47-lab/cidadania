@@ -4,32 +4,56 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1355.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1355.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
-<title>Valor declarado maior que o da nota — Lincoln Portela (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ae3039e35a04e946.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ae3039e35a04e946.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 1262371 de DE &amp; L COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA (R$ 265,28, 02/06/2026): foi declarado R$ 265,28, mas o maior valor lido no documento é R$ 235,28. Alerta não é acusação: confira a nota original.</summary>
+<title>Mesmo documento usado em despesas diferentes — Lincoln Portela (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa4e7b73802571db.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa4e7b73802571db.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MUNICÍPIO DE BELO HORIZONTE foi anexado a 2 reembolsos. Despesas declaradas: nº 0125398978290 (R$ 961,61, 03/06/2025); nº 0125398978290 (R$ 962,61, 26/06/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Lincoln Portela (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/da8e381606b24144.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/da8e381606b24144.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de JH Computadores Ltda foi anexado a 2 reembolsos. Despesas declaradas: nº 68259 (R$ 936,82, 08/08/2025); nº 68306 (R$ 429,00, 08/08/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Lincoln Portela (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/35aff477e7563b35.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/35aff477e7563b35.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CEMIG DISTRIBUICAO S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 392915775 (R$ 551,60, 11/06/2026); nº 392915775 (R$ 551,86, 24/06/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Lincoln Portela (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2538ba42219ee0d8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2538ba42219ee0d8.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CEMIG DISTRIBUIÇÃO S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº 064693928 (R$ 366,47, 24/08/2023); nº 064993928 (R$ 388,91, 22/09/2023). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Lincoln Portela (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/34d05117066e415c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/34d05117066e415c.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3de9658a6a78e06b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ae3039e35a04e946.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 32807 de POSTO SUPER TIGRE LTDA (R$ 250,00, 31/05/2026): foi declarado R$ 250,00, mas o maior valor lido no documento é R$ 229,73. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 1262371 de DE &amp; L COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA (R$ 265,28, 02/06/2026): foi declarado R$ 265,28, mas o maior valor lido no documento é R$ 235,28. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Lincoln Portela (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b8ad52e16fb2e5a6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b8ad52e16fb2e5a6.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6908d6bdc266f44e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b8ad52e16fb2e5a6.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 580015 de São Luís Combustíveis Ltda. (R$ 250,00, 12/08/2025): foi declarado R$ 250,00, mas o maior valor lido no documento é R$ 236,02. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 580015 de São Luís Combustíveis Ltda. (R$ 250,00, 12/08/2025): foi declarado R$ 250,00, mas o maior valor lido no documento é R$ 236,02. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Lincoln Portela (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f6371cbace3cb83e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f6371cbace3cb83e.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cc9e5f3767dac6c4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/34d05117066e415c.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 235307 de POSTO SUPER TIGRE LTDA (R$ 200,00, 14/06/2026): foi declarado R$ 200,00, mas o maior valor lido no documento é R$ 178,58. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 32807 de POSTO SUPER TIGRE LTDA (R$ 250,00, 31/05/2026): foi declarado R$ 250,00, mas o maior valor lido no documento é R$ 229,73. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Lincoln Portela (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/38ba4d099c047dc4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f6371cbace3cb83e.html</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 235307 de POSTO SUPER TIGRE LTDA (R$ 200,00, 14/06/2026): foi declarado R$ 200,00, mas o maior valor lido no documento é R$ 178,58. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Lincoln Portela (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c3df15de3ced29b3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c3df15de3ced29b3.html</id>
@@ -44,10 +68,10 @@
 <summary>Gravidade média. nº 546391 de comercial mapes de Combustiveis Ltda (R$ 461,69, 14/09/2025): o documento traz o(s) CNPJ(s) 21249875000100, e não o do fornecedor declarado (04635192000163). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Lincoln Portela (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a03070ea9b03851a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a03070ea9b03851a.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7970bad78be64639.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a03070ea9b03851a.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 546391 de comercial mapes de Combustiveis Ltda (R$ 461,69, 14/09/2025): foi declarado R$ 461,69, mas o maior valor lido no documento é R$ 446,07. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 546391 de comercial mapes de Combustiveis Ltda (R$ 461,69, 14/09/2025): foi declarado R$ 461,69, mas o maior valor lido no documento é R$ 446,07. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Lincoln Portela (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d9d5aafdf713c9a4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d9d5aafdf713c9a4.html</id>

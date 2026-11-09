@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2243.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2243.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Pedro Uczai (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a704e0d649ce9dc5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a704e0d649ce9dc5.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de SAO PAULO AIRPORT RESTAURANTES LIMITADA foi anexado a 2 reembolsos. Despesas declaradas: nº 529678 (R$ 105,40, 06/08/2023); nº 529678 (R$ 105,40, 12/08/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Pedro Uczai (PT/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f5aa26abeb309640.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f5aa26abeb309640.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 01/06/2026 a 05/06/2026 em Washington, DC (exterior), com 3,5 diárias de R$ 3.135,60 pagas pela Câmara: 2 notas de hospedagem da cota com data de 04/06/2026 a 05/06/2026; as notas são de fornecedores no Brasil (SC), não do destino, somando R$ 421,28. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Pedro Uczai (PT/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4f6f25caa3be4496.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4f6f25caa3be4496.html</id>
 <updated>2026-11-04T00:00:00Z</updated>

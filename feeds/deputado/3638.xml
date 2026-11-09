@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3638.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3638.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Marussa Boldrin (REPUBLICANOS/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0a6959816196b13c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0a6959816196b13c.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº IGUKAX de Gol Linhas Aereas S.A. (R$ 1.816,29, 18/02/2024): o documento traz o(s) CNPJ(s) 24344432000188, e não o do fornecedor declarado (07575651000159). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Dados da chave de acesso não batem com a despesa declarada — Marussa Boldrin (REPUBLICANOS/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8efefffdd1105d12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8efefffdd1105d12.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

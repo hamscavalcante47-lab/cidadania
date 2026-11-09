@@ -4,7 +4,19 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2317.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2317.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Mesmo documento usado em despesas diferentes — Paulo Folletto (PSB/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4295844443afca40.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4295844443afca40.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONDOMINIO DO EDIFICIO PETRO TOWER foi anexado a 2 reembolsos. Despesas declaradas: nº 562955 (R$ 524,53, 24/11/2025); nº SL0512492 (R$ 524,53, 24/11/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Paulo Folletto (PSB/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/88beed651037f146.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/88beed651037f146.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONDOMINIO DO EDIFICIO PETRO TOWER foi anexado a 2 reembolsos. Despesas declaradas: nº 0513492 (R$ 523,33, 24/11/2025); nº SL0513492 (R$ 523,33, 24/11/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

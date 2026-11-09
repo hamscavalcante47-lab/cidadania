@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3325.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3325.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Lucas Redecker (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0e10f6d48f01bc0d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0e10f6d48f01bc0d.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº LX92 de Swiss Air (R$ 5.866,74, 03/03/2023): foi declarado R$ 5.866,74, mas o maior valor lido no documento é R$ 0,75. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Lucas Redecker (PSD/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/198b76eeefd1f877.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/198b76eeefd1f877.html</id>
 <updated>2026-11-05T00:00:00Z</updated>

@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3543.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3543.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Hotel ou refeição da cota durante missão oficial — Delegada Katarina (PSD/SE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dfba26f2f36dfbae.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dfba26f2f36dfbae.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 17/11/2023 a 24/11/2023 em Dublin (exterior), com 5 diárias de R$ 2.152,84 pagas pela Câmara: 1 nota de hospedagem da cota com data em 23/11/2023; a nota é de fornecedor no Brasil (DF), não do destino, somando R$ 1.092,40. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

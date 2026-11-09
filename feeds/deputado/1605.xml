@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1605.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1605.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Maria do Rosário (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/699b992a926e581a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/699b992a926e581a.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MAILA NETWORK LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 445 (R$ 597,90, 01/03/2024); nº 2024583 (R$ 597,00, 01/04/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — Maria do Rosário (PT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b6e315203144a12b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b6e315203144a12b.html</id>
 <updated>2026-11-04T00:00:00Z</updated>

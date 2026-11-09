@@ -4,13 +4,19 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1552.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1552.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Carlos Sampaio (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1bbeaa6e12bd1a43.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1bbeaa6e12bd1a43.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de COMPANHIA PAULISTA DE FORCA E LUZ foi anexado a 2 reembolsos. Despesas declaradas: nº 045588877 (R$ 1.055,56, 19/06/2026); nº 45588877 (R$ 1.055,56, 22/06/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Carlos Sampaio (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2d10f8a567551786.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2d10f8a567551786.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5fe4b331b7da9996.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2d10f8a567551786.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: LKS MIDIA E PUBLICIDADE LTDA recebeu R$ 328.169,00; Leila Kelly Dos Santos Silva é sócio(a) desde 02/03/2023 e trabalhou no gabinete (secretário parlamentar, SP15) de 26/01/2023 a 12/02/2023. Pagamentos: R$ 328.169,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 36.540,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: LKS MIDIA E PUBLICIDADE LTDA recebeu R$ 337.169,00; Leila Kelly Dos Santos Silva é sócio(a) desde 02/03/2023 e trabalhou no gabinete (secretário parlamentar, SP15) de 26/01/2023 a 12/02/2023. Pagamentos: R$ 337.169,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 36.540,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3551.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3551.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Hotel ou refeição da cota durante missão oficial — Coronel Fernanda (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e3bc7378f3e0fe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e3bc7378f3e0fe.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 18/08/2025 a 19/08/2025 em Natal/RN (Brasil), com 1,5 diária de R$ 842,00 paga pela Câmara: 1 nota de hospedagem da cota com data em 19/08/2025; fornecedor cadastrado em RN, somando R$ 351,62. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — Coronel Fernanda (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b3aad9deb3164a78.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b3aad9deb3164a78.html</id>
 <updated>2026-11-04T00:00:00Z</updated>

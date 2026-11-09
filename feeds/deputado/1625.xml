@@ -4,13 +4,31 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1625.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1625.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Odair Cunha (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/037ef164ec090775.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/037ef164ec090775.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de LAZARO ROSA DOS SANTOS foi anexado a 2 reembolsos. Despesas declaradas: nº 022025 (R$ 3.763,00, 01/02/2025); nº 022025 (R$ 3.763,00, 01/02/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Odair Cunha (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f15dceca90821067.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f15dceca90821067.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 02/07/2025 a 04/07/2025 em Lisboa (exterior), com 4,5 diárias de R$ 3.118,50 pagas pela Câmara: 3 notas de hospedagem da cota com data de 03/07/2025 a 04/07/2025; as notas são de fornecedores no Brasil (MG), não do destino, somando R$ 772,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Odair Cunha (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d69e69c130fa6e95.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d69e69c130fa6e95.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 22/03/2025 a 30/03/2025 em Tóquio, Hanói (exterior), com 5 diárias de R$ 2.512,36 pagas pela Câmara: 1 nota de hospedagem da cota com data em 29/03/2025; a nota é de fornecedor no Brasil (MG), não do destino, somando R$ 159,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — Odair Cunha (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7163e81db9b76f23.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7163e81db9b76f23.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bb36a2239cc10c65.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7163e81db9b76f23.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 222637 de POSTO 3 LTDA (R$ 403,16, 17/02/2023): foi declarado R$ 403,16, mas o maior valor lido no documento é R$ 150,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 222637 de POSTO 3 LTDA (R$ 403,16, 17/02/2023): foi declarado R$ 403,16, mas o maior valor lido no documento é R$ 150,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

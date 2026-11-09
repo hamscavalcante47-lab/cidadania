@@ -4,9 +4,135 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psdb.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psdb.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/979986e907bca1a2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/979986e907bca1a2.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 686 de ATA AEROTAXI ABAETE LTDA (R$ 26.320,00, 08/02/2024): o emissor da nota é o CNPJ 00.977.675/0001-95, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0ea030e9d2ba113b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0ea030e9d2ba113b.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de PREFEITURA DE PELOTAS RS foi anexado a 2 reembolsos. Despesas declaradas: nº sn (R$ 575,04, 10/03/2024); nº 11395353 (R$ 575,04, 01/04/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Paulo Abi-Ackel (PSDB/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/385bc4054aa801e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/385bc4054aa801e6.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de OI MOVEL S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº 23307666 (R$ 125,09, 15/06/2024); nº 422159904 (R$ 125,09, 15/06/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Recibos de vários meses gravados de uma vez, antes das datas — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/931d2d772d0f22eb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/931d2d772d0f22eb.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 10 comprovantes de pagamento de SOM NA KAIXA COMÉRCIO DE ALARMES E SOM LTDA, com quitação datada de 01/08/2023 a 01/12/2023 (R$ 57.500,00), estão em arquivos PDF gravados em 10/07/2023 entre 07h38 e 07h45, junto com outro comprovante do mesmo fornecedor. O mais adiantado foi gravado 144 dias antes do dia em que diz ter recebido o pagamento. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Recibos de vários meses gravados de uma vez, antes das datas — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a8d3c7c223bfb38a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a8d3c7c223bfb38a.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 4 comprovantes de pagamento de SOM NA KAIXA COMÉRCIO DE ALARMES E SOM LTDA, com quitação datada de 01/04/2023 a 01/07/2023 (R$ 28.000,00), estão em arquivos PDF gravados em 07/03/2023 entre 01h25 e 01h26, junto com outros 2 comprovantes do mesmo fornecedor. O mais adiantado foi gravado 116 dias antes do dia em que diz ter recebido o pagamento. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Recibos de vários meses gravados de uma vez, antes das datas — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ed8fd3836c11571.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ed8fd3836c11571.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 6 comprovantes de pagamento de SOM NA KAIXA COMÉRCIO DE ALARMES E SOM LTDA, com quitação datada de 02/11/2024 a 01/02/2025 (R$ 27.900,00), estão em arquivos PDF gravados em 31/10/2024 entre 00h09 e 00h15, junto com outros 3 comprovantes do mesmo fornecedor. O mais adiantado foi gravado 93 dias antes do dia em que diz ter recebido o pagamento. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0d848b99ef2fd285.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0d848b99ef2fd285.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 230 de PARLABRASIL EIRELI (R$ 850,00, 18/09/2023): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (23425589000175). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1aa1357b26ee979b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1aa1357b26ee979b.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 340 de PARLABRASIL EIRELI (R$ 850,00, 20/11/2023): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (23425589000175). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/24031039fc7f1f82.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/24031039fc7f1f82.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 150 de PARLABRASIL EIRELI (R$ 850,00, 10/07/2023): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (23425589000175). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/375cf1669bdf9ed7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/375cf1669bdf9ed7.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 194 de PARLABRASIL EIRELI (R$ 850,00, 18/08/2023): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (23425589000175). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/51fc048791b72138.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/51fc048791b72138.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 49 de PARLABRASIL EIRELI (R$ 850,00, 17/04/2023): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (23425589000175). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6619cf2c4aafe1d7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6619cf2c4aafe1d7.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 6 de PARLABRASIL EIRELI (R$ 850,00, 15/02/2023): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (23425589000175). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6b6a043a35bcd00e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6b6a043a35bcd00e.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 114 de PARLABRASIL EIRELI (R$ 850,00, 22/06/2023): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (23425589000175). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9092f4b83c90527a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9092f4b83c90527a.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 461 de PARLABRASIL EIRELI (R$ 850,00, 21/02/2024): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (23425589000175). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/96e58f8f5291b37c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/96e58f8f5291b37c.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 77 de PARLABRASIL EIRELI (R$ 850,00, 16/05/2023): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (23425589000175). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c973158ae91838b1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c973158ae91838b1.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 959 de JAGUARARI FM LTDA (R$ 850,00, 21/02/2025): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (16151359000108). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cb6c7aa92ee08882.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cb6c7aa92ee08882.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 393 de PARLABRASIL EIRELI (R$ 850,00, 13/12/2023): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (23425589000175). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fe7cea0bcb078c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fe7cea0bcb078c.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 279 de PARLABRASIL EIRELI (R$ 850,00, 19/10/2023): o documento traz o(s) CNPJ(s) 48949641000113, e não o do fornecedor declarado (23425589000175). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Adolfo Viana (PSDB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b986cdbae7f8fa50.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b986cdbae7f8fa50.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 686 de ATA AEROTAXI ABAETE LTDA (R$ 26.320,00, 08/02/2024): o documento traz o(s) CNPJ(s) 00977675000195, e não o do fornecedor declarado (14674451000119). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Antonio Andrade (PSDB/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8caa33b69435d789.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8caa33b69435d789.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 02/02/2023: nota de hospedagem de MARCO MARCHETTI S/A HOTEIS, em Brasília, com o próprio deputado como hóspede, de R$ 4.898,54. Na data, o deputado ocupava imóvel funcional. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Beto Richa (PSDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5a554d14abe15372.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5a554d14abe15372.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 02/02/2023: nota de hospedagem de LA HOTELS EMPREENDIMENTOS 1 LTDA - (RT BRASILIA ALVORADA), em Brasília, com o próprio deputado como hóspede, de R$ 2.904,15. Na data, o deputado recebia auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Daniel Trzeciak (PSDB/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/df2ea087be474007.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/df2ea087be474007.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
@@ -20,22 +146,22 @@
 <summary>Gravidade média. nº 1002806196289 de ETERPEL EMPRESA MUNICIPALDO TERMINAL RODOVIARIO DE PEL. (R$ 173,15, 07/02/2025): o documento traz o(s) CNPJ(s) 92189612000192, e não o do fornecedor declarado (89606933000130). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/93a624145adebbb7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/93a624145adebbb7.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/722130625fe2076e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/93a624145adebbb7.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 1002806196289 de ETERPEL EMPRESA MUNICIPALDO TERMINAL RODOVIARIO DE PEL. (R$ 173,15, 07/02/2025): foi declarado R$ 173,15, mas o maior valor lido no documento é R$ 167,60. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 1002806196289 de ETERPEL EMPRESA MUNICIPALDO TERMINAL RODOVIARIO DE PEL. (R$ 173,15, 07/02/2025): foi declarado R$ 173,15, mas o maior valor lido no documento é R$ 167,60. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6911d3d18cb9c8a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6911d3d18cb9c8a7.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3861d082e2ab0d9c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6911d3d18cb9c8a7.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 3820894 de Expresso Embaixador (R$ 165,40, 01/08/2025): foi declarado R$ 165,40, mas o maior valor lido no documento é R$ 159,85. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 3820894 de Expresso Embaixador (R$ 165,40, 01/08/2025): foi declarado R$ 165,40, mas o maior valor lido no documento é R$ 159,85. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Daniel Trzeciak (PSDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/118f4081c15728a2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/118f4081c15728a2.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd731f9c39aa91a0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/118f4081c15728a2.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 70015985 de Expresso Embaixador (R$ 129,35, 08/10/2025): foi declarado R$ 129,35, mas o maior valor lido no documento é R$ 123,80. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 70015985 de Expresso Embaixador (R$ 129,35, 08/10/2025): foi declarado R$ 129,35, mas o maior valor lido no documento é R$ 123,80. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Beto Richa (PSDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d05d946ce1a14f3d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d05d946ce1a14f3d.html</id>
@@ -56,10 +182,10 @@
 <summary>Gravidade média. nº 124 de MOVIDA PARTICIPAÇÕES S.A. (R$ 139,00, 05/11/2025): o documento traz o(s) CNPJ(s) 43344419000173, e não o do fornecedor declarado (21314559015600). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Antonio Andrade (PSDB/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/090d974ec5c305d8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/090d974ec5c305d8.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/30393abb611b91b0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/090d974ec5c305d8.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: PORTO REAL LTDA recebeu R$ 117.200,00; Maycos Gomes Lima Andrade é sócio(a) desde 28/03/2023 e trabalhou no gabinete (secretário parlamentar, SP10) de 13/02/2023 a 06/01/2025. Pagamentos: R$ 117.200,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 72.200,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: PORTO REAL LTDA recebeu R$ 243.200,00; Maycos Gomes Lima Andrade é sócio(a) desde 28/03/2023 e trabalhou no gabinete (secretário parlamentar, SP10) de 13/02/2023 a 06/01/2025. Pagamentos: R$ 243.200,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 72.200,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>O próprio parlamentar é sócio ou é o fornecedor — Juninho do Pneu (PSDB/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b8fbd0e129c02c28.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b8fbd0e129c02c28.html</id>

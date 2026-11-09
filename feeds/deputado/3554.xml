@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3554.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3554.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/13ece19d5180af5f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/13ece19d5180af5f.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de AUXILIADORA PREDIAL LTDA. GRUPO AUXILIADORA PREDIAL foi anexado a 2 reembolsos. Despesas declaradas: nº 08269 (R$ 469,07, 19/07/2023); nº 53009348 (R$ 469,07, 19/07/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0ac60187325d56a8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0ac60187325d56a8.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 01/02/2023: nota de hospedagem de PLAZA BRASILIA HOTEIS E TURISMO LTDA (MPH), em Brasília, com o próprio deputado como hóspede, de R$ 1.123,20. Na data, o deputado recebia auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0f27f53b00eb63c9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0f27f53b00eb63c9.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 14/11/2024 a 17/11/2024 em Rio de Janeiro/RJ (Brasil), com 3,5 diárias de R$ 842,00 pagas pela Câmara: 1 nota de alimentação da cota com data em 15/11/2024; fornecedor cadastrado em RJ, somando R$ 114,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/852dd73dc71d9074.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/852dd73dc71d9074.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 3677123 de Planalto Transportes ltda (R$ 105,90, 21/04/2025): o documento traz o(s) CNPJ(s) 92189612000192, e não o do fornecedor declarado (95592077000104). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Alexandre Lindenmeyer (PT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/59f853d862539ac2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/59f853d862539ac2.html</id>
 <updated>2026-11-05T00:00:00Z</updated>

@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2238.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2238.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Hotel ou refeição da cota durante missão oficial — Zeca Dirceu (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1150177f8b2296c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1150177f8b2296c.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 21/03/2023 a 30/03/2023 em Pequim (exterior), com 5 diárias de R$ 2.302,64 pagas pela Câmara: 1 nota de hospedagem da cota com data em 22/03/2023; a nota é de fornecedor no Brasil (PR), não do destino, somando R$ 215,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Zeca Dirceu (PT/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/009b148a1f529be2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/009b148a1f529be2.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -26,9 +32,9 @@
 <summary>Gravidade média. nº 20241549 de Taroba Industria Hoteleira Ltda (R$ 919,82, 24/02/2024): foi declarado R$ 919,82, mas o maior valor lido no documento é R$ 916,82. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Zeca Dirceu (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c8054b666ed6018c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c8054b666ed6018c.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/71d53ebb9535dfca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c8054b666ed6018c.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 020940 de SAFIRA SERVICOS DE HOTELARIA LTDA (R$ 343,00, 25/08/2024): foi declarado R$ 343,00, mas o maior valor lido no documento é R$ 340,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 020940 de SAFIRA SERVICOS DE HOTELARIA LTDA (R$ 343,00, 25/08/2024): foi declarado R$ 343,00, mas o maior valor lido no documento é R$ 340,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

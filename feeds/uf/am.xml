@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/am.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/am.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Recibos de vários meses gravados de uma vez, antes das datas — Fausto Jr. (UNIÃO/AM)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/775c00e76dfc9b72.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/775c00e76dfc9b72.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 10 comprovantes de pagamento de LOCARAMERICA LTDA, com quitação datada de 30/06/2023 a 31/10/2023 (R$ 23.842,70), estão em arquivos PDF gravados em 06/06/2023 entre 12h04 e 12h26, junto com outros 5 comprovantes do mesmo fornecedor. O mais adiantado foi gravado 147 dias antes do dia em que diz ter recebido o pagamento. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Sidney Leite (PSD/AM)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cee63cc6c0a4cc2d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cee63cc6c0a4cc2d.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

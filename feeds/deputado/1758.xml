@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1758.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1758.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Hotel ou refeição da cota durante missão oficial — Afonso Hamm (PP/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/af5a884f0f9d228a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/af5a884f0f9d228a.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 16/11/2025 a 23/11/2025 em Genebra (exterior), com 5 diárias de R$ 2.362,56 pagas pela Câmara: 1 nota de hospedagem da cota com data em 18/11/2025; a nota é de fornecedor no Brasil (RS), não do destino, somando R$ 771,34. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Afonso Hamm (PP/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/45a1fbd8f58d0f31.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/45a1fbd8f58d0f31.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
@@ -14,16 +20,16 @@
 <summary>Gravidade alta. O mesmo arquivo de nota de HOTEL LANCASTER LTDA - ME foi anexado a 2 reembolsos. Despesas declaradas: nº 202400000002943 (R$ 105,00, 29/08/2024); nº 202700000002943 (R$ 105,00, 31/08/2024). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Afonso Hamm (PP/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/90b343ffe69d3734.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/90b343ffe69d3734.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c443281062e1646b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/90b343ffe69d3734.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 4019 de PLATAMON PARTICIPACOES E EMPREENDIMENTOS LTDA (R$ 210,00, 17/03/2026): foi declarado R$ 210,00, mas o maior valor lido no documento é R$ 170,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 4019 de PLATAMON PARTICIPACOES E EMPREENDIMENTOS LTDA (R$ 210,00, 17/03/2026): foi declarado R$ 210,00, mas o maior valor lido no documento é R$ 170,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Afonso Hamm (PP/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9dbb2004dba07123.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9dbb2004dba07123.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e9ad7a896930ed44.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9dbb2004dba07123.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 202500000009742 de Veneto Hotel (R$ 152,00, 18/12/2025): foi declarado R$ 152,00, mas o maior valor lido no documento é R$ 115,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 202500000009742 de Veneto Hotel (R$ 152,00, 18/12/2025): foi declarado R$ 152,00, mas o maior valor lido no documento é R$ 115,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Afonso Hamm (PP/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/49934b8f4fbf9d66.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/49934b8f4fbf9d66.html</id>

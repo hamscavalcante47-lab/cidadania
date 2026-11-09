@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1571.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1571.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Josias Gomes (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/80f15f5e1ada8f2a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/80f15f5e1ada8f2a.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONDOMINIO EMPRESARIAL TANCREDO NEVES foi anexado a 2 reembolsos. Despesas declaradas: nº 000050864971 (R$ 419,52, 17/04/2023); nº 000050865552 (R$ 419,52, 17/04/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>MEI recebendo mais que o limite anual — Josias Gomes (PT/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f2098d3894a7104a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f2098d3894a7104a.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

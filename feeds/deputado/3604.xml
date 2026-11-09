@@ -4,14 +4,14 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3604.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3604.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Miguel Ângelo (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d18487bc46a3cec8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d18487bc46a3cec8.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cf1a249e15a43751.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d18487bc46a3cec8.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 845212 de AUTO POSTO SANTOS (R$ 250,00, 05/09/2023): foi declarado R$ 250,00, mas o maior valor lido no documento é R$ 235,33. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 845212 de AUTO POSTO SANTOS (R$ 250,00, 05/09/2023): foi declarado R$ 250,00, mas o maior valor lido no documento é R$ 235,33. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Miguel Ângelo (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/84b7ca95000c580d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/84b7ca95000c580d.html</id>

@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/to.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/to.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Pedro Jr (PL/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/399426e7c95552ba.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/399426e7c95552ba.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 9572162051107 de Latam Airlines S.A (R$ 2.591,87, 20/06/2024): o documento traz o(s) CNPJ(s) 36508313000100, e não o do fornecedor declarado (33937681000178). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Antonio Andrade (PSDB/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8caa33b69435d789.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8caa33b69435d789.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 02/02/2023: nota de hospedagem de MARCO MARCHETTI S/A HOTEIS, em Brasília, com o próprio deputado como hóspede, de R$ 4.898,54. Na data, o deputado ocupava imóvel funcional. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Tiago Dimas (PODE/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa7d0e3a8b8c97a8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/aa7d0e3a8b8c97a8.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -32,10 +44,10 @@
 <summary>Gravidade média. nº 2026000000936 de ATLAS HOTEL LTDA (R$ 1.150,94, 21/06/2026): foi declarado R$ 1.150,94, mas o maior valor lido no documento é R$ 1.115,94. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Antonio Andrade (PSDB/TO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/090d974ec5c305d8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/090d974ec5c305d8.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/30393abb611b91b0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/090d974ec5c305d8.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: PORTO REAL LTDA recebeu R$ 117.200,00; Maycos Gomes Lima Andrade é sócio(a) desde 28/03/2023 e trabalhou no gabinete (secretário parlamentar, SP10) de 13/02/2023 a 06/01/2025. Pagamentos: R$ 117.200,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 72.200,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: PORTO REAL LTDA recebeu R$ 243.200,00; Maycos Gomes Lima Andrade é sócio(a) desde 28/03/2023 e trabalhou no gabinete (secretário parlamentar, SP10) de 13/02/2023 a 06/01/2025. Pagamentos: R$ 243.200,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 72.200,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Atividade da empresa não combina com o gasto — Eli Borges (REPUBLICANOS/TO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3ef2bd553489e8c4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1ea17338526b2597.html</id>

@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3548.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3548.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Hotel ou refeição da cota durante missão oficial — Pastor Diniz (UNIÃO/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d50be8d79bc22b48.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d50be8d79bc22b48.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 25/04/2024 a 27/04/2024 em Belém/PA (Brasil), com 2,5 diárias de R$ 842,00 pagas pela Câmara: 1 nota de hospedagem da cota com data em 26/04/2024; fornecedor cadastrado em PA, somando R$ 560,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Pastor Diniz (UNIÃO/RR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eae3a2a24dcd4c44.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eae3a2a24dcd4c44.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

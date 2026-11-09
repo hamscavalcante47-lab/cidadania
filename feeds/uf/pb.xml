@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pb.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pb.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Romero Rodrigues (PODE/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d06f4b6b74bcbb31.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d06f4b6b74bcbb31.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ENERGISA BORBOREMA - DISTRIBUIDORA DE ENERGIA S.A foi anexado a 2 reembolsos. Despesas declaradas: nº 001703628 (R$ 109,32, 13/04/2023); nº 1703628 (R$ 109,32, 13/04/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Romero Rodrigues (PODE/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/827f48c1a73f6b39.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/827f48c1a73f6b39.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 19/09/2023 a 20/09/2023 em São Paulo/SP (Brasil), com 1,5 diária de R$ 524,00 paga pela Câmara: 1 nota de hospedagem da cota com data em 20/09/2023; fornecedor cadastrado em SP, somando R$ 1.323,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Wellington Roberto (PSD/PB)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e80a04a4051f61c1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e80a04a4051f61c1.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -14,10 +26,10 @@
 <summary>Gravidade média. nº 8 de ELDORADO COMUNICACAO E JORNALISMO LTDA (R$ 20.000,00, 17/02/2025): o documento traz o(s) CNPJ(s) 54235476000130, e não o do fornecedor declarado (37894749000130). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Cabo Gilberto Silva (PL/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9195172c66050f60.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9195172c66050f60.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7fd4cf52f34b8539.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9195172c66050f60.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 1000027 de GLAUBER FLORO DE LIMA ***.635.244-** (R$ 3.000,00, 07/08/2023): foi declarado R$ 3.000,00, mas o maior valor lido no documento é R$ 350,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 1000027 de GLAUBER FLORO DE LIMA ***.635.244-** (R$ 3.000,00, 07/08/2023): foi declarado R$ 3.000,00, mas o maior valor lido no documento é R$ 350,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Luiz Couto (PT/PB)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/226beb00122d960f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/226beb00122d960f.html</id>

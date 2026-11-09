@@ -4,14 +4,26 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1669.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1669.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Jefferson Campos (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9de776e0084ab659.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9de776e0084ab659.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 36916 de SERVICO NACIONAL DE APRENDIZAGEM COMERCIAL SENAC (R$ 89,99, 18/04/2024): a nota é de 2023-04, mas foi declarada com data 18/04/2024. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Jefferson Campos (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e33c720ec8e425c4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e33c720ec8e425c4.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 31191 de SERVICO NACIONAL DE APRENDIZAGEM COMERCIAL SENAC (R$ 78,73, 19/04/2024): a nota é de 2022-04, mas foi declarada com data 19/04/2024. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — Jefferson Campos (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb4e481613b66393.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb4e481613b66393.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d051a75d56251fe0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb4e481613b66393.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 151519 de GEPÊ EMPREENDIMENTOS DE HOTELARIA LTDA (R$ 344,75, 17/10/2023): foi declarado R$ 344,75, mas o maior valor lido no documento é R$ 334,75. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 151519 de GEPÊ EMPREENDIMENTOS DE HOTELARIA LTDA (R$ 344,75, 17/10/2023): foi declarado R$ 344,75, mas o maior valor lido no documento é R$ 334,75. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Jefferson Campos (PL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3c8e8b1af3bd5e5a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3c8e8b1af3bd5e5a.html</id>

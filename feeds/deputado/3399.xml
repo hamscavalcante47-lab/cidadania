@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3399.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3399.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Junio Amaral (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3bfe60eff14c4e2d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3bfe60eff14c4e2d.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2045076 de BUS SERVICOS DE AGENDAMENTO S.A. (R$ 239,53, 05/06/2026): foi declarado R$ 239,53, mas o maior valor lido no documento é R$ 237,90. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Junio Amaral (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6a9c1bece6a0d1e9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6a9c1bece6a0d1e9.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

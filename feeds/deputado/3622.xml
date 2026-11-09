@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3622.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3622.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Mesmo documento usado em despesas diferentes — Samuel Viana (UNIÃO/MG)</title>
@@ -26,10 +26,10 @@
 <summary>Gravidade alta. O mesmo arquivo de nota de RAMETTA &amp; SOARES LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 2023000000009988 (R$ 143,00, 04/04/2023); nº 202300000009988 (R$ 143,00, 04/04/2023). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Samuel Viana (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c1a13b94c1e25e37.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c1a13b94c1e25e37.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4b8d972448d079a7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c1a13b94c1e25e37.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 262 de Manoel Afonso Queiroz (R$ 80,00, 15/07/2023): foi declarado R$ 80,00, mas o maior valor lido no documento é R$ 60,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 262 de Manoel Afonso Queiroz (R$ 80,00, 15/07/2023): foi declarado R$ 80,00, mas o maior valor lido no documento é R$ 60,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Samuel Viana (UNIÃO/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0119037afce63334.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0119037afce63334.html</id>
@@ -44,9 +44,9 @@
 <summary>Gravidade alta. nº JALOP05J468C de AUTO PISTA FERNÂO DIAS S/A (30/11/2023): 2 lançamentos em 1 competência(s); documento R$ 2,80, valor líquido R$ 5,60, restituições R$ 0,00, saldo R$ 5,60 (excedente R$ 2,80). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Atividade da empresa não combina com o gasto — Samuel Viana (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9b11b538ce1ec336.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1a037f378f9d8921.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c68c9f4447ad1fcd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1a037f378f9d8921.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. Declarado como VELOE COMPANINHA BRASILEIRA DE SOLUÇOES E SERVIÇOS, que recebeu R$ 5.175,00 por "serviço de táxi, pedágio e estacionamento"; o CNPJ 04.740.876/0001-25 aparece hoje na Receita como ALELO S.A., com atividade "Emissão de vales-alimentação, vales-transporte e similares". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. Declarado como VELOE COMPANINHA BRASILEIRA DE SOLUÇOES E SERVIÇOS, que recebeu R$ 5.325,00 por "serviço de táxi, pedágio e estacionamento"; o CNPJ 04.740.876/0001-25 aparece hoje na Receita como ALELO S.A., com atividade "Emissão de vales-alimentação, vales-transporte e similares". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

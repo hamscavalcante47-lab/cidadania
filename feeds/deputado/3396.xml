@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3396.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3396.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Mesmo documento usado em despesas diferentes — Eduardo Bismarck (PV/CE)</title>
@@ -32,9 +32,9 @@
 <summary>Gravidade média. nº 29598 de OLIRIO II COMERCIO DE DERIVADOS (R$ 401,86, 30/06/2024): foi declarado R$ 401,86, mas o maior valor lido no documento é R$ 256,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Eduardo Bismarck (PV/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d6d2de53572ec678.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6d2de53572ec678.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c214730ea80a0af3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6d2de53572ec678.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 0000000046 de A. P. O. LIMA SILVA SERVICOS LTDA (R$ 106,00, 25/07/2024): foi declarado R$ 106,00, mas o maior valor lido no documento é R$ 100,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 0000000046 de A. P. O. LIMA SILVA SERVICOS LTDA (R$ 106,00, 25/07/2024): foi declarado R$ 106,00, mas o maior valor lido no documento é R$ 100,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

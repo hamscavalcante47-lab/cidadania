@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3011.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3011.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Alex Manente (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4bf6e8bc2570f0af.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4bf6e8bc2570f0af.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de VIVO TELEFONICA BRASIL S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº 392437913 (R$ 104,40, 01/02/2025); nº 19380037690 (R$ 351,99, 23/02/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Alex Manente (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/221e97aa2c5bbca0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/221e97aa2c5bbca0.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MUNICIPIO DE SAO BERNARDO DO CAMPO foi anexado a 2 reembolsos. Despesas declaradas: nº 007015042008 (R$ 224,22, 08/08/2025); nº 007015042008 (R$ 224,22, 13/08/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Alex Manente (CIDADANIA/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/eab00c5263e2723a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/eab00c5263e2723a.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MUNICIPIO DE SAO BERNARDO DO CAMPO foi anexado a 2 reembolsos. Despesas declaradas: nº 007015042008 (R$ 188,26, 09/03/2023); nº 007015042009 (R$ 188,26, 09/03/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Alex Manente (CIDADANIA/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/14f8266f9b2e67f5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/14f8266f9b2e67f5.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

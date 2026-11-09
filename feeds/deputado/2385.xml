@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2385.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2385.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Hotel ou refeição da cota durante missão oficial — Eros Biondini (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0c17c17c31bfdbbd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0c17c17c31bfdbbd.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 02/11/2023 a 12/11/2023 em Xangai (exterior), com 5 diárias de R$ 2.204,20 pagas pela Câmara: 1 nota de hospedagem da cota com data em 05/11/2023; a nota é de fornecedor no Brasil (MG), não do destino, somando R$ 714,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Eros Biondini (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e82aeb31270cd428.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e82aeb31270cd428.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 23/07/2023 a 29/07/2023 em Roma (exterior), com 4,5 diárias de R$ 2.114,32 pagas pela Câmara: 3 notas de hospedagem da cota com data de 24/07/2023 a 28/07/2023; as notas são de fornecedores no Brasil (MG), não do destino, somando R$ 590,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Eros Biondini (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/33dc191904658839.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/33dc191904658839.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
@@ -20,10 +32,10 @@
 <summary>Gravidade média. nº 12861 de ARCO ADMINISTRADORA LTDA (R$ 920,25, 16/08/2026): o documento traz o(s) CNPJ(s) 28015401000134, e não o do fornecedor declarado (02302811000849). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Eros Biondini (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/67145afeb5e771d4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/67145afeb5e771d4.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/605af13ffd248713.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/67145afeb5e771d4.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 444301 de VILA GALE BRASIL - ATIVIDADES HOTELEIRAS LTDA (R$ 596,00, 15/02/2025): foi declarado R$ 596,00, mas o maior valor lido no documento é R$ 567,80. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 444301 de VILA GALE BRASIL - ATIVIDADES HOTELEIRAS LTDA (R$ 596,00, 15/02/2025): foi declarado R$ 596,00, mas o maior valor lido no documento é R$ 567,80. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Eros Biondini (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8fd3ee7937861d9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8fd3ee7937861d9.html</id>

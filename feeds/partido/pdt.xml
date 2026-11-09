@@ -4,9 +4,51 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pdt.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pdt.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Pompeo de Mattos (PDT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9796a40a5e98b98a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9796a40a5e98b98a.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Prefeitura de Porto Alegre foi anexado a 2 reembolsos. Despesas declaradas: nº 2024898920050075 (R$ 452,46, 25/09/2024); nº 2024899752880086 (R$ 452,46, 24/10/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ca9d0dd5ba0ddcf8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ca9d0dd5ba0ddcf8.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de COMPANHIA ENERGÉTICA DO CEARÁ foi anexado a 2 reembolsos. Despesas declaradas: nº 116134669 (R$ 222,00, 04/06/2024); nº 0002688585 (R$ 169,55, 27/06/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5542f2c01d301ca3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5542f2c01d301ca3.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 116134669 de COMPANHIA ENERGÉTICA DO CEARÁ (R$ 222,00, 04/06/2024): o documento traz o(s) CNPJ(s) 40432544016140, 66970229004154, e não o do fornecedor declarado (07047251000170). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Josenildo (PDT/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/291b5883926f043e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/291b5883926f043e.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 15/02/2023: nota de hospedagem de MELIA BRASIL ADMINISTRACAO HOTELEIRA E COMERCIAL LTDA, em Brasília, com o próprio deputado como hóspede, de R$ 1.578,55. Na data, o registro de moradia da Câmara não mostra imóvel funcional nem auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Dorinaldo Malafaia (PDT/AP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6772c4e88bb5a07a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6772c4e88bb5a07a.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 05/02/2023: nota de hospedagem de ATYLAS FELIPE, em Brasília, com o próprio deputado como hóspede, de R$ 950,00. Na data, o registro de moradia da Câmara não mostra imóvel funcional nem auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b873421157450c22.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b873421157450c22.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 28/09/2025 a 30/09/2025 em Sidnei (exterior), com 4,5 diárias de R$ 2.345,44 pagas pela Câmara: 1 nota de hospedagem da cota com data em 30/09/2025; a nota é de fornecedor no Brasil (CE), não do destino, somando R$ 634,32. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6ac65b49d242cbf1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6ac65b49d242cbf1.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 26/05/2025 a 29/05/2025 em Istambul, Nevsehir (exterior), com 5 diárias de R$ 2.495,24 pagas pela Câmara: 1 nota de hospedagem da cota com data em 28/05/2025; a nota é de fornecedor no Brasil (CE), não do destino, somando R$ 286,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Pompeo de Mattos (PDT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/42ee79fe777c409b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/42ee79fe777c409b.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -50,10 +92,10 @@
 <summary>Gravidade média. nº 95854 de POSTO E HOTEL KIRST LTDA (R$ 200,00, 30/04/2024): o documento traz o(s) CNPJ(s) 04144661001202, e não o do fornecedor declarado (10453312000104). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Pompeo de Mattos (PDT/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ee534fce06886869.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ee534fce06886869.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ccc3b040f047101a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ee534fce06886869.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 95854 de POSTO E HOTEL KIRST LTDA (R$ 200,00, 30/04/2024): foi declarado R$ 200,00, mas o maior valor lido no documento é R$ 105,28. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 95854 de POSTO E HOTEL KIRST LTDA (R$ 200,00, 30/04/2024): foi declarado R$ 200,00, mas o maior valor lido no documento é R$ 105,28. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Pompeo de Mattos (PDT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b377e3e341c7643c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b377e3e341c7643c.html</id>
@@ -86,16 +128,16 @@
 <summary>Gravidade média. nº 408 de HAMBURGO HOTEL (R$ 670,00, 29/05/2026): foi declarado R$ 670,00, mas o maior valor lido no documento é R$ 420,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Afonso Motta (PDT/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e56dc543742bf83f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e56dc543742bf83f.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1c3254b61a4f5961.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e56dc543742bf83f.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 1060 de ZORZETTO &amp; CIA LTDA (R$ 220,00, 11/07/2026): foi declarado R$ 220,00, mas o maior valor lido no documento é R$ 200,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 1060 de ZORZETTO &amp; CIA LTDA (R$ 220,00, 11/07/2026): foi declarado R$ 220,00, mas o maior valor lido no documento é R$ 200,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/86d6d4a840b27aca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/02d43ec13ef15bd6.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1c24ee06b6dfb9f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/02d43ec13ef15bd6.html</id>
 <updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 9112 de CASABLANCA RENT A CAR LTDA (R$ 11.100,00, 03/01/2025): foi declarado R$ 11.100,00, mas o maior valor lido no documento é R$ 11.000,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 9112 de CASABLANCA RENT A CAR LTDA (R$ 11.100,00, 03/01/2025): foi declarado R$ 11.100,00, mas o maior valor lido no documento é R$ 11.000,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Pompeo de Mattos (PDT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8c208c34f8732272.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8c208c34f8732272.html</id>

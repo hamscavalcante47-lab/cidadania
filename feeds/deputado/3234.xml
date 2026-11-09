@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3234.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3234.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2faab4f7d7b19e84.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2faab4f7d7b19e84.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONDOMÍNIO EMPRESARIAL ENGENHEIRO JOSÉ CAMILO BRITO foi anexado a 2 reembolsos. Despesas declaradas: nº 2771266 (R$ 481,90, 10/05/2025); nº 2771267 (R$ 481,90, 10/05/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ca21b3c0483638d2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ca21b3c0483638d2.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de M. A. SANTOS DA SILVA ME foi anexado a 2 reembolsos. Despesas declaradas: nº 000000453 (R$ 350,00, 03/06/2024); nº 000000453 (R$ 350,00, 18/06/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Carlos Veras (PT/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3e678b85b5a61e9c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3e678b85b5a61e9c.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Companhia Energética de Pernambuco foi anexado a 2 reembolsos. Despesas declaradas: nº 243839393 (R$ 209,97, 07/02/2023); nº 243839393 (R$ 209,97, 14/02/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Carlos Veras (PT/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/287493a69bf6143b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/287493a69bf6143b.html</id>
 <updated>2026-11-04T00:00:00Z</updated>

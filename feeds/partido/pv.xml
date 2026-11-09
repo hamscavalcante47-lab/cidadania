@@ -4,9 +4,57 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pv.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pv.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Prof. Reginaldo Veras (PV/DF)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4f03cecf3bfec37e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4f03cecf3bfec37e.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de IVONETE SILVA DE CASTRO foi anexado a 2 reembolsos. Despesas declaradas: nº 09/2024 (R$ 10.000,00, 24/04/2024); nº 10/2024 (R$ 10.000,00, 24/05/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Bandeira de Mello (PV/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/46fe34e56e9ffd17.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/46fe34e56e9ffd17.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MLS WIRELESS S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº 587096 (R$ 110,90, 26/03/2023); nº 587096 (R$ 110,90, 27/03/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Bandeira de Mello (PV/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a752a909ad95e059.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a752a909ad95e059.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de DOC - LUP COMÉRCIO DE GENEROS ALIMENTÍCIOS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 269 (R$ 47,00, 05/06/2023); nº 148117 (R$ 46,00, 06/06/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Bandeira de Mello (PV/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b2a10a291165b716.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b2a10a291165b716.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de SERVICO NACIONAL DE APRENDIZAGEM COMERCIAL SENAC foi anexado a 2 reembolsos. Despesas declaradas: nº 37312 (R$ 31,36, 03/07/2023); nº 168087 (R$ 31,99, 06/07/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Bandeira de Mello (PV/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5d042b652399f2bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5d042b652399f2bd.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 148117 de DOOG ORIGINAL S/A (R$ 46,00, 06/06/2023): o emissor da nota é o CNPJ 50.361.762/0001-91, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Bandeira de Mello (PV/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3702d7ec8369df5d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3702d7ec8369df5d.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 148117 de DOOG ORIGINAL S/A (R$ 46,00, 06/06/2023): o documento traz o(s) CNPJ(s) 50361762000191, e não o do fornecedor declarado (16803469000956). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Aliel Machado (PV/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4b6b9cbb7a1866eb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4b6b9cbb7a1866eb.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 16/04/2026 a 23/04/2026 em Las Vegas (exterior), com 5 diárias de R$ 3.111,48 pagas pela Câmara: 10 notas de hospedagem da cota com data de 17/04/2026 a 23/04/2026; as notas são de fornecedores no Brasil (PR), não do destino, somando R$ 2.005,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Aliel Machado (PV/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8f1b67e404eaf114.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8f1b67e404eaf114.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 08/06/2026 a 14/06/2026 em Bruxelas, Londres (exterior), com 5 diárias de R$ 3.220,02 pagas pela Câmara: 4 notas de hospedagem da cota com data de 09/06/2026 a 12/06/2026; as notas são de fornecedores no Brasil (PR), não do destino, somando R$ 892,78. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Eduardo Bismarck (PV/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5d1a2577610c1764.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5d1a2577610c1764.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -50,16 +98,16 @@
 <summary>Gravidade alta. O mesmo arquivo de nota de LARANJEIRAS PALACE HOTEL EIRELI foi anexado a 2 reembolsos. Despesas declaradas: nº 19743 (R$ 189,00, 26/07/2023); nº 19743 (R$ 189,00, 27/07/2023). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Bandeira de Mello (PV/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b9361818601426f0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b9361818601426f0.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b2de8dbe252b76ec.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b9361818601426f0.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 570 de 18.740.965 LEANDRO DO NASCIMENTO (R$ 240,00, 12/09/2026): foi declarado R$ 240,00, mas o maior valor lido no documento é R$ 140,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 570 de 18.740.965 LEANDRO DO NASCIMENTO (R$ 240,00, 12/09/2026): foi declarado R$ 240,00, mas o maior valor lido no documento é R$ 140,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Eduardo Bismarck (PV/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d6d2de53572ec678.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6d2de53572ec678.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c214730ea80a0af3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6d2de53572ec678.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 0000000046 de A. P. O. LIMA SILVA SERVICOS LTDA (R$ 106,00, 25/07/2024): foi declarado R$ 106,00, mas o maior valor lido no documento é R$ 100,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 0000000046 de A. P. O. LIMA SILVA SERVICOS LTDA (R$ 106,00, 25/07/2024): foi declarado R$ 106,00, mas o maior valor lido no documento é R$ 100,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Clodoaldo Magalhães (PV/PE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5ed925cfda3a407e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5ed925cfda3a407e.html</id>

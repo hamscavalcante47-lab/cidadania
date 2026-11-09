@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1879.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1879.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Mesmo documento usado em despesas diferentes — Luiz Fernando Faria (UNIÃO/MG)</title>
@@ -20,10 +20,10 @@
 <summary>Gravidade média. nº 13 de Estefânio dos Santos Castro (R$ 5.530,00, 21/05/2024): foi declarado R$ 5.530,00, mas o maior valor lido no documento é R$ 5.330,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Luiz Fernando Faria (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/538dc3cd87398fc6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/538dc3cd87398fc6.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7881925a704f30f6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/538dc3cd87398fc6.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 20 de Nova Visão DD19 Marketing e Vendas LDTA (R$ 2.000,00, 27/05/2024): foi declarado R$ 2.000,00, mas o maior valor lido no documento é R$ 1.000,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 20 de Nova Visão DD19 Marketing e Vendas LDTA (R$ 2.000,00, 27/05/2024): foi declarado R$ 2.000,00, mas o maior valor lido no documento é R$ 1.000,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Luiz Fernando Faria (UNIÃO/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cfeda1422fff6224.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cfeda1422fff6224.html</id>

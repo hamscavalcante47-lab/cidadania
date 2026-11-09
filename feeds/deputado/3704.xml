@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3704.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3704.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Cobalchini (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/822923a542c82a53.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/822923a542c82a53.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de JK ADMINISTRAÇÃO IMOBILIARIA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº sn (R$ 890,00, 02/12/2025); nº sn (R$ 890,00, 02/12/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Cobalchini (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f2ec32a67eccdbe6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f2ec32a67eccdbe6.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONDOMINIO  JOÃO MORITZ foi anexado a 2 reembolsos. Despesas declaradas: nº 177801 (R$ 772,51, 20/03/2026); nº 177801 (R$ 841,41, 20/03/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Cobalchini (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b0799bd9188b94af.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b0799bd9188b94af.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ELIZANDRA BAROZZI foi anexado a 2 reembolsos. Despesas declaradas: nº 004/2026 (R$ 800,00, 05/05/2026); nº s/n (R$ 800,00, 05/05/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Cobalchini (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/56eb72895308dab7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/56eb72895308dab7.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de NET Claro NXT foi anexado a 2 reembolsos. Despesas declaradas: nº 0026317669 (R$ 170,24, 22/04/2026); nº sn (R$ 170,24, 30/04/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Cobalchini (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4dc68d05ced3a262.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/66c4ccc3017b64f6.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 191696 de POUSATUR POUSADAS HOTEIS E TURISMO LTDA (R$ 321,90, 07/06/2024): foi declarado R$ 321,90, mas o maior valor lido no documento é R$ 312,90. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — Cobalchini (MDB/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/084e18576c459f70.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/084e18576c459f70.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

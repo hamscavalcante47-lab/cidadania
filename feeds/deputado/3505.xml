@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3505.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3505.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Alfredinho (PT/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2a1f3b374824f5ea.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2a1f3b374824f5ea.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de SABESP - COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO foi anexado a 2 reembolsos. Despesas declaradas: nº 709445896 (R$ 76,30, 03/03/2025); nº 709445896 (R$ 158,56, 08/05/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Alfredinho (PT/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1df206bcccf63f3a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1df206bcccf63f3a.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

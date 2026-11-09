@@ -4,507 +4,507 @@
 <subtitle>Alertas da cota parlamentar descartados, que deixaram de ser apontados ou ganharam versão nova</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/correcoes.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/correcoes.html"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/correcoes.xml</id>
-<updated>2026-11-06T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name></author>
 <entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Marcelo Álvaro Antônio (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffe93f9bc8f1f9b6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffe93f9bc8f1f9b6.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 269980 de COMERCIO DE DERIVADOS DE PETROLEO MAJOR LTDA (R$ 347,45, 13/08/2025): foi declarado R$ 347,45, mas o maior valor lido no documento é R$ 197,45. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffdd34ff73db0a50.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffdd34ff73db0a50.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 000244 de Delcópias (R$ 4.320,00, 15/02/2024): o documento traz as datas 30/03/2023.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Greyce Elias (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffb6bd98c207ca0d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffb6bd98c207ca0d.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 247444 de POSTO LAGAMAR LTDA (R$ 130,01, 16/03/2024): o documento traz as datas 16/05/2021.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Rubens Otoni (PT/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff52f3edfed6a3e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff52f3edfed6a3e6.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 32 de LETICIA SILVESTRE AQUINO (R$ 2.500,00, 05/07/2023): o documento traz as datas 05/02/2023.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: CNPJ do documento não é o do fornecedor declarado — Alceu Moreira (MDB/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff3f177dca0e6ea0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff3f177dca0e6ea0.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 6851 de RADIO OSORIO LTDA - ME (R$ 2.500,00, 15/09/2023): o documento traz o(s) CNPJ(s) 09177220000160, e não o do fornecedor declarado (91874917000170).</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Coronel Meira (PL/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fedce661954a1669.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fedce661954a1669.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 104333367 de FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA (R$ 2.343,99, 03/03/2025): o documento traz as datas 04/04/2025.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Nilto Tatto (PT/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/feab8524ac8421ac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/feab8524ac8421ac.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 875 de AUTO POSTO ROTA SUL LTDA. (R$ 240,26, 26/08/2026): foi declarado R$ 240,26, mas o maior valor lido no documento é R$ 230,26. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Fabio Garcia (UNIÃO/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe9ecef9477058b3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe9ecef9477058b3.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 474273 de POSTO BOM FIM LTDA EPP (R$ 290,02, 29/04/2023): foi declarado R$ 290,02, mas o maior valor lido no documento é R$ 231,02. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Luiza Erundina (PSOL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe9b5c5a8d4af08a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe9b5c5a8d4af08a.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 6 de PATRICIA YURI CORAZZA ***.748.688-** (R$ 6.000,00, 13/04/2025): o documento traz as datas 13/03/2025.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ely Santos (REPUBLICANOS/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe885285bebe4553.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe885285bebe4553.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 285650 de VANAB POSTO DE SERV. E CONV. LTDA (R$ 279,74, 08/02/2025): foi declarado R$ 279,74, mas o maior valor lido no documento é R$ 219,14. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Eros Biondini (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe5a31e99938f416.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe5a31e99938f416.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 753850 de AUTO POSTO PORTAL DE MINAS LTDA (R$ 130,93, 05/05/2026): o documento traz as datas 05/09/2020.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Eros Biondini (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe292d931aa21e6a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe292d931aa21e6a.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 000006020 de POSTO DE COMBUSTIVEIS RODOVIA REAL LTDA (R$ 281,13, 12/07/2024): foi declarado R$ 281,13, mas o maior valor lido no documento é R$ 34,30. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Josias Gomes (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe283797ee90b5d6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe283797ee90b5d6.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 000493732 de POSTO DE SERVICOS RIBEIRO LTDA (R$ 293,61, 23/04/2024): foi declarado R$ 293,61, mas o maior valor lido no documento é R$ 16,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Vinicius Carvalho (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdf98a8a5d1aaa9e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdf98a8a5d1aaa9e.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 516210 de GOLFINHO 10 SERVICOS AUTOMOTIVOS II LTDA (R$ 246,50, 03/07/2024): o documento traz as datas 07/08/2024.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Rodrigo Gambale (PODE/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdec2f705811f15e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdec2f705811f15e.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 068082 de AUTO POSTO NARANDUBA DE UBATUBA LTDA (R$ 281,02, 17/04/2024): foi declarado R$ 281,02, mas o maior valor lido no documento é R$ 5,64. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Daniel Freitas (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fde8c7ad5c1098ec.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fde8c7ad5c1098ec.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 000130112 de REDE DE POSTOS APOLO LTDA (R$ 276,06, 19/04/2024): o documento traz as datas 15/08/2024, 19/08/2024.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Cobalchini (MDB/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdcf35081148a037.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdcf35081148a037.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 000817769 de STANG &amp; STANG LTDA (R$ 300,00, 04/10/2023): foi declarado R$ 300,00, mas o maior valor lido no documento é R$ 10,66. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: CNPJ do documento não é o do fornecedor declarado — Ribamar Silva (PODE/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdba1c8e50899418.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdba1c8e50899418.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 00000014 de PODPAPOZ PRODUÇÕES (R$ 5.000,00, 10/10/2025): o documento traz o(s) CNPJ(s) 36712714000170, e não o do fornecedor declarado (44066894000198).</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Marcelo Álvaro Antônio (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd98ee68d1b7b04b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd98ee68d1b7b04b.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 54473 de POSTO CRUZEIRO LTDA (R$ 130,10, 30/05/2024): foi declarado R$ 130,10, mas o maior valor lido no documento é R$ 15,87. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Delegado Paulo Bilynskyj (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd795d7e035e6502.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd795d7e035e6502.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 59595 de POSTO ISOLA DERIVADOS DE PETROLEO LTDA (R$ 206,15, 07/03/2026): o documento traz as datas 07/05/2026.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ronaldo Nogueira (REPUBLICANOS/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd60babf94a8a30b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd60babf94a8a30b.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 97272 de POSTO DO GUERRA COMERCIO DE COMBUSTIVEIS LTDA (R$ 174,14, 18/04/2024): foi declarado R$ 174,14, mas o maior valor lido no documento é R$ 29,80. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Dayany Bittencourt (UNIÃO/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd5296e1e90d6cf1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd5296e1e90d6cf1.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 167792 de SOBRAL &amp; PALACIO PETROLEO LTDA (R$ 400,04, 29/08/2023): foi declarado R$ 400,04, mas o maior valor lido no documento é R$ 73,21. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd1b28f050fdc338.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd1b28f050fdc338.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 002158 de PATRICIA VITAL FRANCO ALBOJIAN (R$ 2.790,00, 04/09/2026): o documento traz as datas 23/12/2024.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: CNPJ do documento não é o do fornecedor declarado — Capitão Alberto Neto (PL/AM)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd0ba69d80529902.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd0ba69d80529902.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 00001896 de CARAVELAS CONSULTORIA E COMUNICACAO LTDA - EPP (R$ 10.000,00, 02/10/2025): o documento traz o(s) CNPJ(s) 10688529000101, e não o do fornecedor declarado (20390376000167).</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ana Pimentel (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd07ab9bb5994dd6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd07ab9bb5994dd6.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 463606 de AUTO POSTO SALVATERRA LTDA- EPP (R$ 277,01, 02/08/2024): foi declarado R$ 277,01, mas o maior valor lido no documento é R$ 101,38. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Geovania de Sá (REPUBLICANOS/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fcf3c6c234fce831.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fcf3c6c234fce831.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 520191 de POSTO GALO - PF (R$ 325,61, 16/03/2023): foi declarado R$ 325,61, mas o maior valor lido no documento é R$ 45,84. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Luiz Carlos Motta (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fcb0ab9a01f34915.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fcb0ab9a01f34915.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 482761 de RODOPOSTO BANDEIRANTES JUNDIAI LTDA (R$ 221,76, 27/04/2025): o documento traz as datas 11/06/2025.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: CNPJ do documento não é o do fornecedor declarado — Luciano Ducci (PSB/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fca582d9ca3ea654.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fca582d9ca3ea654.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 2045633 de POSTOS PELANDA ESTRELA GUIA (R$ 250,00, 26/01/2026): o documento traz o(s) CNPJ(s) 14120014585607, e não o do fornecedor declarado (78901915000912).</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: CNPJ do documento não é o do fornecedor declarado — Daniel Freitas (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc9ad8a0bb9a207b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc9ad8a0bb9a207b.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 453723 de POSTO FERREIRA LTDA (R$ 249,20, 05/01/2025): o documento traz o(s) CNPJ(s) 10250382000165, e não o do fornecedor declarado (03849039000176).</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Ana Paula Leão (PP/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc789bcaf42d678b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc789bcaf42d678b.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 67925551 de Facebook Serviços Online do Brasil (R$ 1.562,99, 03/08/2023): o documento traz as datas 26/09/2023.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc6f0315c8689bc2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc6f0315c8689bc2.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 002155 de PATRICIA VITAL FRANCO ALBOJIAN (R$ 2.925,00, 05/08/2026): o documento traz as datas 23/12/2024.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Marcelo Queiroz (PSDB/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc1b928fd9f113d4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc1b928fd9f113d4.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 607468 de 076 - MELHOR 10 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA (R$ 100,00, 30/03/2023): foi declarado R$ 100,00, mas o maior valor lido no documento é R$ 0,30. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Dr. Zacharias Calil (MDB/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc1744c6db667174.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc1744c6db667174.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 911 de COUTINHO E BORGES COMUNICAÇÃO LTDA - ME (R$ 15.000,00, 20/08/2025): foi declarado R$ 15.000,00, mas o maior valor lido no documento é R$ 2,23.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Tabata Amaral (PSB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fbdb7308fd6323d4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fbdb7308fd6323d4.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 255048 de AUTO POSTO PORTAL DA ALDEIA LTDA (R$ 96,53, 23/11/2023): o documento traz as datas 31/12/2023, 31/12/2025.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Denise Pessôa (PT/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fbc150035ae944db.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fbc150035ae944db.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 73488936 de Facebook Serviços Online do Brasil (R$ 618,27, 02/12/2023): o documento traz as datas 18/02/2024.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb865b560ac94bfc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb865b560ac94bfc.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 002044 de COPIADORA SHEKINAH LTDA. - ME (R$ 1.260,00, 28/04/2023): o documento traz as datas 31/08/2020, 31/08/2025.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Nilto Tatto (PT/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb58838d1cd95b21.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb58838d1cd95b21.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 411510 de AUTO POSTO GARBRAS RONDON LT (R$ 131,13, 27/10/2023): o documento traz as datas 28/11/2023.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Domingos Sávio (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb550420e394f3b0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb550420e394f3b0.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 431797 de POSTO ARAPONGA LTDA (R$ 254,66, 21/09/2023): foi declarado R$ 254,66, mas o maior valor lido no documento é R$ 90,03. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb4961d4a3c51be3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb4961d4a3c51be3.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 002124 de COPIADORA SHEKINAH LTDA. - ME (R$ 1.350,00, 21/10/2025): o documento traz as datas 23/12/2024.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: CNPJ do documento não é o do fornecedor declarado — Mauricio Neves (PP/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb48c8ab462435a0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb48c8ab462435a0.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 00000220 de EPOLITICS S/S LTDA - ME (R$ 12.000,00, 01/09/2023): o documento traz o(s) CNPJ(s) 10770075000105, e não o do fornecedor declarado (15788156000156).</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Missionário José Olimpio (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb44854701e4eb2a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb44854701e4eb2a.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 258228 de AUTO POSTO CEIBA SPECIOSA LTDA - EPP (R$ 169,05, 09/05/2026): foi declarado R$ 169,05, mas o maior valor lido no documento é R$ 159,05. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ana Pimentel (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb191fbe25c48455.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb191fbe25c48455.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 69213 de POSTO ELEFANTINHO LTDA (R$ 224,95, 12/01/2024): foi declarado R$ 224,95, mas o maior valor lido no documento é R$ 204,88. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Pompeo de Mattos (PDT/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb172080695bb1f9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb172080695bb1f9.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 195003 de ABASTECEDORA DE COMBUSTIVEIS BECKER LTDA (R$ 200,00, 27/03/2023): o documento traz as datas 27/05/2023.</summary>
-</entry><entry>
-<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb1399f74ba25280.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb1399f74ba25280.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 002127 de COPIADORA SHEKINAH LTDA. - ME (R$ 1.057,50, 18/11/2025): o documento traz as datas 23/12/2024, 23/12/2029.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Daniel Almeida (PCdoB/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fac3eb41a76de9f1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fac3eb41a76de9f1.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 6 de WELLINGTON SIQUEIRA SANTOS FILHO (R$ 20.000,00, 29/08/2024): o documento traz as datas 10/06/2024.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Duarte Gonçalves Jr (REPUBLICANOS/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fabe5f5e54bbd468.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fabe5f5e54bbd468.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 13710 de PETROCAR LTDA (R$ 226,48, 25/05/2024): foi declarado R$ 226,48, mas o maior valor lido no documento é R$ 8,90. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Abilio Brunini (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fab645772e39b316.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fab645772e39b316.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 3 de PAOLA DE ARRUDA FURTADO ***.448.661-** RG FILMS (R$ 3.700,00, 27/11/2023): o documento traz as datas 07/11/2020.</summary>
-</entry><entry>
-<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fab45887c6fb9027.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fab45887c6fb9027.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 000335 de Delcópias (R$ 3.060,00, 10/10/2025): o documento traz as datas 23/12/2024, 23/12/2029.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Antonio Carlos Rodrigues (PODE/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa9deecc1d5e4723.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa9deecc1d5e4723.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 341761 de AUTO POSTO MONTE CARLO ONDA VERDE LTDA (R$ 122,70, 08/03/2025): o documento traz as datas 11/04/2025.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Marcos Soares (PSDB/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa669308848e6d2e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa669308848e6d2e.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 34953 de 2POSTO PARAISO DAS AGUAS LTDA - EPP (R$ 276,47, 28/03/2023): foi declarado R$ 276,47, mas o maior valor lido no documento é R$ 226,47. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Dados da chave de acesso não batem com a despesa declarada — Zé Neto (PT/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa668d07c2e45f80.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa668d07c2e45f80.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 7780515 de VIAÇÃO JEQUIÉ CIDADE SOL LTDA (R$ 44,35, 05/06/2023): o emissor da nota é o CNPJ 14.492.342/0001-80, não o fornecedor declarado.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Rogério Correia (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa1c9e25a89e6b1c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa1c9e25a89e6b1c.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 250272 de Posto Santo Inácio de Loyola Ltda. (R$ 116,30, 16/02/2024): foi declarado R$ 116,30, mas o maior valor lido no documento é R$ 26,30. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Rogério Correia (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa15b294a0ecb891.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa15b294a0ecb891.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 179373 de AUTO POSTO CARAVELAS (R$ 100,00, 17/05/2026): foi declarado R$ 100,00, mas o maior valor lido no documento é R$ 0,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Dados da chave de acesso não batem com a despesa declarada — José Guimarães (PT/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f9eb83d02a4cc8e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f9eb83d02a4cc8e3.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 084523 de GM PETRÓLEO MEDEIROS E FARIAS COMERCIO (R$ 510,00, 18/08/2023): o emissor da nota é o CNPJ 28.736.314/0001-39, não o fornecedor declarado.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Daniel Barbosa (PP/AL)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f9cd70dbcfb568e2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f9cd70dbcfb568e2.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 26223 de AUTO POSTO 303 NORTE LTDA (R$ 150,00, 04/05/2024): foi declarado R$ 150,00, mas o maior valor lido no documento é R$ 26,50. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ivan Valente (PSOL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f9ac86db4cdafdab.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f9ac86db4cdafdab.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 211188 de POSTO BOLA PESADA LT (R$ 187,56, 19/10/2024): foi declarado R$ 187,56, mas o maior valor lido no documento é R$ 87,56. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Zé Vitor (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f992d94235e0fbbf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f992d94235e0fbbf.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 441426 de 6AUTO POSTO GAMELEIRA LTDA. (R$ 190,54, 19/08/2024): foi declarado R$ 190,54, mas o maior valor lido no documento é R$ 139,54. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ivan Valente (PSOL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f96e4c2c30fa6851.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f96e4c2c30fa6851.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 31618 de AUTO POSTO PRINCIPE III LTDA (R$ 147,41, 16/02/2026): foi declarado R$ 147,41, mas o maior valor lido no documento é R$ 28,12. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Paulo Abi-Ackel (PSDB/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f9689ddeea545332.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f9689ddeea545332.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 1563203 de CATALÃO COMERCIAL LTDA (R$ 282,96, 20/03/2026): foi declarado R$ 282,96, mas o maior valor lido no documento é R$ 202,96. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Dayany Bittencourt (UNIÃO/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f95018f6affa2ec1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f95018f6affa2ec1.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 547327 de SOBRAL E PALACIO (R$ 300,00, 19/09/2023): foi declarado R$ 300,00, mas o maior valor lido no documento é R$ 54,90. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Luiz Carlos Motta (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f93dc2713f6d4f99.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f93dc2713f6d4f99.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 155548 de POSTO DE SERVICOS REBOUCAS LTDA (R$ 250,07, 14/08/2023): o documento traz as datas 05/10/2023.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Célia Xakriabá (PSOL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f900e629e98da0ec.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f900e629e98da0ec.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 347672 de RABELO DERIVADOS DE PETROLEO LTDA (R$ 257,02, 07/08/2023): o documento traz as datas 11/03/2022, 31/12/2022.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Dados da chave de acesso não batem com a despesa declarada — Dandara (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8e2e79f6b49a5ec.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8e2e79f6b49a5ec.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 866215 de GIPSY DO BRASIL TECNOLOGIA E VIAGENS LTDA (R$ 232,99, 14/03/2024): o emissor da nota é o CNPJ 25.634.551/0001-38, não o fornecedor declarado.</summary>
-</entry><entry>
-<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8c6fd8a46a35649.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8c6fd8a46a35649.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 002141 de COPIADORA SHEKINAH LTDA. - ME (R$ 1.035,00, 23/03/2026): o documento traz as datas 23/12/2024, 23/12/2029.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Nilto Tatto (PT/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8a765da76c43892.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8a765da76c43892.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 371748 de POSTO SUPER CHECK IN LTDA (R$ 227,31, 28/08/2023): o documento traz as datas 10/10/2023.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Luiz Fernando Faria (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f88277e4a2dae222.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f88277e4a2dae222.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 113311 de POSTO M P M (R$ 180,00, 27/07/2025): foi declarado R$ 180,00, mas o maior valor lido no documento é R$ 42,74.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Rodolfo Nogueira (PL/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffdda68134f5adcf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffdda68134f5adcf.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.257,80 em POSTO PATRICIA - EIRELI (12/09/2023); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Dilvanda Faro (PT/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffd78930632efcbc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffd78930632efcbc.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.500,00 em LORENA COMERCIO DE PRODUTOS DE PETROLEO LTDA 000557 (05/05/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Rosângela Reis (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffd522e9b493eb54.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffd522e9b493eb54.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.722,83 em COMERCIAL DE COMBUSTIVEIS IDEAL LTDA (03/08/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Saulo Pedroso (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffd32da13ea675d3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffd32da13ea675d3.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 1.119,72 em SEM PARAR INSTITUICAO DE PAGAMENTO LTDA (08/05/2026); a nota típica de "serviço de táxi, pedágio e estacionamento" é R$ 21,74.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Adriano do Baldy (PP/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffc493a102362766.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffc493a102362766.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.994,39 em AUTO POSTO ASTRO DA MUTIRAO LTDA (30/07/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Márcio Marinho (REPUBLICANOS/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffb679eedc60487f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffb679eedc60487f.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 7.905,74 em MEGA POSTO BERIMBAU LTDA (01/06/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Átila Lira (PP/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffab36e9307a3e9d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffab36e9307a3e9d.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 7.830,45 em POSTO HOMERO CASTELO BRANCO LTDA (25/11/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Pastor Diniz (UNIÃO/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff94faeeeffb4480.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff94faeeeffb4480.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.000,00 em AUTO POSTO ABEL GALINHA LTDA 6 (30/08/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: CNPJ do documento não é o do fornecedor declarado — Gleisi Hoffmann (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff7aeffebb11daaa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff7aeffebb11daaa.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 9572204451844 de TAM (R$ 948,83, 25/10/2024): o documento traz o(s) CNPJ(s) 34848898000174, e não o do fornecedor declarado (02012862001646).</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Lebrão (UNIÃO/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff48b03e443a7d51.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff48b03e443a7d51.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 7.700,00 em AUTO POSTO PS COMERCIO DE COMBUSTIVEIS EIRELI (30/07/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Damião Feliciano (UNIÃO/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ff15ed2ab1f45116.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ff15ed2ab1f45116.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.454,10 em BEZERRA  BEZERRA LTDA (31/03/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Rosana Valle (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fee7b046334350ea.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fee7b046334350ea.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 1.313,93 em SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA. (23/09/2025); a nota típica de "serviço de táxi, pedágio e estacionamento" é R$ 21,74.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Lebrão (UNIÃO/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/febd1012722c0d02.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/febd1012722c0d02.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 7.424,50 em AUTO POSTO PS COMERCIO DE COMBUSTIVEIS EIRELI (04/07/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Fausto Pinato (UNIÃO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/feae4fdffec8a6cc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/feae4fdffec8a6cc.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 2.700,00 em SEM PARAR INSTITUICAO DE PAGAMENTO LTDA (18/08/2026); a nota típica de "serviço de táxi, pedágio e estacionamento" é R$ 21,74.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Lucio Mosquini (PL/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe93c71f04c50421.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe93c71f04c50421.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 9.095,37 em PATRAO 18 (05/02/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Duda Ramos (PODE/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe645e69404a3141.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe645e69404a3141.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.600,00 em AUTO POSTO ABEL  GALINHA LTDA MATRIZ (31/03/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Damião Feliciano (UNIÃO/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe591ef2f10a3e10.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe591ef2f10a3e10.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.334,89 em BEZERRA  BEZERRA LTDA (03/09/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — João Leão (PP/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe56b5ab29ce2cce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe56b5ab29ce2cce.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 1.080,00 em WELLPARK - ESTACIONAMENTOS E SERVICOS LTDA. (05/01/2024); a nota típica de "serviço de táxi, pedágio e estacionamento" é R$ 21,74.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Fernanda Pessoa (PSD/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe4b2b926261cc3b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe4b2b926261cc3b.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 9572251756297 de LATAM (R$ 1.337,17, 07/10/2025): foi declarado R$ 1.337,17, mas o maior valor lido no documento é R$ 6,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Meire Serafim (UNIÃO/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe105ba9441021c0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe105ba9441021c0.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.034,55 em GONCALVES E FREITAS LTDA (14/11/2023); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Data do documento diferente da declarada — Marcel van Hattem (NOVO/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fe0fe97816e38d02.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fe0fe97816e38d02.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº S/N de Empresa Folha da Manha S.A. (R$ 29,90, 09/01/2026): o documento traz as datas 17/12/2019.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Defensor Stélio Dener (UNIÃO/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdfc431352fc56d2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdfc431352fc56d2.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.306,18 em ARNOGAS E CIA LTDA (26/06/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Daniel Almeida (PCdoB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fde2132f0055ad33.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fde2132f0055ad33.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.629,29 em J A SOBRAL &amp;amp; CIA LTDA - POSTO SETE (04/08/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Meire Serafim (UNIÃO/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdd5eacb713f4b01.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdd5eacb713f4b01.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 7.427,04 em GONCALVES E FREITAS LTDA (14/11/2023); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Fornecedor da campanha pago com a cota — Paulo Folletto (PSB/ES)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdd34c1272300519.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdd34c1272300519.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>POSTO DE COMBUSTIVEIS GIRASSOL LTDA recebeu R$ 19.742,45 na campanha e R$ 101.418,33 da cota.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Rosângela Reis (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdceb3fd75e3d4ba.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdceb3fd75e3d4ba.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 011033 de GARDINUS RESTAURANTE &amp; BUFFET LTDA. (R$ 82,24, 06/03/2023): foi declarado R$ 82,24, mas o maior valor lido no documento é R$ 3,43. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Data do documento diferente da declarada — Luiz Carlos Busato (UNIÃO/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdbc1292eeac470d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdbc1292eeac470d.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 9572199853827 de Latam Linhas Aéreas S.A (R$ 1.857,09, 07/03/2023): o documento traz as datas 24/01/2023.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Pastor Sargento Isidório (AVANTE/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdaf0dc54ae1b30c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdaf0dc54ae1b30c.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.000,38 em POSTO DE COMBUSTIVEIS ULM LTDA (19/06/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Data do documento diferente da declarada — Celso Russomanno (REPUBLICANOS/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdaca94d2f55524a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdaca94d2f55524a.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 002060 de RESTAURANTE AOYAMAS LTDA (R$ 168,70, 27/10/2024): o documento traz as datas 18/12/2024.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Cota pagou empresa de servidor do próprio gabinete — Igor Timo (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdac2b0120182744.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdac2b0120182744.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>Ex-servidor(a) contratado(a) menos de seis meses após sair: VISAO PUBLICA CONSULTORIA E MARKETING LTDA recebeu R$ 260.300,00; Maria Tereza De Jesus é sócio(a) desde 05/11/2024 e trabalhou no gabinete (secretário parlamentar, SP23) desde 30/06/2025. Pagamentos: R$ 231.900,00 antes do vínculo, R$ 28.400,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 28.400,00 até seis meses após a saída.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Átila Lira (PP/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd801f23d533c9ec.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd801f23d533c9ec.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.984,98 em POSTO HOMERO CASTELO BRANCO LTDA (07/04/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Fornecedor da campanha pago com a cota — Osmar Terra (PL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd772bb25f6f3f83.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd772bb25f6f3f83.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>IMIGRANTES HOTEL LTDA. recebeu R$ 179,00 na campanha e R$ 54.328,50 da cota.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Coronel Ulysses (UNIÃO/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd621f304f6530bb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd621f304f6530bb.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.700,00 em AJS DERIVADOS DE PETROLEO - EIRELI (08/07/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Coronel Ulysses (UNIÃO/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd5a8359574de5bc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd5a8359574de5bc.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.541,83 em AJS DERIVADOS DE PETROLEO - EIRELI (08/11/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Delegada Adriana Accorsi (PT/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd25d0a92724d4be.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd25d0a92724d4be.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.754,57 em POSTO T- SETE LTDA (15/05/2023); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Fornecedor da campanha pago com a cota — Sóstenes Cavalcante (PL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd20ae5ab3c6a5f9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd20ae5ab3c6a5f9.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>PATRICIA BEATRIZ BARROS GASPAR AMBROSIO ***.753.856-** recebeu R$ 50.000,00 na campanha e R$ 202.500,00 da cota.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Capitão Augusto (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd0ea5549f9dc8ec.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd0ea5549f9dc8ec.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 2.118,02 em SEM PARAR INSTITUICAO DE PAGAMENTO LTDA (13/10/2026); a nota típica de "serviço de táxi, pedágio e estacionamento" é R$ 21,74.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Dilvanda Faro (PT/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fd0a0dd2781e070e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fd0a0dd2781e070e.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.500,00 em LORENA COMERCIO DE PRODUTOS DE PETROLEO LTDA 000557 (01/07/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Coronel Ulysses (UNIÃO/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fcaa6ae3854d318b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fcaa6ae3854d318b.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 9.000,00 em AJS DERIVADOS DE PETROLEO - EIRELI (23/02/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Dagoberto Nogueira (PP/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fca705e70e8a1cef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fca705e70e8a1cef.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.514,06 em POSTO LIBERDADE LOCATELLI LTDA. (03/08/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Defensor Stélio Dener (UNIÃO/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc9f4ceacb83a238.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc9f4ceacb83a238.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.780,41 em ARNOGAS E CIA LTDA (21/09/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Rodolfo Nogueira (PL/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc87277fd2e84bcd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc87277fd2e84bcd.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.436,21 em POSTO PATRICIA - EIRELI (28/03/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Data do documento diferente da declarada — Alexandre Lindenmeyer (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc7a902f59fcb99e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc7a902f59fcb99e.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 03 de PREFEITURA MUNICIPAL DE RIO GRANDE (R$ 236,83, 14/03/2025): o documento traz as datas 27/05/2025.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Pastor Diniz (UNIÃO/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc7a7cbe4b8620a1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc7a7cbe4b8620a1.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 9.392,00 em AUTO POSTO ABEL GALINHA LTDA 6 (31/01/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Notas de combustível acima de R$ 550 no mesmo posto — Duda Ramos (PODE/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc768585c522bf44.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc768585c522bf44.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>GOES COMBUSTIVEIS, LUBRIFICANTES E GLP LTDA: 9 nota(s) de combustível acima de R$ 550,00, somando R$ 20.149,80; a maior, de R$ 3.422,27.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Lázaro Botelho (PP/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc6f55e2e4665fc5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc6f55e2e4665fc5.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.500,43 em BEATRIZ TEIXEIRA LACERDA CAMPOS (05/09/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Fornecedor da campanha pago com a cota — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc5d004853cf28e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc5d004853cf28e6.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>RICARDO ANTONIO CALIXTO S/S LTDA-VIASUL recebeu R$ 63.196,20 na campanha e R$ 123.277,67 da cota.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Hugo Leal (PSD/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc1464edeea0c673.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc1464edeea0c673.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 1.300,00 em TERMINAL GARAGEM MENEZES CORTES S.A. (08/09/2025); a nota típica de "serviço de táxi, pedágio e estacionamento" é R$ 21,74.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Data do documento diferente da declarada — Ana Pimentel (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fbe7db1a0023a5ac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fbe7db1a0023a5ac.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 106741906 de CEMIG DISTRIBUIÇÃO S.A. (R$ 47,75, 08/01/2024): o documento traz as datas 27/09/2024.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Andreia Siqueira (PSB/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fbe7bab4f9f20e4c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fbe7bab4f9f20e4c.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.939,39 em LORENA COMERCIO DE PRODUTOS DE PETROLEO LTDA 000557 (12/12/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Mario Frias (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fbdfb98d72b52822.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fbdfb98d72b52822.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 1.498,08 em SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA. (29/08/2024); a nota típica de "serviço de táxi, pedágio e estacionamento" é R$ 21,74.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Lázaro Botelho (PP/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fbcfe231fb2897cd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fbcfe231fb2897cd.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.999,18 em BEATRIZ TEIXEIRA LACERDA CAMPOS (10/11/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: CNPJ do documento não é o do fornecedor declarado — Augusto Coutinho (REPUBLICANOS/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb9f73cec105d1bf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb9f73cec105d1bf.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 0003860784 de NEXTEL TELECOMUNICAÇÕES LTDA (R$ 539,07, 27/06/2024): o documento traz o(s) CNPJ(s) 40432544010290, e não o do fornecedor declarado (66970229000914).</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Lebrão (UNIÃO/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb90a27b6bbc54ea.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb90a27b6bbc54ea.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 7.460,00 em AUTO POSTO PS COMERCIO DE COMBUSTIVEIS EIRELI (06/11/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Junior Lourenço (MDB/MA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb8e3de73360d38d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb8e3de73360d38d.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.000,00 em POSTO AMERICANO LTDA (17/07/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Jefferson Campos (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb4e481613b66393.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb4e481613b66393.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 151519 de GEPÊ EMPREENDIMENTOS DE HOTELARIA LTDA (R$ 344,75, 17/10/2023): foi declarado R$ 344,75, mas o maior valor lido no documento é R$ 334,75.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Lázaro Botelho (PP/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb22ae1ea3e90ef3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb22ae1ea3e90ef3.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 7.000,20 em BEATRIZ TEIXEIRA LACERDA CAMPOS (10/09/2023); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Claudio Cajado (PP/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb193042cfcbca8e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb193042cfcbca8e.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.514,45 em HIPER POSTO CAMINHO DAS ARVORES LTDA (30/12/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Daniel Trzeciak (PSDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb1576f56e4b2852.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb1576f56e4b2852.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.939,05 em VIGHOR EMPREENDIMENTOS LTDA (29/11/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Data do documento diferente da declarada — Odair Cunha (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb0f796f17630257.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb0f796f17630257.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 243881855 de CEMIG DISTRIBUIÇÃO S.A. (R$ 224,19, 26/02/2025): o documento traz as datas 24/05/2024.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Lázaro Botelho (PP/TO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/faf375719f1a05b7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/faf375719f1a05b7.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 7.503,06 em BEATRIZ TEIXEIRA LACERDA CAMPOS (14/08/2023); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
 </entry><entry>
 <title>Descartado em revisão assistida: Valor declarado maior que o da nota — Junio Amaral (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f86d9fbbfdbdce08.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f86d9fbbfdbdce08.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 219533 de POSTO SARAMENHA LTDA. (R$ 250,00, 17/07/2023): foi declarado R$ 250,00, mas o maior valor lido no documento é R$ 47,80. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fadacc6e2461d590.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fadacc6e2461d590.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 200678 de POSTO TAMPINHA (R$ 296,02, 21/02/2025): foi declarado R$ 296,02, mas o maior valor lido no documento é R$ 53,26. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Ely Santos (REPUBLICANOS/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f864b11e228b727a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f864b11e228b727a.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 438110 de POSTO URSA MENOR LTDA (R$ 241,72, 14/03/2026): o documento traz as datas 14/05/2025, 14/05/2026.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Daniel Almeida (PCdoB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fac37932ef7b2385.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fac37932ef7b2385.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 9.392,00 em J A SOBRAL &amp;amp; CIA LTDA - POSTO SETE (02/06/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Padre João (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f85041f7e6237947.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f85041f7e6237947.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 28863 de AUTO POSTO RESSAQUINHA LTDA (R$ 166,84, 24/08/2026): foi declarado R$ 166,84, mas o maior valor lido no documento é R$ 2,07. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+<title>Descartado em revisão assistida: CNPJ do documento não é o do fornecedor declarado — Miguel Ângelo (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fac328c631369aaa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fac328c631369aaa.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 0032095567 de CLARO NEXTEL TELECOMUNICAÇÕES S.A (R$ 416,25, 24/09/2025): o documento traz o(s) CNPJ(s) 66079609000459, e não o do fornecedor declarado (66970229002100).</summary>
 </entry><entry>
-<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Data do documento diferente da declarada — Enfermeira Ana Paula (PODE/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8456a903a18c3aa.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8456a903a18c3aa.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 125270 de SUPER COMERCIO DE COMBUSTIVEIS LTDA (R$ 298,00, 18/09/2025): o documento traz as datas 18/08/2025, 18/08/2028.</summary>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Julia Zanatta (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/faa1c9d440153d08.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/faa1c9d440153d08.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 000095259 de GUTBRAU RESTAURANTE E COMERCIO (R$ 56,00, 04/08/2023): foi declarado R$ 56,00, mas o maior valor lido no documento é R$ 21,93. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
 </entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Luisa Canziani (UNIÃO/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f83ece2ee8739ad7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f83ece2ee8739ad7.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 15 de 53.701.670 RENATA SANTOS VASCONCELLOS (R$ 800,00, 07/11/2024): o documento traz as datas 22/08/2024, 11/09/2024, 30/09/2024.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Orlando Silva (PCdoB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa95fe0b706f6a0f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa95fe0b706f6a0f.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.647,58 em AUTO POSTO MONTANA LT (02/09/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f81195355c188ac3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f81195355c188ac3.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 002090 de COPIADORA SHEKINAH LTDA. - ME (R$ 1.680,00, 19/09/2024): foi declarado R$ 1.680,00, mas o maior valor lido no documento é R$ 1.650,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Doador da campanha recebendo da cota — Pinheirinho (PP/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa7ba8cc5bdd483f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa7ba8cc5bdd483f.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>AUTO POSTO MAQUINE LTDA recebeu R$ 1.427,00 da cota; o sócio Wagner Carvalho Villanueva doou R$ 15.000,00 à campanha.</summary>
 </entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — André Ferreira (PL/PE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f809d64e3a64f430.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f809d64e3a64f430.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 98777938 de FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA (R$ 1.608,58, 02/12/2024): o documento traz as datas 04/02/2025.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Jeferson Rodrigues (PSDB/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa77b45118c1aed4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa77b45118c1aed4.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.920,45 em SUPER POSTO BRASIL V LTDA (31/03/2023); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Márcio Marinho (REPUBLICANOS/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa6fb004acaffb1f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa6fb004acaffb1f.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.847,82 em MEGA POSTO BERIMBAU LTDA (03/08/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Defensor Stélio Dener (UNIÃO/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa64fe08811b086a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa64fe08811b086a.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.713,68 em ARNOGAS E CIA LTDA (28/05/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — João Leão (PP/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa5d93b4f9f5a7fe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa5d93b4f9f5a7fe.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 1.080,00 em WELLPARK - ESTACIONAMENTOS E SERVICOS LTDA. (13/04/2025); a nota típica de "serviço de táxi, pedágio e estacionamento" é R$ 21,74.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Damião Feliciano (UNIÃO/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa4c6e1de4f1ef91.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa4c6e1de4f1ef91.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.938,89 em BEZERRA &amp; BEZERRA LTDA (31/08/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Adilson Barroso (PL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa16999ea4862e98.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa16999ea4862e98.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 2.376,60 em SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA. (08/06/2025); a nota típica de "serviço de táxi, pedágio e estacionamento" é R$ 21,74.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: CNPJ do documento não é o do fornecedor declarado — Adriana Ventura (NOVO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fa05a2dc183744fe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fa05a2dc183744fe.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº GLOBO05 de VALOR ECONOMICO S.A. (R$ 64,90, 04/05/2023): o documento traz o(s) CNPJ(s) 04067191000160, e não o do fornecedor declarado (03687592000150).</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Dilvanda Faro (PT/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f9d9dc52f467f5e6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f9d9dc52f467f5e6.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.000,00 em LORENA COMERCIO DE PRODUTOS DE PETROLEO LTDA 0005-57 (01/04/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Coronel Ulysses (UNIÃO/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f9d675eea7db1e3f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f9d675eea7db1e3f.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.000,00 em AJS DERIVADOS DE PETROLEO - EIRELI (09/01/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Fausto Pinato (UNIÃO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f9c4be257968a598.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f9c4be257968a598.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 1.584,02 em SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA (22/07/2023); a nota típica de "serviço de táxi, pedágio e estacionamento" é R$ 21,74.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Fornecedor da campanha pago com a cota — Fausto Jr. (UNIÃO/AM)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f9bd3486a07ed968.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f9bd3486a07ed968.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>TAXI AEREO VALE DO MADEIRA LTDA recebeu R$ 131.303,26 na campanha e R$ 157.850,00 da cota.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Zeca Dirceu (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f9b80183517fb728.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f9b80183517fb728.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.065,23 em POSTO DO SALU LTDA. (31/07/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Damião Feliciano (UNIÃO/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f9aacc938c10632f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f9aacc938c10632f.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.305,91 em BEZERRA  BEZERRA LTDA (16/06/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Data do documento diferente da declarada — Patrus Ananias (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f98c35b3ca4fabe8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f98c35b3ca4fabe8.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 002118 de RAMAIS TELEINFORMÁTICA COMERCIO EIRELI - ME (R$ 930,00, 02/09/2024): o documento traz as datas 17/01/2023.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Julio Lopes (PP/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f98af9d4127d4d42.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f98af9d4127d4d42.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 7.351,90 em PONEI POSTO DE GASOLINA LTDA (03/06/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Fausto Pinato (UNIÃO/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f9849bdf76914d48.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f9849bdf76914d48.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 7.029,58 em AUTO POSTO BRASIL DE FERNANDOPOLIS LTDA (30/04/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Pastor Sargento Isidório (AVANTE/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f953663b45e2c622.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f953663b45e2c622.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 6.000,67 em POSTO DE COMBUSTIVEIS ULM LTDA (03/09/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Dra. Alessandra Haber (PODE/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f93c5b8babdd2128.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f93c5b8babdd2128.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 9.040,20 em Abejet Comercio de Combustivel e Lubrificantes Ltda (17/10/2025); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Daniel Almeida (PCdoB/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f93226055506a933.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f93226055506a933.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.560,58 em J A SOBRAL &amp;amp; CIA LTDA - POSTO SETE (04/03/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Fornecedor da campanha pago com a cota — Luiz Couto (PT/PB)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f92b750e4582a43d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f92b750e4582a43d.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>POSTO DE COMBUSTIVEL B &amp; B LTDA recebeu R$ 7.079,93 na campanha e R$ 267.190,23 da cota.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Pastor Diniz (UNIÃO/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f90dd491c2a18c49.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f90dd491c2a18c49.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 9.255,00 em AUTO POSTO ABEL GALINHA LTDA 6 (28/02/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Fernando Coelho Filho (UNIÃO/PE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8f27637354ae53c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8f27637354ae53c.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.422,34 em CATAVENTO DERIVADOS DE PETROLEO LTDA - ME (09/07/2024); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — José Airton Félix Cirilo (PT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8d48d922528a1f7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8d48d922528a1f7.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 9.392,00 em DAMPETRO COMERCIO DE DERIVADOS DE PETROLEO LTDA (02/02/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Átila Lira (PP/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8cf4009959cbc89.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8cf4009959cbc89.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.297,39 em POSTO HOMERO CASTELO BRANCO LTDA (30/07/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Valor declarado maior que o da nota — Denise Pessôa (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f8ae6a7d2018b5da.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f8ae6a7d2018b5da.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 1637538 de Unesul de Transportes Ltda (R$ 160,35, 19/04/2024): foi declarado R$ 160,35, mas o maior valor lido no documento é R$ 130,20.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Dilvanda Faro (PT/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f88f592f97c2b41c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f88f592f97c2b41c.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 9.000,02 em LORENA COMERCIO DE PRODUTOS DE PETROLEO LTDA 000204 (24/02/2023); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
+</entry><entry>
+<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Patrus Ananias (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f864d68b4a50120b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f864d68b4a50120b.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 144568 de POSTO ESMERALDAS LTDA (R$ 265,56, 03/12/2025): foi declarado R$ 265,56, mas o maior valor lido no documento é R$ 32,40. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+</entry><entry>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Waldenor Pereira (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f84ec44c44f019db.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f84ec44c44f019db.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 5.917,30 em AUTO POSTO PANTANAL LTDA (30/05/2023); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
 </entry><entry>
 <title>Descartado em revisão assistida: Valor declarado maior que o da nota — Simone Marquetto (PP/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f808d7004901084a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f808d7004901084a.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 255706 de Auto Posto Atenas Vila Nastri Ltda (R$ 117,24, 20/05/2024): foi declarado R$ 117,24, mas o maior valor lido no documento é R$ 34,82. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f838b01e69899f1a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f838b01e69899f1a.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 016480 de COMERCIAL DE COMBUSTIVEIS PAULICÉIA US (R$ 179,36, 26/09/2025): foi declarado R$ 179,36, mas o maior valor lido no documento é R$ 79,36. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7fccdf6595d7b67.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7fccdf6595d7b67.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 000233 de Delcópias (R$ 3.500,00, 01/12/2023): o documento traz as datas 30/03/2023.</summary>
+<title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Dilvanda Faro (PT/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7ef64be6bf07731.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7ef64be6bf07731.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>R$ 8.499,04 em LORENA COMERCIO DE PRODUTOS DE PETROLEO LTDA 000557 (07/04/2026); a nota típica de "combustíveis e lubrificantes" é R$ 223,85.</summary>
 </entry><entry>
-<title>Deixou de ser apontado: Dados da chave de acesso não batem com a despesa declarada — Carol Dartora (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7e17fe8a6dd2862.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7e17fe8a6dd2862.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 1001801 de VIAÇÃO GRACIOSA LTDA (R$ 45,92, 15/04/2024): o emissor da nota é o CNPJ 78.132.636/0001-84, não o fornecedor declarado.</summary>
+<title>Descartado em revisão assistida: Data do documento diferente da declarada — Átila Lins (PSD/AM)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7ecbd5d0dbcc0e7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7ecbd5d0dbcc0e7.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 16211 de A&amp;T Turismo Ltda. (R$ 12.509,50, 17/06/2025): o documento traz as datas 17/04/2025.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Zeca Dirceu (PT/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7ddc6ee29dbba03.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7ddc6ee29dbba03.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 174513 de C S JACOMELI COMERCIO DE COMBUSTIVEIS LTDA (R$ 200,00, 29/08/2025): foi declarado R$ 200,00, mas o maior valor lido no documento é R$ 42,88. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
+<title>Descartado em revisão assistida: Data do documento diferente da declarada — Ricardo Abrão (PSDB/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7d9a5994e7b7a5c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7d9a5994e7b7a5c.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº S/N de MARIA ALDA PEREIRA LOPES (R$ 6.500,00, 10/03/2026): o documento traz as datas 17/07/2018.</summary>
 </entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Rosana Valle (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7d5bbbd96bb8bf3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7d5bbbd96bb8bf3.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 117928 de R P LOPES FONSECA (R$ 143,47, 22/06/2026): foi declarado R$ 143,47, mas o maior valor lido no documento é R$ 6,59. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Daniel Freitas (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7cb1145a2dab1e9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7cb1145a2dab1e9.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 000587328 de AUTO POSTO VIADUTO BOCA DA SERRA (R$ 209,77, 27/10/2023): foi declarado R$ 209,77, mas o maior valor lido no documento é R$ 13,87. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Odair Cunha (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7c04bfba240ecdc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7c04bfba240ecdc.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 362209 de AUTO POSTO LUQUINHA LTDA (R$ 100,00, 22/08/2023): foi declarado R$ 100,00, mas o maior valor lido no documento é R$ 20,10. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Luiz Carlos Motta (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7a1d88e96f47c88.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7a1d88e96f47c88.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 289 de É RIO PRETO COMUNICAÇÃO E MARKETING DIGITAL EIRELE (R$ 9.952,42, 04/08/2025): foi declarado R$ 9.952,42, mas o maior valor lido no documento é R$ 1.525,70. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Cezinha de Madureira (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f78840a5fb9dcbb7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f78840a5fb9dcbb7.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 10 de 54.125.189 JOSIAS DE CAMPOS JUNIOR (R$ 11.000,00, 27/01/2025): o documento traz as datas 01/11/2024.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Ivan Valente (PSOL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f770aeec85f94c66.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f770aeec85f94c66.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 055452 de GRUPO MAJORE PAULA AUTO POSTO LTDA (R$ 100,00, 20/08/2024): foi declarado R$ 100,00, mas o maior valor lido no documento é R$ 9,60. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f76efefe6ff788cf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f76efefe6ff788cf.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 000193 de Delcópias (R$ 3.420,00, 07/02/2023): o documento traz as datas 17/06/2021, 17/06/2026.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f76ad0b0c58922c2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f76ad0b0c58922c2.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 002077 de COPIADORA SHEKINAH LTDA. - ME (R$ 1.660,00, 19/03/2024): o documento traz as datas 21/08/2020.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Dados da chave de acesso não batem com a despesa declarada — Ricardo Silva (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f75e08d4a0354a9f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f75e08d4a0354a9f.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 313979 de POSTO PRESIDENTE RIBEIRÃO LTDA (R$ 100,00, 25/08/2023): a nota é de 2025-08, mas foi declarada com data 25/08/2023.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Patrus Ananias (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f744991310ac4e62.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f744991310ac4e62.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 77615 de AUTO POSTO BICAS LTDA (R$ 200,00, 27/04/2025): foi declarado R$ 200,00, mas o maior valor lido no documento é R$ 48,80. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Saullo Vianna (MDB/AM)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f724efa7f6419166.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f724efa7f6419166.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 031814 de Rádio Difusora do Amazonas LTDA (R$ 5.000,00, 20/10/2023): o documento traz as datas 29/04/2022.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: CNPJ do documento não é o do fornecedor declarado — Mauricio Neves (PP/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f716b7f1fbae81c2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f716b7f1fbae81c2.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 00000226 de EPOLITICS S/S LTDA - ME (R$ 12.000,00, 19/08/2024): o documento traz o(s) CNPJ(s) 10770075000105, e não o do fornecedor declarado (15788156000156).</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Odair Cunha (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f70df37281ab5f1f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f70df37281ab5f1f.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 132584 de AUTO POSTO MINDURI (R$ 230,14, 01/04/2024): foi declarado R$ 230,14, mas o maior valor lido no documento é R$ 29,28. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Jonas Donizette (PSB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f6b66093fc0f06df.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f6b66093fc0f06df.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 074148 de AUTO SHOPP PAULISTA LT (R$ 249,09, 21/01/2024): foi declarado R$ 249,09, mas o maior valor lido no documento é R$ 243,08. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Luiz Carlos Hauly (PODE/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f6a80fa0135517af.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f6a80fa0135517af.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 45 de ANA TERRA MEJLA MUNHOZ (R$ 1.000,00, 08/04/2026): o documento traz as datas 28/02/2026.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Luiz Couto (PT/PB)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f690e92e8d1a8390.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f690e92e8d1a8390.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 1001125 de Claudia Maria Carvalho (R$ 2.000,00, 02/05/2025): foi declarado R$ 2.000,00, mas o maior valor lido no documento é R$ 120,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Data do documento diferente da declarada — Misael Varella (PSD/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f67795e832b2d2ac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f67795e832b2d2ac.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 002150 de PATRICIA VITAL FRANCO ALBOJIAN (R$ 3.690,00, 02/06/2026): o documento traz as datas 23/12/2024.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Patrus Ananias (PT/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f63cc5412bc894cc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f63cc5412bc894cc.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 420579 de COMERCIAL OLIVEIRA &amp; BRANT LTDA (R$ 130,11, 23/08/2023): foi declarado R$ 130,11, mas o maior valor lido no documento é R$ 23,41. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Gilvan da Federal (PL/ES)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f6368752cd3cefdd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f6368752cd3cefdd.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 2009383 de POSTO MONZA (R$ 262,46, 17/05/2024): foi declarado R$ 262,46, mas o maior valor lido no documento é R$ 61,45. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Rodrigo Gambale (PODE/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f63504e85dbe199c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f63504e85dbe199c.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 7071 de AUTO POSTO VALE DAS ORQUIDEAS LTDA (R$ 200,46, 24/09/2026): o documento traz as datas 24/04/2026.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — João Cury (MDB/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f62f37bc109f241e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f62f37bc109f241e.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 115718 de BAR RESTAURANTE POSTO AVENIDA LTDA (R$ 130,04, 01/10/2026): foi declarado R$ 130,04, mas o maior valor lido no documento é R$ 47,72. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Descartado em revisão assistida: Valor declarado maior que o da nota — Rosana Valle (PL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f61c2615d71dacef.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f61c2615d71dacef.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 16357 de AUTO POSTO LEAO VIP LTDA (R$ 232,03, 29/09/2025): foi declarado R$ 232,03, mas o maior valor lido no documento é R$ 28,31. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos.</summary>
-</entry><entry>
-<title>Deixou de ser apontado: Data do documento diferente da declarada — Juliana Cardoso (PT/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f60f6d60ffe935c1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f60f6d60ffe935c1.html#correcao-2026-11-06</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<summary>nº 19 de ISABELLY FERREIRA VITORINO (R$ 4.000,00, 27/01/2025): o documento traz as datas 27/10/2024.</summary>
+<title>Descartado em revisão assistida: Data do documento diferente da declarada — Cobalchini (MDB/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7b638d4d47db4c6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7b638d4d47db4c6.html#correcao-2026-11-09</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<summary>nº 589 de MERIOS COUNTRY RESTAURANTE - VALDIR JAHN (R$ 160,00, 11/10/2023): o documento traz as datas 03/04/2023.</summary>
 </entry>
 </feed>

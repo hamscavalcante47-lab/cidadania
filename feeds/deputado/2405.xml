@@ -4,14 +4,32 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2405.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2405.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Bohn Gass (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6b8dfd3f8c7b2a90.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6b8dfd3f8c7b2a90.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CREDITO REAL, IMO. E CONDOMÍNIOS SA foi anexado a 2 reembolsos. Despesas declaradas: nº s/n (R$ 5.408,94, 21/02/2025); nº 109003853303 (R$ 5.439,12, 21/03/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Bohn Gass (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8fbf601ed4b02f8b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8fbf601ed4b02f8b.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 12/06/2023 a 15/06/2023 em Santiago (exterior), com 2,5 diárias de R$ 1.978,46 pagas pela Câmara: 1 nota de hospedagem da cota com data em 15/06/2023; a nota é de fornecedor no Brasil (RS), não do destino, somando R$ 209,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Bohn Gass (PT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9b57c55d8559ddb8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9b57c55d8559ddb8.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 17/05/2025 a 22/05/2025 em Madri, Salamanca (exterior), com 5 diárias de R$ 2.508,08 pagas pela Câmara: 1 nota de hospedagem da cota com data em 21/05/2025; a nota é de fornecedor no Brasil (RS), não do destino, somando R$ 150,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — Bohn Gass (PT/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c03a11154ef7fbe8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c03a11154ef7fbe8.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/528566c7a5e8cd7a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c03a11154ef7fbe8.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 21622 de VIACAO OURO E PRATA S A (R$ 419,70, 14/08/2024): foi declarado R$ 419,70, mas o maior valor lido no documento é R$ 348,85. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 21622 de VIACAO OURO E PRATA S A (R$ 419,70, 14/08/2024): foi declarado R$ 419,70, mas o maior valor lido no documento é R$ 348,85. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Atividade da empresa não combina com o gasto — Bohn Gass (PT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c2f57ea2364c3602.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c2f57ea2364c3602.html</id>

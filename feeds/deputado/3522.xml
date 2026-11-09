@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3522.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3522.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Duda Salabert (PSOL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4fad36d0ee241b3c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4fad36d0ee241b3c.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Copygreen Outsourcing de Impressao e Solucoes foi anexado a 2 reembolsos. Despesas declaradas: nº 202318455 (R$ 297,00, 13/07/2023); nº 202318455 (R$ 510,50, 13/07/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Duda Salabert (PSOL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b54a5879fa784bcc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b54a5879fa784bcc.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

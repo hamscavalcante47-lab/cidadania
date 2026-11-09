@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3327.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3327.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — General Girão (PL/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/559473b31f55b401.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/559473b31f55b401.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CABO SERVICOS DE TELECOMUNICACOES LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 004113473 (R$ 172,96, 18/08/2023); nº 004113473 (R$ 169,20, 19/08/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — General Girão (PL/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0c16e92dbd847b12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0c16e92dbd847b12.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 35762605 de PJBANK PAGAMENTOS S.A. (R$ 420,00, 10/09/2026): o documento traz o(s) CNPJ(s) 20801426000151, e não o do fornecedor declarado (18191228000171). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — General Girão (PL/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/87b132f0fcbc218c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/87b132f0fcbc218c.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 22/04/2025 a 29/04/2025 em Milão (exterior), com 5 diárias de R$ 2.503,80 pagas pela Câmara: 1 nota de hospedagem da cota com data em 25/04/2025; a nota é de fornecedor no Brasil (MG), não do destino, somando R$ 1.305,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — General Girão (PL/RN)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/67df9ab77551957e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/67df9ab77551957e.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

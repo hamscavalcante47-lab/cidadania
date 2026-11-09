@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1458.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1458.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Pompeo de Mattos (PDT/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9796a40a5e98b98a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9796a40a5e98b98a.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Prefeitura de Porto Alegre foi anexado a 2 reembolsos. Despesas declaradas: nº 2024898920050075 (R$ 452,46, 25/09/2024); nº 2024899752880086 (R$ 452,46, 24/10/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Pompeo de Mattos (PDT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/42ee79fe777c409b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/42ee79fe777c409b.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -38,10 +44,10 @@
 <summary>Gravidade média. nº 95854 de POSTO E HOTEL KIRST LTDA (R$ 200,00, 30/04/2024): o documento traz o(s) CNPJ(s) 04144661001202, e não o do fornecedor declarado (10453312000104). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Pompeo de Mattos (PDT/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ee534fce06886869.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ee534fce06886869.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ccc3b040f047101a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ee534fce06886869.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 95854 de POSTO E HOTEL KIRST LTDA (R$ 200,00, 30/04/2024): foi declarado R$ 200,00, mas o maior valor lido no documento é R$ 105,28. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 95854 de POSTO E HOTEL KIRST LTDA (R$ 200,00, 30/04/2024): foi declarado R$ 200,00, mas o maior valor lido no documento é R$ 105,28. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Pompeo de Mattos (PDT/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b377e3e341c7643c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b377e3e341c7643c.html</id>

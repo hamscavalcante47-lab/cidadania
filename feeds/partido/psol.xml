@@ -4,14 +4,62 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psol.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psol.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Professora Luciene Cavalcante (PSOL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/275d779f5640436f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/275d779f5640436f.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ATTBRASIL TECNOLOGIA LOCAÇÃO E SOLUÇÕES EM INFORMÁTICA LTDA-EPP foi anexado a 2 reembolsos. Despesas declaradas: nº 094146 (R$ 5.210,00, 01/03/2025); nº 094146 (R$ 5.210,00, 30/04/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Duda Salabert (PSOL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4fad36d0ee241b3c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4fad36d0ee241b3c.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Copygreen Outsourcing de Impressao e Solucoes foi anexado a 2 reembolsos. Despesas declaradas: nº 202318455 (R$ 297,00, 13/07/2023); nº 202318455 (R$ 510,50, 13/07/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Fernanda Melchionna (PSOL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5fa1b54f2e684f18.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5fa1b54f2e684f18.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 15373 de RODRIGO BIONDI ***.110.130-** (R$ 1.918,00, 01/03/2026): o documento traz o(s) CNPJ(s) 20978513000189, e não o do fornecedor declarado (48710028000149). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Fernanda Melchionna (PSOL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fb934d9cf7a31f30.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fb934d9cf7a31f30.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 14995 de RODRIGO BIONDI ***.110.130-** (R$ 1.918,00, 20/02/2026): o documento traz o(s) CNPJ(s) 20978513000189, e não o do fornecedor declarado (48710028000149). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Fernanda Melchionna (PSOL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b13cd28bc161e2e3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b13cd28bc161e2e3.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 15297 de RODRIGO BIONDI ***.110.130-** (R$ 175,00, 01/03/2026): o documento traz o(s) CNPJ(s) 20978513000189, e não o do fornecedor declarado (48710028000149). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Fernanda Melchionna (PSOL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b1fab3e2450f370f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b1fab3e2450f370f.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 15037 de RODRIGO BIONDI ***.110.130-** (R$ 175,00, 01/02/2026): o documento traz o(s) CNPJ(s) 20978513000189, e não o do fornecedor declarado (48710028000149). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Pastor Henrique Vieira (PSOL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4ed4d81e7d53372c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4ed4d81e7d53372c.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 01/02/2023: nota de hospedagem de H PLUS ADMINISTRAÇÃO E HOTELARIA LTDA - SCP SAINT MORITZ, em Brasília, com o próprio deputado como hóspede, de R$ 1.022,44. Na data, o registro de moradia da Câmara não mostra imóvel funcional nem auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Erika Hilton (PSOL/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4641fc214e6e45b9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0f491feb31376860.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 03/02/2026: nota de hospedagem de ANTONIO ABRAO ABDALA, em Brasília, com a própria deputada como hóspede, de R$ 540,00. Na data, a deputada recebia auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — Erika Hilton (PSOL/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a8e80d11097a1ad3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a8e80d11097a1ad3.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/218b0591372a6b18.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a8e80d11097a1ad3.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 49381837 de VIACAO COMETA S A (R$ 190,50, 14/06/2026): foi declarado R$ 190,50, mas o maior valor lido no documento é R$ 109,50. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 49381837 de VIACAO COMETA S A (R$ 190,50, 14/06/2026): foi declarado R$ 190,50, mas o maior valor lido no documento é R$ 109,50. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Erika Hilton (PSOL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2ce935704bb813a0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2ce935704bb813a0.html</id>
@@ -20,10 +68,10 @@
 <summary>Gravidade média. nº 20452607 de VIACAO COMETA S A (R$ 102,98, 05/06/2026): o documento traz o(s) CNPJ(s) 17289475000142, 54360623000102, e não o do fornecedor declarado (61084018000103). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Tarcísio Motta (PSOL/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0d0e688cc92ce028.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0d0e688cc92ce028.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8851c446180aba84.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0d0e688cc92ce028.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 194320 de HOTEL PHENICIA LTDA (R$ 2.602,60, 14/12/2023): foi declarado R$ 2.602,60, mas o maior valor lido no documento é R$ 2.360,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 194320 de HOTEL PHENICIA LTDA (R$ 2.602,60, 14/12/2023): foi declarado R$ 2.602,60, mas o maior valor lido no documento é R$ 2.360,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Chico Alencar (PSOL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7af461d20ad62538.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7af461d20ad62538.html</id>
@@ -56,10 +104,10 @@
 <summary>Gravidade média. nº 18860 de LOCADORA DE VEICULOS FLORESTA LTDA (R$ 2.580,65, 31/07/2026): o documento traz o(s) CNPJ(s) 03350577000111, e não o do fornecedor declarado (07560718000181). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Chico Alencar (PSOL/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8a15202bfb33b645.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8a15202bfb33b645.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d49183bab4311080.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8a15202bfb33b645.html</id>
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: BRUNO LINS A.F. LTDA recebeu R$ 97.330,00; Bruno Lins Avila Ferreira é sócio(a) desde 09/10/2025 e trabalhou no gabinete (secretário parlamentar, SP21) de 03/02/2023 a 04/05/2025. Pagamentos: R$ 97.330,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 6.300,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: BRUNO LINS A.F. LTDA recebeu R$ 113.770,00; Bruno Lins Avila Ferreira é sócio(a) desde 09/10/2025 e trabalhou no gabinete (secretário parlamentar, SP21) de 03/02/2023 a 04/05/2025. Pagamentos: R$ 113.770,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 6.300,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — Duda Salabert (PSOL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2191017dd743766a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2191017dd743766a.html</id>

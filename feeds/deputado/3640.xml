@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3640.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3640.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Fretamento de aeronave privada ou sem registro na ANAC — Yury do Paredão (MDB/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/044d72fdfa7d3c5f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/044d72fdfa7d3c5f.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 1 nota de fretamento de aeronave em 24/03/2023, somando R$ 60.000,00, com o prefixo PP-LPG, que não aparece no Registro Aeronáutico Brasileiro da ANAC, nem como matrícula cancelada. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Yury do Paredão (MDB/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1fbe250366ae88ff.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3d62f77e69907d1f.html</id>
 <updated>2026-10-26T00:00:00Z</updated>

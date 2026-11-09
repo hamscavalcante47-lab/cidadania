@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3637.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3637.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Camila Jara (PT/MS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3f656b935594bc2b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3f656b935594bc2b.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 014179604 de ENERGISA DISTRIBUIDORA DE ENERGIA / MS. (R$ 473,10, 12/03/2024): a nota é de 2024-01, mas foi declarada com data 12/03/2024. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Camila Jara (PT/MS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ddc60782a7e68207.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ddc60782a7e68207.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

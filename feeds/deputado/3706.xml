@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3706.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3706.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Marcelo Lima (PSB/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7a5f430054486693.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7a5f430054486693.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 09/02/2023: nota de hospedagem de NOBILE GESTAO DE EMPREENDIMENTOS LTDA SCP 001, em Brasília, com o próprio deputado como hóspede, de R$ 1.300,38. Na data, o deputado recebia auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

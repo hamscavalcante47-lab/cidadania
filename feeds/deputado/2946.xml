@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2946.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2946.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Luizianne Lins (REDE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ba3d000abaf93ac6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ba3d000abaf93ac6.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 17614 de J F DA SILVA RESTAURANTE LTDA (R$ 185,38, 21/08/2026): o emissor da nota é o CNPJ 39.810.404/0001-86, não o fornecedor declarado; a nota é de 2026-06, mas foi declarada com data 21/08/2026. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luizianne Lins (REDE/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1286703aaf189b04.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1286703aaf189b04.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 17614 de J F DA SILVA RESTAURANTE LTDA (R$ 185,38, 21/08/2026): o documento traz o(s) CNPJ(s) 39810404000186, e não o do fornecedor declarado (21588450000117). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Luizianne Lins (REDE/CE)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ac2f47e9bf5f6fd2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ac2f47e9bf5f6fd2.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

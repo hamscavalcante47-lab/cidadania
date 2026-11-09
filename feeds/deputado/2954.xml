@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2954.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2954.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Dados da chave de acesso não batem com a despesa declarada — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bf8cbdade08f4e9e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bf8cbdade08f4e9e.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. nº 54281 de BOM SENSO CAFE &amp; RESTAURANTE LTDA (R$ 35,00, 17/08/2026): a nota é de 2026-06, mas foi declarada com data 17/08/2026. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Vitor Lippi (PSD/SP)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/53d64780c03235ac.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/53d64780c03235ac.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 0007347507 de EDITORA GLOBO S/A (R$ 299,88, 08/02/2024): foi declarado R$ 299,88, mas o maior valor lido no documento é R$ 266,88. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Vitor Lippi (PSD/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/83d169c77247deb2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/83d169c77247deb2.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

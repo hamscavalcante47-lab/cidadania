@@ -4,9 +4,111 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/uniao.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/uniao.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Silvye Alves (UNIÃO/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/753f0c0c621b7bb4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/753f0c0c621b7bb4.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CONDOMINIO WALK BUENO BUSINESS &amp; LIFESTYLE foi anexado a 2 reembolsos. Despesas declaradas: nº 00947075 (R$ 662,27, 23/07/2026); nº 00947075 (R$ 662,27, 23/07/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Diego Garcia (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c5de2ade3cca0d96.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c5de2ade3cca0d96.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de ARTE E CRIATIVIDADE COMUNICAÇÃO VISUAL LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 000000005334 (R$ 525,00, 17/09/2025); nº 000000005334 (R$ 525,00, 17/12/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Igor Timo (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/63f7127b7e47af61.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/63f7127b7e47af61.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de FILIBRAS COMERCIAL IMPORTACAO E EXPORTACAO LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 040267 (R$ 212,00, 31/01/2025); nº 236492439 (R$ 694,69, 05/02/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Recibos de vários meses gravados de uma vez, antes das datas — Fausto Jr. (UNIÃO/AM)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/775c00e76dfc9b72.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/775c00e76dfc9b72.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 10 comprovantes de pagamento de LOCARAMERICA LTDA, com quitação datada de 30/06/2023 a 31/10/2023 (R$ 23.842,70), estão em arquivos PDF gravados em 06/06/2023 entre 12h04 e 12h26, junto com outros 5 comprovantes do mesmo fornecedor. O mais adiantado foi gravado 147 dias antes do dia em que diz ter recebido o pagamento. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6ade1551db4a9d69.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6ade1551db4a9d69.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº UHHF2S de AZUL LINHAS AÉREAS BRASILEIRAS S.A. (R$ 3.374,86, 01/10/2025): foi declarado R$ 3.374,86, mas o maior valor lido no documento é R$ 130,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luisa Canziani (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0f8dc0903199686c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0f8dc0903199686c.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1728 de BARISTA SHOP COMERCIO E INDUSTRIA DE  ALIMENTOS LT (R$ 1.200,00, 01/04/2025): o documento traz o(s) CNPJ(s) 07528296000167, e não o do fornecedor declarado (20176241000101). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luisa Canziani (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4cd6b7d8f3aca3e7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4cd6b7d8f3aca3e7.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1730 de BARISTA SHOP COMERCIO E INDUSTRIA DE  ALIMENTOS LT (R$ 1.200,00, 13/06/2025): o documento traz o(s) CNPJ(s) 07528296000167, e não o do fornecedor declarado (20176241000101). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luisa Canziani (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8fd62184ef68faf7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8fd62184ef68faf7.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1729 de BARISTA SHOP COMERCIO E INDUSTRIA DE  ALIMENTOS LT (R$ 1.200,00, 01/05/2025): o documento traz o(s) CNPJ(s) 07528296000167, e não o do fornecedor declarado (20176241000101). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Igor Timo (UNIÃO/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/664da50aa30ecefe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/664da50aa30ecefe.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 040267 de FILIBRAS COMERCIAL IMPORTACAO E EXPORTACAO LTDA (R$ 212,00, 31/01/2025): o documento traz o(s) CNPJ(s) 06981180000116, e não o do fornecedor declarado (05781815000179). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Fretamento de aeronave privada ou sem registro na ANAC — Lebrão (UNIÃO/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6eed54330c0d57c3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6eed54330c0d57c3.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 10 notas de fretamento de aeronave de 28/06/2023 a 03/02/2025, somando R$ 128.450,00, com o prefixo PR-BIE, que estava registrada no Registro Aeronáutico Brasileiro da ANAC como aeronave de serviço aéreo privado, sem autorização para táxi aéreo, nos meses em volta do voo. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Silvye Alves (UNIÃO/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/aa8989a6b2984377.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0d4cac36b0f08b53.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 03/02/2023: nota de hospedagem de LA HOTELS EMPREENDIMENTOS 1 LTDA - (RT BRASILIA ALVORADA), em Brasília, com a própria deputada como hóspede, de R$ 1.017,00. Na data, a deputada recebia auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Paulinho Freire (UNIÃO/RN)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5da28bc8bcc078c7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5da28bc8bcc078c7.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 02/02/2023: nota de hospedagem de PLAZA BRASILIA HOTEIS E TURISMO LTDA (KPH), em Brasília, com o próprio deputado como hóspede, de R$ 1.000,85. Na data, o deputado recebia auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a5d3a64b73af4142.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a5d3a64b73af4142.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 02/11/2025 a 06/11/2025 em Busan, Seul, Hong Kong (exterior), com 5 diárias de R$ 2.362,56 pagas pela Câmara: 3 notas de hospedagem da cota com data de 04/11/2025 a 06/11/2025; as notas são de fornecedores no Brasil (BA), não do destino, somando R$ 694,80. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Pastor Diniz (UNIÃO/RR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d50be8d79bc22b48.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d50be8d79bc22b48.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 25/04/2024 a 27/04/2024 em Belém/PA (Brasil), com 2,5 diárias de R$ 842,00 pagas pela Câmara: 1 nota de hospedagem da cota com data em 26/04/2024; fornecedor cadastrado em PA, somando R$ 560,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Thiago Flores (UNIÃO/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc87737517ef5fe2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc87737517ef5fe2.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 02/02/2023: nota de hospedagem de PLAZA BRASILIA HOTEIS E TURISMO LTDA (MPH), em Brasília, com o próprio deputado como hóspede, de R$ 490,64. Na data, o deputado recebia auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Lebrão (UNIÃO/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1694737a4cdf597.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1694737a4cdf597.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 02/02/2023: nota de hospedagem de HOTEL PHENICIA LTDA, em Brasília, com o próprio deputado como hóspede, de R$ 399,00. Na data, o deputado recebia auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Lebrão (UNIÃO/RO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/659c705c4ff883fb.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/659c705c4ff883fb.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 16/02/2023: nota de hospedagem de HOTEL PHENICIA LTDA, em Brasília, com o próprio deputado como hóspede, de R$ 60,70. Na data, o deputado recebia auxílio-moradia. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Delegado Matheus Laiola (UNIÃO/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/613a49c915017b8b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/613a49c915017b8b.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -86,10 +188,10 @@
 <summary>Gravidade média. nº 8 de GUILHERME AFFONSO MENKE (R$ 3.000,00, 26/03/2025): o documento traz o(s) CNPJ(s) 50816843000139, e não o do fornecedor declarado (28309101000168). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Luiz Fernando Faria (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/538dc3cd87398fc6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/538dc3cd87398fc6.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7881925a704f30f6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/538dc3cd87398fc6.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 20 de Nova Visão DD19 Marketing e Vendas LDTA (R$ 2.000,00, 27/05/2024): foi declarado R$ 2.000,00, mas o maior valor lido no documento é R$ 1.000,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 20 de Nova Visão DD19 Marketing e Vendas LDTA (R$ 2.000,00, 27/05/2024): foi declarado R$ 2.000,00, mas o maior valor lido no documento é R$ 1.000,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Luiz Fernando Faria (UNIÃO/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cfeda1422fff6224.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cfeda1422fff6224.html</id>
@@ -152,10 +254,10 @@
 <summary>Gravidade média. nº 56361 de AGENOR POSTO DE COMBUSTÍVEIS LTDA (R$ 2.688,69, 01/11/2024): o documento traz o(s) CNPJ(s) 17934365000196, e não o do fornecedor declarado (19283605000165). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Rafael Simoes (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/437c45b4e0f7017f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/437c45b4e0f7017f.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f1a227705dbce325.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/437c45b4e0f7017f.html</id>
 <updated>2026-11-05T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 56361 de AGENOR POSTO DE COMBUSTÍVEIS LTDA (R$ 2.688,69, 01/11/2024): foi declarado R$ 2.688,69, mas o maior valor lido no documento é R$ 1.212,39. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 56361 de AGENOR POSTO DE COMBUSTÍVEIS LTDA (R$ 2.688,69, 01/11/2024): foi declarado R$ 2.688,69, mas o maior valor lido no documento é R$ 1.212,39. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — José Nelto (UNIÃO/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b1f617964cc368fc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b1f617964cc368fc.html</id>
@@ -200,111 +302,9 @@
 <summary>Gravidade média. nº 202600000000186 de OTONI E MARTINS LTDA (R$ 409,50, 20/04/2026): o documento traz o(s) CNPJ(s) 61179170000170, e não o do fornecedor declarado (17963083000117). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Zé Silva (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9001e670886c9d3f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9001e670886c9d3f.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9fa9ab7d68162099.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9001e670886c9d3f.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 5138 de Jose Cadete de Sousa Filho Eireli (R$ 374,00, 26/04/2025): foi declarado R$ 374,00, mas o maior valor lido no documento é R$ 347,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Arthur Oliveira Maia (UNIÃO/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9e105083f4118d4a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/24d0cf30c5dc4df8.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 11132 de ARRAIAL CANA BRAVA HOTEL LTDA (R$ 338,00, 05/06/2026): o documento traz o(s) CNPJ(s) 34251463000148, e não o do fornecedor declarado (33795303000369). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Samuel Viana (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/c1a13b94c1e25e37.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/c1a13b94c1e25e37.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 262 de Manoel Afonso Queiroz (R$ 80,00, 15/07/2023): foi declarado R$ 80,00, mas o maior valor lido no documento é R$ 60,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Zé Silva (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/14c6151aec0bec6b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/14c6151aec0bec6b.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de HOTEL LONDON - LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 000000000042794 (R$ 179,20, 25/06/2025); nº 00000000042794 (R$ 179,20, 25/06/2025). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Dados da chave de acesso não batem com a despesa declarada — Silvye Alves (UNIÃO/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e79ef98f6b84a4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e79ef98f6b84a4.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 000089170 de POSTO 4o RADIAL LTDA (R$ 150,00, 14/05/2024): o emissor da nota é o CNPJ 27.309.823/0001-50, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Diego Garcia (UNIÃO/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/651967fdd1995990.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/651967fdd1995990.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de ASSOCIAÇÃO DOS TAXISTAS DO DISTRITO FEDERAL foi anexado a 2 reembolsos. Despesas declaradas: nº 10593 (R$ 25,67, 19/05/2025); nº 10593 (R$ 25,67, 19/05/2025). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Igor Timo (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d6ec325a809bed6c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d6ec325a809bed6c.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de VIA CRISTAIS foi anexado a 2 reembolsos. Despesas declaradas: nº MN260503 (R$ 11,50, 19/05/2025); nº MN260503 (R$ 11,50, 19/05/2025). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Samuel Viana (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0119037afce63334.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0119037afce63334.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de AUTO PISTA FERNÂO DIAS S/A foi anexado a 2 reembolsos. Despesas declaradas: nº JALOP05J468C (R$ 2,80, 30/11/2023); nº JALOP05J468C (R$ 2,80, 30/11/2023). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Silvye Alves (UNIÃO/GO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3e82cab8eca67515.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/3e82cab8eca67515.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 000089170 de POSTO 4o RADIAL LTDA (R$ 150,00, 14/05/2024): o documento traz o(s) CNPJ(s) 27309823000150, e não o do fornecedor declarado (42380935000190). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Gisela Simona (UNIÃO/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/053e7a95162afe04.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/053e7a95162afe04.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: HF COMUNICACAO ESTRATEGIA E ASSESSORIA DE IMPRENSA LTDA recebeu R$ 49.838,70; Humberto Frederico Arruda E Sa Nunes Da Cunha é sócio(a) desde 22/11/2019 e trabalhou no gabinete de Amália Barros (PL/MT) (secretário parlamentar, SP21) de 06/03/2023 a 06/08/2023. Pagamentos: R$ 6.000,00 durante o vínculo, R$ 43.838,70 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 6.000,00 com a pessoa já sócia e servidora e R$ 37.838,70 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Igor Timo (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fdac2b0120182744.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fdac2b0120182744.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: VISAO PUBLICA CONSULTORIA E MARKETING LTDA recebeu R$ 260.300,00; Maria Tereza De Jesus é sócio(a) desde 05/11/2024 e trabalhou no gabinete (secretário parlamentar, SP23) desde 30/06/2025. Pagamentos: R$ 231.900,00 antes do vínculo, R$ 28.400,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 28.400,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Cota pagou empresa de servidor do próprio gabinete — Arthur Oliveira Maia (UNIÃO/BA)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4c1cdb9eeda86276.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4c1cdb9eeda86276.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Ex-servidor(a) contratado(a) menos de seis meses após sair: EASY WAY TECNOLOGIA E DESENVOLVIMENTO DE SOFTWARE LTDA recebeu R$ 97.500,00; Eduardo Ferreira De Sousa Cruz é sócio(a) desde 03/12/2025 e trabalhou no gabinete (cargo de natureza especial, CNE10) desde 17/01/2022. Pagamentos: R$ 60.000,00 durante o vínculo, R$ 37.500,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 22.500,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Fabio Garcia (UNIÃO/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/547084dfd4b3bc33.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/547084dfd4b3bc33.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: HF COMUNICACAO ESTRATEGIA E ASSESSORIA DE IMPRENSA LTDA recebeu R$ 18.000,00; Humberto Frederico Arruda E Sa Nunes Da Cunha é sócio(a) desde 22/11/2019 e trabalhou no gabinete de Amália Barros (PL/MT) (secretário parlamentar, SP21) de 06/03/2023 a 06/08/2023. Pagamentos: R$ 18.000,00 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 18.000,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Delegado da Cunha (UNIÃO/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/727995167842b4a6.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/727995167842b4a6.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 1783689767323 de LDS LOCADORA DE VEICULOS LTDA (10/07/2026): 2 lançamentos em 2 competência(s); documento R$ 13.000,00, valor líquido R$ 26.000,00, restituições R$ 0,00, saldo R$ 26.000,00 (excedente R$ 13.000,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Maurício Carvalho (UNIÃO/RO)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f5cae68380277e8b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f5cae68380277e8b.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 299 de Casaquatro Produtora LTDA (26/06/2023): 2 lançamentos em 2 competência(s); documento R$ 10.000,00, valor líquido R$ 20.000,00, restituições R$ 0,00, saldo R$ 20.000,00 (excedente R$ 10.000,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Benes Leocádio (UNIÃO/RN)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ded19698d9a41308.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ded19698d9a41308.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 642 de ELDORADO COMUNICACAO E JORNALISMO LTDA (16/06/2025): 2 lançamentos em 1 competência(s); documento R$ 1.500,00, valor líquido R$ 3.000,00, restituições R$ 0,00, saldo R$ 3.000,00 (excedente R$ 1.500,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Coronel Ulysses (UNIÃO/AC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d59cab56cad51c0f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d59cab56cad51c0f.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 169 de Elegis Gestão Estratégica, Consultoria e Tecn... (09/12/2025): 2 lançamentos em 1 competência(s); documento R$ 649,00, valor líquido R$ 1.298,00, restituições R$ 0,00, saldo R$ 1.298,00 (excedente R$ 649,00). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Igor Timo (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/004b082879921a03.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/004b082879921a03.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 28840 de POSTO TOCANTINS LTDA (27/01/2026): 2 lançamentos em 1 competência(s); documento R$ 291,92, valor líquido R$ 583,84, restituições R$ 0,00, saldo R$ 583,84 (excedente R$ 291,92). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 5138 de Jose Cadete de Sousa Filho Eireli (R$ 374,00, 26/04/2025): foi declarado R$ 374,00, mas o maior valor lido no documento é R$ 347,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

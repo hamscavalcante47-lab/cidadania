@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2225.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2225.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6ade1551db4a9d69.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6ade1551db4a9d69.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº UHHF2S de AZUL LINHAS AÉREAS BRASILEIRAS S.A. (R$ 3.374,86, 01/10/2025): foi declarado R$ 3.374,86, mas o maior valor lido no documento é R$ 130,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Arthur Oliveira Maia (UNIÃO/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a5d3a64b73af4142.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a5d3a64b73af4142.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 02/11/2025 a 06/11/2025 em Busan, Seul, Hong Kong (exterior), com 5 diárias de R$ 2.362,56 pagas pela Câmara: 3 notas de hospedagem da cota com data de 04/11/2025 a 06/11/2025; as notas são de fornecedores no Brasil (BA), não do destino, somando R$ 694,80. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Arthur Oliveira Maia (UNIÃO/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e5e37978cd0482d1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e5e37978cd0482d1.html</id>
 <updated>2026-11-04T00:00:00Z</updated>

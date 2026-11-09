@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3418.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3418.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Hotel ou refeição da cota durante missão oficial — Sanderson (PL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f7d9a1296d659811.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f7d9a1296d659811.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 12/04/2024 a 13/04/2024 em Manaus/AM (Brasil), com 2,5 diárias de R$ 524,00 pagas pela Câmara: 1 nota de hospedagem da cota com data em 13/04/2024; fornecedor cadastrado em AM, somando R$ 790,70. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Sanderson (PL/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/358beeeffaec329f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/358beeeffaec329f.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
@@ -20,10 +26,10 @@
 <summary>Gravidade alta. O mesmo arquivo de nota de HOTEL DALLONDER LTDA FILIAL 4 foi anexado a 2 reembolsos. Despesas declaradas: nº 50558 (R$ 360,71, 03/10/2025); nº 50858 (R$ 360,71, 03/10/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Sanderson (PL/RS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6a28cc607ee16662.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6a28cc607ee16662.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/50bca0d55ba3b00e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6a28cc607ee16662.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 14224 de ATRIO HOTEIS S.A. (R$ 521,64, 09/05/2026): foi declarado R$ 521,64, mas o maior valor lido no documento é R$ 438,48. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 14224 de ATRIO HOTEIS S.A. (R$ 521,64, 09/05/2026): foi declarado R$ 521,64, mas o maior valor lido no documento é R$ 438,48. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Cota pagou empresa de servidor de outro gabinete — Sanderson (PL/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/48e2fb1708a85bd3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/48e2fb1708a85bd3.html</id>

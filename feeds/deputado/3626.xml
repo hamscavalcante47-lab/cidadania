@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3626.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3626.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Ana Pimentel (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8ab8b26736a1c3bd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8ab8b26736a1c3bd.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de CEMIG DISTRIBUIÇÃO S.A. foi anexado a 2 reembolsos. Despesas declaradas: nº 356301905 (R$ 56,27, 06/02/2026); nº 356301905 (R$ 157,72, 06/02/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Dados da chave de acesso não batem com a despesa declarada — Ana Pimentel (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/37a814d5861efea4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/37a814d5861efea4.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

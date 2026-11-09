@@ -4,13 +4,37 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1748.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/1748.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ca9d0dd5ba0ddcf8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ca9d0dd5ba0ddcf8.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de COMPANHIA ENERGÉTICA DO CEARÁ foi anexado a 2 reembolsos. Despesas declaradas: nº 116134669 (R$ 222,00, 04/06/2024); nº 0002688585 (R$ 169,55, 27/06/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5542f2c01d301ca3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5542f2c01d301ca3.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 116134669 de COMPANHIA ENERGÉTICA DO CEARÁ (R$ 222,00, 04/06/2024): o documento traz o(s) CNPJ(s) 40432544016140, 66970229004154, e não o do fornecedor declarado (07047251000170). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b873421157450c22.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b873421157450c22.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 28/09/2025 a 30/09/2025 em Sidnei (exterior), com 4,5 diárias de R$ 2.345,44 pagas pela Câmara: 1 nota de hospedagem da cota com data em 30/09/2025; a nota é de fornecedor no Brasil (CE), não do destino, somando R$ 634,32. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — André Figueiredo (PDT/CE)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6ac65b49d242cbf1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6ac65b49d242cbf1.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 26/05/2025 a 29/05/2025 em Istambul, Nevsehir (exterior), com 5 diárias de R$ 2.495,24 pagas pela Câmara: 1 nota de hospedagem da cota com data em 28/05/2025; a nota é de fornecedor no Brasil (CE), não do destino, somando R$ 286,00. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — André Figueiredo (PDT/CE)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/86d6d4a840b27aca.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/02d43ec13ef15bd6.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1c24ee06b6dfb9f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/02d43ec13ef15bd6.html</id>
 <updated>2026-10-31T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 9112 de CASABLANCA RENT A CAR LTDA (R$ 11.100,00, 03/01/2025): foi declarado R$ 11.100,00, mas o maior valor lido no documento é R$ 11.000,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 9112 de CASABLANCA RENT A CAR LTDA (R$ 11.100,00, 03/01/2025): foi declarado R$ 11.100,00, mas o maior valor lido no documento é R$ 11.000,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

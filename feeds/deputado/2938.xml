@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2938.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2938.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Jorge Solla (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e6d20a81d6f64442.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e6d20a81d6f64442.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de INFORMATICA EMPREENDIMENTOS IMOBILIARIOS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 442 (R$ 2.351,48, 05/07/2024); nº 442 (R$ 2.351,48, 05/07/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Jorge Solla (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/30f03c49b15cbfa0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/30f03c49b15cbfa0.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 945969681 de CLIENT CO SERVICOS DE REDE NORDESTE S.A. (R$ 830,14, 12/03/2026): o documento traz o(s) CNPJ(s) 15139629000194, e não o do fornecedor declarado (53420564000220). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Jorge Solla (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ed31c3538614b9f7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ed31c3538614b9f7.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 18/06/2023 a 20/06/2023 em Goiana/PE (Brasil), com 2,5 diárias de R$ 524,00 pagas pela Câmara: 1 nota de alimentação da cota com data em 19/06/2023; fornecedor cadastrado em PE, somando R$ 38,40. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Jorge Solla (PT/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6bc84f8c5ce3334a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6bc84f8c5ce3334a.html</id>
 <updated>2026-11-05T00:00:00Z</updated>

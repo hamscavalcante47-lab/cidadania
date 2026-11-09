@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3261.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3261.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Zé Neto (PT/BA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/63618f1ada859d55.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/63618f1ada859d55.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de SIN - SISTEMAS INTELIGENTES LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 00002229 (R$ 540,00, 01/09/2026); nº 00002229 (R$ 540,00, 01/10/2026). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Zé Neto (PT/BA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/848247e6cc477e44.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/848247e6cc477e44.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

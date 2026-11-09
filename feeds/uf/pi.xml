@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pi.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pi.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Florentino Neto (PT/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bacffcac6bbd0309.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bacffcac6bbd0309.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Companhia Energética do Piauí foi anexado a 2 reembolsos. Despesas declaradas: nº 034352669 (R$ 1.077,93, 29/05/2024); nº 127340004 (R$ 752,17, 20/06/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Átila Lira (PP/PI)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9d0dbf219c8149d5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9d0dbf219c8149d5.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de PARLANET WEB E TECNOLOGIA EIRELI foi anexado a 2 reembolsos. Despesas declaradas: nº 242 (R$ 600,00, 15/11/2023); nº 269 (R$ 600,00, 11/12/2023). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — Florentino Neto (PT/PI)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc7c9a9650e9200a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc7c9a9650e9200a.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

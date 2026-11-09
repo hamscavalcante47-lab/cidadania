@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3062.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3062.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d221376112fe4888.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d221376112fe4888.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de M P SILVEIRA INFORMATICA LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 00011 (R$ 600,00, 27/10/2025); nº 00011 (R$ 600,00, 27/10/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/af5e116aa6ba40b0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/af5e116aa6ba40b0.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de MUNICIPIO DE CURITIBA foi anexado a 2 reembolsos. Despesas declaradas: nº 595521804009 (R$ 287,39, 20/07/2025); nº 595521804009 (R$ 287,39, 21/07/2025). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d7aa2fc4e7473158.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d7aa2fc4e7473158.html</id>
 <updated>2026-11-01T00:00:00Z</updated>

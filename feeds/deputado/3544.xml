@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3544.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3544.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Coronel Assis (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/133393a32bc39171.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/133393a32bc39171.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 20/05/2023: nota de hospedagem de L M Empresa de Turismo Ltda, em Brasília, com o próprio deputado como hóspede, de R$ 1.677,23. Na data, o deputado ocupava imóvel funcional. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Coronel Assis (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b4f36dfcc470ff6e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b4f36dfcc470ff6e.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -20,9 +26,9 @@
 <summary>Gravidade alta. nº 151676 de Comercial de Petróleo F. Correa Ltda. (R$ 278,24, 14/04/2026): o emissor da nota é o CNPJ 02.350.920/0003-27, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Coronel Assis (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fd5eef86d6cb3a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fd5eef86d6cb3a.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/99463faac1e3d056.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fd5eef86d6cb3a.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 1968969 de JGJ COMERCIO DE PETROLEO LTDA (R$ 227,04, 18/01/2026): foi declarado R$ 227,04, mas o maior valor lido no documento é R$ 173,75. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 1968969 de JGJ COMERCIO DE PETROLEO LTDA (R$ 227,04, 18/01/2026): foi declarado R$ 227,04, mas o maior valor lido no documento é R$ 173,75. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3632.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3632.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Valor declarado maior que o da nota — Carol Dartora (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/796bafb9762379f3.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/796bafb9762379f3.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 2398 de The Palm Bar &amp; Grille (R$ 453,84, 15/03/2026): foi declarado R$ 453,84, mas o maior valor lido no documento é R$ 2,26. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Carol Dartora (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/bf58f9eb431baad7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bf58f9eb431baad7.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1215 de Excess Baggage Company (R$ 219,02, 16/04/2024): foi declarado R$ 219,02, mas o maior valor lido no documento é R$ 0,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Valor declarado maior que o da nota — Carol Dartora (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6ce37178b7671c58.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6ce37178b7671c58.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 000014 de Maison Açai (R$ 118,21, 14/04/2024): foi declarado R$ 118,21, mas o maior valor lido no documento é R$ 9,00. O documento é escaneado e foi lido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Carol Dartora (PT/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/73ce50efd1ff0285.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/73ce50efd1ff0285.html</id>
 <updated>2026-11-04T00:00:00Z</updated>

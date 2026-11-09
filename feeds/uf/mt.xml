@@ -4,9 +4,39 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/mt.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/mt.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/40fc0b2ba05a6a65.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/40fc0b2ba05a6a65.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Prefeitura Municipal de Cuiabá foi anexado a 2 reembolsos. Despesas declaradas: nº 107416957 (R$ 690,81, 14/03/2024); nº 107416959 (R$ 690,81, 14/03/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Abilio Brunini (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4dbd5ec2a7a2a048.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4dbd5ec2a7a2a048.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 218515 de BRASIL ADM E SERVIÇOS DE COBRANÇA (R$ 149,00, 05/10/2024): o documento traz o(s) CNPJ(s) 07756651000155, 07756651008482, 36947264000102, e não o do fornecedor declarado (33488393000183). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Coronel Assis (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/133393a32bc39171.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/133393a32bc39171.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 20/05/2023: nota de hospedagem de L M Empresa de Turismo Ltda, em Brasília, com o próprio deputado como hóspede, de R$ 1.677,23. Na data, o deputado ocupava imóvel funcional. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel do próprio deputado em Brasília pago pela cota — Amália Barros (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f3dd0fb9911fe82c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0bc72ef330d5df94.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 01/02/2023: nota de hospedagem de LA HOTELS EMPREENDIMENTOS 1 LTDA - (RT BRASILIA ALVORADA), em Brasília, com a própria deputada como hóspede, de R$ 452,00. Na data, a deputada ocupava imóvel funcional. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Hotel ou refeição da cota durante missão oficial — Coronel Fernanda (PL/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e3bc7378f3e0fe.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a2e3bc7378f3e0fe.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 18/08/2025 a 19/08/2025 em Natal/RN (Brasil), com 1,5 diária de R$ 842,00 paga pela Câmara: 1 nota de hospedagem da cota com data em 19/08/2025; fornecedor cadastrado em RN, somando R$ 351,62. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Coronel Assis (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b4f36dfcc470ff6e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b4f36dfcc470ff6e.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -50,16 +80,16 @@
 <summary>Gravidade média. nº 10 de GRÁFICA CUIABÁ LTDA (R$ 1.600,00, 29/04/2026): o documento traz o(s) CNPJ(s) 65751647000109, e não o do fornecedor declarado (19527767000100). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Coronel Assis (PL/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fd5eef86d6cb3a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fd5eef86d6cb3a.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/99463faac1e3d056.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e1fd5eef86d6cb3a.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 1968969 de JGJ COMERCIO DE PETROLEO LTDA (R$ 227,04, 18/01/2026): foi declarado R$ 227,04, mas o maior valor lido no documento é R$ 173,75. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 1968969 de JGJ COMERCIO DE PETROLEO LTDA (R$ 227,04, 18/01/2026): foi declarado R$ 227,04, mas o maior valor lido no documento é R$ 173,75. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Emanuel Pinheiro Neto (PSD/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/27bce0030233a10d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/27bce0030233a10d.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8c63c586211636f4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/27bce0030233a10d.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 10461 de SANTA HELENA COMERCIO DE COMBUSTIVEIS LTDA (R$ 198,01, 12/10/2025): foi declarado R$ 198,01, mas o maior valor lido no documento é R$ 196,01. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 10461 de SANTA HELENA COMERCIO DE COMBUSTIVEIS LTDA (R$ 198,01, 12/10/2025): foi declarado R$ 198,01, mas o maior valor lido no documento é R$ 196,01. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Emanuel Pinheiro Neto (PSD/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/659e176cdc74b816.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/659e176cdc74b816.html</id>
@@ -68,10 +98,10 @@
 <summary>Gravidade média. nº 2327238 de REDE DE POSTOS CONTI COMIGO LTDA (R$ 178,21, 12/04/2024): o documento traz o(s) CNPJ(s) 15746214000189, e não o do fornecedor declarado (19495968000164). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Emanuel Pinheiro Neto (PSD/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7b1b0548dc871247.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7b1b0548dc871247.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b67a371ef5e6862f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7b1b0548dc871247.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 2327238 de REDE DE POSTOS CONTI COMIGO LTDA (R$ 178,21, 12/04/2024): foi declarado R$ 178,21, mas o maior valor lido no documento é R$ 100,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 2327238 de REDE DE POSTOS CONTI COMIGO LTDA (R$ 178,21, 12/04/2024): foi declarado R$ 178,21, mas o maior valor lido no documento é R$ 100,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Mesmo documento usado em despesas diferentes — José Medeiros (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/74ef35dc15de18f7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/74ef35dc15de18f7.html</id>
@@ -114,12 +144,6 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: HF COMUNICACAO ESTRATEGIA E ASSESSORIA DE IMPRENSA LTDA recebeu R$ 18.000,00; Humberto Frederico Arruda E Sa Nunes Da Cunha é sócio(a) desde 22/11/2019 e trabalhou no gabinete de Amália Barros (PL/MT) (secretário parlamentar, SP21) de 06/03/2023 a 06/08/2023. Pagamentos: R$ 18.000,00 durante o vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 18.000,00 com a pessoa já sócia e servidora. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Cota pagou empresa de servidor de outro gabinete — Nelson Barbudo (PODE/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d685d7e08fe071ba.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d685d7e08fe071ba.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. Servidor(a) e sócio(a) ao mesmo tempo: GEVE COMUNICACAO LTDA recebeu R$ 18.000,00; Ana Eliza Pereira De Oliveira é sócio(a) desde 17/07/2024 e trabalhou no gabinete de Marussa Boldrin (REPUBLICANOS/GO) (secretário parlamentar, SP23) de 23/02/2023 a 29/01/2026. Pagamentos: R$ 15.000,00 durante o vínculo, R$ 3.000,00 depois do vínculo. Pagos no período vedado pelo Ato da Mesa nº 43/2009: R$ 15.000,00 com a pessoa já sócia e servidora e R$ 3.000,00 até seis meses após a saída. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Possível reembolso repetido após conciliação mensal — José Medeiros (PL/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6071e56818dbaa16.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6071e56818dbaa16.html</id>

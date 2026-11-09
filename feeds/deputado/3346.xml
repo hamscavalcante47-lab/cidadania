@@ -4,14 +4,20 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3346.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3346.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Recibos de vários meses gravados de uma vez, antes das datas — Ricardo Guidi (PL/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/238f682c9e7625d1.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/238f682c9e7625d1.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 2 comprovantes de pagamento de VAM Veiculos e Serviços Ltda, com quitação datada de 05/04/2025 a 05/05/2025 (R$ 19.000,00), estão em arquivos PDF gravados em 13/03/2025 entre 10h15 e 10h20, junto com outro comprovante do mesmo fornecedor. O mais adiantado foi gravado 53 dias antes do dia em que diz ter recebido o pagamento. Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Valor declarado maior que o da nota — Ricardo Guidi (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/59f87e801b17910e.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/59f87e801b17910e.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/95f23453a88b0850.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/59f87e801b17910e.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 72092 de AGPS - HOTELARIA LTDA - EPP (R$ 369,43, 11/04/2023): foi declarado R$ 369,43, mas o maior valor lido no documento é R$ 299,26. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 72092 de AGPS - HOTELARIA LTDA - EPP (R$ 369,43, 11/04/2023): foi declarado R$ 369,43, mas o maior valor lido no documento é R$ 299,26. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Cota pagou empresa de servidor do próprio gabinete — Ricardo Guidi (PL/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/63c986181fdb0fc2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/63c986181fdb0fc2.html</id>
@@ -32,9 +38,9 @@
 <summary>Gravidade média. Eduardo Zanatta Filho (secretário parlamentar; SP18, 05/02/2019 a 31/07/2023; SP18, 21/11/2023 a 22/11/2023; SP18, 05/06/2024 a 17/02/2026; SP16, desde 18/02/2026) tem o(s) sobrenome(s) Zanatta em comum com o nome civil do deputado (Ricardo Zanatta Guidi). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Atividade da empresa não combina com o gasto — Ricardo Guidi (PL/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/11f2ba8083cb383a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bad901f31fbf4e8d.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/349d04f38fa4b511.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/bad901f31fbf4e8d.html</id>
 <updated>2026-10-26T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. Declarado como VELOE COMPANINHA BRASILEIRA DE SOLUÇOES E SERVIÇOS, que recebeu R$ 5.000,00 por "serviço de táxi, pedágio e estacionamento"; o CNPJ 04.740.876/0001-25 aparece hoje na Receita como ALELO S.A., com atividade "Emissão de vales-alimentação, vales-transporte e similares". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. Declarado como VELOE COMPANINHA BRASILEIRA DE SOLUÇOES E SERVIÇOS, que recebeu R$ 5.200,00 por "serviço de táxi, pedágio e estacionamento"; o CNPJ 04.740.876/0001-25 aparece hoje na Receita como ALELO S.A., com atividade "Emissão de vales-alimentação, vales-transporte e similares". Ou o gabinete informou o CNPJ de outra empresa, ou a empresa mudou de nome e de ramo depois da nota; o documento fiscal mostra qual. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3228.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3228.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Hotel ou refeição da cota durante missão oficial — Filipe Barros (PL/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/00dd545fb3c5ef4c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/00dd545fb3c5ef4c.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 04/03/2024 a 08/03/2024 em Dubai (exterior), com 3,5 diárias de R$ 2.195,64 pagas pela Câmara: 1 nota de hospedagem da cota com data em 07/03/2024; a nota é de fornecedor no Brasil (PR), não do destino, somando R$ 845,63. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

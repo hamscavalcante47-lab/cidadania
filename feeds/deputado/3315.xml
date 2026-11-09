@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3315.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3315.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Mesmo documento usado em despesas diferentes — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/40fc0b2ba05a6a65.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/40fc0b2ba05a6a65.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Alta"/>
+<summary>Gravidade alta. O mesmo arquivo de nota de Prefeitura Municipal de Cuiabá foi anexado a 2 reembolsos. Despesas declaradas: nº 107416957 (R$ 690,81, 14/03/2024); nº 107416959 (R$ 690,81, 14/03/2024). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Emanuel Pinheiro Neto (PSD/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7c83bc87e2a10973.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7c83bc87e2a10973.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -32,10 +38,10 @@
 <summary>Gravidade média. nº 10 de GRÁFICA CUIABÁ LTDA (R$ 1.600,00, 29/04/2026): o documento traz o(s) CNPJ(s) 65751647000109, e não o do fornecedor declarado (19527767000100). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Emanuel Pinheiro Neto (PSD/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/27bce0030233a10d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/27bce0030233a10d.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8c63c586211636f4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/27bce0030233a10d.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 10461 de SANTA HELENA COMERCIO DE COMBUSTIVEIS LTDA (R$ 198,01, 12/10/2025): foi declarado R$ 198,01, mas o maior valor lido no documento é R$ 196,01. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 10461 de SANTA HELENA COMERCIO DE COMBUSTIVEIS LTDA (R$ 198,01, 12/10/2025): foi declarado R$ 198,01, mas o maior valor lido no documento é R$ 196,01. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Emanuel Pinheiro Neto (PSD/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/659e176cdc74b816.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/659e176cdc74b816.html</id>
@@ -44,10 +50,10 @@
 <summary>Gravidade média. nº 2327238 de REDE DE POSTOS CONTI COMIGO LTDA (R$ 178,21, 12/04/2024): o documento traz o(s) CNPJ(s) 15746214000189, e não o do fornecedor declarado (19495968000164). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Emanuel Pinheiro Neto (PSD/MT)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7b1b0548dc871247.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7b1b0548dc871247.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b67a371ef5e6862f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7b1b0548dc871247.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 2327238 de REDE DE POSTOS CONTI COMIGO LTDA (R$ 178,21, 12/04/2024): foi declarado R$ 178,21, mas o maior valor lido no documento é R$ 100,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 2327238 de REDE DE POSTOS CONTI COMIGO LTDA (R$ 178,21, 12/04/2024): foi declarado R$ 178,21, mas o maior valor lido no documento é R$ 100,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Emanuel Pinheiro Neto (PSD/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d8eee2c7c2b4e09c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d8eee2c7c2b4e09c.html</id>

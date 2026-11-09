@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3711.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3711.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8b6de3eb8ed17f6f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8b6de3eb8ed17f6f.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 9795 de TSM EMPREENDIMENTOS IMOBILIARIOS LTDA (R$ 2.329,80, 07/08/2023): o documento traz o(s) CNPJ(s) 09043066000133, e não o do fornecedor declarado (27242905000124). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e4f223c12e0e635c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e4f223c12e0e635c.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 9792 de TSM EMPREENDIMENTOS IMOBILIARIOS LTDA (R$ 2.329,80, 30/03/2023): o documento traz o(s) CNPJ(s) 09043066000133, e não o do fornecedor declarado (27242905000124). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4d74954a18fc12d9.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4d74954a18fc12d9.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
@@ -14,10 +26,10 @@
 <summary>Gravidade média. nº 267528 de POSTO DE COMBUSTIVEL GUERREIRINHO LTDA (R$ 244,22, 01/03/2023): o documento traz o(s) CNPJ(s) 33775462000130, e não o do fornecedor declarado (35340529000139). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/dac82de8f024a095.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dac82de8f024a095.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7fd9795777a02cce.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/dac82de8f024a095.html</id>
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 267528 de POSTO DE COMBUSTIVEL GUERREIRINHO LTDA (R$ 244,22, 01/03/2023): foi declarado R$ 244,22, mas o maior valor lido no documento é R$ 200,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 267528 de POSTO DE COMBUSTIVEL GUERREIRINHO LTDA (R$ 244,22, 01/03/2023): foi declarado R$ 244,22, mas o maior valor lido no documento é R$ 200,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Atividade da empresa não combina com o gasto — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/edb4c94fb258fa14.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/edb4c94fb258fa14.html</id>

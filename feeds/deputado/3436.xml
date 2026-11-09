@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3436.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3436.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Hotel ou refeição da cota durante missão oficial — Marcelo Moraes (PL/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/841610533232697a.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/841610533232697a.html</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. Missão oficial de 17/11/2025 a 22/11/2025 em Genebra (exterior), com 5 diárias de R$ 2.366,84 pagas pela Câmara: 1 nota de hospedagem da cota com data em 20/11/2025; a nota é de fornecedor no Brasil (RS), não do destino, somando R$ 168,00. Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

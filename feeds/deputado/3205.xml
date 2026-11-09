@@ -4,7 +4,25 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3205.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3205.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luisa Canziani (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0f8dc0903199686c.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0f8dc0903199686c.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1728 de BARISTA SHOP COMERCIO E INDUSTRIA DE  ALIMENTOS LT (R$ 1.200,00, 01/04/2025): o documento traz o(s) CNPJ(s) 07528296000167, e não o do fornecedor declarado (20176241000101). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luisa Canziani (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/4cd6b7d8f3aca3e7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/4cd6b7d8f3aca3e7.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1730 de BARISTA SHOP COMERCIO E INDUSTRIA DE  ALIMENTOS LT (R$ 1.200,00, 13/06/2025): o documento traz o(s) CNPJ(s) 07528296000167, e não o do fornecedor declarado (20176241000101). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>CNPJ do documento não é o do fornecedor declarado — Luisa Canziani (UNIÃO/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8fd62184ef68faf7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8fd62184ef68faf7.html</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. nº 1729 de BARISTA SHOP COMERCIO E INDUSTRIA DE  ALIMENTOS LT (R$ 1.200,00, 01/05/2025): o documento traz o(s) CNPJ(s) 07528296000167, e não o do fornecedor declarado (20176241000101). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

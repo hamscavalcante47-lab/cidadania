@@ -4,7 +4,7 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2231.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2231.xml</id>
-<updated>2026-11-07T00:00:00Z</updated>
+<updated>2026-11-09T00:00:00Z</updated>
 <author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>Valor declarado maior que o da nota — Zé Silva (UNIÃO/MG)</title>
@@ -20,10 +20,10 @@
 <summary>Gravidade alta. O mesmo arquivo de nota de AVENIDA HOTEL E SERVIÇOS LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 522 (R$ 225,00, 21/06/2025); nº 552 (R$ 225,00, 21/06/2025). Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Valor declarado maior que o da nota — Zé Silva (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9001e670886c9d3f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9001e670886c9d3f.html</id>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9fa9ab7d68162099.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9001e670886c9d3f.html</id>
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Média"/>
-<summary>Gravidade média. nº 5138 de Jose Cadete de Sousa Filho Eireli (R$ 374,00, 26/04/2025): foi declarado R$ 374,00, mas o maior valor lido no documento é R$ 347,00. Alerta não é acusação: confira a nota original.</summary>
+<summary>Gravidade média. nº 5138 de Jose Cadete de Sousa Filho Eireli (R$ 374,00, 26/04/2025): foi declarado R$ 374,00, mas o maior valor lido no documento é R$ 347,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Zé Silva (UNIÃO/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/14c6151aec0bec6b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/14c6151aec0bec6b.html</id>
