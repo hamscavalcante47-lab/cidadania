@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
-<title>Cidadania · alertas de Marcos Pollon (PL/MS)</title>
+<title>De Olho na Cota · alertas de Marcos Pollon (PL/MS)</title>
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3539.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3539.xml</id>
 <updated>2026-11-09T00:00:00Z</updated>
-<author><name>Cidadania</name><email>hamscavalcante47@gmail.com</email></author>
+<author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Marcos Pollon (PL/MS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7281110f68eb2c5b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7281110f68eb2c5b.html</id>

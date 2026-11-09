@@ -680,10 +680,16 @@ p.vazio::before, li.vazio::before { content: ""; position: absolute; inset: 0; z
 td.periodo { white-space: nowrap; }
 
 /* ---------------------------------------------------------------- gastos por tipo */
-/* abas com todos os tipos: rolam na horizontal, com a ativa em destaque */
-.abas { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin: 4px 0 0; padding: 4px 2px 8px;
-  -webkit-mask-image: linear-gradient(90deg, #000 92%, transparent); mask-image: linear-gradient(90deg, #000 92%, transparent); }
-.abas::-webkit-scrollbar { display: none; }
+/* abas com todos os tipos, com a ativa em destaque. No celular rolam na horizontal; a sobra no fim deixa a última
+   sair da faixa esmaecida (sem ela, a última aba ficava sempre sob o esmaecimento). Na tela larga, quebram em linhas:
+   sem barra de rolagem visível, o mouse não alcançava as abas que passavam da borda */
+.abas { display: flex; gap: 6px; margin: 4px 0 0; padding: 4px 2px 8px; }
+@media (max-width: 760px) {
+  .abas { overflow-x: auto; scrollbar-width: none; padding-inline-end: 48px;
+    -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent); mask-image: linear-gradient(90deg, #000 88%, transparent); }
+  .abas::-webkit-scrollbar { display: none; }
+}
+@media (min-width: 761px) { .abas { flex-wrap: wrap; } }
 .abas a { flex: none; padding: 8px 15px; border-radius: var(--pilula); background: var(--vidro); border: 1px solid var(--linha);
   color: var(--tinta-2); text-decoration: none; font-size: 14px; font-weight: 500; white-space: nowrap;
   transition: background .2s, color .2s, border-color .2s, transform .2s var(--suave); }
@@ -1628,3 +1634,37 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
   .caso .caso-cupons td, .caso .caso-cupons th { padding: 8px 6px; }
   .regras-locacao td, .regras-locacao th { min-width: 120px; }
 }
+
+/* glosa: embaixo do valor reembolsado, o valor da nota e a parte que a Câmara não pagou */
+.glosa { display: block; margin-top: 2px; font: 12px/1.35 var(--texto); color: var(--tinta-2); white-space: nowrap; }
+
+/* fornecedor: "Gabinetes que pagaram". Cada gabinete abre no toque e mostra as notas com o fornecedor
+   (alvo de 48px, seta à direita, como .grupo-alerta) */
+.gabinetes-forn { padding: 0; overflow: hidden; }
+.gab-forn + .gab-forn { border-top: 1px solid var(--linha); }
+.gab-forn > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 6px 16px; flex-wrap: wrap;
+  min-height: 48px; padding: 14px 56px 14px 24px; position: relative; transition: background .2s; }
+.gab-forn > summary::-webkit-details-marker { display: none; }
+.gab-forn > summary::after { content: ""; position: absolute; right: 24px; top: 50%; width: 9px; height: 9px; margin-top: -7px;
+  border: solid var(--verde); border-width: 0 2px 2px 0; transform: rotate(45deg); transition: transform .2s var(--suave); }
+.gab-forn[open] > summary::after { transform: rotate(-135deg); margin-top: -2px; }
+.gab-forn > summary:hover { background: color-mix(in srgb, var(--papel-2) 70%, transparent); }
+.gab-forn > summary:focus-visible { outline: 2px solid var(--verde); outline-offset: -2px; }
+.gab-forn[open] > summary { border-bottom: 1px solid var(--linha); background: var(--papel-2); }
+.gf-nome { flex: 1 1 220px; font: 600 16px/1.3 var(--texto); color: var(--tinta); }
+.gf-num { display: grid; justify-items: end; gap: 2px; font: 600 15px var(--mono); color: var(--tinta); }
+.gf-num small { font: 400 12px var(--texto); color: var(--tinta-3); }
+.gf-corpo { padding: 12px 24px 16px; }
+.gf-corpo .mais { width: 100%; margin: 8px 0 0; }
+@media (prefers-reduced-motion: reduce) { .gab-forn > summary::after { transition: none; } }
+@media (max-width: 560px) {
+  .gab-forn > summary { padding: 12px 48px 12px 16px; }
+  .gab-forn > summary::after { right: 18px; }
+  .gf-num { justify-items: start; }
+  .gf-corpo { padding: 10px 12px 14px; }
+}
+.gf-tabela td:first-child { min-width: 0; }
+.gf-tabela td:first-child > .mono { white-space: nowrap; }
+.gf-tabela td:first-child .cat .mono { overflow-wrap: anywhere; }
+.gf-tabela td:last-child, .gf-tabela td.n { white-space: nowrap; }
+@media (max-width: 560px) { .gf-tabela th, .gf-tabela td { padding: 10px 6px; } .gf-tabela td.n { font-size: 13px; } }

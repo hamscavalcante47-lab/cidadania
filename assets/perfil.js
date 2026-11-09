@@ -166,7 +166,7 @@ function svgParaMateria(corpo, W, H, t) {
     ["sub", 48, `Valor reembolsado por mês, em reais (R$), ${t.periodo}. Tracejado: limite da cota${t.parcial ? "; hachura: meses que ainda recebem notas" : ""}.`],
     ["sub", 66, "Embaixo, notas com indício próprio: cheio vermelho, gravidade alta; âmbar, média; vazado, baixa; losango, padrão de um dia."],
     ["sub", 84, t.mais ? "Até três por mês; o sinal + indica que o mês tem mais (a lista completa está no perfil)." : ""],
-    ["fonte", topo + H + 22, `Fonte: Câmara dos Deputados (dados abertos), via Cidadania · edição de ${t.edicao} · ${t.url}`],
+    ["fonte", topo + H + 22, `Fonte: Câmara dos Deputados (dados abertos), via De Olho na Cota · edição de ${t.edicao} · ${t.url}`],
     ["fonte", topo + H + 38, "Indício não é acusação: é um padrão nos dados públicos que pede explicação."],
   ].filter(l => l[2]);
   // o arquivo é XML: & < > e aspas escapados (o esc do app.js não está no Node)
@@ -325,7 +325,7 @@ const NOVA_VERIFICACAO = "Este site · numa nova verificação dos dados";
 // o que aconteceu e de onde vem a data
 function textoEvento(ev) {
   if (ev.tipo === "detectado") return {
-    rotulo: ev.dia === 0 ? "Detectado pelo Cidadania na primeira verificação do sistema" : "Detectado pelo Cidadania",
+    rotulo: ev.dia === 0 ? "Detectado pelo De Olho na Cota na primeira verificação do sistema" : "Detectado pelo De Olho na Cota",
     fonte: "Este site · data em que o sistema encontrou o padrão, não a data do fato" };
   if (ev.tipo === "removido") return { rotulo: "Deixou de ser apontado",
     fonte: "Os dados da Câmara ou da Receita mudaram, ou a regra foi ajustada" };
@@ -1172,10 +1172,13 @@ function iniciar(dados, opcoes = {}) {
         ? `<p class="fi-meta">Este documento tem ${plural(principais.length, "lançamento", "lançamentos")} com indício neste gabinete:</p>
           <ul class="fi-lanc">${principais.map(i => `<li>${esc(categoria(D.d[i]) || "Despesa")} · ${brl2(D.d[i][5])}</li>`).join("")}</ul>` : "";
       const outros = linhas.length - principais.length;
+      // a glosa: por que o valor aqui é menor que o impresso na nota (só com um lançamento, para a conta ficar clara)
+      const g = principais.length === 1 ? r[10] : null;
+      const glosa = g ? `<p class="fi-meta">A nota é de ${brl2(g[0])}. A Câmara não reembolsou ${brl2(g[1])} (glosa) e pagou ${brl2(r[5])}.</p>` : "";
       const nota = { data: r[1], mes: meses[r[0]], fornecedor: forn };
       const corpoNota = `
         <p class="fi-meta">${[forn, categoria(r), `competência ${nomeMes(meses[r[0]])}`, r[4] ? `nº ${r[4]}` : ""].filter(Boolean).map(esc).join(" · ")}</p>
-        ${lancamentos}${outros ? `<p class="fi-meta">O mesmo documento tem mais ${plural(outros, "lançamento", "lançamentos")} sem indício.</p>` : ""}
+        ${glosa}${lancamentos}${outros ? `<p class="fi-meta">O mesmo documento tem mais ${plural(outros, "lançamento", "lançamentos")} sem indício.</p>` : ""}
         ${AVISO}
         ${url ? `<a class="botao fi-camara" href="${esc(url)}" target="_blank" rel="noopener">Ver a nota na Câmara ↗<span class="vh"> (abre o site da Câmara)</span></a>`
           : `<p class="fi-meta">A Câmara não publicou o documento desta despesa.</p>`}
@@ -1185,7 +1188,7 @@ function iniciar(dados, opcoes = {}) {
           : `<p class="lt-vazio">Nenhum alerta ativo cita esta nota hoje.</p>`}
         ${assistida(ks.map(k => est.M.dados[k]))}
         <h3>Linha do tempo da nota</h3>${historico(nota, ks)}
-        <div class="fi-acoes">${copiar("Copiar link desta nota")}${compartilharBotao(`Nota da cota parlamentar de ${nomeDoPerfil()} com indício apontado no Cidadania. ${NEUTRO}`)}
+        <div class="fi-acoes">${copiar("Copiar link desta nota")}${compartilharBotao(`Nota da cota parlamentar de ${nomeDoPerfil()} com indício apontado no De Olho na Cota. ${NEUTRO}`)}
           <button type="button" class="botao secundario pequeno" data-acao="ver-mes" data-mes="${r[0]}">Ver o mês no gráfico</button></div>
         ${RESPOSTA}`;
       return { rotulo: ks.some(k => D.a[k][1] === ESCOPO_NOTA) ? "Nota com indício" : ks.length ? "Nota citada em alerta" : "Nota",
@@ -1218,7 +1221,7 @@ function iniciar(dados, opcoes = {}) {
         <p class="fi-desc">${esc(x.desc)}</p>${revisao(x)}${assistida([x])}${comoFunciona(x)}
         <h3>Histórico do alerta</h3>${historico(null, [k])}
         <h3>Notas citadas (${linhas.length})</h3>${notas}
-        <div class="fi-acoes">${x.href ? `<a class="botao secundario pequeno" href="${esc(x.href)}">Página permanente do alerta</a>` : ""}${copiar("Copiar link deste alerta")}${compartilharBotao(`Alerta da cota parlamentar de ${nomeDoPerfil()} no Cidadania: ${x.titulo}. ${NEUTRO}`)}</div>
+        <div class="fi-acoes">${x.href ? `<a class="botao secundario pequeno" href="${esc(x.href)}">Página permanente do alerta</a>` : ""}${copiar("Copiar link deste alerta")}${compartilharBotao(`Alerta da cota parlamentar de ${nomeDoPerfil()} no De Olho na Cota: ${x.titulo}. ${NEUTRO}`)}</div>
         ${RESPOSTA}`;
       return { rotulo: `Alerta · ${ESCOPO_ROTULO[escopo] || ""}`, titulo: x.titulo, corpo: corpoAlerta };
     }

@@ -1,6 +1,6 @@
-"""Cidadania no seu assistente de IA (servidor MCP).
+"""De Olho na Cota no seu assistente de IA (servidor MCP).
 
-Responde, com os dados abertos do site Cidadania, a perguntas como "quanto o deputado X gastou da cota em 2025?",
+Responde, com os dados abertos do site De Olho na Cota, a perguntas como "quanto o deputado X gastou da cota em 2025?",
 "que alertas confirmados existem em Minas Gerais?" ou "quem os eleitores de Campina Grande escolheram para a Câmara?".
 Cada resposta traz o link da página do site, para conferir.
 

@@ -24,6 +24,8 @@ const $ = (s, el = document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const brl = v => (v ?? 0).toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
 const brl2 = v => (v ?? 0).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+// embaixo do valor reembolsado: o valor da nota e a parte que a Câmara não pagou (glosa), como glosa_html no site
+const glosaHTML = (doc, glosa) => glosa > 0 ? `<span class="glosa">nota ${brl2(doc)}<br>glosa −${brl2(glosa)}</span>` : "";
 const brlCurto = v => Math.abs(v) >= 1e6 ? `R$ ${(v / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 1 })} mi`
   : Math.abs(v) >= 1e3 ? `R$ ${Math.round(v / 1e3).toLocaleString("pt-BR")} mil` : brl(v);
 const normalizar = s => (s || "").normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
@@ -1423,8 +1425,9 @@ async function iniciarDeputado() {
         const url = linkNota(r), [nome, doc] = detalhe.f[r[3]];
         return `<tr><td class="mono">${esc(r[1] || nomeMes(meses[r[0]]))}</td><td class="cat">${esc(resumo.categorias[r[2]])}</td>
           <td>${esc(nome)}<br><span class="mono cat">${esc(doc)}</span></td><td class="mono">${esc(r[4])}</td>
-          <td class="n">${r[9] ? `<span class="cat">devolução de</span> ${brl2(r[9])}` : brl2(r[5])}</td><td>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">ver nota</a>` : "—"}</td></tr>`;
+          <td class="n">${r[9] ? `<span class="cat">devolução de</span> ${brl2(r[9])}` : brl2(r[5]) + (r[10] ? glosaHTML(...r[10]) : "")}</td><td>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">ver nota</a>` : "—"}</td></tr>`;
       }).join("") + (lista.length ? "" : `<tr><td colspan="6" class="vazio">Nenhuma despesa com esses filtros.</td></tr>`);
+    $("#d-glosa").hidden = !lista.slice(0, estado.limite).some(r => r[10]);
     $("#d-tabela").dataset.ordem = estado.ordem.join(":");
     tabelaOrdenavel($("#d-tabela"), (coluna, direcao) => { estado.ordem = [coluna, direcao]; estado.limite = 100; desenharDespesas(); });
     $("#d-mais").hidden = lista.length <= estado.limite;
@@ -1443,8 +1446,10 @@ async function iniciarDeputado() {
   $("#d-busca").addEventListener("input", e => { estado.busca = e.target.value; estado.limite = 100; desenharDespesas(); });
   $("#d-mais").addEventListener("click", () => { estado.limite += 100; desenharDespesas(); });
   $("#d-csv").addEventListener("click", () => baixarCSV(`despesas-${arquivo(dados.nome)}${estado.periodo ? "-" + estado.periodo : ""}.csv`,
-    ["Data", "Mês", "Tipo de gasto", "Fornecedor", "CNPJ/CPF", "Número da nota", "Valor (R$)", "Link da nota"],
-    filtrarDespesas().map(r => [r[1], nomeMes(meses[r[0]]), resumo.categorias[r[2]], ...detalhe.f[r[3]], r[4], r[5], linkNota(r) || ""])));
+    ["Data", "Mês", "Tipo de gasto", "Fornecedor", "CNPJ/CPF", "Número da nota", "Valor reembolsado (R$)", "Valor da nota (R$)",
+     "Glosa (R$)", "Link da nota"],
+    filtrarDespesas().map(r => [r[1], nomeMes(meses[r[0]]), resumo.categorias[r[2]], ...detalhe.f[r[3]], r[4], r[5],
+      r[10] ? r[10][0] : "", r[10] ? r[10][1] : "", linkNota(r) || ""])));
   desenharDespesas();
 
   // cota e verba de gabinete mês a mês (mais recente primeiro)
@@ -1566,7 +1571,7 @@ async function iniciarAlertas() {
       (estado.periodo ? ` em ${nomePeriodo(estado.periodo)}` : "") + (revisados ? ` · ${revisados} revisado${revisados === 1 ? "" : "s"}` : "");
     $("#lista-alertas").innerHTML = lista.slice(0, estado.limite).map(a => {
       const d = meta.deputados[a.p];
-      const notas = a.n.map(n => `<li>${esc(n[1])} · nota ${esc(n[0] || "s/n")} · <span class="num">${brl2(n[2])}</span>${n[3] ? ` · <a href="${esc(n[3])}" target="_blank" rel="noopener">ver nota</a>` : ""}</li>`).join("");
+      const notas = a.n.map(n => `<li>${esc(n[1])} · nota ${esc(n[0] || "s/n")} · <span class="num">${brl2(n[2])}</span>${n[5] > 0 ? ` <span class="cat">(nota ${brl2(n[4])}, glosa −${brl2(n[5])})</span>` : ""}${n[3] ? ` · <a href="${esc(n[3])}" target="_blank" rel="noopener">ver nota</a>` : ""}</li>`).join("");
       const quem = [`<a href="deputado/${a.p}.html">${esc(d.nome)}</a> (${esc(d.partido)}/${esc(d.uf)})`];
       if (a.m !== null) quem.push(`<span class="mono">${nomeMes(resumo.meses[a.m])}</span>`);
       if (a.f) quem.push(`<a href="fornecedor/${a.f}.html">ver empresa</a>`);
@@ -1914,5 +1919,60 @@ iniciarPontos();
 iniciarOuvir();
 iniciarMais();
 document.querySelectorAll("table.ordenavel").forEach(t => tabelaOrdenavel(t));
+// abas de tipo de gasto que rolam (celular): a aba da página aberta aparece no meio da faixa, e não fora da tela
+document.querySelectorAll(".abas").forEach(faixa => {
+  const ativa = faixa.querySelector("[aria-current]");
+  if (!ativa || faixa.scrollWidth <= faixa.clientWidth) return;
+  const a = ativa.getBoundingClientRect(), f = faixa.getBoundingClientRect();
+  faixa.scrollLeft += a.left - f.left - (f.width - a.width) / 2;
+});
+// página de fornecedor: cada gabinete em "Gabinetes que pagaram" abre a lista das notas daquele deputado com este
+// fornecedor. As notas vêm de dados/dep/<id>.json (o arquivo do perfil), filtradas pelo CNPJ formatado
+function iniciarFornecedor() {
+  const caixa = $(".gabinetes-forn");
+  if (!caixa) return;
+  const docf = caixa.dataset.doc, POR_VEZ = 100;
+  let resumo = null;
+  const linkNota = (pid, meses, r) => {
+    const ano = r[8] || Math.floor(meses[r[0]] / 100);
+    if (r[7] === 0) return `https://www.camara.leg.br/cota-parlamentar/documentos/publ/${pid}/${ano}/${r[6]}.pdf`;
+    if (r[7] === 1) return `https://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=${r[6]}`;
+    return null;
+  };
+  async function abrir(det) {
+    const alvo = $(".gf-notas", det), pid = det.dataset.pid;
+    try {
+      resumo = resumo || await json("dados/resumo.json");
+      const dep = await json(`dados/dep/${pid}.json`);
+      const linhas = dep.d.filter(r => dep.f[r[3]] && dep.f[r[3]][1] === docf);
+      if (!linhas.length) { alvo.innerHTML = `<p class="cat">Nenhuma nota deste gabinete com este fornecedor nos meses publicados.</p>`; return; }
+      let limite = POR_VEZ;
+      const desenhar = () => {
+        const corpo = linhas.slice(0, limite).map(r => {
+          const url = linkNota(pid, resumo.meses, r);
+          const valor = r[9] ? `<span class="cat">devolução de</span> ${brl2(r[9])}` : brl2(r[5]) + (r[10] ? glosaHTML(...r[10]) : "");
+          // data, nº e tipo numa coluna só: no celular o valor e o link da nota cabem sem rolar a tabela de lado
+          return `<tr><td><span class="mono">${esc(r[1] || nomeMes(resumo.meses[r[0]]))}</span><br><span class="cat">nº <span class="mono">${esc(r[4] || "s/n")}</span>
+            · ${esc(resumo.categorias[r[2]] || "")}</span></td><td class="n">${valor}</td>
+            <td>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">ver nota<span class="vh"> (abre o site da Câmara)</span></a>` : "—"}</td></tr>`;
+        }).join("");
+        const resto = linhas.length - limite;
+        alvo.innerHTML = `<div class="rolagem tabela-alta"><table class="gf-tabela"><tr><th>Data</th><th class="n">Valor</th><th>Nota</th></tr>${corpo}</table></div>`
+          + (resto > 0 ? `<button type="button" class="mais">Mostrar mais ${Math.min(resto, POR_VEZ)} de ${resto.toLocaleString("pt-BR")}</button>` : "")
+          + (linhas.some(r => r[10]) ? `<p class="nota-tabela">O valor é o que a Câmara reembolsou. Quando ela não paga a nota inteira, a linha mostra também o valor da nota e a <b>glosa</b>, a parte que ficou sem reembolso.</p>` : "");
+        const mais = $(".mais", alvo);
+        if (mais) mais.addEventListener("click", () => { limite += POR_VEZ; desenhar(); });
+      };
+      desenhar();
+    } catch (erro) {
+      console.error(erro);
+      det.dataset.carregado = "";
+      alvo.innerHTML = `<p class="cat">Não foi possível abrir as notas agora. Elas também estão no perfil do deputado.</p>`;
+    }
+  }
+  caixa.querySelectorAll(".gab-forn").forEach(det => det.addEventListener("toggle", () => {
+    if (det.open && !det.dataset.carregado) { det.dataset.carregado = "1"; abrir(det); }
+  }));
+}
 ({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: iniciarAlertas, ranking: iniciarRanking, gastos: iniciarGastos,
-  comparar: iniciarComparar, cidade: iniciarCidade })[document.body.dataset.pagina]?.();
+  comparar: iniciarComparar, cidade: iniciarCidade, fornecedor: iniciarFornecedor })[document.body.dataset.pagina]?.();

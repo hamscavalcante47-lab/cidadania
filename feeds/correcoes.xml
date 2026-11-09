@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
-<title>Correções do Cidadania</title>
+<title>Correções do De Olho na Cota</title>
 <subtitle>Alertas da cota parlamentar descartados, que deixaram de ser apontados ou ganharam versão nova</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/correcoes.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/correcoes.html"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/correcoes.xml</id>
 <updated>2026-11-09T00:00:00Z</updated>
-<author><name>Cidadania</name></author>
+<author><name>De Olho na Cota</name></author>
 <entry>
 <title>Atualizado: a descrição mudou e o alerta ganhou outro código: Nota com valor muito acima do normal — Rodolfo Nogueira (PL/MS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ffdda68134f5adcf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ffdda68134f5adcf.html#correcao-2026-11-09</id>

@@ -1,6 +1,6 @@
 {
- "name": "Cidadania · cota parlamentar aberta",
- "short_name": "Cidadania",
+ "name": "De Olho na Cota · gastos dos deputados, nota por nota",
+ "short_name": "De Olho na Cota",
  "lang": "pt-BR",
  "description": "Gastos da cota parlamentar dos deputados federais, com alertas e links para cada nota fiscal.",
  "start_url": "./index.html",
