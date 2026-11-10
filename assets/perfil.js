@@ -134,8 +134,8 @@ function linhasDoPacote(a, d, f, dados, o) {
 
 // as cores do tema claro (estilo.css, :root), fixas no SVG para matéria: o arquivo sai igual com o site no escuro, e
 // sem as variáveis do CSS, que fora da página não valem
-const CORES_SVG = { tinta: "#0e1b16", tinta2: "#44524c", tinta3: "#5b6963", linha: "#e4e9e5", papel: "#ffffff",
-  papel2: "#f6f8f5", verde: "#0d5c45", alta: "#a8291e", media: "#815400", baixa: "#4f5d57" };
+const CORES_SVG = { tinta: "#101915", tinta2: "#3f4b45", tinta3: "#56635c", linha: "#dde2de", papel: "#ffffff",
+  papel2: "#f0f2ef", verde: "#0b5d46", alta: "#a3271c", media: "#7a5200", baixa: "#4a5750" };
 // cada classe do desenho vira atributos de apresentação (fill, stroke, fonte), e não um <style>: editores como o
 // Illustrator não aplicam seletores compostos (.pt.g3) nem a forma curta de font
 const FONTE_SVG = `font-family="Arial, Helvetica, sans-serif"`, MONO_SVG = `font-family="'Courier New', monospace"`;
@@ -499,9 +499,7 @@ function iniciar(dados, opcoes = {}) {
     const y = v => pT + pH - Math.max(v, 0) / topo * pH;
     const r = limitar(passo * .34, 3, 5.5), passoP = 2 * r + 2.5;
     const xY = pT + pH + 16, lrY = xY + 20, lT = lrY + 7, lH = POR_MES * passoP + 6, H = lT + lH + 2;
-    let s = `<defs><linearGradient id="lt-area" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="var(--verde)" stop-opacity=".28"/>`
-      + `<stop offset="1" stop-color="var(--verde)" stop-opacity="0"/></linearGradient>`
-      + `<pattern id="lt-hachura" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">`
+    let s = `<defs><pattern id="lt-hachura" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">`
       + `<line class="hachura-traco" x1="0" y1="0" x2="0" y2="6"/></pattern></defs>`;
     [0, .5, 1].forEach(f => {
       const yy = y(topo * f).toFixed(1);
@@ -512,7 +510,7 @@ function iniciar(dados, opcoes = {}) {
     const pts = [];
     for (let i = i0; i <= i1; i++) pts.push([x(i), y(dados.valores[i])]);
     const linha = pts.map((p, k) => `${k ? "L" : "M"}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join("");
-    s += `<path fill="url(#lt-area)" d="${linha}L${pts[pts.length - 1][0].toFixed(1)},${y(0)}L${pts[0][0].toFixed(1)},${y(0)}Z"/><path class="linha-g" d="${linha}"/>`;
+    s += `<path fill="var(--verde)" fill-opacity=".1" d="${linha}L${pts[pts.length - 1][0].toFixed(1)},${y(0)}L${pts[0][0].toFixed(1)},${y(0)}Z"/><path class="linha-g" d="${linha}"/>`;
     if (dados.limites) {
       let lp = "";
       for (let i = i0; i <= i1; i++) {
@@ -545,6 +543,7 @@ function iniciar(dados, opcoes = {}) {
       });
     }
     if (!algum) s += `<text class="eixo" x="${(m.e + G.pw / 2).toFixed(1)}" y="${(lT + lH / 2 + 4).toFixed(1)}" text-anchor="middle">${est.M ? "Nenhuma nota com indício próprio neste período" : "Carregando…"}</text>`;
+    Object.assign(G, { r, passoP });  // o clique acha o ponto da pilha pela altura (pontoNoClique)
     return { s, G, H, pT, lT, lH };
   }
 
@@ -556,7 +555,7 @@ function iniciar(dados, opcoes = {}) {
     s += `<rect class="alvo" x="0" y="0" width="${W}" height="${H.toFixed(0)}"/>`;
     caixa.innerHTML = `<svg viewBox="0 0 ${W} ${H.toFixed(0)}" role="img" aria-labelledby="lt-desc">${s}</svg>`;
     caixa.appendChild(dica);
-    G.lT = lT;  // topo do trilho: no computador, o clique ali num ponto isolado abre o painel
+    G.lT = lT; G.lH = lH;  // o trilho: no computador, o clique num ponto dele abre o painel
     caixa._G = G; caixa._largura = caixa.clientWidth;
     let pico = i0;
     for (let i = i0; i <= i1; i++) if (dados.valores[i] > dados.valores[pico]) pico = i;
@@ -708,13 +707,13 @@ function iniciar(dados, opcoes = {}) {
     const abre = painel ? abreDoPonto(p) : "";
     return `<li><a class="item" href="${esc(abre ? hrefDe(abre) : linkAlerta(ks[0]))}"${abre ? ` data-abre="${esc(abre)}"` : ""}>`
       + `${pill(p.g)}<span class="it-txt">${texto}</span>`
-      + `<span class="it-v">${brl2(p.valor)}</span><span class="seta" aria-hidden="true">›</span></a></li>`;
+      + `<span class="it-v">${brl2(p.valor)}</span><span class="seta" aria-hidden="true"></span></a></li>`;
   }
 
   function itemFornecedorDoMes(gr, k, i) {
     const alvo = painel ? `data-abre="${esc(`forn:${chaveDoGrupo(gr)}`)}"` : `data-grupo="${k}"`;
     return `<li><button type="button" class="item" ${alvo}>${pill(gr.g)}<span class="it-txt">${esc(nomeForn(gr))}</span>`
-      + `<span class="it-v">${plural(gr.meses.get(i), "nota", "notas")}</span><span class="seta" aria-hidden="true">›</span></button></li>`;
+      + `<span class="it-v">${plural(gr.meses.get(i), "nota", "notas")}</span><span class="seta" aria-hidden="true"></span></button></li>`;
   }
 
   // o resumo e as listas do mês: as mesmas no cartão (h5) e no painel (h3)
@@ -742,9 +741,9 @@ function iniciar(dados, opcoes = {}) {
       ${painel ? `<button type="button" class="botao secundario pequeno" data-copiar-link="mes:${meses[i]}" data-rotulo="Copiar link deste mês">Copiar link deste mês</button>` : ""}</div>`;
     cartao.innerHTML = `
       <div class="cartao-cab">
-        <button type="button" class="nav-mes" data-ir="${antes ?? ""}" aria-label="Mês anterior com indício"${antes === undefined ? " disabled" : ""}>‹</button>
+        <button type="button" class="nav-mes" data-ir="${antes ?? ""}" aria-label="Mês anterior com indício"${antes === undefined ? " disabled" : ""}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button>
         <h4 id="cartao-titulo" tabindex="-1">${maiuscula(nomeMesLongo(meses[i]))}</h4>
-        <button type="button" class="nav-mes" data-ir="${depois ?? ""}" aria-label="Próximo mês com indício"${depois === undefined ? " disabled" : ""}>›</button>
+        <button type="button" class="nav-mes" data-ir="${depois ?? ""}" aria-label="Próximo mês com indício"${depois === undefined ? " disabled" : ""}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
       </div>
       <p class="cartao-resumo">${resumo}</p>${plenarioDoMes(i) ? `<p class="cartao-plenario">${esc(plenarioDoMes(i))}</p>` : ""}${corpo}`;
   }
@@ -982,7 +981,7 @@ function iniciar(dados, opcoes = {}) {
     const caixaP = document.createElement("dialog");
     caixaP.className = "ficha-indicio";
     caixaP.setAttribute("aria-labelledby", "fi-titulo");
-    caixaP.innerHTML = `<div class="fi-cab"><button type="button" class="fi-voltar" hidden>‹ Voltar</button>
+    caixaP.innerHTML = `<div class="fi-cab"><button type="button" class="fi-voltar seta-e" hidden>Voltar</button>
       <div class="fi-titulos"><p class="rotulo" id="fi-rotulo"></p><h2 id="fi-titulo" tabindex="-1"></h2></div>
       <button type="button" class="fi-fechar" aria-label="Fechar o painel">×</button></div>
       <div class="fi-corpo" id="fi-corpo"></div><p class="so-impressao fi-endereco"></p><p class="vh" id="fi-anuncio" aria-live="polite"></p>`;
@@ -1023,7 +1022,7 @@ function iniciar(dados, opcoes = {}) {
       history.pushState({ fi: P.pilha.length }, "", url(enderecoDa(vista)));
       mostrar();
     }
-    // a mesma vista em outro valor, sem entrada nova (‹ › do mês)
+    // a mesma vista em outro valor, sem entrada nova (os botões de mês anterior e próximo)
     function trocar(vista) {
       history.replaceState(history.state, "", url(enderecoDa(vista)));
       mostrar({ focarTitulo: false });
@@ -1156,7 +1155,7 @@ function iniciar(dados, opcoes = {}) {
       const conteudo = `<span class="it-txt"><b>${esc(r[1] || nomeMes(meses[r[0]]))}</b> · ${esc(nomeFornecedor(r[3]))}`
         + `${categoria(r) ? `<br><small>${esc(categoria(r))}</small>` : ""}</span><span class="it-v">${brl2(r[5])}</span>`;
       return ide ? `<li><a class="item sem-pill" href="${esc(hrefDe(`nota:${ide}`))}" data-abre="${esc(`nota:${ide}`)}">${conteudo}`
-        + `<span class="seta" aria-hidden="true">›</span></a></li>` : `<li><span class="item sem-pill">${conteudo}</span></li>`;
+        + `<span class="seta" aria-hidden="true"></span></a></li>` : `<li><span class="item sem-pill">${conteudo}</span></li>`;
     }
 
     // ---- vistas
@@ -1180,7 +1179,7 @@ function iniciar(dados, opcoes = {}) {
         <p class="fi-meta">${[forn, categoria(r), `competência ${nomeMes(meses[r[0]])}`, r[4] ? `nº ${r[4]}` : ""].filter(Boolean).map(esc).join(" · ")}</p>
         ${glosa}${lancamentos}${outros ? `<p class="fi-meta">O mesmo documento tem mais ${plural(outros, "lançamento", "lançamentos")} sem indício.</p>` : ""}
         ${AVISO}
-        ${url ? `<a class="botao fi-camara" href="${esc(url)}" target="_blank" rel="noopener">Ver a nota na Câmara ↗<span class="vh"> (abre o site da Câmara)</span></a>`
+        ${url ? `<a class="botao fi-camara sai" href="${esc(url)}" target="_blank" rel="noopener">Ver a nota na Câmara<span class="vh"> (abre o site da Câmara)</span></a>`
           : `<p class="fi-meta">A Câmara não publicou o documento desta despesa.</p>`}
         <h3>Por que esta nota foi marcada (${ks.length})</h3>
         ${ks.length ? ks.slice(0, 3).map(k => motivo(k, true)).join("")
@@ -1250,7 +1249,7 @@ function iniciar(dados, opcoes = {}) {
       if (est.sel !== i) mostrarMes(i);  // o gráfico da página acompanha
       const lista = est.M.comIndicio, antes = [...lista].reverse().find(m => m < i), depois = lista.find(m => m > i);
       const nav = (j, dir, rot) => `<button type="button" class="nav-mes" data-acao="mes-ir" data-dir="${dir}" data-valor="${j === undefined ? "" : meses[j]}"`
-        + ` aria-label="${rot}"${j === undefined ? " disabled" : ""}>${dir === "antes" ? "‹" : "›"}</button>`;
+        + ` aria-label="${rot}"${j === undefined ? " disabled" : ""}>${dir === "antes" ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>' : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>'}</button>`;
       const corpoMes = `
         <div class="fi-nav-mes">${nav(antes, "antes", "Mês anterior com indício")}<p class="cartao-resumo">${esc(resumoDoMes(i))}</p>${nav(depois, "depois", "Próximo mês com indício")}</div>
         ${plenarioDoMes(i) ? `<p class="cartao-plenario">${esc(plenarioDoMes(i))}</p>` : ""}
@@ -1367,18 +1366,39 @@ function iniciar(dados, opcoes = {}) {
     if (b) mudarJanela(JANELAS.find(j => j.id === b.dataset.janela));
   });
   faixa.addEventListener("input", () => escolher(+faixa.value));
+  // o ponto da pilha do mês sob o clique (no trilho), ou null: num mês de um ponto só, qualquer clique no trilho vale;
+  // com vários, o da altura clicada (o "+" do mês com mais de POR_MES não abre nenhum: a lista do cartão tem todos)
+  function pontoNoClique(r) {
+    const G = caixa._G, l = pontosDe(r.i);
+    if (!G || !l.length || r.py < G.lT - 4) return null;
+    if (l.length === 1) return l[0];
+    const k = Math.round((G.lT + G.lH - 3 - G.r - r.py) / G.passoP);
+    if (k < 0 || k >= Math.min(l.length, POR_MES) || (k === POR_MES - 1 && l.length > POR_MES)) return null;
+    return l[k];
+  }
+  // escolher de novo o mês já escolhido não muda nada na tela: o clique leva à lista das notas do mês, com um realce
+  function mostrarListaDoMes() {
+    const ul = cartao.querySelector(".itens");
+    if (!ul) return;
+    ul.scrollIntoView({ block: "nearest", behavior: SEM_MOVIMENTO ? "auto" : "smooth" });
+    ul.classList.remove("realce");
+    void ul.offsetWidth;  // reinicia a animação num segundo clique
+    ul.classList.add("realce");
+  }
   caixa.addEventListener("click", e => {
     const r = mesNoPonto(e);
     if (!r) return;
-    // no computador, um clique no trilho, num mês de um ponto só, abre o painel direto; no toque, só escolhe o mês
-    const l = pontosDe(r.i);
-    if (painel && FINO.matches && l.length === 1 && caixa._G && r.py >= caixa._G.lT - 4) {
+    // no computador, um clique num ponto do trilho abre o painel direto; no toque (pontos pequenos), escolhe o mês e
+    // leva à lista dele, de itens grandes
+    const p = painel && FINO.matches ? pontoNoClique(r) : null;
+    if (p) {
       escolher(r.i);
-      const abre = abreDoPonto(l[0]), [tipo, valor] = [abre.slice(0, abre.indexOf(":")), abre.slice(abre.indexOf(":") + 1)];
+      const abre = abreDoPonto(p), [tipo, valor] = [abre.slice(0, abre.indexOf(":")), abre.slice(abre.indexOf(":") + 1)];
       painel.abrir({ tipo, valor }, faixa);
       return;
     }
     escolher(r.i, true);
+    if (pontosDe(r.i).length) mostrarListaDoMes();
   });
   caixa.addEventListener("pointermove", e => {
     if (e.pointerType !== "mouse") return;

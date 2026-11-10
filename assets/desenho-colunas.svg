@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" fill="none" stroke="#000" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+  <!-- colunata de palácio em Brasília: a laje, as colunas em curva que afinam até o chão, o espelho d'água -->
+  <path d="M0 62h720M0 74h720"/>
+  <path d="M0 74c0 78 26 132 40 170 14-38 40-92 40-170M120 74c0 78 26 132 40 170 14-38 40-92 40-170M240 74c0 78 26 132 40 170 14-38 40-92 40-170M360 74c0 78 26 132 40 170 14-38 40-92 40-170M480 74c0 78 26 132 40 170 14-38 40-92 40-170M600 74c0 78 26 132 40 170 14-38 40-92 40-170"/>
+  <path d="M80 74c0 36 8 50 20 50s20-14 20-50M200 74c0 36 8 50 20 50s20-14 20-50M320 74c0 36 8 50 20 50s20-14 20-50M440 74c0 36 8 50 20 50s20-14 20-50M560 74c0 36 8 50 20 50s20-14 20-50M680 74c0 36 8 50 20 50s20-14 20-50" stroke-width="1"/>
+  <path d="M0 244h720"/>
+  <path d="M40 258h110M190 258h70M300 264h140M480 258h100M610 264h90M100 274h100M250 278h80M400 276h120M560 278h70" stroke-width=".8"/>
+</svg>

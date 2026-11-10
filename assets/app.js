@@ -329,9 +329,7 @@ function graficoLinha(el, meses, valores, opcoes = {}) {
     <text class="rot-parcial" x="${L - m.d}" y="${m.t - 8}" text-anchor="end">incompleto</text>` : "";
   const linhaLimite = limites ? `<path class="limite-g" d="${limites.map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v || 0).toFixed(1)}`).join("")}"/>` : "";
   el.innerHTML = `<svg viewBox="0 0 ${L} ${H}" role="img" aria-label="Gasto mensal; pico em ${nomeMes(meses[iMax])} com ${brl(valores[iMax])}">
-    <defs><linearGradient id="gradiente-area" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0" stop-color="var(--verde)" stop-opacity=".3"/><stop offset="1" stop-color="var(--verde)" stop-opacity="0"/></linearGradient>
-      <pattern id="hachura" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line class="hachura-traco" x1="0" y1="0" x2="0" y2="6"/></pattern></defs>
+    <defs><pattern id="hachura" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line class="hachura-traco" x1="0" y1="0" x2="0" y2="6"/></pattern></defs>
     ${grade}${anos}${faixaParcial}${faixa}${linhaLimite}
     <path class="area" d="${linha}L${x(valores.length - 1)},${y(0)}L${x(0)},${y(0)}Z"/>
     <path class="linha-g" d="${linha}"/>
@@ -410,8 +408,8 @@ function graficoLinhas(el, meses, series, opcoes = {}) {
       width="${L - m.d - x(iParcial) + passoX / 2}" height="${H - m.t - m.b}"/>
     <text class="rot-parcial" x="${L - m.d}" y="${m.t - 8}" text-anchor="end">incompleto</text>` : "";
   const alvos = meses.map((_, i) => `<rect class="alvo" data-i="${i}" x="${x(i) - passoX / 2}" y="${m.t}" width="${passoX}" height="${H - m.t - m.b}"/>`).join("");
-  const legenda = `<div class="legenda-series" role="group" aria-label="Mostrar ou esconder linhas">${series.map(s =>
-    `<button type="button" class="serie" aria-pressed="${!ocultas.has(s.nome)}" data-nome="${esc(s.nome)}" style="--cor:${cor(s)}"><i aria-hidden="true"></i>${esc(s.nome)}</button>`).join("")}</div>`;
+  const legenda = `<div class="legenda-series" role="group" aria-label="Mostrar ou esconder linhas">${series.map((s, i) =>
+    `<button type="button" class="serie t${i % 3}" aria-pressed="${!ocultas.has(s.nome)}" data-nome="${esc(s.nome)}" style="--cor:${cor(s)}"><i aria-hidden="true"></i>${esc(s.nome)}</button>`).join("")}</div>`;
   const soma = i => series.reduce((t, s) => t + s.valores[i], 0);
   const tabela = `<details class="tabela-serie"${tabelaAberta ? " open" : ""}><summary>Ver em tabela</summary>
     <div class="rolagem tabela-alta"><table><tr><th>Mês</th>${series.map(s => `<th class="n">${esc(s.nome)}</th>`).join("")}<th class="n">Total</th></tr>
@@ -421,7 +419,7 @@ function graficoLinhas(el, meses, series, opcoes = {}) {
       aria-label="Gasto mensal por tipo: ${esc(visiveis.map(s => s.nome).join(", "))}. Os valores estão na tabela abaixo.">
     <defs><pattern id="hachura-linhas" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line class="hachura-traco" x1="0" y1="0" x2="0" y2="6"/></pattern></defs>
     ${grade}${anos}${faixaParcial}
-    ${visiveis.map(s => `<path class="linha-s" style="--cor:${cor(s)}" d="${caminho(s)}"/>`).join("")}
+    ${visiveis.map(s => `<path class="linha-s" style="--cor:${cor(s)}"${["", ' stroke-dasharray="7 4"', ' stroke-dasharray="2 4"'][series.indexOf(s) % 3]} d="${caminho(s)}"/>`).join("")}
     <g class="cursor" style="display:none"><line class="marca-v" y1="${m.t}" y2="${H - m.b}"/>
       ${visiveis.map(s => `<circle class="ponto-s" r="4" style="--cor:${cor(s)}"/>`).join("")}</g>
     ${alvos}</svg><div class="dica" hidden></div></div>${tabela}`;
@@ -686,7 +684,7 @@ function iniciarTipos() {
   const caixa = document.createElement("dialog");
   caixa.className = "ficha-indicio painel-tipo";
   caixa.setAttribute("aria-labelledby", "pt-titulo");
-  caixa.innerHTML = `<div class="fi-cab"><button type="button" class="fi-voltar" hidden>‹ Voltar</button>
+  caixa.innerHTML = `<div class="fi-cab"><button type="button" class="fi-voltar seta-e" hidden>Voltar</button>
     <div class="fi-titulos"><p class="rotulo" id="pt-rotulo"></p><h2 id="pt-titulo" tabindex="-1"></h2></div>
     <button type="button" class="fi-fechar" aria-label="Fechar o painel">×</button></div>
     <div class="fi-corpo" id="pt-corpo"></div><p class="vh" id="pt-anuncio" aria-live="polite"></p>`;
@@ -831,7 +829,7 @@ function iniciarTipos() {
           <span class="gl-txt"><b>${esc(g.d.nome)}</b><small>${esc(g.d.partido)}/${esc(g.d.uf)} · ${plural(g.notas, "nota", "notas")}</small>
             <span class="gl-trilho" aria-hidden="true"><span style="width:${Math.max(100 * g.v / maior, .8).toFixed(1)}%"></span></span></span>
           <span class="gl-dir"><span class="gl-v num">${brlCurto(g.v)}</span>${g.ind ? `<span class="gl-ind">${plural(g.ind, "indício", "indícios")}</span>` : ""}</span>
-          <span class="seta" aria-hidden="true">›</span></button></li>`).join("");
+          <span class="seta" aria-hidden="true"></span></button></li>`).join("");
       html = html ? `<ol class="pt-gabs">${html}</ol>` : `<p class="fi-aviso">Nenhum gabinete com esse filtro.</p>`;
     } else {
       itens = d.a.filter(a => (!est.filtro || (est.filtro === "conf" ? a.s === "confirmado" : a.g === +est.filtro)) &&

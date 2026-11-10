@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" fill="none" stroke="#000" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+  <!-- notas fiscais sobre a mesa: três cupons com a borda picotada e uma lupa -->
+  <g transform="rotate(-7 250 150)">
+    <path d="M170 40h150v206l-12.5-9-12.5 9-12.5-9-12.5 9-12.5-9-12.5 9-12.5-9-12.5 9-12.5-9-12.5 9-12.5-9-12.5 9z"/>
+    <path d="M190 70h110M190 92h70M190 114h110M190 136h90M190 158h110M190 180h60M190 208h110" stroke-width=".8"/>
+  </g>
+  <g transform="rotate(5 420 150)">
+    <path d="M340 30h160v224l-13.3-9-13.4 9-13.3-9-13.3 9-13.4-9-13.3 9-13.3-9-13.4 9-13.3-9-13.3 9-13.4-9-13.3 9z"/>
+    <path d="M362 62h116M362 84h80M362 106h116M362 128h96M362 150h116M362 172h70M362 204h116M362 226h54" stroke-width=".8"/>
+  </g>
+  <g transform="rotate(-3 590 160)">
+    <path d="M530 62h130v176l-10.8-8-10.9 8-10.8-8-10.8 8-10.9-8-10.8 8-10.8-8-10.9 8-10.8-8-10.8 8-10.9-8-10.8 8z"/>
+    <path d="M548 90h94M548 110h60M548 130h94M548 150h76M548 170h94M548 198h94" stroke-width=".8"/>
+  </g>
+  <!-- lupa -->
+  <circle cx="452" cy="150" r="52" stroke-width="2"/>
+  <path d="M490 188l44 44" stroke-width="5"/>
+</svg>

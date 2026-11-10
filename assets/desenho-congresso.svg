@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" fill="none" stroke="#000" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Congresso Nacional em elevação: a laje, a cúpula do Senado, as duas torres e a cuia da Câmara -->
+  <path d="M0 252h720"/>
+  <path d="M36 252v-34h648v34"/>
+  <path d="M36 226h648"/>
+  <path d="M60 226v26M84 226v26M108 226v26M132 226v26M156 226v26M180 226v26M204 226v26M228 226v26M252 226v26M276 226v26M300 226v26M324 226v26M396 226v26M420 226v26M444 226v26M468 226v26M492 226v26M516 226v26M540 226v26M564 226v26M588 226v26M612 226v26M636 226v26M660 226v26" stroke-width=".8"/>
+  <!-- rampa -->
+  <path d="M36 218 0 240M36 226 0 248" stroke-width="1"/>
+  <!-- cúpula do Senado -->
+  <path d="M150 218a66 46 0 0 1 132 0"/>
+  <!-- torres do anexo, ligadas por uma passarela -->
+  <path d="M332 218V34h20v184M368 218V34h20v184"/>
+  <path d="M352 118h16M352 128h16"/>
+  <path d="M337 34v184M342 34v184M347 34v184M373 34v184M378 34v184M383 34v184" stroke-width=".6"/>
+  <!-- cuia da Câmara -->
+  <path d="M430 162h168"/>
+  <path d="M430 162c12 40 46 56 84 56s72-16 84-56"/>
+  <!-- espelho d'água -->
+  <path d="M60 266h120M210 266h64M300 272h150M480 266h90M600 272h80M120 280h90M260 284h70M380 282h110M540 284h60" stroke-width=".8"/>
+</svg>
