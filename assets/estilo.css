@@ -178,6 +178,8 @@ input[type="search"]::-webkit-search-cancel-button { cursor: pointer; }
   background: color-mix(in srgb, var(--topo-tinta) 10%, transparent); color: var(--topo-tinta);
   transition: border-color .15s, background .15s, color .15s; }
 .busca input::placeholder { color: var(--topo-tinta-2); opacity: 1; }
+/* com Senadores no menu, a busca ficou mais estreita: menos vão entre os itens para o texto de exemplo caber inteiro */
+@media (min-width: 1181px) { .topo > .cont { column-gap: 18px; } .topo nav a { padding: 0 10px; } .busca input::placeholder { font-size: 15px; } }
 .busca input:hover { border-color: color-mix(in srgb, var(--topo-tinta) 55%, transparent); }
 .busca input:focus { background: var(--topo-tinta); color: var(--campo-tinta); border-color: var(--latao); outline: 2px solid var(--latao); outline-offset: 1px; }
 .busca input:focus::placeholder { color: var(--campo-tinta-2); }
@@ -249,10 +251,10 @@ h3 { font-size: 23px; line-height: 1.1; letter-spacing: .01em; }
 .abertura { padding: 44px 0 28px; }
 /* desenho em traço no alto de cada página, à direita, por trás do título: é uma máscara, então a cor vem do tema
    (claro e escuro) e o arquivo pesa menos de 2 kB. Cada tipo de página escolhe o seu */
-[data-pagina="deputado"], [data-pagina="estado"], [data-pagina="gastos"], [data-pagina="cidade"] { --desenho: url("desenho-esplanada.svg"); --tem-desenho: ""; }
+[data-pagina="deputado"], [data-pagina="senador"], [data-pagina="estado"], [data-pagina="gastos"], [data-pagina="cidade"] { --desenho: url("desenho-esplanada.svg"); --tem-desenho: ""; }
 [data-pagina="alertas"], [data-pagina="alerta"], [data-pagina="fornecedor"], [data-pagina="pedidos"], [data-pagina="relatorios"],
 [data-pagina="apuracoes"], [data-pagina="apuracao"] { --desenho: url("desenho-notas.svg"); --tem-desenho: ""; }
-[data-pagina="ranking"], [data-pagina="comparar"], [data-pagina="metodologia"], [data-pagina="novidades"], [data-pagina="imprensa"],
+[data-pagina="ranking"], [data-pagina="senadores"], [data-pagina="comparar"], [data-pagina="metodologia"], [data-pagina="novidades"], [data-pagina="imprensa"],
 [data-pagina="sobre"], [data-pagina="guia"], [data-pagina="acessibilidade"] { --desenho: url("desenho-colunas.svg"); --tem-desenho: ""; }
 main::before { content: var(--tem-desenho, none); position: absolute; z-index: -1; top: 18px; right: max(24px, calc((100% - 1200px) / 2 + 24px)); width: min(500px, 42%);
   aspect-ratio: 12 / 5; pointer-events: none; background: var(--traco);
@@ -296,6 +298,8 @@ main.largo { padding-bottom: 0; }
   font: 600 12px/1.45 var(--texto); letter-spacing: .09em; text-transform: uppercase; color: var(--topo-tinta-2); }
 .cartaz-margem span { display: block; }
 .cartaz-margem .so-largo { display: none; }
+/* "Câmara e Senado": o número da capa soma as duas casas; a linha fica sozinha também no computador */
+.cartaz-margem .casas { display: block; }
 .cartaz-predio { position: absolute; z-index: 2; left: calc(12.3 * var(--m)); top: calc(var(--ceu) + var(--afunda) - 30.74 * var(--m));
   width: calc(101.5 * var(--m)); height: calc(42.3 * var(--m)); overflow: visible; pointer-events: none; }
 .cartaz-predio .massa { fill: var(--massa); stroke: var(--latao); stroke-width: 1.1; stroke-linejoin: round; }
@@ -315,6 +319,8 @@ main.largo { padding-bottom: 0; }
 .caminho-seta { width: 22px; height: 22px; flex: none; margin-left: auto; fill: none; stroke: var(--verde); stroke-width: 1.8; stroke-linecap: round;
   stroke-linejoin: round; transition: translate .2s var(--suave); }
 .caminho-n + .caminho-seta { margin-left: 0; }
+/* os milhões de cada casa: em tinta, porque o vermelho é só da gravidade */
+.caminho-n.casa { color: var(--tinta); }
 .caminhos a:hover { color: var(--verde-forte); }
 .caminhos a:hover .caminho-seta { translate: 3px 0; }
 /* grão de papel sobre a capa inteira, do céu à ponta do marcador */
@@ -370,6 +376,8 @@ main.largo { padding-bottom: 0; }
 .cap-verde .ufs a:hover { background: var(--topo-tinta); color: var(--topo-fundo); }
 .cap-seguir { margin: 14px 0 0; text-align: center; }
 .cap-seguir .seguir { margin-top: 0; min-height: 44px; }
+.cap-seguir .seguir + .seguir { margin-left: 22px; }
+@media (max-width: 560px) { .cap-seguir { display: flex; flex-direction: column; align-items: center; } .cap-seguir .seguir + .seguir { margin-left: 0; } }
 .cap-notas { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 22px 56px; align-items: start; margin-top: 30px; }
 .cap-notas .aviso, .cap-notas .sua-cidade { margin-top: 0; }
 .cap-verde .sua-cidade input { background: var(--topo-tinta); color: var(--campo-tinta); border-color: var(--topo-tinta); }
@@ -529,6 +537,21 @@ main.largo { padding-bottom: 0; }
 .tipos-regras { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; padding: 12px; background: var(--papel-2);
   border: 1px solid var(--linha); border-radius: var(--raio-m); animation: surgir-menu .25s var(--suave); }
 .tipos-vazio { font-size: 14px; color: var(--tinta-3); align-self: center; }
+/* no celular os filtros de Alertas cabem em três linhas (busca; dois seletores por linha) e as famílias rolam de lado
+   numa fileira, como os partidos: antes eles ocupavam a primeira tela inteira antes do primeiro alerta */
+@media (max-width: 760px) {
+  .filtros-alertas { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .filtros-alertas input { grid-column: 1 / -1; }
+  .filtros-alertas select { width: 100%; font-size: 14px; padding-left: 9px; padding-right: 24px !important;
+    background-position: right 8px center !important; background-size: 12px !important; text-overflow: ellipsis; }
+  /* ano e mês viram duas células da grade: o mês aparece ao lado do ano quando um ano é escolhido */
+  .filtros-alertas .periodo-duplo { display: contents; }
+  .tipos { margin-top: 14px; }
+  .tipos-grupos { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding: 2px 44px 2px 2px; margin: 0 -2px;
+    -webkit-mask-image: linear-gradient(90deg, #000 86%, transparent); mask-image: linear-gradient(90deg, #000 86%, transparent); }
+  .tipos-grupos::-webkit-scrollbar { display: none; }
+  .tipo-grupo { flex: none; min-height: 40px; align-items: center; }
+}
 /* sem rolagem interna: a página rola e o mapa acompanha ao lado */
 .linhas { list-style: none; margin: 0; padding: 8px; }
 .linha { display: grid; grid-template-columns: 42px 1fr auto; gap: 14px; align-items: center; padding: 11px 14px; border-radius: var(--raio-m);
@@ -722,6 +745,18 @@ p.vazio, li.vazio { text-align: left; padding: 24px; margin: 8px; border: 1px da
 .alerta .revisao { font-size: 15px; color: var(--tinta-2); background: var(--papel-2); border: 1px solid var(--linha); border-radius: var(--raio-m);
   padding: 12px 16px; margin: 12px 0 0; max-width: 92ch; }
 .alerta .revisao.confirmado { background: var(--alta-bg); border-color: color-mix(in srgb, var(--alta) 18%, transparent); color: var(--tinta); }
+/* na lista de Alertas, no celular, a descrição e a revisão longas ficam em poucas linhas, com "Ler tudo" (o app.js só
+   põe o botão onde o texto foi cortado); a página do alerta continua com o texto inteiro */
+.ler-tudo { display: none; }
+@media (max-width: 760px) {
+  .alerta .cortavel { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; }
+  .alerta .rv.cortavel { -webkit-line-clamp: 3; line-clamp: 3; }
+  /* justificado numa coluna de ~300 px abre buracos entre as palavras, e a linha cortada esticava até as reticências */
+  .alerta .desc, .alerta .revisao { text-align: left; }
+  .ler-tudo { display: inline-flex; align-items: center; min-height: 32px; margin: 2px 0 0; padding: 4px 0; border: 0;
+    background: none; font: 600 14px var(--texto); color: var(--verde); cursor: pointer; text-decoration: underline;
+    text-underline-offset: 3px; text-decoration-thickness: 1px; }
+}
 .nota-tabela { font-size: 13px; color: var(--tinta-3); margin: 6px 0 0; }
 /* alertas recolhidos por tipo de achado: cada tipo é uma linha que abre e fecha no toque (48px de alvo, seta à direita) */
 .grupo-alerta + .grupo-alerta { border-top: 1px solid var(--linha); }
@@ -995,6 +1030,28 @@ td.n, th.n { text-align: right; font-family: var(--mono); font-variant-numeric: 
 th.n { font-family: var(--texto); }
 /* position: o texto só para leitor de tela (.vh, absoluto) fica preso à rolagem e não alarga a página no celular */
 .rolagem { overflow-x: auto; position: relative; }
+/* no celular, menos folga nas células: tabelas de três colunas (maiores fornecedores) cabem sem rolar de lado, e o
+   CNPJ embaixo do nome não quebra no hífen */
+@media (max-width: 560px) {
+  th, td { padding: 10px; }
+  td > .mono.cat { white-space: nowrap; }
+}
+/* Como funciona, tabela de regras no celular: com sete colunas, a do título ficava com ~140 px e cada regra virava uma
+   torre (34 mil px no total). Aqui cada regra é um bloco: título e explicação na largura toda, os números numa linha
+   embaixo, cada um com o nome da coluna; o cabeçalho continua ordenando, numa fileira que rola de lado */
+@media (max-width: 760px) {
+  .tabela-regras, .tabela-regras tbody { display: block; }
+  .tabela-regras tr:first-child { display: flex; gap: 4px 18px; overflow-x: auto; scrollbar-width: none; padding: 12px 44px 12px 16px;
+    border-bottom: 1px solid var(--tinta-3); -webkit-mask-image: linear-gradient(90deg, #000 86%, transparent);
+    mask-image: linear-gradient(90deg, #000 86%, transparent); }
+  .tabela-regras tr:first-child::-webkit-scrollbar { display: none; }
+  .tabela-regras th { flex: none; padding: 0; border: 0; white-space: nowrap; }
+  .tabela-regras tr + tr { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; padding: 16px; border-bottom: 1px solid var(--linha); }
+  .tabela-regras tr + tr td { display: block; padding: 0; border: 0; }
+  .tabela-regras tr + tr td:first-child { flex-basis: 100%; }
+  .tabela-regras td.n { text-align: left; font-size: 14px; }
+  .tabela-regras td[data-rot]::before { content: attr(data-rot) " "; font: 400 13px var(--texto); color: var(--tinta-3); }
+}
 .ficha-tabela th { width: 38%; text-transform: none; letter-spacing: 0; font-size: 14px; color: var(--tinta-2); font-weight: 500; background: none; }
 .socios { padding: 14px 24px 22px 44px; margin: 0; display: grid; gap: 8px; }
 
@@ -1739,6 +1796,21 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
   .caso .caso-cupons td, .caso .caso-cupons th { padding: 8px 6px; }
   .regras-locacao td, .regras-locacao th { min-width: 120px; }
 }
+/* no celular cada cupom é um bloco: data e valor na primeira linha, o posto e o que o cupom mostra embaixo, na largura
+   toda (com cinco colunas, o posto e os itens ficavam com ~70 px e o caso maior passava de 3 mil px) */
+@media (max-width: 760px) {
+  .caso .caso-cupons table, .caso .caso-cupons tbody { display: block; }
+  .caso .caso-cupons tr:first-child { display: none; }
+  .caso .caso-cupons tr + tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 14px; padding: 12px 14px;
+    border-bottom: 1px solid var(--linha); }
+  .caso .caso-cupons tr:last-child { border-bottom: 0; }
+  .caso .caso-cupons tr + tr td { display: block; padding: 0; border: 0; }
+  .caso .caso-cupons td:nth-child(1) { grid-area: 1 / 1; font-weight: 600; }
+  .caso .caso-cupons td:nth-child(4) { grid-area: 1 / 2; }
+  .caso .caso-cupons td:nth-child(5) { grid-area: 2 / 2; text-align: right; }
+  .caso .caso-cupons td:nth-child(2) { grid-area: 2 / 1; }
+  .caso .caso-cupons td:nth-child(3) { grid-column: 1 / -1; }
+}
 
 /* glosa: embaixo do valor reembolsado, o valor da nota e a parte que a Câmara não pagou */
 .glosa { display: block; margin-top: 2px; font: 13px/1.35 var(--texto); color: var(--tinta-2); white-space: nowrap; }
@@ -1773,3 +1845,31 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
 .gf-tabela td:first-child .cat .mono { overflow-wrap: anywhere; }
 .gf-tabela td:last-child, .gf-tabela td.n { white-space: nowrap; }
 @media (max-width: 560px) { .gf-tabela th, .gf-tabela td { padding: 10px 6px; } .gf-tabela td.n { font-size: 14px; } }
+
+/* ---------------------------------------------------------------- Senado: colunas mês a mês e lista das notas
+   As colunas são HTML, e não SVG, para os anos ficarem no tamanho do texto em qualquer largura; a tabela dos valores
+   fica logo abaixo. As notas são blocos de toque (fornecedor e dados à esquerda, valor e documento à direita), iguais
+   no celular e no computador */
+.colunas { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); grid-template-rows: 150px auto; column-gap: 2px;
+  align-items: end; margin: 18px 24px 0; }
+.colunas span { grid-row: 1; height: var(--h); min-height: 1px; background: var(--verde); border-radius: 1px 1px 0 0; }
+.colunas b { grid-row: 2; align-self: start; padding: 6px 0 0 4px; border-left: 1px solid var(--linha-forte); font: 600 12px/1.2 var(--texto);
+  color: var(--tinta-3); font-variant-numeric: tabular-nums lining-nums; }
+.colunas-legenda { margin: 10px 24px 0; }
+#mes-a-mes .tabela-serie { margin: 12px 24px 22px; }
+.notas-sen { list-style: none; margin: 0; padding: 0; }
+.nota-sen { display: flex; justify-content: space-between; gap: 14px; padding: 14px 24px; border-bottom: 1px solid var(--linha); }
+.ns-texto { min-width: 0; overflow-wrap: anywhere; }
+.ns-forn { display: block; font-weight: 600; }
+.ns-meta { display: block; margin-top: 2px; font-size: 14px; color: var(--tinta-2); }
+.ns-meta.mono { font-size: 13px; }
+.ns-dir { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex: none; text-align: right; }
+.ns-valor { font: 500 15px var(--mono); white-space: nowrap; }
+.ns-valor.devolucao { color: var(--tinta-3); }
+.ns-pdf { display: inline-flex; align-items: center; min-height: 32px; font-size: 14px; font-weight: 600; }
+.ns-sem { font-size: 13px; color: var(--tinta-3); }
+@media (max-width: 560px) {
+  .nota-sen { padding: 12px 16px; }
+  .colunas { margin: 14px 16px 0; grid-template-rows: 120px auto; column-gap: 1px; }
+  .colunas-legenda, #mes-a-mes .tabela-serie { margin-left: 16px; margin-right: 16px; }
+}

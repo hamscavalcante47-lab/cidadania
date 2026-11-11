@@ -4,9 +4,33 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pr.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/pr.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Gleisi Hoffmann (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8af44bc8eb2b68db.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8af44bc8eb2b68db.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. HOTEIS ELO - MARINGA LTDA aparece na Receita Federal como inapta desde 09/06/2022; há 3 nota(s) com data 30 dias ou mais depois disso (R$ 883,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Beto Richa (PSDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e82530622471ad9d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e82530622471ad9d.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. HOTEIS ELO - MARINGA LTDA aparece na Receita Federal como inapta desde 09/06/2022; há 4 nota(s) com data 30 dias ou mais depois disso (R$ 709,10). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Welter (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/2d7b1e78ea98aef2.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/2d7b1e78ea98aef2.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. HOTEIS ELO - MARINGA LTDA aparece na Receita Federal como inapta desde 09/06/2022; há 2 nota(s) com data 30 dias ou mais depois disso (R$ 380,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Carol Dartora (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f063e838e4ae5ff5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f063e838e4ae5ff5.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. DANUZIA VITORINO LOPES FABRICIO ***84224*** aparece na Receita Federal como inapta desde 08/08/2024; há 1 nota(s) com data 30 dias ou mais depois disso (R$ 90,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Sergio Souza (MDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d221376112fe4888.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d221376112fe4888.html</id>
 <updated>2026-11-09T00:00:00Z</updated>
@@ -282,29 +306,5 @@
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 17 de 55.715.006 JOAO ADELINO DE SOUZA (R$ 7.500,00, 01/06/2025): foi declarado R$ 7.500,00, mas o maior valor lido no documento é R$ 5.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Vermelho (PL/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/96a506e674e14898.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/96a506e674e14898.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 41 de CAROLINE CANAL DE SOUZA (R$ 5.000,00, 13/01/2026): o documento traz o(s) CNPJ(s) 45268405000143, e não o do fornecedor declarado (43593541000183). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Dilceu Sperafico (PP/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a79ce14b331c4513.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a79ce14b331c4513.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 000005166 de REDE INTEGRACAO DE COMUNICACAO LTDA (R$ 4.000,00, 15/04/2025): o documento traz o(s) CNPJ(s) 16799962000192, e não o do fornecedor declarado (79701983000143). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Dilceu Sperafico (PP/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/97dc39ff7cdd2b0f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/97dc39ff7cdd2b0f.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 45 de VIVER COMUNICAÇÃO LTDA (R$ 1.000,00, 15/04/2025): o documento traz o(s) CNPJ(s) 15279013000119, e não o do fornecedor declarado (59299451000114). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Paulo Litro (UNIÃO/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d59f1555a3da734f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d59f1555a3da734f.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 288941 de LUIZANI COMERCIO DE COMBUSTIVEIS LTDA (R$ 400,00, 14/07/2026): o documento traz o(s) CNPJ(s) 03222765000164, e não o do fornecedor declarado (06923637000136). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

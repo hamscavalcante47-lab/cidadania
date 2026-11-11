@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/go.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/go.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — José Nelto (UNIÃO/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cea62af37e87cabf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cea62af37e87cabf.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 39.152.506 AGUINALDO SANTANA VIEIRA aparece na Receita Federal como inapta desde 12/08/2024; há 1 nota(s) com data 30 dias ou mais depois disso (R$ 4.050,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Adriano do Baldy (PP/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/56701909084c3e66.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/56701909084c3e66.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. DIVINA DELFINA DE ARAUJO aparece na Receita Federal como inapta desde 10/11/2023; há 2 nota(s) com data 30 dias ou mais depois disso (R$ 220,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Adriano do Baldy (PP/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/810c4e628248333b.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/810c4e628248333b.html</id>
 <updated>2026-11-09T00:00:00Z</updated>

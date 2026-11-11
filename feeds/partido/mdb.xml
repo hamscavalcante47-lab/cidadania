@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/mdb.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/mdb.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ebca2b2951e55637.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ebca2b2951e55637.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MAXIPRED - ASSESSORIA PREDIAL LTDA. aparece na Receita Federal como baixada desde 01/12/2023; há 19 nota(s) com data 30 dias ou mais depois disso (R$ 11.795,62). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Cobalchini (MDB/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/822923a542c82a53.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/822923a542c82a53.html</id>
 <updated>2026-11-09T00:00:00Z</updated>
@@ -300,11 +306,5 @@
 <updated>2026-11-01T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. O mesmo arquivo de nota de UBER DO BRASIL TECNOLOGIA LTDA. foi anexado a 2 reembolsos. Despesas declaradas: nº 1387 (R$ 13,87, 12/07/2023); nº 1387 (R$ 13,87, 12/07/2023). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Newton Cardoso Jr (MDB/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/5e30d9884e34a697.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5e30d9884e34a697.html</id>
-<updated>2026-11-01T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de VIA CRISTAIS foi anexado a 2 reembolsos. Despesas declaradas: nº PP19R50B81KD (R$ 11,40, 09/02/2026); nº PP19R50B81KD (R$ 11,40, 09/02/2026). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

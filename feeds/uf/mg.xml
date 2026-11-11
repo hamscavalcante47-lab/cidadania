@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/mg.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/mg.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Paulo Guedes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0fd7978fd4c47cfc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0fd7978fd4c47cfc.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. GELSON APARECIDO OLIVEIRA REIS aparece na Receita Federal como inapta desde 07/06/2022; há 1 nota(s) com data 30 dias ou mais depois disso (R$ 2.000,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6e0cd38119002db0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6e0cd38119002db0.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. VIACAO PRESIDENTE LTDA aparece na Receita Federal como suspensa desde 06/02/2026; há 1 nota(s) com data 30 dias ou mais depois disso (R$ 133,35). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Patrus Ananias (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9c5505cea3e76900.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9c5505cea3e76900.html</id>
 <updated>2026-11-09T00:00:00Z</updated>
@@ -294,17 +306,5 @@
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 497247 de POSTO SANTA EDWIGES PETROLEO LTDA - FILIAL JK (R$ 214,80, 11/04/2024): o emissor da nota é o CNPJ 03.812.019/0001-20, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Dados da chave de acesso não batem com a despesa declarada — Greyce Elias (PL/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0bb487f792169521.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0bb487f792169521.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 2543054 de SOCIEDADE COMERCIAL CANAA -LTDA (R$ 200,00, 25/11/2025): o emissor da nota é o CNPJ 17.011.467/0001-30, não o fornecedor declarado. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Mesmo documento usado em despesas diferentes — Nely Aquino (PODE/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/391a7b9e225982ba.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/391a7b9e225982ba.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. O mesmo arquivo de nota de POSTO GUARAPARI LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 121977 (R$ 100,00, 21/05/2024); nº 743173 (R$ 100,00, 23/05/2024). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

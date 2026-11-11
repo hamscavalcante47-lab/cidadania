@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psol.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psol.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Chico Alencar (PSOL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ef477ae55b928b7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ef477ae55b928b7.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. USA PARK VITORIA ESTACIONAMENTOS S/S LTDA aparece na Receita Federal como inapta desde 10/06/2022; há 3 nota(s) com data 30 dias ou mais depois disso (R$ 185,96). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Professora Luciene Cavalcante (PSOL/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/275d779f5640436f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/275d779f5640436f.html</id>
 <updated>2026-11-09T00:00:00Z</updated>

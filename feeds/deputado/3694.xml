@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3694.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3694.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Beto Richa (PSDB/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e82530622471ad9d.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/e82530622471ad9d.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. HOTEIS ELO - MARINGA LTDA aparece na Receita Federal como inapta desde 09/06/2022; há 4 nota(s) com data 30 dias ou mais depois disso (R$ 709,10). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Hospedagem do próprio deputado em Brasília paga pela cota — Beto Richa (PSDB/PR)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/3b1e3f33500e88dd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/5a554d14abe15372.html</id>
 <updated>2026-11-07T00:00:00Z</updated>

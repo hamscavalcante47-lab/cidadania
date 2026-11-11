@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3414.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3414.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Greyce Elias (PL/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6e0cd38119002db0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6e0cd38119002db0.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. VIACAO PRESIDENTE LTDA aparece na Receita Federal como suspensa desde 06/02/2026; há 1 nota(s) com data 30 dias ou mais depois disso (R$ 133,35). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Greyce Elias (PL/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/06774a01553a98e4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/06774a01553a98e4.html</id>
 <updated>2026-11-09T00:00:00Z</updated>

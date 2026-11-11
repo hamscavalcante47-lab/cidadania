@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2898.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2898.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Hélio Leite (UNIÃO/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6f83a528e669db57.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f83a528e669db57.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. T DOS REIS SILVA LTDA aparece na Receita Federal como inapta desde 21/08/2024; há 1 nota(s) com data 30 dias ou mais depois disso (R$ 800,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Atividade da empresa não combina com o gasto — Hélio Leite (UNIÃO/PA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/b63528c7adf0b3dd.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/b63528c7adf0b3dd.html</id>
 <updated>2026-10-27T00:00:00Z</updated>

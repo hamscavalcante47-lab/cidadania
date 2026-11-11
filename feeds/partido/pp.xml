@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pp.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/pp.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Delegado Fabio Costa (PP/AL)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/32400707f4b89258.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/32400707f4b89258.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 27.199.604 JULLY EMILLY GONCALVES DIAS VALOES aparece na Receita Federal como inapta desde 16/08/2024; há 1 nota(s) com data 30 dias ou mais depois disso (R$ 300,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Adriano do Baldy (PP/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/56701909084c3e66.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/56701909084c3e66.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. DIVINA DELFINA DE ARAUJO aparece na Receita Federal como inapta desde 10/11/2023; há 2 nota(s) com data 30 dias ou mais depois disso (R$ 220,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Amanda Gentil (PP/MA)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/629df47e40e9bcd4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/629df47e40e9bcd4.html</id>
 <updated>2026-11-09T00:00:00Z</updated>
@@ -294,17 +306,5 @@
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 27 de FREDSON NEVES AGUIAR (R$ 6.600,00, 16/03/2026): foi declarado R$ 6.600,00, mas o maior valor lido no documento é R$ 6.000,00. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Dilceu Sperafico (PP/PR)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a79ce14b331c4513.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a79ce14b331c4513.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 000005166 de REDE INTEGRACAO DE COMUNICACAO LTDA (R$ 4.000,00, 15/04/2025): o documento traz o(s) CNPJ(s) 16799962000192, e não o do fornecedor declarado (79701983000143). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Dr. Luiz Ovando (PP/MS)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/196b68ab064da240.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/196b68ab064da240.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 1680 de RX3 MARKETING E PERFORMANCE LTDA (R$ 2.500,00, 27/04/2026): o documento traz o(s) CNPJ(s) 02517521000146, e não o do fornecedor declarado (24474037000110). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

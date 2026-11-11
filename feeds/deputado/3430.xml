@@ -4,7 +4,13 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3430.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3430.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
-
+<entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Gleisi Hoffmann (PT/PR)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8af44bc8eb2b68db.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8af44bc8eb2b68db.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. HOTEIS ELO - MARINGA LTDA aparece na Receita Federal como inapta desde 09/06/2022; há 3 nota(s) com data 30 dias ou mais depois disso (R$ 883,00). Alerta não é acusação: confira a nota original.</summary>
+</entry>
 </feed>

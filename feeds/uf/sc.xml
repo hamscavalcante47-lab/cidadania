@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/sc.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/sc.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Fabio Schiochet (UNIÃO/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/80d8aecd75593a00.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/80d8aecd75593a00.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. RANUSIA MOREIRA GOUVEIA DE MOURA E OLIVEIRA aparece na Receita Federal como inapta desde 10/11/2023; há 20 nota(s) com data 30 dias ou mais depois disso (R$ 7.000,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Geovania de Sá (REPUBLICANOS/SC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/38d9000bd691b892.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/38d9000bd691b892.html</id>
 <updated>2026-11-09T00:00:00Z</updated>
@@ -300,11 +306,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. nº 38914 de Posto Vale Europeu (03/03/2023): 2 lançamentos em 1 competência(s); documento R$ 347,04, valor líquido R$ 694,08, restituições R$ 0,00, saldo R$ 694,08 (excedente R$ 347,04). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Possível reembolso repetido após conciliação mensal — Pedro Uczai (PT/SC)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/a45e659da22610a0.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a45e659da22610a0.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Alta"/>
-<summary>Gravidade alta. nº 5DE7AB000058 de STTREAMYARD CORE (06/04/2026): 2 lançamentos em 1 competência(s); documento R$ 241,69, valor líquido R$ 483,38, restituições R$ 0,00, saldo R$ 483,38 (excedente R$ 241,69). Totais mensais conciliados. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

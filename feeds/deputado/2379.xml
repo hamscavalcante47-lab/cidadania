@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2379.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/2379.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Alceu Moreira (MDB/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/ebca2b2951e55637.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/ebca2b2951e55637.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MAXIPRED - ASSESSORIA PREDIAL LTDA. aparece na Receita Federal como baixada desde 01/12/2023; há 19 nota(s) com data 30 dias ou mais depois disso (R$ 11.795,62). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Hotel ou refeição da cota durante missão oficial — Alceu Moreira (MDB/RS)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8476e19ff71c8bcf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8476e19ff71c8bcf.html</id>
 <updated>2026-11-07T00:00:00Z</updated>

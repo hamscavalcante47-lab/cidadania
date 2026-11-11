@@ -177,6 +177,19 @@ function tabelaOrdenavel(tabela, aoOrdenar) {
 function iniciarBusca() {
   const input = $("#busca-global"), lista = $("#busca-resultados");
   if (!input) return;
+  // no topo do computador o campo fica estreito: troca o texto de exemplo por um mais curto que caiba inteiro
+  const exemplos = [input.placeholder, "Nome ou empresa", "Buscar"];
+  const caber = () => {
+    const s = getComputedStyle(input), estilo = getComputedStyle(input, "::placeholder");
+    const livre = input.getBoundingClientRect().width - ["paddingLeft", "paddingRight", "borderLeftWidth", "borderRightWidth"]
+      .reduce((soma, p) => soma + parseFloat(s[p]), 0) - 16;  // 16: o botão de limpar do campo de busca ocupa espaço
+    const pena = (caber.c ??= document.createElement("canvas").getContext("2d"));
+    pena.font = `${estilo.fontSize} ${estilo.fontFamily}`;
+    input.placeholder = exemplos.find(t => pena.measureText(t).width <= livre) ?? exemplos.at(-1);
+  };
+  caber();
+  document.fonts?.ready.then(caber);  // mede de novo com a fonte do site, não com a de reserva
+  addEventListener("resize", caber);
   let indice = null, itens = [], selecionado = -1;
   const abrir = aberta => { lista.hidden = !aberta; input.setAttribute("aria-expanded", String(aberta)); };
   const carregar = async () => indice ??= (await json("dados/busca.json")).map(i => ({ ...i, b: normalizar(i.n + " " + i.s) }));
@@ -184,7 +197,7 @@ function iniciarBusca() {
   const pessoas = {};
   const carregarPessoas = async letra => pessoas[letra] ??= (await json(`dados/pessoas/${letra}.json`).catch(() => []))
     .map(([n, v]) => ({ n, v, b: normalizar(n) }));
-  const TIPO = { d: "Deputado", f: "Fornecedor", p: "Pessoa" };
+  const TIPO = { d: "Deputado", s: "Senador", f: "Fornecedor", p: "Pessoa" };
 
   async function desenhar() {
     const q = normalizar(input.value.trim());
@@ -205,7 +218,7 @@ function iniciarBusca() {
     selecionado = itens.length ? 0 : -1;
     lista.innerHTML = itens.map((i, k) => `<li><a href="${RAIZ}${i.u}" role="option" aria-selected="${k === 0}">
         <span class="tipo">${TIPO[i.t]}</span><span>${esc(i.n)}<small>${esc(i.s)}</small></span></a></li>`).join("")
-      || `<li class="vazio">Nada encontrado para “${esc(input.value)}”. Tente o nome de um deputado, de uma empresa ou de uma pessoa.</li>`;
+      || `<li class="vazio">Nada encontrado para “${esc(input.value)}”. Tente o nome de um deputado, de um senador, de uma empresa ou de uma pessoa.</li>`;
     abrir(true);
   }
   input.addEventListener("focus", carregar, { once: true });
@@ -1576,12 +1589,13 @@ async function iniciarAlertas() {
       if (!a.s) quem.push(`<span class="status">revisão pendente</span>`);
       return `<article class="alerta g${a.g}"><div class="cab"><span class="pill g${a.g}">${GRAV[a.g]}</span><h3><a href="alerta/${a.c}.html">${esc(titulo[a.r])}</a></h3>${a.vl > 0 ? `<span class="valor-alerta"><b class="num">${brlCurto(a.vl)}</b> envolvidos</span>` : ""}</div>
         <p class="meta">${quem.join(" · ")}</p><p class="desc">${esc(a.t)}</p>
-        ${a.s ? `<p class="revisao ${esc(a.s)}"><strong>${esc(a.rl || a.s)}.</strong> ${a.va
+        ${a.s ? `<p class="revisao ${esc(a.s)}"><span class="rv"><strong>${esc(a.rl || a.s)}.</strong> ${a.va
           // revisão herdada na troca de chave: feita numa versão anterior (a revisada), que tem página própria
           ? `Revisão feita numa versão anterior deste alerta (<a href="alerta/${esc(a.va[0])}.html">ver a versão revisada</a>), em ${esc(a.va[1])}${a.v ? `: ${esc(a.v)}` : "."}`
-          : esc(a.v || "")}</p>` : ""}
+          : esc(a.v || "")}</span></p>` : ""}
         ${notas ? `<details><summary>Notas envolvidas</summary><ul>${notas}</ul></details>` : ""}</article>`;
     }).join("") || `<p class="vazio">Nenhum alerta com esses filtros. Escolha outra gravidade ou outro período.</p>`;
+    marcarCortes($("#lista-alertas"));
     const resto = lista.length - estado.limite;
     $("#mais").hidden = resto <= 0;
     $("#mais").textContent = `Mostrar mais ${Math.min(50, resto)} de ${resto} restantes`;
@@ -1635,6 +1649,12 @@ async function iniciarAlertas() {
   });
   CAMPOS.forEach(([s, k]) => $(s).addEventListener("input", e => { estado[k] = e.target.value; estado.limite = 50; desenhar(); }));
   $("#mais").addEventListener("click", () => { estado.limite += 50; desenhar(); });
+  $("#lista-alertas").addEventListener("click", e => {
+    const b = e.target.closest(".ler-tudo"); if (!b) return;
+    const aberto = b._alvo.classList.toggle("cortavel") === false;
+    b.setAttribute("aria-expanded", aberto);
+    b.textContent = aberto ? "Ler menos" : "Ler tudo";
+  });
   $("#f-csv").addEventListener("click", () => baixarCSV("alertas-cota-parlamentar.csv",
     ["Gravidade", "Tipo de alerta", "Deputado", "Partido", "UF", "Mês", "Descrição", "Revisão", "Notas"],
     lista.map(a => {
@@ -1643,6 +1663,22 @@ async function iniciarAlertas() {
         a.s ? `${a.rl || a.s}. ${a.v || ""}` : "pendente", a.n.map(n => n[3]).filter(Boolean).join(" ")];
     })));
   desenhar();
+}
+
+// lista de Alertas no celular: descrição e revisão longas ficam em poucas linhas (CSS, .cortavel) e ganham "Ler tudo";
+// onde o texto cabe (ou no computador, sem corte) a classe sai e não há botão. Primeiro marca tudo, depois mede, depois
+// escreve: uma medida por texto, sem recalcular a página a cada alerta. Na revisão o corte vai no texto de dentro
+// (.rv): na caixa com margem interna, a linha seguinte ao corte apareceria pela metade
+function marcarCortes(raiz) {
+  const textos = [...raiz.querySelectorAll(".alerta > .desc, .alerta > .revisao > .rv")];
+  textos.forEach(t => t.classList.add("cortavel"));
+  const cortados = textos.map(t => t.scrollHeight > t.clientHeight + 2);
+  textos.forEach((t, i) => {
+    if (!cortados[i]) { t.classList.remove("cortavel"); return; }
+    const b = Object.assign(document.createElement("button"), { type: "button", className: "ler-tudo", textContent: "Ler tudo", _alvo: t });
+    b.setAttribute("aria-expanded", "false");
+    t.closest("p").after(b);
+  });
 }
 
 // o botão diz o que aconteceu por 2,5 s e volta ao rótulo; o leitor de tela ouve o mesmo numa região viva (dentro do
@@ -1973,4 +2009,6 @@ function iniciarFornecedor() {
   }));
 }
 ({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: iniciarAlertas, ranking: iniciarRanking, gastos: iniciarGastos,
-  comparar: iniciarComparar, cidade: iniciarCidade, fornecedor: iniciarFornecedor })[document.body.dataset.pagina]?.();
+  comparar: iniciarComparar, cidade: iniciarCidade, fornecedor: iniciarFornecedor,
+  // as duas do Senado vêm do senado.js, que só essas páginas carregam
+  senadores: () => Senado.iniciarLista(), senador: () => Senado.iniciarSenador() })[document.body.dataset.pagina]?.();

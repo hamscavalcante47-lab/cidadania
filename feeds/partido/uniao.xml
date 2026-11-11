@@ -4,9 +4,27 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/uniao.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/uniao.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Fabio Schiochet (UNIÃO/SC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/80d8aecd75593a00.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/80d8aecd75593a00.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. RANUSIA MOREIRA GOUVEIA DE MOURA E OLIVEIRA aparece na Receita Federal como inapta desde 10/11/2023; há 20 nota(s) com data 30 dias ou mais depois disso (R$ 7.000,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — José Nelto (UNIÃO/GO)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/cea62af37e87cabf.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/cea62af37e87cabf.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. 39.152.506 AGUINALDO SANTANA VIEIRA aparece na Receita Federal como inapta desde 12/08/2024; há 1 nota(s) com data 30 dias ou mais depois disso (R$ 4.050,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Hélio Leite (UNIÃO/PA)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/6f83a528e669db57.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/6f83a528e669db57.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. T DOS REIS SILVA LTDA aparece na Receita Federal como inapta desde 21/08/2024; há 1 nota(s) com data 30 dias ou mais depois disso (R$ 800,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Silvye Alves (UNIÃO/GO)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/753f0c0c621b7bb4.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/753f0c0c621b7bb4.html</id>
 <updated>2026-11-09T00:00:00Z</updated>
@@ -288,23 +306,5 @@
 <updated>2026-11-04T00:00:00Z</updated>
 <category term="Alta"/>
 <summary>Gravidade alta. O mesmo arquivo de nota de RAMETTA &amp; SOARES LTDA foi anexado a 2 reembolsos. Despesas declaradas: nº 2023000000009988 (R$ 143,00, 04/04/2023); nº 202300000009988 (R$ 143,00, 04/04/2023). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Delegado da Cunha (UNIÃO/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0dffa267b9b870fc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0dffa267b9b870fc.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 239955 de the hill empreendimentos hoteleiros ltda (R$ 448,88, 26/09/2025): o documento traz o(s) CNPJ(s) 09967852020748, e não o do fornecedor declarado (28633366000117). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Igor Timo (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/895ecc0a39e1e570.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/895ecc0a39e1e570.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 202600000000186 de OTONI E MARTINS LTDA (R$ 409,50, 20/04/2026): o documento traz o(s) CNPJ(s) 61179170000170, e não o do fornecedor declarado (17963083000117). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Valor declarado maior que o da nota — Zé Silva (UNIÃO/MG)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/9fa9ab7d68162099.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/9001e670886c9d3f.html</id>
-<updated>2026-11-04T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 5138 de Jose Cadete de Sousa Filho Eireli (R$ 374,00, 26/04/2025): foi declarado R$ 374,00, mas o maior valor lido no documento é R$ 347,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

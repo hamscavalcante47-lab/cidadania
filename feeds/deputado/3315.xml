@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3315.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3315.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/789dffaed2ff18a8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/789dffaed2ff18a8.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. OMEGA EMPREENDIMENTOS IMOBILIARIOS LTDA aparece na Receita Federal como baixada desde 02/02/2024; há 3 nota(s) com data 30 dias ou mais depois disso (R$ 16.200,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Emanuel Pinheiro Neto (PSD/MT)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/40fc0b2ba05a6a65.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/40fc0b2ba05a6a65.html</id>
 <updated>2026-11-09T00:00:00Z</updated>

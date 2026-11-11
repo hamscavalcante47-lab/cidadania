@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ac.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/ac.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Roberto Duarte (REPUBLICANOS/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/07c1570d9ac91e12.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/07c1570d9ac91e12.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. R. BRITO DE AGUIAR aparece na Receita Federal como baixada desde 01/04/2022; há 1 nota(s) com data 30 dias ou mais depois disso (R$ 520,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/f72ec5b4eef0b895.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/f72ec5b4eef0b895.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. R. BRITO DE AGUIAR aparece na Receita Federal como baixada desde 01/04/2022; há 3 nota(s) com data 30 dias ou mais depois disso (R$ 490,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>CNPJ do documento não é o do fornecedor declarado — Eduardo Velloso (SOLIDARIEDADE/AC)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8b6de3eb8ed17f6f.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8b6de3eb8ed17f6f.html</id>
 <updated>2026-11-09T00:00:00Z</updated>

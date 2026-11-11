@@ -4,9 +4,21 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psd.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/partido/psd.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Emanuel Pinheiro Neto (PSD/MT)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/789dffaed2ff18a8.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/789dffaed2ff18a8.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. OMEGA EMPREENDIMENTOS IMOBILIARIOS LTDA aparece na Receita Federal como baixada desde 02/02/2024; há 3 nota(s) com data 30 dias ou mais depois disso (R$ 16.200,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Luciano Azevedo (PSD/RS)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/fc2f58ac50aea686.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/fc2f58ac50aea686.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. MAIRI CASON aparece na Receita Federal como baixada desde 26/09/2018; há 2 nota(s) com data 30 dias ou mais depois disso (R$ 20,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Carlos Sampaio (PSD/SP)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/1bbeaa6e12bd1a43.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/1bbeaa6e12bd1a43.html</id>
 <updated>2026-11-09T00:00:00Z</updated>
@@ -294,17 +306,5 @@
 <updated>2026-11-06T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. nº 2327238 de REDE DE POSTOS CONTI COMIGO LTDA (R$ 178,21, 12/04/2024): foi declarado R$ 178,21, mas o maior valor lido no documento é R$ 100,00. O texto do documento foi relido por OCR, que pode ter errado algarismos. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Vitor Lippi (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7df553c0897a0a23.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/89e8f29c22975360.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 326320 de POSTO DE ABASTECIMENTO SAO LUCAS LTDA EPP (R$ 120,00, 01/09/2023): o documento traz o(s) CNPJ(s) 10509267000162, e não o do fornecedor declarado (07282923000122). Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>CNPJ do documento não é o do fornecedor declarado — Vitor Lippi (PSD/SP)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/e54558382d0077a5.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/a443d9d743651831.html</id>
-<updated>2026-11-06T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. nº 426073 de POSTO DOS TROPEIROS SOROCABA LTDA (R$ 120,00, 11/09/2023): o documento traz o(s) CNPJ(s) 07282923000122, e não o do fornecedor declarado (10509267000162). Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>

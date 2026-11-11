@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3204.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/deputado/3204.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Paulo Guedes (PT/MG)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/0fd7978fd4c47cfc.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/0fd7978fd4c47cfc.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. GELSON APARECIDO OLIVEIRA REIS aparece na Receita Federal como inapta desde 07/06/2022; há 1 nota(s) com data 30 dias ou mais depois disso (R$ 2.000,00). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Paulo Guedes (PT/MG)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/8cfe70be4e1e0651.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/8cfe70be4e1e0651.html</id>
 <updated>2026-11-06T00:00:00Z</updated>

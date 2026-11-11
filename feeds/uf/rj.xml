@@ -4,9 +4,15 @@
 <subtitle>Alertas de gravidade média ou alta na cota parlamentar dos deputados federais</subtitle>
 <link rel="self" href="https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/rj.xml"/><link href="https://hamscavalcante47-lab.github.io/cidadania/"/>
 <id>https://hamscavalcante47-lab.github.io/cidadania/feeds/uf/rj.xml</id>
-<updated>2026-11-09T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
 <author><name>De Olho na Cota</name><email>hamscavalcante47@gmail.com</email></author>
 <entry>
+<title>Nota com data posterior à baixa ou inaptidão da empresa na Receita — Chico Alencar (PSOL/RJ)</title>
+<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/7ef477ae55b928b7.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/7ef477ae55b928b7.html</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<category term="Média"/>
+<summary>Gravidade média. USA PARK VITORIA ESTACIONAMENTOS S/S LTDA aparece na Receita Federal como inapta desde 10/06/2022; há 3 nota(s) com data 30 dias ou mais depois disso (R$ 185,96). Alerta não é acusação: confira a nota original.</summary>
+</entry><entry>
 <title>Mesmo documento usado em despesas diferentes — Roberto Monteiro Pai (PL/RJ)</title>
 <link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/96609558af4f8f68.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/96609558af4f8f68.html</id>
 <updated>2026-11-09T00:00:00Z</updated>
@@ -300,11 +306,5 @@
 <updated>2026-10-27T00:00:00Z</updated>
 <category term="Média"/>
 <summary>Gravidade média. ASSOCIACAO CAMPONESA PARA EDUCACAO, CULTURA E AGRICULTURA DO ESTADO DO RIO DE JANEIRO - ACECARJ recebeu R$ 5.550,00 por "divulgação da atividade parlamentar", mas sua atividade é "Ensino de arte e cultura não especificado anteriormente" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
-</entry><entry>
-<title>Atividade da empresa não combina com o gasto — Jones Moura (PSD/RJ)</title>
-<link href="https://hamscavalcante47-lab.github.io/cidadania/alerta/d0d9e8bcc870d726.html"/><id>https://hamscavalcante47-lab.github.io/cidadania/alerta/d0d9e8bcc870d726.html</id>
-<updated>2026-10-27T00:00:00Z</updated>
-<category term="Média"/>
-<summary>Gravidade média. UBER DO BRASIL TECNOLOGIA LTDA. recebeu R$ 4.506,17 por "serviço de táxi, pedágio e estacionamento", mas sua atividade é "Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários" e nenhum CNAE secundário é compatível. Alerta não é acusação: confira a nota original.</summary>
 </entry>
 </feed>
