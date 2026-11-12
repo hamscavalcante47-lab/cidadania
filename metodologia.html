@@ -21,7 +21,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="assets/estilo.css?v=f50c77b1">
+<link rel="stylesheet" href="assets/estilo.css?v=84837ea8">
 </head>
 <body data-pagina="metodologia" data-raiz="" data-versao="6cb7585de3" data-alertas="0" data-equipe="0">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -37,7 +37,7 @@
   </div>
   <nav aria-label="Principal"><a href="index.html">Início</a><a href="ranking.html">Deputados</a><a href="senadores.html">Senadores</a><a href="gastos.html">Gastos</a><a href="metodologia.html" aria-current="page">Como funciona</a></nav>
 </div></header>
-<main id="conteudo"><div class="cont">
+<main id="conteudo"><div class="friso" aria-hidden="true"><svg viewBox="0 0 720 300" focusable="false"><path class="sol" d="M140 252a110 110 0 0 1 220 0z"/><path class="halo" d="M110 252a140 140 0 0 1 280 0M70 252a180 180 0 0 1 360 0"/><path class="nuvem" d="M-260 96h150M-520 58h230M-640 128h90M-980 84h180M-1260 116h120M-1500 66h200M-60 40h90"/><g class="massa"><path d="M-80 252l400-66v66z"/><rect x="320" y="186" width="2220" height="66"/><path d="M372 186a74 50 0 0 1 148 0z"/><path d="M560 140h150c-8 30-36 46-75 46s-67-16-75-46z"/></g><path class="fio" d="M-80 240l400-66M320 198h2220M350 206V252M380 206V252M410 206V252M440 206V252M470 206V252M500 206V252M530 206V252M560 206V252M590 206V252M620 206V252M650 206V252M680 206V252M710 206V252M740 206V252M770 206V252M800 206V252M830 206V252M860 206V252M890 206V252M920 206V252M950 206V252M980 206V252M1010 206V252M1040 206V252M1070 206V252M1100 206V252M1130 206V252M1160 206V252M1190 206V252M1220 206V252M1250 206V252M1280 206V252M1310 206V252M1340 206V252M1370 206V252M1400 206V252M1430 206V252M1460 206V252M1490 206V252M1520 206V252M1550 206V252M1580 206V252M1610 206V252M1640 206V252M1670 206V252M1700 206V252M1730 206V252M1760 206V252M1790 206V252M1820 206V252M1850 206V252M1880 206V252M1910 206V252M1940 206V252M1970 206V252M2000 206V252M2030 206V252M2060 206V252M2090 206V252M2120 206V252M2150 206V252M2180 206V252M2210 206V252M2240 206V252M2270 206V252M2300 206V252M2330 206V252M2360 206V252M2390 206V252M2420 206V252M2450 206V252M2480 206V252M2510 206V252M560 140h150"/><path class="agua" d="M40 266h120M210 266h64M300 273h150M480 266h90M600 273h80M120 281h90M380 283h110M-160 266h110M-330 273h80M-520 266h130M-760 273h90"/></svg></div><div class="cont">
 <p class="ouvir-linha"><button type="button" class="ouvir" id="ouvir" title="Ler em voz alta" hidden><svg viewBox="0 0 24 24" aria-hidden="true">
   <path class="falar" d="M4 9.5h3.5L12 5v14l-4.5-4.5H4v-5Zm11.5-1a4.5 4.5 0 0 1 0 7m2.5-10a8.5 8.5 0 0 1 0 13"/><path class="parar" d="M8 8h8v8H8z"/></svg><span class="vh">Ler em voz alta</span></button></p>
 <nav class="subabas" aria-label="Nesta seção"><a href="metodologia.html" aria-current="page">Como funciona</a><a href="relatorios.html">Dados e planilhas</a><a href="imprensa.html">Para jornalistas</a><a href="acessibilidade.html">Acessibilidade</a><a href="sobre.html">Sobre</a></nav>
@@ -61,6 +61,7 @@
     <li><strong>TSE:</strong> os votos de 2022 por município, na página <a href="voto-da-cidade.html">O voto da sua cidade</a>.</li>
     <li><strong>Presença em Plenário:</strong> a frequência de cada deputado em cada dia com sessão deliberativa, publicada
       pela Câmara.</li>
+    <li><strong>Senado Federal:</strong> as 79.625 despesas da cota dos senadores (CEAPS) no mesmo período, com o link do documento de cada uma. O Senado publica menos que a Câmara: veja <a href="senadores.html#o-que-o-senado-nao-publica">o que o Senado não publica</a>.</li>
   </ul>
 
   <h2 id="limites">Limites</h2>
@@ -81,6 +82,7 @@
   que a Câmara publica. A Câmara não informa de quem é a cadeira que o suplente ocupa: ela é deduzida pelo estado e pela
   data, ligando a posse do suplente ao afastamento de um deputado do mesmo estado nos 15 dias anteriores.
   Quando dois deputados do estado se afastam no mesmo dia, a página não aponta nenhum.</p>
+  <p>O Senado tem 81 cadeiras, e 102 senadores aparecem nas despesas no mesmo período. Cada senador é eleito com dois suplentes, que assumem quando o titular se afasta ou deixa o mandato e passam a usar a cota; dos que aparecem aqui, 27 são suplentes. A página de cada senador diz se ele é titular ou suplente e se está em exercício, segundo o cadastro do Senado. No Senado o suplente é da chapa do titular, então a cadeira que ele ocupa não precisa ser deduzida.</p>
 
   <h2 id="presenca">Presença em Plenário</h2>
   <p>Para cada dia com sessão deliberativa, a Câmara registra se o deputado em exercício esteve presente, faltou com
@@ -94,6 +96,8 @@
   registro oficial. Dias que tiveram só sessão conjunta do Congresso (um em 2024) não estão nos dados que a Câmara
   publica por dia; por isso a página oficial pode mostrar um dia de sessão a mais por ano. “Sem justificativa” é o
   que consta no registro oficial: diz que a Câmara não recebeu ou não aceitou um motivo, não por que o deputado faltou.</p>
+  <p>Dos senadores, o site ainda não traz a presença: os números de Plenário daqui são só os da Câmara
+  dos Deputados.</p>
 
   <h2 id="glossario">Glossário</h2>
   <dl class="glossario"><div><dt>Cota parlamentar (CEAP)</dt><dd>Cota para o Exercício da Atividade Parlamentar: valor mensal que a Câmara reembolsa a cada deputado por gastos do mandato, mediante nota fiscal. Não inclui salário nem a verba de gabinete.</dd></div><div><dt>Limite mensal da cota</dt><dd>Varia por estado, porque inclui as passagens até Brasília. O saldo não usado se acumula dentro do mesmo ano; membros da Mesa e líderes podem ter valores maiores.</dd></div><div><dt>Valor reembolsado</dt><dd>O valor líquido da despesa: o valor da nota menos as glosas (partes que a Câmara recusou pagar).</dd></div><div><dt>Glosa</dt><dd>A parte de uma nota que a Câmara não reembolsou. Acontece, por exemplo, quando o gasto passa do limite daquele tipo de despesa ou quando a nota traz itens que a cota não cobre. O valor da glosa vem dos dados abertos da Câmara (campo vlrGlosa), que não dizem o motivo de cada caso. Por isso o valor que o site mostra pode ser menor que o valor impresso na nota.</dd></div><div><dt>Passagem aérea emitida pela Câmara, RPA e reembolso</dt><dd>Três tipos de gasto com passagens: as compradas pelo sistema da Câmara (SIGEPA), as registradas como RPA (emitidas por Azul, Gol e Latam) e as pagas pelo deputado e reembolsadas depois.</dd></div><div><dt>Titular, suplente e efetivado</dt><dd>Titular é quem foi eleito para a cadeira. Suplente é o próximo da lista, que assume quando o titular se afasta e sai quando ele volta. Efetivado é o suplente que ficou com a cadeira de vez, porque o titular renunciou, morreu ou perdeu o mandato.</dd></div><div><dt>Verba de gabinete</dt><dd>Dinheiro separado da cota, usado só para pagar a equipe do gabinete (secretários parlamentares).</dd></div><div><dt>NF-e, NFC-e e chave de acesso</dt><dd>Notas fiscais eletrônicas. A chave de acesso tem 44 dígitos e traz o CNPJ de quem emitiu, o mês de emissão, o número da nota e um dígito verificador.</dd></div><div><dt>CNPJ, CNAE e MEI</dt><dd>CNPJ é o cadastro da empresa na Receita Federal; CNAE, o código da atividade econômica; MEI, o microempreendedor individual, que só pode faturar até R$ 81 mil por ano.</dd></div></dl>
@@ -126,6 +130,6 @@
   </div>
   <p class="rodape-base">Dados atualizados em 11/11/2026 · <a href="metodologia.html">Como funciona</a> · <a href="metodologia.html#glossario">Glossário</a> · <a href="acessibilidade.html">Acessibilidade</a> · <a href="sobre.html">Sobre</a></p>
 </div></footer>
-<script src="assets/app.js?v=f50c77b1" defer></script>
+<script src="assets/app.js?v=84837ea8" defer></script>
 </body>
 </html>

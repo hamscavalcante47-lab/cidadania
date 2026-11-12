@@ -249,21 +249,8 @@ h3 { font-size: 23px; line-height: 1.1; letter-spacing: .01em; }
 
 /* ---------------------------------------------------------------- abertura */
 .abertura { padding: 44px 0 28px; }
-/* desenho em traço no alto de cada página, à direita, por trás do título: é uma máscara, então a cor vem do tema
-   (claro e escuro) e o arquivo pesa menos de 2 kB. Cada tipo de página escolhe o seu */
-[data-pagina="deputado"], [data-pagina="senador"], [data-pagina="estado"], [data-pagina="gastos"], [data-pagina="cidade"] { --desenho: url("desenho-esplanada.svg"); --tem-desenho: ""; }
-[data-pagina="alertas"], [data-pagina="alerta"], [data-pagina="fornecedor"], [data-pagina="pedidos"], [data-pagina="relatorios"],
-[data-pagina="apuracoes"], [data-pagina="apuracao"] { --desenho: url("desenho-notas.svg"); --tem-desenho: ""; }
-[data-pagina="ranking"], [data-pagina="senadores"], [data-pagina="comparar"], [data-pagina="metodologia"], [data-pagina="novidades"], [data-pagina="imprensa"],
-[data-pagina="sobre"], [data-pagina="guia"], [data-pagina="acessibilidade"] { --desenho: url("desenho-colunas.svg"); --tem-desenho: ""; }
-main::before { content: var(--tem-desenho, none); position: absolute; z-index: -1; top: 18px; right: max(24px, calc((100% - 1200px) / 2 + 24px)); width: min(500px, 42%);
-  aspect-ratio: 12 / 5; pointer-events: none; background: var(--traco);
-  -webkit-mask: var(--desenho, none) right top / contain no-repeat; mask: var(--desenho, none) right top / contain no-repeat; }
+/* o desenho do alto de cada página interna é o friso (bloco "friso", no fim deste arquivo, e frisos.py) */
 main { isolation: isolate; }
-@media (max-width: 860px) { main::before { right: 18px; width: 46%; opacity: .7; } }
-/* no celular não sobra lugar limpo atrás do título: o traço passaria por dentro do nome. O desenho fica na capa da
-   página inicial e, nas outras páginas, a partir da largura de tablet */
-@media (max-width: 560px) { main::before { content: none; } }
 .atalhos { display: flex; gap: 10px; flex-wrap: wrap; margin: 26px 0 0; }
 .aviso { margin-top: 18px; padding-left: 14px; border-left: 1px solid var(--latao); font-size: 15.5px; color: var(--tinta-2); max-width: 70ch; }
 .alerta-situacao { color: var(--alta); border-left-color: var(--alta); }
@@ -446,7 +433,9 @@ main.largo { padding-bottom: 0; }
 /* ---------------------------------------------------------------- cartões */
 .cartao { background: var(--papel); border: 1px solid var(--linha-forte); border-radius: var(--raio); }
 .cartao > h3 { padding: 20px 24px 0; }
-.cartao .sub { padding: 6px 24px 0; margin: 0; color: var(--tinta-2); font-size: 15px; max-width: 80ch; }
+/* text-wrap: pretty: a última linha não fica com uma palavra só */
+.cartao .sub { padding: 6px 24px 0; margin: 0; color: var(--tinta-2); font-size: 15px; max-width: 80ch; text-align: left; text-wrap: pretty; }
+.cartao .sub.inteira { max-width: none; }  /* frase curta num cartão largo: cabe numa linha só */
 
 /* ---------------------------------------------------------------- painel: mapa + lista */
 .painel { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(340px, 1fr); gap: 22px; align-items: start; }
@@ -1923,3 +1912,39 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
   border-left: 2px solid var(--latao); }
 .kit-estados { display: flex; flex-wrap: wrap; gap: 6px 16px; }
 .kit-estados a { display: inline-flex; align-items: center; min-height: 32px; }
+
+/* ---------------------------------------------------------------- o tipo de gasto em cada ano */
+.anos-tipo { margin-top: 18px; }
+.h1-ano { color: var(--tinta-3); white-space: nowrap; }
+.barra a { text-decoration: underline; text-decoration-color: var(--latao); text-underline-offset: 3px; font-weight: 600; }
+.barra.atual b { color: var(--verde-forte); }
+.barra.atual .trilho span { background: var(--latao); }
+
+/* ---------------------------------------------------------------- friso: o céu da capa no alto das páginas internas
+   Uma faixa do verde do cabeçalho com um marco de Brasília em silhueta, de pé no horizonte (frisos.py escolhe o desenho
+   de cada tipo de página). --w é a largura do desenho; o horizonte dele (y = 252 de 300) cai na borda de baixo da
+   faixa, e os traços d'água ficam sobre o chão da página. */
+.friso { --w: clamp(236px, 40vw, 470px); --ceu-alto: var(--topo-fundo); --ceu-baixo: #14573f; --sol: #1f6a50; --longe: #0c3a2c; --massa: #06261c;
+  position: relative; height: calc(var(--w) * .35 + 6px); overflow-x: clip;
+  background: linear-gradient(180deg, var(--ceu-alto) 0%, var(--ceu-alto) 22%, var(--ceu-baixo) 100%); border-bottom: 1px solid var(--latao); }
+.friso svg { position: absolute; right: max(18px, calc((100% - 1200px) / 2 + 24px)); bottom: calc(var(--w) * -.0667 - 1px);
+  width: var(--w); height: auto; overflow: visible; pointer-events: none; }
+.friso .sol { fill: var(--sol); }
+.friso .longe { fill: var(--longe); }
+.friso .massa { fill: var(--massa); }
+.friso .fio { fill: none; stroke: var(--latao); stroke-width: .9; opacity: .55; }
+.friso .agua { fill: none; stroke: var(--linha-forte); stroke-width: 1.5; stroke-linecap: round; }
+.friso .nuvem { fill: none; stroke: var(--sol); stroke-width: 2.4; stroke-linecap: round; }
+.friso .halo { fill: none; stroke: var(--sol); stroke-width: 1.6; }
+.friso .haste { fill: none; stroke: var(--massa); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+.friso .ano { font: 800 44px/1 var(--display); fill: var(--topo-fundo); letter-spacing: .01em; }
+.friso .papel { fill: var(--topo-tinta); }
+.friso .risco { fill: none; stroke: var(--topo-fundo); stroke-width: 1.1; opacity: .7; }
+.friso .lente { fill: color-mix(in srgb, var(--sol) 55%, transparent); stroke: var(--massa); stroke-width: 7; }
+.friso .cabo { fill: none; stroke: var(--massa); stroke-width: 12; stroke-linecap: round; }
+.friso + .cont > .trilha:first-child { padding-top: 26px; }
+@media screen and (prefers-color-scheme: dark) {
+  .friso { --ceu-baixo: #10402f; --sol: #185441; --longe: #082a20; --massa: #040d0a; }
+  .friso .papel { fill: #c9dacf; }
+}
+@media print { .friso { display: none; } }
