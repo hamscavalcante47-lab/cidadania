@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>De Olho na Cota · Para onde vai a cota parlamentar</title>
-<meta name="description" content="Gastos da cota parlamentar dos deputados federais, com links para cada nota fiscal.">
+<meta name="description" content="Gastos da cota parlamentar dos deputados federais e dos senadores, com links para cada nota fiscal.">
 <meta property="og:title" content="De Olho na Cota · Para onde vai a cota parlamentar">
-<meta property="og:description" content="Gastos da cota parlamentar dos deputados federais, com links para cada nota fiscal.">
+<meta property="og:description" content="Gastos da cota parlamentar dos deputados federais e dos senadores, com links para cada nota fiscal.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="De Olho na Cota">
 <meta property="og:locale" content="pt_BR">
@@ -22,12 +22,12 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="assets/estilo.css?v=84837ea8">
+<link rel="stylesheet" href="assets/estilo.css?v=3da70311">
 </head>
-<body data-pagina="inicio" data-raiz="" data-versao="6cb7585de3" data-alertas="0" data-equipe="0">
+<body data-pagina="inicio" data-raiz="" data-versao="b0113afa2d" data-alertas="0" data-equipe="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo"><div class="cont">
-  <a class="marca" href="index.html"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0b3b2d"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>De Olho na Cota<small>gastos dos deputados, nota por nota</small></span></a>
+  <a class="marca" href="index.html"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0b3b2d"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>De Olho na Cota<small>deputados e senadores, nota por nota</small></span></a>
   <div class="busca" role="search">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
     <label class="vh" for="busca-global">Buscar deputado ou senador</label>
@@ -65,21 +65,21 @@
 </section>
 
 <section class="cap cap-verde" id="deputados" aria-labelledby="cap-1"><div class="cont">
-  <h2 class="cap-titulo" id="cap-1"><span>Ache o seu</span> deputado</h2>
-  <p class="cap-entrada">Digite a sua cidade, busque pelo nome ou escolha o estado. A página de cada um mostra as despesas e as notas.</p>
+  <h2 class="cap-titulo cap-titulo-casas" id="cap-1"><span>Ache o seu</span> deputado <i>ou</i> senador</h2>
+  <p class="cap-entrada">Digite a sua cidade, busque pelo nome ou escolha o estado: cada estado traz os deputados e os senadores. A página de cada um mostra as despesas e as notas.</p>
   <form class="sua-cidade" action="voto-da-cidade.html" method="get" role="search">
       <label for="sua-cidade">Comece pela sua cidade</label>
       <span class="sua-cidade-campo"><input id="sua-cidade" name="c" type="search" placeholder="Nome da cidade" autocomplete="off" required
         role="combobox" aria-expanded="false" aria-controls="sua-cidade-lista" aria-autocomplete="list">
       <button type="submit" class="botao">Ver</button>
       <ul class="resultados" id="sua-cidade-lista" role="listbox" hidden></ul></span>
-      <small>Mostra os deputados mais votados nela e quanto cada um recebeu da cota.</small></form>
-  <nav aria-label="Deputados por estado"><ul class="ufs"><li><a href="estado/ac.html" aria-label="Acre">AC</a></li><li><a href="estado/al.html" aria-label="Alagoas">AL</a></li><li><a href="estado/am.html" aria-label="Amazonas">AM</a></li><li><a href="estado/ap.html" aria-label="Amapá">AP</a></li><li><a href="estado/ba.html" aria-label="Bahia">BA</a></li><li><a href="estado/ce.html" aria-label="Ceará">CE</a></li><li><a href="estado/df.html" aria-label="Distrito Federal">DF</a></li><li><a href="estado/es.html" aria-label="Espírito Santo">ES</a></li><li><a href="estado/go.html" aria-label="Goiás">GO</a></li><li><a href="estado/ma.html" aria-label="Maranhão">MA</a></li><li><a href="estado/mg.html" aria-label="Minas Gerais">MG</a></li><li><a href="estado/ms.html" aria-label="Mato Grosso do Sul">MS</a></li><li><a href="estado/mt.html" aria-label="Mato Grosso">MT</a></li><li><a href="estado/pa.html" aria-label="Pará">PA</a></li><li><a href="estado/pb.html" aria-label="Paraíba">PB</a></li><li><a href="estado/pe.html" aria-label="Pernambuco">PE</a></li><li><a href="estado/pi.html" aria-label="Piauí">PI</a></li><li><a href="estado/pr.html" aria-label="Paraná">PR</a></li><li><a href="estado/rj.html" aria-label="Rio de Janeiro">RJ</a></li><li><a href="estado/rn.html" aria-label="Rio Grande do Norte">RN</a></li><li><a href="estado/ro.html" aria-label="Rondônia">RO</a></li><li><a href="estado/rr.html" aria-label="Roraima">RR</a></li><li><a href="estado/rs.html" aria-label="Rio Grande do Sul">RS</a></li><li><a href="estado/sc.html" aria-label="Santa Catarina">SC</a></li><li><a href="estado/se.html" aria-label="Sergipe">SE</a></li><li><a href="estado/sp.html" aria-label="São Paulo">SP</a></li><li><a href="estado/to.html" aria-label="Tocantins">TO</a></li></ul></nav>
-  <p class="cap-seguir"><a class="seguir" href="#painel">Ver no mapa e na lista</a> <a class="seguir" href="senadores.html">Os senadores de cada estado</a></p>
+      <small>Mostra os deputados mais votados nela, os senadores do estado e quanto cada um recebeu da cota.</small></form>
+  <nav aria-label="Deputados e senadores por estado"><ul class="ufs"><li><a href="estado/ac.html" aria-label="Acre">AC</a></li><li><a href="estado/al.html" aria-label="Alagoas">AL</a></li><li><a href="estado/am.html" aria-label="Amazonas">AM</a></li><li><a href="estado/ap.html" aria-label="Amapá">AP</a></li><li><a href="estado/ba.html" aria-label="Bahia">BA</a></li><li><a href="estado/ce.html" aria-label="Ceará">CE</a></li><li><a href="estado/df.html" aria-label="Distrito Federal">DF</a></li><li><a href="estado/es.html" aria-label="Espírito Santo">ES</a></li><li><a href="estado/go.html" aria-label="Goiás">GO</a></li><li><a href="estado/ma.html" aria-label="Maranhão">MA</a></li><li><a href="estado/mg.html" aria-label="Minas Gerais">MG</a></li><li><a href="estado/ms.html" aria-label="Mato Grosso do Sul">MS</a></li><li><a href="estado/mt.html" aria-label="Mato Grosso">MT</a></li><li><a href="estado/pa.html" aria-label="Pará">PA</a></li><li><a href="estado/pb.html" aria-label="Paraíba">PB</a></li><li><a href="estado/pe.html" aria-label="Pernambuco">PE</a></li><li><a href="estado/pi.html" aria-label="Piauí">PI</a></li><li><a href="estado/pr.html" aria-label="Paraná">PR</a></li><li><a href="estado/rj.html" aria-label="Rio de Janeiro">RJ</a></li><li><a href="estado/rn.html" aria-label="Rio Grande do Norte">RN</a></li><li><a href="estado/ro.html" aria-label="Rondônia">RO</a></li><li><a href="estado/rr.html" aria-label="Roraima">RR</a></li><li><a href="estado/rs.html" aria-label="Rio Grande do Sul">RS</a></li><li><a href="estado/sc.html" aria-label="Santa Catarina">SC</a></li><li><a href="estado/se.html" aria-label="Sergipe">SE</a></li><li><a href="estado/sp.html" aria-label="São Paulo">SP</a></li><li><a href="estado/to.html" aria-label="Tocantins">TO</a></li></ul></nav>
+  <p class="cap-seguir"><a class="seguir" href="#painel">Deputados no mapa e na lista</a> <a class="seguir" href="senadores.html">Lista dos senadores</a></p>
   <div class="cap-notas">
     <p class="aviso">A Câmara tem 513 cadeiras, mas 656 deputados tiveram despesas: 126
       suplentes assumiram cadeiras de titulares afastados e 10 só têm reembolsos do mandato anterior.
-      Hoje, 513 estão em exercício. A página de cada um diz se é titular ou suplente.
+      Hoje, 513 estão em exercício. O Senado tem 81 cadeiras e 102 senadores com despesas no período. A página de cada um diz se é titular ou suplente.
       <a href="metodologia.html#mandatos">Entenda</a></p>
   </div>
 </div></section>
@@ -89,11 +89,11 @@
   <h2 class="cap-titulo" id="cap-2"><span>Para onde foi</span> o dinheiro</h2>
   <article class="capitulo">
     <div class="capitulo-texto">
-      <h3>40% do dinheiro foi para divulgação da atividade parlamentar</h3>
-      <p>Foram R$ 348,8 mi de R$ 866,3 mi reembolsados desde fevereiro de 2023. Em seguida
+      <h3>Na Câmara, 40% do dinheiro foi para divulgação da atividade parlamentar</h3>
+      <p>Foram R$ 348,8 mi de R$ 866,3 mi reembolsados aos deputados desde fevereiro de 2023. Em seguida
         vêm locação ou fretamento de veículos automotores (R$ 157,1 mi) e
         manutenção de escritório de apoio à atividade parlamentar (R$ 121,0 mi).</p>
-      <a class="seguir" href="gastos.html">Todos os tipos de gasto</a>
+      <a class="seguir" href="gastos.html">Todos os tipos de gasto</a> <a class="seguir" href="senadores.html#em-que-foi-gasto">Os tipos de gasto no Senado</a>
     </div>
     <div class="capitulo-visual"><div class='composicao' aria-hidden='true'><span style='flex:0.4026;background:var(--serie-1)' title='Divulgação da atividade parlamentar: 40%'></span><span style='flex:0.1813;background:var(--serie-2)' title='Locação ou fretamento de veículos automotores: 18%'></span><span style='flex:0.1397;background:var(--serie-3)' title='Manutenção de escritório de apoio à atividade parlamentar: 14%'></span><span style='flex:0.1239;background:var(--serie-4)' title='Passagem aérea (emitida pela Câmara): 12%'></span><span style='flex:0.0959;background:var(--serie-5)' title='Combustíveis e lubrificantes: 10%'></span><span style='flex:0.0163;background:var(--serie-6)' title='Hospedagem, exceto do parlamentar no Distrito Federal: 2%'></span><span style='flex:0.0403;background:var(--serie-outros)' title='Outros tipos: 4%'></span></div><ul class='fatias'><li style='--cor:var(--serie-1)'><span class='amostra'></span><span class='fatia-nome'><a href='gastos/divulgacao-da-atividade-parlamentar.html'>Divulgação da atividade parlamentar</a></span><span class='fatia-pct num'>40%</span><span class='fatia-valor num'>R$ 348,8 mi</span></li><li style='--cor:var(--serie-2)'><span class='amostra'></span><span class='fatia-nome'><a href='gastos/veiculos.html'>Locação ou fretamento de veículos automotores</a></span><span class='fatia-pct num'>18%</span><span class='fatia-valor num'>R$ 157,1 mi</span></li><li style='--cor:var(--serie-3)'><span class='amostra'></span><span class='fatia-nome'><a href='gastos/manutencao-de-escritorio-de-apoio-a-atividade-parlamentar.html'>Manutenção de escritório de apoio à atividade parlamentar</a></span><span class='fatia-pct num'>14%</span><span class='fatia-valor num'>R$ 121,0 mi</span></li><li style='--cor:var(--serie-4)'><span class='amostra'></span><span class='fatia-nome'><a href='gastos/passagem-aerea-emitida-pela-camara.html'>Passagem aérea (emitida pela Câmara)</a></span><span class='fatia-pct num'>12%</span><span class='fatia-valor num'>R$ 107,3 mi</span></li><li style='--cor:var(--serie-5)'><span class='amostra'></span><span class='fatia-nome'><a href='gastos/combustiveis-e-lubrificantes.html'>Combustíveis e lubrificantes</a></span><span class='fatia-pct num'>10%</span><span class='fatia-valor num'>R$ 83,1 mi</span></li><li style='--cor:var(--serie-6)'><span class='amostra'></span><span class='fatia-nome'><a href='gastos/hospedagem-exceto-do-parlamentar-no-distrito-federal.html'>Hospedagem, exceto do parlamentar no Distrito Federal</a></span><span class='fatia-pct num'>2%</span><span class='fatia-valor num'>R$ 14,1 mi</span></li><li style='--cor:var(--serie-outros)'><span class='amostra'></span><span class='fatia-nome'><a href='gastos.html#todos-os-tipos'>Outros tipos</a></span><span class='fatia-pct num'>4%</span><span class='fatia-valor num'>R$ 35,0 mi</span></li></ul></div>
   </article>
@@ -114,7 +114,7 @@
 
 <section class="cap cap-fundo" id="explorar" aria-labelledby="cap-4"><div class="cont">
   <h2 class="cap-titulo" id="cap-4"><span>Deputado</span> por deputado</h2>
-  <p class="cap-entrada">Escolha um estado no mapa, um partido ou um período. A lista começa em ordem alfabética.</p>
+  <p class="cap-entrada">Escolha um estado no mapa, um partido ou um período. A lista começa em ordem alfabética. Os senadores têm lista própria: <a href="senadores.html">senador por senador</a>.</p>
   <div class="barra-periodo cartao" id="painel">
     <label for="periodo">Período</label>
     <select id="periodo"></select>
@@ -171,7 +171,7 @@
 <section class="cap cap-verde cap-fecho" aria-labelledby="cap-5"><div class="cont">
   <h2 class="cap-titulo" id="cap-5"><span>Cada número</span> leva à nota</h2>
   <ol class="etapas">
-    <li class="cartao etapa"><h3>Coleta</h3><p>Todo mês baixamos as despesas que a Câmara publica, com o link de cada nota.</p></li>
+    <li class="cartao etapa"><h3>Coleta</h3><p>Baixamos as despesas que a Câmara e o Senado publicam, com o link de cada nota.</p></li>
 
     <li class="cartao etapa"><h3>Leitura</h3><p>Lemos as notas e ligamos cada fornecedor ao cadastro da Receita Federal.</p></li>
     <li class="cartao etapa"><h3>Soma</h3><p>Somamos por deputado, por tipo de gasto e por mês, com o limite da cota de cada estado.</p></li>
@@ -198,6 +198,6 @@
   </div>
   <p class="rodape-base">Dados atualizados em 11/11/2026 · <a href="metodologia.html">Como funciona</a> · <a href="metodologia.html#glossario">Glossário</a> · <a href="acessibilidade.html">Acessibilidade</a> · <a href="sobre.html">Sobre</a></p>
 </div></footer>
-<script src="assets/app.js?v=84837ea8" defer></script>
+<script src="assets/app.js?v=3da70311" defer></script>
 </body>
 </html>

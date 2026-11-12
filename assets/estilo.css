@@ -336,6 +336,9 @@ main.largo { padding-bottom: 0; }
 .cap-fundo { background: var(--fundo); }
 .cap-titulo { margin: 0 0 14px; text-align: center; font: 800 clamp(46px, 5.3vw, 76px)/.94 var(--display); letter-spacing: .012em; }
 .cap-titulo span { display: block; font-weight: 600; font-size: .6em; line-height: 1.1; letter-spacing: .05em; color: var(--tinta-3); }
+/* "deputado ou senador": o "ou" sai leve, como a primeira linha, entre os dois nomes pesados */
+.cap-titulo i { font-style: normal; font-weight: 600; font-size: .6em; letter-spacing: .05em; color: var(--tinta-3); }
+.cap-verde .cap-titulo i { color: var(--topo-tinta-2); }
 .cap-entrada { margin: 0 auto 28px; max-width: 34em; text-align: center; -webkit-hyphens: manual; hyphens: manual; text-wrap: pretty;
   font: 400 clamp(19px, 1.5vw, 21px)/1.5 var(--leitura); color: var(--tinta-2); }
 .cap-entrada b { font-weight: 600; color: var(--tinta); }
@@ -1811,6 +1814,7 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
 .gab-forn > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 6px 16px; flex-wrap: wrap;
   min-height: 48px; padding: 14px 56px 14px 24px; position: relative; transition: background .2s; }
 .gab-forn > summary::-webkit-details-marker { display: none; }
+.gab-forn-fixo { display: flex; align-items: center; gap: 6px 16px; flex-wrap: wrap; padding: 14px 24px; }
 .gab-forn > summary::after { content: ""; position: absolute; right: 24px; top: 50%; width: 9px; height: 9px; margin-top: -7px;
   border: solid var(--verde); border-width: 0 2px 2px 0; transform: rotate(45deg); transition: transform .2s var(--suave); }
 .gab-forn[open] > summary::after { transform: rotate(-135deg); margin-top: -2px; }

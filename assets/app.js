@@ -17,6 +17,20 @@ const VERSAO = document.body.dataset.versao || "";
 // a chave dos alertas (PUBLICAR_ALERTAS, no gerador): com data-alertas="0" no <body>, o site sai sem nada de alerta, e
 // os arquivos de alerta (alertas-meta.json, alertas-N.json, regras.json) nem existem. Sem o atributo, ligados
 const ALERTAS = document.body.dataset.alertas !== "0";
+// a página da empresa: a fixa (fornecedor/<CNPJ>.html) para quem tem; para os outros CNPJs, a página única
+// (empresa.html#cnpj=), quando o site foi gerado com os dados de todas (data-empresas no body). CPF nunca tem página
+const EMPRESAS = document.body.dataset.empresas === "1";
+// só CNPJ de verdade (dígitos verificadores certos): zeros declarados no lugar do documento de uma pessoa não têm página
+const cnpjValido = c => {
+  if (!/^\d{14}$/.test(c) || /^(\d)\1{13}$/.test(c)) return false;
+  const dv = (base, pesos) => { const r = [...base].reduce((s, n, i) => s + n * pesos[i], 0) % 11; return r < 2 ? 0 : 11 - r; };
+  const pesos = [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2];
+  const d1 = dv(c.slice(0, 12), pesos);
+  return c.slice(12) === `${d1}${dv(c.slice(0, 12) + d1, [6, ...pesos])}`;
+};
+const enderecoEmpresa = (digitos, fixa) => fixa ? `${RAIZ}fornecedor/${digitos}.html`
+  : EMPRESAS && cnpjValido(digitos) ? `${RAIZ}empresa.html#cnpj=${digitos}` : null;
+const linkEmpresa = (digitos, fixa) => { const u = enderecoEmpresa(digitos, fixa); return u ? `<a href="${u}">página do fornecedor</a> · ` : ""; };
 // a chave da equipe dos gabinetes (PUBLICAR_EQUIPE, no gerador): com data-equipe="0", o perfil sai sem a tabela da
 // equipe e sem a chave 'e' nos dados, e a busca não tem funcionários (sem alertas, o índice de pessoas nem existe)
 const EQUIPE = document.body.dataset.equipe !== "0";
@@ -542,7 +556,7 @@ async function iniciarPostos() {
     try { det = (await detalhes(p[3]))[p[1]]; } catch { det = null; }
     if (!det) { caixa.innerHTML = `<p class="forn-meta">Não foi possível carregar este posto.</p>`; delete d.dataset.feito; return; }
     const [gabinetes, porAno, porMes] = det;
-    const forn = ALERTAS && p[6] ? `<a href="${RAIZ}fornecedor/${p[1]}.html">página do fornecedor</a> · ` : "";
+    const forn = linkEmpresa(p[1], p[6]);
     const anos = porAno.map(([a, v]) => `<tr><td>${a}</td><td class="n">${reais(v)}</td></tr>`).join("");
     const meses = porMes.slice().reverse().map(([m, v]) => `<tr><td>${nomeMes(m)}</td><td class="n">${reais(v)}</td></tr>`).join("");
     caixa.innerHTML = `<p class="forn-meta">${forn}<span class="mono">${esc(cnpj(p[1]))}</span></p>
@@ -611,8 +625,7 @@ async function iniciarFornecedores() {
     lista.innerHTML = achados.slice(0, limite).map(({ f, total, notas, maior }) => `<li><details class="forn">
       <summary><span class="forn-l1"><span class="forn-nome">${esc(f[0])}</span></span>
       <span class="forn-meta">${f[2] ? `${esc(f[2])} · ` : ""}${plural(notas, "nota", "notas")} · maior nota ${brl2(maior)} ·
-      <b>${brl2(total)}</b></span></summary><div class="rest-gab"><p class="forn-meta">${ALERTAS && f[3]
-        ? `<a href="${RAIZ}fornecedor/${f.digitos}.html">página do fornecedor</a> · ` : ""}<span class="mono">${esc(f[1])}</span></p></div>
+      <b>${brl2(total)}</b></span></summary><div class="rest-gab"><p class="forn-meta">${linkEmpresa(f.digitos, f[3])}<span class="mono">${esc(f[1])}</span></p></div>
       </details></li>`).join("") || `<li class="lt-vazio">Nenhum fornecedor com esses filtros.</li>`;
     mais.hidden = achados.length <= limite;
   }
@@ -668,7 +681,7 @@ async function iniciarRestaurantes() {
     if (!(d instanceof HTMLDetailsElement) || !d.open || d.dataset.feito || d.dataset.i === undefined) return;
     d.dataset.feito = "1";
     const r = dados.r[+d.dataset.i];
-    const forn = ALERTAS && r[5] ? `<a href="${RAIZ}fornecedor/${r[1].replace(/\D/g, "")}.html">página do fornecedor</a> · ` : "";
+    const forn = linkEmpresa(r[1].replace(/\D/g, ""), r[5]);
     d.querySelector(".rest-gab").innerHTML = `<p class="forn-meta">${forn}<span class="mono">${esc(r[1])}</span></p>
       <table><tr><th>Deputado(a)</th><th class="n">Notas</th><th class="n">Total</th></tr>${r[6].map(([pid, n, t]) => {
         const [nome, partido, uf] = dados.d[pid];
@@ -1907,8 +1920,12 @@ async function iniciarComparar() {
 // ------------------------------------------------------------------ o voto da sua cidade (votos por município)
 // municipios.json: {ano, m: [[uf, nome, código TSE]]}; votos/<uf>.json: {código: [votos nominais do cargo, [[id, votos]]]},
 // baixado só quando a pessoa escolhe a cidade. A cidade vem de ?c= (formulário da página inicial) ou de #m=<código>.
+// Com dados do Senado (a seção #m-senado existe), a cidade mostra também os senadores em exercício do estado dela,
+// de dados/senadores.json ({c: código, n: nome, p: partido, uf, x: em exercício, t: total, f: foto, s: suplência});
+// se o arquivo falhar, a página segue só com os deputados.
 async function iniciarCidade() {
-  const [indice, deputados] = await Promise.all([json("dados/municipios.json"), json("dados/deputados.json")]);
+  const [indice, deputados, senadores] = await Promise.all([json("dados/municipios.json"), json("dados/deputados.json"),
+    $("#m-senado") ? json("dados/senadores.json").catch(() => []) : []]);
   const porId = Object.fromEntries(deputados.map(d => [d.id, d]));
   const cidades = indice.m.map(([uf, nome, cod]) => ({ uf, nome, cod, b: normalizar(`${nome} ${uf}`) }));
   const busca = $("#m-busca"), lista = $("#m-sugestoes");
@@ -1953,6 +1970,16 @@ async function iniciarCidade() {
         <span class="direita"><span class="total">${brl(d.t)}</span>${pills(a)}</span></a></li>`;
     }).join("") || `<li class="vazio">Sem votos registrados para os deputados desta legislatura.</li>`;
     $("#m-resultado").hidden = false;
+    const doEstado = senadores.filter(s => s.uf === cidade.uf && s.x);
+    if ($("#m-senado")) {
+      $("#m-senado").hidden = !doEstado.length;
+      $("#m-sen-titulo").textContent = `Senadores ${ARTIGO_UF[cidade.uf] ? `d${ARTIGO_UF[cidade.uf]}` : "de"} ${NOMES_UF[cidade.uf]}`;
+      $("#m-sen-todos").href = `senadores.html#uf=${cidade.uf}`;
+      $("#m-sen-lista").innerHTML = doEstado.map(s => `<li><a class="linha" href="senador/${s.c}.html">
+        <img class="foto" src="${esc(s.f)}" alt="" loading="lazy" decoding="async" width="42" height="56" ${SEM_FOTO}>
+        <span><span class="nome">${esc(s.n)}</span><br><span class="meta">${esc([s.p, s.uf, s.s].filter(Boolean).join(" · "))}</span></span>
+        <span class="direita"><span class="total">${brl(s.t)}</span></span></a></li>`).join("");
+    }
     $("#m-resumo").textContent = `Mostrando ${cidade.nome} (${cidade.uf}).`;
     if (rolar) $("#m-resultado").scrollIntoView({ behavior: SEM_MOVIMENTO ? "auto" : "smooth", block: "start" });
   }
@@ -2033,12 +2060,38 @@ document.querySelectorAll(".abas").forEach(faixa => {
   const a = ativa.getBoundingClientRect(), f = faixa.getBoundingClientRect();
   faixa.scrollLeft += a.left - f.left - (f.width - a.width) / 2;
 });
-// página de fornecedor: cada gabinete em "Gabinetes que pagaram" abre a lista das notas daquele deputado com este
-// fornecedor. As notas vêm de dados/dep/<id>.json (o arquivo do perfil), filtradas pelo CNPJ formatado
+// página de fornecedor: cada gabinete em "Deputados que pagaram" e "Senadores que pagaram" abre a lista das notas
+// daquele gabinete com este fornecedor. As notas vêm de dados/dep/<id>.json (o arquivo do perfil do deputado) ou de
+// dados/sen/<código>.json (o da página do senador), filtradas pelo CNPJ formatado
 function iniciarFornecedor() {
-  const caixa = $(".gabinetes-forn");
-  if (!caixa) return;
-  const docf = caixa.dataset.doc, POR_VEZ = 100;
+  const caixas = [...document.querySelectorAll(".gabinetes-forn")];
+  if (!caixas.length) return;
+  const docf = caixas[0].dataset.doc, POR_VEZ = 100;
+  // as notas de um senador: [ano, data, tipo, fornecedor, número do documento, valor, número do PDF ou null]
+  async function abrirSenador(det) {
+    const alvo = $(".gf-notas", det);
+    try {
+      const sen = await json(`dados/sen/${det.dataset.sen}.json`);
+      const linhas = sen.d.filter(n => sen.f[n[3]] && sen.f[n[3]][1] === docf);
+      if (!linhas.length) { alvo.innerHTML = `<p class="cat">Nenhuma nota deste gabinete com este fornecedor nos meses publicados.</p>`; return; }
+      let limite = POR_VEZ;
+      const desenhar = () => {
+        const corpo = linhas.slice(0, limite).map(n => `<tr><td><span class="mono">${esc(n[1] || String(n[0]))}</span><br><span class="cat">nº <span class="mono">${esc(n[4] || "s/n")}</span>
+            · ${esc(sen.c[n[2]] || "")}</span></td><td class="n">${brl2(n[5])}</td>
+            <td>${n[6] == null ? "—" : `<a href="${esc(sen.u + n[6])}" target="_blank" rel="noopener">ver nota<span class="vh"> (abre o site do Senado)</span></a>`}</td></tr>`).join("");
+        const resto = linhas.length - limite;
+        alvo.innerHTML = `<div class="rolagem tabela-alta"><table class="gf-tabela"><tr><th>Data</th><th class="n">Valor</th><th>Nota</th></tr>${corpo}</table></div>`
+          + (resto > 0 ? `<button type="button" class="mais">Mostrar mais ${Math.min(resto, POR_VEZ)} de ${resto.toLocaleString("pt-BR")}</button>` : "");
+        const mais = $(".mais", alvo);
+        if (mais) mais.addEventListener("click", () => { limite += POR_VEZ; desenhar(); });
+      };
+      desenhar();
+    } catch (erro) {
+      console.error(erro);
+      det.dataset.carregado = "";
+      alvo.innerHTML = `<p class="cat">Não foi possível abrir as notas agora. Elas também estão na página do senador.</p>`;
+    }
+  }
   let resumo = null;
   const linkNota = (pid, meses, r) => {
     const ano = r[8] || Math.floor(meses[r[0]] / 100);
@@ -2077,13 +2130,94 @@ function iniciarFornecedor() {
       alvo.innerHTML = `<p class="cat">Não foi possível abrir as notas agora. Elas também estão no perfil do deputado.</p>`;
     }
   }
-  caixa.querySelectorAll(".gab-forn").forEach(det => det.addEventListener("toggle", () => {
-    if (det.open && !det.dataset.carregado) { det.dataset.carregado = "1"; abrir(det); }
+  document.querySelectorAll("details.gab-forn").forEach(det => det.addEventListener("toggle", () => {
+    if (det.open && !det.dataset.carregado) { det.dataset.carregado = "1"; det.dataset.sen ? abrirSenador(det) : abrir(det); }
   }));
 }
-// a página de alertas e a de fornecedor só existem com os alertas ligados
+// A página única da empresa (empresa.html#cnpj=<CNPJ>): monta, para qualquer CNPJ com dados, o mesmo desenho da
+// página fixa (cidadania/site/__init__.py, _fornecedor): o que mudar lá muda aqui. Os dados vêm de
+// dados/empresas/<três primeiros dígitos>.json: {t: [tipos de gasto], e: {CNPJ: [nome, município, UF, abertura,
+// atividade, deputados [[id, notas, valor, primeira nota, nome se não tem perfil]], senadores [[código, notas, valor,
+// primeira nota]], por ano [[ano, valor]], por tipo [[índice em t, valor]], sócios [[nome, qualificação, entrada]]]}}
+async function iniciarEmpresa() {
+  const alvo = $("#empresa");
+  if (!alvo) return;
+  const aviso = texto => {
+    alvo.innerHTML = `<section class="abertura"><h1>Empresa</h1><p class="lead">${texto}</p>
+      <p><a class="seguir" href="gastos/fornecedores.html">Ver todos os fornecedores</a></p></section>`;
+  };
+  const digitos = (new URLSearchParams(location.hash.slice(1)).get("cnpj") || "").replace(/\D/g, "");
+  addEventListener("hashchange", () => location.reload());
+  if (digitos.length !== 14) return aviso("Escolha uma empresa na lista de fornecedores ou na página de um estado.");
+  let parte, deputados, senadores;
+  try {
+    [parte, deputados, senadores] = await Promise.all([json(`dados/empresas/${digitos.slice(0, 3)}.json`),
+      json("dados/deputados.json"), json("dados/senadores.json").catch(() => [])]);
+  } catch (erro) {
+    console.error(erro);
+    return aviso("Não foi possível carregar os dados agora. Tente de novo em instantes.");
+  }
+  const emp = parte.e[digitos];
+  if (!emp) return aviso("Nenhuma despesa da cota parlamentar com este CNPJ desde fevereiro de 2023.");
+  const [nome, municipio, uf, abertura, atividade, deps, sens, anual, tipos, socios] = emp;
+  const docf = digitos.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})$/, "$1.$2.$3/$4-$5");
+  const dataBR = s => s && s.length >= 10 ? `${s.slice(8, 10)}/${s.slice(5, 7)}/${s.slice(0, 4)}` : "—";
+  const depPorId = Object.fromEntries(deputados.map(d => [d.id, d])), senPorCod = Object.fromEntries(senadores.map(s => [s.c, s]));
+  const totalCamara = deps.reduce((s, d) => s + d[2], 0), totalSenado = sens.reduce((s, d) => s + d[2], 0), total = totalCamara + totalSenado;
+  const sede = municipio ? `${municipio}/${uf || "—"}` : "";
+  const quem = [deps.length ? `${deps.length} deputado${deps.length === 1 ? "" : "s"}` : "",
+    sens.length ? `${sens.length} senador${sens.length === 1 ? "" : "es"}` : ""].filter(Boolean).join(" e ") || "nenhum gabinete";
+  const kpis = [`<div class="cartao kpi"><b>${brl(total)}</b><span>recebidos da cota desde fev/2023</span></div>`];
+  if (deps.length || !sens.length) kpis.push(`<div class="cartao kpi"><b>${deps.length}</b><span>${deps.length === 1 ? "deputado que pagou" : "deputados que pagaram"}${sens.length && deps.length ? ` · ${brlCurto(totalCamara)}` : ""}</span></div>`);
+  if (sens.length) kpis.push(`<div class="cartao kpi"><b>${sens.length}</b><span>${sens.length === 1 ? "senador que pagou" : "senadores que pagaram"}${deps.length ? ` · ${brlCurto(totalSenado)}` : ""}</span></div>`);
+  const barras = itens => {
+    const maximo = Math.max(0, ...itens.map(i => i[1])) || 1;
+    return itens.map(([rotulo, v]) => `<div class="barra"><span>${esc(String(rotulo))}</span><span class="trilho"><span style="width:${(100 * Math.max(v, 0) / maximo).toFixed(1)}%"></span></span><span class="valor">${brlCurto(v)}</span></div>`).join("");
+  };
+  const graficos = anual.length ? `<div class="duas secao">
+    <section class="cartao"><h3>Ano a ano</h3><div class="barras">${barras(anual)}</div></section>
+    <section class="cartao"><h3>Em que foi gasto</h3><div class="barras">${barras(tipos.map(([i, v]) => [parte.t[i], v]))}</div></section></div>` : "";
+  const cadastro = [["CNPJ", docf], ["Constituída em", dataBR(abertura)], ["Atividade principal", atividade || "—"], ["Sede", sede || "—"]];
+  const listaSocios = socios.map(([n, q, entrada]) => `<li>${esc(n)} <span class="cat">— ${esc(q)}${entrada ? `, desde ${dataBR(entrada)}` : ""}</span></li>`).join("");
+  const numeros = (n, v, primeira) => `<span class="gf-num"><b>${brl2(v)}</b><small>${n.toLocaleString("pt-BR")} nota${n > 1 ? "s" : ""}${primeira ? ` · desde ${dataBR(primeira)}` : ""}</small></span>`;
+  const gabDep = ([id, n, v, primeira, semPerfil]) => {
+    const d = depPorId[id];
+    if (!d) return `<div class="gab-forn gab-forn-fixo"><span class="gf-nome">${esc(semPerfil || `Deputado ${id}`)}</span>${numeros(n, v, primeira)}</div>`;
+    return `<details class="gab-forn" data-pid="${id}"><summary><span class="gf-nome">${esc(d.n)} <span class="cat">${esc(d.p)}/${esc(d.uf)}</span></span>${numeros(n, v, primeira)}</summary>
+      <div class="gf-corpo"><div class="gf-notas" aria-live="polite"><p class="cat">Abrindo as notas…</p></div>
+      <p class="cat"><a href="deputado/${id}.html">Ver o perfil de ${esc(d.n)}</a></p></div></details>`;
+  };
+  const gabSen = ([cod, n, v, primeira]) => {
+    const s = senPorCod[cod];
+    if (!s) return `<div class="gab-forn gab-forn-fixo"><span class="gf-nome">Senador ${cod}</span>${numeros(n, v, primeira)}</div>`;
+    return `<details class="gab-forn" data-sen="${cod}"><summary><span class="gf-nome">${esc(s.n)} <span class="cat">${esc([s.p, s.uf].filter(Boolean).join("/"))}</span></span>${numeros(n, v, primeira)}</summary>
+      <div class="gf-corpo"><div class="gf-notas" aria-live="polite"><p class="cat">Abrindo as notas…</p></div>
+      <p class="cat"><a href="senador/${cod}.html">Ver a página de ${esc(s.n)}</a></p></div></details>`;
+  };
+  const secao = (id, titulo, sub, linhas) => linhas.length ? `<section class="secao" id="${id}">
+    <header><div><h2>${titulo}</h2><p>${sub}</p></div><span class="rotulo">toque num gabinete para ver as notas</span></header>
+    <div class="cartao gabinetes-forn" data-doc="${docf}">${linhas.join("")}</div></section>` : "";
+  alvo.innerHTML = `<section class="abertura"><h1>${esc(nome || docf)}</h1>
+    <p class="identidade">${docf}${sede ? ` · ${esc(sede)}` : ""}</p>
+    <p class="lead">Recebeu <b>${brlCurto(total)}</b> da cota parlamentar desde fevereiro de 2023, de ${quem}.
+      Abaixo, o total por ano, por tipo de gasto e por gabinete, com as notas.</p></section>
+    <div class="kpis">${kpis.join("")}</div>${graficos}
+    <div class="duas secao">
+      <section class="cartao"><h3>Cadastro na Receita Federal</h3><div class="rolagem"><table class="ficha-tabela">
+        ${cadastro.map(([k, v]) => `<tr><th>${k}</th><td>${esc(v)}</td></tr>`).join("")}</table></div></section>
+      <section class="cartao"><h3>Sócios e administradores</h3><ul class="socios">${listaSocios || "<li>Não informado pela Receita.</li>"}</ul></section>
+    </div>
+    ${secao("deputados", "Deputados que pagaram", `${brl(totalCamara)} da cota da Câmara. O valor é o reembolsado ao gabinete.`, deps.map(gabDep))}
+    ${secao("senadores", "Senadores que pagaram", `${brl(totalSenado)} da cota do Senado, que informa só o valor reembolsado.`, sens.map(gabSen))}`;
+  if (nome) {
+    $("#emp-trilha").textContent = nome;
+    document.title = `${nome} (${docf}) · fornecedor · De Olho na Cota`;
+  }
+  iniciarFornecedor();
+}
+// a página de alertas só existe com os alertas ligados; a de fornecedor e a da empresa existem nos dois sites
 ({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: ALERTAS ? iniciarAlertas : undefined, ranking: iniciarRanking, gastos: iniciarGastos,
-  comparar: iniciarComparar, cidade: iniciarCidade, fornecedor: ALERTAS ? iniciarFornecedor : undefined,
+  comparar: iniciarComparar, cidade: iniciarCidade, fornecedor: iniciarFornecedor, empresa: iniciarEmpresa,
   // o ano de cada gabinete vem do retrospectiva.js, que só essa página carrega
   retrospectiva: () => Retro.iniciar(),
   // as duas do Senado vêm do senado.js, que só essas páginas carregam

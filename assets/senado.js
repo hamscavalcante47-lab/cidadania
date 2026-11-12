@@ -63,6 +63,9 @@ function iniciarLista() {
     $("#sen-resumo").textContent = n ? `${n} senador${n > 1 ? "es" : ""} · ${brlCurto(total)} desde fevereiro de 2023` : "Nenhum senador com esses filtros";
   }
   [busca, uf, situacao, ordem].forEach(c => c.addEventListener(c === busca ? "input" : "change", aplicar));
+  // senadores.html#uf=SP (o link da página do estado e de O voto da sua cidade) já abre a lista no estado
+  const pedida = new URLSearchParams(location.hash.slice(1)).get("uf");
+  if (pedida && [...uf.options].some(o => o.value === pedida.toUpperCase())) uf.value = pedida.toUpperCase();
   aplicar();
 }
 
