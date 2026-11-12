@@ -282,8 +282,9 @@ main.largo { padding-bottom: 0; }
   color: var(--numero); white-space: nowrap; text-box: trim-both cap alphabetic; }
 @supports not (text-box: trim-both cap alphabetic) { .cartaz-numero { margin-bottom: -.12em; } }
 /* o número em bilhões ("1,05") tem vírgula, e a cauda dela desce abaixo da linha de base: com o número pousado no
-   horizonte ela caía no chão claro e sumia. O número sobe o tanto da cauda, e o verde continua debaixo dela */
-.cartaz-numero.com-virgula { transform: translateY(-.2em); }
+   horizonte ela caía no chão claro e sumia. O número sobe só o tanto da cauda (.14em nesta letra): a ponta da vírgula
+   pousa no horizonte e os algarismos ficam o mais perto do chão que dá */
+.cartaz-numero.com-virgula { transform: translateY(-.14em); }
 .cartaz-margem { position: absolute; right: 18px; top: 56px; margin: 0; text-align: right; -webkit-hyphens: manual; hyphens: manual;
   font: 600 12px/1.45 var(--texto); letter-spacing: .09em; text-transform: uppercase; color: var(--topo-tinta-2); }
 .cartaz-margem span { display: block; }
@@ -566,6 +567,9 @@ main.largo { padding-bottom: 0; }
 .pill.g3 { background: var(--alta-bg); color: var(--alta); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--alta) 18%, transparent); }
 .pill.g2 { background: var(--media-bg); color: var(--media); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--media) 18%, transparent); }
 .pill.g1 { background: var(--baixa-bg); color: var(--baixa); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--baixa) 14%, transparent); }
+/* a caixa dos senadores na página inicial ocupa a largura toda: com espaço, as linhas vão em duas colunas */
+@media (min-width: 981px) { .lista-larga .linhas { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 8px; }
+  .lista-larga .linhas .vazio { grid-column: 1 / -1; } }
 .mais { display: flex; align-items: center; justify-content: center; gap: 6px; width: calc(100% - 32px); margin: 4px 16px 16px; border: 1px dashed var(--linha-forte);
   background: var(--papel-2); padding: 13px; font: 600 15px var(--texto); color: var(--verde); cursor: pointer; border-radius: var(--raio-m);
   transition: background .2s, border-color .2s, color .2s; }
@@ -1131,6 +1135,8 @@ p, .prosa li { text-align: justify; }
 .rodape .marca { color: var(--rodape-claro); font-size: 22px; }
 .rodape .marca svg path:last-child { stroke: var(--rodape-fundo); }
 .rodape-grade { display: grid; grid-template-columns: 1.6fr 1fr 1.2fr 1.1fr 1.3fr; gap: 40px; }
+/* sem a coluna Imprensa (site sem a parte da imprensa e sem alertas): quatro colunas */
+.rodape-grade.sem-imprensa { grid-template-columns: 1.6fr 1fr 1.2fr 1.3fr; }
 .rodape h2 { font: 600 15.5px/1.2 var(--texto); letter-spacing: 0; text-transform: none; color: var(--latao-claro); margin: 4px 0 12px; }
 .rodape ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
 .rodape ul a { text-decoration: none; display: inline-block; padding: 4px 0; }
@@ -1513,6 +1519,7 @@ html:has(dialog.ficha-indicio[open]) { overflow: hidden; scrollbar-gutter: stabl
 /* ---------------------------------------------------------------- responsivo */
 @media (max-width: 1080px) {
   .rodape-grade { grid-template-columns: repeat(4, 1fr); }
+  .rodape-grade.sem-imprensa { grid-template-columns: repeat(3, 1fr); }
   .rodape-sobre { grid-column: 1 / -1; }
 }
 @media (max-width: 980px) {

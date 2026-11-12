@@ -1157,8 +1157,46 @@ function iniciarSuaCidade() {
   document.addEventListener("click", ev => { if (!ev.target.closest(".sua-cidade")) fechar(); });
 }
 
+// A caixa "Senador por senador" da página inicial, nos moldes da dos deputados: 40 de cada vez e "Mostrar mais". Lê
+// dados/senadores.json ({c: código, n: nome, p: partido, uf, x: em exercício, t: total, f: foto, s: suplência}), que já
+// vem em ordem alfabética. O arquivo traz só o total desde fevereiro de 2023: o filtro de período é só da Câmara.
+async function iniciarSenadoresDoInicio() {
+  const alvo = $("#ls-linhas");
+  if (!alvo) return;
+  const POR_VEZ = 40;
+  const senadores = (await json("dados/senadores.json").catch(() => [])).map((s, i) => ({ ...s, i, b: normalizar(s.n) }));
+  const busca = $("#ls-busca"), uf = $("#ls-uf"), ordem = $("#ls-ordem"), situacao = $("#ls-situacao"), mais = $("#ls-mais");
+  let limite = POR_VEZ;
+  uf.insertAdjacentHTML("beforeend", [...new Set(senadores.map(s => s.uf).filter(Boolean))].sort()
+    .map(u => `<option value="${esc(u)}">${esc(NOMES_UF[u] || u)}</option>`).join(""));
+  function desenhar() {
+    const termos = normalizar(busca.value.trim()).split(/\s+/).filter(Boolean);
+    const lista = senadores.filter(s => (!uf.value || s.uf === uf.value) && (situacao.value === "todos" || s.x) && termos.every(t => s.b.includes(t)));
+    lista.sort(ordem.value === "gasto" ? (a, b) => b.t - a.t || a.i - b.i : (a, b) => a.i - b.i);
+    $("#ls-titulo").textContent = uf.value ? NOMES_UF[uf.value] || uf.value : "Brasil";
+    $("#ls-resumo").textContent = lista.length
+      ? `${lista.length} senador${lista.length > 1 ? "es" : ""} · ${brlCurto(lista.reduce((s, x) => s + x.t, 0))} desde fevereiro de 2023`
+      : "Nenhum senador com esses filtros";
+    alvo.innerHTML = lista.slice(0, limite).map(s => `
+      <li><a class="linha" href="senador/${s.c}.html">
+        <img class="foto" src="${esc(s.f)}" alt="" loading="lazy" decoding="async" width="42" height="56" ${SEM_FOTO}>
+        <span><span class="nome">${esc(s.n)}</span><br><span class="meta">${esc([s.p, s.uf, s.s].filter(Boolean).join(" · "))}${s.x ? "" : " · fora do exercício"}</span></span>
+        <span class="direita"><span class="total">${brl(s.t)}</span></span>
+      </a></li>`).join("") || `<li class="vazio">Nenhum senador encontrado. Escolha “Todos com despesas” ou limpe a busca.</li>`;
+    const resto = lista.length - limite;
+    mais.hidden = resto <= 0;
+    mais.textContent = `Mostrar mais ${Math.min(POR_VEZ, resto)} de ${resto} restantes`;
+  }
+  const refazer = () => { limite = POR_VEZ; desenhar(); };
+  busca.addEventListener("input", refazer);
+  [uf, ordem, situacao].forEach(c => c.addEventListener("change", refazer));
+  mais.addEventListener("click", () => { limite += POR_VEZ; desenhar(); });
+  desenhar();
+}
+
 async function iniciarInicio() {
   iniciarSuaCidade();
+  iniciarSenadoresDoInicio().catch(erro => console.error(erro));
   const [deputados, resumo, svg] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json"), carregarMapa($("#mapa-area"))]);
   const estado = { uf: null, partidos: new Set(), busca: "", ordem: "nome", situacao: "exercicio", metrica: "gasto", limite: 40, periodo: "" };
   const h = new URLSearchParams(location.hash.slice(1));

@@ -22,9 +22,9 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="assets/estilo.css?v=0a82fb22">
+<link rel="stylesheet" href="assets/estilo.css?v=9c07ae69">
 </head>
-<body data-pagina="inicio" data-raiz="" data-versao="2efa298cd3" data-alertas="0" data-equipe="0" data-empresas="1">
+<body data-pagina="inicio" data-raiz="" data-versao="00b05dfcd2" data-alertas="0" data-equipe="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo"><div class="cont">
   <a class="marca" href="index.html"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0b3b2d"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>De Olho na Cota<small>deputados e senadores, nota por nota</small></span></a>
@@ -75,7 +75,7 @@
       <ul class="resultados" id="sua-cidade-lista" role="listbox" hidden></ul></span>
       <small>Mostra os deputados mais votados nela, os senadores do estado e quanto cada um recebeu da cota.</small></form>
   <nav aria-label="Deputados e senadores por estado"><ul class="ufs"><li><a href="estado/ac.html" aria-label="Acre">AC</a></li><li><a href="estado/al.html" aria-label="Alagoas">AL</a></li><li><a href="estado/am.html" aria-label="Amazonas">AM</a></li><li><a href="estado/ap.html" aria-label="Amapá">AP</a></li><li><a href="estado/ba.html" aria-label="Bahia">BA</a></li><li><a href="estado/ce.html" aria-label="Ceará">CE</a></li><li><a href="estado/df.html" aria-label="Distrito Federal">DF</a></li><li><a href="estado/es.html" aria-label="Espírito Santo">ES</a></li><li><a href="estado/go.html" aria-label="Goiás">GO</a></li><li><a href="estado/ma.html" aria-label="Maranhão">MA</a></li><li><a href="estado/mg.html" aria-label="Minas Gerais">MG</a></li><li><a href="estado/ms.html" aria-label="Mato Grosso do Sul">MS</a></li><li><a href="estado/mt.html" aria-label="Mato Grosso">MT</a></li><li><a href="estado/pa.html" aria-label="Pará">PA</a></li><li><a href="estado/pb.html" aria-label="Paraíba">PB</a></li><li><a href="estado/pe.html" aria-label="Pernambuco">PE</a></li><li><a href="estado/pi.html" aria-label="Piauí">PI</a></li><li><a href="estado/pr.html" aria-label="Paraná">PR</a></li><li><a href="estado/rj.html" aria-label="Rio de Janeiro">RJ</a></li><li><a href="estado/rn.html" aria-label="Rio Grande do Norte">RN</a></li><li><a href="estado/ro.html" aria-label="Rondônia">RO</a></li><li><a href="estado/rr.html" aria-label="Roraima">RR</a></li><li><a href="estado/rs.html" aria-label="Rio Grande do Sul">RS</a></li><li><a href="estado/sc.html" aria-label="Santa Catarina">SC</a></li><li><a href="estado/se.html" aria-label="Sergipe">SE</a></li><li><a href="estado/sp.html" aria-label="São Paulo">SP</a></li><li><a href="estado/to.html" aria-label="Tocantins">TO</a></li></ul></nav>
-  <p class="cap-seguir"><a class="seguir" href="#painel">Deputados no mapa e na lista</a> <a class="seguir" href="senadores.html">Lista dos senadores</a></p>
+  <p class="cap-seguir"><a class="seguir" href="#painel">Deputados no mapa e na lista</a> <a class="seguir" href="#senadores">Lista dos senadores</a></p>
   <div class="cap-notas">
     <p class="aviso">A Câmara tem 513 cadeiras, mas 656 deputados tiveram despesas: 126
       suplentes assumiram cadeiras de titulares afastados e 10 só têm reembolsos do mandato anterior.
@@ -114,7 +114,7 @@
 
 <section class="cap cap-fundo" id="explorar" aria-labelledby="cap-4"><div class="cont">
   <h2 class="cap-titulo" id="cap-4"><span>Deputado</span> por deputado</h2>
-  <p class="cap-entrada">Escolha um estado no mapa, um partido ou um período. A lista começa em ordem alfabética. Os senadores têm lista própria: <a href="senadores.html">senador por senador</a>.</p>
+  <p class="cap-entrada">Escolha um estado no mapa, um partido ou um período. A lista começa em ordem alfabética. Os senadores têm lista própria, logo abaixo: <a href="#senadores">senador por senador</a>.</p>
   <div class="barra-periodo cartao" id="painel">
     <label for="periodo">Período</label>
     <select id="periodo"></select>
@@ -166,7 +166,33 @@
       <div class="grafico" id="grafico-partidos"></div></div>
   </section>
 </div></section>
-<div class="dobra" style="--de:var(--fundo);--para:var(--topo-fundo);--num:var(--verde-forte)" aria-hidden="true"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0 0h100L50 100z"/></svg><span class="marcador">IV</span></div>
+<div class="dobra" style="--de:var(--fundo);--para:var(--verde-suave);--num:var(--verde-forte)" aria-hidden="true"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0 0h100L50 100z"/></svg><span class="marcador">IV</span></div>
+<section class="cap cap-suave" id="senadores" aria-labelledby="cap-sen"><div class="cont">
+  <h2 class="cap-titulo" id="cap-sen"><span>Senador</span> por senador</h2>
+  <p class="cap-entrada">Busque pelo nome ou escolha o estado. A lista começa em ordem alfabética, com o total
+    reembolsado a cada um desde fevereiro de 2023.</p>
+  <div class="cartao lista-cartao lista-larga">
+    <div class="lista-topo">
+      <h3 id="ls-titulo">Brasil</h3>
+      <p class="resumo" id="ls-resumo" aria-live="polite">102 senadores com despesas desde fevereiro de 2023</p>
+      <div class="filtros">
+        <label class="vh" for="ls-busca">Buscar senador na lista</label>
+        <input id="ls-busca" type="search" placeholder="Filtrar pelo nome" autocomplete="off">
+        <label class="vh" for="ls-uf">Estado</label>
+        <select id="ls-uf"><option value="">Todos os estados</option></select>
+        <label class="vh" for="ls-ordem">Ordenar</label>
+        <select id="ls-ordem"><option value="nome">Nome (A a Z)</option><option value="gasto">Maior gasto</option></select>
+        <label class="vh" for="ls-situacao">Situação</label>
+        <select id="ls-situacao"><option value="exercicio">Em exercício</option><option value="todos">Todos com despesas</option></select>
+      </div>
+    </div>
+    <ul class="linhas" id="ls-linhas"></ul>
+    <button type="button" class="mais" id="ls-mais" hidden>Mostrar mais</button>
+    <noscript><p class="vazio">A lista precisa de JavaScript. Os mesmos senadores estão na <a href="senadores.html">página dos senadores</a>.</p></noscript>
+  </div>
+  <p class="cap-seguir"><a class="seguir" href="senadores.html">Tipos de gasto e ano a ano no Senado</a></p>
+</div></section>
+<div class="dobra" style="--de:var(--verde-suave);--para:var(--topo-fundo);--num:var(--verde-forte)" aria-hidden="true"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0 0h100L50 100z"/></svg><span class="marcador">V</span></div>
 
 <section class="cap cap-verde cap-fecho" aria-labelledby="cap-5"><div class="cont">
   <h2 class="cap-titulo" id="cap-5"><span>Cada número</span> leva à nota</h2>
@@ -181,9 +207,9 @@
 
 </main>
 <nav class="barra-secoes" aria-label="Seções do site"><a href="index.html" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 11 12 4l8.5 7M5.5 9.5V20h4.5v-6h4v6h4.5V9.5"/></svg><span>Início</span></a><a href="ranking.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5h18a9 6.5 0 0 1-18 0ZM2 19.5h20"/></svg><span>Deputados</span></a><a href="senadores.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 16a7.5 6.5 0 0 1 15 0ZM2 19.5h20"/></svg><span>Senadores</span></a><a href="gastos.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V11M12 20V4M19 20v-6M3 20h18"/></svg><span>Gastos</span></a><button type="button" class="barra-mais" aria-expanded="false" aria-controls="menu-mais"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Mais</span></button></nav>
-<div class="menu-mais" id="menu-mais" hidden><p>Mais seções</p><ul><li><a href="metodologia.html">Como funciona</a></li><li><a href="comparar.html">Comparar gabinetes</a></li><li><a href="voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="retrospectiva.html">O ano de cada gabinete</a></li><li><a href="relatorios.html">Dados e planilhas</a></li><li><a href="imprensa.html">Para jornalistas</a></li><li><a href="sobre.html">Sobre o projeto</a></li></ul></div>
+<div class="menu-mais" id="menu-mais" hidden><p>Mais seções</p><ul><li><a href="metodologia.html">Como funciona</a></li><li><a href="comparar.html">Comparar gabinetes</a></li><li><a href="voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="retrospectiva.html">O ano de cada gabinete</a></li><li><a href="relatorios.html">Dados e planilhas</a></li><li><a href="sobre.html">Sobre o projeto</a></li></ul></div>
 <footer class="rodape"><div class="cont">
-  <div class="rodape-grade">
+  <div class="rodape-grade sem-imprensa">
     <div class="rodape-sobre">
       <p class="marca"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0b3b2d"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>De Olho na Cota</span></p>
       <p>Monitoramento cidadão da cota parlamentar dos deputados federais e dos senadores: quanto cada gabinete recebeu, em quê, e o link de cada nota fiscal.</p>
@@ -191,13 +217,13 @@
     </div>
     <div><h2>Navegar</h2><ul><li><a href="index.html" aria-current="page">Início</a></li><li><a href="ranking.html">Deputados</a></li><li><a href="senadores.html">Senadores</a></li><li><a href="gastos.html">Gastos</a></li><li><a href="metodologia.html">Como funciona</a></li><li><a href="comparar.html">Comparar gabinetes</a></li><li><a href="voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="relatorios.html">Dados e planilhas</a></li></ul></div>
     <div><h2>Fontes dos dados</h2><ul><li><a href="https://dadosabertos.camara.leg.br/" target="_blank" rel="noopener">Câmara dos Deputados</a></li><li><a href="https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj" target="_blank" rel="noopener">Receita Federal (CNPJ)</a></li><li><a href="https://dadosabertos.tse.jus.br/" target="_blank" rel="noopener">TSE (eleições de 2022)</a></li></ul></div>
-    <div><h2>Imprensa</h2><ul><li><a href="imprensa.html">Para jornalistas</a></li></ul></div>
+
     <div><h2>Correções</h2><p>Encontrou um erro? Escreva para
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20De%20Olho%20na%20Cota%20%C2%B7%20Para%20onde%20vai%20a%20cota%20parlamentar&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
   <p class="rodape-base">Dados atualizados em 11/11/2026 · <a href="metodologia.html">Como funciona</a> · <a href="metodologia.html#glossario">Glossário</a> · <a href="acessibilidade.html">Acessibilidade</a> · <a href="sobre.html">Sobre</a></p>
 </div></footer>
-<script src="assets/app.js?v=0a82fb22" defer></script>
+<script src="assets/app.js?v=9c07ae69" defer></script>
 </body>
 </html>
