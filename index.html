@@ -8,7 +8,9 @@
 <meta property="og:title" content="De Olho na Cota · Para onde vai a cota parlamentar">
 <meta property="og:description" content="Gastos da cota parlamentar dos deputados federais, com links para cada nota fiscal.">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="De Olho na Cota">
 <meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#0b3b2d" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0a2a20" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://hamscavalcante47-lab.github.io/cidadania/">
@@ -20,15 +22,15 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="assets/estilo.css?v=980d07fa">
+<link rel="stylesheet" href="assets/estilo.css?v=f50c77b1">
 </head>
-<body data-pagina="inicio" data-raiz="" data-versao="e737e89cbb" data-alertas="0">
+<body data-pagina="inicio" data-raiz="" data-versao="6cb7585de3" data-alertas="0" data-equipe="0">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo"><div class="cont">
   <a class="marca" href="index.html"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0b3b2d"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>De Olho na Cota<small>gastos dos deputados, nota por nota</small></span></a>
   <div class="busca" role="search">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-    <label class="vh" for="busca-global">Buscar deputado, senador ou pessoa</label>
+    <label class="vh" for="busca-global">Buscar deputado ou senador</label>
     <input id="busca-global" type="search" placeholder="Deputado ou senador" autocomplete="off"
       role="combobox" aria-expanded="false" aria-controls="busca-resultados" aria-keyshortcuts="/">
     <kbd class="atalho" aria-hidden="true">/</kbd>
@@ -64,7 +66,14 @@
 
 <section class="cap cap-verde" id="deputados" aria-labelledby="cap-1"><div class="cont">
   <h2 class="cap-titulo" id="cap-1"><span>Ache o seu</span> deputado</h2>
-  <p class="cap-entrada">Busque pelo nome ou escolha o estado. A página de cada um mostra as despesas e as notas.</p>
+  <p class="cap-entrada">Digite a sua cidade, busque pelo nome ou escolha o estado. A página de cada um mostra as despesas e as notas.</p>
+  <form class="sua-cidade" action="voto-da-cidade.html" method="get" role="search">
+      <label for="sua-cidade">Comece pela sua cidade</label>
+      <span class="sua-cidade-campo"><input id="sua-cidade" name="c" type="search" placeholder="Nome da cidade" autocomplete="off" required
+        role="combobox" aria-expanded="false" aria-controls="sua-cidade-lista" aria-autocomplete="list">
+      <button type="submit" class="botao">Ver</button>
+      <ul class="resultados" id="sua-cidade-lista" role="listbox" hidden></ul></span>
+      <small>Mostra os deputados mais votados nela e quanto cada um recebeu da cota.</small></form>
   <nav aria-label="Deputados por estado"><ul class="ufs"><li><a href="estado/ac.html" aria-label="Acre">AC</a></li><li><a href="estado/al.html" aria-label="Alagoas">AL</a></li><li><a href="estado/am.html" aria-label="Amazonas">AM</a></li><li><a href="estado/ap.html" aria-label="Amapá">AP</a></li><li><a href="estado/ba.html" aria-label="Bahia">BA</a></li><li><a href="estado/ce.html" aria-label="Ceará">CE</a></li><li><a href="estado/df.html" aria-label="Distrito Federal">DF</a></li><li><a href="estado/es.html" aria-label="Espírito Santo">ES</a></li><li><a href="estado/go.html" aria-label="Goiás">GO</a></li><li><a href="estado/ma.html" aria-label="Maranhão">MA</a></li><li><a href="estado/mg.html" aria-label="Minas Gerais">MG</a></li><li><a href="estado/ms.html" aria-label="Mato Grosso do Sul">MS</a></li><li><a href="estado/mt.html" aria-label="Mato Grosso">MT</a></li><li><a href="estado/pa.html" aria-label="Pará">PA</a></li><li><a href="estado/pb.html" aria-label="Paraíba">PB</a></li><li><a href="estado/pe.html" aria-label="Pernambuco">PE</a></li><li><a href="estado/pi.html" aria-label="Piauí">PI</a></li><li><a href="estado/pr.html" aria-label="Paraná">PR</a></li><li><a href="estado/rj.html" aria-label="Rio de Janeiro">RJ</a></li><li><a href="estado/rn.html" aria-label="Rio Grande do Norte">RN</a></li><li><a href="estado/ro.html" aria-label="Rondônia">RO</a></li><li><a href="estado/rr.html" aria-label="Roraima">RR</a></li><li><a href="estado/rs.html" aria-label="Rio Grande do Sul">RS</a></li><li><a href="estado/sc.html" aria-label="Santa Catarina">SC</a></li><li><a href="estado/se.html" aria-label="Sergipe">SE</a></li><li><a href="estado/sp.html" aria-label="São Paulo">SP</a></li><li><a href="estado/to.html" aria-label="Tocantins">TO</a></li></ul></nav>
   <p class="cap-seguir"><a class="seguir" href="#painel">Ver no mapa e na lista</a> <a class="seguir" href="senadores.html">Os senadores de cada estado</a></p>
   <div class="cap-notas">
@@ -72,10 +81,6 @@
       suplentes assumiram cadeiras de titulares afastados e 10 só têm reembolsos do mandato anterior.
       Hoje, 513 estão em exercício. A página de cada um diz se é titular ou suplente.
       <a href="metodologia.html#mandatos">Entenda</a></p>
-    <form class="sua-cidade" action="voto-da-cidade.html" method="get" role="search">
-      <label for="sua-cidade">Em quem a sua cidade votou para deputado federal?</label>
-      <span><input id="sua-cidade" name="c" type="search" placeholder="Nome da cidade" autocomplete="off" required>
-      <button type="submit" class="botao">Ver</button></span></form>
   </div>
 </div></section>
 <div class="dobra" style="--de:var(--topo-fundo);--para:var(--papel);--num:var(--topo-tinta)" aria-hidden="true"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0 0h100L50 100z"/></svg><span class="marcador">II</span></div>
@@ -176,7 +181,7 @@
 
 </main>
 <nav class="barra-secoes" aria-label="Seções do site"><a href="index.html" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 11 12 4l8.5 7M5.5 9.5V20h4.5v-6h4v6h4.5V9.5"/></svg><span>Início</span></a><a href="ranking.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5h18a9 6.5 0 0 1-18 0ZM2 19.5h20"/></svg><span>Deputados</span></a><a href="senadores.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 16a7.5 6.5 0 0 1 15 0ZM2 19.5h20"/></svg><span>Senadores</span></a><a href="gastos.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V11M12 20V4M19 20v-6M3 20h18"/></svg><span>Gastos</span></a><button type="button" class="barra-mais" aria-expanded="false" aria-controls="menu-mais"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Mais</span></button></nav>
-<div class="menu-mais" id="menu-mais" hidden><p>Mais seções</p><ul><li><a href="metodologia.html">Como funciona</a></li><li><a href="comparar.html">Comparar gabinetes</a></li><li><a href="voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="relatorios.html">Dados e planilhas</a></li><li><a href="imprensa.html">Para jornalistas</a></li><li><a href="sobre.html">Sobre o projeto</a></li></ul></div>
+<div class="menu-mais" id="menu-mais" hidden><p>Mais seções</p><ul><li><a href="metodologia.html">Como funciona</a></li><li><a href="comparar.html">Comparar gabinetes</a></li><li><a href="voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="retrospectiva.html">O ano de cada gabinete</a></li><li><a href="relatorios.html">Dados e planilhas</a></li><li><a href="imprensa.html">Para jornalistas</a></li><li><a href="sobre.html">Sobre o projeto</a></li></ul></div>
 <footer class="rodape"><div class="cont">
   <div class="rodape-grade">
     <div class="rodape-sobre">
@@ -193,6 +198,6 @@
   </div>
   <p class="rodape-base">Dados atualizados em 11/11/2026 · <a href="metodologia.html">Como funciona</a> · <a href="metodologia.html#glossario">Glossário</a> · <a href="acessibilidade.html">Acessibilidade</a> · <a href="sobre.html">Sobre</a></p>
 </div></footer>
-<script src="assets/app.js?v=980d07fa" defer></script>
+<script src="assets/app.js?v=f50c77b1" defer></script>
 </body>
 </html>

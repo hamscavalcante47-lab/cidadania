@@ -17,6 +17,9 @@ const VERSAO = document.body.dataset.versao || "";
 // a chave dos alertas (PUBLICAR_ALERTAS, no gerador): com data-alertas="0" no <body>, o site sai sem nada de alerta, e
 // os arquivos de alerta (alertas-meta.json, alertas-N.json, regras.json) nem existem. Sem o atributo, ligados
 const ALERTAS = document.body.dataset.alertas !== "0";
+// a chave da equipe dos gabinetes (PUBLICAR_EQUIPE, no gerador): com data-equipe="0", o perfil sai sem a tabela da
+// equipe e sem a chave 'e' nos dados, e a busca não tem funcionários (sem alertas, o índice de pessoas nem existe)
+const EQUIPE = document.body.dataset.equipe !== "0";
 const SEM_MOVIMENTO = matchMedia("(prefers-reduced-motion: reduce)").matches;
 // modo econômico (E8): o navegador pediu economia de dados (navigator.connection.saveData, que hoje Opera, Samsung
 // Internet e Yandex informam; Safari, Firefox e o Chrome não). A marca vem do <head> (pagina(), no gerador), antes de o
@@ -202,7 +205,7 @@ function iniciarBusca() {
   // um arquivo por letra inicial de cada parte do nome: acha a pessoa também pelo sobrenome
   const pessoas = {};
   // sem os alertas, o vínculo de sócio (que leva à página do fornecedor) fica de fora
-  const carregarPessoas = async letra => pessoas[letra] ??= (await json(`dados/pessoas/${letra}.json`).catch(() => []))
+  const carregarPessoas = async letra => pessoas[letra] ??= (ALERTAS || EQUIPE ? await json(`dados/pessoas/${letra}.json`).catch(() => []) : [])
     .map(([n, v]) => ({ n, v: ALERTAS ? v : v.filter(x => !String(x[3] || "").startsWith("fornecedor/")), b: normalizar(n) }))
     .filter(p => p.v.length);
   const TIPO = { d: "Deputado", s: "Senador", f: "Fornecedor", p: "Pessoa" };
@@ -1100,7 +1103,49 @@ async function iniciarPontos() {
 }
 
 // ------------------------------------------------------------------ página inicial
+// "Comece pela sua cidade", na capa: a lista de cidades só é baixada quando a pessoa toca no campo; escolher uma leva
+// à página O voto da sua cidade já aberta nela (#m=<código>). Sem a lista, o formulário segue com o nome (?c=)
+function iniciarSuaCidade() {
+  const campo = $("#sua-cidade"), lista = $("#sua-cidade-lista");
+  if (!campo || !lista) return;
+  let cidades = null, pedido = null, sugestoes = [], ativa = -1;
+  const carregar = () => pedido || (pedido = json("dados/municipios.json").then(indice => {
+    cidades = indice.m.map(([uf, nome, cod]) => ({ uf, nome, cod, b: normalizar(`${nome} ${uf}`) }));
+    mostrar();
+  }).catch(() => { cidades = []; }));
+  const ir = c => { location.href = `${RAIZ}voto-da-cidade.html#m=${c.cod}`; };
+  function fechar() { lista.hidden = true; campo.setAttribute("aria-expanded", "false"); campo.removeAttribute("aria-activedescendant"); ativa = -1; }
+  function mostrar() {
+    const q = normalizar(campo.value.trim());
+    if (!cidades || q.length < 3) { sugestoes = []; lista.hidden = true; campo.setAttribute("aria-expanded", "false"); return; }
+    // primeiro as que começam com o que foi digitado, das de nome mais curto para as de nome mais longo ("campin"
+    // traz Campinas antes de Campinápolis); depois as que só contêm o texto
+    const ordem = c => (normalizar(c.nome).startsWith(q) ? 0 : 1000) + c.nome.length;
+    sugestoes = cidades.filter(c => c.b.includes(q)).sort((x, y) => ordem(x) - ordem(y) || x.b.localeCompare(y.b)).slice(0, 6);
+    lista.innerHTML = sugestoes.map((c, i) => `<li role="option" id="sc-op-${i}" data-cod="${c.cod}" aria-selected="${i === ativa}">
+      <span><b>${esc(c.nome)}</b><small>${NOMES_UF[c.uf] || c.uf}</small></span></li>`).join("")
+      || `<li class="vazio">Nenhuma cidade com esse nome.</li>`;
+    lista.hidden = false;
+    campo.setAttribute("aria-expanded", "true");
+  }
+  campo.addEventListener("focus", carregar);
+  campo.addEventListener("input", () => { ativa = -1; carregar(); mostrar(); });
+  campo.addEventListener("keydown", ev => {
+    if (ev.key === "ArrowDown" || ev.key === "ArrowUp") {
+      if (!sugestoes.length) return;
+      ev.preventDefault();
+      ativa = (ativa + (ev.key === "ArrowDown" ? 1 : -1) + sugestoes.length) % sugestoes.length;
+      mostrar(); campo.setAttribute("aria-activedescendant", `sc-op-${ativa}`);
+    } else if (ev.key === "Escape") fechar();
+  });
+  // Enter ou o botão Ver: com sugestão na lista, vai direto à cidade; sem ela, o formulário manda o nome digitado
+  campo.form.addEventListener("submit", ev => { const s = sugestoes[Math.max(ativa, 0)]; if (s) { ev.preventDefault(); ir(s); } });
+  lista.addEventListener("click", ev => { const li = ev.target.closest("[data-cod]"); if (li) ir(cidades.find(c => c.cod === +li.dataset.cod)); });
+  document.addEventListener("click", ev => { if (!ev.target.closest(".sua-cidade")) fechar(); });
+}
+
 async function iniciarInicio() {
+  iniciarSuaCidade();
   const [deputados, resumo, svg] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json"), carregarMapa($("#mapa-area"))]);
   const estado = { uf: null, partidos: new Set(), busca: "", ordem: "nome", situacao: "exercicio", metrica: "gasto", limite: 40, periodo: "" };
   const h = new URLSearchParams(location.hash.slice(1));
@@ -1370,6 +1415,8 @@ async function iniciarRanking() {
 // ------------------------------------------------------------------ página de deputado
 async function iniciarDeputado() {
   const dados = JSON.parse($("#dados-deputado").textContent);
+  // o cartão de imagem (cartao.js, que só o perfil e a retrospectiva carregam)
+  if (dados.cartao && typeof Cartao !== "undefined") Cartao.ligar($("#cartao-botao"), dados.cartao);
   const meses = dados.meses;
   const h = new URLSearchParams(location.hash.slice(1));
   const estado = { periodo: indicesPeriodo(meses, h.get("per")).length ? (h.get("per") || "") : "", categoria: "", busca: "",
@@ -1492,30 +1539,32 @@ async function iniciarDeputado() {
   const inicioMes = m => `${Math.floor(m / 100)}-${String(m % 100).padStart(2, "0")}-01`;
   const fimMes = m => `${Math.floor(m / 100)}-${String(m % 100).padStart(2, "0")}-31`;
   const ativoEntre = (p, de, ate) => (p[3] || "") <= ate && (!p[4] || p[4] >= de);
-  const equipeNoMes = i => detalhe.e.filter(p => ativoEntre(p, inicioMes(meses[i]), fimMes(meses[i]))).length;
+  const equipe = EQUIPE ? detalhe.e || [] : [];
+  const equipeNoMes = i => equipe.filter(p => ativoEntre(p, inicioMes(meses[i]), fimMes(meses[i]))).length;
   const dataBR = iso => iso ? `${iso.slice(8, 10)}/${iso.slice(5, 7)}/${iso.slice(0, 4)}` : "";
 
-  $("#tabela-mensal").innerHTML = `<tr><th>Mês</th><th class="n">Cota gasta</th><th class="n">Uso</th><th class="n">Equipe</th><th class="n">Verba gasta</th><th class="n">Disponível</th></tr>` +
+  $("#tabela-mensal").innerHTML = `<tr><th>Mês</th><th class="n">Cota gasta</th><th class="n">Uso</th>${EQUIPE ? `<th class="n">Equipe</th>` : ""}<th class="n">Verba gasta</th><th class="n">Disponível</th></tr>` +
     linhasMes.map(i => {
       const uso = dados.limites[i] ? dados.valores[i] / dados.limites[i] : null;
       const [disp, gastoV] = verba[i] || [];
       return `<tr><td data-v="${meses[i]}"><a href="#despesas" data-mes="${meses[i]}">${nomeMes(meses[i])}</a></td><td class="n">${brl(dados.valores[i])}</td>
         <td class="n"><span class="uso${uso > 1.5 ? " alto" : ""}">${uso === null ? "—" : pct(uso)}</span></td>
-        <td class="n">${detalhe.e.length ? equipeNoMes(i) : "—"}</td>
+        ${EQUIPE ? `<td class="n">${equipe.length ? equipeNoMes(i) : "—"}</td>` : ""}
         <td class="n">${gastoV === undefined ? "—" : brl(gastoV)}</td><td class="n">${disp === undefined ? "—" : brl(disp)}</td></tr>`;
     }).join("");
   $("#tabela-mensal").addEventListener("click", e => { const a = e.target.closest("[data-mes]"); if (a) definirPeriodo(a.dataset.mes); });
   tabelaOrdenavel($("#tabela-mensal"));
 
   desenharEquipe = () => {
-    if (!detalhe.e.length) {
+    if (!$("#tabela-equipe")) return;  // o site sem a equipe dos gabinetes
+    if (!equipe.length) {
       $("#equipe-resumo").textContent = "A Câmara não informa funcionários para este deputado.";
       $("#tabela-equipe").innerHTML = "";
       return;
     }
     const idx = indicesPeriodo(meses, estado.periodo);
     const de = estado.periodo ? inicioMes(meses[idx[0]]) : "0000-00-00", ate = estado.periodo ? fimMes(meses[idx[idx.length - 1]]) : "9999-12-31";
-    const lista = detalhe.e.filter(p => ativoEntre(p, de, ate));
+    const lista = equipe.filter(p => ativoEntre(p, de, ate));
     const pessoas = new Set(lista.map(p => p[0])).size;
     $("#equipe-resumo").textContent = estado.periodo
       ? `${pessoas} pessoa(s) passaram pelo gabinete em ${nomePeriodo(estado.periodo)} (${lista.length} vínculos; trocas de nível contam como vínculos novos).`
@@ -2035,5 +2084,7 @@ function iniciarFornecedor() {
 // a página de alertas e a de fornecedor só existem com os alertas ligados
 ({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: ALERTAS ? iniciarAlertas : undefined, ranking: iniciarRanking, gastos: iniciarGastos,
   comparar: iniciarComparar, cidade: iniciarCidade, fornecedor: ALERTAS ? iniciarFornecedor : undefined,
+  // o ano de cada gabinete vem do retrospectiva.js, que só essa página carrega
+  retrospectiva: () => Retro.iniciar(),
   // as duas do Senado vêm do senado.js, que só essas páginas carregam
   senadores: () => Senado.iniciarLista(), senador: () => Senado.iniciarSenador() })[document.body.dataset.pagina]?.();
