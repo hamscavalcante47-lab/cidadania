@@ -3,6 +3,8 @@
 // arquivos do perfil (dados/deputados.json, dados/resumo.json e dados/dep/<id>.json); o endereço guarda a escolha
 // (#d=<id>&a=<ano>), para o link levar ao mesmo retrato. O app.js chama Retro.iniciar(); as contas ficam em
 // Retro.calcular, sem tela, para os testes.
+// A mesma tela serve ao Senado (retrospectiva-senadores.html, Retro.iniciar("s"), #s=<código>&a=<ano>): os arquivos
+// são dados/senadores.json e dados/sen/<código>.json, e as contas ficam em Retro.calcularSenador.
 const Retro = (() => {
   const MESES_NOME = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro",
     "outubro", "novembro", "dezembro"];
@@ -63,15 +65,66 @@ const Retro = (() => {
     };
   }
 
+  // O ano de um senador, com a mesma forma do resultado de calcular. `dados` é dados/sen/<código>.json ({u: endereço
+  // dos PDFs, c: tipos, f: fornecedores, d: [ano, data, tipo, fornecedor, número, valor, número do PDF]}); `senadores`,
+  // dados/senadores.json (m: o reembolsado em cada mês de resumo.meses_senado). A posição é entre os senadores do país
+  // com reembolso no ano: cada estado tem só três cadeiras, e a bancada não faz um ranking.
+  function calcularSenador(dados, senadores, resumo, codigo, ano) {
+    const meses = resumo.meses_senado || resumo.meses;
+    const idx = meses.map((m, i) => Math.floor(m / 100) === ano ? i : -1).filter(i => i >= 0);
+    const eu = senadores.find(s => s.c === codigo);
+    if (!eu || !idx.length) return null;
+    const mensal = eu.m || [];
+    const total = somar(mensal, idx);
+    const idxAntes = meses.map((m, i) => Math.floor(m / 100) === ano - 1 ? i : -1).filter(i => i >= 0);
+    const anterior = idxAntes.length ? somar(mensal, idxAntes) : null;
+    const todos = senadores.map(s => ({ id: s.c, v: somar(s.m || [], idx) })).filter(s => s.v > 0)
+      .sort((a, b) => b.v - a.v || a.id - b.id);
+    const posicao = todos.findIndex(s => s.id === codigo) + 1;
+    const media = todos.length ? todos.reduce((s, x) => s + x.v, 0) / todos.length : 0;
+    const ultimo = idx[idx.length - 1];
+    const parcial = ultimo === meses.length - 1 && (meses[ultimo] % 100 !== 12 || resumo.parciais > 0);
+    const notas = dados.d.filter(n => n[0] === ano);
+    const porTipo = new Map(), porForn = new Map();
+    for (const n of notas) {
+      porTipo.set(n[2], (porTipo.get(n[2]) || 0) + n[5]);
+      if (semAcento(dados.c[n[2]]).startsWith("passag")) continue;  // agências e companhias aéreas ficam fora, como na página
+      const f = porForn.get(n[3]) || { v: 0, n: 0 };
+      f.v += n[5]; f.n += 1;
+      porForn.set(n[3], f);
+    }
+    const tipo = [...porTipo].sort((a, b) => b[1] - a[1])[0];
+    const forn = [...porForn].sort((a, b) => b[1].v - a[1].v)[0];
+    const somaTipos = [...porTipo.values()].reduce((s, v) => s + v, 0);
+    const mesMaior = idx.reduce((m, i) => (mensal[i] || 0) > (mensal[m] || 0) ? i : m, idx[0]);
+    const nota = notas.reduce((m, n) => !m || n[5] > m[5] ? n : m, null);
+    return {
+      casa: "s", id: codigo, ano, nome: eu.n, partido: eu.p, uf: eu.uf, total, anterior, parcial,
+      ate: MESES_NOME[meses[ultimo] % 100 - 1], desde: MESES_NOME[meses[idx[0]] % 100 - 1],
+      posicao, bancada: todos.length, media, notas: notas.length,
+      tipo: tipo && tipo[1] > 0 ? { nome: dados.c[tipo[0]], v: tipo[1], fatia: somaTipos > 0 ? tipo[1] / somaTipos : 0 } : null,
+      fornecedor: forn && forn[1].v > 0 ? { nome: dados.f[forn[0]] ? dados.f[forn[0]][0] : "", v: forn[1].v, n: forn[1].n } : null,
+      mes: total > 0 ? { nome: MESES_NOME[meses[mesMaior] % 100 - 1], v: mensal[mesMaior] || 0, limite: null } : null,
+      nota: nota && nota[5] > 0 ? { v: nota[5], data: nota[1], tipo: dados.c[nota[2]],
+        fornecedor: dados.f[nota[3]] ? dados.f[nota[3]][0] : "", url: nota[6] ? dados.u + nota[6] : null } : null,
+    };
+  }
+
+  // o endereço do retrato de um gabinete num ano e o da página dele, na casa certa
+  const noSenado = r => r.casa === "s";
+  const retrato = (r, base) => `${base}${noSenado(r) ? `retrospectiva-senadores.html#s=${r.id}` : `retrospectiva.html#d=${r.id}`}&a=${r.ano}`;
+  const paginaDe = r => noSenado(r) ? `senador/${r.id}.html` : `deputado/${r.id}.html`;
+
   // o que vai no cartão de imagem do ano
   function cartaoDoAno(r, base) {
     const linhas = [];
-    if (r.posicao) linhas.push(`${r.posicao}º maior valor entre os ${r.bancada} deputados de ${r.uf} no ano`);
+    if (r.posicao) linhas.push(noSenado(r) ? `${r.posicao}º maior valor entre os ${r.bancada} senadores com reembolso no ano`
+      : `${r.posicao}º maior valor entre os ${r.bancada} deputados de ${r.uf} no ano`);
     if (r.tipo) linhas.push(`Maior gasto: ${r.tipo.nome.toLowerCase()} (${Math.round(r.tipo.fatia * 100)}% do ano)`);
     if (r.mes) linhas.push(`Mês mais caro: ${r.mes.nome}`);
-    return { nome: r.nome, sub: `${r.partido} · ${NOMES_UF[r.uf] || r.uf}`, rotulo: `Cota parlamentar em ${r.ano}`, valor: brl(r.total),
+    return { nome: r.nome, sub: `${r.partido} · ${NOMES_UF[r.uf] || r.uf}`, rotulo: `Cota parlamentar${noSenado(r) ? " do Senado" : ""} em ${r.ano}`, valor: brl(r.total),
       legenda: r.parcial ? `reembolsados em ${r.ano}, com notas até ${r.ate}` : `reembolsados em ${r.ano}`,
-      linhas, url: `${base}retrospectiva.html#d=${r.id}&a=${r.ano}`, arquivo: `cota-${r.id}-${r.ano}` };
+      linhas, url: retrato(r, base), arquivo: `cota-${noSenado(r) ? "senado-" : ""}${r.id}-${r.ano}` };
   }
 
   function quadro(rotulo, destaque, texto, classe = "") {
@@ -80,14 +133,14 @@ const Retro = (() => {
   }
 
   function desenhar(alvo, r, anos, base) {
-    const perfil = `deputado/${r.id}.html`;
-    const abas = anos.map(a => `<a href="#d=${r.id}&a=${a}"${a === r.ano ? ' aria-current="true"' : ""}>${a}</a>`).join("");
+    const sen = noSenado(r), perfil = paginaDe(r), casa = sen ? "do Senado" : "da Câmara";
+    const abas = anos.map(a => `<a href="#${sen ? "s" : "d"}=${r.id}&a=${a}"${a === r.ano ? ' aria-current="true"' : ""}>${a}</a>`).join("");
     const cabeca = `<header class="retro-cabeca"><p class="retro-rotulo">O ano do gabinete</p>
       <h2>${esc(r.nome)}</h2><p class="identidade">${esc(r.partido)} · ${esc(NOMES_UF[r.uf] || r.uf)}</p>
       <nav class="retro-anos" aria-label="Ano">${abas}</nav></header>`;
     if (!(r.total > 0)) {
-      alvo.innerHTML = `${cabeca}<p class="aviso">Este gabinete não teve reembolsos da cota em ${r.ano}. Escolha outro ano ou veja o
-        <a href="${perfil}">perfil completo</a>.</p>`;
+      alvo.innerHTML = `${cabeca}<p class="aviso">Este gabinete não teve reembolsos da cota em ${r.ano}. Escolha outro ano ou veja ${sen ? "a" : "o"}
+        <a href="${perfil}">${sen ? "página completa" : "perfil completo"}</a>.</p>`;
       return;
     }
     const periodo = r.parcial ? `em ${r.ano}, com notas até ${r.ate}` : r.desde !== "janeiro" ? `de ${r.desde} a dezembro de ${r.ano}` : `em ${r.ano}`;
@@ -99,40 +152,48 @@ const Retro = (() => {
     } else if (r.anterior > 0) comparacao = `Em ${r.ano - 1}, o ano inteiro somou ${brl(r.anterior)}.`;
     const quadros = [quadro(`Recebeu da cota ${periodo}`, `<span class="retro-numero">${brl(r.total)}</span>`,
       `Em ${r.notas.toLocaleString("pt-BR")} despesas declaradas. ${comparacao}`, "retro-verde")];
-    if (r.posicao) quadros.push(quadro(`Na bancada ${r.uf === "DF" ? "do" : "de"} ${esc(NOMES_UF[r.uf] || r.uf)}`,
+    if (r.posicao && sen) quadros.push(quadro("Entre os senadores",
+      `<span class="retro-numero grande">${r.posicao}º</span>`,
+      `maior valor entre os ${r.bancada} senadores com reembolso no ano. A média deles foi ${brl(r.media)}.`));
+    else if (r.posicao) quadros.push(quadro(`Na bancada ${r.uf === "DF" ? "do" : "de"} ${esc(NOMES_UF[r.uf] || r.uf)}`,
       `<span class="retro-numero grande">${r.posicao}º</span>`,
       `maior valor entre os ${r.bancada} deputados do estado com reembolso no ano. A média deles foi ${brl(r.media)}.`));
     if (r.tipo) quadros.push(quadro("Em que gastou mais", `<span class="retro-nome">${esc(r.tipo.nome)}</span>`,
       `${brl(r.tipo.v)}, ${pct(r.tipo.fatia)} do que o gabinete recebeu no ano.`));
     if (r.fornecedor) quadros.push(quadro("Quem mais recebeu", `<span class="retro-nome">${esc(r.fornecedor.nome)}</span>`,
-      `${brl(r.fornecedor.v)} em ${r.fornecedor.n.toLocaleString("pt-BR")} ${r.fornecedor.n === 1 ? "nota" : "notas"}, sem contar as passagens aéreas.`));
+      `${brl(r.fornecedor.v)} em ${r.fornecedor.n.toLocaleString("pt-BR")} ${r.fornecedor.n === 1 ? "nota" : "notas"}, sem contar as passagens${sen ? "" : " aéreas"}.`));
     if (r.mes) quadros.push(quadro("O mês mais caro", `<span class="retro-nome">${r.mes.nome}</span>`,
       `${brl(r.mes.v)} reembolsados${r.mes.limite ? `. O limite mensal do estado era ${brl(r.mes.limite)}; o saldo não usado se acumula dentro do ano` : ""}.`));
     if (r.nota) quadros.push(quadro("A maior nota", `<span class="retro-numero menor">${brl2(r.nota.v)}</span>`,
       `${esc(r.nota.fornecedor)}${r.nota.data ? `, em ${esc(r.nota.data)}` : ""}. ${esc(r.nota.tipo || "")}.`
-      + (r.nota.url ? ` <a href="${esc(r.nota.url)}" target="_blank" rel="noopener">Ver a nota<span class="vh"> (abre o site da Câmara)</span></a>` : "")));
-    const texto = `O ano de ${r.nome} (${r.partido}/${r.uf}) na cota parlamentar: ${brl(r.total)} ${periodo}, no De Olho na Cota.`;
+      + (r.nota.url ? ` <a href="${esc(r.nota.url)}" target="_blank" rel="noopener">Ver a nota<span class="vh"> (abre o site ${casa})</span></a>` : "")));
+    const texto = `O ano de ${r.nome} (${r.partido}/${r.uf}) na cota parlamentar${sen ? " do Senado" : ""}: ${brl(r.total)} ${periodo}, no De Olho na Cota.`;
     alvo.innerHTML = `${cabeca}${quadros.join("")}
       <section class="retro-fecho">
         <p class="acoes-citar"><button type="button" class="botao" id="retro-cartao" hidden>Cartão para compartilhar</button>
-          <button type="button" class="botao secundario" data-compartilhar="${esc(texto)}" data-url="${esc(`${base}retrospectiva.html#d=${r.id}&a=${r.ano}`)}" data-rotulo="Compartilhar o link">Compartilhar o link</button>
-          <a class="botao secundario" href="${perfil}">Ver o perfil completo</a></p>
-        <p class="nota-tabela">${r.parcial ? `Os ${resumoParciais} últimos meses ainda recebem notas: os gabinetes têm até 90 dias para apresentá-las, e os números de ${r.ano} vão mudar. ` : ""}Os números descrevem o gasto declarado à Câmara. Sozinhos, não dizem se um gasto foi regular.</p>
+          <button type="button" class="botao secundario" data-compartilhar="${esc(texto)}" data-url="${esc(retrato(r, base))}" data-rotulo="Compartilhar o link">Compartilhar o link</button>
+          <a class="botao secundario" href="${perfil}">${sen ? "Ver a página completa" : "Ver o perfil completo"}</a></p>
+        <p class="nota-tabela">${r.parcial ? `Os ${resumoParciais} últimos meses ainda recebem notas: os gabinetes têm até 90 dias para apresentá-las, e os números de ${r.ano} vão mudar. ` : ""}Os números descrevem o gasto declarado ${sen ? "ao Senado" : "à Câmara"}. Sozinhos, não dizem se um gasto foi regular.</p>
       </section>`;
     Cartao.ligar($("#retro-cartao", alvo), () => cartaoDoAno(r, base));
   }
   let resumoParciais = 3;
 
-  async function iniciar() {
+  // `casa`: "d" (retrospectiva.html, os deputados) ou "s" (retrospectiva-senadores.html, os senadores)
+  async function iniciar(casa = "d") {
+    const sen = casa === "s", chave = sen ? "s" : "d", varios = sen ? "senadores" : "deputados";
     const alvo = $("#retro");
-    const [deputados, resumo] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json")]);
+    const [brutos, resumo] = await Promise.all([json(sen ? "dados/senadores.json" : "dados/deputados.json"), json("dados/resumo.json")]);
+    // os senadores no formato dos deputados (id, n, p, uf); as contas do Senado usam o arquivo como veio
+    const deputados = sen ? brutos.map(s => ({ id: s.c, n: s.n, p: s.p, uf: s.uf })) : brutos;
+    const meses = sen ? (resumo.meses_senado || resumo.meses) : resumo.meses;
     resumoParciais = resumo.parciais || 0;
-    const anos = [...new Set(resumo.meses.map(m => Math.floor(m / 100)))];
-    const base = ($('link[rel="canonical"]') || { href: location.href }).href.replace(/retrospectiva\.html.*$/, "");
+    const anos = [...new Set(meses.map(m => Math.floor(m / 100)))];
+    const base = ($('link[rel="canonical"]') || { href: location.href }).href.replace(/retrospectiva(-senadores)?\.html.*$/, "");
     const busca = $("#retro-busca"), lista = $("#retro-sugestoes");
     const indice = deputados.map(d => ({ d, b: normalizar(`${d.n} ${d.b || ""}`) }));
     let sugestoes = [], ativa = -1, pedido = 0;
-    $("#retro-resumo").textContent = `${deputados.length.toLocaleString("pt-BR")} deputados. Digite pelo menos três letras do nome.`;
+    $("#retro-resumo").textContent = `${deputados.length.toLocaleString("pt-BR")} ${varios}. Digite pelo menos três letras do nome.`;
 
     function fechar() { lista.hidden = true; busca.setAttribute("aria-expanded", "false"); busca.removeAttribute("aria-activedescendant"); ativa = -1; }
     function mostrar() {
@@ -143,10 +204,10 @@ const Retro = (() => {
       lista.hidden = !sugestoes.length;
       busca.setAttribute("aria-expanded", String(!lista.hidden));
     }
-    const escolher = d => { fechar(); busca.value = ""; location.hash = `d=${d.id}&a=${anoPadrao()}`; };
+    const escolher = d => { fechar(); busca.value = ""; location.hash = `${chave}=${d.id}&a=${anoPadrao()}`; };
     // o ano que abre: o último ano fechado, se houver; em dezembro o ano corrente já está quase inteiro
     function anoPadrao() {
-      const ultimo = resumo.meses[resumo.meses.length - 1];
+      const ultimo = meses[meses.length - 1];
       const corrente = Math.floor(ultimo / 100);
       return ultimo % 100 >= 10 || anos.length === 1 ? corrente : corrente - 1;
     }
@@ -165,27 +226,27 @@ const Retro = (() => {
 
     async function abrir() {
       const h = new URLSearchParams(location.hash.slice(1));
-      const id = +h.get("d"), eu = deputados.find(d => d.id === id);
+      const id = +h.get(chave), eu = deputados.find(d => d.id === id);
       if (!eu) { alvo.hidden = true; return; }
       const ano = anos.includes(+h.get("a")) ? +h.get("a") : anoPadrao();
       const meu = ++pedido;
       alvo.hidden = false;
       alvo.innerHTML = `<p class="resumo">Carregando as despesas de ${esc(eu.n)}…</p>`;
       try {
-        const dep = await json(`dados/dep/${id}.json`);
+        const dep = await json(sen ? `dados/sen/${id}.json` : `dados/dep/${id}.json`);
         if (meu !== pedido) return;
-        desenhar(alvo, calcular(dep, deputados, resumo, id, ano), anos, base);
+        desenhar(alvo, sen ? calcularSenador(dep, brutos, resumo, id, ano) : calcular(dep, deputados, resumo, id, ano), anos, base);
         document.title = `O ano de ${eu.n} (${eu.p}/${eu.uf}) em ${ano} · De Olho na Cota`;
         $("#retro-resumo").textContent = `Mostrando ${eu.n}, ${ano}. Para trocar, digite outro nome.`;
       } catch (erro) {
         console.error(erro);
-        alvo.innerHTML = `<p class="aviso">Não foi possível abrir as despesas agora. Elas também estão no <a href="deputado/${id}.html">perfil do deputado</a>.</p>`;
+        alvo.innerHTML = `<p class="aviso">Não foi possível abrir as despesas agora. Elas também estão ${sen ? `na <a href="senador/${id}.html">página do senador</a>` : `no <a href="deputado/${id}.html">perfil do deputado</a>`}.</p>`;
       }
     }
     addEventListener("hashchange", () => { abrir().then(() => alvo.scrollIntoView({ behavior: SEM_MOVIMENTO ? "auto" : "smooth", block: "start" })); });
     abrir();
   }
 
-  return { iniciar, calcular, cartaoDoAno, linkDaNota };
+  return { iniciar, calcular, calcularSenador, cartaoDoAno, linkDaNota };
 })();
 if (typeof module !== "undefined") module.exports = Retro;

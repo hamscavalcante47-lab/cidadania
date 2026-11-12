@@ -72,7 +72,51 @@
   --traco: var(--linha-forte);
 }
 @media screen and (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-tema="claro"]) {
+    color-scheme: dark;
+    --fundo: #0b1310;
+    --papel: #111b17;
+    --papel-2: #16221d;
+    --vidro: #111b17;
+    --tinta: #e9eeea;
+    --tinta-2: #b1bdb6;
+    --tinta-3: #8e9b94;
+    --linha: #1f2c26;
+    --linha-forte: #33443c;
+    --verde: #8fcbb0;
+    --verde-forte: #d7e6dd;
+    --verde-vivo: #8fe0bd;
+    --verde-suave: #14302a;
+    --sobre-verde: #06140f;
+    --latao: #c9ab6e;
+    --latao-claro: #d9be8a;
+    --topo-fundo: #0a2a20;
+    --topo-tinta: #f2f4ef;
+    --topo-tinta-2: #b9cdc1;
+    --topo-linha: #1f4a3c;
+    --alta: #ff9488;
+    --alta-bg: #3a1c19;
+    --media: #efbd62;
+    --media-bg: #33280f;
+    --baixa: #b4c0bb;
+    --baixa-bg: #1d2925;
+    --escala-0: #1c382e;
+    --escala-1: #22553e;
+    --escala-2: #2a7855;
+    --escala-3: #3ea376;
+    --escala-4: #74d6a6;
+    --mapa-borda: #0b1310;
+    --rodape-fundo: #081f18;
+    --rodape-tinta: #9fb3a8;
+    --rodape-claro: #e9eeea;
+    --serie-1: #2f8f6b; --serie-2: #e8cf96; --serie-3: #9a63bd; --serie-4: #d2f5d0;
+    --serie-5: #7d8c33; --serie-6: #9cc4ea; --serie-7: #d48cc0; --serie-8: #7468dd; --serie-outros: #596160;
+    --sombra-alta: 0 2px 6px rgba(0, 0, 0, .4), 0 14px 32px -10px rgba(0, 0, 0, .7);
+    --veu: rgba(0, 0, 0, .6);
+  }
+}
+@media screen {
+  :root[data-tema="escuro"] {
     color-scheme: dark;
     --fundo: #0b1310;
     --papel: #111b17;
@@ -322,8 +366,13 @@ main.largo { padding-bottom: 0; }
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .6 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E"); }
 @media screen and (prefers-color-scheme: dark) {
   /* no escuro o chão é o fundo da página e o número fica claro, de pé sobre o horizonte */
-  .cartaz { --chao: var(--fundo); --numero: var(--topo-tinta); --massa: #050f0b; }
-  .cartaz::after { content: none; }
+  :root:not([data-tema="claro"]) .cartaz { --chao: var(--fundo); --numero: var(--topo-tinta); --massa: #050f0b; }
+  :root:not([data-tema="claro"]) .cartaz::after { content: none; }
+}
+@media screen {
+  /* no escuro o chão é o fundo da página e o número fica claro, de pé sobre o horizonte */
+  :root[data-tema="escuro"] .cartaz { --chao: var(--fundo); --numero: var(--topo-tinta); --massa: #050f0b; }
+  :root[data-tema="escuro"] .cartaz::after { content: none; }
 }
 @media print { .cartaz::after, .cartaz-predio, .dobra { display: none; } }
 
@@ -1921,7 +1970,8 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
 .retro-verde .retro-numero { color: var(--topo-tinta); }
 .retro-fecho { padding: 28px 0 8px; }
 .retro-fecho .nota-tabela { max-width: 70ch; font-size: 14px; }
-@media screen and (prefers-color-scheme: dark) { .retro-numero { color: var(--tinta); } }
+@media screen and (prefers-color-scheme: dark) { :root:not([data-tema="claro"]) .retro-numero { color: var(--tinta); } }
+@media screen { :root[data-tema="escuro"] .retro-numero { color: var(--tinta); } }
 
 /* ---------------------------------------------------------------- resumo para a imprensa (página de estado) */
 .kit-imprensa { padding: 20px; }
@@ -1944,7 +1994,7 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
 .friso { --w: clamp(236px, 40vw, 470px); --ceu-alto: var(--topo-fundo); --ceu-baixo: #14573f; --sol: #1f6a50; --longe: #0c3a2c; --massa: #06261c;
   position: relative; height: calc(var(--w) * .35 + 6px); overflow-x: clip;
   background: linear-gradient(180deg, var(--ceu-alto) 0%, var(--ceu-alto) 22%, var(--ceu-baixo) 100%); border-bottom: 1px solid var(--latao); }
-.friso svg { position: absolute; right: max(18px, calc((100% - 1200px) / 2 + 24px)); bottom: calc(var(--w) * -.0667 - 1px);
+.friso > svg { position: absolute; right: max(18px, calc((100% - 1200px) / 2 + 24px)); bottom: calc(var(--w) * -.0667 - 1px);
   width: var(--w); height: auto; overflow: visible; pointer-events: none; }
 .friso .sol { fill: var(--sol); }
 .friso .longe { fill: var(--longe); }
@@ -1961,7 +2011,148 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
 .friso .cabo { fill: none; stroke: var(--massa); stroke-width: 12; stroke-linecap: round; }
 .friso + .cont > .trilha:first-child { padding-top: 26px; }
 @media screen and (prefers-color-scheme: dark) {
-  .friso { --ceu-baixo: #10402f; --sol: #185441; --longe: #082a20; --massa: #040d0a; }
-  .friso .papel { fill: #c9dacf; }
+  :root:not([data-tema="claro"]) .friso { --ceu-baixo: #10402f; --sol: #185441; --longe: #082a20; --massa: #040d0a; }
+  :root:not([data-tema="claro"]) .friso .papel { fill: #c9dacf; }
+}
+@media screen {
+  :root[data-tema="escuro"] .friso { --ceu-baixo: #10402f; --sol: #185441; --longe: #082a20; --massa: #040d0a; }
+  :root[data-tema="escuro"] .friso .papel { fill: #c9dacf; }
 }
 @media print { .friso { display: none; } }
+
+/* ---------------------------------------------------------------- tema: claro, escuro ou o do sistema
+   O botão no fim do cabeçalho abre as três opções; no celular elas ficam dentro do Mais. A escolha vira data-tema no
+   <html> (app.js, iniciarTema): os blocos do escuro, acima, valem para o escuro do sistema, menos quando a pessoa
+   escolheu o claro, e para o escuro escolhido */
+.tema { position: relative; flex: none; }
+.tema-botao { display: grid; place-items: center; width: 40px; height: 40px; padding: 0; background: transparent; color: var(--topo-tinta); cursor: pointer;
+  border: 1px solid color-mix(in srgb, var(--topo-tinta) 30%, transparent); border-radius: var(--raio-m); transition: border-color .15s; }
+.tema-botao:hover, .tema-botao[aria-expanded="true"] { border-color: var(--latao); }
+.tema-botao svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.tema-botao .meia { fill: currentColor; stroke: none; }
+.tema-opcoes { display: inline-flex; gap: 2px; padding: 4px; background: var(--papel); border: 1px solid var(--linha-forte); border-radius: var(--raio-m); }
+.tema > .tema-opcoes { position: absolute; right: 0; top: calc(100% + 10px); z-index: 30; box-shadow: var(--sombra-alta); }
+.tema-opcoes button { min-height: 40px; padding: 8px 14px; border: 0; border-radius: var(--raio-p); background: none; color: var(--tinta-2);
+  font: 500 15px/1.1 var(--texto); white-space: nowrap; cursor: pointer; }
+.tema-opcoes button:hover { color: var(--tinta); }
+.tema-opcoes button[aria-pressed="true"] { background: var(--verde-forte); color: var(--sobre-verde); font-weight: 600; }
+.tema-opcoes :focus-visible { outline-color: var(--verde); }
+@media (max-width: 760px) {
+  .tema { display: none; }
+  .menu-mais p + .tema-no-mais { display: flex; margin: 0 10px 4px; }
+  .menu-mais ul + p { margin-top: 12px; }
+  .tema-no-mais button { flex: 1; min-height: 44px; }
+}
+@media print { .tema { display: none; } }
+
+/* ---------------------------------------------------------------- capa, capítulo I: o achador das duas casas
+   À esquerda (no celular, em cima), o estado: as 27 siglas e o mapa, que abre pelo botão. À direita, a lista única,
+   com os botões Todos / Deputados / Senadores e a marca da casa em cada linha. Os cartões ficam em papel sobre o verde */
+.achar { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; align-items: start; margin-top: 34px; }
+.achar-rotulo { margin: 0 0 12px; font: 700 21px/1.1 var(--display); letter-spacing: .04em; text-transform: uppercase; color: var(--topo-tinta); }
+.achar .ufs { grid-template-columns: repeat(9, minmax(0, 1fr)); }
+.ufs a[aria-pressed="true"] { background: var(--topo-tinta); color: var(--topo-fundo); box-shadow: inset 0 -3px 0 var(--latao); }
+.achar-acoes { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin: 14px 0 0; }
+.botao-mapa { display: inline-flex; align-items: center; gap: 9px; min-height: 46px; padding: 8px 18px; background: transparent; color: var(--topo-tinta); cursor: pointer;
+  border: 1px solid var(--topo-tinta-2); border-radius: var(--raio-m); font: 600 16px/1.2 var(--texto); transition: background .15s, color .15s, border-color .15s; }
+.botao-mapa:hover, .botao-mapa[aria-expanded="true"] { background: var(--topo-tinta); border-color: var(--topo-tinta); color: var(--topo-fundo); }
+.botao-mapa svg { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; }
+.cap-verde .achar-acoes .voltar { min-height: 44px; background: transparent; color: var(--topo-tinta); border: 1px solid var(--topo-linha); }
+.cap-verde .achar-acoes .voltar:hover { background: transparent; border-color: var(--latao); }
+.achar .mapa-cartao { position: static; margin-top: 16px; }
+/* dentro dos cartões, as cores voltam a ser as do papel (no capítulo verde, links e foco são claros) */
+.achar .cartao, .graficos-achar .cartao { color: var(--tinta); }
+.achar .cartao a, .graficos-achar .cartao a { color: var(--verde); }
+.achar .cartao a:hover, .graficos-achar .cartao a:hover { color: var(--verde-forte); }
+.achar .cartao a.linha, .achar .cartao a.linha:hover { color: var(--tinta); }
+.achar .cartao :focus-visible, .graficos-achar .cartao :focus-visible { outline-color: var(--verde); }
+.achar .cartao ::selection, .graficos-achar .cartao ::selection { background: var(--verde-forte); color: var(--sobre-verde); }
+.graficos-achar { margin-top: 22px; }
+.graficos-achar .cartao > h3 { font-size: 22px; line-height: 1.1; letter-spacing: .01em; text-transform: uppercase; }
+/* os botões das casas: um trilho de três, o escolhido em verde */
+.casas { display: flex; margin: 0 0 18px; border: 1px solid var(--linha-forte); border-radius: var(--raio-m); overflow: hidden; }
+.casas button { flex: 1 1 0; display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 46px; padding: 8px 6px; border: 0;
+  background: var(--papel); color: var(--tinta-2); font: 600 15.5px/1.1 var(--texto); cursor: pointer; transition: background .15s, color .15s; }
+.casas button + button { border-left: 1px solid var(--linha-forte); }
+.casas button:hover { color: var(--tinta); }
+.casas button[aria-pressed="true"] { background: var(--verde-forte); color: var(--sobre-verde); }
+.casas button:focus-visible { outline-offset: -3px; }
+.casas svg, .casa-rotulo svg { width: 19px; height: 19px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+/* a marca da casa em cada linha: verde para a Câmara, latão para o Senado */
+.casa-marca { display: inline-block; margin-right: 3px; padding: 0 7px; border-radius: 3px; font: 700 11.5px/1.65 var(--texto); letter-spacing: .07em;
+  text-transform: uppercase; vertical-align: 1px; }
+.casa-d { background: var(--verde-suave); color: var(--verde-forte); }
+.casa-s { background: color-mix(in srgb, var(--latao) 24%, var(--papel)); color: color-mix(in srgb, var(--latao) 42%, var(--tinta)); }
+.lista-achar .linha { grid-template-columns: 44px minmax(0, 1fr) auto; }
+.lista-achar .linha .foto { width: 44px; height: 44px; object-fit: cover; object-position: 50% 18%; }
+.partidos-caixa { margin-top: 12px; }
+.partidos-caixa > summary { display: inline-flex; align-items: center; min-height: 40px; cursor: pointer; font-weight: 600; font-size: 15px; color: var(--tinta-2); }
+.partidos-caixa > summary:hover { color: var(--tinta); }
+.partidos-caixa .partidos { margin-top: 4px; }
+@media (min-width: 981px) {
+  .achar { grid-template-columns: minmax(0, 1fr) minmax(400px, 1.08fr); gap: 26px; }
+  .achar-onde { position: sticky; top: calc(var(--topo-h) + 20px); }
+}
+@media (max-width: 560px) { .achar .ufs { grid-template-columns: repeat(6, minmax(0, 1fr)); } .achar { margin-top: 26px; } }
+/* II: o nome da casa sobre cada barra e cada nuvem de pontos */
+.casa-rotulo { display: flex; align-items: center; gap: 8px; margin: 0 0 10px; font: 700 19px/1.1 var(--display); letter-spacing: .05em; text-transform: uppercase;
+  color: var(--tinta); }
+.casa-rotulo svg { color: var(--verde); }
+.casa-rotulo .num { margin-left: auto; font: 600 15px/1 var(--mono); letter-spacing: 0; color: var(--tinta-2); }
+.casa-rotulo-s { margin-top: 34px; }
+.casa-rotulo-s svg { color: var(--latao); }
+
+/* ---------------------------------------------------------------- fornecedores: a lista em tabela
+   Uma coluna para cada número (notas, média por nota, maior nota, total); o título da coluna que ordena fica marcado */
+.tabela-forn th[data-ordem] { cursor: pointer; white-space: nowrap; }
+.tabela-forn th[data-ordem]:hover { color: var(--tinta); }
+.tabela-forn th[aria-sort="descending"] { color: var(--tinta); box-shadow: inset 0 -3px 0 var(--latao); }
+.tabela-forn .forn-quem { min-width: 230px; font-weight: 600; overflow-wrap: anywhere; }
+.tabela-forn .forn-quem .cat { font-weight: 400; }
+.tabela-forn .forn-total { font-weight: 700; color: var(--tinta); }
+.tabela-forn td.vazio { padding: 32px 16px; text-align: center; }
+#fo-mais { margin-top: 12px; }
+
+/* ---------------------------------------------------------------- página de estado: a bandeira toma o friso
+   A bandeira do estado, redesenhada nos tons do site (frisos.da_bandeira), ocupa a faixa inteira: ela no meio, na
+   proporção dela, e as faixas das bordas seguindo até as pontas. O véu de cima a liga ao verde do cabeçalho */
+.friso:has(> .fb-meio) { display: flex; background: var(--topo-fundo); }
+.friso > svg.fb-lado, .friso > svg.fb-meio { position: static; width: auto; height: 100%; overflow: hidden; }
+.friso > svg.fb-lado { flex: 1 1 0; min-width: 0; }
+.friso > svg.fb-meio { flex: none; aspect-ratio: 99.2 / 70; }
+.friso:has(> .fb-meio)::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--topo-fundo) 34%, transparent) 0%, transparent 30%); }
+
+/* ---------------------------------------------------------------- conferir na fonte
+   Embaixo da lista de despesas do deputado e das notas do senador: a consulta oficial, ano a ano */
+.conferir-fonte { margin: 0; padding: 14px 24px 18px; border-top: 1px solid var(--linha); font-size: 14.5px; line-height: 1.6; color: var(--tinta-2); }
+.conferir-fonte b { color: var(--tinta); }
+.conferir-fonte a { display: inline-block; padding-block: 4px; }
+
+/* ---------------------------------------------------------------- o que a norma permite (regras_legais.py)
+   As regras de cada tipo de despesa, com o artigo de cada uma: um quadro para a Câmara e outro para o Senado na página
+   do tipo de gasto; na página dos senadores, um quadro que abre para cada tipo */
+.regras-casa { padding-bottom: 18px; }
+.regras-casa ul, .regras-gerais ul, .regras-tipo ul { margin: 14px 0 0; padding: 0 24px 0 44px; display: grid; gap: 10px; font-size: 16px; line-height: 1.5; }
+.regras-casa li::marker, .regras-gerais li::marker, .regras-tipo li::marker { color: var(--latao); }
+.regras-casa .nota-tabela { margin: 16px 24px 0; }
+.regras-base { display: inline-block; font: 600 13.5px/1.4 var(--texto); letter-spacing: .01em; color: var(--tinta-2); }
+.regras-gerais { margin-top: 18px; border-top: 1px solid var(--linha-forte); border-bottom: 1px solid var(--linha-forte); }
+.regras-gerais > summary, .regras-tipo > summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 52px; padding: 10px 2px;
+  cursor: pointer; font-weight: 600; }
+.regras-gerais > summary:hover, .regras-tipo > summary:hover { color: var(--verde); }
+.regras-gerais > summary, .regras-tipo > summary { list-style: none; }
+.regras-gerais > summary::-webkit-details-marker, .regras-tipo > summary::-webkit-details-marker { display: none; }
+/* a seta do quadro recolhido: aponta para baixo fechado, para cima aberto */
+.regras-gerais > summary::after, .regras-tipo > summary::after { content: ""; flex: none; width: 9px; height: 9px; margin: 0 6px 4px 4px;
+  border-right: 2px solid var(--tinta-3); border-bottom: 2px solid var(--tinta-3); rotate: 45deg; transition: rotate .2s var(--suave); }
+.regras-gerais[open] > summary::after, .regras-tipo[open] > summary::after { rotate: 225deg; margin-bottom: -4px; }
+.regras-tipo > summary .regras-base { margin-left: auto; }
+.regras-gerais h4 { margin: 12px 0 0; font: 700 17px/1.1 var(--display); letter-spacing: .05em; text-transform: uppercase; }
+.regras-gerais ul { padding: 0 8px 0 22px; margin-bottom: 20px; font-size: 15.5px; }
+.regras-gerais .duas { gap: 6px 34px; }
+.regras-lista { padding: 6px 24px 18px; }
+.regras-tipo + .regras-tipo { border-top: 1px solid var(--linha); }
+.regras-tipo > summary { padding-inline: 0; flex-wrap: wrap; }
+.regras-tipo ul { padding: 0 0 0 22px; margin: 2px 0 18px; font-size: 15.5px; }
+.regras-lista .nota-tabela { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--linha); }

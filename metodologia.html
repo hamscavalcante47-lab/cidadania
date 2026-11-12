@@ -11,19 +11,20 @@
 <meta property="og:site_name" content="De Olho na Cota">
 <meta property="og:locale" content="pt_BR">
 <meta name="twitter:card" content="summary">
-<meta name="theme-color" content="#0b3b2d" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0a2a20" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#0b3b2d" media="(prefers-color-scheme: light)" data-tema="claro">
+<meta name="theme-color" content="#0a2a20" media="(prefers-color-scheme: dark)" data-tema="escuro">
 <link rel="canonical" href="https://hamscavalcante47-lab.github.io/cidadania/metodologia.html">
 <meta property="og:url" content="https://hamscavalcante47-lab.github.io/cidadania/metodologia.html">
 
 <script>if (navigator.connection && navigator.connection.saveData || matchMedia("(prefers-reduced-data: reduce)").matches) document.documentElement.classList.add("economia")</script>
+<script>try { var t = localStorage.getItem("tema"); if (t === "claro" || t === "escuro") document.documentElement.dataset.tema = t } catch (e) {}</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M5%202h14v20l-2.33-1.6-2.34%201.6-2.33-1.6-2.33%201.6-2.34-1.6L5%2022z%22%20fill%3D%22%230b3b2d%22/%3E%3Cpath%20d%3D%22M8.5%207.5h7M8.5%2011h7M8.5%2014.5h4%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="assets/estilo.css?v=9c07ae69">
+<link rel="stylesheet" href="assets/estilo.css?v=54817ebb">
 </head>
-<body data-pagina="metodologia" data-raiz="" data-versao="00b05dfcd2" data-alertas="0" data-equipe="0" data-empresas="1">
+<body data-pagina="metodologia" data-raiz="" data-versao="eb6bf04d33" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo"><div class="cont">
   <a class="marca" href="index.html"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0b3b2d"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>De Olho na Cota<small>deputados e senadores, nota por nota</small></span></a>
@@ -36,6 +37,10 @@
     <ul class="resultados" id="busca-resultados" role="listbox" hidden></ul>
   </div>
   <nav aria-label="Principal"><a href="index.html">Início</a><a href="ranking.html">Deputados</a><a href="senadores.html">Senadores</a><a href="gastos.html">Gastos</a><a href="metodologia.html" aria-current="page">Como funciona</a></nav>
+  <div class="tema" id="tema" hidden>
+    <button type="button" class="tema-botao" aria-expanded="false" aria-controls="tema-opcoes" title="Tema: claro, escuro ou o do sistema"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path class="meia" d="M12 3.5a8.5 8.5 0 0 1 0 17z"/></svg><span class="vh">Tema da página</span></button>
+    <div class="tema-opcoes" id="tema-opcoes" role="group" aria-label="Tema da página" hidden><button type="button" data-tema="claro" aria-pressed="false">Claro</button><button type="button" data-tema="escuro" aria-pressed="false">Escuro</button><button type="button" data-tema="sistema" aria-pressed="true">Sistema</button></div>
+  </div>
 </div></header>
 <main id="conteudo"><div class="friso" aria-hidden="true"><svg viewBox="0 0 720 300" focusable="false"><path class="sol" d="M140 252a110 110 0 0 1 220 0z"/><path class="halo" d="M110 252a140 140 0 0 1 280 0M70 252a180 180 0 0 1 360 0"/><path class="nuvem" d="M-260 96h150M-520 58h230M-640 128h90M-980 84h180M-1260 116h120M-1500 66h200M-60 40h90"/><g class="massa"><path d="M-80 252l400-66v66z"/><rect x="320" y="186" width="2220" height="66"/><path d="M372 186a74 50 0 0 1 148 0z"/><path d="M560 140h150c-8 30-36 46-75 46s-67-16-75-46z"/></g><path class="fio" d="M-80 240l400-66M320 198h2220M350 206V252M380 206V252M410 206V252M440 206V252M470 206V252M500 206V252M530 206V252M560 206V252M590 206V252M620 206V252M650 206V252M680 206V252M710 206V252M740 206V252M770 206V252M800 206V252M830 206V252M860 206V252M890 206V252M920 206V252M950 206V252M980 206V252M1010 206V252M1040 206V252M1070 206V252M1100 206V252M1130 206V252M1160 206V252M1190 206V252M1220 206V252M1250 206V252M1280 206V252M1310 206V252M1340 206V252M1370 206V252M1400 206V252M1430 206V252M1460 206V252M1490 206V252M1520 206V252M1550 206V252M1580 206V252M1610 206V252M1640 206V252M1670 206V252M1700 206V252M1730 206V252M1760 206V252M1790 206V252M1820 206V252M1850 206V252M1880 206V252M1910 206V252M1940 206V252M1970 206V252M2000 206V252M2030 206V252M2060 206V252M2090 206V252M2120 206V252M2150 206V252M2180 206V252M2210 206V252M2240 206V252M2270 206V252M2300 206V252M2330 206V252M2360 206V252M2390 206V252M2420 206V252M2450 206V252M2480 206V252M2510 206V252M560 140h150"/><path class="agua" d="M40 266h120M210 266h64M300 273h150M480 266h90M600 273h80M120 281h90M380 283h110M-160 266h110M-330 273h80M-520 266h130M-760 273h90"/></svg></div><div class="cont">
 <p class="ouvir-linha"><button type="button" class="ouvir" id="ouvir" title="Ler em voz alta" hidden><svg viewBox="0 0 24 24" aria-hidden="true">
@@ -46,7 +51,7 @@
   <h1>Como funciona</h1>
   <p class="lead">De onde vêm os dados, o que eles mostram e o que não mostram.</p>
   <nav class="sumario" aria-label="Nesta página"><a href="#cota">A cota</a><a href="#fontes">Fontes</a>
-    <a href="#limites">Limites</a><a href="#mandatos">Titulares e suplentes</a><a href="#presenca">Presença</a><a href="#glossario">Glossário</a><a href="#correcoes">Correções</a>
+    <a href="#limites">Limites</a><a href="#mandatos">Titulares e suplentes</a><a href="#sem-nota">Despesas sem nota</a><a href="#conferir">Como conferir</a><a href="#glossario">Glossário</a><a href="#correcoes">Correções</a>
     <a href="relatorios.html">Dados e planilhas</a><a href="sobre.html">Quem faz</a></nav>
 
   <h2 id="cota">O que é a cota parlamentar</h2>
@@ -59,8 +64,7 @@
     <li><strong>Câmara dos Deputados:</strong> as 848.487 despesas da legislatura iniciada em 2023, com o link do documento de cada uma.</li>
     <li><strong>Receita Federal:</strong> o cadastro das empresas fornecedoras (nome, sede e atividade).</li>
     <li><strong>TSE:</strong> os votos de 2022 por município, na página <a href="voto-da-cidade.html">O voto da sua cidade</a>.</li>
-    <li><strong>Presença em Plenário:</strong> a frequência de cada deputado em cada dia com sessão deliberativa, publicada
-      pela Câmara.</li>
+    
     <li><strong>Senado Federal:</strong> as 79.625 despesas da cota dos senadores (CEAPS) no mesmo período, com o link do documento de cada uma. O Senado publica menos que a Câmara: veja <a href="senadores.html#o-que-o-senado-nao-publica">o que o Senado não publica</a>.</li>
   </ul>
 
@@ -84,20 +88,51 @@
   Quando dois deputados do estado se afastam no mesmo dia, a página não aponta nenhum.</p>
   <p>O Senado tem 81 cadeiras, e 102 senadores aparecem nas despesas no mesmo período. Cada senador é eleito com dois suplentes, que assumem quando o titular se afasta ou deixa o mandato e passam a usar a cota; dos que aparecem aqui, 27 são suplentes. A página de cada senador diz se ele é titular ou suplente e se está em exercício, segundo o cadastro do Senado. No Senado o suplente é da chapa do titular, então a cadeira que ele ocupa não precisa ser deduzida.</p>
 
-  <h2 id="presenca">Presença em Plenário</h2>
-  <p>Para cada dia com sessão deliberativa, a Câmara registra se o deputado em exercício esteve presente, faltou com
-  justificativa aceita (licença para tratamento de saúde, missão autorizada, decisão da Mesa, obrigação
-  político-partidária) ou faltou sem justificativa. A página de cada deputado soma esses dias por mês e por ano, lista
-  as datas das faltas sem justificativa e leva ao registro oficial; o <a href="ranking.html#per=&amp;o=faltas">ranking</a>
-  ordena por faltas ou por presença. Só contam os dias em que o deputado estava no exercício do mandato, então suplentes
-  e titulares licenciados são comparados pelo tempo que de fato exerceram.</p>
-  <p>Quando o deputado falta a uma sessão da Câmara com justificativa mas vai a outra sessão do mesmo dia, como uma
-  sessão conjunta do Congresso, a Câmara marca o dia como “Presença (~)”; aqui ele conta como presença, igual ao
-  registro oficial. Dias que tiveram só sessão conjunta do Congresso (um em 2024) não estão nos dados que a Câmara
-  publica por dia; por isso a página oficial pode mostrar um dia de sessão a mais por ano. “Sem justificativa” é o
-  que consta no registro oficial: diz que a Câmara não recebeu ou não aceitou um motivo, não por que o deputado faltou.</p>
-  <p>Dos senadores, o site ainda não traz a presença: os números de Plenário daqui são só os da Câmara
-  dos Deputados.</p>
+  
+  <h2 id="sem-nota">Por que algumas despesas não têm nota</h2>
+  <p>Nem toda despesa da cota vem com um documento que se possa abrir. Das 848.487 despesas da Câmara publicadas aqui, 271.173 (32%) vêm sem link de documento nos dados abertos. Quase todas são de tipos em que a nota não
+  existe ou não é publicada:</p>
+  <ul>
+    <li><strong>Passagens aéreas emitidas pela Câmara</strong> (217.769): é a própria Câmara que compra o bilhete da
+      companhia aérea e desconta o valor da cota. Os dados trazem só o número do bilhete, que aparece na coluna Documento.</li>
+    <li><strong>Telefonia</strong> (49.817): ramais, celulares funcionais e contas de operadora que a Câmara lança na
+      cota sem publicar o documento.</li>
+    <li><strong>Complementação do auxílio-moradia</strong> (2.965): um acerto entre a cota e o auxílio-moradia, sem
+      nota fiscal.</li>
+    <li><strong>Outros tipos</strong> (622): despesas comuns (escritório, táxi, combustível, divulgação) que a Câmara publicou sem o link do documento.</li>
+  </ul>
+  <p>Há também o link que existe e não abre: em 286 documentos que o De Olho na Cota tentou abrir, o site da Câmara respondeu que o arquivo não foi encontrado. O link continua na página do deputado, porque o erro é do servidor da Câmara e pode ser passageiro.</p>
+  <p>No Senado, toda despesa de 2023 em diante traz um link de documento, mas parte deles não abre nada: o Senado responde vazio. Dos 24.384 documentos que o De Olho na Cota já abriu, isso aconteceu em 2.904 (12%), quase todos de faturas de passagens. Nessas despesas, a página do senador diz que o arquivo não foi publicado.</p>
+  <p>Despesa sem nota não é, por si, irregular. O valor, a data e o fornecedor continuam públicos, e dá para conferi-los
+  na fonte, como explicado a seguir.</p>
+
+  <h2 id="conferir">Como conferir uma nota na Câmara ou no Senado</h2>
+  <p>Tudo o que está aqui pode ser conferido no site da casa que pagou a despesa. O caminho mais curto é o link de cada
+  linha; o outro é refazer a consulta na fonte.</p>
+  <h3>Na Câmara dos Deputados</h3>
+  <ol>
+    <li>Na página do deputado aqui no De Olho na Cota, vá a <em>Todas as despesas</em> e toque em <em>ver nota</em>, na
+      linha da despesa: o documento abre no site da Câmara (camara.leg.br).</li>
+    <li>Para conferir sem passar por aqui, toque em <em>Conferir na Câmara</em>, embaixo da mesma lista, e escolha o ano.
+      Ele abre a consulta oficial da cota daquele deputado. O mesmo caminho existe na página do deputado em
+      camara.leg.br: na seção <em>Cota parlamentar</em>, o link <em>Detalhamento</em>.</li>
+    <li>Compare o nome do deputado, o CNPJ ou CPF do fornecedor, o número e a data do documento e o valor. Aqui o valor é
+      o reembolsado; quando a Câmara não pagou a nota inteira, a linha mostra também o valor da nota e a glosa.</li>
+    <li>Nas passagens emitidas pela Câmara não há nota: confira pelo número do bilhete.</li>
+  </ol>
+  <h3>No Senado Federal</h3>
+  <ol>
+    <li>Na página do senador aqui no De Olho na Cota, vá a <em>Todas as notas</em> e toque em <em>Documento</em>, na linha
+      da despesa: o arquivo abre no site do Senado (senado.leg.br).</li>
+    <li>Para conferir sem passar por aqui, toque em <em>Conferir no Senado</em>, embaixo da mesma lista, e escolha o ano.
+      Ele abre a página de transparência do senador no site do Senado: em <em>Cotas para Exercício da Atividade
+      Parlamentar</em>, escolha o tipo de despesa e abra o detalhe mês a mês.</li>
+    <li>Compare o fornecedor, a data, o número do documento e o valor reembolsado. O Senado não informa o valor da nota
+      nem a glosa.</li>
+  </ol>
+  <p>Se o que está aqui não bater com a fonte, <a href="#correcoes">avise</a>: corrigimos.</p>
+
+  
 
   <h2 id="glossario">Glossário</h2>
   <dl class="glossario"><div><dt>Cota parlamentar (CEAP)</dt><dd>Cota para o Exercício da Atividade Parlamentar: valor mensal que a Câmara reembolsa a cada deputado por gastos do mandato, mediante nota fiscal. Não inclui salário nem a verba de gabinete.</dd></div><div><dt>Limite mensal da cota</dt><dd>Varia por estado, porque inclui as passagens até Brasília. O saldo não usado se acumula dentro do mesmo ano; membros da Mesa e líderes podem ter valores maiores.</dd></div><div><dt>Valor reembolsado</dt><dd>O valor líquido da despesa: o valor da nota menos as glosas (partes que a Câmara recusou pagar).</dd></div><div><dt>Glosa</dt><dd>A parte de uma nota que a Câmara não reembolsou. Acontece, por exemplo, quando o gasto passa do limite daquele tipo de despesa ou quando a nota traz itens que a cota não cobre. O valor da glosa vem dos dados abertos da Câmara (campo vlrGlosa), que não dizem o motivo de cada caso. Por isso o valor que o site mostra pode ser menor que o valor impresso na nota.</dd></div><div><dt>Passagem aérea emitida pela Câmara, RPA e reembolso</dt><dd>Três tipos de gasto com passagens: as compradas pelo sistema da Câmara (SIGEPA), as registradas como RPA (emitidas por Azul, Gol e Latam) e as pagas pelo deputado e reembolsadas depois. Desde agosto de 2025, o arquivo anual de dados abertos da Câmara não traz mais as passagens do SIGEPA, embora o portal dela continue a mostrá-las na página de cada deputado: daí em diante o site as busca na API da Câmara, que não informa o passageiro nem o trecho.</dd></div><div><dt>Titular, suplente e efetivado</dt><dd>Titular é quem foi eleito para a cadeira. Suplente é o próximo da lista, que assume quando o titular se afasta e sai quando ele volta. Efetivado é o suplente que ficou com a cadeira de vez, porque o titular renunciou, morreu ou perdeu o mandato.</dd></div><div><dt>Verba de gabinete</dt><dd>Dinheiro separado da cota, usado só para pagar a equipe do gabinete (secretários parlamentares).</dd></div><div><dt>NF-e, NFC-e e chave de acesso</dt><dd>Notas fiscais eletrônicas. A chave de acesso tem 44 dígitos e traz o CNPJ de quem emitiu, o mês de emissão, o número da nota e um dígito verificador.</dd></div><div><dt>CNPJ, CNAE e MEI</dt><dd>CNPJ é o cadastro da empresa na Receita Federal; CNAE, o código da atividade econômica; MEI, o microempreendedor individual, que só pode faturar até R$ 81 mil por ano.</dd></div></dl>
@@ -113,7 +148,8 @@
 
 </div></main>
 <nav class="barra-secoes" aria-label="Seções do site"><a href="index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 11 12 4l8.5 7M5.5 9.5V20h4.5v-6h4v6h4.5V9.5"/></svg><span>Início</span></a><a href="ranking.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5h18a9 6.5 0 0 1-18 0ZM2 19.5h20"/></svg><span>Deputados</span></a><a href="senadores.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 16a7.5 6.5 0 0 1 15 0ZM2 19.5h20"/></svg><span>Senadores</span></a><a href="gastos.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V11M12 20V4M19 20v-6M3 20h18"/></svg><span>Gastos</span></a><button type="button" class="barra-mais marcado" aria-expanded="false" aria-controls="menu-mais"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Mais</span></button></nav>
-<div class="menu-mais" id="menu-mais" hidden><p>Mais seções</p><ul><li><a href="metodologia.html" aria-current="page">Como funciona</a></li><li><a href="comparar.html">Comparar gabinetes</a></li><li><a href="voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="retrospectiva.html">O ano de cada gabinete</a></li><li><a href="relatorios.html">Dados e planilhas</a></li><li><a href="sobre.html">Sobre o projeto</a></li></ul></div>
+<div class="menu-mais" id="menu-mais" hidden><p>Mais seções</p><ul><li><a href="metodologia.html" aria-current="page">Como funciona</a></li><li><a href="comparar.html">Comparar gabinetes</a></li><li><a href="voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="retrospectiva.html">O ano de cada gabinete</a></li><li><a href="relatorios.html">Dados e planilhas</a></li><li><a href="sobre.html">Sobre o projeto</a></li></ul>
+  <p id="tema-rotulo">Tema</p><div class="tema-opcoes tema-no-mais" role="group" aria-labelledby="tema-rotulo"><button type="button" data-tema="claro" aria-pressed="false">Claro</button><button type="button" data-tema="escuro" aria-pressed="false">Escuro</button><button type="button" data-tema="sistema" aria-pressed="true">Sistema</button></div></div>
 <footer class="rodape"><div class="cont">
   <div class="rodape-grade sem-imprensa">
     <div class="rodape-sobre">
@@ -130,6 +166,6 @@
   </div>
   <p class="rodape-base">Dados atualizados em 11/11/2026 · <a href="metodologia.html">Como funciona</a> · <a href="metodologia.html#glossario">Glossário</a> · <a href="acessibilidade.html">Acessibilidade</a> · <a href="sobre.html">Sobre</a></p>
 </div></footer>
-<script src="assets/app.js?v=9c07ae69" defer></script>
+<script src="assets/app.js?v=54817ebb" defer></script>
 </body>
 </html>

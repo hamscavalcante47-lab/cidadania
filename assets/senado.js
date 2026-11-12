@@ -1,8 +1,9 @@
 "use strict";
-// Páginas do Senado: o filtro da lista dos senadores (senadores.html) e a lista das notas de cada senador
-// (senador/<código>.html), lida de dados/sen/<código>.json. Carregado só nessas páginas, antes do app.js, que chama
-// Senado.iniciarLista ou Senado.iniciarSenador; usa os utilitários do app.js (esc, brl2, brlCurto, json, $).
-// Os dados de cada nota (d): [ano, data, tipo, fornecedor, número do documento, valor, número do PDF ou null].
+// Página de cada senador (senador/<código>.html): a lista das notas, lida de dados/sen/<código>.json. Carregado só
+// nela, antes do app.js, que chama Senado.iniciarSenador; usa os utilitários do app.js (esc, brl2, json, $). O ranking
+// dos senadores, Comparar e O ano de cada gabinete usam as telas dos deputados (app.js e retrospectiva.js).
+// Os dados de cada nota (d): [ano, data, tipo, fornecedor, número do documento, valor, número do PDF]. O número do PDF
+// é null quando a despesa não tem link e 0 quando o link existe mas o Senado não publicou o arquivo.
 (function (exportar) {
 
 const POR_VEZ = 50;
@@ -31,43 +32,12 @@ function csvNotas(dados, notas) {
   const linhas = [["Ano", "Data", "Tipo de gasto", "Fornecedor", "CNPJ/CPF", "Documento", "Valor reembolsado", "Link do documento"]];
   for (const n of notas) {
     const [nome, doc] = dados.f[n[3]];
-    linhas.push([n[0], n[1], dados.c[n[2]], nome, doc, n[4], String(n[5]).replace(".", ","), n[6] == null ? "" : dados.u + n[6]]);
+    linhas.push([n[0], n[1], dados.c[n[2]], nome, doc, n[4], String(n[5]).replace(".", ","), n[6] ? dados.u + n[6] : ""]);
   }
   return "﻿" + linhas.map(l => l.map(campo).join(";")).join("\r\n");
 }
 
-// a ordem da lista dos senadores: pelo nome (como o gerador escreveu) ou pelo maior gasto
-function ordenarSenadores(itens, ordem) {
-  return ordem === "gasto" ? [...itens].sort((a, b) => b.t - a.t || a.i - b.i) : [...itens].sort((a, b) => a.i - b.i);
-}
-
-// ------------------------------------------------------------------ páginas
-
-function iniciarLista() {
-  const lista = $("#sen-linhas");
-  if (!lista) return;
-  const itens = [...lista.children].map((li, i) => ({ li, i, t: Number(li.dataset.t), uf: li.dataset.uf, x: li.dataset.x === "1", b: li.dataset.b }));
-  const busca = $("#sen-busca"), uf = $("#sen-uf"), situacao = $("#sen-situacao"), ordem = $("#sen-ordem");
-  const vazio = Object.assign(document.createElement("li"), { className: "vazio", textContent: "Nenhum senador com esses filtros. Escolha “Todos com despesas” ou limpe a busca." });
-  function aplicar() {
-    const termos = norm(busca.value.trim()).split(/\s+/).filter(Boolean);
-    let total = 0, n = 0;
-    for (const it of ordenarSenadores(itens, ordem.value)) {
-      const ve = (!uf.value || it.uf === uf.value) && (situacao.value === "todos" || it.x) && termos.every(t => it.b.includes(t));
-      it.li.hidden = !ve;
-      lista.append(it.li);
-      if (ve) { total += it.t; n++; }
-    }
-    vazio.remove();
-    if (!n) lista.append(vazio);
-    $("#sen-resumo").textContent = n ? `${n} senador${n > 1 ? "es" : ""} · ${brlCurto(total)} desde fevereiro de 2023` : "Nenhum senador com esses filtros";
-  }
-  [busca, uf, situacao, ordem].forEach(c => c.addEventListener(c === busca ? "input" : "change", aplicar));
-  // senadores.html#uf=SP (o link da página do estado e de O voto da sua cidade) já abre a lista no estado
-  const pedida = new URLSearchParams(location.hash.slice(1)).get("uf");
-  if (pedida && [...uf.options].some(o => o.value === pedida.toUpperCase())) uf.value = pedida.toUpperCase();
-  aplicar();
-}
+// ------------------------------------------------------------------ página
 
 async function iniciarSenador() {
   const alvo = $("#sn-lista");
@@ -89,6 +59,7 @@ async function iniciarSenador() {
     alvo.innerHTML = notas.slice(0, limite).map(n => {
       const [nome, doc] = dados.f[n[3]];
       const pdf = n[6] == null ? `<span class="ns-sem">sem documento</span>`
+        : n[6] === 0 ? `<span class="ns-sem" title="O link existe, mas o Senado responde vazio">arquivo não publicado pelo Senado</span>`
         : `<a class="ns-pdf sai" href="${esc(dados.u + n[6])}" target="_blank" rel="noopener">Documento</a>`;
       return `<li class="nota-sen"><div class="ns-texto"><span class="ns-forn">${esc(nome)}</span>
         <span class="ns-meta">${esc(n[1] || "sem data")}${n[4] ? ` · nº&nbsp;${esc(n[4])}` : ""}</span>
@@ -118,5 +89,5 @@ async function iniciarSenador() {
   aplicar();
 }
 
-exportar.Senado = { iniciarLista, iniciarSenador, filtrarNotas, csvNotas, ordenarSenadores };
+exportar.Senado = { iniciarSenador, filtrarNotas, csvNotas };
 })(typeof module === "object" ? module.exports : window);

@@ -34,6 +34,9 @@ const linkEmpresa = (digitos, fixa) => { const u = enderecoEmpresa(digitos, fixa
 // a chave da equipe dos gabinetes (PUBLICAR_EQUIPE, no gerador): com data-equipe="0", o perfil sai sem a tabela da
 // equipe e sem a chave 'e' nos dados, e a busca não tem funcionários (sem alertas, o índice de pessoas nem existe)
 const EQUIPE = document.body.dataset.equipe !== "0";
+// a chave da presença em Plenário (PUBLICAR_PRESENCA, no gerador): com data-presenca="0", o ranking sai sem as ordens de
+// faltas, Comparar sem as linhas de presença, e os arquivos de presença (presenca.json, 'pr' e as sessões) nem existem
+const PRESENCA = document.body.dataset.presenca !== "0";
 const SEM_MOVIMENTO = matchMedia("(prefers-reduced-motion: reduce)").matches;
 // modo econômico (E8): o navegador pediu economia de dados (navigator.connection.saveData, que hoje Opera, Samsung
 // Internet e Yandex informam; Safari, Firefox e o Chrome não). A marca vem do <head> (pagina(), no gerador), antes de o
@@ -592,7 +595,8 @@ async function iniciarFornecedores() {
     return d;
   });
   const ordens = { total: (a, b) => b.total - a.total, maior: (a, b) => b.maior - a.maior || b.total - a.total,
-                   notas: (a, b) => b.notas - a.notas || b.total - a.total };
+                   notas: (a, b) => b.notas - a.notas || b.total - a.total,
+                   media: (a, b) => b.total / b.notas - a.total / a.notas || b.total - a.total };
 
   async function filtrar() {
     const meu = ++pedido, uf = campo("uf").value, ano = +campo("ano").value || 0, mes = +campo("mes").value || 0;
@@ -621,14 +625,26 @@ async function iniciarFornecedores() {
     desenhar();
   }
 
+  // uma linha por fornecedor, com uma coluna para cada número; o título da coluna que ordena a lista fica marcado
   function desenhar() {
-    lista.innerHTML = achados.slice(0, limite).map(({ f, total, notas, maior }) => `<li><details class="forn">
-      <summary><span class="forn-l1"><span class="forn-nome">${esc(f[0])}</span></span>
-      <span class="forn-meta">${f[2] ? `${esc(f[2])} · ` : ""}${plural(notas, "nota", "notas")} · maior nota ${brl2(maior)} ·
-      <b>${brl2(total)}</b></span></summary><div class="rest-gab"><p class="forn-meta">${linkEmpresa(f.digitos, f[3])}<span class="mono">${esc(f[1])}</span></p></div>
-      </details></li>`).join("") || `<li class="lt-vazio">Nenhum fornecedor com esses filtros.</li>`;
+    lista.innerHTML = achados.slice(0, limite).map(({ f, total, notas, maior }) => {
+      const url = enderecoEmpresa(f.digitos, f[3]);
+      return `<tr><td class="forn-quem">${url ? `<a href="${url}">${esc(f[0])}</a>` : esc(f[0])}<br><span class="mono cat">${esc(f[1])}</span></td>
+        <td>${esc(f[2] || "—")}</td><td class="n">${notas.toLocaleString("pt-BR")}</td><td class="n">${brl2(total / notas)}</td>
+        <td class="n">${brl2(maior)}</td><td class="n forn-total">${brl2(total)}</td></tr>`;
+    }).join("") || `<tr><td colspan="6" class="vazio">Nenhum fornecedor com esses filtros.</td></tr>`;
     mais.hidden = achados.length <= limite;
+    if (!mais.hidden) mais.textContent = `Mostrar mais ${Math.min(LOTE, achados.length - limite)} de ${(achados.length - limite).toLocaleString("pt-BR")} restantes`;
+    document.querySelectorAll("#fo-tabela th[data-ordem]").forEach(th =>
+      th.setAttribute("aria-sort", th.dataset.ordem === campo("ordem").value ? "descending" : "none"));
   }
+  // tocar no título de uma coluna de número ordena por ela (a lista inteira, não só as linhas já mostradas)
+  document.querySelectorAll("#fo-tabela th[data-ordem]").forEach(th => {
+    th.tabIndex = 0;
+    const ordenar = () => { campo("ordem").value = th.dataset.ordem; filtrar(); };
+    th.addEventListener("click", ordenar);
+    th.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); ordenar(); } });
+  });
 
   campo("filtros").hidden = false;
   campo("ano").addEventListener("change", () => {
@@ -1015,7 +1031,8 @@ function mediaMensal(d) {
 }
 
 function graficoPontos(el, deputados, opcoes = {}) {
-  const { destaque = null, achados = null } = opcoes;
+  const { destaque = null, achados = null, casa = "d" } = opcoes;
+  const quem = casa === "s" ? "senadores" : "deputados";
   lembrar(el, () => graficoPontos(el, deputados, opcoes));
   const itens = deputados.map(d => ({ d, ...mediaMensal(d) }))
     .filter(x => x.v && (x.n >= MESES_MINIMOS || String(x.d.id) === destaque)).sort((a, b) => a.v - b.v);
@@ -1058,7 +1075,7 @@ function graficoPontos(el, deputados, opcoes = {}) {
   const marcados = alvo ? rotuloAlvo(alvo, `${alvo.d.n}: ${brlCurto(alvo.v)} por mês`)
     : nAchados === 1 ? rotuloAlvo(itens.find(achou), `${itens.find(achou).d.n}: ${brlCurto(itens.find(achou).v)}`) : "";
   el.classList.toggle("buscando", !!termo);
-  el.innerHTML = `<svg viewBox="0 0 ${L} ${H}" role="img" aria-label="Média mensal de reembolsos de ${itens.length} deputados: mediana de ${brl(mediana)}${alvo ? `; ${esc(alvo.d.n)} tem ${brl(alvo.v)}` : ""}">
+  el.innerHTML = `<svg viewBox="0 0 ${L} ${H}" role="img" aria-label="Média mensal de reembolsos de ${itens.length} ${quem}: mediana de ${brl(mediana)}${alvo ? `; ${esc(alvo.d.n)} tem ${brl(alvo.v)}` : ""}">
     <line class="mediana" x1="${x(mediana)}" x2="${x(mediana)}" y1="14" y2="${H - 22}"/>
     ${alvo || nAchados === 1 ? "" : `<text class="rot-mediana" x="${x(mediana) + 6}" y="10">mediana ${brlCurto(mediana)}</text>`}
     ${ticks.map(t => `<text class="eixo" x="${x(t)}" y="${H - 4}" text-anchor="${t === 0 ? "start" : t === max ? "end" : "middle"}">${t ? brlCurto(t).replace("R$ ", "") : "R$ 0"}</text>`).join("")}
@@ -1083,7 +1100,7 @@ function graficoPontos(el, deputados, opcoes = {}) {
     dica.style.left = `${it.px * escala}px`; dica.style.top = `${it.py * escala}px`;
   });
   svg.addEventListener("pointerleave", () => { dica.hidden = true; if (atual) atual.classList.remove("sob"); atual = null; });
-  svg.addEventListener("click", e => { const [it] = perto(e); if (it) location.href = `${RAIZ}deputado/${it.d.id}.html`; });
+  svg.addEventListener("click", e => { const [it] = perto(e); if (it) location.href = `${RAIZ}${it.d.url || `deputado/${it.d.id}.html`}`; });
 }
 
 async function iniciarPontos() {
@@ -1157,158 +1174,163 @@ function iniciarSuaCidade() {
   document.addEventListener("click", ev => { if (!ev.target.closest(".sua-cidade")) fechar(); });
 }
 
-// A caixa "Senador por senador" da página inicial, nos moldes da dos deputados: 40 de cada vez e "Mostrar mais". Lê
-// dados/senadores.json ({c: código, n: nome, p: partido, uf, x: em exercício, t: total, f: foto, s: suplência}), que já
-// vem em ordem alfabética. O arquivo traz só o total desde fevereiro de 2023: o filtro de período é só da Câmara.
-async function iniciarSenadoresDoInicio() {
-  const alvo = $("#ls-linhas");
-  if (!alvo) return;
-  const POR_VEZ = 40;
-  const senadores = (await json("dados/senadores.json").catch(() => [])).map((s, i) => ({ ...s, i, b: normalizar(s.n) }));
-  const busca = $("#ls-busca"), uf = $("#ls-uf"), ordem = $("#ls-ordem"), situacao = $("#ls-situacao"), mais = $("#ls-mais");
-  let limite = POR_VEZ;
-  uf.insertAdjacentHTML("beforeend", [...new Set(senadores.map(s => s.uf).filter(Boolean))].sort()
-    .map(u => `<option value="${esc(u)}">${esc(NOMES_UF[u] || u)}</option>`).join(""));
-  function desenhar() {
-    const termos = normalizar(busca.value.trim()).split(/\s+/).filter(Boolean);
-    const lista = senadores.filter(s => (!uf.value || s.uf === uf.value) && (situacao.value === "todos" || s.x) && termos.every(t => s.b.includes(t)));
-    lista.sort(ordem.value === "gasto" ? (a, b) => b.t - a.t || a.i - b.i : (a, b) => a.i - b.i);
-    $("#ls-titulo").textContent = uf.value ? NOMES_UF[uf.value] || uf.value : "Brasil";
-    $("#ls-resumo").textContent = lista.length
-      ? `${lista.length} senador${lista.length > 1 ? "es" : ""} · ${brlCurto(lista.reduce((s, x) => s + x.t, 0))} desde fevereiro de 2023`
-      : "Nenhum senador com esses filtros";
-    alvo.innerHTML = lista.slice(0, limite).map(s => `
-      <li><a class="linha" href="senador/${s.c}.html">
-        <img class="foto" src="${esc(s.f)}" alt="" loading="lazy" decoding="async" width="42" height="56" ${SEM_FOTO}>
-        <span><span class="nome">${esc(s.n)}</span><br><span class="meta">${esc([s.p, s.uf, s.s].filter(Boolean).join(" · "))}${s.x ? "" : " · fora do exercício"}</span></span>
-        <span class="direita"><span class="total">${brl(s.t)}</span></span>
-      </a></li>`).join("") || `<li class="vazio">Nenhum senador encontrado. Escolha “Todos com despesas” ou limpe a busca.</li>`;
-    const resto = lista.length - limite;
-    mais.hidden = resto <= 0;
-    mais.textContent = `Mostrar mais ${Math.min(POR_VEZ, resto)} de ${resto} restantes`;
-  }
-  const refazer = () => { limite = POR_VEZ; desenhar(); };
-  busca.addEventListener("input", refazer);
-  [uf, ordem, situacao].forEach(c => c.addEventListener("change", refazer));
-  mais.addEventListener("click", () => { limite += POR_VEZ; desenhar(); });
-  desenhar();
-}
+// A capa, capítulo "Ache o seu deputado ou senador": uma lista só com as duas casas, cada linha com a marca da sua
+// (Deputado ou Senador), e os botões Todos / Deputados / Senadores, que escolhem o que aparece. Os deputados vêm de
+// dados/deputados.json; os senadores, de dados/senadores.json ({c: código, n: nome, p: partido, uf, x: em exercício,
+// t: total, f: foto, s: suplência, g: "F" nas senadoras, m: o reembolsado em cada mês de resumo.meses_senado}). O
+// estado se escolhe nas 27 siglas ou no mapa, que só é baixado quando o botão "Escolher no mapa" o abre (em tela larga
+// ele já vem aberto). Os gráficos embaixo seguem o que está na lista.
+const POR_VEZ_INICIO = 12;
+const rotuloCasa = x => x.casa === "s" ? (x.g === "F" ? "Senadora" : "Senador") : (x.g === "F" ? "Deputada" : "Deputado");
+// os senadores no formato dos deputados (id, n, p, uf, f, x, t, m, b), com a casa e o endereço da página de cada um
+const comoParlamentares = (deputados, senadores) => [
+  ...deputados.map(d => ({ ...d, casa: "d", url: `deputado/${d.id}.html` })),
+  ...senadores.map(s => ({ casa: "s", id: s.c, n: s.n, p: s.p, uf: s.uf, f: s.f, x: !!s.x, t: s.t, m: s.m || [], g: s.g,
+    b: normalizar(s.n), sup: s.s, url: `senador/${s.c}.html` })),
+];
 
 async function iniciarInicio() {
   iniciarSuaCidade();
-  iniciarSenadoresDoInicio().catch(erro => console.error(erro));
-  const [deputados, resumo, svg] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json"), carregarMapa($("#mapa-area"))]);
-  const estado = { uf: null, partidos: new Set(), busca: "", ordem: "nome", situacao: "exercicio", metrica: "gasto", limite: 40, periodo: "" };
+  const casas = $("#casas"), pontosSen = $("#pontos-senado");
+  const [deputados, resumo, senadores] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json"),
+    casas || pontosSen ? json("dados/senadores.json").catch(() => []) : []]);
+  const todos = comoParlamentares(deputados, senadores);
+  const mesesSen = resumo.meses_senado || resumo.meses;
+  // onde cada mês do Senado cai na lista de meses da Câmara, a do gráfico (-1: mês que a Câmara ainda não tem)
+  const posSen = mesesSen.map(m => resumo.meses.indexOf(m));
+  const estado = { casa: "", uf: null, partidos: new Set(), busca: "", ordem: "nome", situacao: "exercicio", metrica: "gasto",
+    limite: POR_VEZ_INICIO, periodo: "" };
   const h = new URLSearchParams(location.hash.slice(1));
   if (NOMES_UF[h.get("uf")]) estado.uf = h.get("uf");
   if (h.get("p")) h.get("p").split(",").forEach(p => estado.partidos.add(p));
   if (h.get("per") && indicesPeriodo(resumo.meses, h.get("per")).length) estado.periodo = h.get("per");
+  if (casas && ["d", "s"].includes(h.get("c"))) estado.casa = h.get("c");
   opcoesPeriodo($("#periodo"), resumo.meses, estado.periodo);
 
-  let idx = [], porUF = {};
-  // valores do deputado no período escolhido
-  const gasto = d => estado.periodo ? somar(d.m, idx) : d.t;
-  const alertas = d => contarAlertas(d, idx, !estado.periodo);
-  const ativoNoPeriodo = d => !estado.periodo || idx.some(i => d.m[i]);
-  const porSituacao = d => estado.situacao === "todos" || d.x;
-  const porPartido = d => !estado.partidos.size || estado.partidos.has(d.p);
-  const doRecorte = d => porSituacao(d) && porPartido(d) && (!estado.uf || d.uf === estado.uf) && ativoNoPeriodo(d);
+  // a média mensal dos senadores, um ponto para cada, embaixo da dos deputados; a busca do capítulo marca nos dois
+  if (pontosSen) {
+    const lista = todos.filter(x => x.casa === "s");
+    graficoPontos(pontosSen, lista, { casa: "s" });
+    $("#pontos-busca")?.addEventListener("input", e => graficoPontos(pontosSen, lista, { casa: "s", achados: e.target.value.trim() }));
+  }
+
+  let idx = [], idxSen = [], porUF = {}, svg = null, mapaPedido = null;
+  // valores do parlamentar no período escolhido (os meses do Senado têm a sua lista)
+  const idxDe = x => x.casa === "s" ? idxSen : idx;
+  const gasto = x => estado.periodo ? somar(x.m, idxDe(x)) : x.t;
+  const alertas = x => x.casa === "s" ? { g3: 0, g2: 0, k: 0 } : contarAlertas(x, idx, !estado.periodo);
+  const limite = x => x.casa === "s" ? 0 : limiteAtivo(x, idx, resumo.limites);
+  const ativoNoPeriodo = x => !estado.periodo || idxDe(x).some(i => x.m[i]);
+  const porCasa = x => !estado.casa || x.casa === estado.casa;
+  const porSituacao = x => estado.situacao === "todos" || x.x;
+  const porPartido = x => !estado.partidos.size || estado.partidos.has(x.p);
+  const doRecorte = x => porCasa(x) && porSituacao(x) && porPartido(x) && (!estado.uf || x.uf === estado.uf) && ativoNoPeriodo(x);
+  const contar = (n, um, varios) => `${n.toLocaleString("pt-BR")} ${n === 1 ? um : varios}`;
+  // "513 deputados e 81 senadores", só com a casa que está na lista
+  const quantos = lista => {
+    const d = lista.filter(x => x.casa === "d").length, s = lista.length - d;
+    return [d ? contar(d, "deputado", "deputados") : "", s ? contar(s, "senador", "senadores") : ""].filter(Boolean).join(" e ");
+  };
+  const nomeDaCasa = () => estado.casa === "d" ? "Câmara" : estado.casa === "s" ? "Senado" : casas ? "Câmara e Senado" : "Câmara";
 
   function calcularUFs() {
     porUF = {};
     for (const uf of Object.keys(NOMES_UF)) {
-      const lista = deputados.filter(d => d.uf === uf && porSituacao(d) && porPartido(d) && ativoNoPeriodo(d));
-      const total = lista.reduce((s, d) => s + gasto(d), 0);
-      const graves = ALERTAS ? lista.reduce((s, d) => { const a = alertas(d); return s + a.g3 + a.g2; }, 0) : 0;
-      const limite = lista.reduce((s, d) => s + limiteAtivo(d, idx, resumo.limites), 0);
-      porUF[uf] = { n: lista.length, total, graves, limite,
+      const lista = todos.filter(x => x.uf === uf && porCasa(x) && porSituacao(x) && porPartido(x) && ativoNoPeriodo(x));
+      const total = lista.reduce((s, x) => s + gasto(x), 0);
+      const graves = ALERTAS ? lista.reduce((s, x) => { const al = alertas(x); return s + al.g3 + al.g2; }, 0) : 0;
+      const lim = lista.reduce((s, x) => s + limite(x), 0);
+      const dep = lista.filter(x => x.casa === "d").length;
+      porUF[uf] = { n: lista.length, dep, sen: lista.length - dep, total, graves, limite: lim,
         valor: !lista.length ? null : estado.metrica === "gasto" ? total / lista.length : graves / lista.length };
     }
   }
 
+  // as 27 siglas: sem JavaScript são links para a página do estado; aqui escolhem o estado da lista
+  const siglas = [...document.querySelectorAll(".ufs a[data-uf]")];
+  function desenharSiglas() {
+    siglas.forEach(el => el.setAttribute("aria-pressed", String(el.dataset.uf === estado.uf)));
+    $("#voltar").hidden = !estado.uf;
+  }
+
   function desenharMapa() {
     calcularUFs();
+    const legenda = $("#legenda-texto");
+    if (legenda) legenda.textContent = estado.metrica !== "gasto" ? "Alertas graves por deputado"
+      : `Gasto médio por ${estado.casa === "d" || !casas ? "deputado" : estado.casa === "s" ? "senador" : "parlamentar"}`;
+    if (!svg) return;  // o mapa ainda não foi aberto: as contas por estado já ficam prontas para quando abrir
     const faixa = faixas(Object.fromEntries(Object.entries(porUF).map(([uf, v]) => [uf, v.valor])));
     svg.querySelectorAll(".uf").forEach(p => {
       const v = porUF[p.dataset.uf];
       p.dataset.n = faixa(v.valor);
       p.setAttribute("aria-pressed", String(p.dataset.uf === estado.uf));
-      p.setAttribute("aria-label", `${NOMES_UF[p.dataset.uf]}: ${v.n} deputados, ${brl(v.total)} em reembolsos`);
+      p.setAttribute("aria-label", `${NOMES_UF[p.dataset.uf]}: ${[v.dep ? contar(v.dep, "deputado", "deputados") : "", v.sen ? contar(v.sen, "senador", "senadores") : ""].filter(Boolean).join(" e ") || "ninguém na lista"}, ${brl(v.total)} em reembolsos`);
     });
     svg.querySelectorAll(".sigla").forEach(t => t.classList.toggle("ativa", t.dataset.uf === estado.uf));
     svg.classList.toggle("com-selecao", !!estado.uf);
-    const legenda = $("#legenda-texto");
-    if (legenda) legenda.textContent = estado.metrica === "gasto" ? "Gasto médio por deputado" : "Alertas graves por deputado";
-    $("#voltar").hidden = !estado.uf;
-  }
-
-  function desenharResumoPeriodo() {
-    const recorte = deputados.filter(doRecorte);
-    const total = recorte.reduce((s, d) => s + gasto(d), 0);
-    const limite = recorte.reduce((s, d) => s + limiteAtivo(d, idx, resumo.limites), 0);
-    const quem = `${recorte.length} deputado${recorte.length === 1 ? "" : "s"}${estado.situacao === "exercicio" ? " em exercício" : ""}`;
-    $("#periodo-resumo").innerHTML = `<b>${brlCurto(total)}</b> reembolsados a ${quem} em ${nomePeriodo(estado.periodo)}` +
-      (limite ? ` · <b>${pct(total / limite)}</b> do limite somado da cota` : "");
   }
 
   function desenharPartidos() {
     const contagem = {};
-    deputados.filter(d => porSituacao(d) && ativoNoPeriodo(d) && (!estado.uf || d.uf === estado.uf)).forEach(d => contagem[d.p] = (contagem[d.p] || 0) + 1);
+    todos.filter(x => porCasa(x) && porSituacao(x) && ativoNoPeriodo(x) && (!estado.uf || x.uf === estado.uf)).forEach(x => contagem[x.p] = (contagem[x.p] || 0) + 1);
     estado.partidos.forEach(p => contagem[p] ??= 0);
-    $("#partidos").innerHTML = Object.entries(contagem).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    $("#partidos").innerHTML = Object.entries(contagem).sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]))
       .map(([p, n]) => `<button type="button" class="chip" data-p="${esc(p)}" aria-pressed="${estado.partidos.has(p)}">${esc(p)}<span class="num">${n}</span></button>`).join("");
+    const n = $("#partidos-n");
+    if (n) n.textContent = estado.partidos.size ? `: ${[...estado.partidos].join(", ")}` : "";
   }
 
   function desenharLista() {
     const q = normalizar(estado.busca);
-    const lista = deputados.filter(d => doRecorte(d) && (!q || d.b.includes(q)))
-      .map(d => ({ d, v: gasto(d), a: alertas(d), lim: limiteAtivo(d, idx, resumo.limites) }));
+    const lista = todos.filter(x => doRecorte(x) && (!q || x.b.includes(q)))
+      .map(x => ({ x, v: gasto(x), a: alertas(x), lim: limite(x) }));
     const ordens = {
-      gasto: (x, y) => y.v - x.v,
-      nome: (x, y) => x.d.n.localeCompare(y.d.n, "pt-BR"),
+      gasto: (p, s) => s.v - p.v || p.x.n.localeCompare(s.x.n, "pt-BR"),
+      nome: (p, s) => p.x.n.localeCompare(s.x.n, "pt-BR"),
     };
     // as ordens por alerta só existem com os alertas ligados; uma ordem desconhecida cai no nome (a padrão)
     if (ALERTAS) Object.assign(ordens, {
-      confirmados: (x, y) => y.a.k - x.a.k || x.d.n.localeCompare(y.d.n, "pt-BR"),
-      alertas: (x, y) => y.a.g3 - x.a.g3 || y.a.g2 - x.a.g2 || y.v - x.v,
+      confirmados: (p, s) => s.a.k - p.a.k || p.x.n.localeCompare(s.x.n, "pt-BR"),
+      alertas: (p, s) => s.a.g3 - p.a.g3 || s.a.g2 - p.a.g2 || s.v - p.v,
     });
     lista.sort(ordens[estado.ordem] || ordens.nome);
     $("#lista-titulo").textContent = estado.uf ? NOMES_UF[estado.uf] : "Brasil";
     $("#lista-estado").hidden = !estado.uf;
-    if (estado.uf) $("#lista-estado").href = `estado/${estado.uf.toLowerCase()}.html`;
-    const total = lista.reduce((s, x) => s + x.v, 0);
+    if (estado.uf) { $("#lista-estado").href = `estado/${estado.uf.toLowerCase()}.html`; $("#lista-estado").textContent = `Página ${ARTIGO_UF[estado.uf] ? `d${ARTIGO_UF[estado.uf]}` : "de"} ${NOMES_UF[estado.uf]}`; }
+    const total = lista.reduce((s, p) => s + p.v, 0);
     $("#lista-resumo").textContent = lista.length
-      ? `${lista.length} deputado${lista.length > 1 ? "s" : ""} · ${brlCurto(total)} em ${nomePeriodo(estado.periodo)}`
-      : "Nenhum deputado com esses filtros";
-    $("#linhas").innerHTML = lista.slice(0, estado.limite).map(({ d, v, a, lim }) => `
-      <li><a class="linha" href="deputado/${d.id}.html">
-        <img class="foto" src="${esc(d.f)}" alt="" loading="lazy" decoding="async" width="44" height="44" ${SEM_FOTO}>
-        <span><span class="nome">${esc(d.n)}</span><br><span class="meta">${esc(d.p)} · ${esc(d.uf)}${condicao(d)}${d.x || d.c === "a" ? "" : " · fora do exercício"}${estado.periodo && lim ? ` · ${pct(v / lim)} da cota` : ""}</span></span>
-        <span class="direita"><span class="total">${brl(v)}</span>${pills(a)}</span>
-      </a></li>`).join("") || `<li class="vazio">Nenhum deputado encontrado. Tire algum filtro de partido ou limpe a busca.</li>`;
+      ? `${quantos(lista.map(p => p.x))}${estado.situacao === "exercicio" ? " em exercício" : ""} · ${brlCurto(total)} em ${nomePeriodo(estado.periodo)}`
+      : "Ninguém com esses filtros";
+    $("#linhas").innerHTML = lista.slice(0, estado.limite).map(({ x, v, a, lim }) => `
+      <li><a class="linha" href="${x.url}">
+        <img class="foto" src="${esc(x.f)}" alt="" loading="lazy" decoding="async" width="44" height="44" ${SEM_FOTO}>
+        <span><span class="nome">${esc(x.n)}</span><br><span class="meta"><span class="casa-marca casa-${x.casa}">${rotuloCasa(x)}</span> ${esc(x.p)} · ${esc(x.uf)}${x.casa === "s" ? (x.sup ? ` · ${esc(x.sup)}` : "") : condicao(x)}${x.x || x.c === "a" ? "" : " · fora do exercício"}${estado.periodo && lim ? ` · ${pct(v / lim)} da cota` : ""}</span></span>
+        <span class="direita"><span class="total">${brl(v)}</span>${x.casa === "d" ? pills(a) : ""}</span>
+      </a></li>`).join("") || `<li class="vazio">Ninguém encontrado. Tire algum filtro de partido, escolha “Todos com despesas” ou limpe a busca.</li>`;
     const resto = lista.length - estado.limite;
     $("#mais").hidden = resto <= 0;
-    $("#mais").textContent = `Mostrar mais ${Math.min(40, resto)} de ${resto} restantes`;
+    $("#mais").textContent = `Mostrar mais ${Math.min(POR_VEZ_INICIO * 2, resto)} de ${resto.toLocaleString("pt-BR")} restantes`;
     $("#limpar").hidden = !estado.uf && !estado.partidos.size && !estado.busca;
   }
 
   function desenharGraficos() {
-    // a linha do tempo mostra toda a legislatura e destaca o período escolhido
-    const recorte = deputados.filter(d => porSituacao(d) && porPartido(d) && (!estado.uf || d.uf === estado.uf));
-    const mensal = resumo.meses.map((_, i) => recorte.reduce((s, d) => s + (d.m[i] || 0), 0));
+    // a linha do tempo mostra toda a legislatura e destaca o período escolhido; o Senado entra nos meses da Câmara
+    const recorte = todos.filter(x => porCasa(x) && porSituacao(x) && porPartido(x) && (!estado.uf || x.uf === estado.uf));
+    const mensal = resumo.meses.map(() => 0);
+    recorte.forEach(x => x.m.forEach((v, i) => { const k = x.casa === "s" ? posSen[i] : i; if (v && k >= 0 && k < mensal.length) mensal[k] += v; }));
     const lugar = estado.uf ? NOMES_UF[estado.uf] : "Brasil";
     const partidos = estado.partidos.size ? ` · ${[...estado.partidos].join(", ")}` : "";
-    $("#titulo-tempo").textContent = `Reembolsos mês a mês · ${lugar}${partidos}`;
+    $("#titulo-tempo").textContent = `Reembolsos mês a mês · ${lugar} · ${nomeDaCasa()}${partidos}`;
     graficoLinha($("#linha-tempo"), resumo.meses, mensal, {
       destaque: estado.periodo ? idx : null, parciais: resumo.parciais,
       aoClicar: i => definirPeriodo(estado.periodo === String(resumo.meses[i]) ? "" : String(resumo.meses[i])),
     });
 
     const somas = {};
-    deputados.filter(d => porSituacao(d) && ativoNoPeriodo(d) && (!estado.uf || d.uf === estado.uf)).forEach(d => {
-      somas[d.p] ??= { v: 0, n: 0 }; somas[d.p].v += gasto(d); somas[d.p].n += 1;
+    todos.filter(x => porCasa(x) && porSituacao(x) && ativoNoPeriodo(x) && (!estado.uf || x.uf === estado.uf)).forEach(x => {
+      somas[x.p] ??= { v: 0, n: 0 }; somas[x.p].v += gasto(x); somas[x.p].n += 1;
     });
-    const itens = Object.entries(somas).sort((a, b) => b[1].v - a[1].v).slice(0, 12)
+    const itens = Object.entries(somas).sort((x, y) => y[1].v - x[1].v).slice(0, 12)
       .map(([p, s]) => ({ chave: p, rotulo: `${p} (${s.n})`, v: s.v, valor: brlCurto(s.v) }));
     $("#titulo-partidos").textContent = `Partidos · ${lugar} · ${nomePeriodo(estado.periodo)}`;
     graficoBarras($("#grafico-partidos"), itens, { ativos: estado.partidos, aoClicar: p => alternarPartido(p) });
@@ -1316,51 +1338,84 @@ async function iniciarInicio() {
 
   function atualizar({ enquadrarMapa = false } = {}) {
     idx = indicesPeriodo(resumo.meses, estado.periodo);
-    desenharPartidos(); desenharMapa(); desenharResumoPeriodo(); desenharLista(); desenharGraficos();
-    if (enquadrarMapa) enquadrar(svg, estado.uf);
+    idxSen = indicesPeriodo(mesesSen, estado.periodo);
+    casas?.querySelectorAll("[data-casa]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.casa === estado.casa)));
+    desenharPartidos(); desenharSiglas(); desenharMapa(); desenharLista(); desenharGraficos();
+    if (enquadrarMapa && svg) enquadrar(svg, estado.uf);
     const p = new URLSearchParams();
     if (estado.uf) p.set("uf", estado.uf);
+    if (estado.casa) p.set("c", estado.casa);
     if (estado.partidos.size) p.set("p", [...estado.partidos].join(","));
     if (estado.periodo) p.set("per", estado.periodo);
     history.replaceState(null, "", p.toString() ? `#${p}` : location.pathname);
   }
   function definirPeriodo(valor) {
-    estado.periodo = valor; $("#periodo").value = valor; estado.limite = 40; atualizar();
+    estado.periodo = valor; $("#periodo").value = valor; estado.limite = POR_VEZ_INICIO; atualizar();
   }
-  function selecionarUF(uf) {
-    estado.uf = estado.uf === uf ? null : uf; estado.limite = 40;
+  function selecionarUF(uf, rolar = true) {
+    estado.uf = estado.uf === uf ? null : uf; estado.limite = POR_VEZ_INICIO;
     atualizar({ enquadrarMapa: true });
-    if (estado.uf && matchMedia("(max-width: 980px)").matches) $(".lista-cartao").scrollIntoView({ behavior: SEM_MOVIMENTO ? "auto" : "smooth" });
+    if (rolar && estado.uf && matchMedia("(max-width: 980px)").matches) $(".lista-achar").scrollIntoView({ behavior: SEM_MOVIMENTO ? "auto" : "smooth" });
   }
   function alternarPartido(p) {
     estado.partidos.has(p) ? estado.partidos.delete(p) : estado.partidos.add(p);
-    estado.limite = 40; atualizar();
+    estado.limite = POR_VEZ_INICIO; atualizar();
   }
 
-  svg.addEventListener("click", e => { const p = e.target.closest(".uf"); if (p) selecionarUF(p.dataset.uf); });
-  svg.addEventListener("keydown", e => {
-    const p = e.target.closest(".uf");
-    if (p && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); selecionarUF(p.dataset.uf); }
+  // o mapa: baixado na primeira vez em que abre
+  const painelMapa = $("#mapa-painel"), botaoMapa = $("#abrir-mapa");
+  function abrirMapa(sim) {
+    painelMapa.hidden = !sim;
+    botaoMapa.setAttribute("aria-expanded", String(sim));
+    botaoMapa.querySelector("span").textContent = sim ? "Fechar o mapa" : "Escolher no mapa";
+    if (!sim || mapaPedido) return;
+    mapaPedido = carregarMapa($("#mapa-area")).then(desenho => {
+      svg = desenho;
+      svg.addEventListener("click", e => { const p = e.target.closest(".uf"); if (p) selecionarUF(p.dataset.uf); });
+      svg.addEventListener("keydown", e => {
+        const p = e.target.closest(".uf");
+        if (p && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); selecionarUF(p.dataset.uf); }
+      });
+      dicaNoMapa($("#mapa-area"), svg, uf => {
+        const v = porUF[uf];
+        return `<strong>${NOMES_UF[uf]}</strong><dl>${v.dep || !casas ? `<dt>Deputados</dt><dd>${v.dep}</dd>` : ""}${v.sen ? `<dt>Senadores</dt><dd>${v.sen}</dd>` : ""}
+          <dt>Reembolsos</dt><dd>${brlCurto(v.total)}</dd>
+          <dt>Média por ${estado.casa === "d" || !casas ? "deputado" : estado.casa === "s" ? "senador" : "parlamentar"}</dt><dd>${v.n ? brlCurto(v.total / v.n) : "—"}</dd>
+          ${v.limite && estado.casa === "d" ? `<dt>Uso da cota</dt><dd>${pct(v.total / v.limite)}</dd>` : ""}${ALERTAS ? `<dt>Alertas graves</dt><dd>${v.graves}</dd>` : ""}</dl>`;
+      });
+      desenharMapa();
+      if (estado.uf) enquadrar(svg, estado.uf);
+    }).catch(erro => {
+      console.error(erro);
+      mapaPedido = null;
+      $("#mapa-area").innerHTML = `<p class="vazio">Não foi possível carregar o mapa agora. As siglas acima fazem a mesma escolha.</p>`;
+    });
+  }
+  botaoMapa.hidden = false;
+  botaoMapa.addEventListener("click", () => abrirMapa(painelMapa.hidden));
+
+  siglas.forEach(el => {
+    el.setAttribute("role", "button");
+    el.addEventListener("click", e => { e.preventDefault(); selecionarUF(el.dataset.uf); });
+    el.addEventListener("keydown", e => { if (e.key === " ") { e.preventDefault(); selecionarUF(el.dataset.uf); } });
   });
-  dicaNoMapa($("#mapa-area"), svg, uf => {
-    const v = porUF[uf];
-    return `<strong>${NOMES_UF[uf]}</strong><dl><dt>Deputados</dt><dd>${v.n}</dd><dt>Reembolsos</dt><dd>${brlCurto(v.total)}</dd>
-      <dt>Média por deputado</dt><dd>${v.n ? brlCurto(v.total / v.n) : "—"}</dd>
-      ${v.limite ? `<dt>Uso da cota</dt><dd>${pct(v.total / v.limite)}</dd>` : ""}${ALERTAS ? `<dt>Alertas graves</dt><dd>${v.graves}</dd>` : ""}</dl>`;
+  casas?.addEventListener("click", e => {
+    const b = e.target.closest("[data-casa]"); if (!b) return;
+    estado.casa = b.dataset.casa; estado.limite = POR_VEZ_INICIO; atualizar();
   });
   $("#periodo").addEventListener("change", e => definirPeriodo(e.target.value));
-  $("#voltar").addEventListener("click", () => selecionarUF(estado.uf));
+  $("#voltar").addEventListener("click", () => selecionarUF(estado.uf, false));
   $("#partidos").addEventListener("click", e => { const b = e.target.closest(".chip"); if (b) alternarPartido(b.dataset.p); });
   $("#limpar").addEventListener("click", () => {
     const tinhaUF = !!estado.uf;
     estado.uf = null; estado.partidos.clear(); estado.busca = ""; $("#busca").value = "";
     atualizar({ enquadrarMapa: tinhaUF });
   });
-  $("#busca").addEventListener("input", e => { estado.busca = e.target.value; estado.limite = 40; desenharLista(); });
+  $("#busca").addEventListener("input", e => { estado.busca = e.target.value; estado.limite = POR_VEZ_INICIO; desenharLista(); });
   if (!ALERTAS) $("#ordem").querySelectorAll('option[value="confirmados"], option[value="alertas"]').forEach(o => o.remove());
   $("#ordem").addEventListener("change", e => { estado.ordem = e.target.value; desenharLista(); });
-  $("#situacao").addEventListener("change", e => { estado.situacao = e.target.value; atualizar(); });
-  $("#mais").addEventListener("click", () => { estado.limite += 40; desenharLista(); });
+  $("#situacao").addEventListener("change", e => { estado.situacao = e.target.value; estado.limite = POR_VEZ_INICIO; atualizar(); });
+  $("#mais").addEventListener("click", () => { estado.limite += POR_VEZ_INICIO * 2; desenharLista(); });
   // sem os alertas o mapa só se colore pelo gasto, mesmo que um botão "Alertas" tenha sobrado no HTML
   document.querySelectorAll("[data-metrica]").forEach(b => b.addEventListener("click", () => {
     if (!ALERTAS && b.dataset.metrica !== "gasto") return;
@@ -1368,24 +1423,57 @@ async function iniciarInicio() {
     document.querySelectorAll("[data-metrica]").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
     desenharMapa();
   }));
-  atualizar({ enquadrarMapa: !!estado.uf });
+  // os partidos ficam recolhidos no celular (são mais de vinte botões); abertos em tela larga ou com um já escolhido
+  const caixaPartidos = $("#partidos-caixa");
+  if (caixaPartidos) caixaPartidos.open = estado.partidos.size > 0 || matchMedia("(min-width: 761px)").matches;
+  atualizar();
+  // em tela larga o mapa já vem aberto; quem chega por "Ver no mapa" (#uf=) também o encontra aberto
+  if (matchMedia("(min-width: 981px)").matches || estado.uf) abrirMapa(true);
 }
 
-// ------------------------------------------------------------------ ranking
-async function iniciarRanking() {
-  const [deputados, resumo, presenca] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json"),
-    json("dados/presenca.json").catch(() => ({}))]);
-  const meses = resumo.meses;
+// ------------------------------------------------------------------ ranking (deputados e senadores)
+// A mesma tela nas duas casas: ranking.html (casa "d") e senadores.html (casa "s"). No Senado não há limite da cota nem
+// presença: os itens vêm de dados/senadores.json e os meses, de resumo.meses_senado. O filtro "Tipo de gasto" troca o
+// valor de cada um pelo do tipo escolhido: na Câmara, dados/tipos/<índice>.json ({id: [valor por mês]}); no Senado,
+// dados/senado-tipos.json ({t: tipos, v: {código: {índice: [valor por mês]}}}). Os dois só são baixados quando pedidos.
+async function iniciarRanking(casa = "d") {
+  const sen = casa === "s", comPresenca = !sen && PRESENCA;
+  const [brutos, resumo, presenca] = await Promise.all([json(sen ? "dados/senadores.json" : "dados/deputados.json"),
+    json("dados/resumo.json"), comPresenca ? json("dados/presenca.json").catch(() => ({})) : {}]);
+  const deputados = sen ? brutos.map(s => ({ id: s.c, n: s.n, p: s.p, uf: s.uf, f: s.f, x: !!s.x, m: s.m || [], sup: s.s })) : brutos;
+  const meses = sen ? (resumo.meses_senado || resumo.meses) : resumo.meses;
+  const quem = sen ? "senadores" : "deputados";
+  const pagina = d => sen ? `senador/${d.id}.html` : `deputado/${d.id}.html`;
+  const meta = d => sen ? esc([d.p, d.uf, d.sup].filter(Boolean).join(" · ")) : `${esc(d.p)} · ${esc(d.uf)}${condicao(d)}`;
   // padrão: o mês mais recente já "fechado" (os últimos ainda recebem notas por até 90 dias)
   const totais = meses.map((_, i) => deputados.reduce((s, d) => s + (d.m[i] || 0), 0));
   const mediana = [...totais].sort((a, b) => a - b)[Math.floor(totais.length / 2)];
-  const ultimoFechado = meses[totais.map((t, i) => [t, i]).filter(([t]) => t >= .8 * mediana).pop()[1]];
+  const fechados = totais.map((t, i) => [t, i]).filter(([t]) => t >= .8 * mediana);
+  const ultimoFechado = fechados.length ? meses[fechados.pop()[1]] : "";
   const h = new URLSearchParams(location.hash.slice(1));
-  const estado = { periodo: h.get("per") ?? String(ultimoFechado), ordem: h.get("o") || "gasto", uf: h.get("uf") || "", partido: h.get("p") || "", limite: 50 };
+  const estado = { periodo: h.get("per") ?? String(ultimoFechado), ordem: h.get("o") || "gasto", uf: h.get("uf") || "", partido: h.get("p") || "",
+    tipo: h.get("t") || "", limite: 50 };
   opcoesPeriodo($("#r-periodo"), meses, estado.periodo);
   Object.keys(NOMES_UF).sort().forEach(uf => $("#r-uf").insertAdjacentHTML("beforeend", `<option value="${uf}">${NOMES_UF[uf]}</option>`));
-  [...new Set(deputados.map(d => d.p))].sort().forEach(p => $("#r-partido").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
-  $("#r-ordem").value = estado.ordem; $("#r-uf").value = estado.uf; $("#r-partido").value = estado.partido;
+  [...new Set(deputados.map(d => d.p).filter(Boolean))].sort().forEach(p => $("#r-partido").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
+  const tem = (seletor, valor) => [...$(seletor).options].some(o => o.value === valor);
+  // uma ordem ou um tipo que a página não oferece (endereço antigo, presença fora do site) cai no padrão
+  if (!tem("#r-ordem", estado.ordem)) estado.ordem = "gasto";
+  if (!tem("#r-tipo", estado.tipo)) estado.tipo = "";
+  if (!tem("#r-uf", estado.uf)) estado.uf = "";
+  $("#r-ordem").value = estado.ordem; $("#r-uf").value = estado.uf; $("#r-partido").value = estado.partido; $("#r-tipo").value = estado.tipo;
+
+  // o valor de cada gabinete no tipo de gasto escolhido, mês a mês: função id → [valores]
+  const arquivosTipo = {};
+  async function serieDoTipo(tipo) {
+    if (tipo === "") return null;
+    if (sen) {
+      const d = await (arquivosTipo.senado ??= json("dados/senado-tipos.json"));
+      return id => (d.v[id] || {})[tipo] || [];
+    }
+    const d = await (arquivosTipo[tipo] ??= json(`dados/tipos/${tipo}.json`));
+    return id => d[id] || [];
+  }
 
   // presença: [índice do mês, dias com sessão, dias presente, faltas sem justificativa] por deputado
   function desenharPresenca(idx) {
@@ -1417,47 +1505,65 @@ async function iniciarRanking() {
     $("#r-mais").hidden = linhas.length <= estado.limite;
   }
 
-  function desenhar() {
+  let pedido = 0;
+  async function desenhar() {
+    const meu = ++pedido;
     const idx = indicesPeriodo(meses, estado.periodo);
-    const modoPresenca = estado.ordem === "faltas" || estado.ordem === "presenca";
-    $("#r-titulo").textContent = modoPresenca ? "Quem mais faltou" : "Quem mais gastou";
-    $("#r-lead-gasto").hidden = $("#r-aviso-gasto").hidden = modoPresenca;
-    $("#r-lead-presenca").hidden = !modoPresenca;
-    if (modoPresenca) desenharPresenca(idx);
-    else desenharGasto(idx);
+    const modoPresenca = comPresenca && (estado.ordem === "faltas" || estado.ordem === "presenca");
+    $("#r-titulo").textContent = modoPresenca ? "Quem mais faltou" : sen ? "Quem mais gastou no Senado" : "Quem mais gastou";
+    if ($("#r-lead-gasto")) $("#r-lead-gasto").hidden = $("#r-aviso-gasto").hidden = modoPresenca;
+    if ($("#r-lead-presenca")) $("#r-lead-presenca").hidden = !modoPresenca;
+    $("#r-tipo").disabled = modoPresenca;  // a presença não tem tipo de gasto
     const p = new URLSearchParams({ per: estado.periodo });
     if (estado.ordem !== "gasto") p.set("o", estado.ordem);
+    if (estado.tipo !== "" && !modoPresenca) p.set("t", estado.tipo);
     if (estado.uf) p.set("uf", estado.uf);
     if (estado.partido) p.set("p", estado.partido);
     history.replaceState(null, "", `#${p}`);
+    if (modoPresenca) return desenharPresenca(idx);
+    let serie = null;
+    if (estado.tipo !== "") {
+      $("#r-resumo").textContent = "Carregando o tipo de gasto…";
+      try { serie = await serieDoTipo(estado.tipo); }
+      catch (erro) { console.error(erro); if (meu === pedido) $("#r-resumo").textContent = "Não foi possível carregar esse tipo de gasto agora. Tente de novo em instantes."; return; }
+      if (meu !== pedido) return;  // outro filtro foi escolhido enquanto este carregava
+    }
+    desenharGasto(idx, serie);
   }
 
-  function desenharGasto(idx) {
+  function desenharGasto(idx, serieDe) {
+    const nomeTipo = serieDe ? $("#r-tipo").selectedOptions[0].textContent.toLowerCase() : "";
     const linhas = deputados.filter(d => (!estado.uf || d.uf === estado.uf) && (!estado.partido || d.p === estado.partido))
       .map(d => {
-        const v = somar(d.m, idx);
-        const lim = limiteAtivo(d, idx, resumo.limites);
-        const ativos = d.m.filter(Boolean).length;
-        const mediaMensal = ativos ? d.m.reduce((s, x) => s + x, 0) / ativos : 0;
-        const mesesAtivos = idx.filter(i => d.m[i]).length;
-        return { d, v, cota: lim ? v / lim : 0, salto: mediaMensal && mesesAtivos ? v / (mediaMensal * mesesAtivos) : 0 };
+        const serie = serieDe ? serieDe(d.id) : d.m;
+        const v = somar(serie, idx), tudo = serieDe ? somar(d.m, idx) : v;
+        const lim = sen ? 0 : limiteAtivo(d, idx, resumo.limites);
+        const ativos = serie.filter(Boolean).length;
+        const mediaMensal = ativos ? serie.reduce((s, x) => s + (x || 0), 0) / ativos : 0;
+        const mesesAtivos = idx.filter(i => serie[i]).length;
+        return { d, v, tudo, cota: lim ? v / lim : 0, salto: mediaMensal && mesesAtivos ? v / (mediaMensal * mesesAtivos) : 0 };
       })
       .filter(x => x.v > 0 && (estado.ordem !== "salto" || x.v >= 5000));
-    linhas.sort((a, b) => (estado.ordem === "cota" ? b.cota - a.cota : estado.ordem === "salto" ? b.salto - a.salto : b.v - a.v));
+    linhas.sort((a, b) => (estado.ordem === "cota" ? b.cota - a.cota : estado.ordem === "salto" ? b.salto - a.salto
+      : estado.ordem === "nome" ? a.d.n.localeCompare(b.d.n, "pt-BR") : b.v - a.v));
     const max = Math.max(...linhas.map(x => x.v), 1);
     const total = linhas.reduce((s, x) => s + x.v, 0);
-    $("#r-resumo").textContent = `${linhas.length} deputados com despesas em ${nomePeriodo(estado.periodo)} · ${brlCurto(total)} no total`
+    $("#r-resumo").textContent = `${linhas.length === 1 ? `1 ${sen ? "senador" : "deputado"}` : `${linhas.length.toLocaleString("pt-BR")} ${quem}`} com despesas${nomeTipo ? ` de ${nomeTipo}` : ""} em ${nomePeriodo(estado.periodo)} · ${brlCurto(total)} no total`
       + (idx.some(i => i >= meses.length - resumo.parciais) ? " · inclui meses ainda incompletos" : "");
-    $("#r-lista").innerHTML = linhas.slice(0, estado.limite).map((x, k) => `<li><a href="deputado/${x.d.id}.html#per=${estado.periodo}">
+    $("#r-lista").innerHTML = linhas.slice(0, estado.limite).map((x, k) => {
+      const notas = [x.cota ? `${pct(x.cota)} do limite` : "", serieDe && x.tudo > 0 ? `${pct(x.v / x.tudo)} do que o gabinete recebeu` : "",
+        x.salto ? `${x.salto.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}× a própria média` : ""].filter(Boolean).join(" · ");
+      return `<li><a href="${pagina(x.d)}${sen ? "" : `#per=${estado.periodo}`}">
         <span class="pos">${k + 1}º</span>
         <img class="foto" src="${esc(x.d.f)}" alt="" loading="lazy" decoding="async" width="44" height="44" ${SEM_FOTO}>
-        <span><span class="nome">${esc(x.d.n)}</span><br><span class="meta">${esc(x.d.p)} · ${esc(x.d.uf)}${condicao(x.d)}</span></span>
+        <span><span class="nome">${esc(x.d.n)}</span><br><span class="meta">${meta(x.d)}</span></span>
         <span class="trilho" aria-hidden="true"><span style="width:${(100 * x.v / max).toFixed(1)}%"></span></span>
-        <span class="valores">${brl(x.v)}<small>${x.cota ? `${pct(x.cota)} do limite` : ""}${x.salto ? ` · ${x.salto.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}× a própria média` : ""}</small></span>
-      </a></li>`).join("") || `<li class="vazio">Nenhum deputado com despesas nesse recorte.</li>`;
+        <span class="valores">${brl(x.v)}<small>${notas}</small></span>
+      </a></li>`;
+    }).join("") || `<li class="vazio">Nenhum dos ${quem} tem despesas nesse recorte.</li>`;
     $("#r-mais").hidden = linhas.length <= estado.limite;
   }
-  [["#r-periodo", "periodo"], ["#r-ordem", "ordem"], ["#r-uf", "uf"], ["#r-partido", "partido"]].forEach(([s, k]) =>
+  [["#r-periodo", "periodo"], ["#r-ordem", "ordem"], ["#r-tipo", "tipo"], ["#r-uf", "uf"], ["#r-partido", "partido"]].forEach(([s, k]) =>
     $(s).addEventListener("change", e => { estado[k] = e.target.value; estado.limite = 50; desenhar(); }));
   $("#r-mais").addEventListener("click", () => { estado.limite += 50; desenhar(); });
   desenhar();
@@ -1852,18 +1958,25 @@ document.addEventListener("click", e => {
 document.querySelectorAll("[data-copiar], [data-compartilhar], [data-imprimir]").forEach(b => { b.hidden = false; });
 
 // ------------------------------------------------------------------ comparar gabinetes (2 a 5, em colunas)
-// Só números dos dados públicos, na ordem em que a pessoa escolheu: sem nota, sem "melhor" e "pior". O maior tipo de
-// gasto vem do arquivo de cada deputado (dados/dep/<id>.json), baixado só para quem está na comparação.
-async function iniciarComparar() {
-  const [deputados, resumo, presenca] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json"),
-    json("dados/presenca.json").catch(() => ({}))]);
+// Só números dos dados públicos, na ordem em que a pessoa escolheu: sem nota, sem "melhor" e "pior". A mesma tela nas
+// duas casas: comparar.html (casa "d") e comparar-senadores.html (casa "s"). O maior tipo de gasto vem do arquivo de
+// cada deputado (dados/dep/<id>.json), baixado só para quem está na comparação; no Senado, de dados/senado-tipos.json.
+// O Senado não tem limite da cota nem alertas aqui, e a presença só entra com a chave ligada.
+async function iniciarComparar(casa = "d") {
+  const sen = casa === "s", comPresenca = !sen && PRESENCA, comAlertas = !sen && ALERTAS;
+  const [brutos, resumo, presenca] = await Promise.all([json(sen ? "dados/senadores.json" : "dados/deputados.json"),
+    json("dados/resumo.json"), comPresenca ? json("dados/presenca.json").catch(() => ({})) : {}]);
+  const deputados = sen ? brutos.map(s => ({ id: s.c, n: s.n, p: s.p, uf: s.uf, f: s.f, x: !!s.x, m: s.m || [], b: normalizar(s.n), sup: s.s })) : brutos;
+  const meses = sen ? (resumo.meses_senado || resumo.meses) : resumo.meses;
+  const um = sen ? "senador" : "deputado", varios = sen ? "senadores" : "deputados";
+  const pagina = d => sen ? `senador/${d.id}.html` : `deputado/${d.id}.html`;
   const porId = Object.fromEntries(deputados.map(d => [String(d.id), d]));
   const h = new URLSearchParams(location.hash.slice(1));
   const estado = { ids: (h.get("ids") || "").split(",").filter(id => porId[id]).slice(0, 5), periodo: "" };
-  if (h.get("per") && indicesPeriodo(resumo.meses, h.get("per")).length) estado.periodo = h.get("per");
-  opcoesPeriodo($("#c-periodo"), resumo.meses, estado.periodo);
+  if (h.get("per") && indicesPeriodo(meses, h.get("per")).length) estado.periodo = h.get("per");
+  opcoesPeriodo($("#c-periodo"), meses, estado.periodo);
   const arquivos = {};
-  const arquivo = id => arquivos[id] ??= json(`dados/dep/${id}.json`).catch(() => null);
+  const arquivo = id => arquivos[id] ??= json(sen ? "dados/senado-tipos.json" : `dados/dep/${id}.json`).catch(() => null);
   const busca = $("#c-busca"), lista = $("#c-sugestoes");
   let sugestoes = [], ativa = -1;
 
@@ -1907,49 +2020,53 @@ async function iniciarComparar() {
 
   async function desenhar() {
     salvar();
-    const idx = indicesPeriodo(resumo.meses, estado.periodo), conjunto = new Set(idx);
+    const idx = indicesPeriodo(meses, estado.periodo), conjunto = new Set(idx);
     const escolhidos = estado.ids.map(id => porId[id]);
     $("#c-escolhidos").innerHTML = escolhidos.map(d => `<li><img class="foto" src="${esc(d.f)}" alt="" width="28" height="28" ${SEM_FOTO}>
       <span>${esc(d.n)} <small>${esc(d.p)}/${esc(d.uf)}</small></span>
       <button type="button" data-tirar="${d.id}" aria-label="Tirar ${esc(d.n)} da comparação">×</button></li>`).join("");
     busca.disabled = escolhidos.length >= 5;
-    busca.placeholder = escolhidos.length >= 5 ? "Já são cinco: tire alguém para trocar" : "Nome do deputado";
+    busca.placeholder = escolhidos.length >= 5 ? "Já são cinco: tire alguém para trocar" : `Nome do ${um}`;
     $("#c-resumo").textContent = escolhidos.length < 2
-      ? `${escolhidos.length ? "Escolha mais um deputado" : "Escolha dois deputados"} para começar a comparação.`
-      : `${escolhidos.length} deputados em ${nomePeriodo(estado.periodo)}.`;
+      ? `${escolhidos.length ? `Escolha mais um ${um}` : `Escolha dois ${varios}`} para começar a comparação.`
+      : `${escolhidos.length} ${varios} em ${nomePeriodo(estado.periodo)}.`;
     $("#c-quadro").hidden = escolhidos.length < 2;
-    const nota = $("#c-nota");  // a nota fala dos alertas: sem eles, o HTML vem sem ela
+    const nota = $("#c-nota");  // a nota fala dos alertas e da presença: sem os dois, o HTML vem sem ela
     if (nota) nota.hidden = escolhidos.length < 2;
     if (escolhidos.length < 2) return;
     const dados = escolhidos.map(d => {
       const ativos = idx.filter(i => d.m[i] > 0);
-      const v = somar(d.m, idx), lim = limiteAtivo(d, idx, resumo.limites), a = contarAlertas(d, idx, !estado.periodo);
+      const v = somar(d.m, idx), lim = sen ? 0 : limiteAtivo(d, idx, resumo.limites), a = comAlertas ? contarAlertas(d, idx, !estado.periodo) : null;
       const p = { dias: 0, pres: 0, faltas: 0 };
       (presenca[d.id] || []).forEach(([i, dias, pres, faltas]) => { if (conjunto.has(i)) { p.dias += dias; p.pres += pres; p.faltas += faltas; } });
-      return { d, v, media: ativos.length ? v / ativos.length : 0, meses: ativos.length, lim, a, p };
+      const maior = ativos.reduce((m, i) => d.m[i] > (d.m[m] || 0) ? i : m, ativos[0]);
+      return { d, v, media: ativos.length ? v / ativos.length : 0, meses: ativos.length, lim, a, p, maior };
     });
     const linha = (rotulo, f) => `<tr><th scope="row">${rotulo}</th>${dados.map(x => `<td>${f(x)}</td>`).join("")}</tr>`;
     const tipo = x => `<span data-tipo="${x.d.id}" class="cat">carregando…</span>`;
-    $("#c-tabela").innerHTML = `<tr><td></td>${dados.map(x => `<th scope="col"><a href="deputado/${x.d.id}.html">
+    $("#c-tabela").innerHTML = `<tr><td></td>${dados.map(x => `<th scope="col"><a href="${pagina(x.d)}">
         <img class="foto" src="${esc(x.d.f)}" alt="" width="48" height="48" ${SEM_FOTO}><span>${esc(x.d.n)}</span></a>
-        <small>${esc(x.d.p)} · ${esc(x.d.uf)}${condicao(x.d)}</small></th>`).join("")}</tr>` +
+        <small>${esc(x.d.p)} · ${esc(x.d.uf)}${sen ? (x.d.sup ? ` · ${esc(x.d.sup)}` : "") : condicao(x.d)}</small></th>`).join("")}</tr>` +
       linha("Reembolsado da cota", x => `<b class="num">${brl(x.v)}</b>`) +
       linha("Média por mês com despesa", x => x.meses ? `${brl(x.media)}<small>${x.meses} ${x.meses === 1 ? "mês" : "meses"}</small>` : "—") +
-      linha("Uso do limite da cota", x => x.lim ? pct(x.v / x.lim) : "—") +
+      (sen ? "" : linha("Uso do limite da cota", x => x.lim ? pct(x.v / x.lim) : "—")) +
       linha("Maior tipo de gasto", tipo) +
-      linha("Presença no Plenário", x => x.p.dias ? `${pct(x.p.pres / x.p.dias)}<small>${x.p.pres} de ${x.p.dias} dias de sessão</small>` : "—") +
-      linha("Faltas sem justificativa", x => x.p.dias ? `${x.p.faltas}` : "—") +
-      (ALERTAS ? linha("Alertas confirmados", x => `<b class="num">${x.a.k}</b>`) +
+      linha("Mês mais caro", x => x.meses ? `${nomeMesLongo(meses[x.maior])}<small>${brl(x.d.m[x.maior])}</small>` : "—") +
+      (comPresenca ? linha("Presença no Plenário", x => x.p.dias ? `${pct(x.p.pres / x.p.dias)}<small>${x.p.pres} de ${x.p.dias} dias de sessão</small>` : "—") +
+        linha("Faltas sem justificativa", x => x.p.dias ? `${x.p.faltas}` : "—") : "") +
+      (comAlertas ? linha("Alertas confirmados", x => `<b class="num">${x.a.k}</b>`) +
         linha("Alertas apontados (altos e médios)", x => `${x.a.g3 + x.a.g2}<small>${x.a.g3} altos · ${x.a.g2} médios</small>`) : "");
     for (const x of dados) {
       const dep = await arquivo(x.d.id), alvo = document.querySelector(`[data-tipo="${x.d.id}"]`);
       if (!alvo) continue;
       if (!dep) { alvo.textContent = "não deu para carregar"; continue; }
       const somas = {};
-      dep.d.forEach(r => { if (conjunto.has(r[0])) somas[r[2]] = (somas[r[2]] || 0) + r[5]; });
+      // Câmara: as despesas do deputado (mês, data, tipo, ..., valor); Senado: o valor de cada tipo em cada mês
+      if (sen) Object.entries(dep.v[x.d.id] || {}).forEach(([t, serie]) => { const s = somar(serie, idx); if (s) somas[t] = s; });
+      else dep.d.forEach(r => { if (conjunto.has(r[0])) somas[r[2]] = (somas[r[2]] || 0) + r[5]; });
       const [cat, v] = Object.entries(somas).sort((a, b) => b[1] - a[1])[0] || [];
       alvo.className = "";
-      alvo.innerHTML = cat === undefined ? "—" : `${esc(resumo.categorias[cat])}<small>${brl(v)} · ${x.v ? pct(v / x.v) : "—"} do total</small>`;
+      alvo.innerHTML = cat === undefined ? "—" : `${esc(sen ? dep.t[cat] : resumo.categorias[cat])}<small>${brl(v)} · ${x.v ? pct(v / x.v) : "—"} do total</small>`;
     }
   }
   desenhar();
@@ -2012,7 +2129,7 @@ async function iniciarCidade() {
     if ($("#m-senado")) {
       $("#m-senado").hidden = !doEstado.length;
       $("#m-sen-titulo").textContent = `Senadores ${ARTIGO_UF[cidade.uf] ? `d${ARTIGO_UF[cidade.uf]}` : "de"} ${NOMES_UF[cidade.uf]}`;
-      $("#m-sen-todos").href = `senadores.html#uf=${cidade.uf}`;
+      $("#m-sen-todos").href = `senadores.html#per=&uf=${cidade.uf}`;
       $("#m-sen-lista").innerHTML = doEstado.map(s => `<li><a class="linha" href="senador/${s.c}.html">
         <img class="foto" src="${esc(s.f)}" alt="" loading="lazy" decoding="async" width="42" height="56" ${SEM_FOTO}>
         <span><span class="nome">${esc(s.n)}</span><br><span class="meta">${esc([s.p, s.uf, s.s].filter(Boolean).join(" · "))}</span></span>
@@ -2086,10 +2203,42 @@ function iniciarMais() {
   menu.addEventListener("click", ev => { if (ev.target.closest("a")) abrir(false); });
 }
 
+// tema: claro, escuro ou o do sistema (o padrão). A escolha fica no aparelho (localStorage) e vira data-tema no <html>,
+// que o estilo.css lê; o <head> já a aplica antes de a página aparecer (pagina(), no gerador). Os três botões aparecem
+// duas vezes: atrás do botão do tema, no cabeçalho, e dentro do Mais, no celular
+function iniciarTema() {
+  const raiz = document.documentElement, caixa = $("#tema");
+  const botoes = [...document.querySelectorAll(".tema-opcoes [data-tema]")];
+  if (!botoes.length) return;
+  const atual = () => raiz.dataset.tema || "sistema";
+  const pintar = () => {
+    botoes.forEach(b => b.setAttribute("aria-pressed", String(b.dataset.tema === atual())));
+    // a cor da barra do navegador acompanha o tema escolhido, e não o do sistema
+    document.querySelectorAll('meta[name="theme-color"][data-tema]').forEach(m => m.setAttribute("media",
+      atual() === "sistema" ? `(prefers-color-scheme: ${m.dataset.tema === "claro" ? "light" : "dark"})` : atual() === m.dataset.tema ? "all" : "not all"));
+  };
+  const escolher = tema => {
+    if (tema === "sistema") delete raiz.dataset.tema; else raiz.dataset.tema = tema;
+    try { tema === "sistema" ? localStorage.removeItem("tema") : localStorage.setItem("tema", tema); } catch { /* sem armazenamento: vale só nesta página */ }
+    pintar();
+  };
+  botoes.forEach(b => b.addEventListener("click", () => escolher(b.dataset.tema)));
+  if (caixa) {
+    const botao = $(".tema-botao", caixa), opcoes = $("#tema-opcoes");
+    const abrir = sim => { opcoes.hidden = !sim; botao.setAttribute("aria-expanded", String(sim)); };
+    caixa.hidden = false;
+    botao.addEventListener("click", () => abrir(opcoes.hidden));
+    document.addEventListener("click", ev => { if (!opcoes.hidden && !caixa.contains(ev.target)) abrir(false); });
+    document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !opcoes.hidden) { abrir(false); botao.focus(); } });
+  }
+  pintar();
+}
+
 iniciarBusca();
 iniciarPontos();
 iniciarOuvir();
 iniciarMais();
+iniciarTema();
 document.querySelectorAll("table.ordenavel").forEach(t => tabelaOrdenavel(t));
 // abas de tipo de gasto que rolam (celular): a aba da página aberta aparece no meio da faixa, e não fora da tela
 document.querySelectorAll(".abas").forEach(faixa => {
@@ -2256,7 +2405,8 @@ async function iniciarEmpresa() {
 // a página de alertas só existe com os alertas ligados; a de fornecedor e a da empresa existem nos dois sites
 ({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: ALERTAS ? iniciarAlertas : undefined, ranking: iniciarRanking, gastos: iniciarGastos,
   comparar: iniciarComparar, cidade: iniciarCidade, fornecedor: iniciarFornecedor, empresa: iniciarEmpresa,
-  // o ano de cada gabinete vem do retrospectiva.js, que só essa página carrega
-  retrospectiva: () => Retro.iniciar(),
-  // as duas do Senado vêm do senado.js, que só essas páginas carregam
-  senadores: () => Senado.iniciarLista(), senador: () => Senado.iniciarSenador() })[document.body.dataset.pagina]?.();
+  // o ano de cada gabinete vem do retrospectiva.js, que só essas páginas carregam
+  retrospectiva: () => Retro.iniciar(), "retrospectiva-senadores": () => Retro.iniciar("s"),
+  // as subabas do Senado usam as mesmas telas dos deputados; a página do senador vem do senado.js, que só ela carrega
+  senadores: () => iniciarRanking("s"), "comparar-senadores": () => iniciarComparar("s"),
+  senador: () => Senado.iniciarSenador() })[document.body.dataset.pagina]?.();

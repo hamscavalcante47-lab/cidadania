@@ -1,24 +1,35 @@
 ﻿"Seção";"Item";"Valor"
-"Número";"reembolsados desde fev/2023";922959032
-"Número";"despesas declaradas";848487
-"Número";"deputados com despesa";656
-"Tipo de gasto";"Divulgação da atividade parlamentar";348750902,31
-"Tipo de gasto";"Passagem aérea (emitida pela Câmara)";163921835,31
-"Tipo de gasto";"Locação ou fretamento de veículos automotores";157103828,36
-"Tipo de gasto";"Manutenção de escritório de apoio à atividade parlamentar";121028974,89
-"Tipo de gasto";"Combustíveis e lubrificantes";83076187,78
-"Tipo de gasto";"Hospedagem, exceto do parlamentar no Distrito Federal";14124982,56
-"Tipo de gasto";"Telefonia";10734066,54
-"Tipo de gasto";"Locação ou fretamento de aeronaves";8571138,31
-"Tipo de gasto";"Serviço de segurança prestado por empresa especializada";5458456,8
-"Tipo de gasto";"Serviço de táxi, pedágio e estacionamento";4157722,31
-"Tipo de gasto";"Passagem aérea (reembolso)";4086588,73
-"Tipo de gasto";"Passagem aérea (RPA)";3805902,06
-"Tipo de gasto";"Fornecimento de alimentação do parlamentar";2627362,6
-"Tipo de gasto";"Locação ou fretamento de embarcações";824708,0
-"Tipo de gasto";"Passagens terrestres, marítimas ou fluviais";517163,23
-"Tipo de gasto";"Assinatura de publicações";281056,38
-"Tipo de gasto";"Serviços postais";197506,05
-"Tipo de gasto";"Participação em curso, palestra ou evento similar";153623,27
-"Tipo de gasto";"Aquisição de tokens e certificados digitais";25549,9
-"Tipo de gasto";"Consultorias, pesquisas e trabalhos técnicos";7000,0
+"Número";"reembolsados desde fev/2023, nas duas casas";1046805051
+"Número";"na Câmara";922959032
+"Número";"no Senado";123846019
+"Número";"despesas declaradas";928112
+"Número";"deputados e 102 senadores com despesa";656
+"Número";"senadores com despesa";102
+"Tipo de gasto na Câmara";"Divulgação da atividade parlamentar";348750902,31
+"Tipo de gasto na Câmara";"Passagem aérea (emitida pela Câmara)";163921835,31
+"Tipo de gasto na Câmara";"Locação ou fretamento de veículos automotores";157103828,36
+"Tipo de gasto na Câmara";"Manutenção de escritório de apoio à atividade parlamentar";121028974,89
+"Tipo de gasto na Câmara";"Combustíveis e lubrificantes";83076187,78
+"Tipo de gasto na Câmara";"Hospedagem, exceto do parlamentar no Distrito Federal";14124982,56
+"Tipo de gasto na Câmara";"Telefonia";10734066,54
+"Tipo de gasto na Câmara";"Locação ou fretamento de aeronaves";8571138,31
+"Tipo de gasto na Câmara";"Serviço de segurança prestado por empresa especializada";5458456,8
+"Tipo de gasto na Câmara";"Serviço de táxi, pedágio e estacionamento";4157722,31
+"Tipo de gasto na Câmara";"Passagem aérea (reembolso)";4086588,73
+"Tipo de gasto na Câmara";"Passagem aérea (RPA)";3805902,06
+"Tipo de gasto na Câmara";"Fornecimento de alimentação do parlamentar";2627362,6
+"Tipo de gasto na Câmara";"Locação ou fretamento de embarcações";824708,0
+"Tipo de gasto na Câmara";"Passagens terrestres, marítimas ou fluviais";517163,23
+"Tipo de gasto na Câmara";"Assinatura de publicações";281056,38
+"Tipo de gasto na Câmara";"Serviços postais";197506,05
+"Tipo de gasto na Câmara";"Participação em curso, palestra ou evento similar";153623,27
+"Tipo de gasto na Câmara";"Aquisição de tokens e certificados digitais";25549,9
+"Tipo de gasto na Câmara";"Consultorias, pesquisas e trabalhos técnicos";7000,0
+"Tipo de gasto no Senado";"Locomoção, hospedagem, alimentação e combustível";29696607,74
+"Tipo de gasto no Senado";"Consultorias e serviços de apoio";26126307,4
+"Tipo de gasto no Senado";"Passagens";22943778,22
+"Tipo de gasto no Senado";"Divulgação da atividade parlamentar";20865602,55
+"Tipo de gasto no Senado";"Aluguel e despesas do escritório";18797387,88
+"Tipo de gasto no Senado";"Material de consumo e software";4477642,82
+"Tipo de gasto no Senado";"Não informada";918270,68
+"Tipo de gasto no Senado";"Segurança privada";20421,7
