@@ -281,6 +281,9 @@ main.largo { padding-bottom: 0; }
 .cartaz-numero { position: absolute; left: 14px; bottom: -3px; font: 800 calc(var(--n) * 3 / var(--dig, 3))/1 var(--display); letter-spacing: -.012em;
   color: var(--numero); white-space: nowrap; text-box: trim-both cap alphabetic; }
 @supports not (text-box: trim-both cap alphabetic) { .cartaz-numero { margin-bottom: -.12em; } }
+/* o número em bilhões ("1,05") tem vírgula, e a cauda dela desce abaixo da linha de base: com o número pousado no
+   horizonte ela caía no chão claro e sumia. O número sobe o tanto da cauda, e o verde continua debaixo dela */
+.cartaz-numero.com-virgula { transform: translateY(-.2em); }
 .cartaz-margem { position: absolute; right: 18px; top: 56px; margin: 0; text-align: right; -webkit-hyphens: manual; hyphens: manual;
   font: 600 12px/1.45 var(--texto); letter-spacing: .09em; text-transform: uppercase; color: var(--topo-tinta-2); }
 .cartaz-margem span { display: block; }
@@ -308,6 +311,9 @@ main.largo { padding-bottom: 0; }
 .caminho-n + .caminho-seta { margin-left: 0; }
 /* os milhões de cada casa: em tinta, porque o vermelho é só da gravidade */
 .caminho-n.casa { color: var(--tinta); }
+/* a unidade dos totais de cada casa ("923 mi"): a capa pode estar em bilhões, e aqui o número segue em milhões */
+.caminho-n { white-space: nowrap; }
+.caminhos .caminho-n small { display: inline; margin: 0 0 0 .18em; font: 600 .5em/1 var(--texto); letter-spacing: .02em; color: var(--tinta-3); }
 .caminhos a:hover { color: var(--verde-forte); }
 .caminhos a:hover .caminho-seta { translate: 3px 0; }
 /* grão de papel sobre a capa inteira, do céu à ponta do marcador */
