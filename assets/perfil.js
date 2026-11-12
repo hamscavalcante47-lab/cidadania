@@ -6,6 +6,7 @@
 // Os dados vêm de dados/dep/<id>.json: 'a' (um item por alerta, na ordem dos <article> da página: chave, escopo e
 // linhas de 'd'), 'h' (o histórico de cada alerta, na mesma ordem) e 'd' (as despesas). Gravidade, título, motivo,
 // revisão e link de cada alerta vêm do próprio <article>, que já passou pelos filtros do gerador.
+// Com os alertas fora do site (data-alertas="0" no <body>), fica só o gasto mês a mês, o cartão do mês e o Plenário.
 (function (exportar) {
 
 const ESCOPO_NOTA = 0, ESCOPO_DIA = 1, ESCOPO_SEM_NOTA = 3;
@@ -158,16 +159,18 @@ const TEXTO_SVG = {
   fonte: `font-size="11" ${FONTE_SVG} fill="${CORES_SVG.tinta2}"`,
 };
 // o arquivo SVG pronto para matéria: o desenho do gráfico (corpo, sem a seleção nem o alvo do toque) com título,
-// legenda em texto, fonte e data de corte; t: { titulo, periodo, edicao (dd/mm/aaaa), url, parcial, mais }
+// legenda em texto, fonte e data de corte; t: { titulo, periodo, edicao (dd/mm/aaaa), url, parcial, mais, alertas }.
+// Com t.alertas === false (alertas fora do site), sai só o gasto: sem a legenda dos pontos nem o aviso sobre indício
 function svgParaMateria(corpo, W, H, t) {
-  const topo = 96, base = 50, alto = topo + H + base, x0 = 16;
+  const comAlertas = t.alertas !== false;
+  const topo = comAlertas ? 96 : 62, base = comAlertas ? 50 : 34, alto = topo + H + base, x0 = 16;
   const linhasTexto = [
     ["tit", 28, `Reembolsos da cota parlamentar: ${t.titulo}`],
     ["sub", 48, `Valor reembolsado por mês, em reais (R$), ${t.periodo}. Tracejado: limite da cota${t.parcial ? "; hachura: meses que ainda recebem notas" : ""}.`],
-    ["sub", 66, "Embaixo, notas com indício próprio: cheio vermelho, gravidade alta; âmbar, média; vazado, baixa; losango, padrão de um dia."],
-    ["sub", 84, t.mais ? "Até três por mês; o sinal + indica que o mês tem mais (a lista completa está no perfil)." : ""],
+    ["sub", 66, comAlertas ? "Embaixo, notas com indício próprio: cheio vermelho, gravidade alta; âmbar, média; vazado, baixa; losango, padrão de um dia." : ""],
+    ["sub", 84, comAlertas && t.mais ? "Até três por mês; o sinal + indica que o mês tem mais (a lista completa está no perfil)." : ""],
     ["fonte", topo + H + 22, `Fonte: Câmara dos Deputados (dados abertos), via De Olho na Cota · edição de ${t.edicao} · ${t.url}`],
-    ["fonte", topo + H + 38, "Indício não é acusação: é um padrão nos dados públicos que pede explicação."],
+    ["fonte", topo + H + 38, comAlertas ? "Indício não é acusação: é um padrão nos dados públicos que pede explicação." : ""],
   ].filter(l => l[2]);
   // o arquivo é XML: & < > e aspas escapados (o esc do app.js não está no Node)
   const xml = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -463,6 +466,10 @@ function iniciar(dados, opcoes = {}) {
   const $ = s => document.querySelector(s);
   const caixa = $("#mensal"), faixa = $("#mes"), cartao = $("#cartao-mes"), recorte = $("#recorte"), plen = $("#plenario");
   if (!caixa || !faixa || !cartao || !recorte) return null;
+  // a chave dos alertas (PUBLICAR_ALERTAS no gerador): com data-alertas="0" no <body>, o perfil mostra só os gastos e a
+  // presença. Sem trilho de pontos, painel, fornecedores com indício, tabela, CSV, regras.json nem memória de visitas;
+  // os elementos de alerta podem nem estar na página
+  const ALERTAS = document.body.dataset.alertas !== "0";
   const meses = dados.meses, N = meses.length, parciais = dados.parciais || 0;
   const JANELAS = janelas(meses);
   // tocado: a pessoa já escolheu um mês (a chegada dos dados não muda a escolha). citadas: as linhas de 'd' citadas
@@ -498,7 +505,9 @@ function iniciar(dados, opcoes = {}) {
     topo = topoBonito(topo);
     const y = v => pT + pH - Math.max(v, 0) / topo * pH;
     const r = limitar(passo * .34, 3, 5.5), passoP = 2 * r + 2.5;
-    const xY = pT + pH + 16, lrY = xY + 20, lT = lrY + 7, lH = POR_MES * passoP + 6, H = lT + lH + 2;
+    // sem alertas, não há trilho: o desenho acaba nos rótulos do eixo, e a linha do mês, na base das colunas
+    const xY = pT + pH + 16, lrY = xY + 20, lT = ALERTAS ? lrY + 7 : pT + pH, lH = ALERTAS ? POR_MES * passoP + 6 : 0;
+    const H = ALERTAS ? lT + lH + 2 : xY + 6;
     let s = `<defs><pattern id="lt-hachura" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">`
       + `<line class="hachura-traco" x1="0" y1="0" x2="0" y2="6"/></pattern></defs>`;
     [0, .5, 1].forEach(f => {
@@ -528,21 +537,24 @@ function iniciar(dados, opcoes = {}) {
         s += `<text class="eixo" x="${x(i).toFixed(1)}" y="${xY}" text-anchor="middle">${t}</text>`;
       }
     }
-    s += `<text class="eixo forte" x="${m.e}" y="${lrY}">Notas com indício próprio</text>`;
-    s += `<rect class="trilho" x="${m.e}" y="${lT}" width="${G.pw.toFixed(1)}" height="${lH.toFixed(1)}" rx="6"/>`;
-    let algum = false;
-    for (let i = i0; i <= i1; i++) {
-      const l = pontosDe(i);
-      if (!l.length) continue;
-      algum = true;
-      l.slice(0, POR_MES).forEach((p, k) => {
-        const cy = lT + lH - 3 - r - k * passoP, cx = x(i);
-        if (k === POR_MES - 1 && l.length > POR_MES) s += `<text class="mais" x="${cx.toFixed(1)}" y="${(cy + 4).toFixed(1)}" text-anchor="middle">+</text>`;
-        else if (p.tipo === "dia") s += `<rect class="pt g${p.g}" x="${(cx - r * .8).toFixed(1)}" y="${(cy - r * .8).toFixed(1)}" width="${(r * 1.6).toFixed(1)}" height="${(r * 1.6).toFixed(1)}" transform="rotate(45 ${cx.toFixed(1)} ${cy.toFixed(1)})"/>`;
-        else s += `<circle class="pt g${p.g}" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${(p.g === 1 ? r - .6 : r).toFixed(1)}"/>`;
-      });
+    // o trilho das notas com indício próprio (só com os alertas no site)
+    if (ALERTAS) {
+      s += `<text class="eixo forte" x="${m.e}" y="${lrY}">Notas com indício próprio</text>`;
+      s += `<rect class="trilho" x="${m.e}" y="${lT}" width="${G.pw.toFixed(1)}" height="${lH.toFixed(1)}" rx="6"/>`;
+      let algum = false;
+      for (let i = i0; i <= i1; i++) {
+        const l = pontosDe(i);
+        if (!l.length) continue;
+        algum = true;
+        l.slice(0, POR_MES).forEach((p, k) => {
+          const cy = lT + lH - 3 - r - k * passoP, cx = x(i);
+          if (k === POR_MES - 1 && l.length > POR_MES) s += `<text class="mais" x="${cx.toFixed(1)}" y="${(cy + 4).toFixed(1)}" text-anchor="middle">+</text>`;
+          else if (p.tipo === "dia") s += `<rect class="pt g${p.g}" x="${(cx - r * .8).toFixed(1)}" y="${(cy - r * .8).toFixed(1)}" width="${(r * 1.6).toFixed(1)}" height="${(r * 1.6).toFixed(1)}" transform="rotate(45 ${cx.toFixed(1)} ${cy.toFixed(1)})"/>`;
+          else s += `<circle class="pt g${p.g}" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${(p.g === 1 ? r - .6 : r).toFixed(1)}"/>`;
+        });
+      }
+      if (!algum) s += `<text class="eixo" x="${(m.e + G.pw / 2).toFixed(1)}" y="${(lT + lH / 2 + 4).toFixed(1)}" text-anchor="middle">${est.M ? "Nenhuma nota com indício próprio neste período" : "Carregando…"}</text>`;
     }
-    if (!algum) s += `<text class="eixo" x="${(m.e + G.pw / 2).toFixed(1)}" y="${(lT + lH / 2 + 4).toFixed(1)}" text-anchor="middle">${est.M ? "Nenhuma nota com indício próprio neste período" : "Carregando…"}</text>`;
     Object.assign(G, { r, passoP });  // o clique acha o ponto da pilha pela altura (pontoNoClique)
     return { s, G, H, pT, lT, lH };
   }
@@ -563,12 +575,12 @@ function iniciar(dados, opcoes = {}) {
     for (let i = i0; i <= i1; i++) if (pontosDe(i).length) comPonto.push(i);
     $("#lt-desc").textContent = `Gráfico dos reembolsos de ${nomeMesLongo(meses[i0])} a ${nomeMesLongo(meses[i1])}, com pico em `
       + `${nomeMesLongo(meses[pico])} (${brl(dados.valores[pico])}). `
-      + (est.M ? (comPonto.length ? `Notas com indício próprio em ${plural(comPonto.length, "mês", "meses")}. ` : "Nenhuma nota com indício próprio neste período. ") : "")
+      + (est.M && ALERTAS ? (comPonto.length ? `Notas com indício próprio em ${plural(comPonto.length, "mês", "meses")}. ` : "Nenhuma nota com indício próprio neste período. ") : "")
       + "Use o controle Mês escolhido, mais abaixo, para percorrer os meses.";
     desenharPlenario();
     posicionarSel();
     ajustarFaixa();
-    if (est.M) desenharMinis();
+    if (est.M && ALERTAS) desenharMinis();
   }
 
   // ---- plenário: barras dos dias de sessão de cada mês (presente, justificada, falta), na mesma geometria do gráfico
@@ -732,18 +744,20 @@ function iniciar(dados, opcoes = {}) {
 
   function desenharCartao() {
     const i = est.sel;
-    const lista = est.M ? est.M.comIndicio : [];
+    // com alertas, as setas vão ao mês anterior ou ao próximo com indício; sem eles, ao mês vizinho
+    const lista = !ALERTAS ? est.M ? [...Array(N).keys()] : [] : est.M ? est.M.comIndicio : [];
     const antes = [...lista].reverse().find(m => m < i && m >= est.janela.i0), depois = lista.find(m => m > i && m <= est.janela.i1);
+    const comIndicio = ALERTAS ? " com indício" : "";
     const resumo = resumoDoMes(i);
-    const corpo = !est.M ? `<p class="lt-vazio">Carregando os indícios…</p>` : `${listasDoMes(i, "h5")}
+    const corpo = !est.M ? (ALERTAS ? `<p class="lt-vazio">Carregando os indícios…</p>` : "") : `${ALERTAS ? listasDoMes(i, "h5") : ""}
       <div class="cartao-acoes">
       ${despesasNoMes[i] ? `<button type="button" class="botao secundario pequeno ver-despesas">Ver as ${plural(despesasNoMes[i], "despesa", "despesas")} de ${nomeMes(meses[i])}</button>` : ""}
       ${painel ? `<button type="button" class="botao secundario pequeno" data-copiar-link="mes:${meses[i]}" data-rotulo="Copiar link deste mês">Copiar link deste mês</button>` : ""}</div>`;
     cartao.innerHTML = `
       <div class="cartao-cab">
-        <button type="button" class="nav-mes" data-ir="${antes ?? ""}" aria-label="Mês anterior com indício"${antes === undefined ? " disabled" : ""}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button>
+        <button type="button" class="nav-mes" data-ir="${antes ?? ""}" aria-label="Mês anterior${comIndicio}"${antes === undefined ? " disabled" : ""}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button>
         <h4 id="cartao-titulo" tabindex="-1">${maiuscula(nomeMesLongo(meses[i]))}</h4>
-        <button type="button" class="nav-mes" data-ir="${depois ?? ""}" aria-label="Próximo mês com indício"${depois === undefined ? " disabled" : ""}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+        <button type="button" class="nav-mes" data-ir="${depois ?? ""}" aria-label="Próximo mês${comIndicio}"${depois === undefined ? " disabled" : ""}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
       </div>
       <p class="cartao-resumo">${resumo}</p>${plenarioDoMes(i) ? `<p class="cartao-plenario">${esc(plenarioDoMes(i))}</p>` : ""}${corpo}`;
   }
@@ -757,11 +771,11 @@ function iniciar(dados, opcoes = {}) {
 
   function desenharFornecedores() {
     const ul = $("#forn-indicio"), botao = $("#forn-mais");
-    if (!est.M) return;
+    if (!est.M || !ALERTAS || !ul) return;
     const todos = est.M.grupos, lista = est.todosForn ? todos : todos.slice(0, 5);
     if (!todos.length) {
       ul.innerHTML = `<li class="lt-vazio">Nenhum indício no padrão de relação com fornecedor.</li>`;
-      botao.hidden = true;
+      if (botao) botao.hidden = true;
       return;
     }
     const abertos = new Set([...ul.querySelectorAll("details[open]")].map(x => x.id));
@@ -781,16 +795,18 @@ function iniciar(dados, opcoes = {}) {
           ${painel ? `<li class="forn-abrir"><button type="button" class="botao secundario pequeno" data-abre="${esc(`forn:${chaveDoGrupo(gr)}`)}">Ver o fornecedor no painel</button></li>` : ""}</ul></details></li>`;
     }).join("");
     const resto = todos.length - 5;
-    botao.hidden = resto <= 0;
-    botao.textContent = est.todosForn ? "Mostrar só os 5 principais" : `Mostrar os outros ${plural(resto, "fornecedor", "fornecedores")}`;
-    botao.setAttribute("aria-expanded", String(est.todosForn));
+    if (botao) {
+      botao.hidden = resto <= 0;
+      botao.textContent = est.todosForn ? "Mostrar só os 5 principais" : `Mostrar os outros ${plural(resto, "fornecedor", "fornecedores")}`;
+      botao.setAttribute("aria-expanded", String(est.todosForn));
+    }
     desenharMinis();
   }
 
   // a faixa de meses de cada fornecedor: os mesmos meses do gráfico (recorte incluído), esticados na largura da faixa
   function desenharMinis() {
     const G = caixa._G;
-    if (!G) return;
+    if (!G || !est.M || !ALERTAS) return;
     document.querySelectorAll("#forn-indicio svg.mini").forEach(svg => {
       const gr = est.M.grupos[+svg.dataset.grupo];
       let s = `<line class="msel" x1="0" x2="0" y1="0" y2="14"/>`;
@@ -806,7 +822,7 @@ function iniciar(dados, opcoes = {}) {
   // quando o mês muda, só a etiqueta "notas em ..." e a linha do mês mudam: o controle deslizante não redesenha a lista
   function marcarMesNosFornecedores() {
     const G = caixa._G;
-    if (!G || !est.M) return;
+    if (!G || !est.M || !ALERTAS) return;
     const dentro = est.sel >= G.i0 && est.sel <= G.i1, xx = G.x(est.sel).toFixed(1);
     document.querySelectorAll("#forn-indicio details.forn").forEach(det => {
       const gr = est.M.grupos[+det.id.slice(5)], tag = det.querySelector(".forn-tag"), linha = det.querySelector(".msel");
@@ -818,7 +834,7 @@ function iniciar(dados, opcoes = {}) {
   // ---- tabela: as mesmas notas, em lista (leitor de tela, impressão, quem prefere ler)
   function desenharTabela() {
     const tabela = $("#tab-indicios");
-    if (!tabela || !est.M) return;
+    if (!tabela || !est.M || !ALERTAS) return;
     const D = est.detalhe, todos = est.M.pontos.flat().sort((p, q) => p.linha - q.linha);
     tabela.innerHTML = `<tr><th>Data</th><th>Fornecedor</th><th>Indício</th><th class="n">Valor</th></tr>` + (todos.length
       ? todos.map(p => {
@@ -891,15 +907,16 @@ function iniciar(dados, opcoes = {}) {
     const W = 960, { s, H } = corpoDoGrafico(W), { i0, i1 } = est.janela;
     let mais = false;
     for (let i = i0; i <= i1; i++) mais = mais || pontosDe(i).length > POR_MES;
-    const texto = svgParaMateria(s, W, H, { titulo: titulo(), edicao: dataBr(est.edicao) || "—", mais,
+    const texto = svgParaMateria(s, W, H, { titulo: titulo(), edicao: dataBr(est.edicao) || "—", mais, alertas: ALERTAS,
       periodo: i0 === i1 ? nomeMesLongo(meses[i0]) : `de ${nomeMesLongo(meses[i0])} a ${nomeMesLongo(meses[i1])}`,
       url: (secao && secao.dataset.url) || location.href.split("#")[0], parcial: !!parciais && i1 >= N - parciais });
     baixarArquivo(`grafico-${arquivo(titulo())}-${est.janela.id || "tudo"}-${est.edicao || "dados"}.svg`, "image/svg+xml;charset=utf-8", texto);
     avisarNoBotao($("#lt-svg"), "Gráfico baixado");
   }
+  // sem alertas, a página não tem o botão do CSV (só o do gráfico)
   if (baixar) {
-    $("#lt-csv").addEventListener("click", baixarPacote);
-    $("#lt-svg").addEventListener("click", baixarGrafico);
+    if (ALERTAS && $("#lt-csv")) $("#lt-csv").addEventListener("click", baixarPacote);
+    if ($("#lt-svg")) $("#lt-svg").addEventListener("click", baixarGrafico);
   }
 
   // ---- E8: novo desde a última visita. O navegador guarda, por deputado, o retrato dos alertas vistos (códigos e
@@ -913,7 +930,7 @@ function iniciar(dados, opcoes = {}) {
   };
   function marcarNovidades() {
     const lista = $("#lista-alertas-deputado");
-    if (!est.edicao || !lista) return;
+    if (!ALERTAS || !est.edicao || !lista) return;
     const aviso = Object.assign(document.createElement("p"), { className: "aviso-visitas cat" });
     lista.after(aviso);
     const mostrarAviso = () => {
@@ -966,6 +983,7 @@ function iniciar(dados, opcoes = {}) {
   }
 
   function carregarRegras() {
+    if (!ALERTAS) return Promise.resolve();  // sem alertas, dados/regras.json não existe
     regrasPedidas = regrasPedidas || Promise.race([
       fetch(`${RAIZ}dados/regras.json`).then(r => r.ok ? r.json() : null).then(j => { if (j) est.regras = j; }).catch(() => {}),
       new Promise(ok => setTimeout(ok, 2500)),
@@ -1358,7 +1376,8 @@ function iniciar(dados, opcoes = {}) {
     return { abrir, linkDireto };
   }
 
-  const painel = temPainel() ? criarPainel() : null;
+  // o painel mostra notas, alertas e fornecedores com indício: sem alertas, não há painel
+  const painel = ALERTAS && temPainel() ? criarPainel() : null;
 
   recorte.innerHTML = JANELAS.map(j => `<button type="button" data-janela="${j.id}" aria-pressed="${j === est.janela}">${j.rotulo}</button>`).join("");
   recorte.addEventListener("click", e => {
@@ -1439,7 +1458,7 @@ function iniciar(dados, opcoes = {}) {
     }
     if (e.target.closest(".ver-despesas") && opcoes.aoVerDespesas) opcoes.aoVerDespesas(String(meses[est.sel]));
   });
-  $("#forn-mais").addEventListener("click", () => { est.todosForn = !est.todosForn; desenharFornecedores(); });
+  if ($("#forn-mais")) $("#forn-mais").addEventListener("click", () => { est.todosForn = !est.todosForn; desenharFornecedores(); });
   if (window.ResizeObserver) new ResizeObserver(() => { if (Math.abs(caixa.clientWidth - (caixa._largura || 0)) > 8) desenhar(); }).observe(caixa);
 
   est.sel = mesInicial(meses, [], opcoes.periodo);
@@ -1460,9 +1479,12 @@ function iniciar(dados, opcoes = {}) {
         ? presencaPorMes(detalhe.pr, datasDasSessoes(extras.sessoes), meses, extras.edicao || est.presencaAte) : null;
       if (est.plen && !est.plen.some(Boolean)) est.plen = null;
       if (plen && est.plen) [plen, $("#pl-legenda")].forEach(el => { if (el) el.hidden = false; });
-      est.citadas = new Set((detalhe.a || []).flatMap(x => x[2]));
+      // sem alertas no site, 'a' e 'h' vêm vazios e a página não tem os <article>: est.M fica vazio (sem pontos nem
+      // fornecedores), só para o resto do código não mudar de forma
+      const a = ALERTAS ? detalhe.a || [] : [];
+      est.citadas = new Set(a.flatMap(x => x[2]));
       detalhe.d.forEach(r => { if (r[0] < N) despesasNoMes[r[0]]++; });
-      est.M = montar(detalhe.a || [], detalhe.d, lerAlertasDaPagina(), N);
+      est.M = montar(a, detalhe.d, ALERTAS ? lerAlertasDaPagina() : [], N);
       const p = String(opcoes.periodo || "");
       if (!est.tocado) est.sel = mesInicial(meses, est.M.pontos, p.length === 6 ? p : est.janela.id);
       desenharTudo();
@@ -1470,10 +1492,10 @@ function iniciar(dados, opcoes = {}) {
       marcarNovidades();
       // os arquivos para baixar: o CSV só quando há alerta no perfil
       if (baixar) {
-        const temAlerta = est.M.dados.some(Boolean);
+        const temAlerta = ALERTAS && est.M.dados.some(Boolean);
         baixar.hidden = false;
-        $("#lt-csv").hidden = !temAlerta;
-        if (!temAlerta) $("#lt-baixar-texto").textContent = "Para reportagem ou pesquisa: o gráfico sai no período escolhido acima, com fonte e data.";
+        if ($("#lt-csv")) $("#lt-csv").hidden = !temAlerta;
+        if (!temAlerta && $("#lt-baixar-texto")) $("#lt-baixar-texto").textContent = "Para reportagem ou pesquisa: o gráfico sai no período escolhido acima, com fonte e data.";
       }
       if (!painel) return;
       const vista = vistaDoEndereco(location.hash);

@@ -1,7 +1,7 @@
 """De Olho na Cota no seu assistente de IA (servidor MCP).
 
-Responde, com os dados abertos do site De Olho na Cota, a perguntas como "quanto o deputado X gastou da cota em 2025?",
-"que alertas confirmados existem em Minas Gerais?" ou "quem os eleitores de Campina Grande escolheram para a Câmara?".
+Responde, com os dados abertos do site De Olho na Cota, a perguntas como "quanto o deputado X gastou da cota em 2025?"
+ou "quem os eleitores de Campina Grande escolheram para a Câmara?".
 Cada resposta traz o link da página do site, para conferir.
 
 Usa só a biblioteca padrão do Python 3.10 ou mais novo. No Claude Desktop, por exemplo, acrescente em
@@ -22,6 +22,8 @@ from pathlib import Path
 SITE = os.environ.get("CIDADANIA_SITE", "https://hamscavalcante47-lab.github.io/cidadania/").rstrip("/") + "/"
 PROTOCOLO = "2025-06-18"
 GRAVIDADE = {3: "alta", 2: "média", 1: "baixa"}
+# o site publica os alertas? O gerador troca para False quando eles ficam fora do site (PUBLICAR_ALERTAS)
+COM_ALERTAS = False
 
 
 def _normalizar(texto):
@@ -56,7 +58,8 @@ def _alertas_do(d):
 
 def _ficha(d):
     return {"id": d["id"], "nome": d["n"], "partido": d["p"], "uf": d["uf"], "em_exercicio": d["x"],
-            "total_reembolsado": d["t"], "alertas": _alertas_do(d), "pagina": f"{SITE}deputado/{d['id']}.html"}
+            "total_reembolsado": d["t"], **({"alertas": _alertas_do(d)} if COM_ALERTAS else {}),
+            "pagina": f"{SITE}deputado/{d['id']}.html"}
 
 
 def _meses_do_periodo(ano=None, mes=None):
@@ -90,8 +93,8 @@ def resumo_do_gabinete(id, ano=None):
             "maiores_tipos_de_gasto": [{"tipo": resumo["categorias"][c], "valor": round(v)}
                                        for c, v in sorted(por_tipo.items(), key=lambda x: -x[1])[:5]],
             "plenario": {"dias_de_sessao": dias, "presente": presente, "faltas_sem_justificativa": faltas},
-            "aviso": "Alerta apontado não é acusação: é um padrão nos dados que pede explicação. Os confirmados foram "
-                     "conferidos nos documentos pela revisão."}
+            **({"aviso": "Alerta apontado não é acusação: é um padrão nos dados que pede explicação. Os confirmados foram "
+                         "conferidos nos documentos pela revisão."} if COM_ALERTAS else {})}
 
 
 def indicios(gravidade_minima=2, uf=None, deputado_id=None, regra=None, so_confirmados=False, limite=20):
@@ -177,10 +180,11 @@ TEXTO = {"type": "string"}
 INTEIRO = {"type": "integer"}
 FERRAMENTAS = {
     "procurar_gabinete": (procurar_gabinete, "Acha deputados federais pelo nome (e, se quiser, pelo estado). Devolve o id "
-                        "usado nas outras ferramentas, o total reembolsado da cota e os alertas.",
+                        "usado nas outras ferramentas e o total reembolsado da cota" + (" e os alertas." if COM_ALERTAS else "."),
                         {"nome": TEXTO, "uf": TEXTO}, ["nome"]),
     "resumo_do_gabinete": (resumo_do_gabinete, "Resumo de um deputado: cota reembolsada (toda a legislatura ou um ano), maiores tipos "
-                     "de gasto, presença no Plenário e alertas apontados e confirmados.",
+                     "de gasto" + (", presença no Plenário e alertas apontados e confirmados." if COM_ALERTAS
+                                   else " e presença no Plenário."),
                      {"id": INTEIRO, "ano": INTEIRO}, ["id"]),
     "indicios": (indicios, "Alertas das regras automáticas sobre a cota, com filtros por gravidade mínima "
                        "(1 a 3), estado, deputado, regra e só os confirmados na revisão.",
@@ -197,6 +201,8 @@ FERRAMENTAS = {
     "voto_da_cidade": (voto_da_cidade, "Em quem uma cidade votou para deputado federal em 2022 e como esses "
                            "gabinetes usam a cota.", {"cidade": TEXTO, "uf": TEXTO}, ["cidade"]),
 }
+if not COM_ALERTAS:  # sem alertas no site, os arquivos que estas duas leem não existem
+    del FERRAMENTAS["indicios"], FERRAMENTAS["regra"]
 
 
 def _responder(pedido):
@@ -204,8 +210,9 @@ def _responder(pedido):
     if metodo == "initialize":
         return {"protocolVersion": params.get("protocolVersion", PROTOCOLO), "capabilities": {"tools": {}},
                 "serverInfo": {"name": "cidadania", "version": "1.0"},
-                "instructions": "Dados da cota parlamentar dos deputados federais desde fev/2023. Alerta não é "
-                                "acusação: diga sempre se foi confirmado na revisão e dê o link da página."}
+                "instructions": "Dados da cota parlamentar dos deputados federais desde fev/2023. " + (
+                    "Alerta não é acusação: diga sempre se foi confirmado na revisão e dê o link da página." if COM_ALERTAS
+                    else "Dê sempre o link da página do site, para conferir.")}
     if metodo == "tools/list":
         return {"tools": [{"name": nome, "description": descricao,
                            "inputSchema": {"type": "object", "properties": props, "required": obrigatorios}}

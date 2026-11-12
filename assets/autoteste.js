@@ -5,7 +5,8 @@
 // notas em 'd' e o código do documento, o histórico ('h') bem formado, a presença diária ('pr') contra resumo.json e
 // presenca.json (tamanho, códigos, faltas), os gastos mês a mês contra o gráfico da página e as páginas permanentes de
 // alguns alertas. Só lê: baixa os arquivos do próprio site. Carregado só em autoteste.html, antes do app.js; a parte
-// sem página (conferirPerfil) é testada no Node (testes/autoteste.test.js).
+// sem página (conferirPerfil) é testada no Node (testes/autoteste.test.js). Com os alertas fora do site
+// (data-alertas="0" no <body>), confere só presença e gastos.
 (function (exportar) {
 
 // os códigos de 'pr' (CODIGOS em cidadania/site/presenca.py) e o tamanho de cada evento de 'h' (TAMANHO_DO_EVENTO na
@@ -19,24 +20,27 @@ const historicoValido = item => Array.isArray(item) && item.length > 0 && inteir
 // as conferências de um perfil, sem rede: [nome, problemas[]] para cada uma. chaves: os data-chave dos <article> da
 // página, na ordem; dep: dados/dep/<id>.json; sessoes: resumo.json "sessoes"; presenca: as linhas do deputado em
 // presenca.json ([mês, dias com sessão, presente, faltas], ou undefined); grafico: o JSON embutido na página (meses e
-// valores), ou null
-function conferirPerfil({ chaves, dep, sessoes, presenca, grafico }) {
+// valores), ou null; alertas: false quando os alertas estão fora do site (data-alertas="0"), e aí as conferências de
+// alerta ('a', 'h', ordem dos <article>) não são feitas
+function conferirPerfil({ chaves, dep, sessoes, presenca, grafico, alertas = true }) {
   const a = dep.a || [], d = dep.d || [], h = dep.h || [], r = [];
-  const ordem = [];
-  if (a.length !== chaves.length) ordem.push(`${a.length} alertas nos dados e ${chaves.length} na página`);
-  a.forEach((x, k) => { if (k < chaves.length && chaves[k] !== x[0]) ordem.push(`posição ${k + 1}: ${x[0]} nos dados, ${chaves[k]} na página`); });
-  r.push(["Alertas na mesma ordem da página", ordem]);
-  const notas = [];
-  a.forEach(([chave, escopo, idx]) => {
-    if (![0, 1, 2, 3].includes(escopo)) notas.push(`${chave}: escopo ${escopo}`);
-    if (!Array.isArray(idx) || idx.some((i, j) => !inteiro(i) || i < 0 || i >= d.length || (j && i <= idx[j - 1]))) notas.push(`${chave}: índices fora de 'd' ou fora de ordem`);
-    else if (idx.some(i => d[i][6] == null || d[i][6] === "")) notas.push(`${chave}: nota citada sem o código do documento`);
-  });
-  r.push(["Notas de cada alerta", notas]);
-  const hist = [];
-  if (h.length !== a.length) hist.push(`${h.length} históricos para ${a.length} alertas`);
-  h.forEach((x, k) => { if (x !== null && !historicoValido(x)) hist.push(`posição ${k + 1}: histórico mal formado`); });
-  r.push(["Histórico de cada alerta", hist]);
+  if (alertas) {
+    const ordem = [];
+    if (a.length !== chaves.length) ordem.push(`${a.length} alertas nos dados e ${chaves.length} na página`);
+    a.forEach((x, k) => { if (k < chaves.length && chaves[k] !== x[0]) ordem.push(`posição ${k + 1}: ${x[0]} nos dados, ${chaves[k]} na página`); });
+    r.push(["Alertas na mesma ordem da página", ordem]);
+    const notas = [];
+    a.forEach(([chave, escopo, idx]) => {
+      if (![0, 1, 2, 3].includes(escopo)) notas.push(`${chave}: escopo ${escopo}`);
+      if (!Array.isArray(idx) || idx.some((i, j) => !inteiro(i) || i < 0 || i >= d.length || (j && i <= idx[j - 1]))) notas.push(`${chave}: índices fora de 'd' ou fora de ordem`);
+      else if (idx.some(i => d[i][6] == null || d[i][6] === "")) notas.push(`${chave}: nota citada sem o código do documento`);
+    });
+    r.push(["Notas de cada alerta", notas]);
+    const hist = [];
+    if (h.length !== a.length) hist.push(`${h.length} históricos para ${a.length} alertas`);
+    h.forEach((x, k) => { if (x !== null && !historicoValido(x)) hist.push(`posição ${k + 1}: histórico mal formado`); });
+    r.push(["Histórico de cada alerta", hist]);
+  }
   const pres = [];
   const faltas = presenca ? presenca.reduce((s, x) => s + x[3], 0) : 0;
   if (dep.pr == null) {
@@ -70,6 +74,8 @@ function iniciar() {
   if (!caixa) return;
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const raiz = document.body.dataset.raiz || "";
+  // com os alertas fora do site, não há <article> de alerta, páginas alerta/ nem regras.json: nada disso é conferido
+  const alertas = document.body.dataset.alertas !== "0";
   const baixar = async (caminho, como = "json") => {
     const r = await fetch(raiz + caminho, { cache: "no-store" });
     if (!r.ok) throw new Error(`${caminho}: HTTP ${r.status}`);
@@ -81,15 +87,17 @@ function iniciar() {
   async function conferir(id, resumo, presenca) {
     const [html, dep] = await Promise.all([baixar(`deputado/${id}.html`, "texto"), baixar(`dados/dep/${id}.json`)]);
     const pagina = new DOMParser().parseFromString(html, "text/html");
-    const artigos = [...pagina.querySelectorAll("#lista-alertas-deputado article.alerta")];
+    const artigos = alertas ? [...pagina.querySelectorAll("#lista-alertas-deputado article.alerta")] : [];
     const inline = pagina.querySelector("#dados-deputado");
     const r = conferirPerfil({ chaves: artigos.map(x => x.dataset.chave), dep, sessoes: resumo.sessoes, presenca: presenca[id],
-      grafico: inline ? JSON.parse(inline.textContent) : null });
-    const paginas = [];
-    for (const art of artigos.slice(0, 5)) {
-      if (!(await existe(`alerta/${art.dataset.chave}.html`))) paginas.push(`alerta/${art.dataset.chave}.html não existe`);
+      grafico: inline ? JSON.parse(inline.textContent) : null, alertas });
+    if (alertas) {
+      const paginas = [];
+      for (const art of artigos.slice(0, 5)) {
+        if (!(await existe(`alerta/${art.dataset.chave}.html`))) paginas.push(`alerta/${art.dataset.chave}.html não existe`);
+      }
+      r.push(["Páginas permanentes (até 5 alertas)", paginas]);
     }
-    r.push(["Páginas permanentes (até 5 alertas)", paginas]);
     return { nome: (pagina.querySelector("#resumo h1") || {}).textContent || `deputado ${id}`, r };
   }
 

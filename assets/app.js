@@ -14,6 +14,9 @@ const comArtigo = uf => ARTIGO_UF[uf] ? `${ARTIGO_UF[uf]} ${NOMES_UF[uf]}` : NOM
 const MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
 const RAIZ = document.body.dataset.raiz || "";
 const VERSAO = document.body.dataset.versao || "";
+// a chave dos alertas (PUBLICAR_ALERTAS, no gerador): com data-alertas="0" no <body>, o site sai sem nada de alerta, e
+// os arquivos de alerta (alertas-meta.json, alertas-N.json, regras.json) nem existem. Sem o atributo, ligados
+const ALERTAS = document.body.dataset.alertas !== "0";
 const SEM_MOVIMENTO = matchMedia("(prefers-reduced-motion: reduce)").matches;
 // modo econômico (E8): o navegador pediu economia de dados (navigator.connection.saveData, que hoje Opera, Samsung
 // Internet e Yandex informam; Safari, Firefox e o Chrome não). A marca vem do <head> (pagina(), no gerador), antes de o
@@ -92,10 +95,11 @@ const nomePeriodo = valor => !valor ? "toda a legislatura" : +valor < 10000 ? `$
 const somar = (arr, idx) => idx.reduce((s, i) => s + (arr[i] || 0), 0);
 // limite da cota nos meses do período em que o deputado teve despesa (exercício do mandato)
 const limiteAtivo = (d, idx, limites) => idx.reduce((s, i) => s + (d.m[i] ? limites[d.uf][i] : 0), 0);
-// d.a: [mês, gravidade] dos alertas médios e altos e [mês, gravidade, 1] de todo alerta confirmado (também os baixos)
+// d.a: [mês, gravidade] dos alertas médios e altos e [mês, gravidade, 1] de todo alerta confirmado (também os baixos).
+// Com os alertas desligados, deputados.json vem sem "a": tudo zero
 function contarAlertas(d, idx, todos) {
   const conjunto = new Set(idx);
-  const lista = todos ? d.a : d.a.filter(([m]) => m !== null && conjunto.has(m));
+  const lista = !ALERTAS || !d.a ? [] : todos ? d.a : d.a.filter(([m]) => m !== null && conjunto.has(m));
   return { g3: lista.filter(a => a[1] === 3).length, g2: lista.filter(a => a[1] === 2).length,
     k: lista.filter(a => a[2] === 1).length };
 }
@@ -178,7 +182,8 @@ function iniciarBusca() {
   const input = $("#busca-global"), lista = $("#busca-resultados");
   if (!input) return;
   // no topo do computador o campo fica estreito: troca o texto de exemplo por um mais curto que caiba inteiro
-  const exemplos = [input.placeholder, "Nome ou empresa", "Buscar"];
+  // sem os alertas, a busca não traz fornecedores (as páginas deles não existem)
+  const exemplos = [input.placeholder, ALERTAS ? "Nome ou empresa" : "Nome", "Buscar"];
   const caber = () => {
     const s = getComputedStyle(input), estilo = getComputedStyle(input, "::placeholder");
     const livre = input.getBoundingClientRect().width - ["paddingLeft", "paddingRight", "borderLeftWidth", "borderRightWidth"]
@@ -192,11 +197,14 @@ function iniciarBusca() {
   addEventListener("resize", caber);
   let indice = null, itens = [], selecionado = -1;
   const abrir = aberta => { lista.hidden = !aberta; input.setAttribute("aria-expanded", String(aberta)); };
-  const carregar = async () => indice ??= (await json("dados/busca.json")).map(i => ({ ...i, b: normalizar(i.n + " " + i.s) }));
+  const carregar = async () => indice ??= (await json("dados/busca.json")).filter(i => ALERTAS || i.t !== "f")
+    .map(i => ({ ...i, b: normalizar(i.n + " " + i.s) }));
   // um arquivo por letra inicial de cada parte do nome: acha a pessoa também pelo sobrenome
   const pessoas = {};
+  // sem os alertas, o vínculo de sócio (que leva à página do fornecedor) fica de fora
   const carregarPessoas = async letra => pessoas[letra] ??= (await json(`dados/pessoas/${letra}.json`).catch(() => []))
-    .map(([n, v]) => ({ n, v, b: normalizar(n) }));
+    .map(([n, v]) => ({ n, v: ALERTAS ? v : v.filter(x => !String(x[3] || "").startsWith("fornecedor/")), b: normalizar(n) }))
+    .filter(p => p.v.length);
   const TIPO = { d: "Deputado", s: "Senador", f: "Fornecedor", p: "Pessoa" };
 
   async function desenhar() {
@@ -218,7 +226,7 @@ function iniciarBusca() {
     selecionado = itens.length ? 0 : -1;
     lista.innerHTML = itens.map((i, k) => `<li><a href="${RAIZ}${i.u}" role="option" aria-selected="${k === 0}">
         <span class="tipo">${TIPO[i.t]}</span><span>${esc(i.n)}<small>${esc(i.s)}</small></span></a></li>`).join("")
-      || `<li class="vazio">Nada encontrado para “${esc(input.value)}”. Tente o nome de um deputado, de um senador, de uma empresa ou de uma pessoa.</li>`;
+      || `<li class="vazio">Nada encontrado para “${esc(input.value)}”. Tente o nome de um deputado, de um senador${ALERTAS ? ", de uma empresa" : ""} ou de uma pessoa.</li>`;
     abrir(true);
   }
   input.addEventListener("focus", carregar, { once: true });
@@ -531,7 +539,7 @@ async function iniciarPostos() {
     try { det = (await detalhes(p[3]))[p[1]]; } catch { det = null; }
     if (!det) { caixa.innerHTML = `<p class="forn-meta">Não foi possível carregar este posto.</p>`; delete d.dataset.feito; return; }
     const [gabinetes, porAno, porMes] = det;
-    const forn = p[6] ? `<a href="${RAIZ}fornecedor/${p[1]}.html">página do fornecedor</a> · ` : "";
+    const forn = ALERTAS && p[6] ? `<a href="${RAIZ}fornecedor/${p[1]}.html">página do fornecedor</a> · ` : "";
     const anos = porAno.map(([a, v]) => `<tr><td>${a}</td><td class="n">${reais(v)}</td></tr>`).join("");
     const meses = porMes.slice().reverse().map(([m, v]) => `<tr><td>${nomeMes(m)}</td><td class="n">${reais(v)}</td></tr>`).join("");
     caixa.innerHTML = `<p class="forn-meta">${forn}<span class="mono">${esc(cnpj(p[1]))}</span></p>
@@ -600,7 +608,7 @@ async function iniciarFornecedores() {
     lista.innerHTML = achados.slice(0, limite).map(({ f, total, notas, maior }) => `<li><details class="forn">
       <summary><span class="forn-l1"><span class="forn-nome">${esc(f[0])}</span></span>
       <span class="forn-meta">${f[2] ? `${esc(f[2])} · ` : ""}${plural(notas, "nota", "notas")} · maior nota ${brl2(maior)} ·
-      <b>${brl2(total)}</b></span></summary><div class="rest-gab"><p class="forn-meta">${f[3]
+      <b>${brl2(total)}</b></span></summary><div class="rest-gab"><p class="forn-meta">${ALERTAS && f[3]
         ? `<a href="${RAIZ}fornecedor/${f.digitos}.html">página do fornecedor</a> · ` : ""}<span class="mono">${esc(f[1])}</span></p></div>
       </details></li>`).join("") || `<li class="lt-vazio">Nenhum fornecedor com esses filtros.</li>`;
     mais.hidden = achados.length <= limite;
@@ -657,7 +665,7 @@ async function iniciarRestaurantes() {
     if (!(d instanceof HTMLDetailsElement) || !d.open || d.dataset.feito || d.dataset.i === undefined) return;
     d.dataset.feito = "1";
     const r = dados.r[+d.dataset.i];
-    const forn = r[5] ? `<a href="${RAIZ}fornecedor/${r[1].replace(/\D/g, "")}.html">página do fornecedor</a> · ` : "";
+    const forn = ALERTAS && r[5] ? `<a href="${RAIZ}fornecedor/${r[1].replace(/\D/g, "")}.html">página do fornecedor</a> · ` : "";
     d.querySelector(".rest-gab").innerHTML = `<p class="forn-meta">${forn}<span class="mono">${esc(r[1])}</span></p>
       <table><tr><th>Deputado(a)</th><th class="n">Notas</th><th class="n">Total</th></tr>${r[6].map(([pid, n, t]) => {
         const [nome, partido, uf] = dados.d[pid];
@@ -689,9 +697,13 @@ function iniciarTipos() {
   const porcento = v => `${v.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}%`;
   let meta = null;
   const cache = {};
-  const carregar = slug => cache[slug] ??= Promise.all([json(`dados/gastos/${slug}.json`),
-    meta ??= json("dados/alertas-meta.json").then(m => ({
-      dep: m.deputados, regra: Object.fromEntries(m.regras.map(r => [r.codigo, r.titulo])) }))])
+  // sem os alertas não há alertas-meta.json: os nomes vêm de deputados.json, e o painel mostra só os gabinetes
+  const carregarMeta = () => ALERTAS
+    ? json("dados/alertas-meta.json").then(m => ({
+      dep: m.deputados, regra: Object.fromEntries(m.regras.map(r => [r.codigo, r.titulo])) }))
+    : json("dados/deputados.json").then(l => ({
+      dep: Object.fromEntries(l.map(d => [d.id, { nome: d.n, partido: d.p, uf: d.uf }])), regra: {} }));
+  const carregar = slug => cache[slug] ??= Promise.all([json(`dados/gastos/${slug}.json`), meta ??= carregarMeta()])
     .catch(erro => { delete cache[slug]; meta = null; throw erro; });
 
   const caixa = document.createElement("dialog");
@@ -755,7 +767,7 @@ function iniciarTipos() {
     if (!caixa.open) caixa.showModal();
     if (!est.dados) {
       if (v.gab) { rotulo.textContent = t.nome; titulo.textContent = "Carregando…"; }
-      corpo.innerHTML = `<p class="fi-meta">Carregando os gabinetes e os indícios deste tipo…</p>`;
+      corpo.innerHTML = `<p class="fi-meta">${ALERTAS ? "Carregando os gabinetes e os indícios deste tipo…" : "Carregando os gabinetes deste tipo…"}</p>`;
       try { est.dados = await carregar(v.slug); }
       catch {
         if (minha !== vez) return;
@@ -781,14 +793,15 @@ function iniciarTipos() {
     corpo.innerHTML = `<div class="pt-numeros" style="--cor: var(--serie-${t.cor || "outros"})">
         <div><b>${brlCurto(t.total)}</b><span>${porcento(t.pct)} da cota</span></div>
         <div><b>${mil(t.gab)}</b><span>${t.gab === 1 ? "gabinete usou" : "gabinetes usaram"}</span></div>
-        <div><b>${mil(t.ind)}</b><span>${t.ind === 1 ? "indício" : "indícios"}${t.conf ? ` · ${plural(t.conf, "confirmado", "confirmados")}` : ""}</span></div></div>
+        ${ALERTAS ? `<div><b>${mil(t.ind)}</b><span>${t.ind === 1 ? "indício" : "indícios"}${t.conf ? ` · ${plural(t.conf, "confirmado", "confirmados")}` : ""}</span></div>`
+          : `<div><b>${mil(t.notas || 0)}</b><span>${t.notas === 1 ? "nota" : "notas"}</span></div>`}</div>
       ${t.desc ? `<p class="fi-desc">${esc(t.desc)}</p>` : ""}
       ${t.outros ? `<p class="fi-aviso">Nos gráficos por tipo, este gasto entra na soma de “Outros”.</p>` : ""}
-      <div class="pt-abas" role="tablist" aria-label="O que mostrar">
+      ${ALERTAS ? `<div class="pt-abas" role="tablist" aria-label="O que mostrar">
         <button type="button" role="tab" id="pt-aba-gab" data-aba="gab" aria-controls="pt-painel">Gabinetes <span class="num">${mil(d.g.length)}</span></button>
         <button type="button" role="tab" id="pt-aba-ind" data-aba="ind" aria-controls="pt-painel">Indícios <span class="num">${mil(d.a.length)}</span></button>
-      </div>
-      <div id="pt-painel" role="tabpanel"><div id="pt-controles"></div><div id="pt-lista"></div></div>
+      </div>` : ""}
+      <div id="pt-painel"${ALERTAS ? ` role="tabpanel"` : ""}><div id="pt-controles"></div><div id="pt-lista"></div></div>
       <a class="botao secundario pequeno pt-pagina" href="gastos/${est.slug}.html">Página do tipo: fornecedores e mês a mês</a>`;
     desenharAba();
   }
@@ -800,15 +813,15 @@ function iniciarTipos() {
       b.setAttribute("aria-selected", sim);
       b.tabIndex = sim ? 0 : -1;
     });
-    $("#pt-painel", corpo).setAttribute("aria-labelledby", `pt-aba-${est.aba}`);
+    if (ALERTAS) $("#pt-painel", corpo).setAttribute("aria-labelledby", `pt-aba-${est.aba}`);
     const controles = $("#pt-controles", corpo);
-    if (est.aba === "gab") {
+    if (est.aba === "gab" || !ALERTAS) {
       const comInd = d.g.filter(g => g[3]).length;
       controles.innerHTML = `<div class="filtros pt-filtros">
           <input type="search" id="pt-busca" placeholder="Buscar deputado, partido ou UF" aria-label="Buscar gabinete" value="${esc(est.q)}">
           <select id="pt-ordem" aria-label="Ordem da lista">
-            <option value="valor">Maior gasto</option><option value="ind">Mais indícios</option><option value="nome">Nome (A a Z)</option></select>
-          <button type="button" class="chip" id="pt-so" aria-pressed="${est.so}"${comInd ? "" : " disabled"}>Só com indícios<span class="num">${mil(comInd)}</span></button>
+            <option value="valor">Maior gasto</option>${ALERTAS ? `<option value="ind">Mais indícios</option>` : ""}<option value="nome">Nome (A a Z)</option></select>
+          ${ALERTAS ? `<button type="button" class="chip" id="pt-so" aria-pressed="${est.so}"${comInd ? "" : " disabled"}>Só com indícios<span class="num">${mil(comInd)}</span></button>` : ""}
         </div>`;
       $("#pt-ordem", controles).value = est.ordem;
     } else {
@@ -841,7 +854,7 @@ function iniciarTipos() {
           <span class="gl-pos num" title="Posição no gasto deste tipo">${g.pos}º</span>
           <span class="gl-txt"><b>${esc(g.d.nome)}</b><small>${esc(g.d.partido)}/${esc(g.d.uf)} · ${plural(g.notas, "nota", "notas")}</small>
             <span class="gl-trilho" aria-hidden="true"><span style="width:${Math.max(100 * g.v / maior, .8).toFixed(1)}%"></span></span></span>
-          <span class="gl-dir"><span class="gl-v num">${brlCurto(g.v)}</span>${g.ind ? `<span class="gl-ind">${plural(g.ind, "indício", "indícios")}</span>` : ""}</span>
+          <span class="gl-dir"><span class="gl-v num">${brlCurto(g.v)}</span>${ALERTAS && g.ind ? `<span class="gl-ind">${plural(g.ind, "indício", "indícios")}</span>` : ""}</span>
           <span class="seta" aria-hidden="true"></span></button></li>`).join("");
       html = html ? `<ol class="pt-gabs">${html}</ol>` : `<p class="fi-aviso">Nenhum gabinete com esse filtro.</p>`;
     } else {
@@ -885,7 +898,7 @@ function iniciarTipos() {
     const razao = v / media;
     const comparacao = razao >= 1.1 ? `${razao.toLocaleString("pt-BR", { maximumFractionDigits: 1 })} vezes a média dos gabinetes`
       : razao <= .9 ? `${porcento(100 * razao)} da média dos gabinetes` : "perto da média dos gabinetes";
-    const lista = d.a.filter(a => String(a.p) === String(pid));
+    const lista = (d.a || []).filter(a => String(a.p) === String(pid));
     rotulo.textContent = `${t.nome} · ${i + 1}º de ${d.g.length}`;
     corpo.innerHTML = `<p class="fi-meta">${esc(dep.partido)}/${esc(dep.uf)} · ${i + 1}º maior gasto deste tipo, entre ${plural(d.g.length, "gabinete", "gabinetes")}</p>
       <div class="pt-numeros" style="--cor: var(--serie-${t.cor || "outros"})">
@@ -899,8 +912,8 @@ function iniciarTipos() {
           <span class="pt-media" style="left:${(100 * media / maior).toFixed(1)}%"></span></div>
         <p class="pt-legenda"><span><i class="pt-marca" aria-hidden="true"></i>média ${brlCurto(media)}</span><span>maior gasto ${brlCurto(maior)}</span></p>
       </div>
-      <h3>Indícios nas notas deste tipo (${mil(lista.length)})</h3>
-      ${lista.map(a => cartaoIndicio(a, false)).join("") || `<p class="fi-aviso">Nenhum indício apontado nas notas deste tipo de gasto deste gabinete.</p>`}
+      ${ALERTAS ? `<h3>Indícios nas notas deste tipo (${mil(lista.length)})</h3>
+      ${lista.map(a => cartaoIndicio(a, false)).join("") || `<p class="fi-aviso">Nenhum indício apontado nas notas deste tipo de gasto deste gabinete.</p>`}` : ""}
       <div class="fi-acoes"><a class="botao pequeno" href="deputado/${esc(pid)}.html">Abrir o perfil do deputado</a></div>`;
   }
 
@@ -966,13 +979,14 @@ function iniciarTipos() {
 }
 
 // confirmados na revisão em destaque; os apontados pelas regras (médios e altos, quase todos sem revisão), à parte e
-// em tom neutro: a lista não pode ler como acusação o que ninguém conferiu
+// em tom neutro: a lista não pode ler como acusação o que ninguém conferiu. Sem os alertas, nada (nem o <br> antes)
 function pills(d) {
+  if (!ALERTAS) return "";
   const apontados = d.g3 + d.g2;
   const p = [];
   if (d.k) p.push(`<span class="pill confirmado">${d.k} confirmado${d.k > 1 ? "s" : ""}</span>`);
   if (apontados) p.push(`<span class="pill apontado" title="${d.g3} de gravidade alta e ${d.g2} de gravidade média">${apontados} apontado${apontados > 1 ? "s" : ""}</span>`);
-  return `<span class="pills">${p.join("") || `<span class="pill apontado">nenhum alerta médio ou alto</span>`}</span>`;
+  return `<br><span class="pills">${p.join("") || `<span class="pill apontado">nenhum alerta médio ou alto</span>`}</span>`;
 }
 
 // ------------------------------------------------------------------ cada deputado, um ponto
@@ -1109,7 +1123,7 @@ async function iniciarInicio() {
     for (const uf of Object.keys(NOMES_UF)) {
       const lista = deputados.filter(d => d.uf === uf && porSituacao(d) && porPartido(d) && ativoNoPeriodo(d));
       const total = lista.reduce((s, d) => s + gasto(d), 0);
-      const graves = lista.reduce((s, d) => { const a = alertas(d); return s + a.g3 + a.g2; }, 0);
+      const graves = ALERTAS ? lista.reduce((s, d) => { const a = alertas(d); return s + a.g3 + a.g2; }, 0) : 0;
       const limite = lista.reduce((s, d) => s + limiteAtivo(d, idx, resumo.limites), 0);
       porUF[uf] = { n: lista.length, total, graves, limite,
         valor: !lista.length ? null : estado.metrica === "gasto" ? total / lista.length : graves / lista.length };
@@ -1127,7 +1141,8 @@ async function iniciarInicio() {
     });
     svg.querySelectorAll(".sigla").forEach(t => t.classList.toggle("ativa", t.dataset.uf === estado.uf));
     svg.classList.toggle("com-selecao", !!estado.uf);
-    $("#legenda-texto").textContent = estado.metrica === "gasto" ? "Gasto médio por deputado" : "Alertas graves por deputado";
+    const legenda = $("#legenda-texto");
+    if (legenda) legenda.textContent = estado.metrica === "gasto" ? "Gasto médio por deputado" : "Alertas graves por deputado";
     $("#voltar").hidden = !estado.uf;
   }
 
@@ -1152,12 +1167,16 @@ async function iniciarInicio() {
     const q = normalizar(estado.busca);
     const lista = deputados.filter(d => doRecorte(d) && (!q || d.b.includes(q)))
       .map(d => ({ d, v: gasto(d), a: alertas(d), lim: limiteAtivo(d, idx, resumo.limites) }));
-    lista.sort({
-      confirmados: (x, y) => y.a.k - x.a.k || x.d.n.localeCompare(y.d.n, "pt-BR"),
-      alertas: (x, y) => y.a.g3 - x.a.g3 || y.a.g2 - x.a.g2 || y.v - x.v,
+    const ordens = {
       gasto: (x, y) => y.v - x.v,
       nome: (x, y) => x.d.n.localeCompare(y.d.n, "pt-BR"),
-    }[estado.ordem]);
+    };
+    // as ordens por alerta só existem com os alertas ligados; uma ordem desconhecida cai no nome (a padrão)
+    if (ALERTAS) Object.assign(ordens, {
+      confirmados: (x, y) => y.a.k - x.a.k || x.d.n.localeCompare(y.d.n, "pt-BR"),
+      alertas: (x, y) => y.a.g3 - x.a.g3 || y.a.g2 - x.a.g2 || y.v - x.v,
+    });
+    lista.sort(ordens[estado.ordem] || ordens.nome);
     $("#lista-titulo").textContent = estado.uf ? NOMES_UF[estado.uf] : "Brasil";
     $("#lista-estado").hidden = !estado.uf;
     if (estado.uf) $("#lista-estado").href = `estado/${estado.uf.toLowerCase()}.html`;
@@ -1169,7 +1188,7 @@ async function iniciarInicio() {
       <li><a class="linha" href="deputado/${d.id}.html">
         <img class="foto" src="${esc(d.f)}" alt="" loading="lazy" decoding="async" width="44" height="44" ${SEM_FOTO}>
         <span><span class="nome">${esc(d.n)}</span><br><span class="meta">${esc(d.p)} · ${esc(d.uf)}${condicao(d)}${d.x || d.c === "a" ? "" : " · fora do exercício"}${estado.periodo && lim ? ` · ${pct(v / lim)} da cota` : ""}</span></span>
-        <span class="direita"><span class="total">${brl(v)}</span><br>${pills(a)}</span>
+        <span class="direita"><span class="total">${brl(v)}</span>${pills(a)}</span>
       </a></li>`).join("") || `<li class="vazio">Nenhum deputado encontrado. Tire algum filtro de partido ou limpe a busca.</li>`;
     const resto = lista.length - estado.limite;
     $("#mais").hidden = resto <= 0;
@@ -1231,7 +1250,7 @@ async function iniciarInicio() {
     const v = porUF[uf];
     return `<strong>${NOMES_UF[uf]}</strong><dl><dt>Deputados</dt><dd>${v.n}</dd><dt>Reembolsos</dt><dd>${brlCurto(v.total)}</dd>
       <dt>Média por deputado</dt><dd>${v.n ? brlCurto(v.total / v.n) : "—"}</dd>
-      ${v.limite ? `<dt>Uso da cota</dt><dd>${pct(v.total / v.limite)}</dd>` : ""}<dt>Alertas graves</dt><dd>${v.graves}</dd></dl>`;
+      ${v.limite ? `<dt>Uso da cota</dt><dd>${pct(v.total / v.limite)}</dd>` : ""}${ALERTAS ? `<dt>Alertas graves</dt><dd>${v.graves}</dd>` : ""}</dl>`;
   });
   $("#periodo").addEventListener("change", e => definirPeriodo(e.target.value));
   $("#voltar").addEventListener("click", () => selecionarUF(estado.uf));
@@ -1242,10 +1261,13 @@ async function iniciarInicio() {
     atualizar({ enquadrarMapa: tinhaUF });
   });
   $("#busca").addEventListener("input", e => { estado.busca = e.target.value; estado.limite = 40; desenharLista(); });
+  if (!ALERTAS) $("#ordem").querySelectorAll('option[value="confirmados"], option[value="alertas"]').forEach(o => o.remove());
   $("#ordem").addEventListener("change", e => { estado.ordem = e.target.value; desenharLista(); });
   $("#situacao").addEventListener("change", e => { estado.situacao = e.target.value; atualizar(); });
   $("#mais").addEventListener("click", () => { estado.limite += 40; desenharLista(); });
+  // sem os alertas o mapa só se colore pelo gasto, mesmo que um botão "Alertas" tenha sobrado no HTML
   document.querySelectorAll("[data-metrica]").forEach(b => b.addEventListener("click", () => {
+    if (!ALERTAS && b.dataset.metrica !== "gasto") return;
     estado.metrica = b.dataset.metrica;
     document.querySelectorAll("[data-metrica]").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
     desenharMapa();
@@ -1795,7 +1817,9 @@ async function iniciarComparar() {
     $("#c-resumo").textContent = escolhidos.length < 2
       ? `${escolhidos.length ? "Escolha mais um deputado" : "Escolha dois deputados"} para começar a comparação.`
       : `${escolhidos.length} deputados em ${nomePeriodo(estado.periodo)}.`;
-    $("#c-quadro").hidden = $("#c-nota").hidden = escolhidos.length < 2;
+    $("#c-quadro").hidden = escolhidos.length < 2;
+    const nota = $("#c-nota");  // a nota fala dos alertas: sem eles, o HTML vem sem ela
+    if (nota) nota.hidden = escolhidos.length < 2;
     if (escolhidos.length < 2) return;
     const dados = escolhidos.map(d => {
       const ativos = idx.filter(i => d.m[i] > 0);
@@ -1815,8 +1839,8 @@ async function iniciarComparar() {
       linha("Maior tipo de gasto", tipo) +
       linha("Presença no Plenário", x => x.p.dias ? `${pct(x.p.pres / x.p.dias)}<small>${x.p.pres} de ${x.p.dias} dias de sessão</small>` : "—") +
       linha("Faltas sem justificativa", x => x.p.dias ? `${x.p.faltas}` : "—") +
-      linha("Alertas confirmados", x => `<b class="num">${x.a.k}</b>`) +
-      linha("Alertas apontados (altos e médios)", x => `${x.a.g3 + x.a.g2}<small>${x.a.g3} altos · ${x.a.g2} médios</small>`);
+      (ALERTAS ? linha("Alertas confirmados", x => `<b class="num">${x.a.k}</b>`) +
+        linha("Alertas apontados (altos e médios)", x => `${x.a.g3 + x.a.g2}<small>${x.a.g3} altos · ${x.a.g2} médios</small>`) : "");
     for (const x of dados) {
       const dep = await arquivo(x.d.id), alvo = document.querySelector(`[data-tipo="${x.d.id}"]`);
       if (!alvo) continue;
@@ -1877,7 +1901,7 @@ async function iniciarCidade() {
         <img class="foto" src="${esc(d.f)}" alt="" loading="lazy" decoding="async" width="44" height="44" ${SEM_FOTO}>
         <span><span class="nome">${esc(d.n)}</span><br><span class="meta">${esc(d.p)} · ${esc(d.uf)}${condicao(d)}${d.x || d.c === "a" ? "" : " · fora do exercício"}</span>
           <span class="fatia">${n.toLocaleString("pt-BR")} votos aqui${total ? ` · ${(100 * n / total).toLocaleString("pt-BR", { maximumFractionDigits: 1 })}% dos votos para deputado federal` : ""}</span></span>
-        <span class="direita"><span class="total">${brl(d.t)}</span><br>${pills(a)}</span></a></li>`;
+        <span class="direita"><span class="total">${brl(d.t)}</span>${pills(a)}</span></a></li>`;
     }).join("") || `<li class="vazio">Sem votos registrados para os deputados desta legislatura.</li>`;
     $("#m-resultado").hidden = false;
     $("#m-resumo").textContent = `Mostrando ${cidade.nome} (${cidade.uf}).`;
@@ -2008,7 +2032,8 @@ function iniciarFornecedor() {
     if (det.open && !det.dataset.carregado) { det.dataset.carregado = "1"; abrir(det); }
   }));
 }
-({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: iniciarAlertas, ranking: iniciarRanking, gastos: iniciarGastos,
-  comparar: iniciarComparar, cidade: iniciarCidade, fornecedor: iniciarFornecedor,
+// a página de alertas e a de fornecedor só existem com os alertas ligados
+({ inicio: iniciarInicio, deputado: iniciarDeputado, alertas: ALERTAS ? iniciarAlertas : undefined, ranking: iniciarRanking, gastos: iniciarGastos,
+  comparar: iniciarComparar, cidade: iniciarCidade, fornecedor: ALERTAS ? iniciarFornecedor : undefined,
   // as duas do Senado vêm do senado.js, que só essas páginas carregam
   senadores: () => Senado.iniciarLista(), senador: () => Senado.iniciarSenador() })[document.body.dataset.pagina]?.();

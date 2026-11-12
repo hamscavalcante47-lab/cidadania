@@ -2,7 +2,7 @@
  "name": "De Olho na Cota · gastos dos deputados, nota por nota",
  "short_name": "De Olho na Cota",
  "lang": "pt-BR",
- "description": "Gastos da cota parlamentar dos deputados federais, com alertas e links para cada nota fiscal.",
+ "description": "Gastos da cota parlamentar dos deputados federais, com links para cada nota fiscal.",
  "start_url": "./index.html",
  "scope": "./",
  "display": "standalone",

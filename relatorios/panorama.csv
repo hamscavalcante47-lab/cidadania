@@ -2,8 +2,6 @@
 "Número";"reembolsados desde fev/2023";866344005
 "Número";"despesas declaradas";781265
 "Número";"deputados com despesa";656
-"Número";"alertas publicados";6296
-"Número";"confirmados na revisão";1500
 "Tipo de gasto";"Divulgação da atividade parlamentar";348750902,31
 "Tipo de gasto";"Locação ou fretamento de veículos automotores";157103828,36
 "Tipo de gasto";"Manutenção de escritório de apoio à atividade parlamentar";121028974,89
@@ -24,9 +22,3 @@
 "Tipo de gasto";"Participação em curso, palestra ou evento similar";153623,27
 "Tipo de gasto";"Aquisição de tokens e certificados digitais";25549,9
 "Tipo de gasto";"Consultorias, pesquisas e trabalhos técnicos";7000,0
-"Alertas por família";"Padrão de gastos";3861
-"Alertas por família";"Notas fiscais";1133
-"Alertas por família";"Campanha eleitoral";791
-"Alertas por família";"Empresas fornecedoras";383
-"Alertas por família";"Funcionários do gabinete";103
-"Alertas por família";"Possível parentesco";25

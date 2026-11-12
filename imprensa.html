@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Para jornalistas · De Olho na Cota</title>
-<meta name="description" content="Como usar os dados da cota parlamentar em reportagens: o que conferir, como citar, feeds e dados abertos.">
+<meta name="description" content="Como usar os dados da cota parlamentar em reportagens: o que conferir, como citar e dados abertos.">
 <meta property="og:title" content="Para jornalistas · De Olho na Cota">
-<meta property="og:description" content="Como usar os dados da cota parlamentar em reportagens: o que conferir, como citar, feeds e dados abertos.">
+<meta property="og:description" content="Como usar os dados da cota parlamentar em reportagens: o que conferir, como citar e dados abertos.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta name="theme-color" content="#0b3b2d" media="(prefers-color-scheme: light)">
@@ -14,116 +14,106 @@
 <link rel="canonical" href="https://hamscavalcante47-lab.github.io/cidadania/imprensa.html">
 <meta property="og:url" content="https://hamscavalcante47-lab.github.io/cidadania/imprensa.html">
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Cota parlamentar dos deputados federais (57ª legislatura)","description":"Despesas reembolsadas pela cota parlamentar desde fevereiro de 2023, cruzadas com o cadastro de empresas da Receita Federal e as contas de campanha do TSE, com os alertas das regras automáticas e o resultado da revisão.","url":"https://hamscavalcante47-lab.github.io/cidadania/imprensa.html","inLanguage":"pt-BR","isAccessibleForFree":true,"creator":{"@type":"Organization","name":"De Olho na Cota","url":"https://hamscavalcante47-lab.github.io/cidadania/"},"temporalCoverage":"2023-02/..","spatialCoverage":"Brasil","distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://hamscavalcante47-lab.github.io/cidadania/dados/deputados.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://hamscavalcante47-lab.github.io/cidadania/dados/resumo.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://hamscavalcante47-lab.github.io/cidadania/dados/regras.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://hamscavalcante47-lab.github.io/cidadania/dados/alertas-meta.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://hamscavalcante47-lab.github.io/cidadania/dados/relatorios.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://hamscavalcante47-lab.github.io/cidadania/edicoes/AAAA-MM.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://hamscavalcante47-lab.github.io/cidadania/dados/municipios.json"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Cota parlamentar dos deputados federais (57ª legislatura)","description":"Despesas reembolsadas pela cota parlamentar desde fevereiro de 2023, com as notas fiscais e o cadastro de empresas da Receita Federal.","url":"https://hamscavalcante47-lab.github.io/cidadania/imprensa.html","inLanguage":"pt-BR","isAccessibleForFree":true,"creator":{"@type":"Organization","name":"De Olho na Cota","url":"https://hamscavalcante47-lab.github.io/cidadania/"},"temporalCoverage":"2023-02/..","spatialCoverage":"Brasil","distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://hamscavalcante47-lab.github.io/cidadania/dados/deputados.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://hamscavalcante47-lab.github.io/cidadania/dados/resumo.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://hamscavalcante47-lab.github.io/cidadania/dados/relatorios.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://hamscavalcante47-lab.github.io/cidadania/dados/municipios.json"}]}</script>
 <script>if (navigator.connection && navigator.connection.saveData || matchMedia("(prefers-reduced-data: reduce)").matches) document.documentElement.classList.add("economia")</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M5%202h14v20l-2.33-1.6-2.34%201.6-2.33-1.6-2.33%201.6-2.34-1.6L5%2022z%22%20fill%3D%22%230b3b2d%22/%3E%3Cpath%20d%3D%22M8.5%207.5h7M8.5%2011h7M8.5%2014.5h4%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="assets/estilo.css?v=0ed1426a">
+<link rel="stylesheet" href="assets/estilo.css?v=980d07fa">
 </head>
-<body data-pagina="imprensa" data-raiz="" data-versao="9a60c7d483">
+<body data-pagina="imprensa" data-raiz="" data-versao="e737e89cbb" data-alertas="0">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo"><div class="cont">
   <a class="marca" href="index.html"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0b3b2d"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>De Olho na Cota<small>gastos dos deputados, nota por nota</small></span></a>
   <div class="busca" role="search">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-    <label class="vh" for="busca-global">Buscar deputado, senador, fornecedor ou pessoa</label>
-    <input id="busca-global" type="search" placeholder="Deputado, senador ou empresa" autocomplete="off"
+    <label class="vh" for="busca-global">Buscar deputado, senador ou pessoa</label>
+    <input id="busca-global" type="search" placeholder="Deputado ou senador" autocomplete="off"
       role="combobox" aria-expanded="false" aria-controls="busca-resultados" aria-keyshortcuts="/">
     <kbd class="atalho" aria-hidden="true">/</kbd>
     <ul class="resultados" id="busca-resultados" role="listbox" hidden></ul>
   </div>
-  <nav aria-label="Principal"><a href="index.html">Início</a><a href="ranking.html">Deputados</a><a href="senadores.html">Senadores</a><a href="gastos.html">Gastos</a><a href="alertas.html">Alertas</a><a href="apuracoes.html">Apurações</a><a href="metodologia.html" aria-current="true">Como funciona</a></nav>
+  <nav aria-label="Principal"><a href="index.html">Início</a><a href="ranking.html">Deputados</a><a href="senadores.html">Senadores</a><a href="gastos.html">Gastos</a><a href="metodologia.html" aria-current="true">Como funciona</a></nav>
 </div></header>
 <main id="conteudo"><div class="cont">
 <p class="ouvir-linha"><button type="button" class="ouvir" id="ouvir" title="Ler em voz alta" hidden><svg viewBox="0 0 24 24" aria-hidden="true">
   <path class="falar" d="M4 9.5h3.5L12 5v14l-4.5-4.5H4v-5Zm11.5-1a4.5 4.5 0 0 1 0 7m2.5-10a8.5 8.5 0 0 1 0 13"/><path class="parar" d="M8 8h8v8H8z"/></svg><span class="vh">Ler em voz alta</span></button></p>
-<nav class="subabas" aria-label="Nesta seção"><a href="metodologia.html">Como funciona</a><a href="como-ler-um-indicio.html">Como ler um indício</a><a href="imprensa.html" aria-current="page">Para jornalistas</a><a href="acessibilidade.html">Acessibilidade</a><a href="sobre.html">Sobre</a></nav>
+<nav class="subabas" aria-label="Nesta seção"><a href="metodologia.html">Como funciona</a><a href="relatorios.html">Dados e planilhas</a><a href="imprensa.html" aria-current="page">Para jornalistas</a><a href="acessibilidade.html">Acessibilidade</a><a href="sobre.html">Sobre</a></nav>
 
 <section class="abertura prosa">
   <h1>Como usar estes dados numa reportagem</h1>
-  <p class="lead">O De Olho na Cota cruza as 781.265 despesas da cota parlamentar com as notas fiscais, a Receita
-    Federal e o TSE. Cada alerta tem um link permanente e leva à nota original na Câmara.</p>
+  <p class="lead">O De Olho na Cota reúne as 781.265 despesas da cota parlamentar declaradas à
+    Câmara, com as notas fiscais e o cadastro de empresas da Receita Federal. Cada nota com link leva ao documento original
+    na Câmara.</p>
 
   <h2>O que o site é, e o que não é</h2>
   <ul>
-    <li>É um monitoramento cidadão, com regras automáticas que apontam padrões que pedem explicação.</li>
-    <li>Um alerta <strong>não é acusação</strong> nem prova de irregularidade. Muitos têm explicação legítima.</li>
-    <li>Parte dos alertas foi revisada: por uma pessoa ou em revisão assistida por agentes de IA, e cada alerta diz qual.
-      Alertas com "revisão pendente" ainda não foram conferidos.</li>
+    <li>É um monitoramento cidadão dos gastos da cota parlamentar, feito com os dados públicos da Câmara.</li>
+    <li>Os números dizem quanto cada gabinete gastou, com quem e em quê. Sozinhos, não dizem se um gasto foi regular.</li>
   </ul>
 
   <h2>Antes de publicar, confira</h2>
-  <p>O guia <a href="como-ler-um-indicio.html">Como ler um indício</a> percorre as partes de um alerta com um exemplo real.</p>
   <ol>
     <li>Abra a nota original pelo link "ver nota" e confira número, data, valor e emitente.</li>
     <li>Confira o CNPJ no cadastro da Receita Federal: a situação da empresa pode ter mudado.</li>
-    <li>Veja a data e o tipo da revisão na página do alerta, e se ele ainda está ativo.</li>
-    <li>Ouça o gabinete e a empresa. Os pedidos que já fizemos estão em <a href="pedidos.html">Pedidos</a>.</li>
-    <li>Cite a página do alerta, não só o site: o link é permanente.</li>
+    <li>Anote a data da edição: os 3 últimos meses ainda recebem notas, e os totais mudam.</li>
+    <li>Ouça o gabinete e a empresa.</li>
+    <li>Cite a página do deputado ou do relatório, com a data da edição.</li>
   </ol>
 
   <h2>Como citar</h2>
-  <p>Cada página de alerta traz a citação pronta, com código, deputado e data dos dados. Para o site em geral:</p>
+  <p>Cada relatório em <a href="relatorios.html">Dados e planilhas</a> traz a citação pronta, com a data dos dados. Para o
+    site em geral:</p>
   <p class="citacao" id="citacao-site">De Olho na Cota — monitoramento cidadão da cota parlamentar. Dados até nov/2026. https://hamscavalcante47-lab.github.io/cidadania/</p>
   <button type="button" class="botao secundario pequeno" data-copiar="#citacao-site" hidden>Copiar citação</button>
 
-  <h2>Acompanhe sem voltar aqui</h2>
-  <ul>
-    <li><a href="novidades.html">Novidades do mês</a>: alertas novos, revisões e maiores saltos de gasto.</li>
-    <li>Feeds Atom (para leitores de RSS e automações): <a href="feeds/geral.xml">todos os alertas</a>; por estado, partido
-      e deputado, com o link em cada página (por exemplo <span class="mono">feeds/uf/sp.xml</span>,
-      <span class="mono">feeds/partido/pt.xml</span>, <span class="mono">feeds/deputado/ID.xml</span>).</li>
-    <li>Páginas por estado, para a cobertura regional: <a href="estado/sp.html">São Paulo</a>, <a href="estado/mg.html">Minas
-      Gerais</a> e as demais pelo mapa.</li>
-  </ul>
+  <h2>Páginas por estado</h2>
+  <p>Para a cobertura regional, cada estado tem uma página com a bancada e os maiores fornecedores sediados nele:
+    <a href="estado/sp.html">São Paulo</a>, <a href="estado/mg.html">Minas Gerais</a> e as demais pelo mapa.</p>
 
   <h2>Dados abertos</h2>
-  <p>Os arquivos que o site usa ficam publicados e podem ser baixados direto, sem cadastro. Nas páginas de deputado e de
-    alertas há também botões para baixar planilhas (CSV). Os campos têm nomes curtos para o site carregar rápido:</p>
-  <dl class="glossario"><div><dt class='mono'>dados/deputados.json</dt><dd>Um item por deputado: id, n (nome), p (partido), uf, f (foto), t (total reembolsado), g3/g2/g1 (alertas por gravidade), x (em exercício), m (valores por mês, alinhados com meses de resumo.json), a (alertas: [posição do mês em meses, gravidade], só os médios e altos, e [posição do mês, gravidade, 1] para todo alerta confirmado na revisão).</dd></div><div><dt class='mono'>dados/resumo.json</dt><dd>meses (AAAAMM), parciais (quantos meses finais ainda recebem notas), limites (limite mensal da cota por estado, alinhado com meses), categorias (tipos de gasto), sessoes (dias com sessão deliberativa no Plenário: a primeira data e, depois, quantos dias até a sessão seguinte), presenca_ate (último dia de sessão com presença registrada) e edicao (data em que o site foi gerado).</dd></div><div><dt class='mono'>dados/dep/{id}.json</dt><dd>Despesas de um deputado: f (fornecedores: nome e CNPJ/CPF mascarado), d (despesas: índice do mês, data, índice da categoria, índice do fornecedor, número da nota, valor, identificador do documento — toda nota citada em alerta tem o seu; as outras, só quando há link —, tipo do link e, às vezes, o ano do link, quando difere do da despesa), v (verba de gabinete por mês), e (equipe: nome, função, nível, início, fim), a (um item por alerta, na ordem da página do deputado: código do alerta, escopo do indício — 0 a própria nota, 1 as notas de um dia, 2 o conjunto, 3 sem nota — e as posições em d das notas citadas, todas a partir de fev/2023), h (o histórico de cada alerta, um item por alerta, na mesma ordem de a. As datas são contadas em dias desde 26/10/2026, o primeiro dia do De Olho na Cota, e ficam nulas quando não há. Cada item começa pelos dias até a primeira vez que o De Olho na Cota encontrou o padrão, em qualquer versão do alerta (nunca depois do primeiro evento), e segue com os eventos, em ordem de data (os sem data no fim), cada um começando pelo código e pela data: 1 deixou de ser apontado com este código (também quando ganhou código novo); 2 voltou a ser apontado; 3 a gravidade mudou — de, para —; 4 a descrição foi atualizada e o alerta ganhou código novo — quantas versões anteriores tem —; 5 revisão — veredito (0 confirmado, 1 inconclusivo, 2 descartado, 3 revisão herdada retirada), assistida (1 se foi revisão assistida por agentes de IA, 0 se não) e herdada (1 se foi feita numa versão anterior do alerta, 0 se não) —; 6 pedido enviado — canal (0 e-mail ao gabinete, 1 pedido à Câmara pela LAI), prazo, em dias, e o número do pedido, o mesmo da tabela de pedidos —; 7 resposta recebida e 8 recurso — o número do pedido —, um evento por resposta e por recurso, inclusive os anteriores ao último) e pr (presença em Plenário, uma letra por dia de sessão: P presente, p presente com ausência justificada numa das sessões, F falta sem justificativa, M missão autorizada, S licença de saúde, D decisão da Mesa, O obrigação político-partidária, J outra justificativa ou sem motivo informado, - sem registro, fora do exercício).</dd></div><div><dt class='mono'>dados/regras.json</dt><dd>Uma entrada por regra, pelo código: t (título), x (explicação), g (gravidade), e (escopo do indício: nota, dia, conjunto ou sem_nota) e f (família de achados).</dd></div><div><dt class='mono'>dados/alertas-3.json, alertas-2.json, alertas-1.json</dt><dd>Alertas publicados por gravidade (alta, média, baixa): c (código), r (regra), g (gravidade), p (id do deputado), t (descrição), m (índice do mês), s e rl (veredito e rótulo da revisão), v (nota da revisão), va (quando a revisão foi feita numa versão anterior do alerta: o código da versão revisada e a data), f (CNPJ do fornecedor com página), n (até cinco notas: número, data, valor, link).</dd></div><div><dt class='mono'>dados/alertas-meta.json</dt><dd>Regras (código, título, família, revisões), famílias de achados e nome, partido e estado de cada deputado.</dd></div><div><dt class='mono'>dados/relatorios.json</dt><dd>Catálogo da aba Relatórios: edicao (data da edição: o último dia em que os dados mudaram), dados_ate (último mês, AAAAMM), licenca, numeros_edicao (os números do parágrafo &quot;Copiar números desta edição&quot;: reembolsado, despesas e deputados, só dos deputados com página; alertas, alta, confirmados e faltas) e, por relatório, slug, tipo, titulo, resumo, url, csv (a planilha), linhas_csv e numeros (valor, rótulo e, nos que a auditoria confere contra os outros arquivos, ref).</dd></div><div><dt class='mono'>edicoes/AAAA-MM.json</dt><dd>Uma edição mensal congelada (não muda depois): mes, edicao (data dos dados), dados_ate, numeros (deputados, despesas, reembolsado, alertas, alta, media, baixa, confirmados, faltas), alertas (código: regra, gravidade, id do deputado, veredito da revisão, 1 se a revisão veio de uma versão anterior), deputados (nome, partido e estado na época) e regras (título na época).</dd></div><div><dt class='mono'>relatorios/{slug}.csv</dt><dd>A planilha de cada relatório: separador ponto e vírgula, vírgula decimal e BOM (abre direto no Excel em português).</dd></div><div><dt class='mono'>dados/busca.json e dados/pessoas/{letra}.json</dt><dd>Índices da busca: deputados, fornecedores com página e pessoas (sócios dessas empresas e funcionários de gabinete).</dd></div><div><dt class='mono'>dados/municipios.json</dt><dd>Página O voto da sua cidade: ano (da eleição) e m, uma linha por município: [uf, nome, código do município no TSE, que não é o do IBGE].</dd></div><div><dt class='mono'>dados/votos/{uf}.json</dt><dd>Votos para deputado federal em cada município do estado, no 1º turno: {código TSE: [votos nominais de todos os candidatos ao cargo na cidade, [[id do deputado, votos], ...]]}, só os 10 mais votados entre os deputados com página.</dd></div></dl>
+  <p>Os arquivos que o site usa ficam publicados e podem ser baixados direto, sem cadastro. Nas páginas de deputado e em
+    <a href="relatorios.html">Dados e planilhas</a> há também planilhas (CSV). Os campos têm nomes curtos para o site
+    carregar rápido:</p>
+  <dl class="glossario"><div><dt class='mono'>dados/deputados.json</dt><dd>Um item por deputado: id, n (nome), p (partido), uf, f (foto), t (total reembolsado), x (em exercício) e m (valores por mês, alinhados com meses de resumo.json).</dd></div><div><dt class='mono'>dados/resumo.json</dt><dd>meses (AAAAMM), parciais (quantos meses finais ainda recebem notas), limites (limite mensal da cota por estado, alinhado com meses), categorias (tipos de gasto), sessoes (dias com sessão deliberativa no Plenário: a primeira data e, depois, quantos dias até a sessão seguinte), presenca_ate (último dia de sessão com presença registrada) e edicao (data em que o site foi gerado).</dd></div><div><dt class='mono'>dados/dep/{id}.json</dt><dd>Despesas de um deputado: f (fornecedores: nome e CNPJ/CPF mascarado), d (despesas: índice do mês, data, índice da categoria, índice do fornecedor, número da nota, valor, identificador do documento, quando há link, tipo do link e, às vezes, o ano do link, quando difere do da despesa), v (verba de gabinete por mês), e (equipe: nome, função, nível, início, fim) e pr (presença em Plenário, uma letra por dia de sessão: P presente, p presente com ausência justificada numa das sessões, F falta sem justificativa, M missão autorizada, S licença de saúde, D decisão da Mesa, O obrigação político-partidária, J outra justificativa ou sem motivo informado, - sem registro, fora do exercício).</dd></div><div><dt class='mono'>dados/relatorios.json</dt><dd>Catálogo de Dados e planilhas: edicao (data da edição: o último dia em que os dados mudaram), dados_ate (último mês, AAAAMM), licenca, numeros_edicao (os números do parágrafo &quot;Copiar números desta edição&quot;: reembolsado, despesas e deputados, só dos deputados com página, e faltas) e, por relatório, slug, tipo, titulo, resumo, url, csv (a planilha), linhas_csv e numeros (valor, rótulo e, nos que a auditoria confere contra os outros arquivos, ref).</dd></div><div><dt class='mono'>relatorios/{slug}.csv</dt><dd>A planilha de cada relatório: separador ponto e vírgula, vírgula decimal e BOM (abre direto no Excel em português).</dd></div><div><dt class='mono'>dados/busca.json e dados/pessoas/{letra}.json</dt><dd>Índices da busca: deputados e pessoas (funcionários de gabinete).</dd></div><div><dt class='mono'>dados/municipios.json</dt><dd>Página O voto da sua cidade: ano (da eleição) e m, uma linha por município: [uf, nome, código do município no TSE, que não é o do IBGE].</dd></div><div><dt class='mono'>dados/votos/{uf}.json</dt><dd>Votos para deputado federal em cada município do estado, no 1º turno: {código TSE: [votos nominais de todos os candidatos ao cargo na cidade, [[id do deputado, votos], ...]]}, só os 10 mais votados entre os deputados com página.</dd></div></dl>
   <p>Os dados de origem são públicos (Câmara dos Deputados, Receita Federal e TSE). A licença de reuso deste site ainda
     não foi definida: para republicar em volume, escreva antes para o contato abaixo.</p>
 
   <h2 id="assistente">Perguntar a um assistente de IA</h2>
   <p>O arquivo <a href="mcp/cidadania_mcp.py" download>cidadania_mcp.py</a> liga estes mesmos dados a assistentes que aceitam
-    servidores MCP, como o Claude Desktop. Com ele, dá para perguntar, por exemplo, que indícios foram confirmados num
-    gabinete ou em quem uma cidade votou, e a resposta traz o link da página para conferir. Precisa do Python 3.10 ou
+    servidores MCP, como o Claude Desktop. Com ele, dá para perguntar, por exemplo, quanto um gabinete gastou e com quem,
+    ou em quem uma cidade votou, e a resposta traz o link da página para conferir. Precisa do Python 3.10 ou
     mais novo, sem nenhuma instalação a mais. No Claude Desktop, acrescente em <span class="mono">claude_desktop_config.json</span>:</p>
   <p class="citacao mono" id="config-mcp">{"mcpServers": {"cidadania": {"command": "python", "args": ["C:/caminho/cidadania_mcp.py"]}}}</p>
   <button type="button" class="botao secundario pequeno" data-copiar="#config-mcp" data-copiado="Configuração copiada" hidden>Copiar configuração</button>
   <p>Ferramentas: <span class="mono">procurar_gabinete</span>, <span class="mono">resumo_do_gabinete</span>,
-    <span class="mono">indicios</span>, <span class="mono">regra</span>, <span class="mono">notas_do_gabinete</span>,
-    <span class="mono">comparar_gabinetes</span> e <span class="mono">voto_da_cidade</span>. O assistente é instruído a dizer
-    sempre se o indício foi confirmado na revisão.</p>
+    <span class="mono">notas_do_gabinete</span>, <span class="mono">comparar_gabinetes</span> e
+    <span class="mono">voto_da_cidade</span>.</p>
 
   <h2>Contato</h2>
   <p>Dúvidas, correções e pedidos de dados: <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
 </section>
 
 </div></main>
-<nav class="barra-secoes" aria-label="Seções do site"><a href="index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 11 12 4l8.5 7M5.5 9.5V20h4.5v-6h4v6h4.5V9.5"/></svg><span>Início</span></a><a href="ranking.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5h18a9 6.5 0 0 1-18 0ZM2 19.5h20"/></svg><span>Deputados</span></a><a href="senadores.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 16a7.5 6.5 0 0 1 15 0ZM2 19.5h20"/></svg><span>Senadores</span></a><a href="alertas.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 2.8 20h18.4L12 4Zm0 6v4.5m0 2.5v.5"/></svg><span>Alertas</span></a><button type="button" class="barra-mais marcado" aria-expanded="false" aria-controls="menu-mais"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Mais</span></button></nav>
-<div class="menu-mais" id="menu-mais" hidden><p>Mais seções</p><ul><li><a href="apuracoes.html">Apurações</a></li><li><a href="gastos.html">Gastos por tipo</a></li><li><a href="metodologia.html">Como funciona</a></li><li><a href="comparar.html">Comparar gabinetes</a></li><li><a href="voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="novidades.html">Novidades</a></li><li><a href="relatorios.html">Dados e planilhas</a></li><li><a href="pedidos.html">Pedidos de esclarecimento</a></li><li><a href="imprensa.html" aria-current="page">Para jornalistas</a></li><li><a href="sobre.html">Sobre o projeto</a></li></ul></div>
+<nav class="barra-secoes" aria-label="Seções do site"><a href="index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 11 12 4l8.5 7M5.5 9.5V20h4.5v-6h4v6h4.5V9.5"/></svg><span>Início</span></a><a href="ranking.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5h18a9 6.5 0 0 1-18 0ZM2 19.5h20"/></svg><span>Deputados</span></a><a href="senadores.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 16a7.5 6.5 0 0 1 15 0ZM2 19.5h20"/></svg><span>Senadores</span></a><a href="gastos.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V11M12 20V4M19 20v-6M3 20h18"/></svg><span>Gastos</span></a><button type="button" class="barra-mais marcado" aria-expanded="false" aria-controls="menu-mais"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Mais</span></button></nav>
+<div class="menu-mais" id="menu-mais" hidden><p>Mais seções</p><ul><li><a href="metodologia.html">Como funciona</a></li><li><a href="comparar.html">Comparar gabinetes</a></li><li><a href="voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="relatorios.html">Dados e planilhas</a></li><li><a href="imprensa.html" aria-current="page">Para jornalistas</a></li><li><a href="sobre.html">Sobre o projeto</a></li></ul></div>
 <footer class="rodape"><div class="cont">
   <div class="rodape-grade">
     <div class="rodape-sobre">
       <p class="marca"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 2h14v20l-2.33-1.6-2.34 1.6-2.33-1.6-2.33 1.6-2.34-1.6L5 22z" fill="#0b3b2d"/><path d="M8.5 7.5h7M8.5 11h7M8.5 14.5h4" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg><span>De Olho na Cota</span></p>
-      <p>Monitoramento cidadão da cota parlamentar dos deputados federais e dos senadores. Os alertas são indícios apontados por
-        regras automáticas, não acusações: cada um leva à nota original.</p>
+      <p>Monitoramento cidadão da cota parlamentar dos deputados federais e dos senadores: quanto cada gabinete recebeu, em quê, e o link de cada nota fiscal.</p>
       <p><a class="seguir" href="sobre.html">Quem faz e como falar com o projeto</a></p>
     </div>
-    <div><h2>Navegar</h2><ul><li><a href="index.html">Início</a></li><li><a href="ranking.html">Deputados</a></li><li><a href="senadores.html">Senadores</a></li><li><a href="gastos.html">Gastos</a></li><li><a href="alertas.html">Alertas</a></li><li><a href="apuracoes.html">Apurações</a></li><li><a href="metodologia.html" aria-current="true">Como funciona</a></li><li><a href="comparar.html">Comparar gabinetes</a></li><li><a href="voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="relatorios.html">Dados e planilhas</a></li></ul></div>
-    <div><h2>Fontes dos dados</h2><ul><li><a href="https://dadosabertos.camara.leg.br/" target="_blank" rel="noopener">Câmara dos Deputados</a></li><li><a href="https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj" target="_blank" rel="noopener">Receita Federal (CNPJ)</a></li><li><a href="https://dadosabertos.tse.jus.br/" target="_blank" rel="noopener">TSE (contas de campanha)</a></li></ul></div>
-    <div><h2>Imprensa</h2><ul><li><a href="imprensa.html">Para jornalistas</a></li>
-      <li><a href="pedidos.html">Pedidos de esclarecimento</a></li><li><a href="feeds/geral.xml">Feed de alertas</a></li><li><a href="feeds/apuracoes.xml">Feed das apurações</a></li>
-      <li><a href="como-ler-um-indicio.html">Como ler um indício</a></li></ul></div>
-    <div><h2>Correções</h2><p>Encontrou um erro ou quer responder a um alerta? Escreva para
+    <div><h2>Navegar</h2><ul><li><a href="index.html">Início</a></li><li><a href="ranking.html">Deputados</a></li><li><a href="senadores.html">Senadores</a></li><li><a href="gastos.html">Gastos</a></li><li><a href="metodologia.html" aria-current="true">Como funciona</a></li><li><a href="comparar.html">Comparar gabinetes</a></li><li><a href="voto-da-cidade.html">O voto da sua cidade</a></li><li><a href="relatorios.html">Dados e planilhas</a></li></ul></div>
+    <div><h2>Fontes dos dados</h2><ul><li><a href="https://dadosabertos.camara.leg.br/" target="_blank" rel="noopener">Câmara dos Deputados</a></li><li><a href="https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj" target="_blank" rel="noopener">Receita Federal (CNPJ)</a></li><li><a href="https://dadosabertos.tse.jus.br/" target="_blank" rel="noopener">TSE (eleições de 2022)</a></li></ul></div>
+    <div><h2>Imprensa</h2><ul><li><a href="imprensa.html">Para jornalistas</a></li></ul></div>
+    <div><h2>Correções</h2><p>Encontrou um erro? Escreva para
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Para%20jornalistas%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/imprensa.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
   <p class="rodape-base">Dados atualizados em 11/11/2026 · <a href="metodologia.html">Como funciona</a> · <a href="metodologia.html#glossario">Glossário</a> · <a href="acessibilidade.html">Acessibilidade</a> · <a href="sobre.html">Sobre</a></p>
 </div></footer>
-<script src="assets/app.js?v=0ed1426a" defer></script>
+<script src="assets/app.js?v=980d07fa" defer></script>
 </body>
 </html>
