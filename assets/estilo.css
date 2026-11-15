@@ -2156,3 +2156,11 @@ td a, .meta a, .contato a, p.cat a, .comparacao, .seguir, .rodape-base a { paddi
 .regras-tipo > summary { padding-inline: 0; flex-wrap: wrap; }
 .regras-tipo ul { padding: 0 0 0 22px; margin: 2px 0 18px; font-size: 15.5px; }
 .regras-lista .nota-tabela { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--linha); }
+
+/* um tipo de gasto de um deputado (gasto-deputado.html, tipo-deputado.js) */
+.gd-cabeca { margin-top: 8px; }
+.gd-anos { margin-top: 2px; }
+.gd-mes { padding: 0; border: 0; background: none; font: inherit; color: var(--verde-forte); text-decoration: underline;
+  text-underline-offset: 2px; cursor: pointer; text-align: left; }
+.gd-mes:hover { color: var(--tinta); }
+.grafico .barra-g.parcial-col { fill: var(--escala-1, var(--linha-forte)); }

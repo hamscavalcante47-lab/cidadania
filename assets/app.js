@@ -50,7 +50,9 @@ const brl2 = v => (v ?? 0).toLocaleString("pt-BR", { style: "currency", currency
 // embaixo do valor reembolsado: o valor da nota e a parte que a Câmara não pagou (glosa), como glosa_html no site
 const glosaHTML = (doc, glosa) => glosa > 0 ? `<span class="glosa">nota ${brl2(doc)}<br>glosa −${brl2(glosa)}</span>` : "";
 const brlCurto = v => Math.abs(v) >= 1e6 ? `R$ ${(v / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 1 })} mi`
-  : Math.abs(v) >= 1e3 ? `R$ ${Math.round(v / 1e3).toLocaleString("pt-BR")} mil` : brl(v);
+  // abaixo de 10 mil, uma casa: o eixo de R$ 500 em R$ 500 dizia "2 mil" em 1.500 e em 2.000
+  : Math.abs(v) >= 1e4 ? `R$ ${Math.round(v / 1e3).toLocaleString("pt-BR")} mil`
+  : Math.abs(v) >= 1e3 ? `R$ ${(v / 1e3).toLocaleString("pt-BR", { maximumFractionDigits: 1 })} mil` : brl(v);
 const normalizar = s => (s || "").normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
 const nomeMes = aaaamm => `${MESES[aaaamm % 100 - 1]}/${String(Math.floor(aaaamm / 100)).slice(2)}`;
 const MESES_LONGOS = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro",
@@ -1623,16 +1625,21 @@ async function iniciarDeputado() {
   } catch (erro) { console.error(erro); }
   resumo.categorias.forEach((c, i) => $("#d-categoria").insertAdjacentHTML("beforeend", `<option value="${i}">${esc(c)}</option>`));
 
-  // gastos por tipo, mês a mês: as cores vêm de resumo.cores, as mesmas da página Gastos; ajustes (-1) ficam de fora
+  // gastos por tipo, mês a mês: uma linha para cada tipo do gabinete, todos (pedido do dono, 15/11/2026: antes os tipos
+  // sem cor somavam em "Outros"). As cores vêm de resumo.cores, as mesmas da página Gastos; o tipo sem cor própria fica
+  // no cinza de "Outros", cada um com o seu traço. Ajustes (-1) ficam de fora
   const porTipo = new Map();
   detalhe.d.forEach(r => {
     const corTipo = resumo.cores?.[r[2]] ?? 0;
     if (corTipo < 0) return;
-    const nome = corTipo ? resumo.categorias[r[2]] : "Outros";
-    if (!porTipo.has(nome)) porTipo.set(nome, { nome, cor: corTipo, valores: meses.map(() => 0) });
+    const nome = resumo.categorias[r[2]];
+    if (!porTipo.has(nome)) porTipo.set(nome, { nome, cor: corTipo, valores: meses.map(() => 0), total: 0 });
     porTipo.get(nome).valores[r[0]] += r[5];
+    porTipo.get(nome).total += r[5];
   });
-  const seriesTipo = [...porTipo.values()].filter(s => s.valores.some(Boolean)).sort((a, b) => (a.cor || 99) - (b.cor || 99));
+  // os de cor própria primeiro, na ordem das cores; depois os cinzas, do maior total para o menor
+  const seriesTipo = [...porTipo.values()].filter(s => s.valores.some(Boolean))
+    .sort((a, b) => (a.cor || 99) - (b.cor || 99) || b.total - a.total);
   seriesTipo.forEach(s => { s.valores = s.valores.map(Math.round); });
   if (seriesTipo.length) graficoLinhas($("#mensal-tipos"), meses, seriesTipo, { parciais: dados.parciais });
   else $("#mensal-tipos").innerHTML = `<span class="cat">Nenhuma despesa registrada.</span>`;
@@ -2407,6 +2414,8 @@ async function iniciarEmpresa() {
   comparar: iniciarComparar, cidade: iniciarCidade, fornecedor: iniciarFornecedor, empresa: iniciarEmpresa,
   // o ano de cada gabinete vem do retrospectiva.js, que só essas páginas carregam
   retrospectiva: () => Retro.iniciar(), "retrospectiva-senadores": () => Retro.iniciar("s"),
+  // um tipo de gasto de um deputado vem do tipo-deputado.js, que só gasto-deputado.html carrega
+  "gasto-deputado": () => TipoDep.iniciar(),
   // as subabas do Senado usam as mesmas telas dos deputados; a página do senador vem do senado.js, que só ela carrega
   senadores: () => iniciarRanking("s"), "comparar-senadores": () => iniciarComparar("s"),
   senador: () => Senado.iniciarSenador() })[document.body.dataset.pagina]?.();
