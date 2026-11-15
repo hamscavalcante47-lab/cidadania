@@ -28,7 +28,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=bade84b2">
+<link rel="stylesheet" href="../assets/estilo.css?v=31f6bc17">
 </head>
 <body data-pagina="senador" data-raiz="../" data-versao="d80e6e7eda" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -93,12 +93,13 @@
   <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td><a href='../empresa.html#cnpj=05196080000116'>CALLERI ASSESSORIA E CONSULTORIA IMOBILIARIA LTDA.</a><br><span class='mono cat'>05.196.080/0001-16</span></td><td class='n'>8</td><td class='n'>R$ 18.982,76</td></tr><tr><td><a href='../empresa.html#cnpj=61424916000163'>José Da Cruz e Souza.</a><br><span class='mono cat'>61.424.916/0001-63</span></td><td class='n'>3</td><td class='n'>R$ 15.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=07071575000306'>ALOC LOCACAO E COMERCIO DE EQUIPAMENTOS DE INFORMATICA LTDA.</a><br><span class='mono cat'>07.071.575/0003-06</span></td><td class='n'>3</td><td class='n'>R$ 5.991,00</td></tr><tr><td><a href='../empresa.html#cnpj=02964380000100'>JONH RICHARD LOCACAO DE MOVEIS.</a><br><span class='mono cat'>02.964.380/0001-00</span></td><td class='n'>3</td><td class='n'>R$ 5.237,52</td></tr><tr><td><a href='../empresa.html#cnpj=24197789000180'>RODRIGO DE SOUZA PINHEIRO ***.472.017-**</a><br><span class='mono cat'>24.197.789/0001-80</span></td><td class='n'>1</td><td class='n'>R$ 5.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=55275954000107'>OBADIAS GUIMARAES DA MOTTA JUNIOR</a><br><span class='mono cat'>55.275.954/0001-07</span></td><td class='n'>1</td><td class='n'>R$ 2.900,00</td></tr><tr><td><a href='../empresa.html#cnpj=10469072000136'>GP SISTEMAS E SERVICOS LTDA.</a><br><span class='mono cat'>10.469.072/0001-36</span></td><td class='n'>4</td><td class='n'>R$ 2.135,30</td></tr><tr><td><a href='../empresa.html#cnpj=42498733000148'>Prefeitura do Rio de Janeiro</a><br><span class='mono cat'>42.498.733/0001-48</span></td><td class='n'>3</td><td class='n'>R$ 2.115,30</td></tr><tr><td><a href='../empresa.html#cnpj=40432544006269'>Claro S.A</a><br><span class='mono cat'>40.432.544/0062-69</span></td><td class='n'>3</td><td class='n'>R$ 1.318,60</td></tr><tr><td><a href='../empresa.html#cnpj=60444437000146'>LIGHT SERVIÇOS DE ELETRICIDADE SA.</a><br><span class='mono cat'>60.444.437/0001-46</span></td><td class='n'>2</td><td class='n'>R$ 194,89</td></tr></table></div>
 </section>
 <section class="secao" id="notas">
-  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, tipo de gasto ou fornecedor.</p></div>
+  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, mês, tipo de gasto ou fornecedor.</p></div>
     <button type="button" class="botao secundario" id="sn-csv" hidden>Baixar planilha (CSV)</button></header>
   <div class="cartao">
     <div class="lista-topo">
       <div class="filtros sem-margem filtros-notas">
-        <label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option></select>
+        <span class="periodo-duplo"><label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option></select>
+          <label class="vh" for="sn-mes">Mês</label><select id="sn-mes" disabled><option value="">Escolha um ano</option></select></span>
         <label class="vh" for="sn-tipo">Tipo de gasto</label><select id="sn-tipo"><option value="">Todos os tipos</option><option value="5">Passagens</option><option value="2">Consultorias e serviços de apoio</option><option value="0">Aluguel e despesas do escritório</option><option value="1">Material de consumo e software</option></select>
         <label class="vh" for="sn-busca">Fornecedor</label><input id="sn-busca" type="search" placeholder="Fornecedor ou CNPJ" autocomplete="off">
       </div>
@@ -139,8 +140,8 @@
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Bruno%20Bonetti%20%28PL/RJ%29%20%C2%B7%20Senado%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/senador/6372.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
-  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a> · <a href="../sobre.html">Sobre</a></p>
+  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/senado.js?v=bade84b2" defer></script><script src="../assets/app.js?v=bade84b2" defer></script>
+<script src="../assets/senado.js?v=31f6bc17" defer></script><script src="../assets/app.js?v=31f6bc17" defer></script>
 </body>
 </html>

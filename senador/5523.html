@@ -28,7 +28,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=bade84b2">
+<link rel="stylesheet" href="../assets/estilo.css?v=31f6bc17">
 </head>
 <body data-pagina="senador" data-raiz="../" data-versao="d80e6e7eda" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -93,12 +93,13 @@
   <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td><a href='../empresa.html#cnpj=26233749000172'>TUDO AV FILMES LTDA</a><br><span class='mono cat'>26.233.749/0001-72</span></td><td class='n'>26</td><td class='n'>R$ 400.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=60395780000148'>PONTO &amp; VIRGULA COMUNICAÇÃO LTDA</a><br><span class='mono cat'>60.395.780/0001-48</span></td><td class='n'>18</td><td class='n'>R$ 262.500,00</td></tr><tr><td>David Granja<br><span class='mono cat'>pessoa física</span></td><td class='n'>44</td><td class='n'>R$ 175.706,05</td></tr><tr><td><a href='../empresa.html#cnpj=00883436000176'>ESR - Comércio de Combustíveis e Serviços Ltda</a><br><span class='mono cat'>00.883.436/0001-76</span></td><td class='n'>89</td><td class='n'>R$ 149.119,33</td></tr><tr><td><a href='../empresa.html#cnpj=13281747000107'>Condomínio Mundo Plaza</a><br><span class='mono cat'>13.281.747/0001-07</span></td><td class='n'>40</td><td class='n'>R$ 36.789,97</td></tr><tr><td><a href='../empresa.html#cnpj=13927801000149'>Prefeitura de Salvador BA</a><br><span class='mono cat'>13.927.801/0001-49</span></td><td class='n'>41</td><td class='n'>R$ 18.219,42</td></tr><tr><td><a href='../empresa.html#cnpj=15139629000194'>Coelba</a><br><span class='mono cat'>15.139.629/0001-94</span></td><td class='n'>43</td><td class='n'>R$ 16.940,52</td></tr><tr><td><a href='../empresa.html#cnpj=14780753000171'>ENGENHONOVO COMUNICAÇÃO LTDA</a><br><span class='mono cat'>14.780.753/0001-71</span></td><td class='n'>1</td><td class='n'>R$ 11.592,00</td></tr><tr><td><a href='../empresa.html#cnpj=29262738000109'>posto combustiveis macedo eireli</a><br><span class='mono cat'>29.262.738/0001-09</span></td><td class='n'>21</td><td class='n'>R$ 5.845,82</td></tr><tr><td><a href='../empresa.html#cnpj=13625629000179'>AUTO POSTO SAO JOAO LTDA</a><br><span class='mono cat'>13.625.629/0001-79</span></td><td class='n'>16</td><td class='n'>R$ 4.299,57</td></tr><tr><td><a href='../empresa.html#cnpj=02292005000160'>MARA DERIVADOS DE PETROLEO LTDA</a><br><span class='mono cat'>02.292.005/0001-60</span></td><td class='n'>15</td><td class='n'>R$ 3.890,08</td></tr><tr><td><a href='../empresa.html#cnpj=11438442000130'>CLM COMERCIO DE DERIVADOS DE PETRÓLEO LTDA</a><br><span class='mono cat'>11.438.442/0001-30</span></td><td class='n'>1</td><td class='n'>R$ 463,96</td></tr></table></div>
 </section>
 <section class="secao" id="notas">
-  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, tipo de gasto ou fornecedor.</p></div>
+  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, mês, tipo de gasto ou fornecedor.</p></div>
     <button type="button" class="botao secundario" id="sn-csv" hidden>Baixar planilha (CSV)</button></header>
   <div class="cartao">
     <div class="lista-topo">
       <div class="filtros sem-margem filtros-notas">
-        <label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+        <span class="periodo-duplo"><label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+          <label class="vh" for="sn-mes">Mês</label><select id="sn-mes" disabled><option value="">Escolha um ano</option></select></span>
         <label class="vh" for="sn-tipo">Tipo de gasto</label><select id="sn-tipo"><option value="">Todos os tipos</option><option value="2">Consultorias e serviços de apoio</option><option value="0">Aluguel e despesas do escritório</option><option value="4">Locomoção, hospedagem, alimentação e combustível</option><option value="3">Divulgação da atividade parlamentar</option><option value="5">Passagens</option></select>
         <label class="vh" for="sn-busca">Fornecedor</label><input id="sn-busca" type="search" placeholder="Fornecedor ou CNPJ" autocomplete="off">
       </div>
@@ -139,8 +140,8 @@
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Otto%20Alencar%20%28PSD/BA%29%20%C2%B7%20Senado%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/senador/5523.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
-  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a> · <a href="../sobre.html">Sobre</a></p>
+  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/senado.js?v=bade84b2" defer></script><script src="../assets/app.js?v=bade84b2" defer></script>
+<script src="../assets/senado.js?v=31f6bc17" defer></script><script src="../assets/app.js?v=31f6bc17" defer></script>
 </body>
 </html>

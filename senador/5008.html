@@ -28,7 +28,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=bade84b2">
+<link rel="stylesheet" href="../assets/estilo.css?v=31f6bc17">
 </head>
 <body data-pagina="senador" data-raiz="../" data-versao="d80e6e7eda" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -93,12 +93,13 @@
   <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td><a href='../empresa.html#cnpj=02355633000148'>ABS Trasnporte e Turismo Ltda.</a><br><span class='mono cat'>02.355.633/0001-48</span></td><td class='n'>68</td><td class='n'>R$ 489.300,00</td></tr><tr><td>Maria Dulce Maranhão Zeltser<br><span class='mono cat'>pessoa física</span></td><td class='n'>46</td><td class='n'>R$ 320.620,00</td></tr><tr><td><a href='../empresa.html#cnpj=09798307000154'>SERVICAR S/A</a><br><span class='mono cat'>09.798.307/0001-54</span></td><td class='n'>212</td><td class='n'>R$ 225.809,09</td></tr><tr><td><a href='../empresa.html#cnpj=60597881000100'>Diogo Cavalcanti de Albuquerque</a><br><span class='mono cat'>60.597.881/0001-00</span></td><td class='n'>18</td><td class='n'>R$ 59.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=10835932000108'>Neoenergia - Companhia Energética de Pernambuco</a><br><span class='mono cat'>10.835.932/0001-08</span></td><td class='n'>130</td><td class='n'>R$ 38.355,64</td></tr><tr><td><a href='../empresa.html#cnpj=25999023000182'>MOVIMENTA SERVICOS DE TECNOLOGIA E MARKETING DIGITAL LTDA</a><br><span class='mono cat'>25.999.023/0001-82</span></td><td class='n'>25</td><td class='n'>R$ 33.700,00</td></tr><tr><td><a href='../empresa.html#cnpj=13245437000137'>MMAS APOIO ADMINISTRATIVO E OPERACIONAL LTDA</a><br><span class='mono cat'>13.245.437/0001-37</span></td><td class='n'>5</td><td class='n'>R$ 30.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=33469172002292'>Serviço Nacional de Aprendizagem Com. Senac</a><br><span class='mono cat'>33.469.172/0022-92</span></td><td class='n'>172</td><td class='n'>R$ 19.282,73</td></tr><tr><td><a href='../empresa.html#cnpj=39735067000100'>ALEXANDRE GONCALVES DA LUZ JUNIOR ***.688.164-**</a><br><span class='mono cat'>39.735.067/0001-00</span></td><td class='n'>22</td><td class='n'>R$ 17.252,00</td></tr><tr><td><a href='../empresa.html#cnpj=46306856000190'>Adna da Costa Lima</a><br><span class='mono cat'>46.306.856/0001-90</span></td><td class='n'>22</td><td class='n'>R$ 13.923,00</td></tr><tr><td><a href='../empresa.html#cnpj=43382036000190'>MAPEO SERVIÇOS DE INOVAÇÃO E TECNOLOGIA LTDA</a><br><span class='mono cat'>43.382.036/0001-90</span></td><td class='n'>11</td><td class='n'>R$ 13.750,00</td></tr><tr><td><a href='../empresa.html#cnpj=04120966002167'>Iron Moutain do Brasil Ltda</a><br><span class='mono cat'>04.120.966/0021-67</span></td><td class='n'>21</td><td class='n'>R$ 12.509,71</td></tr></table></div>
 </section>
 <section class="secao" id="notas">
-  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, tipo de gasto ou fornecedor.</p></div>
+  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, mês, tipo de gasto ou fornecedor.</p></div>
     <button type="button" class="botao secundario" id="sn-csv" hidden>Baixar planilha (CSV)</button></header>
   <div class="cartao">
     <div class="lista-topo">
       <div class="filtros sem-margem filtros-notas">
-        <label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+        <span class="periodo-duplo"><label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+          <label class="vh" for="sn-mes">Mês</label><select id="sn-mes" disabled><option value="">Escolha um ano</option></select></span>
         <label class="vh" for="sn-tipo">Tipo de gasto</label><select id="sn-tipo"><option value="">Todos os tipos</option><option value="4">Locomoção, hospedagem, alimentação e combustível</option><option value="0">Aluguel e despesas do escritório</option><option value="5">Passagens</option><option value="1">Material de consumo e software</option><option value="2">Consultorias e serviços de apoio</option></select>
         <label class="vh" for="sn-busca">Fornecedor</label><input id="sn-busca" type="search" placeholder="Fornecedor ou CNPJ" autocomplete="off">
       </div>
@@ -139,8 +140,8 @@
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Humberto%20Costa%20%28PT/PE%29%20%C2%B7%20Senado%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/senador/5008.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
-  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a> · <a href="../sobre.html">Sobre</a></p>
+  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/senado.js?v=bade84b2" defer></script><script src="../assets/app.js?v=bade84b2" defer></script>
+<script src="../assets/senado.js?v=31f6bc17" defer></script><script src="../assets/app.js?v=31f6bc17" defer></script>
 </body>
 </html>

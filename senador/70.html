@@ -28,7 +28,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=bade84b2">
+<link rel="stylesheet" href="../assets/estilo.css?v=31f6bc17">
 </head>
 <body data-pagina="senador" data-raiz="../" data-versao="d80e6e7eda" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -93,12 +93,13 @@
   <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td><a href='../empresa.html#cnpj=36037008000170'>NORDEST LOCAÇÕES E EMPREENDIMENTOS  LTDA</a><br><span class='mono cat'>36.037.008/0001-70</span></td><td class='n'>38</td><td class='n'>R$ 379.000,00</td></tr><tr><td>FÁBIO LUIZ ARAÚJO LOPES DE FARIAS<br><span class='mono cat'>pessoa física</span></td><td class='n'>44</td><td class='n'>R$ 171.921,20</td></tr><tr><td><a href='../empresa.html#cnpj=50711116000107'>RGT COMUNICACAO LTDA</a><br><span class='mono cat'>50.711.116/0001-07</span></td><td class='n'>23</td><td class='n'>R$ 134.071,18</td></tr><tr><td><a href='../empresa.html#cnpj=24005278000110'>JULIANO DOS SANTOS DE SOUZA</a><br><span class='mono cat'>24.005.278/0001-10</span></td><td class='n'>37</td><td class='n'>R$ 73.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=24472748000155'>ROTACAR LOCADORA</a><br><span class='mono cat'>24.472.748/0001-55</span></td><td class='n'>5</td><td class='n'>R$ 48.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=39841956000151'>LUBI BRASILIA PUBLICIDADE EIRELI</a><br><span class='mono cat'>39.841.956/0001-51</span></td><td class='n'>5</td><td class='n'>R$ 23.100,00</td></tr><tr><td><a href='../empresa.html#cnpj=47046122000182'>A J P DE FARIAS FILHO DEEP MARKETING</a><br><span class='mono cat'>47.046.122/0001-82</span></td><td class='n'>3</td><td class='n'>R$ 16.250,00</td></tr><tr><td><a href='../empresa.html#cnpj=39580673000101'>BRK Ambiental</a><br><span class='mono cat'>39.580.673/0001-01</span></td><td class='n'>43</td><td class='n'>R$ 13.744,44</td></tr><tr><td><a href='../empresa.html#cnpj=39841956000232'>LUBI BRASILIA PUBLICIDADE EIRELI</a><br><span class='mono cat'>39.841.956/0002-32</span></td><td class='n'>3</td><td class='n'>R$ 12.782,00</td></tr><tr><td><a href='../empresa.html#cnpj=12272084000100'>EQUATORIAL ALAGOAS DISTRIBUIDORA DE ENERGIA S.A</a><br><span class='mono cat'>12.272.084/0001-00</span></td><td class='n'>44</td><td class='n'>R$ 12.751,71</td></tr><tr><td><a href='../empresa.html#cnpj=12200135000180'>PREFEITURA MUNICIPAL DE MACEIÓ</a><br><span class='mono cat'>12.200.135/0001-80</span></td><td class='n'>73</td><td class='n'>R$ 12.034,95</td></tr><tr><td><a href='../empresa.html#cnpj=39793422000105'>LEMOS &amp; LIMA COMUNICACAO LTDA</a><br><span class='mono cat'>39.793.422/0001-05</span></td><td class='n'>1</td><td class='n'>R$ 11.000,00</td></tr></table></div>
 </section>
 <section class="secao" id="notas">
-  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, tipo de gasto ou fornecedor.</p></div>
+  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, mês, tipo de gasto ou fornecedor.</p></div>
     <button type="button" class="botao secundario" id="sn-csv" hidden>Baixar planilha (CSV)</button></header>
   <div class="cartao">
     <div class="lista-topo">
       <div class="filtros sem-margem filtros-notas">
-        <label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+        <span class="periodo-duplo"><label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+          <label class="vh" for="sn-mes">Mês</label><select id="sn-mes" disabled><option value="">Escolha um ano</option></select></span>
         <label class="vh" for="sn-tipo">Tipo de gasto</label><select id="sn-tipo"><option value="">Todos os tipos</option><option value="4">Locomoção, hospedagem, alimentação e combustível</option><option value="2">Consultorias e serviços de apoio</option><option value="5">Passagens</option><option value="0">Aluguel e despesas do escritório</option><option value="1">Material de consumo e software</option></select>
         <label class="vh" for="sn-busca">Fornecedor</label><input id="sn-busca" type="search" placeholder="Fornecedor ou CNPJ" autocomplete="off">
       </div>
@@ -139,8 +140,8 @@
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Renan%20Calheiros%20%28MDB/AL%29%20%C2%B7%20Senado%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/senador/70.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
-  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a> · <a href="../sobre.html">Sobre</a></p>
+  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/senado.js?v=bade84b2" defer></script><script src="../assets/app.js?v=bade84b2" defer></script>
+<script src="../assets/senado.js?v=31f6bc17" defer></script><script src="../assets/app.js?v=31f6bc17" defer></script>
 </body>
 </html>

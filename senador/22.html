@@ -28,7 +28,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=bade84b2">
+<link rel="stylesheet" href="../assets/estilo.css?v=31f6bc17">
 </head>
 <body data-pagina="senador" data-raiz="../" data-versao="d80e6e7eda" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -93,12 +93,13 @@
   <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td><a href='../empresa.html#cnpj=95803839000174'>INOVA FLORIANÓPOLIS</a><br><span class='mono cat'>95.803.839/0001-74</span></td><td class='n'>53</td><td class='n'>R$ 184.650,00</td></tr><tr><td><a href='../empresa.html#cnpj=07425595000176'>MDESTRI COMBUSTIVEIS LUBRIFICANTES LTDA</a><br><span class='mono cat'>07.425.595/0001-76</span></td><td class='n'>330</td><td class='n'>R$ 148.107,45</td></tr><tr><td><a href='../empresa.html#cnpj=81784423000141'>CONDOMINIO EDIFICIO MAPIL</a><br><span class='mono cat'>81.784.423/0001-41</span></td><td class='n'>90</td><td class='n'>R$ 113.214,90</td></tr><tr><td><a href='../empresa.html#cnpj=62413877004663'>MELIA BRASIL ADMINISTRACAO HOTELARIA E COMERCIAL LTDA</a><br><span class='mono cat'>62.413.877/0046-63</span></td><td class='n'>81</td><td class='n'>R$ 95.771,21</td></tr><tr><td><a href='../empresa.html#cnpj=03985505000140'>VENTURA 360 -  PRODUCOES DE CONTEUDO LTDA</a><br><span class='mono cat'>03.985.505/0001-40</span></td><td class='n'>18</td><td class='n'>R$ 51.700,00</td></tr><tr><td><a href='../empresa.html#cnpj=47787405000185'>CLAUDIA BURIGO DE MENEZES</a><br><span class='mono cat'>47.787.405/0001-85</span></td><td class='n'>8</td><td class='n'>R$ 32.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=02558157000162'>VIVO</a><br><span class='mono cat'>02.558.157/0001-62</span></td><td class='n'>70</td><td class='n'>R$ 30.314,60</td></tr><tr><td><a href='../empresa.html#cnpj=08194293000105'>BV PAPELARIA E INFORMÁTICA LTDA ME</a><br><span class='mono cat'>08.194.293/0001-05</span></td><td class='n'>44</td><td class='n'>R$ 24.909,30</td></tr><tr><td><a href='../empresa.html#cnpj=66970229003930'>Claro NXT Telecomunicações S.A</a><br><span class='mono cat'>66.970.229/0039-30</span></td><td class='n'>43</td><td class='n'>R$ 24.735,61</td></tr><tr><td><a href='../empresa.html#cnpj=08336783000190'>Celesc Distribuição S.A.</a><br><span class='mono cat'>08.336.783/0001-90</span></td><td class='n'>90</td><td class='n'>R$ 23.207,53</td></tr><tr><td><a href='../empresa.html#cnpj=59711657000100'>AKE LIMPEZAS LTDA</a><br><span class='mono cat'>59.711.657/0001-00</span></td><td class='n'>21</td><td class='n'>R$ 19.580,00</td></tr><tr><td><a href='../empresa.html#cnpj=82892282000143'>PREFEITURA MUNICIPAL DE FLORIANÓPOLIS</a><br><span class='mono cat'>82.892.282/0001-43</span></td><td class='n'>10</td><td class='n'>R$ 14.229,67</td></tr></table></div>
 </section>
 <section class="secao" id="notas">
-  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, tipo de gasto ou fornecedor.</p></div>
+  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, mês, tipo de gasto ou fornecedor.</p></div>
     <button type="button" class="botao secundario" id="sn-csv" hidden>Baixar planilha (CSV)</button></header>
   <div class="cartao">
     <div class="lista-topo">
       <div class="filtros sem-margem filtros-notas">
-        <label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+        <span class="periodo-duplo"><label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+          <label class="vh" for="sn-mes">Mês</label><select id="sn-mes" disabled><option value="">Escolha um ano</option></select></span>
         <label class="vh" for="sn-tipo">Tipo de gasto</label><select id="sn-tipo"><option value="">Todos os tipos</option><option value="4">Locomoção, hospedagem, alimentação e combustível</option><option value="5">Passagens</option><option value="0">Aluguel e despesas do escritório</option><option value="1">Material de consumo e software</option><option value="2">Consultorias e serviços de apoio</option><option value="7">Não informada</option><option value="3">Divulgação da atividade parlamentar</option></select>
         <label class="vh" for="sn-busca">Fornecedor</label><input id="sn-busca" type="search" placeholder="Fornecedor ou CNPJ" autocomplete="off">
       </div>
@@ -139,8 +140,8 @@
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Esperidi%C3%A3o%20Amin%20%28PP/SC%29%20%C2%B7%20Senado%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/senador/22.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
-  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a> · <a href="../sobre.html">Sobre</a></p>
+  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/senado.js?v=bade84b2" defer></script><script src="../assets/app.js?v=bade84b2" defer></script>
+<script src="../assets/senado.js?v=31f6bc17" defer></script><script src="../assets/app.js?v=31f6bc17" defer></script>
 </body>
 </html>

@@ -13,11 +13,13 @@ const norm = s => (s || "").normalize("NFD").replace(/\p{M}/gu, "").toLowerCase(
 // ------------------------------------------------------------------ lógica (sem página: testada no Node)
 
 // as notas que passam nos filtros, na ordem do arquivo (da mais nova para a mais antiga)
-function filtrarNotas(dados, { ano = "", tipo = "", busca = "" } = {}) {
+// `mes` (1 a 12) só vale com o ano escolhido, como no perfil dos deputados
+function filtrarNotas(dados, { ano = "", mes = "", tipo = "", busca = "" } = {}) {
   const termos = norm(busca.trim()).split(/\s+/).filter(Boolean);
   const digitos = busca.replace(/\D/g, "");
   return dados.d.filter(n => {
     if (ano && n[0] !== Number(ano)) return false;
+    if (ano && mes && n[7] !== Number(mes)) return false;
     if (tipo !== "" && n[2] !== Number(tipo)) return false;
     if (!termos.length) return true;
     const [nome, doc] = dados.f[n[3]];
@@ -51,8 +53,17 @@ async function iniciarSenador() {
     $("#sn-resumo").textContent = "Não foi possível carregar as notas agora. Tente de novo em instantes.";
     return;
   }
-  const ano = $("#sn-ano"), tipo = $("#sn-tipo"), busca = $("#sn-busca"), mais = $("#sn-mais"), csv = $("#sn-csv");
+  const ano = $("#sn-ano"), mes = $("#sn-mes"), tipo = $("#sn-tipo"), busca = $("#sn-busca"), mais = $("#sn-mais"), csv = $("#sn-csv");
   let notas = [], limite = POR_VEZ;
+  // os meses do ano escolhido que têm nota; sem ano, o mês fica desligado
+  function opcoesMes() {
+    const a = Number(ano.value), escolhido = mes.value;
+    const meses = a ? [...new Set(dados.d.filter(n => n[0] === a && n[7]).map(n => n[7]))].sort((x, y) => x - y) : [];
+    mes.innerHTML = `<option value="">${a ? "O ano todo" : "Escolha um ano"}</option>`
+      + meses.map(m => `<option value="${m}">${MESES_LONGOS[m - 1]}</option>`).join("");
+    mes.value = meses.includes(Number(escolhido)) ? escolhido : "";
+    mes.disabled = !a;
+  }
   function desenhar() {
     const total = notas.reduce((s, n) => s + n[5], 0);
     $("#sn-resumo").textContent = notas.length ? `${notas.length.toLocaleString("pt-BR")} nota${notas.length > 1 ? "s" : ""} · ${brl2(total)}` : "Nenhuma nota com esses filtros";
@@ -71,11 +82,13 @@ async function iniciarSenador() {
     mais.textContent = `Mostrar mais ${Math.min(POR_VEZ, resto)} de ${resto.toLocaleString("pt-BR")} restantes`;
   }
   function aplicar() {
-    notas = filtrarNotas(dados, { ano: ano.value, tipo: tipo.value, busca: busca.value });
+    notas = filtrarNotas(dados, { ano: ano.value, mes: mes.value, tipo: tipo.value, busca: busca.value });
     limite = POR_VEZ;
     desenhar();
   }
-  [ano, tipo].forEach(c => c.addEventListener("change", aplicar));
+  ano.addEventListener("change", () => { opcoesMes(); aplicar(); });
+  [mes, tipo].forEach(c => c.addEventListener("change", aplicar));
+  opcoesMes();
   busca.addEventListener("input", aplicar);
   mais.addEventListener("click", () => { limite += POR_VEZ; desenhar(); });
   csv.hidden = false;

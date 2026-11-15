@@ -28,7 +28,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=bade84b2">
+<link rel="stylesheet" href="../assets/estilo.css?v=31f6bc17">
 </head>
 <body data-pagina="senador" data-raiz="../" data-versao="d80e6e7eda" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -93,12 +93,13 @@
   <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td><a href='../empresa.html#cnpj=10667670000110'>Leleka Produções e Locações Eireli</a><br><span class='mono cat'>10.667.670/0001-10</span></td><td class='n'>32</td><td class='n'>R$ 490.342,90</td></tr><tr><td><a href='../empresa.html#cnpj=54697762000118'>CANAA COMBUSTIVEIS</a><br><span class='mono cat'>54.697.762/0001-18</span></td><td class='n'>15</td><td class='n'>R$ 151.126,91</td></tr><tr><td><a href='../empresa.html#cnpj=05238819000105'>WT Administração de Imóveis e Bens LTDA</a><br><span class='mono cat'>05.238.819/0001-05</span></td><td class='n'>43</td><td class='n'>R$ 150.500,00</td></tr><tr><td><a href='../empresa.html#cnpj=45542078000176'>Posto Sao Benedito Petroleo LTDA</a><br><span class='mono cat'>45.542.078/0001-76</span></td><td class='n'>25</td><td class='n'>R$ 129.769,75</td></tr><tr><td><a href='../empresa.html#cnpj=23509441000119'>J W Saraiva e Cia Ltda</a><br><span class='mono cat'>23.509.441/0001-19</span></td><td class='n'>19</td><td class='n'>R$ 95.395,75</td></tr><tr><td><a href='../empresa.html#cnpj=34274233011210'>Vibra Energia S.A</a><br><span class='mono cat'>34.274.233/0112-10</span></td><td class='n'>10</td><td class='n'>R$ 67.846,26</td></tr><tr><td><a href='../empresa.html#cnpj=21786111000145'>HD Petroleo Uruguai Ltda</a><br><span class='mono cat'>21.786.111/0001-45</span></td><td class='n'>17</td><td class='n'>R$ 60.996,47</td></tr><tr><td><a href='../empresa.html#cnpj=04454790002775'>Air BP Brasil Ltda</a><br><span class='mono cat'>04.454.790/0027-75</span></td><td class='n'>9</td><td class='n'>R$ 53.149,99</td></tr><tr><td><a href='../empresa.html#cnpj=41272725000116'>NERIS E SAMPAIO LTDA</a><br><span class='mono cat'>41.272.725/0001-16</span></td><td class='n'>19</td><td class='n'>R$ 41.555,42</td></tr><tr><td><a href='../empresa.html#cnpj=50746435000158'>EDUARDO WILSON CAVALCANTE NEVES LTDA</a><br><span class='mono cat'>50.746.435/0001-58</span></td><td class='n'>10</td><td class='n'>R$ 32.950,81</td></tr><tr><td><a href='../empresa.html#cnpj=29830061000168'>Nad Combustíveis do Brasil Ltda</a><br><span class='mono cat'>29.830.061/0001-68</span></td><td class='n'>2</td><td class='n'>R$ 24.419,10</td></tr><tr><td><a href='../empresa.html#cnpj=13347016000117'>Facebook Serviços Online do Brasil LTDA</a><br><span class='mono cat'>13.347.016/0001-17</span></td><td class='n'>2</td><td class='n'>R$ 18.979,23</td></tr></table></div>
 </section>
 <section class="secao" id="notas">
-  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, tipo de gasto ou fornecedor.</p></div>
+  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, mês, tipo de gasto ou fornecedor.</p></div>
     <button type="button" class="botao secundario" id="sn-csv" hidden>Baixar planilha (CSV)</button></header>
   <div class="cartao">
     <div class="lista-topo">
       <div class="filtros sem-margem filtros-notas">
-        <label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+        <span class="periodo-duplo"><label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+          <label class="vh" for="sn-mes">Mês</label><select id="sn-mes" disabled><option value="">Escolha um ano</option></select></span>
         <label class="vh" for="sn-tipo">Tipo de gasto</label><select id="sn-tipo"><option value="">Todos os tipos</option><option value="4">Locomoção, hospedagem, alimentação e combustível</option><option value="5">Passagens</option><option value="7">Não informada</option><option value="2">Consultorias e serviços de apoio</option><option value="3">Divulgação da atividade parlamentar</option><option value="6">Segurança privada</option><option value="0">Aluguel e despesas do escritório</option></select>
         <label class="vh" for="sn-busca">Fornecedor</label><input id="sn-busca" type="search" placeholder="Fornecedor ou CNPJ" autocomplete="off">
       </div>
@@ -139,8 +140,8 @@
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Ciro%20Nogueira%20%28PP/PI%29%20%C2%B7%20Senado%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/senador/739.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
-  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a> · <a href="../sobre.html">Sobre</a></p>
+  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/senado.js?v=bade84b2" defer></script><script src="../assets/app.js?v=bade84b2" defer></script>
+<script src="../assets/senado.js?v=31f6bc17" defer></script><script src="../assets/app.js?v=31f6bc17" defer></script>
 </body>
 </html>

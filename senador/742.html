@@ -28,7 +28,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=bade84b2">
+<link rel="stylesheet" href="../assets/estilo.css?v=31f6bc17">
 </head>
 <body data-pagina="senador" data-raiz="../" data-versao="d80e6e7eda" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -93,12 +93,13 @@
   <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td><a href='../empresa.html#cnpj=54697762000118'>CANAA COMBUSTIVEIS LTDA</a><br><span class='mono cat'>54.697.762/0001-18</span></td><td class='n'>80</td><td class='n'>R$ 447.854,45</td></tr><tr><td><a href='../empresa.html#cnpj=13657248000171'>WELSON VEICULOS LTDA</a><br><span class='mono cat'>13.657.248/0001-71</span></td><td class='n'>20</td><td class='n'>R$ 334.039,36</td></tr><tr><td><a href='../empresa.html#cnpj=31031766000167'>DR COMBUSTIVEIS PARA AVIACAO LTDA</a><br><span class='mono cat'>31.031.766/0001-67</span></td><td class='n'>33</td><td class='n'>R$ 161.380,69</td></tr><tr><td><a href='../empresa.html#cnpj=13231134000165'>D e G Locação de Veiculos Ltda</a><br><span class='mono cat'>13.231.134/0001-65</span></td><td class='n'>34</td><td class='n'>R$ 99.427,42</td></tr><tr><td>ÁLVARO MENDES FERRAZ<br><span class='mono cat'>pessoa física</span></td><td class='n'>43</td><td class='n'>R$ 91.300,00</td></tr><tr><td><a href='../empresa.html#cnpj=23509441000119'>J W SARAIVA E CIA LTDA</a><br><span class='mono cat'>23.509.441/0001-19</span></td><td class='n'>16</td><td class='n'>R$ 85.423,80</td></tr><tr><td><a href='../empresa.html#cnpj=06983654000169'>Darcy Araújo Imóveis</a><br><span class='mono cat'>06.983.654/0001-69</span></td><td class='n'>11</td><td class='n'>R$ 55.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=11720041000179'>FLAUBER MARQUES DA SILVA MARKENTING</a><br><span class='mono cat'>11.720.041/0001-79</span></td><td class='n'>4</td><td class='n'>R$ 40.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=37894749000130'>ELDORADO COMUNICACAO E JORNALISMO LTDA</a><br><span class='mono cat'>37.894.749/0001-30</span></td><td class='n'>15</td><td class='n'>R$ 31.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=50006364000157'>RANIELLY RODRIGUES VELOSO</a><br><span class='mono cat'>50.006.364/0001-57</span></td><td class='n'>9</td><td class='n'>R$ 27.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=00306597003112'>302 Norte - CASCOL COMBUSTÍVEIS PARA VEICULOS LTDA</a><br><span class='mono cat'>00.306.597/0031-12</span></td><td class='n'>85</td><td class='n'>R$ 15.674,40</td></tr><tr><td><a href='../empresa.html#cnpj=41233483000151'>Alfa Comunicação e Marketingu Digital LTDA</a><br><span class='mono cat'>41.233.483/0001-51</span></td><td class='n'>7</td><td class='n'>R$ 10.500,00</td></tr></table></div>
 </section>
 <section class="secao" id="notas">
-  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, tipo de gasto ou fornecedor.</p></div>
+  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, mês, tipo de gasto ou fornecedor.</p></div>
     <button type="button" class="botao secundario" id="sn-csv" hidden>Baixar planilha (CSV)</button></header>
   <div class="cartao">
     <div class="lista-topo">
       <div class="filtros sem-margem filtros-notas">
-        <label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+        <span class="periodo-duplo"><label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+          <label class="vh" for="sn-mes">Mês</label><select id="sn-mes" disabled><option value="">Escolha um ano</option></select></span>
         <label class="vh" for="sn-tipo">Tipo de gasto</label><select id="sn-tipo"><option value="">Todos os tipos</option><option value="4">Locomoção, hospedagem, alimentação e combustível</option><option value="5">Passagens</option><option value="0">Aluguel e despesas do escritório</option><option value="3">Divulgação da atividade parlamentar</option><option value="2">Consultorias e serviços de apoio</option></select>
         <label class="vh" for="sn-busca">Fornecedor</label><input id="sn-busca" type="search" placeholder="Fornecedor ou CNPJ" autocomplete="off">
       </div>
@@ -139,8 +140,8 @@
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Marcelo%20Castro%20%28MDB/PI%29%20%C2%B7%20Senado%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/senador/742.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
-  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a> · <a href="../sobre.html">Sobre</a></p>
+  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/senado.js?v=bade84b2" defer></script><script src="../assets/app.js?v=bade84b2" defer></script>
+<script src="../assets/senado.js?v=31f6bc17" defer></script><script src="../assets/app.js?v=31f6bc17" defer></script>
 </body>
 </html>

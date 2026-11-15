@@ -1447,13 +1447,10 @@ async function iniciarRanking(casa = "d") {
   const quem = sen ? "senadores" : "deputados";
   const pagina = d => sen ? `senador/${d.id}.html` : `deputado/${d.id}.html`;
   const meta = d => sen ? esc([d.p, d.uf, d.sup].filter(Boolean).join(" · ")) : `${esc(d.p)} · ${esc(d.uf)}${condicao(d)}`;
-  // padrão: o mês mais recente já "fechado" (os últimos ainda recebem notas por até 90 dias)
-  const totais = meses.map((_, i) => deputados.reduce((s, d) => s + (d.m[i] || 0), 0));
-  const mediana = [...totais].sort((a, b) => a - b)[Math.floor(totais.length / 2)];
-  const fechados = totais.map((t, i) => [t, i]).filter(([t]) => t >= .8 * mediana);
-  const ultimoFechado = fechados.length ? meses[fechados.pop()[1]] : "";
+  // padrão: toda a legislatura. A aba, a trilha do perfil e o cartão da capa ("656 deputados · R$ 927 mi") trazem
+  // para cá: abrir num mês só mostrava outra lista e outro total que os de quem chegou
   const h = new URLSearchParams(location.hash.slice(1));
-  const estado = { periodo: h.get("per") ?? String(ultimoFechado), ordem: h.get("o") || "gasto", uf: h.get("uf") || "", partido: h.get("p") || "",
+  const estado = { periodo: h.get("per") ?? "", ordem: h.get("o") || "gasto", uf: h.get("uf") || "", partido: h.get("p") || "",
     tipo: h.get("t") || "", limite: 50 };
   opcoesPeriodo($("#r-periodo"), meses, estado.periodo);
   Object.keys(NOMES_UF).sort().forEach(uf => $("#r-uf").insertAdjacentHTML("beforeend", `<option value="${uf}">${NOMES_UF[uf]}</option>`));
@@ -1516,12 +1513,14 @@ async function iniciarRanking(casa = "d") {
     if ($("#r-lead-gasto")) $("#r-lead-gasto").hidden = $("#r-aviso-gasto").hidden = modoPresenca;
     if ($("#r-lead-presenca")) $("#r-lead-presenca").hidden = !modoPresenca;
     $("#r-tipo").disabled = modoPresenca;  // a presença não tem tipo de gasto
-    const p = new URLSearchParams({ per: estado.periodo });
+    // sem #per=, a legislatura inteira (o padrão): o endereço da aba fica limpo
+    const p = new URLSearchParams();
+    if (estado.periodo) p.set("per", estado.periodo);
     if (estado.ordem !== "gasto") p.set("o", estado.ordem);
     if (estado.tipo !== "" && !modoPresenca) p.set("t", estado.tipo);
     if (estado.uf) p.set("uf", estado.uf);
     if (estado.partido) p.set("p", estado.partido);
-    history.replaceState(null, "", `#${p}`);
+    history.replaceState(null, "", p.toString() ? `#${p}` : location.pathname + location.search);
     if (modoPresenca) return desenharPresenca(idx);
     let serie = null;
     if (estado.tipo !== "") {
@@ -1555,7 +1554,7 @@ async function iniciarRanking(casa = "d") {
     $("#r-lista").innerHTML = linhas.slice(0, estado.limite).map((x, k) => {
       const notas = [x.cota ? `${pct(x.cota)} do limite` : "", serieDe && x.tudo > 0 ? `${pct(x.v / x.tudo)} do que o gabinete recebeu` : "",
         x.salto ? `${x.salto.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}× a própria média` : ""].filter(Boolean).join(" · ");
-      return `<li><a href="${pagina(x.d)}${sen ? "" : `#per=${estado.periodo}`}">
+      return `<li><a href="${pagina(x.d)}${sen || !estado.periodo ? "" : `#per=${estado.periodo}`}">
         <span class="pos">${k + 1}º</span>
         <img class="foto" src="${esc(x.d.f)}" alt="" loading="lazy" decoding="async" width="44" height="44" ${SEM_FOTO}>
         <span><span class="nome">${esc(x.d.n)}</span><br><span class="meta">${meta(x.d)}</span></span>
@@ -2024,11 +2023,29 @@ async function iniciarComparar(casa = "d") {
     estado.ids = estado.ids.filter(id => id !== b.dataset.tirar); desenhar(); busca.focus();
   });
   $("#c-periodo").addEventListener("change", e => { estado.periodo = e.target.value; desenhar(); });
+  // os outros gabinetes do estado do primeiro escolhido, um toque para pôr cada um: a página recomenda comparar dentro
+  // do mesmo estado (o limite da cota e as passagens dependem dele). Só quem está em exercício, em ordem alfabética
+  const mesmoEstado = Object.assign(document.createElement("div"), { id: "c-mesmo-estado", className: "mesmo-estado", hidden: true });
+  $("#c-escolhidos").after(mesmoEstado);
+  mesmoEstado.addEventListener("click", e => { const b = e.target.closest("[data-por]"); if (b) adicionar(b.dataset.por); });
+  function sugerirMesmoEstado(escolhidos) {
+    const uf = escolhidos[0]?.uf;
+    const outros = !uf || escolhidos.length >= 5 ? [] : deputados
+      .filter(d => d.uf === uf && d.x && !estado.ids.includes(String(d.id)))
+      .sort((a, b) => a.n.localeCompare(b.n, "pt-BR"));
+    mesmoEstado.hidden = !outros.length;
+    if (!outros.length) { mesmoEstado.innerHTML = ""; return; }
+    const nomeUf = NOMES_UF[uf] || uf;
+    mesmoEstado.innerHTML = `<p class="cat">Outros ${varios} ${ARTIGO_UF[uf] ? `d${ARTIGO_UF[uf]}` : "de"} ${esc(nomeUf)}, para pôr com um toque:</p>
+      <p class="chips">${outros.map(d => `<button type="button" class="botao secundario pequeno" data-por="${d.id}">${esc(d.n)}
+        <span class="vh">(${esc(d.p)})</span></button>`).join("")}</p>`;
+  }
 
   async function desenhar() {
     salvar();
     const idx = indicesPeriodo(meses, estado.periodo), conjunto = new Set(idx);
     const escolhidos = estado.ids.map(id => porId[id]);
+    sugerirMesmoEstado(escolhidos);
     $("#c-escolhidos").innerHTML = escolhidos.map(d => `<li><img class="foto" src="${esc(d.f)}" alt="" width="28" height="28" ${SEM_FOTO}>
       <span>${esc(d.n)} <small>${esc(d.p)}/${esc(d.uf)}</small></span>
       <button type="button" data-tirar="${d.id}" aria-label="Tirar ${esc(d.n)} da comparação">×</button></li>`).join("");
@@ -2338,7 +2355,7 @@ async function iniciarEmpresa() {
   if (!alvo) return;
   const aviso = texto => {
     alvo.innerHTML = `<section class="abertura"><h1>Empresa</h1><p class="lead">${texto}</p>
-      <p><a class="seguir" href="gastos/fornecedores.html">Ver todos os fornecedores</a></p></section>`;
+      <p><a class="seguir" href="gastos/fornecedores.html">Ver os fornecedores da Câmara</a></p></section>`;
   };
   const digitos = (new URLSearchParams(location.hash.slice(1)).get("cnpj") || "").replace(/\D/g, "");
   addEventListener("hashchange", () => location.reload());

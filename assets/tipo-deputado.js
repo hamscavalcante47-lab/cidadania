@@ -188,7 +188,7 @@ const TipoDep = (() => {
       </section>
       <section class="secao retro-fecho">
         <p class="acoes-citar"><a class="botao" href="${casa.perfil}">${casa.verPerfil}</a>
-          ${temPagina ? `<a class="botao secundario" href="gastos/${slug}.html">${esc(nomeTipo)} em todos os gabinetes</a>` : ""}
+          ${temPagina ? `<a class="botao secundario" href="gastos/${casa.pastaTipo}${slug}.html">${esc(nomeTipo)} em todos os gabinetes</a>` : ""}
           <button type="button" class="botao secundario" data-compartilhar="${esc(textoCompartilhar)}" data-url="${esc(location.href)}" data-rotulo="Compartilhar o link">Compartilhar o link</button></p>
         <p class="nota-tabela">O tipo de gasto é o que o gabinete declarou ${casa.aCasa}, e o mês é o da despesa ${casa.naCasa} (a nota pode ser de alguns dias antes). Os números
           descrevem o gasto declarado; sozinhos, não dizem se um gasto foi regular.</p>
@@ -286,6 +286,14 @@ const TipoDep = (() => {
       $("#gd-trilha").textContent = nomeTipo;
       const perfil = $("#gd-perfil");
       perfil.textContent = eu.n; perfil.href = pagina;
+      if ($("#gd-perfil-item")) $("#gd-perfil-item").hidden = false;
+      // o estado entre a casa e o gabinete, como na trilha do perfil (no Senado, direto nos senadores do estado)
+      const uf = $("#gd-uf"), itemUf = $("#gd-uf-item");
+      if (uf && itemUf && NOMES_UF[eu.uf]) {
+        uf.textContent = NOMES_UF[eu.uf];
+        uf.href = `estado/${eu.uf.toLowerCase()}.html${sen ? "#senadores" : ""}`;
+        itemUf.hidden = false;
+      }
       $("#gd-lead").innerHTML = `${esc(eu.n)} · ${esc(eu.p)} · ${esc(NOMES_UF[eu.uf] || eu.uf)}. Todas as notas do gabinete neste tipo de gasto, mês a mês.`;
       alvo.innerHTML = `<p class="resumo">Carregando as despesas de ${esc(eu.n)}…</p>`;
       try {
@@ -310,7 +318,7 @@ const TipoDep = (() => {
         const tiposDoGabinete = [...somaTipo].filter(([i, v]) => v > 0 && slugs[i]).sort((a, b) => b[1] - a[1])
           .map(([i]) => ({ t: i, slug: slugs[i], nome: base.categorias[i] }));
         desenhar(alvo, calcular(dep, base, id, t, ano, serie),
-          { eu, resumo: base, dep, nomeTipo, slug: slugs[t], tiposDoGabinete, anos, temPagina: !sen && !!slugs[t], casa });
+          { eu, resumo: base, dep, nomeTipo, slug: slugs[t], tiposDoGabinete, anos, temPagina: !!slugs[t], casa: { ...casa, pastaTipo: sen ? "senado/" : "" } });
         document.title = `${nomeTipo}: ${eu.n} (${eu.p}/${eu.uf})${ano ? ` em ${ano}` : ""} · De Olho na Cota`;
       } catch (erro) {
         console.error(erro);

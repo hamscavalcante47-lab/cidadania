@@ -28,7 +28,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=bade84b2">
+<link rel="stylesheet" href="../assets/estilo.css?v=31f6bc17">
 </head>
 <body data-pagina="senador" data-raiz="../" data-versao="d80e6e7eda" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -93,12 +93,13 @@
   <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td><a href='../empresa.html#cnpj=33354439000171'>NNY Marketing Direto e Soluções Inteligentes Ltda</a><br><span class='mono cat'>33.354.439/0001-71</span></td><td class='n'>3</td><td class='n'>R$ 57.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=91011114000192'>Leão Empreendimentos</a><br><span class='mono cat'>91.011.114/0001-92</span></td><td class='n'>4</td><td class='n'>R$ 42.376,41</td></tr><tr><td><a href='../empresa.html#cnpj=26654684000139'>Giovani Zimmermann</a><br><span class='mono cat'>26.654.684/0001-39</span></td><td class='n'>1</td><td class='n'>R$ 18.610,10</td></tr><tr><td><a href='../empresa.html#cnpj=45298749000103'>Agencia Catarina Comunicação Integrada Ltda</a><br><span class='mono cat'>45.298.749/0001-03</span></td><td class='n'>1</td><td class='n'>R$ 12.800,00</td></tr><tr><td><a href='../empresa.html#cnpj=82864869000149'>Fazenda do Boqueirão Ltda</a><br><span class='mono cat'>82.864.869/0001-49</span></td><td class='n'>1</td><td class='n'>R$ 8.524,00</td></tr><tr><td><a href='../empresa.html#cnpj=47887736000197'>Edifício Lion Center</a><br><span class='mono cat'>47.887.736/0001-97</span></td><td class='n'>3</td><td class='n'>R$ 4.637,31</td></tr><tr><td><a href='../empresa.html#cnpj=82889213000180'>Posto Cidade do Porto Ltda</a><br><span class='mono cat'>82.889.213/0001-80</span></td><td class='n'>9</td><td class='n'>R$ 4.189,84</td></tr><tr><td><a href='../empresa.html#cnpj=57243161000123'>Eficacia Serviços Ltda</a><br><span class='mono cat'>57.243.161/0001-23</span></td><td class='n'>3</td><td class='n'>R$ 1.806,75</td></tr><tr><td><a href='../empresa.html#cnpj=03875130000247'>AGPS - Hotelaria Ltda</a><br><span class='mono cat'>03.875.130/0002-47</span></td><td class='n'>4</td><td class='n'>R$ 1.701,52</td></tr><tr><td><a href='../empresa.html#cnpj=35706623000169'>Teles Locadora</a><br><span class='mono cat'>35.706.623/0001-69</span></td><td class='n'>1</td><td class='n'>R$ 1.290,00</td></tr><tr><td><a href='../empresa.html#cnpj=24074368000162'>GHR Comercio de Combustíveis e Ltda</a><br><span class='mono cat'>24.074.368/0001-62</span></td><td class='n'>6</td><td class='n'>R$ 1.271,81</td></tr><tr><td><a href='../empresa.html#cnpj=04202351000136'>Auto Posto Canaan Ltda</a><br><span class='mono cat'>04.202.351/0001-36</span></td><td class='n'>3</td><td class='n'>R$ 1.245,21</td></tr></table></div>
 </section>
 <section class="secao" id="notas">
-  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, tipo de gasto ou fornecedor.</p></div>
+  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, mês, tipo de gasto ou fornecedor.</p></div>
     <button type="button" class="botao secundario" id="sn-csv" hidden>Baixar planilha (CSV)</button></header>
   <div class="cartao">
     <div class="lista-topo">
       <div class="filtros sem-margem filtros-notas">
-        <label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option></select>
+        <span class="periodo-duplo"><label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option></select>
+          <label class="vh" for="sn-mes">Mês</label><select id="sn-mes" disabled><option value="">Escolha um ano</option></select></span>
         <label class="vh" for="sn-tipo">Tipo de gasto</label><select id="sn-tipo"><option value="">Todos os tipos</option><option value="0">Aluguel e despesas do escritório</option><option value="3">Divulgação da atividade parlamentar</option><option value="4">Locomoção, hospedagem, alimentação e combustível</option><option value="5">Passagens</option><option value="2">Consultorias e serviços de apoio</option></select>
         <label class="vh" for="sn-busca">Fornecedor</label><input id="sn-busca" type="search" placeholder="Fornecedor ou CNPJ" autocomplete="off">
       </div>
@@ -139,8 +140,8 @@
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Hermes%20Klann%20%28PL/SC%29%20%C2%B7%20Senado%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/senador/6381.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
-  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a> · <a href="../sobre.html">Sobre</a></p>
+  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/senado.js?v=bade84b2" defer></script><script src="../assets/app.js?v=bade84b2" defer></script>
+<script src="../assets/senado.js?v=31f6bc17" defer></script><script src="../assets/app.js?v=31f6bc17" defer></script>
 </body>
 </html>

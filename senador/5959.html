@@ -28,7 +28,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=bade84b2">
+<link rel="stylesheet" href="../assets/estilo.css?v=31f6bc17">
 </head>
 <body data-pagina="senador" data-raiz="../" data-versao="d80e6e7eda" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -93,12 +93,13 @@
   <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td><a href='../empresa.html#cnpj=26551610000177'>PLANALTO MARKETING &amp; PUBLICIDADE LTDA</a><br><span class='mono cat'>26.551.610/0001-77</span></td><td class='n'>16</td><td class='n'>R$ 1.128.080,00</td></tr><tr><td><a href='../empresa.html#cnpj=02728914000107'>GADELHA RENT A CAR UNIPESSOAL LTDA</a><br><span class='mono cat'>02.728.914/0001-07</span></td><td class='n'>20</td><td class='n'>R$ 240.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=46303668000109'>ANDERSON AQUINO DE ALENCAR ***.614.241-**</a><br><span class='mono cat'>46.303.668/0001-09</span></td><td class='n'>3</td><td class='n'>R$ 84.008,99</td></tr><tr><td><a href='../empresa.html#cnpj=44180796000187'>44.180.796 TATIANE DA COSTA</a><br><span class='mono cat'>44.180.796/0001-87</span></td><td class='n'>1</td><td class='n'>R$ 80.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=07976147000160'>MOVIDA LOCAÇÃO DE VEÍCULOS S.A.</a><br><span class='mono cat'>07.976.147/0001-60</span></td><td class='n'>22</td><td class='n'>R$ 29.636,73</td></tr><tr><td><a href='../empresa.html#cnpj=39272985000140'>TOF SERVICOS LTDA</a><br><span class='mono cat'>39.272.985/0001-40</span></td><td class='n'>13</td><td class='n'>R$ 25.115,00</td></tr><tr><td><a href='../empresa.html#cnpj=17642278000165'>VÍRGULA COMUNICAÇÃO LTDA.</a><br><span class='mono cat'>17.642.278/0001-65</span></td><td class='n'>1</td><td class='n'>R$ 20.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=47660971000121'>INFOARTE NATAL LTDA</a><br><span class='mono cat'>47.660.971/0001-21</span></td><td class='n'>1</td><td class='n'>R$ 19.922,14</td></tr><tr><td><a href='../empresa.html#cnpj=13347016000117'>FACEBOOK SERVICOS ONLINE DO BRASIL LTDA</a><br><span class='mono cat'>13.347.016/0001-17</span></td><td class='n'>4</td><td class='n'>R$ 19.788,95</td></tr><tr><td><a href='../empresa.html#cnpj=07976147019694'>MOVIDA LOCAÇÃO DE VEÍCULOS S.A.</a><br><span class='mono cat'>07.976.147/0196-94</span></td><td class='n'>8</td><td class='n'>R$ 16.819,68</td></tr><tr><td><a href='../empresa.html#cnpj=05842898000169'>J CLÁUDIO G DE PAIVA</a><br><span class='mono cat'>05.842.898/0001-69</span></td><td class='n'>1</td><td class='n'>R$ 16.800,00</td></tr><tr><td><a href='../empresa.html#cnpj=16870671000143'>ACL COMÉRCIO &amp; SERVIÇO LIMITADO</a><br><span class='mono cat'>16.870.671/0001-43</span></td><td class='n'>30</td><td class='n'>R$ 15.212,60</td></tr></table></div>
 </section>
 <section class="secao" id="notas">
-  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, tipo de gasto ou fornecedor.</p></div>
+  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, mês, tipo de gasto ou fornecedor.</p></div>
     <button type="button" class="botao secundario" id="sn-csv" hidden>Baixar planilha (CSV)</button></header>
   <div class="cartao">
     <div class="lista-topo">
       <div class="filtros sem-margem filtros-notas">
-        <label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+        <span class="periodo-duplo"><label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+          <label class="vh" for="sn-mes">Mês</label><select id="sn-mes" disabled><option value="">Escolha um ano</option></select></span>
         <label class="vh" for="sn-tipo">Tipo de gasto</label><select id="sn-tipo"><option value="">Todos os tipos</option><option value="3">Divulgação da atividade parlamentar</option><option value="4">Locomoção, hospedagem, alimentação e combustível</option><option value="0">Aluguel e despesas do escritório</option><option value="5">Passagens</option><option value="2">Consultorias e serviços de apoio</option><option value="1">Material de consumo e software</option></select>
         <label class="vh" for="sn-busca">Fornecedor</label><input id="sn-busca" type="search" placeholder="Fornecedor ou CNPJ" autocomplete="off">
       </div>
@@ -139,8 +140,8 @@
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Styvenson%20Valentim%20%28PODE/RN%29%20%C2%B7%20Senado%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/senador/5959.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
-  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a> · <a href="../sobre.html">Sobre</a></p>
+  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/senado.js?v=bade84b2" defer></script><script src="../assets/app.js?v=bade84b2" defer></script>
+<script src="../assets/senado.js?v=31f6bc17" defer></script><script src="../assets/app.js?v=31f6bc17" defer></script>
 </body>
 </html>

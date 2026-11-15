@@ -28,7 +28,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=bade84b2">
+<link rel="stylesheet" href="../assets/estilo.css?v=31f6bc17">
 </head>
 <body data-pagina="senador" data-raiz="../" data-versao="d80e6e7eda" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -93,12 +93,13 @@
   <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td><a href='../empresa.html#cnpj=45300922000152'>JFH MARKETING LTDA</a><br><span class='mono cat'>45.300.922/0001-52</span></td><td class='n'>79</td><td class='n'>R$ 302.142,12</td></tr><tr><td><a href='../empresa.html#cnpj=89176887000187'>NP IMOVEIS LTDA</a><br><span class='mono cat'>89.176.887/0001-87</span></td><td class='n'>91</td><td class='n'>R$ 289.338,31</td></tr><tr><td><a href='../empresa.html#cnpj=33049372000161'>DRIVE CONCEPT</a><br><span class='mono cat'>33.049.372/0001-61</span></td><td class='n'>84</td><td class='n'>R$ 170.675,83</td></tr><tr><td><a href='../empresa.html#cnpj=48992562000195'>OFFICE SOLUCOES</a><br><span class='mono cat'>48.992.562/0001-95</span></td><td class='n'>45</td><td class='n'>R$ 155.483,00</td></tr><tr><td><a href='../empresa.html#cnpj=04864533000172'>CHIOVATO PARTICIPAÇÕES LTDA</a><br><span class='mono cat'>04.864.533/0001-72</span></td><td class='n'>35</td><td class='n'>R$ 122.500,00</td></tr><tr><td><a href='../empresa.html#cnpj=08467115000100'>Companhia Estadual de Distribuição de Energia Elétrica</a><br><span class='mono cat'>08.467.115/0001-00</span></td><td class='n'>76</td><td class='n'>R$ 31.299,48</td></tr><tr><td><a href='../empresa.html#cnpj=92963560000160'>PREFEITURA DE PORTO ALEGRE</a><br><span class='mono cat'>92.963.560/0001-60</span></td><td class='n'>4</td><td class='n'>R$ 30.263,38</td></tr><tr><td><a href='../empresa.html#cnpj=36683163000163'>OOXZ DATA MARKETING LTDA</a><br><span class='mono cat'>36.683.163/0001-63</span></td><td class='n'>1</td><td class='n'>R$ 25.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=66520835000180'>ECBI BUSINESS INTELLIGENCE LTDA</a><br><span class='mono cat'>66.520.835/0001-80</span></td><td class='n'>6</td><td class='n'>R$ 24.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=31602730000196'>PARLANET WEB E TECNOLOGIA LTDA</a><br><span class='mono cat'>31.602.730/0001-96</span></td><td class='n'>12</td><td class='n'>R$ 24.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=81071623000408'>DEVILLE HOTEIS E TURISMO LTDA</a><br><span class='mono cat'>81.071.623/0004-08</span></td><td class='n'>22</td><td class='n'>R$ 15.620,75</td></tr><tr><td><a href='../empresa.html#cnpj=44634546000170'>EXPRESSAO BRASIL LTDA</a><br><span class='mono cat'>44.634.546/0001-70</span></td><td class='n'>1</td><td class='n'>R$ 14.000,00</td></tr></table></div>
 </section>
 <section class="secao" id="notas">
-  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, tipo de gasto ou fornecedor.</p></div>
+  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, mês, tipo de gasto ou fornecedor.</p></div>
     <button type="button" class="botao secundario" id="sn-csv" hidden>Baixar planilha (CSV)</button></header>
   <div class="cartao">
     <div class="lista-topo">
       <div class="filtros sem-margem filtros-notas">
-        <label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+        <span class="periodo-duplo"><label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+          <label class="vh" for="sn-mes">Mês</label><select id="sn-mes" disabled><option value="">Escolha um ano</option></select></span>
         <label class="vh" for="sn-tipo">Tipo de gasto</label><select id="sn-tipo"><option value="">Todos os tipos</option><option value="5">Passagens</option><option value="0">Aluguel e despesas do escritório</option><option value="2">Consultorias e serviços de apoio</option><option value="4">Locomoção, hospedagem, alimentação e combustível</option><option value="1">Material de consumo e software</option><option value="7">Não informada</option><option value="3">Divulgação da atividade parlamentar</option></select>
         <label class="vh" for="sn-busca">Fornecedor</label><input id="sn-busca" type="search" placeholder="Fornecedor ou CNPJ" autocomplete="off">
       </div>
@@ -139,8 +140,8 @@
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Hamilton%20Mour%C3%A3o%20%28REPUBLICANOS/RS%29%20%C2%B7%20Senado%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/senador/6341.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
-  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a> · <a href="../sobre.html">Sobre</a></p>
+  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/senado.js?v=bade84b2" defer></script><script src="../assets/app.js?v=bade84b2" defer></script>
+<script src="../assets/senado.js?v=31f6bc17" defer></script><script src="../assets/app.js?v=31f6bc17" defer></script>
 </body>
 </html>

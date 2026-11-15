@@ -28,7 +28,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../assets/estilo.css?v=bade84b2">
+<link rel="stylesheet" href="../assets/estilo.css?v=31f6bc17">
 </head>
 <body data-pagina="senador" data-raiz="../" data-versao="d80e6e7eda" data-alertas="0" data-equipe="0" data-presenca="0" data-empresas="1">
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -93,12 +93,13 @@
   <div class="cartao rolagem"><table class="ordenavel" data-ordem="2:descending"><tr><th>Fornecedor</th><th class="n">Notas</th><th class="n">Total</th></tr><tr><td><a href='../empresa.html#cnpj=12353201000151'>LOCAVIP - LOCADORA DE VEICULOS LTDA.</a><br><span class='mono cat'>12.353.201/0001-51</span></td><td class='n'>51</td><td class='n'>R$ 431.646,00</td></tr><tr><td>FABIANA RODRIGUES DA COSTA BARROS<br><span class='mono cat'>pessoa física</span></td><td class='n'>29</td><td class='n'>R$ 143.200,00</td></tr><tr><td><a href='../empresa.html#cnpj=23807760000100'>LEMOS E SILVA LTDA - EPP</a><br><span class='mono cat'>23.807.760/0001-00</span></td><td class='n'>43</td><td class='n'>R$ 84.600,00</td></tr><tr><td><a href='../empresa.html#cnpj=48886000000167'>REDE JOVEM NEWS LTDA.</a><br><span class='mono cat'>48.886.000/0001-67</span></td><td class='n'>28</td><td class='n'>R$ 84.000,00</td></tr><tr><td>ELIAS JOSÉ DOS SANTOS<br><span class='mono cat'>pessoa física</span></td><td class='n'>16</td><td class='n'>R$ 75.200,00</td></tr><tr><td><a href='../empresa.html#cnpj=40034598000154'>META COMUNICAÇÃO LTDA.</a><br><span class='mono cat'>40.034.598/0001-54</span></td><td class='n'>14</td><td class='n'>R$ 70.000,00</td></tr><tr><td><a href='../empresa.html#cnpj=25086034000171'>ENERGISA - Distribuidora de Energia S.A.</a><br><span class='mono cat'>25.086.034/0001-71</span></td><td class='n'>84</td><td class='n'>R$ 54.044,06</td></tr><tr><td><a href='../empresa.html#cnpj=25089509000183'>BRK Ambiental - Água e Esgoto</a><br><span class='mono cat'>25.089.509/0001-83</span></td><td class='n'>65</td><td class='n'>R$ 16.999,63</td></tr><tr><td><a href='../empresa.html#cnpj=37069853000190'>PLAZA BRASÍLA HOTEIS E TURIOSMO LTDA. MANHATTAN PLAZA</a><br><span class='mono cat'>37.069.853/0001-90</span></td><td class='n'>7</td><td class='n'>R$ 12.605,63</td></tr><tr><td><a href='../empresa.html#cnpj=10668863000195'>ABRITTA POSTOS DE SERVIÇOS LTDA.</a><br><span class='mono cat'>10.668.863/0001-95</span></td><td class='n'>43</td><td class='n'>R$ 11.833,84</td></tr><tr><td><a href='../empresa.html#cnpj=13347016000117'>FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA.</a><br><span class='mono cat'>13.347.016/0001-17</span></td><td class='n'>3</td><td class='n'>R$ 8.738,68</td></tr><tr><td><a href='../empresa.html#cnpj=66970229013650'>Claro NXT Telecomunicações S.A.</a><br><span class='mono cat'>66.970.229/0136-50</span></td><td class='n'>28</td><td class='n'>R$ 6.849,06</td></tr></table></div>
 </section>
 <section class="secao" id="notas">
-  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, tipo de gasto ou fornecedor.</p></div>
+  <header><div><h2>Todas as notas</h2><p>Cada reembolso com o link do documento no Senado. Filtre por ano, mês, tipo de gasto ou fornecedor.</p></div>
     <button type="button" class="botao secundario" id="sn-csv" hidden>Baixar planilha (CSV)</button></header>
   <div class="cartao">
     <div class="lista-topo">
       <div class="filtros sem-margem filtros-notas">
-        <label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+        <span class="periodo-duplo"><label class="vh" for="sn-ano">Ano</label><select id="sn-ano"><option value="">Todos os anos</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+          <label class="vh" for="sn-mes">Mês</label><select id="sn-mes" disabled><option value="">Escolha um ano</option></select></span>
         <label class="vh" for="sn-tipo">Tipo de gasto</label><select id="sn-tipo"><option value="">Todos os tipos</option><option value="4">Locomoção, hospedagem, alimentação e combustível</option><option value="0">Aluguel e despesas do escritório</option><option value="5">Passagens</option><option value="3">Divulgação da atividade parlamentar</option><option value="2">Consultorias e serviços de apoio</option><option value="7">Não informada</option></select>
         <label class="vh" for="sn-busca">Fornecedor</label><input id="sn-busca" type="search" placeholder="Fornecedor ou CNPJ" autocomplete="off">
       </div>
@@ -139,8 +140,8 @@
       <a href="mailto:hamscavalcante47@gmail.com">hamscavalcante47@gmail.com</a>.</p>
       <p><a class="seguir" href="mailto:hamscavalcante47@gmail.com?subject=Corre%C3%A7%C3%A3o%3A%20Eduardo%20Gomes%20%28PL/TO%29%20%C2%B7%20Senado%20%C2%B7%20De%20Olho%20na%20Cota&amp;body=P%C3%A1gina%3A%20https%3A//hamscavalcante47-lab.github.io/cidadania/senador/3777.html%0A%0AO%20que%20est%C3%A1%20errado%2C%20ou%20a%20explica%C3%A7%C3%A3o%20e%20os%20documentos%3A%0A%0A">Corrigir esta página</a></p></div>
   </div>
-  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html">Como funciona</a> · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a> · <a href="../sobre.html">Sobre</a></p>
+  <p class="rodape-base">Dados atualizados em 15/11/2026 · <a href="../metodologia.html#glossario">Glossário</a> · <a href="../acessibilidade.html">Acessibilidade</a></p>
 </div></footer>
-<script src="../assets/senado.js?v=bade84b2" defer></script><script src="../assets/app.js?v=bade84b2" defer></script>
+<script src="../assets/senado.js?v=31f6bc17" defer></script><script src="../assets/app.js?v=31f6bc17" defer></script>
 </body>
 </html>
