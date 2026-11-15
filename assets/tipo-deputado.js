@@ -1,5 +1,7 @@
 "use strict";
-// Um tipo de gasto de um deputado (gasto-deputado.html#d=<id>&t=<tipo>&a=<ano>): todas as notas do gabinete naquele
+// Um tipo de gasto de um deputado (gasto-deputado.html#d=<id>&t=<tipo>&a=<ano>) ou de um senador
+// (gasto-senador.html#s=<código>&t=<tipo>&a=<ano>, com dados/senadores.json, dados/sen/<código>.json e
+// dados/senado-tipos.json, que traz os nomes dos tipos em `s`): todas as notas do gabinete naquele
 // tipo, com o gasto e a quantidade de notas mês a mês, a maior nota de cada mês, os fornecedores e a posição do gabinete
 // entre os deputados que gastaram com o tipo. Lê os arquivos do perfil (dados/deputados.json, dados/resumo.json e
 // dados/dep/<id>.json) e o do tipo no ranking (dados/tipos/<índice>.json); não há arquivo próprio por deputado e tipo.
@@ -105,11 +107,11 @@ const TipoDep = (() => {
   }
 
   function desenhar(alvo, c, ctx) {
-    const { eu, resumo, dep, nomeTipo, slug, tiposDoGabinete, anos, temPagina } = ctx;
+    const { eu, resumo, dep, nomeTipo, slug, tiposDoGabinete, anos, temPagina, casa } = ctx;
     const meses = resumo.meses, f = i => dep.f[i] || ["", ""];
     // a nota de hotel lançada como refeição, confirmada na revisão (dep.ho: as linhas dela em dep.d)
     const hotel = new Set((dep.ho || []).map(i => dep.d[i]));
-    const endereco = (tipo, ano) => `#d=${eu.id}&t=${tipo}${ano ? `&a=${ano}` : ""}`;
+    const endereco = (tipo, ano) => `#${casa.chave}=${eu.id}&t=${tipo}${ano ? `&a=${ano}` : ""}`;
     const abasTipo = tiposDoGabinete.map(x => `<a href="${endereco(x.slug, c.ano)}"${x.t === c.t ? ' aria-current="true"' : ""}>${esc(x.nome)}</a>`).join("");
     const abasAno = [null, ...anos].map(a => `<a href="${endereco(slug, a)}"${a === c.ano ? ' aria-current="true"' : ""}>${a || "Todo o mandato"}</a>`).join("");
     const periodo = c.ano ? `em ${c.ano}` : "desde fevereiro de 2023";
@@ -122,7 +124,7 @@ const TipoDep = (() => {
       return;
     }
     const r = c.ranking;
-    const comparacao = r && r.posicao ? `<span class="comparacao${c.total > r.mediana ? " acima" : ""}">${r.posicao}º entre ${r.deputados.toLocaleString("pt-BR")} deputados</span>` : "";
+    const comparacao = r && r.posicao ? `<span class="comparacao${c.total > r.mediana ? " acima" : ""}">${r.posicao}º entre ${r.deputados.toLocaleString("pt-BR")} ${casa.varios}</span>` : "";
     const fatos = `<div class="cartao fatos"><dl>
       <div><dt>Reembolsado ${periodo}</dt><dd class="num">${brl(c.total)}</dd>${comparacao}</div>
       <div><dt>Notas</dt><dd class="num">${c.notas.toLocaleString("pt-BR")}</dd><span class="comparacao">em ${c.mesesComGasto} ${c.mesesComGasto === 1 ? "mês" : "meses"}</span></div>
@@ -132,10 +134,10 @@ const TipoDep = (() => {
     const frase = [`${esc(eu.n)} recebeu <b>${brl2(c.total)}</b> da cota com ${esc(nomeTipo.toLowerCase())} ${periodo}, em ${c.notas.toLocaleString("pt-BR")} ${c.notas === 1 ? "nota" : "notas"}`];
     if (c.mesMaior) frase.push(`O mês com mais gasto foi ${nomeMesLongo(c.mesMaior.mes)} (${brl2(c.mesMaior.v)})`);
     if (c.maiorNota) frase.push(`A maior nota foi de ${brl2(c.maiorNota[5])}, de ${esc(f(c.maiorNota[3])[0])}, em ${esc(c.maiorNota[1] || nomeMes(meses[c.maiorNota[0]]))}${hotel.has(c.maiorNota) ? " (a nota é de uma diária de hotel, não de refeição)" : ""}`);
-    if (r && r.posicao) frase.push(`Entre os ${r.deputados.toLocaleString("pt-BR")} deputados que tiveram reembolso neste tipo ${periodo}, é o ${r.posicao}º maior valor; o deputado do meio da lista recebeu ${brl(r.mediana)}`);
-    if (c.devolvido > 0) frase.push(`O gabinete devolveu ${brl2(c.devolvido)} à Câmara neste tipo`);
-    const linkNota = x => linkDaNota(eu.id, meses, x);
-    const verNota = x => { const u = linkNota(x); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener">ver nota<span class="vh"> (abre o site da Câmara)</span></a>` : "—"; };
+    if (r && r.posicao) frase.push(`Entre os ${r.deputados.toLocaleString("pt-BR")} ${casa.varios} que tiveram reembolso neste tipo ${periodo}, é o ${r.posicao}º maior valor; ${casa.doMeio} da lista recebeu ${brl(r.mediana)}`);
+    if (c.devolvido > 0) frase.push(`O gabinete devolveu ${brl2(c.devolvido)} ${casa.aCasa} neste tipo`);
+    const linkNota = x => casa.link(x);
+    const verNota = x => { const u = linkNota(x); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener">ver ${casa.documento}<span class="vh"> (abre o site ${casa.daCasa})</span></a>` : casa.semLink(x); };
     const valorNota = x => (x[9] ? `<span class="cat">devolução de</span> ${brl2(x[9])}` : brl2(x[5]) + (x[10] ? glosaHTML(...x[10]) : ""))
       + (hotel.has(x) ? `<span class="glosa">nota de hotel: diária, não refeição</span>` : "");
     const fornecedor = i => { const [nome, doc] = f(i); return `${esc(nome)}<br><span class="mono cat">${esc(doc)}</span>`; };
@@ -157,7 +159,7 @@ const TipoDep = (() => {
       <p class="em-resumo">${frase.join(". ")}.</p>
       ${fatos}
       <section class="secao cartao"><h3>Quanto foi gasto mês a mês</h3>
-        <p class="sub">O valor reembolsado em cada mês, pelo mês da despesa na Câmara. Clique num mês para ver as notas dele.</p>
+        <p class="sub">O valor reembolsado em cada mês, pelo mês da despesa ${casa.naCasa}. Clique num mês para ver as notas dele.</p>
         <div class="grafico" id="gd-valores"></div></section>
       <section class="secao cartao"><h3>Quantas notas por mês</h3>
         <p class="sub">Cada coluna é um mês; a altura é o número de notas do tipo.${c.parciais ? " Os últimos meses ainda recebem notas." : ""}</p>
@@ -185,10 +187,10 @@ const TipoDep = (() => {
         </div>
       </section>
       <section class="secao retro-fecho">
-        <p class="acoes-citar"><a class="botao" href="deputado/${eu.id}.html#despesas">Ver o perfil completo</a>
+        <p class="acoes-citar"><a class="botao" href="${casa.perfil}">${casa.verPerfil}</a>
           ${temPagina ? `<a class="botao secundario" href="gastos/${slug}.html">${esc(nomeTipo)} em todos os gabinetes</a>` : ""}
           <button type="button" class="botao secundario" data-compartilhar="${esc(textoCompartilhar)}" data-url="${esc(location.href)}" data-rotulo="Compartilhar o link">Compartilhar o link</button></p>
-        <p class="nota-tabela">O tipo de gasto é o que o gabinete declarou à Câmara, e o mês é o da despesa na Câmara (a nota pode ser de alguns dias antes). Os números
+        <p class="nota-tabela">O tipo de gasto é o que o gabinete declarou ${casa.aCasa}, e o mês é o da despesa ${casa.naCasa} (a nota pode ser de alguns dias antes). Os números
           descrevem o gasto declarado; sozinhos, não dizem se um gasto foi regular.</p>
       </section>`;
 
@@ -234,47 +236,91 @@ const TipoDep = (() => {
     graficoColunas($("#gd-quantidade"), c.meses, c.quantidade, { parciais: c.parciais, aoClicar: k => verMes(c.meses[k]) });
   }
 
-  async function iniciar() {
+  // as notas de um senador (dados/sen/<código>.json: [ano, data, tipo, fornecedor, número, valor, número do PDF, mês])
+  // no formato das linhas do deputado, com o índice do mês em `meses` (resumo.meses_senado). O arquivo antigo, sem o
+  // mês, usa o da data do documento. A linha fora da janela fica de fora
+  function doSenado(dados, meses) {
+    const pos = new Map(meses.map((m, i) => [m, i]));
+    const d = [];
+    for (const n of dados.d) {
+      const mes = n[7] || +String(n[1]).slice(3, 5);
+      const i = pos.get(n[0] * 100 + mes);
+      if (i === undefined) continue;
+      d.push([i, n[1], n[2], n[3], n[4], n[5], n[6]]);
+    }
+    return { f: dados.f, d, u: dados.u };
+  }
+
+  // o que muda entre as casas: os arquivos, as palavras e o link do documento
+  const CASAS = {
+    d: { chave: "d", varios: "deputados", doMeio: "o deputado do meio", aCasa: "à Câmara", daCasa: "da Câmara",
+      naCasa: "na Câmara", documento: "nota", verPerfil: "Ver o perfil completo" },
+    s: { chave: "s", varios: "senadores", doMeio: "o senador do meio", aCasa: "ao Senado", daCasa: "do Senado",
+      naCasa: "no Senado", documento: "documento", verPerfil: "Ver a página do senador" },
+  };
+
+  // `chave`: "d" (gasto-deputado.html, #d=<id>) ou "s" (gasto-senador.html, #s=<código>)
+  async function iniciar(chave = "d") {
+    const sen = chave === "s", casa = { ...CASAS[chave] };
     const alvo = $("#gd"), vazio = $("#gd-vazio");
-    const [deputados, resumo] = await Promise.all([json("dados/deputados.json"), json("dados/resumo.json")]);
-    const anos = [...new Set(resumo.meses.map(m => Math.floor(m / 100)))];
-    const slugs = resumo.slugs || [];
+    const [lista, resumo, tiposSen] = await Promise.all([json(sen ? "dados/senadores.json" : "dados/deputados.json"),
+      json("dados/resumo.json"), sen ? json("dados/senado-tipos.json") : null]);
+    const gabinetes = sen ? lista.map(s => ({ id: s.c, n: s.n, p: s.p, uf: s.uf })) : lista;
+    const meses = sen ? (resumo.meses_senado || resumo.meses) : resumo.meses;
+    // as contas leem `meses` e `categorias` daqui: no Senado, os meses e os 7 tipos dele
+    const base = sen ? { meses, parciais: resumo.parciais, categorias: tiposSen.t } : resumo;
+    const anos = [...new Set(meses.map(m => Math.floor(m / 100)))];
+    const slugs = (sen ? tiposSen.s : resumo.slugs) || [];
     let pedido = 0;
     async function abrir() {
       const h = new URLSearchParams(location.hash.slice(1));
-      const id = +h.get("d"), eu = deputados.find(d => d.id === id);
+      const id = +h.get(chave), eu = gabinetes.find(d => d.id === id);
       const t = slugs.indexOf(h.get("t"));
       if (!eu || t < 0) { alvo.hidden = true; vazio.hidden = false; return; }
       const ano = anos.includes(+h.get("a")) ? +h.get("a") : null;
       const meu = ++pedido;
       vazio.hidden = true; alvo.hidden = false;
-      const nomeTipo = resumo.categorias[t];
+      const nomeTipo = base.categorias[t];
+      const pagina = sen ? `senador/${id}.html` : `deputado/${id}.html`;
       $("#gd-titulo").textContent = nomeTipo;
       $("#gd-trilha").textContent = nomeTipo;
       const perfil = $("#gd-perfil");
-      perfil.textContent = eu.n; perfil.href = `deputado/${eu.id}.html`;
+      perfil.textContent = eu.n; perfil.href = pagina;
       $("#gd-lead").innerHTML = `${esc(eu.n)} · ${esc(eu.p)} · ${esc(NOMES_UF[eu.uf] || eu.uf)}. Todas as notas do gabinete neste tipo de gasto, mês a mês.`;
       alvo.innerHTML = `<p class="resumo">Carregando as despesas de ${esc(eu.n)}…</p>`;
       try {
-        const [dep, serie] = await Promise.all([json(`dados/dep/${id}.json`), json(`dados/tipos/${t}.json`).catch(() => null)]);
+        let dep, serie;
+        if (sen) {
+          dep = doSenado(await json(`dados/sen/${id}.json`), meses);
+          // a série do tipo de cada senador, para a posição entre eles
+          serie = Object.fromEntries(Object.entries(tiposSen.v).map(([c, tipos]) => [c, tipos[t] || []]));
+          casa.link = x => x[6] ? dep.u + x[6] : null;
+          casa.semLink = x => x[6] === 0 ? `<span class="cat" title="O link existe, mas o Senado responde vazio">arquivo não publicado</span>` : "—";
+          casa.perfil = `${pagina}#notas`;
+        } else {
+          [dep, serie] = await Promise.all([json(`dados/dep/${id}.json`), json(`dados/tipos/${t}.json`).catch(() => null)]);
+          casa.link = x => linkDaNota(id, meses, x);
+          casa.semLink = () => "—";
+          casa.perfil = `${pagina}#despesas`;
+        }
         if (meu !== pedido) return;
-        // os tipos em que o gabinete teve reembolso, do maior para o menor, para trocar de tipo sem voltar ao perfil
+        // os tipos em que o gabinete teve reembolso, do maior para o menor, para trocar de tipo sem voltar à página dele
         const somaTipo = new Map();
         dep.d.forEach(r => somaTipo.set(r[2], (somaTipo.get(r[2]) || 0) + r[5]));
         const tiposDoGabinete = [...somaTipo].filter(([i, v]) => v > 0 && slugs[i]).sort((a, b) => b[1] - a[1])
-          .map(([i]) => ({ t: i, slug: slugs[i], nome: resumo.categorias[i] }));
-        desenhar(alvo, calcular(dep, resumo, id, t, ano, serie),
-          { eu, resumo, dep, nomeTipo, slug: slugs[t], tiposDoGabinete, anos, temPagina: !!slugs[t] });
+          .map(([i]) => ({ t: i, slug: slugs[i], nome: base.categorias[i] }));
+        desenhar(alvo, calcular(dep, base, id, t, ano, serie),
+          { eu, resumo: base, dep, nomeTipo, slug: slugs[t], tiposDoGabinete, anos, temPagina: !sen && !!slugs[t], casa });
         document.title = `${nomeTipo}: ${eu.n} (${eu.p}/${eu.uf})${ano ? ` em ${ano}` : ""} · De Olho na Cota`;
       } catch (erro) {
         console.error(erro);
-        alvo.innerHTML = `<p class="aviso">Não foi possível abrir as despesas agora. Elas também estão no <a href="deputado/${id}.html#despesas">perfil do deputado</a>.</p>`;
+        alvo.innerHTML = `<p class="aviso">Não foi possível abrir as despesas agora. Elas também estão na <a href="${pagina}">página do gabinete</a>.</p>`;
       }
     }
     addEventListener("hashchange", () => { abrir().then(() => scrollTo({ top: 0, behavior: SEM_MOVIMENTO ? "auto" : "smooth" })); });
     abrir();
   }
 
-  return { iniciar, calcular, linkDaNota };
+  return { iniciar, calcular, linkDaNota, doSenado };
 })();
 if (typeof module !== "undefined") module.exports = TipoDep;

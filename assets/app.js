@@ -2415,7 +2415,7 @@ async function iniciarEmpresa() {
   // o ano de cada gabinete vem do retrospectiva.js, que só essas páginas carregam
   retrospectiva: () => Retro.iniciar(), "retrospectiva-senadores": () => Retro.iniciar("s"),
   // um tipo de gasto de um deputado vem do tipo-deputado.js, que só gasto-deputado.html carrega
-  "gasto-deputado": () => TipoDep.iniciar(),
+  "gasto-deputado": () => TipoDep.iniciar(), "gasto-senador": () => TipoDep.iniciar("s"),
   // as subabas do Senado usam as mesmas telas dos deputados; a página do senador vem do senado.js, que só ela carrega
   senadores: () => iniciarRanking("s"), "comparar-senadores": () => iniciarComparar("s"),
   senador: () => Senado.iniciarSenador() })[document.body.dataset.pagina]?.();

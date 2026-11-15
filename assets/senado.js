@@ -2,7 +2,7 @@
 // Página de cada senador (senador/<código>.html): a lista das notas, lida de dados/sen/<código>.json. Carregado só
 // nela, antes do app.js, que chama Senado.iniciarSenador; usa os utilitários do app.js (esc, brl2, json, $). O ranking
 // dos senadores, Comparar e O ano de cada gabinete usam as telas dos deputados (app.js e retrospectiva.js).
-// Os dados de cada nota (d): [ano, data, tipo, fornecedor, número do documento, valor, número do PDF]. O número do PDF
+// Os dados de cada nota (d): [ano, data, tipo, fornecedor, número do documento, valor, número do PDF, mês]. O número do PDF
 // é null quando a despesa não tem link e 0 quando o link existe mas o Senado não publicou o arquivo.
 (function (exportar) {
 
